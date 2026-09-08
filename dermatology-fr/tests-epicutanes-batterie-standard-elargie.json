@@ -4,6 +4,7 @@
   "sections": [
     {
       "section": "Main",
+      "compact": true,
       "fields": [
         {
           "clazz": "field",
@@ -24,7 +25,7 @@
           "translate": true,
           "labels": {
             "left": "1: Potassium dichromate 0,5%",
-						"top": "48 H"
+            "top": "48 H"
           }
         },
         {
@@ -45,8 +46,8 @@
           "multiline": false,
           "translate": true,
           "labels": {
-						"top": "72 H"
-					}
+            "top": "72 H"
+          }
         },
         {
           "clazz": "field",
@@ -66,8 +67,8 @@
           "multiline": false,
           "translate": true,
           "labels": {
-						"top": "96 H"
-					}
+            "top": "96 H"
+          }
         },
         {
           "clazz": "field",
@@ -80,8 +81,8 @@
           "multiline": false,
           "translate": true,
           "labels": {
-						"top": "Commentaire"
-					}
+            "top": "Commentaire"
+          }
         },
         {
           "clazz": "field",
@@ -3431,6 +3432,7 @@
               "sections": [
                 {
                   "section": "Main",
+                  "compact": true,
                   "fields": [
                     {
                       "clazz": "field",

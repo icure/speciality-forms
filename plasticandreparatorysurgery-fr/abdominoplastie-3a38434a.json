@@ -4,6 +4,7 @@
   "sections": [
     {
       "section": "Main",
+      "compact": true,
       "fields": [
         {
           "clazz": "group",
@@ -76,6 +77,7 @@
                   "sections": [
                     {
                       "section": "Main",
+                      "compact": true,
                       "fields": [
                         {
                           "clazz": "field",
@@ -168,6 +170,7 @@
                   "sections": [
                     {
                       "section": "Main",
+                      "compact": true,
                       "fields": [
                         {
                           "clazz": "field",
@@ -303,6 +306,7 @@
                   "sections": [
                     {
                       "section": "Main",
+                      "compact": true,
                       "fields": [
                         {
                           "clazz": "field",
@@ -331,6 +335,7 @@
                               "sections": [
                                 {
                                   "section": "Main",
+                                  "compact": true,
                                   "fields": [
                                     {
                                       "clazz": "field",
@@ -395,6 +400,7 @@
                               "sections": [
                                 {
                                   "section": "Main",
+                                  "compact": true,
                                   "fields": [
                                     {
                                       "clazz": "field",
@@ -477,6 +483,7 @@
                   "sections": [
                     {
                       "section": "Main",
+                      "compact": true,
                       "fields": [
                         {
                           "clazz": "field",

@@ -4,6 +4,7 @@
   "sections": [
     {
       "section": "Main",
+      "compact": true,
       "fields": [
         {
           "clazz": "field",
@@ -11,7 +12,7 @@
           "type": "checkbox",
           "shortLabel": "VS",
           "grows": true,
-          "span": 1,
+          "span": 4,
           "readonly": false,
           "options": {
             "VS": "VS"
@@ -25,7 +26,7 @@
           "type": "checkbox",
           "shortLabel": "Fibrinogène",
           "grows": true,
-          "span": 5,
+          "span": 4,
           "readonly": false,
           "options": {
             "Fibrinogène": "Fibrinogène"
@@ -39,7 +40,7 @@
           "type": "checkbox",
           "shortLabel": "RA test",
           "grows": true,
-          "span": 6,
+          "span": 4,
           "readonly": false,
           "options": {
             "RA test": "RA test"
@@ -81,7 +82,7 @@
           "type": "checkbox",
           "shortLabel": "CRP",
           "grows": true,
-          "span": 1,
+          "span": 4,
           "readonly": false,
           "options": {
             "CRP": "CRP"
@@ -95,7 +96,7 @@
           "type": "checkbox",
           "shortLabel": "ASLO",
           "grows": true,
-          "span": 5,
+          "span": 4,
           "readonly": false,
           "options": {
             "ASLO": "ASLO"
@@ -109,7 +110,7 @@
           "type": "checkbox",
           "shortLabel": "Waaler-Rose",
           "grows": true,
-          "span": 12,
+          "span": 10,
           "readonly": false,
           "options": {
             "Waaler-Rose": "Waaler-Rose"

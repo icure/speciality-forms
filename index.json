@@ -1,69 +1,5 @@
 {
-  "algology-fr": [
-    {
-      "file": "certificat-d-interruption-d-activite.json",
-      "id": "FFFFFFFF-FFFF-FFFF-FFFF-INCAPACITY00",
-      "title": "Médecine générale/Certificat d'interruption d'activité",
-      "embeds": []
-    },
-    {
-      "file": "consultation-bis.json",
-      "id": "62CA42D8-BC89-4A4F-B1CD-99645A8F77C7",
-      "title": "Médecine générale/Consultation bis",
-      "embeds": []
-    },
-    {
-      "file": "consultation.json",
-      "id": "FFFFFFFF-FFFF-FFFF-FFFF-CONSULTATION",
-      "title": "Médecine générale/Consultation",
-      "embeds": [
-        "FFFFFFFF-FFFF-FFFF-FFFF-INCAPACITY00",
-        "AEFED10A-9A72-4B40-981B-1D79ADB05516",
-        "64DAB551-B007-4B5C-BD64-F886301F5326",
-        "0AAC53CF-793F-45D2-ACA9-E0B79E1A1376",
-        "B4F2B274-10FF-4018-BC48-3ED3CADCED57",
-        "94484700-EE5D-43E2-8001-1FA02B7D6C00"
-      ]
-    },
-    {
-      "file": "dossier-medical.json",
-      "id": "FFFFFFFF-FFFF-FFFF-FFFF-DOSSMED00000",
-      "title": "Médecine générale/Dossier Médical",
-      "embeds": []
-    },
-    {
-      "file": "ordonnance.json",
-      "id": "FFFFFFFF-FFFF-FFFF-FFFF-PRESCRIPTION",
-      "title": "Médecine générale/Ordonnance",
-      "embeds": []
-    },
-    {
-      "file": "protocol.json",
-      "id": "FFFFFFFF-FFFF-FFFF-FFFF-PROTOCOL0000",
-      "title": "General/Protocol",
-      "embeds": []
-    }
-  ],
   "cardiology-fr": [
-    {
-      "file": "certificat-d-interruption-d-activite.json",
-      "id": "FFFFFFFF-FFFF-FFFF-FFFF-INCAPACITY00",
-      "title": "Cardiologie/Certificat d'interruption d'activité",
-      "embeds": []
-    },
-    {
-      "file": "consultation-test.json",
-      "id": "4CD84248-8FEC-43E1-BBB7-E13DB4F8E4D7",
-      "title": "General/Consultation test",
-      "embeds": [
-        "2F5B2B8E-55B5-4943-9B6F-615FC4D575FB",
-        "4EAB335B-08E2-4302-922F-04A8E4108887",
-        "CFFA071C-D1DE-494B-8336-36F4B354F09F",
-        "C23089AB-F95D-4EA4-91B2-A1F4AFD60D2C",
-        "AF07A40D-BAD9-4C4A-B46E-7E65C59F05A0",
-        "C8AD0A48-AC9D-4F29-B5EB-27542C88BBC5"
-      ]
-    },
     {
       "file": "consultation.json",
       "id": "FFFFFFFF-FFFF-FFFF-FFFF-CONSULTATION",
@@ -141,18 +77,6 @@
       "embeds": []
     },
     {
-      "file": "ordonnance.json",
-      "id": "FFFFFFFF-FFFF-FFFF-FFFF-PRESCRIPTION",
-      "title": "Cardiologie/Ordonnance",
-      "embeds": []
-    },
-    {
-      "file": "protocol.json",
-      "id": "FFFFFFFF-FFFF-FFFF-FFFF-PROTOCOL0000",
-      "title": "General/Protocol",
-      "embeds": []
-    },
-    {
       "file": "test-d-effort.json",
       "id": "CFFA071C-D1DE-494B-8336-36F4B354F09F",
       "title": "Cardiologie/Test d'effort",
@@ -214,6 +138,12 @@
       "file": "certificat-d-interruption-d-activite-e0e1ab80.json",
       "id": "6F6560A2-4E4E-4F29-BC5A-C8B2E0E1AB80",
       "title": "Médecine générale/Certificat d'interruption d'activité",
+      "embeds": []
+    },
+    {
+      "file": "certificat-d-interruption-d-activite.json",
+      "id": "FFFFFFFF-FFFF-FFFF-FFFF-INCAPACITY00",
+      "title": "Cardiologie/Certificat d'interruption d'activité",
       "embeds": []
     },
     {
@@ -887,12 +817,6 @@
       ]
     },
     {
-      "file": "protocol.json",
-      "id": "BDA6A45D-507E-4F91-AC35-0F17EBF429CA",
-      "title": "General/Protocol",
-      "embeds": []
-    },
-    {
       "file": "raadpleging.json",
       "id": "FFFFFFFF-FFFF-FFFF-FFFF-CONSULTATION",
       "title": "Dermatologie/Raadpleging",
@@ -947,14 +871,6 @@
       "embeds": [
         "9C07ECDA-FBBD-4014-BCFD-389E62931723"
       ]
-    }
-  ],
-  "dietetics-fr": [
-    {
-      "file": "protocol-ocol0000.json",
-      "id": "FFFFFFFF-FFFF-FFFF-FFFF-PROTOCOL0000",
-      "title": "General/Protocol",
-      "embeds": []
     }
   ],
   "gastroenterology-fr": [
@@ -1018,18 +934,6 @@
       "file": "oeso-gastro-duodenoscopie.json",
       "id": "BB83AD17-2615-4611-B951-30D77A698793",
       "title": "Examens gastro/Oeso-gastro-duodénoscopie",
-      "embeds": []
-    },
-    {
-      "file": "ordonnance.json",
-      "id": "FFFFFFFF-FFFF-FFFF-FFFF-PRESCRIPTION",
-      "title": "Gastroentérologie/Ordonnance",
-      "embeds": []
-    },
-    {
-      "file": "protocol.json",
-      "id": "FFFFFFFF-FFFF-FFFF-FFFF-PROTOCOL0000",
-      "title": "General/Protocol",
       "embeds": []
     }
   ],
@@ -2302,18 +2206,6 @@
       "id": "FFFFFFFF-FFFF-FFFF-FFFF-DOSSMED00000",
       "title": "Ophtalmologie/Historique Médical",
       "embeds": []
-    },
-    {
-      "file": "ordonnance.json",
-      "id": "0E8E638B-805E-4B8C-B233-6BC45BF477BE",
-      "title": "Médecine générale/Ordonnance",
-      "embeds": []
-    },
-    {
-      "file": "protocol.json",
-      "id": "FFFFFFFF-FFFF-FFFF-FFFF-PROTOCOL0000",
-      "title": "General/Protocol",
-      "embeds": []
     }
   ],
   "orthopedy-fr": [
@@ -2388,12 +2280,6 @@
       "embeds": []
     },
     {
-      "file": "ordonnance.json",
-      "id": "FFFFFFFF-FFFF-FFFF-FFFF-PRESCRIPTION",
-      "title": "Médecine générale/Ordonnance",
-      "embeds": []
-    },
-    {
       "file": "pied.json",
       "id": "5231FAD6-5E81-46D4-963E-5CFD0CAB8E3F",
       "title": "Orthopédie/Pied",
@@ -2409,12 +2295,6 @@
       "file": "pre-op-pth.json",
       "id": "CE624C2F-3A45-42E8-A83C-1E5AC10D598A",
       "title": "Orthopédie/Pré-op PTH",
-      "embeds": []
-    },
-    {
-      "file": "protocol.json",
-      "id": "FFFFFFFF-FFFF-FFFF-FFFF-PROTOCOL0000",
-      "title": "General/Protocol",
       "embeds": []
     },
     {
@@ -2483,21 +2363,9 @@
       "embeds": []
     },
     {
-      "file": "ordonnance.json",
-      "id": "FFFFFFFF-FFFF-FFFF-FFFF-PRESCRIPTION",
-      "title": "Médecine générale/Ordonnance",
-      "embeds": []
-    },
-    {
       "file": "pied.json",
       "id": "5231FAD6-5E81-46D4-963E-5CFD0CAB8E3F",
       "title": "Orthopédie FR/Pied",
-      "embeds": []
-    },
-    {
-      "file": "protocol.json",
-      "id": "FFFFFFFF-FFFF-FFFF-FFFF-PROTOCOL0000",
-      "title": "General/Protocol",
       "embeds": []
     },
     {
@@ -2551,12 +2419,6 @@
       "embeds": [
         "5E2B23A4-EC56-457D-BC7E-0EFEF224E525"
       ]
-    },
-    {
-      "file": "ordonnance.json",
-      "id": "FFFFFFFF-FFFF-FFFF-FFFF-PRESCRIPTION",
-      "title": "Médecine générale/Ordonnance",
-      "embeds": []
     },
     {
       "file": "tests-allergiques-cutanes.json",
@@ -2734,21 +2596,9 @@
       "embeds": []
     },
     {
-      "file": "ordonnance.json",
-      "id": "FFFFFFFF-FFFF-FFFF-FFFF-PRESCRIPTION",
-      "title": "Médecine générale/Ordonnance",
-      "embeds": []
-    },
-    {
       "file": "prescription-de-kine.json",
       "id": "AEFED10A-9A72-4B40-981B-1D79ADB05516",
       "title": "Sous-formulaires/Prescription de kiné",
-      "embeds": []
-    },
-    {
-      "file": "protocol.json",
-      "id": "FFFFFFFF-FFFF-FFFF-FFFF-PROTOCOL0000",
-      "title": "General/Protocol",
       "embeds": []
     },
     {
@@ -2874,18 +2724,6 @@
       "id": "c976c314-b3d4-9c15-51fa-d7108b76c5bf",
       "title": "Protocoles de soin/GMD Plus",
       "embeds": []
-    },
-    {
-      "file": "ordonnance.json",
-      "id": "FFFFFFFF-FFFF-FFFF-FFFF-PRESCRIPTION",
-      "title": "Médecine générale/Ordonnance",
-      "embeds": []
-    },
-    {
-      "file": "protocol.json",
-      "id": "FFFFFFFF-FFFF-FFFF-FFFF-PROTOCOL0000",
-      "title": "General/Protocol",
-      "embeds": []
     }
   ],
   "persphysician-nl": [
@@ -2924,18 +2762,6 @@
       "file": "medisch-dossier.json",
       "id": "FFFFFFFF-FFFF-FFFF-FFFF-DOSSMED00000",
       "title": "Huisarts/Medisch Dossier",
-      "embeds": []
-    },
-    {
-      "file": "protocol.json",
-      "id": "FFFFFFFF-FFFF-FFFF-FFFF-PROTOCOL0000",
-      "title": "Algemeen/Protocol",
-      "embeds": []
-    },
-    {
-      "file": "voorschrift.json",
-      "id": "FFFFFFFF-FFFF-FFFF-FFFF-PRESCRIPTION",
-      "title": "Huisarts/Voorschrift",
       "embeds": []
     }
   ],
@@ -3411,12 +3237,6 @@
       "embeds": []
     },
     {
-      "file": "protocol.json",
-      "id": "FFFFFFFF-FFFF-FFFF-FFFF-PROTOCOL0000",
-      "title": "General/Protocol",
-      "embeds": []
-    },
-    {
       "file": "protocole-anesthesie.json",
       "id": "9F4A7BDB-680D-4DB9-BAFB-F5BDFA99990F",
       "title": "anesthésie/Protocole anesthésie",
@@ -3557,40 +3377,6 @@
         "5E430C5F-BCE8-4B0E-8C06-84F006CC953E",
         "216AF9D2-4622-4DC4-A6AD-4E5124AEDD15"
       ]
-    }
-  ],
-  "psychiatry-fr": [
-    {
-      "file": "certificat-d-interruption-d-activite.json",
-      "id": "FFFFFFFF-FFFF-FFFF-FFFF-INCAPACITY00",
-      "title": "Médecine générale/Certificat d'interruption d'activité",
-      "embeds": []
-    },
-    {
-      "file": "consultation.json",
-      "id": "FFFFFFFF-FFFF-FFFF-FFFF-CONSULTATION",
-      "title": "Médecine générale/Consultation",
-      "embeds": [
-        "FFFFFFFF-FFFF-FFFF-FFFF-INCAPACITY00"
-      ]
-    },
-    {
-      "file": "dossier-medical.json",
-      "id": "FFFFFFFF-FFFF-FFFF-FFFF-DOSSMED00000",
-      "title": "Médecine générale/Dossier Médical",
-      "embeds": []
-    },
-    {
-      "file": "ordonnance.json",
-      "id": "FFFFFFFF-FFFF-FFFF-FFFF-PRESCRIPTION",
-      "title": "Médecine générale/Ordonnance",
-      "embeds": []
-    },
-    {
-      "file": "protocol.json",
-      "id": "FFFFFFFF-FFFF-FFFF-FFFF-PROTOCOL0000",
-      "title": "General/Protocol",
-      "embeds": []
     }
   ],
   "senology-fr": [

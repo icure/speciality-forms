@@ -4,6 +4,7 @@
   "sections": [
     {
       "section": "Main",
+      "compact": true,
       "fields": [
         {
           "clazz": "group",
@@ -2451,7 +2452,7 @@
               "type": "checkbox",
               "shortLabel": "Barbituriques",
               "grows": true,
-              "span": 1,
+              "span": 4,
               "readonly": false,
               "options": {
                 "Barbituriques": "Barbituriques"
@@ -2465,7 +2466,7 @@
               "type": "checkbox",
               "shortLabel": "Lithium",
               "grows": true,
-              "span": 8,
+              "span": 5,
               "readonly": false,
               "options": {
                 "Lithium": "Lithium"
@@ -2493,7 +2494,7 @@
               "type": "checkbox",
               "shortLabel": "Benzodiazépines",
               "grows": true,
-              "span": 1,
+              "span": 4,
               "readonly": false,
               "options": {
                 "Benzodiazépines": "Benzodiazépines"
@@ -2507,7 +2508,7 @@
               "type": "text-field",
               "shortLabel": "Autres",
               "grows": true,
-              "span": 8,
+              "span": 5,
               "readonly": false,
               "multiline": false,
               "translate": true
@@ -4187,7 +4188,7 @@
               "type": "checkbox",
               "shortLabel": "AB frottis gorge",
               "grows": true,
-              "span": 1,
+              "span": 4,
               "readonly": false,
               "options": {
                 "AB frottis gorge": "AB frottis gorge"
@@ -4201,7 +4202,7 @@
               "type": "token-field",
               "shortLabel": "Origine",
               "grows": true,
-              "span": 8,
+              "span": 5,
               "readonly": false,
               "multiline": false,
               "translate": true
@@ -4226,7 +4227,7 @@
               "type": "checkbox",
               "shortLabel": "Culture mycose",
               "grows": true,
-              "span": 1,
+              "span": 4,
               "readonly": false,
               "options": {
                 "Culture mycose": "Culture mycose"
@@ -4240,7 +4241,7 @@
               "type": "checkbox",
               "shortLabel": "HSV IgM (4,5€)",
               "grows": true,
-              "span": 23,
+              "span": 20,
               "readonly": false,
               "options": {
                 "HSV IgM (4,5€)": "HSV IgM (4,5€)"
@@ -4268,7 +4269,7 @@
               "type": "checkbox",
               "shortLabel": "Recherce MRSA",
               "grows": true,
-              "span": 1,
+              "span": 4,
               "readonly": false,
               "options": {
                 "Recherce MRSA": "Recherce MRSA"
@@ -4282,7 +4283,7 @@
               "type": "checkbox",
               "shortLabel": "HSV IgG (4,5€)",
               "grows": true,
-              "span": 12,
+              "span": 9,
               "readonly": false,
               "options": {
                 "HSV IgG (4,5€)": "HSV IgG (4,5€)"

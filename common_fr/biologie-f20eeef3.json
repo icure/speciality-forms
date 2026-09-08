@@ -4,6 +4,7 @@
   "sections": [
     {
       "section": "Main",
+      "compact": true,
       "fields": [
         {
           "clazz": "field",
@@ -66,6 +67,7 @@
               "sections": [
                 {
                   "section": "Main",
+                  "compact": true,
                   "fields": [
                     {
                       "clazz": "field",
@@ -287,6 +289,7 @@
               "sections": [
                 {
                   "section": "Main",
+                  "compact": true,
                   "fields": [
                     {
                       "clazz": "field",
@@ -592,6 +595,7 @@
               "sections": [
                 {
                   "section": "Main",
+                  "compact": true,
                   "fields": [
                     {
                       "clazz": "field",
@@ -599,7 +603,7 @@
                       "type": "checkbox",
                       "shortLabel": "VS",
                       "grows": true,
-                      "span": 1,
+                      "span": 4,
                       "readonly": false,
                       "options": {
                         "VS": "VS"
@@ -613,7 +617,7 @@
                       "type": "checkbox",
                       "shortLabel": "Fibrinogène",
                       "grows": true,
-                      "span": 5,
+                      "span": 4,
                       "readonly": false,
                       "options": {
                         "Fibrinogène": "Fibrinogène"
@@ -627,7 +631,7 @@
                       "type": "checkbox",
                       "shortLabel": "RA test",
                       "grows": true,
-                      "span": 6,
+                      "span": 4,
                       "readonly": false,
                       "options": {
                         "RA test": "RA test"
@@ -669,7 +673,7 @@
                       "type": "checkbox",
                       "shortLabel": "CRP",
                       "grows": true,
-                      "span": 1,
+                      "span": 4,
                       "readonly": false,
                       "options": {
                         "CRP": "CRP"
@@ -683,7 +687,7 @@
                       "type": "checkbox",
                       "shortLabel": "ASLO",
                       "grows": true,
-                      "span": 5,
+                      "span": 4,
                       "readonly": false,
                       "options": {
                         "ASLO": "ASLO"
@@ -697,7 +701,7 @@
                       "type": "checkbox",
                       "shortLabel": "Waaler-Rose",
                       "grows": true,
-                      "span": 12,
+                      "span": 10,
                       "readonly": false,
                       "options": {
                         "Waaler-Rose": "Waaler-Rose"
@@ -729,6 +733,7 @@
               "sections": [
                 {
                   "section": "Main",
+                  "compact": true,
                   "fields": [
                     {
                       "clazz": "field",
@@ -1552,6 +1557,7 @@
               "sections": [
                 {
                   "section": "Main",
+                  "compact": true,
                   "fields": [
                     {
                       "clazz": "field",
@@ -1619,6 +1625,7 @@
               "sections": [
                 {
                   "section": "Main",
+                  "compact": true,
                   "fields": [
                     {
                       "clazz": "group",
@@ -2224,6 +2231,7 @@
               "sections": [
                 {
                   "section": "Main",
+                  "compact": true,
                   "fields": [
                     {
                       "clazz": "field",
@@ -2501,6 +2509,7 @@
               "sections": [
                 {
                   "section": "Main",
+                  "compact": true,
                   "fields": [
                     {
                       "clazz": "field",
@@ -2508,7 +2517,7 @@
                       "type": "checkbox",
                       "shortLabel": "PSA (50 ans et +)",
                       "grows": true,
-                      "span": 1,
+                      "span": 4,
                       "readonly": false,
                       "options": {
                         "PSA (50 ans et +)": "PSA (50 ans et +)"
@@ -2522,7 +2531,7 @@
                       "type": "checkbox",
                       "shortLabel": "Alpha-foetoprotéine",
                       "grows": true,
-                      "span": 23,
+                      "span": 20,
                       "readonly": false,
                       "options": {
                         "Alpha-foetoprotéine": "Alpha-foetoprotéine"
@@ -2648,7 +2657,7 @@
                       "type": "checkbox",
                       "shortLabel": "CEA(5,2€)",
                       "grows": true,
-                      "span": 1,
+                      "span": 4,
                       "readonly": false,
                       "options": {
                         "CEA(5,2€)": "CEA(5,2€)"
@@ -2662,7 +2671,7 @@
                       "type": "checkbox",
                       "shortLabel": "CA 19,9(pancr.,tr.dig.),mx1",
                       "grows": true,
-                      "span": 16,
+                      "span": 13,
                       "readonly": false,
                       "options": {
                         "CA 19,9(pancr.,tr.dig.),mx1": "CA 19,9(pancr.,tr.dig.),mx1"
@@ -2694,6 +2703,7 @@
               "sections": [
                 {
                   "section": "Main",
+                  "compact": true,
                   "fields": [
                     {
                       "clazz": "field",
@@ -2873,6 +2883,7 @@
               "sections": [
                 {
                   "section": "Main",
+                  "compact": true,
                   "fields": [
                     {
                       "clazz": "field",
@@ -3552,6 +3563,7 @@
               "id": "CDB4B495-9B62-477B-B5D9-1E5C5265CB4C",
               "sections": [
                 {
+                  "compact": true,
                   "section": "Main",
                   "fields": [
                     {
@@ -4096,6 +4108,7 @@
               "sections": [
                 {
                   "section": "Main",
+                  "compact": true,
                   "fields": [
                     {
                       "clazz": "field",
@@ -4174,6 +4187,7 @@
               "sections": [
                 {
                   "section": "Main",
+                  "compact": true,
                   "fields": [
                     {
                       "clazz": "field",

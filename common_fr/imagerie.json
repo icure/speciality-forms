@@ -4,6 +4,7 @@
   "sections": [
     {
       "section": "Main",
+      "compact": true,
       "fields": [
         {
           "clazz": "field",
@@ -11,7 +12,7 @@
           "type": "checkbox",
           "shortLabel": "Rx thorax",
           "grows": true,
-          "span": 1,
+          "span": 4,
           "readonly": false,
           "options": {
             "Rx thorax": "Rx thorax"
@@ -25,7 +26,7 @@
           "type": "dropdown-field",
           "shortLabel": "Rx",
           "grows": true,
-          "span": 6,
+          "span": 5,
           "readonly": false,
           "options": {
             "LEGACY|Thorax|1": "Thorax",
@@ -47,7 +48,7 @@
           "type": "text-field",
           "shortLabel": "Echogr.",
           "grows": true,
-          "span": 7,
+          "span": 5,
           "readonly": false,
           "multiline": false,
           "translate": true
@@ -84,7 +85,7 @@
           "type": "checkbox",
           "shortLabel": "PET Scan",
           "grows": true,
-          "span": 1,
+          "span": 4,
           "readonly": false,
           "options": {
             "PET Scan": "PET Scan"
@@ -98,7 +99,7 @@
           "type": "text-field",
           "shortLabel": "IRM",
           "grows": true,
-          "span": 6,
+          "span": 5,
           "readonly": false,
           "multiline": false,
           "translate": true
@@ -109,7 +110,7 @@
           "type": "text-field",
           "shortLabel": "Imagerie autre",
           "grows": true,
-          "span": 15,
+          "span": 13,
           "readonly": false,
           "multiline": false,
           "translate": true

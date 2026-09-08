@@ -4,6 +4,7 @@
   "sections": [
     {
       "section": "Main",
+      "compact": true,
       "fields": [
         {
           "clazz": "field",
@@ -11,7 +12,7 @@
           "type": "checkbox",
           "shortLabel": "Prescription de kiné",
           "grows": true,
-          "span": 1,
+          "span": 4,
           "readonly": false,
           "options": {
             "Prescription de kiné": "Prescription de kiné"
@@ -25,7 +26,7 @@
           "type": "checkbox",
           "shortLabel": "Le patient ne peut se déplacer",
           "grows": true,
-          "span": 23,
+          "span": 20,
           "readonly": false,
           "options": {
             "Le patient ne peut se déplacer": "Le patient ne peut se déplacer"
@@ -53,7 +54,7 @@
           "type": "checkbox",
           "shortLabel": "Demande d'avis",
           "grows": true,
-          "span": 1,
+          "span": 4,
           "readonly": false,
           "options": {
             "Demande d'avis": "Demande d'avis"
@@ -67,7 +68,7 @@
           "type": "text-field",
           "shortLabel": "",
           "grows": true,
-          "span": 16,
+          "span": 13,
           "readonly": false,
           "multiline": false,
           "translate": true

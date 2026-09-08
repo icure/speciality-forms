@@ -4,6 +4,7 @@
   "sections": [
     {
       "section": "Main",
+      "compact": true,
       "fields": [
         {
           "clazz": "field",
@@ -11,7 +12,7 @@
           "type": "checkbox",
           "shortLabel": "Analyse urgente",
           "grows": true,
-          "span": 1,
+          "span": 4,
           "readonly": false,
           "options": {
             "Analyse urgente": "Analyse urgente"
@@ -25,7 +26,7 @@
           "type": "number-field",
           "shortLabel": "Nombre(s) de pots",
           "grows": true,
-          "span": 12,
+          "span": 8,
           "readonly": false,
           "multiline": false,
           "translate": true
@@ -187,7 +188,7 @@
           "type": "checkbox",
           "shortLabel": "IFD 588070 X ...",
           "grows": true,
-          "span": 1,
+          "span": 5,
           "readonly": false,
           "options": {
             "IFD 588070 X ...": "IFD 588070 X ..."
@@ -201,7 +202,7 @@
           "type": "checkbox",
           "shortLabel": "Examen mycologique",
           "grows": true,
-          "span": 7,
+          "span": 4,
           "readonly": false,
           "options": {
             "Examen mycologique": "Examen mycologique"
@@ -215,7 +216,7 @@
           "type": "checkbox",
           "shortLabel": "IFI 588070 X ...",
           "grows": true,
-          "span": 9,
+          "span": 5,
           "readonly": false,
           "options": {
             "IFI 588070 X ...": "IFI 588070 X ..."

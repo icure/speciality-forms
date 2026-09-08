@@ -4,6 +4,7 @@
   "sections": [
     {
       "section": "Main",
+      "compact": true,
       "fields": [
         {
           "clazz": "field",
@@ -11,7 +12,7 @@
           "type": "checkbox",
           "shortLabel": "Tedivax",
           "grows": true,
-          "span": 5,
+          "span": 6,
           "readonly": false,
           "options": {
             "Tedivax": "Tedivax"
@@ -25,7 +26,7 @@
           "type": "checkbox",
           "shortLabel": "Vac. Hép. A1",
           "grows": true,
-          "span": 5,
+          "span": 6,
           "readonly": false,
           "options": {
             "Vac. Hép. A1": "Vac. Hép. A1"
@@ -39,7 +40,7 @@
           "type": "checkbox",
           "shortLabel": "Vac. Hép. B1",
           "grows": true,
-          "span": 5,
+          "span": 6,
           "readonly": false,
           "options": {
             "Vac. Hép. B1": "Vac. Hép. B1"
@@ -53,7 +54,7 @@
           "type": "checkbox",
           "shortLabel": "Twinrix1",
           "grows": true,
-          "span": 4,
+          "span": 6,
           "readonly": false,
           "options": {
             "Twinrix1": "Twinrix1"
@@ -67,7 +68,7 @@
           "type": "checkbox",
           "shortLabel": "Vac. Poliomyélite",
           "grows": true,
-          "span": 5,
+          "span": 6,
           "readonly": false,
           "options": {
             "Vac. Poliomyélite": "Vac. Poliomyélite"
@@ -137,7 +138,7 @@
           "type": "checkbox",
           "shortLabel": "Boostrix",
           "grows": true,
-          "span": 5,
+          "span": 6,
           "readonly": false,
           "options": {
             "Boostrix": "Boostrix"
@@ -151,7 +152,7 @@
           "type": "checkbox",
           "shortLabel": "Vac. RRO",
           "grows": true,
-          "span": 5,
+          "span": 6,
           "readonly": false,
           "options": {
             "Vac. RRO": "Vac. RRO"
@@ -165,7 +166,7 @@
           "type": "checkbox",
           "shortLabel": "Vac. Hép. B3",
           "grows": true,
-          "span": 5,
+          "span": 6,
           "readonly": false,
           "options": {
             "Vac. Hép. B3": "Vac. Hép. B3"
@@ -179,7 +180,7 @@
           "type": "checkbox",
           "shortLabel": "Twinrix3",
           "grows": true,
-          "span": 4,
+          "span": 6,
           "readonly": false,
           "options": {
             "Twinrix3": "Twinrix3"
@@ -193,7 +194,7 @@
           "type": "checkbox",
           "shortLabel": "Vac. Haemophilus",
           "grows": true,
-          "span": 5,
+          "span": 6,
           "readonly": false,
           "options": {
             "Vac. Haemophilus": "Vac. Haemophilus"
@@ -207,7 +208,7 @@
           "type": "checkbox",
           "shortLabel": "Vac. Meningitec",
           "grows": true,
-          "span": 24,
+          "span": 6,
           "readonly": false,
           "options": {
             "Vac. Meningitec": "Vac. Meningitec"
@@ -221,7 +222,7 @@
           "type": "checkbox",
           "shortLabel": "Vac. HPV1",
           "grows": true,
-          "span": 8,
+          "span": 6,
           "readonly": false,
           "options": {
             "Vac. HPV1": "Vac. HPV1"
@@ -235,7 +236,7 @@
           "type": "checkbox",
           "shortLabel": "Vaccin Grippe",
           "grows": true,
-          "span": 8,
+          "span": 6,
           "readonly": false,
           "options": {
             "Vaccin Grippe": "Vaccin Grippe"
@@ -249,7 +250,7 @@
           "type": "checkbox",
           "shortLabel": "Pneumo 23",
           "grows": true,
-          "span": 8,
+          "span": 6,
           "readonly": false,
           "options": {
             "Pneumo 23": "Pneumo 23"
@@ -319,7 +320,7 @@
           "type": "checkbox",
           "shortLabel": "Vac. HPV3",
           "grows": true,
-          "span": 8,
+          "span": 6,
           "readonly": false,
           "options": {
             "Vac. HPV3": "Vac. HPV3"
@@ -333,7 +334,7 @@
           "type": "checkbox",
           "shortLabel": "Vac. Fièv. Jaune",
           "grows": true,
-          "span": 8,
+          "span": 6,
           "readonly": false,
           "options": {
             "Vac. Fièv. Jaune": "Vac. Fièv. Jaune"
@@ -347,7 +348,7 @@
           "type": "checkbox",
           "shortLabel": "Rpl",
           "grows": true,
-          "span": 8,
+          "span": 6,
           "readonly": false,
           "options": {
             "Rpl": "Rpl"

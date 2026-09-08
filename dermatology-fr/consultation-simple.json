@@ -4,6 +4,7 @@
   "sections": [
     {
       "section": "Main",
+      "compact": true,
       "fields": [
         {
           "clazz": "group",
@@ -92,6 +93,7 @@
                   "sections": [
                     {
                       "section": "Main",
+                      "compact": true,
                       "fields": [
                         {
                           "clazz": "field",
@@ -216,6 +218,7 @@
                   "sections": [
                     {
                       "section": "Main",
+                      "compact": true,
                       "fields": [
                         {
                           "clazz": "field",
@@ -319,6 +322,7 @@
                   "sections": [
                     {
                       "section": "Main",
+                      "compact": true,
                       "fields": [
                         {
                           "clazz": "field",
@@ -595,6 +599,7 @@
                   "sections": [
                     {
                       "section": "Main",
+                      "compact": true,
                       "fields": []
                     }
                   ]
@@ -605,6 +610,7 @@
                   "sections": [
                     {
                       "section": "Main",
+                      "compact": true,
                       "fields": []
                     }
                   ]
@@ -615,6 +621,7 @@
                   "sections": [
                     {
                       "section": "Main",
+                      "compact": true,
                       "fields": [
                         {
                           "clazz": "subform",
@@ -627,6 +634,7 @@
                               "sections": [
                                 {
                                   "section": "Main",
+                                  "compact": true,
                                   "fields": [
                                     {
                                       "clazz": "field",
@@ -743,6 +751,7 @@
                               "sections": [
                                 {
                                   "section": "Main",
+                                  "compact": true,
                                   "fields": [
                                     {
                                       "clazz": "field",
@@ -879,6 +888,7 @@
                   "sections": [
                     {
                       "section": "Main",
+                      "compact": true,
                       "fields": [
                         {
                           "clazz": "field",
@@ -1070,6 +1080,7 @@
                   "sections": [
                     {
                       "section": "Main",
+                      "compact": true,
                       "fields": [
                         {
                           "clazz": "subform",
@@ -1082,6 +1093,7 @@
                               "sections": [
                                 {
                                   "section": "Main",
+                                  "compact": true,
                                   "fields": [
                                     {
                                       "clazz": "field",
@@ -1178,6 +1190,7 @@
                               "sections": [
                                 {
                                   "section": "Main",
+                                  "compact": true,
                                   "fields": [
                                     {
                                       "clazz": "field",
@@ -1314,6 +1327,7 @@
                               "sections": [
                                 {
                                   "section": "Main",
+                                  "compact": true,
                                   "fields": [
                                     {
                                       "clazz": "field",
@@ -1389,6 +1403,7 @@
                               "sections": [
                                 {
                                   "section": "Main",
+                                  "compact": true,
                                   "fields": [
                                     {
                                       "clazz": "group",
@@ -1662,6 +1677,7 @@
                               "sections": [
                                 {
                                   "section": "Main",
+                                  "compact": true,
                                   "fields": [
                                     {
                                       "clazz": "field",
@@ -1737,6 +1753,7 @@
                               "sections": [
                                 {
                                   "section": "Main",
+                                  "compact": true,
                                   "fields": [
                                     {
                                       "clazz": "field",
@@ -1917,6 +1934,7 @@
                   "sections": [
                     {
                       "section": "Main",
+                      "compact": true,
                       "fields": []
                     }
                   ]
@@ -1927,6 +1945,7 @@
                   "sections": [
                     {
                       "section": "Main",
+                      "compact": true,
                       "fields": [
                         {
                           "clazz": "field",

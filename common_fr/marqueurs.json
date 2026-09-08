@@ -4,6 +4,7 @@
   "sections": [
     {
       "section": "Main",
+      "compact": true,
       "fields": [
         {
           "clazz": "field",
@@ -11,7 +12,7 @@
           "type": "checkbox",
           "shortLabel": "PSA (50 ans et +)",
           "grows": true,
-          "span": 1,
+          "span": 4,
           "readonly": false,
           "options": {
             "PSA (50 ans et +)": "PSA (50 ans et +)"
@@ -25,7 +26,7 @@
           "type": "checkbox",
           "shortLabel": "Alpha-foetoprotéine",
           "grows": true,
-          "span": 23,
+          "span": 20,
           "readonly": false,
           "options": {
             "Alpha-foetoprotéine": "Alpha-foetoprotéine"
@@ -151,7 +152,7 @@
           "type": "checkbox",
           "shortLabel": "CEA(5,2€)",
           "grows": true,
-          "span": 1,
+          "span": 4,
           "readonly": false,
           "options": {
             "CEA(5,2€)": "CEA(5,2€)"
@@ -165,7 +166,7 @@
           "type": "checkbox",
           "shortLabel": "CA 19,9(pancr.,tr.dig.),mx1",
           "grows": true,
-          "span": 16,
+          "span": 13,
           "readonly": false,
           "options": {
             "CA 19,9(pancr.,tr.dig.),mx1": "CA 19,9(pancr.,tr.dig.),mx1"
