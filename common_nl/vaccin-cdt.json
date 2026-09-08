@@ -1,0 +1,22 @@
+{
+  "form": "Subformulieren/Vaccin CDT",
+  "id": "1F153126-61B2-4427-83FB-C13832EFE7E2",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Vaccin",
+          "type": "text-field",
+          "shortLabel": "Vaccin CDT",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,816 @@
+{
+  "form": "Pré-op/augmentation mammaire",
+  "id": "E78C52E1-DEFA-43E4-BE3E-93892ED8D969",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "intitulé",
+              "type": "text-field",
+              "shortLabel": "intitulé",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "désirs de la patiente",
+              "type": "dropdown-field",
+              "shortLabel": "désirs de la patiente",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "LEGACY|petite augmentation|1": "petite augmentation",
+                "LEGACY|augmentation moyenne|1": "augmentation moyenne",
+                "LEGACY|augmentation importante mais harmonieuse|1": "augmentation importante mais harmonieuse",
+                "LEGACY|augmentation sévère|1": "augmentation sévère"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "symétrie",
+              "type": "dropdown-field",
+              "shortLabel": "symétrie mammaire",
+              "grows": true,
+              "span": 14,
+              "readonly": false,
+              "options": {
+                "LEGACY|G=D|1": "G=D",
+                "LEGACY|G<D|1": "G<D",
+                "LEGACY|G>D|1": "G>D"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "peau",
+              "type": "dropdown-field",
+              "shortLabel": "qualité cutanée",
+              "grows": true,
+              "span": 10,
+              "readonly": false,
+              "options": {
+                "LEGACY|bonne qualité élastique|1": "bonne qualité élastique",
+                "LEGACY|mauvaise qualité élastique|1": "mauvaise qualité élastique",
+                "LEGACY|vergetures|1": "vergetures"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "taille actuelle soutient",
+              "type": "text-field",
+              "shortLabel": "taille actuelle soutient",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "taille désirée de soutient",
+              "type": "text-field",
+              "shortLabel": "taille désirée de soutient",
+              "grows": true,
+              "span": 19,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "sensibilité du mammelon",
+              "type": "dropdown-field",
+              "shortLabel": "sensibilité du mammelon",
+              "grows": true,
+              "span": 14,
+              "readonly": false,
+              "options": {
+                "LEGACY|conservée|1": "conservée",
+                "LEGACY|diminuée|1": "diminuée",
+                "LEGACY|insensible|1": "insensible"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "ptose mammaire",
+              "type": "dropdown-field",
+              "shortLabel": "ptose mammaire (Regnault)",
+              "grows": true,
+              "span": 10,
+              "readonly": false,
+              "options": {
+                "LEGACY|pas de ptose|1": "pas de ptose",
+                "LEGACY|grade A|1": "grade A",
+                "LEGACY|grade B|1": "grade B",
+                "LEGACY|grade C|1": "grade C",
+                "LEGACY|pseudoptose|1": "pseudoptose"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "dist mm dte",
+              "type": "measure-field",
+              "shortLabel": "distance manubrio-mamelonnaire droite",
+              "grows": true,
+              "span": 14,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "distance mm gauche",
+              "type": "measure-field",
+              "shortLabel": "distance manubrio-mamelonnaire gauche",
+              "grows": true,
+              "span": 10,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "largeur du sein droit",
+              "type": "measure-field",
+              "shortLabel": "largeur du sein droit",
+              "grows": true,
+              "span": 14,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "largeur du sein gauche",
+              "type": "measure-field",
+              "shortLabel": "largeur du sein gauche",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "pinch test",
+              "type": "measure-field",
+              "shortLabel": "pinch test",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "hypotrophie",
+              "type": "checkbox",
+              "shortLabel": "hypotrophie",
+              "grows": true,
+              "span": 2,
+              "readonly": false,
+              "options": {
+                "hypotrophie": "hypotrophie"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "asymétrie",
+              "type": "checkbox",
+              "shortLabel": "asymétrie",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "asymétrie": "asymétrie"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "ptose",
+              "type": "checkbox",
+              "shortLabel": "ptose",
+              "grows": true,
+              "span": 18,
+              "readonly": false,
+              "options": {
+                "ptose": "ptose"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "longueur du segment III",
+              "type": "measure-field",
+              "shortLabel": "longueur du segment III droit",
+              "grows": true,
+              "span": 14,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "longueur du segment III gauche",
+              "type": "measure-field",
+              "shortLabel": "longueur du segment III gauche",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "extensibilité maximale du sein",
+              "type": "measure-field",
+              "shortLabel": "extensibilité maximale du sein",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "plainte",
+              "type": "text-field",
+              "shortLabel": "autres plaintes",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "écart intermammaire",
+              "type": "measure-field",
+              "shortLabel": "écart intermammaire",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "poids",
+              "type": "measure-field",
+              "shortLabel": "poids",
+              "grows": true,
+              "span": 3,
+              "rowSpan": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "taille",
+              "type": "measure-field",
+              "shortLabel": "taille",
+              "grows": true,
+              "span": 3,
+              "rowSpan": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "BMI",
+              "type": "number-field",
+              "shortLabel": "BMI",
+              "grows": true,
+              "span": 5,
+              "rowSpan": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "examen clinique",
+              "type": "text-field",
+              "shortLabel": "examen clinique particulier",
+              "grows": true,
+              "span": 13,
+              "rowSpan": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "mammographie réalisée",
+              "type": "checkbox",
+              "shortLabel": "mammographie réalisée",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "mammographie réalisée": "mammographie réalisée"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "mammographie a réaliser",
+              "type": "checkbox",
+              "shortLabel": "mammographie a réaliser",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "mammographie a réaliser": "mammographie a réaliser"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "augmentation mammaire",
+              "type": "checkbox",
+              "shortLabel": "augmentation mammaire",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "augmentation mammaire": "augmentation mammaire"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "prothèses rondes",
+              "type": "checkbox",
+              "shortLabel": "prothèses rondes",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "prothèses rondes": "prothèses rondes"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "volumes différents",
+              "type": "checkbox",
+              "shortLabel": "volumes différents",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "volumes différents": "volumes différents"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "suivi mammographique",
+              "type": "dropdown-field",
+              "shortLabel": "suivi mammographique",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "options": {
+                "LEGACY|aucun|1": "aucun",
+                "LEGACY|suivi annuel|1": "suivi annuel",
+                "LEGACY|suivi tous les 2 ans|1": "suivi tous les 2 ans"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "prothèses anatomiques",
+              "type": "checkbox",
+              "shortLabel": "prothèses anatomiques",
+              "grows": true,
+              "span": 10,
+              "readonly": false,
+              "options": {
+                "prothèses anatomiques": "prothèses anatomiques"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "volumes identiques",
+              "type": "checkbox",
+              "shortLabel": "volumes identiques",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "volumes identiques": "volumes identiques"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "prothèses polyuréthane",
+              "type": "checkbox",
+              "shortLabel": "prothèses polyuréthane",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "prothèses polyuréthane": "prothèses polyuréthane"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "protocole",
+              "type": "text-field",
+              "shortLabel": "protocole de la mammographie",
+              "grows": true,
+              "span": 9,
+              "rowSpan": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "position rétropectorale",
+              "type": "checkbox",
+              "shortLabel": "position rétropectorale",
+              "grows": true,
+              "span": 10,
+              "rowSpan": 2,
+              "readonly": false,
+              "options": {
+                "position rétropectorale": "position rétropectorale"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "voie sous-mammaire",
+              "type": "checkbox",
+              "shortLabel": "voie sous-mammaire",
+              "grows": true,
+              "span": 5,
+              "rowSpan": 2,
+              "readonly": false,
+              "options": {
+                "voie sous-mammaire": "voie sous-mammaire"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "position pré-pectorale",
+              "type": "checkbox",
+              "shortLabel": "position pré-pectorale",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "position pré-pectorale": "position pré-pectorale"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "technique péri-aréolaire",
+              "type": "checkbox",
+              "shortLabel": "technique péri-aréolaire",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "technique péri-aréolaire": "technique péri-aréolaire"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "voie périaréolaire supérieure",
+              "type": "checkbox",
+              "shortLabel": "voie périaréolaire supérieure",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "voie périaréolaire supérieure": "voie périaréolaire supérieure"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "voie périaréolaire inférieure",
+              "type": "checkbox",
+              "shortLabel": "voie périaréolaire inférieure",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "voie périaréolaire inférieure": "voie périaréolaire inférieure"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "voie transaréolaire",
+              "type": "checkbox",
+              "shortLabel": "voie transaréolaire",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "voie transaréolaire": "voie transaréolaire"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "augmentation-pexie mammaire",
+              "type": "checkbox",
+              "shortLabel": "augmentation-pexie mammaire",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "augmentation-pexie mammaire": "augmentation-pexie mammaire"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "voie axillaire",
+              "type": "checkbox",
+              "shortLabel": "voie axillaire",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "voie axillaire": "voie axillaire"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": " technique verticale",
+              "type": "checkbox",
+              "shortLabel": "technique verticale",
+              "grows": true,
+              "span": 14,
+              "readonly": false,
+              "options": {
+                "technique verticale": "technique verticale"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": " technique de Hammond",
+              "type": "checkbox",
+              "shortLabel": "technique de Hammond",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "technique de Hammond": "technique de Hammond"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "technique avec cicatrice résiduelle en ancre de marine",
+              "type": "checkbox",
+              "shortLabel": "technique avec cicatrice résiduelle en ancre de marine",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "technique avec cicatrice résiduelle en ancre de marine": "technique avec cicatrice résiduelle en ancre de marine"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "traitement proposé",
+              "type": "text-field",
+              "shortLabel": "autre traitement",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 3",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": " thrombose",
+              "type": "checkbox",
+              "shortLabel": " thrombose",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                " thrombose": " thrombose"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "anomalies cicatricielles",
+              "type": "checkbox",
+              "shortLabel": "anomalies cicatricielles",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "anomalies cicatricielles": "anomalies cicatricielles"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": " phlébite",
+              "type": "checkbox",
+              "shortLabel": " phlébite",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                " phlébite": " phlébite"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "impact sur la lactation",
+              "type": "checkbox",
+              "shortLabel": "impact sur la lactation",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "impact sur la lactation": "impact sur la lactation"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "saignements",
+              "type": "checkbox",
+              "shortLabel": "saignements",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "saignements": "saignements"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "troubles de sensibilité du mamellon",
+              "type": "checkbox",
+              "shortLabel": "troubles de sensibilité du mamellon",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "troubles de sensibilité du mamellon": "troubles de sensibilité du mamellon"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "capsule,coque",
+              "type": "checkbox",
+              "shortLabel": "capsule,coque",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "capsule,coque": "capsule,coque"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "implant safety",
+              "type": "checkbox",
+              "shortLabel": "implant safety",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "implant safety": "implant safety"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "infection",
+              "type": "checkbox",
+              "shortLabel": "infection",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "infection": "infection"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "note",
+              "type": "text-field",
+              "shortLabel": "note",
+              "grows": true,
+              "span": 24,
+              "rowSpan": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

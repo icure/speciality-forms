@@ -1,0 +1,221 @@
+{
+  "form": "Cardiologie/ECG",
+  "id": "2F5B2B8E-55B5-4943-9B6F-615FC4D575FB",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Rythme sinusal",
+          "type": "measure-field",
+          "shortLabel": "Rythme sinusal",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": " extrasystole auriculaire isolée",
+          "type": "checkbox",
+          "shortLabel": "Extrasystole auriculaire isolée",
+          "grows": true,
+          "span": 9,
+          "readonly": false,
+          "options": {
+            "Extrasystole auriculaire isolée": "Extrasystole auriculaire isolée"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Extrasystolie ventriculaire",
+          "type": "dropdown-field",
+          "shortLabel": "Extrasystolie ventriculaire",
+          "grows": true,
+          "span": 10,
+          "readonly": false,
+          "options": {
+            "LEGACY|isolée, type retard droit.|1": "isolée, type retard droit.",
+            "LEGACY|isolée, type retard gauche.|1": "isolée, type retard gauche.",
+            "LEGACY|bigéminée.|1": "bigéminée."
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Espace PR",
+          "type": "measure-field",
+          "shortLabel": "Espace PR",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Durée du QRS",
+          "type": "measure-field",
+          "shortLabel": "Durée du QRS",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Axe du QRS",
+          "type": "measure-field",
+          "shortLabel": "Axe du QRS",
+          "grows": true,
+          "span": 7,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "QTc",
+          "type": "measure-field",
+          "shortLabel": "QTc",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "BAV",
+          "type": "dropdown-field",
+          "shortLabel": "BAV",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "LEGACY|Bloc auriculoventriculaire du premier degré.|1": "Bloc auriculoventriculaire du premier degré.",
+            "LEGACY|Bloc auriculoventriculaire du second degré Mobitz I|1": "Bloc auriculoventriculaire du second degré Mobitz I",
+            "LEGACY|Bloc auriculoventriculaire complet|1": "Bloc auriculoventriculaire complet"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": " Allongment du QT, Extrasystole ventriculaire isolée",
+          "type": "checkbox",
+          "shortLabel": " Allongment du QT",
+          "grows": true,
+          "span": 18,
+          "readonly": false,
+          "options": {
+            " Allongment du QT": " Allongment du QT"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Déviation axe",
+          "type": "checkbox",
+          "shortLabel": "Hémibloc antérieur gauche",
+          "grows": true,
+          "span": 12,
+          "readonly": false,
+          "options": {
+            "Hémibloc antérieur gauche": "Hémibloc antérieur gauche"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Absence d'anomalie de la repolarisation",
+          "type": "checkbox",
+          "shortLabel": "Absence d'anomalie de la repolarisation",
+          "grows": true,
+          "span": 12,
+          "readonly": false,
+          "options": {
+            "Absence d'anomalie de la repolarisation": "Absence d'anomalie de la repolarisation"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Bloc de branche gauche complet",
+          "type": "checkbox",
+          "shortLabel": "Bloc de branche gauche complet",
+          "grows": true,
+          "span": 12,
+          "readonly": false,
+          "options": {
+            "Bloc de branche gauche complet": "Bloc de branche gauche complet"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": " Anomalies aspécifiques de la repolarisation",
+          "type": "checkbox",
+          "shortLabel": " Anomalies aspécifiques de la repolarisation",
+          "grows": true,
+          "span": 12,
+          "readonly": false,
+          "options": {
+            " Anomalies aspécifiques de la repolarisation": " Anomalies aspécifiques de la repolarisation"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Bloc de branche droit complet.",
+          "type": "checkbox",
+          "shortLabel": "Bloc de branche droit complet.",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Bloc de branche droit complet.": "Bloc de branche droit complet."
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Conclusion ECG",
+          "type": "text-field",
+          "shortLabel": "Ccl ECG",
+          "grows": true,
+          "span": 18,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": " Bloc de branche droit incomplet",
+          "type": "checkbox",
+          "shortLabel": " Bloc de branche droit incomplet",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            " Bloc de branche droit incomplet": " Bloc de branche droit incomplet"
+          },
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

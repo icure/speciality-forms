@@ -1,0 +1,917 @@
+{
+  "form": "Pré-op/rhinoplastie",
+  "id": "5D8E3576-AF8C-49F5-8808-2AF390BD7A96",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "intitulé",
+              "type": "text-field",
+              "shortLabel": "intitulé",
+              "grows": true,
+              "span": 14,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "motivation",
+              "type": "dropdown-field",
+              "shortLabel": "motivation",
+              "grows": true,
+              "span": 10,
+              "readonly": false,
+              "options": {
+                "LEGACY|esthétique première|1": "esthétique première",
+                "LEGACY|fonctionelle première|1": "fonctionelle première",
+                "LEGACY|esthétique et fonctionelle|1": "esthétique et fonctionelle"
+              },
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "notion de traumatisme",
+              "type": "checkbox",
+              "shortLabel": "notion de traumatisme",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "notion de traumatisme": "notion de traumatisme"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "déviation septale droite",
+              "type": "checkbox",
+              "shortLabel": "déviation septale droite",
+              "grows": true,
+              "span": 13,
+              "readonly": false,
+              "options": {
+                "déviation septale droite": "déviation septale droite"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "perforation septale",
+              "type": "checkbox",
+              "shortLabel": "perforation septale",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "options": {
+                "perforation septale": "perforation septale"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "difficulté respiratoire",
+              "type": "checkbox",
+              "shortLabel": "difficulté respiratoire",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "difficulté respiratoire": "difficulté respiratoire"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "difficulté respi droite",
+              "type": "checkbox",
+              "shortLabel": "droite",
+              "grows": true,
+              "span": 2,
+              "readonly": false,
+              "options": {
+                "droite": "droite"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "difficulté respi intermittente",
+              "type": "checkbox",
+              "shortLabel": "intermittente",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "options": {
+                "intermittente": "intermittente"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "déviation septale gauche",
+              "type": "checkbox",
+              "shortLabel": "déviation septale gauche",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "déviation septale gauche": "déviation septale gauche"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "élargissement des cornets",
+              "type": "checkbox",
+              "shortLabel": "élargissement des cornets",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "options": {
+                "élargissement des cornets": "élargissement des cornets"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "difficulté respi gauche",
+              "type": "checkbox",
+              "shortLabel": "gauche",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "gauche": "gauche"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "difficulté respi constante",
+              "type": "checkbox",
+              "shortLabel": "constante",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "constante": "constante"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "antécédent de chirurgie nasale",
+              "type": "checkbox",
+              "shortLabel": "ATCD chirurgie nasale",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "ATCD chirurgie nasale": "ATCD chirurgie nasale"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "cocaïne",
+              "type": "checkbox",
+              "shortLabel": "sniff. cocaïne",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "sniff. cocaïne": "sniff. cocaïne"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "bilan orl réalisé",
+              "type": "checkbox",
+              "shortLabel": "bilan orl réalisé",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "bilan orl réalisé": "bilan orl réalisé"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "rhinomanométrie pathologique",
+              "type": "checkbox",
+              "shortLabel": "rhinomanométrie pathologique",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "options": {
+                "rhinomanométrie pathologique": "rhinomanométrie pathologique"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "utilisation chronique de sprays",
+              "type": "checkbox",
+              "shortLabel": "usage chron. de sprays",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "usage chron. de sprays": "usage chron. de sprays"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "obstruction nasale gauche",
+              "type": "checkbox",
+              "shortLabel": "obstruction nasale gauche",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "obstruction nasale gauche": "obstruction nasale gauche"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "obstruction nasale droite",
+              "type": "checkbox",
+              "shortLabel": "obstruction nasale droite",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "obstruction nasale droite": "obstruction nasale droite"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "motif de consultation ",
+              "type": "text-field",
+              "shortLabel": "motif de consultation ",
+              "grows": true,
+              "span": 24,
+              "rowSpan": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 3",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "motivations vagues",
+              "type": "checkbox",
+              "shortLabel": "motivations vagues",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "motivations vagues": "motivations vagues"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "rhinoplastie",
+              "type": "checkbox",
+              "shortLabel": "rhinoplastie",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "rhinoplastie": "rhinoplastie"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "voie ouverte",
+              "type": "checkbox",
+              "shortLabel": "voie ouverte",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "voie ouverte": "voie ouverte"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "motivations bien définies",
+              "type": "checkbox",
+              "shortLabel": "motivations bien définies",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "motivations bien définies": "motivations bien définies"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "rhinoseptoplastie",
+              "type": "checkbox",
+              "shortLabel": "rhinoseptoplastie",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "rhinoseptoplastie": "rhinoseptoplastie"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "voie fermée",
+              "type": "checkbox",
+              "shortLabel": "voie fermée",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "voie fermée": "voie fermée"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "rhinoplastie de pointe",
+              "type": "checkbox",
+              "shortLabel": "rhinoplastie de pointe",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "rhinoplastie de pointe": "rhinoplastie de pointe"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "septoplastie",
+              "type": "checkbox",
+              "shortLabel": "septoplastie",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "septoplastie": "septoplastie"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "radix haut",
+              "type": "checkbox",
+              "shortLabel": "radix haut",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "radix haut": "radix haut"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "hauteur nasale excessive",
+              "type": "checkbox",
+              "shortLabel": "hauteur nasale excessive",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "hauteur nasale excessive": "hauteur nasale excessive"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "bosses latérales",
+              "type": "checkbox",
+              "shortLabel": "bosses latérales",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "bosses latérales": "bosses latérales"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "rhinoplastie médicale",
+              "type": "checkbox",
+              "shortLabel": "rhinoplastie médicale",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "rhinoplastie médicale": "rhinoplastie médicale"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "radix bas",
+              "type": "checkbox",
+              "shortLabel": "radix bas",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "radix bas": "radix bas"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "hauteur nasale inadequate",
+              "type": "checkbox",
+              "shortLabel": "hauteur nasale inadequate",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "hauteur nasale inadequate": "hauteur nasale inadequate"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "\"tension nose\"",
+              "type": "checkbox",
+              "shortLabel": "\"tension nose\"",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "\"tension nose\"": "\"tension nose\""
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "bosse dorsale",
+              "type": "checkbox",
+              "shortLabel": "bosse dorsale",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "bosse dorsale": "bosse dorsale"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "déviation",
+              "type": "checkbox",
+              "shortLabel": "déviation",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "déviation": "déviation"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "\"short nose\"",
+              "type": "checkbox",
+              "shortLabel": "\"short nose\"",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "\"short nose\"": "\"short nose\""
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "nez trop large",
+              "type": "checkbox",
+              "shortLabel": "nez trop large",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "options": {
+                "nez trop large": "nez trop large"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "\"long nose\"",
+              "type": "checkbox",
+              "shortLabel": "\"long nose\"",
+              "grows": true,
+              "span": 17,
+              "readonly": false,
+              "options": {
+                "\"long nose\"": "\"long nose\""
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "conclusion",
+              "type": "text-field",
+              "shortLabel": "conclusion",
+              "grows": true,
+              "span": 24,
+              "rowSpan": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "bulbous tip",
+              "type": "checkbox",
+              "shortLabel": "bulbous tip",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "bulbous tip": "bulbous tip"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "asymétrie de pointe",
+              "type": "checkbox",
+              "shortLabel": "asymétrie de pointe",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "asymétrie de pointe": "asymétrie de pointe"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "boxy tip",
+              "type": "checkbox",
+              "shortLabel": "boxy tip",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "boxy tip": "boxy tip"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "manque de définition de la pointe",
+              "type": "checkbox",
+              "shortLabel": "manque de définition de la pointe",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "manque de définition de la pointe": "manque de définition de la pointe"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "drooping tip",
+              "type": "checkbox",
+              "shortLabel": "drooping tip",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "drooping tip": "drooping tip"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "ailes narinaires larges",
+              "type": "checkbox",
+              "shortLabel": "ailes narinaires larges",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "ailes narinaires larges": "ailes narinaires larges"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "columellar show excessif",
+              "type": "checkbox",
+              "shortLabel": "columellar show excessif",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "columellar show excessif": "columellar show excessif"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "anomalies cicatricielles",
+              "type": "checkbox",
+              "shortLabel": "anomalies cicatricielles",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "anomalies cicatricielles": "anomalies cicatricielles"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "but=amélioration, pas perfection",
+              "type": "checkbox",
+              "shortLabel": "but=amélioration, pas perfection",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "but=amélioration, pas perfection": "but=amélioration, pas perfection"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "collapsus alaire inspiratoire",
+              "type": "checkbox",
+              "shortLabel": "collapsus alaire inspiratoire",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "collapsus alaire inspiratoire": "collapsus alaire inspiratoire"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "collapsus triangulaire inspiratoire",
+              "type": "checkbox",
+              "shortLabel": "collapsus triangulaire inspiratoire",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "collapsus triangulaire inspiratoire": "collapsus triangulaire inspiratoire"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "asymétries",
+              "type": "checkbox",
+              "shortLabel": "asymétries",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "asymétries": "asymétries"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "irrégularités avec correction secondaires ",
+              "type": "checkbox",
+              "shortLabel": "irrégularités avec correction secondaires ",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "irrégularités avec correction secondaires ": "irrégularités avec correction secondaires "
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "manoeuvre de Cottle positive",
+              "type": "checkbox",
+              "shortLabel": "manoeuvre de Cottle positive",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "manoeuvre de Cottle positive": "manoeuvre de Cottle positive"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "fiche d'information SOFCPRE",
+              "type": "checkbox",
+              "shortLabel": "fiche d'information SOFCPRE",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "fiche d'information SOFCPRE": "fiche d'information SOFCPRE"
+              },
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 4",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "rétrogénie",
+              "type": "checkbox",
+              "shortLabel": "rétrogénie",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "rétrogénie": "rétrogénie"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "hauteur du menton inadéquate",
+              "type": "checkbox",
+              "shortLabel": "hauteur du menton inadéquate",
+              "grows": true,
+              "span": 21,
+              "readonly": false,
+              "options": {
+                "hauteur du menton inadéquate": "hauteur du menton inadéquate"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "rétrognathie",
+              "type": "checkbox",
+              "shortLabel": "rétrognathie",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "rétrognathie": "rétrognathie"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "autre complication",
+              "type": "text-field",
+              "shortLabel": "autre complication",
+              "grows": true,
+              "span": 21,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 5",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "examen clinique",
+              "type": "text-field",
+              "shortLabel": "examen clinique particulier",
+              "grows": true,
+              "span": 9,
+              "rowSpan": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "nota bene",
+              "type": "text-field",
+              "shortLabel": "nota bene",
+              "grows": true,
+              "span": 15,
+              "rowSpan": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

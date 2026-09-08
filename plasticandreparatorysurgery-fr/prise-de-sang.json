@@ -1,0 +1,41 @@
+{
+  "form": "sous-formulaires organisation salle d'op/prise de sang",
+  "id": "73809DC5-1C5D-4921-8B5C-8F1DD6977045",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": " Biologie",
+          "type": "dropdown-field",
+          "shortLabel": " Biologie sanguine",
+          "grows": true,
+          "span": 15,
+          "readonly": false,
+          "options": {
+            "LEGACY|à faire en ambulatoire|1": "à faire en ambulatoire",
+            "LEGACY|à faire en hospitalisation|1": "à faire en hospitalisation",
+            "LEGACY|Faite|1": "Faite"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "résultat bio. sanguine reçu",
+          "type": "checkbox",
+          "shortLabel": "résultat reçu",
+          "grows": true,
+          "span": 9,
+          "readonly": false,
+          "options": {
+            "résultat reçu": "résultat reçu"
+          },
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

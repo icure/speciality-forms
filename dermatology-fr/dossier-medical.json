@@ -1,0 +1,303 @@
+{
+  "form": "Dermatologie/Dossier médical",
+  "id": "FFFFFFFF-FFFF-FFFF-FFFF-DOSSMED00000",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Antécédents sans particularités",
+              "type": "checkbox",
+              "shortLabel": "Antécédents sans particularités",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "Antécédents sans particularités": "Antécédents sans particularités"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Phototype",
+              "type": "dropdown-field",
+              "shortLabel": "Phototype",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "LEGACY|I|1": "I",
+                "LEGACY|I-II|1": "I-II",
+                "LEGACY|II|1": "II",
+                "LEGACY|III|1": "III",
+                "LEGACY|IV|1": "IV"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Groupe sanguin",
+              "type": "dropdown-field",
+              "shortLabel": "Groupe sanguin",
+              "grows": true,
+              "span": 11,
+              "readonly": false,
+              "options": {
+                "LEGACY|O|1": "O",
+                "LEGACY|A|1": "A",
+                "LEGACY|B|1": "B",
+                "LEGACY|AB|1": "AB"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Rhésus",
+              "type": "dropdown-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 1,
+              "readonly": false,
+              "options": {
+                "LEGACY|+|1": "+",
+                "LEGACY|-|1": "-"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Antécédents familiaux",
+              "type": "token-field",
+              "shortLabel": "Antécédents familiaux",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Antécédents personnels",
+              "type": "token-field",
+              "shortLabel": "Antécédents personnels",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Antécédents chirurgicaux",
+              "type": "token-field",
+              "shortLabel": "Chirurgicaux",
+              "grows": true,
+              "span": 12,
+              "rowSpan": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Allergies",
+              "type": "token-field",
+              "shortLabel": "Allergies",
+              "grows": true,
+              "span": 12,
+              "rowSpan": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Allergies médicamenteuses",
+              "type": "token-field",
+              "shortLabel": "Allergies médicamenteuses",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Historique dermatologique",
+              "type": "text-field",
+              "shortLabel": "Historique dermatologique",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Alcool",
+              "type": "checkbox",
+              "shortLabel": "Alcool",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "Alcool": "Alcool"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Alcoolisme",
+              "type": "dropdown-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "LEGACY|Occasionnel|1": "Occasionnel",
+                "LEGACY|Chronique|1": "Chronique",
+                "LEGACY|Sévère|1": "Sévère"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Tabagisme",
+              "type": "checkbox",
+              "shortLabel": "Tabagisme",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Tabagisme": "Tabagisme"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Tabagisme sévérité",
+              "type": "dropdown-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "LEGACY|modéré|1": "modéré",
+                "LEGACY|sévère|1": "sévère"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Drogue",
+              "type": "text-field",
+              "shortLabel": "Drogue",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Pas venu, pas prévenu",
+              "type": "checkbox",
+              "shortLabel": "Pas venu, pas prévenu",
+              "grows": true,
+              "span": 10,
+              "readonly": false,
+              "options": {
+                "Pas venu, pas prévenu": "Pas venu, pas prévenu"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Annulation dernière minute",
+              "type": "checkbox",
+              "shortLabel": "Annulation dernière minute",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Annulation dernière minute": "Annulation dernière minute"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Toujours en retard",
+              "type": "checkbox",
+              "shortLabel": "Toujours en retard",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "Toujours en retard": "Toujours en retard"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Reçu",
+              "type": "checkbox",
+              "shortLabel": "Reçu",
+              "grows": true,
+              "span": 10,
+              "readonly": false,
+              "options": {
+                "Reçu": "Reçu"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Mauvais payeur",
+              "type": "checkbox",
+              "shortLabel": "Mauvais payeur",
+              "grows": true,
+              "span": 14,
+              "readonly": false,
+              "options": {
+                "Mauvais payeur": "Mauvais payeur"
+              },
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,522 @@
+{
+  "form": "Gynécologie 3.0/Suivi obstétrical long",
+  "id": "5D18DF1D-041E-4500-A3AE-308CB4A9D8CB",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Age gestationnel",
+          "type": "text-field",
+          "shortLabel": "AG",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Poids",
+          "type": "measure-field",
+          "shortLabel": "Poids",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Différence de poids",
+          "type": "number-field",
+          "shortLabel": "∆ poids",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Tension art. sys.",
+          "type": "measure-field",
+          "shortLabel": "TA",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Tension art. dia.",
+          "type": "measure-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Albumine",
+          "type": "dropdown-field",
+          "shortLabel": "Alb.",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "LEGACY|0|1": "0",
+            "LEGACY|-|1": "-",
+            "LEGACY|+|1": "+",
+            "LEGACY|++|1": "++",
+            "LEGACY|+++|1": "+++"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Mouvement fœtus",
+          "type": "dropdown-field",
+          "shortLabel": "MF",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "LEGACY|+++|1": "+++",
+            "LEGACY|+/+|1": "+/+",
+            "LEGACY|+-|1": "+-",
+            "LEGACY|++|1": "++",
+            "LEGACY|-|1": "-",
+            "LEGACY|+/-|1": "+/-",
+            "LEGACY|+|1": "+"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Rhytme cardiaque fœtus",
+          "type": "text-field",
+          "shortLabel": "RCF",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Hauteur utérine",
+          "type": "measure-field",
+          "shortLabel": "HU",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Plainte",
+          "type": "text-field",
+          "shortLabel": "Plainte",
+          "grows": true,
+          "span": 11,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Col",
+          "type": "dropdown-field",
+          "shortLabel": "Col",
+          "grows": true,
+          "span": 3,
+          "readonly": false,
+          "options": {
+            "LEGACY|long|1": "long",
+            "LEGACY|mi-long|1": "mi-long",
+            "LEGACY|effacé|1": "effacé"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Position du col",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|postérieur|1": "postérieur",
+            "LEGACY|médian|1": "médian",
+            "LEGACY|antérieur|1": "antérieur"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Consistance du col",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 3,
+          "readonly": false,
+          "options": {
+            "LEGACY|dur|1": "dur",
+            "LEGACY|souple|1": "souple",
+            "LEGACY|mou|1": "mou"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Echo trim",
+          "type": "checkbox",
+          "shortLabel": "Echo trim",
+          "grows": true,
+          "span": 1,
+          "readonly": false,
+          "options": {
+            "Echo trim": "Echo trim"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Frottis vaginal",
+          "type": "checkbox",
+          "shortLabel": "FV",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "FV": "FV"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Pelvimétrie",
+          "type": "checkbox",
+          "shortLabel": "Pelvi",
+          "grows": true,
+          "span": 1,
+          "readonly": false,
+          "options": {
+            "Pelvi": "Pelvi"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Labo",
+          "type": "checkbox",
+          "shortLabel": "Lab",
+          "grows": true,
+          "span": 1,
+          "readonly": false,
+          "options": {
+            "Lab": "Lab"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Etat du col",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 14,
+          "readonly": false,
+          "options": {
+            "LEGACY|fermé|1": "fermé",
+            "LEGACY|dilaté|1": "dilaté"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Dilatation du col",
+          "type": "measure-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Position bébé",
+          "type": "dropdown-field",
+          "shortLabel": "Pos",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "LEGACY|sommet|1": "sommet",
+            "LEGACY|siège|1": "siège",
+            "LEGACY|transverse|1": "transverse"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Engagement bébé",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|libre|1": "libre",
+            "LEGACY|engagé|1": "engagé"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Présentation remarque",
+          "type": "text-field",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Examen gynécologique",
+          "type": "text-field",
+          "shortLabel": "Ex.gyn.",
+          "grows": true,
+          "span": 11,
+          "rowSpan": 2,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Diamètre bipariétal",
+          "type": "measure-field",
+          "shortLabel": "BIP",
+          "grows": true,
+          "span": 5,
+          "rowSpan": 2,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Percentile Diamètre bipariétal",
+          "type": "number-field",
+          "shortLabel": "%",
+          "grows": true,
+          "span": 3,
+          "rowSpan": 2,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Poids estimé",
+          "type": "measure-field",
+          "shortLabel": "Poids est.",
+          "grows": true,
+          "span": 4,
+          "rowSpan": 2,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Percentile poids",
+          "type": "number-field",
+          "shortLabel": "%",
+          "grows": true,
+          "span": 1,
+          "rowSpan": 2,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Périmètre crânien",
+          "type": "measure-field",
+          "shortLabel": "PC",
+          "grows": true,
+          "span": 16,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Percentile Périmètre crânien",
+          "type": "number-field",
+          "shortLabel": "%",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Indice de pulsabilité ombilical",
+          "type": "measure-field",
+          "shortLabel": "PI omb",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Percentile PI omb",
+          "type": "number-field",
+          "shortLabel": "%",
+          "grows": true,
+          "span": 1,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Examen à effectuer par un spécialiste",
+          "type": "text-field",
+          "shortLabel": "Ex.cpl.",
+          "grows": true,
+          "span": 11,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Circonférence abdominale",
+          "type": "measure-field",
+          "shortLabel": "CA",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Percentile Circonférence abdominale",
+          "type": "number-field",
+          "shortLabel": "%",
+          "grows": true,
+          "span": 3,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Indice de résistance ombilical",
+          "type": "measure-field",
+          "shortLabel": "RI omb",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Percentile RI omb",
+          "type": "number-field",
+          "shortLabel": "%",
+          "grows": true,
+          "span": 1,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Longueur fémorale",
+          "type": "measure-field",
+          "shortLabel": "LF",
+          "grows": true,
+          "span": 16,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Percentile Longueur fémorale",
+          "type": "number-field",
+          "shortLabel": "%",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "AFI",
+          "type": "measure-field",
+          "shortLabel": "AFI",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Percentile AFI",
+          "type": "number-field",
+          "shortLabel": "%",
+          "grows": true,
+          "span": 1,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Conclusion",
+          "type": "text-field",
+          "shortLabel": "Ccl",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

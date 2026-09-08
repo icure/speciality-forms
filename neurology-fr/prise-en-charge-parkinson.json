@@ -1,0 +1,890 @@
+{
+  "form": "Neurologie Parkinson/Prise en charge Parkinson",
+  "id": "D1C93FE2-0CA8-412F-8C37-B1E203B4CD8E",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Année du début des symptômes",
+              "type": "number-field",
+              "shortLabel": "Année du début des symptômes",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Année du diagnostic",
+              "type": "number-field",
+              "shortLabel": "Année du diagnostic",
+              "grows": true,
+              "span": 21,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Type de symptômes moteurs",
+              "type": "dropdown-field",
+              "shortLabel": "Type de symptômes moteurs",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "options": {
+                "LEGACY|tremblement prédominant|1": "tremblement prédominant",
+                "LEGACY|forme akinétorigide prédominante|1": "forme akinétorigide prédominante",
+                "LEGACY|mixte|1": "mixte"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Latéralité Parkinson",
+              "type": "dropdown-field",
+              "shortLabel": "Latéralité",
+              "grows": true,
+              "span": 17,
+              "readonly": false,
+              "options": {
+                "LEGACY|prédominance gauche|1": "prédominance gauche",
+                "LEGACY|prédominance droite|1": "prédominance droite",
+                "LEGACY|pas de latéralité prédominante|1": "pas de latéralité prédominante"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Poids au moment du diagnostic",
+              "type": "measure-field",
+              "shortLabel": "Poids au moment du diagnostic",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Prise de médicaments anti-Parkinsoninen",
+              "type": "dropdown-field",
+              "shortLabel": "Prise de méd. anti-Parkinsoninen",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "LEGACY|oui|1": "oui",
+                "LEGACY|non|1": "non"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Agoniste dopaminergique",
+              "type": "checkbox",
+              "shortLabel": "Agoniste dopaminergique",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "Agoniste dopaminergique": "Agoniste dopaminergique"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Agoniste dopaminergique longue durée",
+              "type": "checkbox",
+              "shortLabel": "Agoniste dop. longue durée",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "Agoniste dop. longue durée": "Agoniste dop. longue durée"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Levodopa",
+              "type": "checkbox",
+              "shortLabel": "Levodopa",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "Levodopa": "Levodopa"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Inhibiteur de la COMT",
+              "type": "checkbox",
+              "shortLabel": "Inhibiteur de la COMT",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "Inhibiteur de la COMT": "Inhibiteur de la COMT"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Inhibiteur de la MAO-B",
+              "type": "checkbox",
+              "shortLabel": "Inhibiteur de la MAO-B",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "Inhibiteur de la MAO-B": "Inhibiteur de la MAO-B"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Examen clinique",
+              "type": "text-field",
+              "shortLabel": "Examen clinique",
+              "grows": true,
+              "span": 24,
+              "rowSpan": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Tension artérielle systolique au repos",
+              "type": "measure-field",
+              "shortLabel": "Repos: TA sys",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Tension artérielle diastolique au repos",
+              "type": "measure-field",
+              "shortLabel": "TA dia",
+              "grows": true,
+              "span": 10,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Rhytme cardiaque au repos",
+              "type": "measure-field",
+              "shortLabel": "RC",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Tension artérielle systolique debout 1 min.",
+              "type": "measure-field",
+              "shortLabel": "Debout 1': TA sys",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Tension artérielle diastolique debout 1 min.",
+              "type": "measure-field",
+              "shortLabel": "TA dia",
+              "grows": true,
+              "span": 10,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Rhytme cardiaque debout 1 min.",
+              "type": "measure-field",
+              "shortLabel": "RC",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Tension artérielle systolique debout 3 min.",
+              "type": "measure-field",
+              "shortLabel": "Debout 3': TA sys",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Tension artérielle diastolique debout 3 min.",
+              "type": "measure-field",
+              "shortLabel": "TA dia",
+              "grows": true,
+              "span": 10,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Rhytme cardiaque debout 3 min.",
+              "type": "measure-field",
+              "shortLabel": "RC",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Tension artérielle systolique debout 5 min.",
+              "type": "measure-field",
+              "shortLabel": "Debout 5': TA sys",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Tension artérielle diastolique debout 5 min.",
+              "type": "measure-field",
+              "shortLabel": "TA dia",
+              "grows": true,
+              "span": 10,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Rhytme cardiaque debout 5 min.",
+              "type": "measure-field",
+              "shortLabel": "RC",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Fluctuations motrices",
+              "type": "dropdown-field",
+              "shortLabel": "Fluctuations motrices",
+              "grows": true,
+              "span": 11,
+              "readonly": false,
+              "options": {
+                "LEGACY|oui|1": "oui",
+                "LEGACY|non|1": "non"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Dyskinésies",
+              "type": "dropdown-field",
+              "shortLabel": "Dyskinésies",
+              "grows": true,
+              "span": 13,
+              "readonly": false,
+              "options": {
+                "LEGACY|oui|1": "oui",
+                "LEGACY|non|1": "non"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Echelle Hoehn and Yahr",
+              "type": "dropdown-field",
+              "shortLabel": "Hoehn and Yahr",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "LEGACY|0: Pas de signes parkinsoniens|1": "0: Pas de signes parkinsoniens",
+                "LEGACY|1: Signes unilatéraux n'entraînant pas de handicap dans la vie quotidienne|1": "1: Signes unilatéraux n'entraînant pas de handicap dans la vie quotidienne",
+                "LEGACY|2: Signes à prédominance unilatérale entraînant un certain handicap|1": "2: Signes à prédominance unilatérale entraînant un certain handicap",
+                "LEGACY|3: Atteinte bilatérale avec une certaine instabilité posturale, malade autonome|1": "3: Atteinte bilatérale avec une certaine instabilité posturale, malade autonome",
+                "LEGACY|4: Handicap sévère, mais possibilités de marche, perte partielle de l'autonomie|1": "4: Handicap sévère, mais possibilités de marche, perte partielle de l'autonomie",
+                "LEGACY|5: Malade en chaise roulante ou alité, non autonome|1": "5: Malade en chaise roulante ou alité, non autonome"
+              },
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 3",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Ferritine",
+              "type": "dropdown-field",
+              "shortLabel": "Ferritine",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "LEGACY|normal|1": "normal",
+                "LEGACY|anormal|1": "anormal"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Commentaire Ferritine",
+              "type": "text-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "IRM encéphale",
+              "type": "dropdown-field",
+              "shortLabel": "IRM encéphale",
+              "grows": true,
+              "span": 11,
+              "readonly": false,
+              "options": {
+                "LEGACY|normal|1": "normal",
+                "LEGACY|anormal|1": "anormal"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Commentaire IRM encéphale",
+              "type": "text-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Tests thyroïdiens",
+              "type": "dropdown-field",
+              "shortLabel": "Tests thyroïdiens",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "LEGACY|normal|1": "normal",
+                "LEGACY|anormal|1": "anormal"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Commentaire Tests thyroïdiens",
+              "type": "text-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "CT crâne",
+              "type": "dropdown-field",
+              "shortLabel": "CT crâne",
+              "grows": true,
+              "span": 11,
+              "readonly": false,
+              "options": {
+                "LEGACY|normal|1": "normal",
+                "LEGACY|anormal|1": "anormal"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Commentaire CT crâne",
+              "type": "text-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Bilan phosphocalcique",
+              "type": "dropdown-field",
+              "shortLabel": "Bilan phosphocalcique",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "LEGACY|normal|1": "normal",
+                "LEGACY|anormal|1": "anormal"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Commentaire Bilan phosphocalcique",
+              "type": "text-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "DAT scanner",
+              "type": "dropdown-field",
+              "shortLabel": "DAT scanner",
+              "grows": true,
+              "span": 11,
+              "readonly": false,
+              "options": {
+                "LEGACY|normal|1": "normal",
+                "LEGACY|anormal|1": "anormal"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Commentaire DAT scanner",
+              "type": "text-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Cuivre",
+              "type": "dropdown-field",
+              "shortLabel": "Cuivre",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "LEGACY|normal|1": "normal",
+                "LEGACY|anormal|1": "anormal"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Commentaire Cuivre",
+              "type": "text-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "SPECT",
+              "type": "dropdown-field",
+              "shortLabel": "SPECT",
+              "grows": true,
+              "span": 11,
+              "readonly": false,
+              "options": {
+                "LEGACY|normal|1": "normal",
+                "LEGACY|anormal|1": "anormal"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Commentaire SPECT",
+              "type": "text-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Céruloplasmine",
+              "type": "dropdown-field",
+              "shortLabel": "Céruloplasmine",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "LEGACY|normal|1": "normal",
+                "LEGACY|anormal|1": "anormal"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Commentaire Céruloplasmine",
+              "type": "text-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "EEG",
+              "type": "dropdown-field",
+              "shortLabel": "EEG",
+              "grows": true,
+              "span": 11,
+              "readonly": false,
+              "options": {
+                "LEGACY|normal|1": "normal",
+                "LEGACY|anormal|1": "anormal"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Commentaire EEG",
+              "type": "text-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Acanthocytes",
+              "type": "dropdown-field",
+              "shortLabel": "Acanthocytes",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "LEGACY|normal|1": "normal",
+                "LEGACY|anormal|1": "anormal"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Commentaire Acanthocytes",
+              "type": "text-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Test olfactif",
+              "type": "dropdown-field",
+              "shortLabel": "Test olfactif",
+              "grows": true,
+              "span": 11,
+              "readonly": false,
+              "options": {
+                "LEGACY|normal|1": "normal",
+                "LEGACY|anormal|1": "anormal"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Commentaire Test olfactif",
+              "type": "text-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Tests hépatiques",
+              "type": "dropdown-field",
+              "shortLabel": "Tests hépatiques",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "LEGACY|normal|1": "normal",
+                "LEGACY|anormal|1": "anormal"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Commentaire Tests hépatiques",
+              "type": "text-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "EMG des sphincters",
+              "type": "dropdown-field",
+              "shortLabel": "EMG des sphincters",
+              "grows": true,
+              "span": 11,
+              "readonly": false,
+              "options": {
+                "LEGACY|normal|1": "normal",
+                "LEGACY|anormal|1": "anormal"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Commentaire EMG des sphincters",
+              "type": "text-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Hématogramme",
+              "type": "dropdown-field",
+              "shortLabel": "Hématogramme",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "LEGACY|normal|1": "normal",
+                "LEGACY|anormal|1": "anormal"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Commentaire Hématogramme",
+              "type": "text-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Bilan neuropsychologique",
+              "type": "dropdown-field",
+              "shortLabel": "Bilan neuropsy.",
+              "grows": true,
+              "span": 11,
+              "readonly": false,
+              "options": {
+                "LEGACY|normal|1": "normal",
+                "LEGACY|anormal|1": "anormal"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Commentaire Bilan neuropsychologique",
+              "type": "text-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "VS",
+              "type": "dropdown-field",
+              "shortLabel": "VS",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "LEGACY|normal|1": "normal",
+                "LEGACY|anormal|1": "anormal"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Commentaire VS",
+              "type": "text-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 20,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "FAN",
+              "type": "dropdown-field",
+              "shortLabel": "FAN",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "LEGACY|normal|1": "normal",
+                "LEGACY|anormal|1": "anormal"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Commentaire FAN",
+              "type": "text-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 20,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Ionogramme",
+              "type": "dropdown-field",
+              "shortLabel": "Ionogramme",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "LEGACY|normal|1": "normal",
+                "LEGACY|anormal|1": "anormal"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Commentaire Ionogramme",
+              "type": "text-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 20,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Examens génétiques",
+              "type": "text-field",
+              "shortLabel": "Examens génétiques",
+              "grows": true,
+              "span": 24,
+              "rowSpan": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

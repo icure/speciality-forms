@@ -1,0 +1,227 @@
+{
+  "form": "Plastique/Toxine botulique",
+  "id": "e49e1327-fce0-1b8a-f655-4366ef0bb83a",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Produit utilisé",
+              "type": "dropdown-field",
+              "shortLabel": "Produit utilisé",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "options": {
+                "LEGACY|Vistabel|1": "Vistabel",
+                "LEGACY|Botox|1": "Botox",
+                "LEGACY|Dysport|1": "Dysport",
+                "LEGACY|Bocouture|1": "Bocouture"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Date d'expiration",
+              "type": "date-picker",
+              "shortLabel": "Expir.",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Lot",
+              "type": "text-field",
+              "shortLabel": "Lot",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Dilution",
+              "type": "measure-field",
+              "shortLabel": "Dilution",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "front",
+              "type": "checkbox",
+              "shortLabel": "front",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "front": "front"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "glabelle",
+              "type": "checkbox",
+              "shortLabel": "glabelle",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "glabelle": "glabelle"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "patte d'oie",
+              "type": "checkbox",
+              "shortLabel": "patte d'oie",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "patte d'oie": "patte d'oie"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "bunny lines",
+              "type": "checkbox",
+              "shortLabel": "bunny lines",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "bunny lines": "bunny lines"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "paupière inf.",
+              "type": "checkbox",
+              "shortLabel": "paupière inf.",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "paupière inf.": "paupière inf."
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "menton",
+              "type": "checkbox",
+              "shortLabel": "menton",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "menton": "menton"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "cordes platysmales",
+              "type": "checkbox",
+              "shortLabel": "cordes platysmales",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "cordes platysmales": "cordes platysmales"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "décolleté",
+              "type": "checkbox",
+              "shortLabel": "décolleté",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "décolleté": "décolleté"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "divers",
+              "type": "token-field",
+              "shortLabel": "divers",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "note",
+              "type": "text-field",
+              "shortLabel": "Note",
+              "grows": true,
+              "span": 10,
+              "rowSpan": 13,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "effet indésirable ",
+              "type": "text-field",
+              "shortLabel": "Effet indésirable aux injections précédentes",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

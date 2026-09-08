@@ -1,0 +1,33 @@
+{
+  "form": "sous-formulaires CRO/générique",
+  "id": "93B157F1-0C80-4638-A88A-2C03702D49A9",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "protocole",
+          "type": "text-field",
+          "shortLabel": "protocole",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "traitement post-op",
+          "type": "items-list-field",
+          "shortLabel": "traitement post-op",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

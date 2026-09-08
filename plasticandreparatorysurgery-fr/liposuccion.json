@@ -1,0 +1,348 @@
+{
+  "form": "Pré-op/liposuccion",
+  "id": "04D94B95-99C0-4A6D-9D68-FDB5529ECB9D",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "motif de consultation ",
+              "type": "text-field",
+              "shortLabel": "motif de consultation ",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "poids",
+              "type": "measure-field",
+              "shortLabel": "poids",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "culotte de cheval",
+              "type": "checkbox",
+              "shortLabel": "culotte de cheval",
+              "grows": true,
+              "span": 10,
+              "readonly": false,
+              "options": {
+                "culotte de cheval": "culotte de cheval"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "hanches",
+              "type": "checkbox",
+              "shortLabel": "hanches",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "hanches": "hanches"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "fesses",
+              "type": "checkbox",
+              "shortLabel": "fesses",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "fesses": "fesses"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "poids minimum",
+              "type": "measure-field",
+              "shortLabel": "poids minimum",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "face interne des cuisses",
+              "type": "checkbox",
+              "shortLabel": "face interne des cuisses",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "options": {
+                "face interne des cuisses": "face interne des cuisses"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "hypogastre",
+              "type": "checkbox",
+              "shortLabel": "hypogastre",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "options": {
+                "hypogastre": "hypogastre"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "face interne des genoux",
+              "type": "checkbox",
+              "shortLabel": "face interne des genoux",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "face interne des genoux": "face interne des genoux"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "poids maximum",
+              "type": "measure-field",
+              "shortLabel": "poids maximum",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "flancs",
+              "type": "checkbox",
+              "shortLabel": "flancs",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "options": {
+                "flancs": "flancs"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "épigastre",
+              "type": "checkbox",
+              "shortLabel": "épigastre",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "épigastre": "épigastre"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "taille",
+              "type": "measure-field",
+              "shortLabel": "taille",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "plainte",
+              "type": "text-field",
+              "shortLabel": "plainte supplémentaire",
+              "grows": true,
+              "span": 20,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "BMI",
+              "type": "number-field",
+              "shortLabel": "BMI",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "vergetures",
+              "type": "checkbox",
+              "shortLabel": "vergetures",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "options": {
+                "vergetures": "vergetures"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "cellulite",
+              "type": "checkbox",
+              "shortLabel": "cellulite",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "cellulite": "cellulite"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "irrégularités cutanées",
+              "type": "checkbox",
+              "shortLabel": "irrégularités cutanées",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "options": {
+                "irrégularités cutanées": "irrégularités cutanées"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "varicosités",
+              "type": "checkbox",
+              "shortLabel": "varicosités",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "varicosités": "varicosités"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "oedeme",
+              "type": "checkbox",
+              "shortLabel": "oedeme",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "oedeme": "oedeme"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "examen clinique",
+              "type": "text-field",
+              "shortLabel": "examen clinique particulier",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "traitement proposé",
+              "type": "text-field",
+              "shortLabel": "traitement proposé",
+              "grows": true,
+              "span": 24,
+              "rowSpan": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 3",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "note",
+              "type": "text-field",
+              "shortLabel": "note",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "fiche d'info",
+              "type": "checkbox",
+              "shortLabel": "fiche d'information donnée",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "fiche d'information donnée": "fiche d'information donnée"
+              },
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

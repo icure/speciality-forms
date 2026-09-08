@@ -1,0 +1,90 @@
+{
+  "form": "Dermatologie/Klacht",
+  "id": "8571C4AF-71EA-4B3C-8808-C319052B1374",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Motief",
+          "type": "text-field",
+          "shortLabel": "Motief",
+          "grows": true,
+          "span": 11,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Anamnese",
+          "type": "text-field",
+          "shortLabel": "Anamnese",
+          "grows": true,
+          "span": 13,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Klinische beschrijving",
+          "type": "text-field",
+          "shortLabel": "Klin. beschr.",
+          "grows": true,
+          "span": 11,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Labo verslagen",
+          "type": "text-field",
+          "shortLabel": "Labo verslagen",
+          "grows": true,
+          "span": 13,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Differentiale diagnose",
+          "type": "token-field",
+          "shortLabel": "Differentiale diagnose",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Besluit",
+          "type": "text-field",
+          "shortLabel": "Besluit",
+          "grows": true,
+          "span": 11,
+          "rowSpan": 3,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Behandeling",
+          "type": "token-field",
+          "shortLabel": "Behandeling",
+          "grows": true,
+          "span": 13,
+          "rowSpan": 3,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

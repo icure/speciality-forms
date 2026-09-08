@@ -1,0 +1,985 @@
+{
+  "form": "Neurologie SEP/Prise en charge SEP",
+  "id": "83210432-8374-4AB4-B264-2EA3AC2D3201",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Le patient connaît le diagnostic",
+              "type": "dropdown-field",
+              "shortLabel": "Le patient connaît le diagnostic",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "LEGACY|oui|1": "oui",
+                "LEGACY|non|1": "non"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Autre cas de SEP dans la famille n°1",
+              "type": "text-field",
+              "shortLabel": "Autre cas de SEP dans la famille",
+              "grows": true,
+              "span": 19,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Confirmé par neurologue n°1",
+              "type": "checkbox",
+              "shortLabel": "Conf.",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "Conf.": "Conf."
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Autre cas de SEP dans la famille n°2",
+              "type": "text-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 19,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Confirmé par neurologue n°2",
+              "type": "checkbox",
+              "shortLabel": "",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "": ""
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Aucune forme particulière de sclérose",
+              "type": "checkbox",
+              "shortLabel": "Aucune",
+              "grows": true,
+              "span": 2,
+              "readonly": false,
+              "options": {
+                "Aucune": "Aucune"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Variante de Marburg",
+              "type": "checkbox",
+              "shortLabel": "Variante de Marburg",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "options": {
+                "Variante de Marburg": "Variante de Marburg"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Autre cas de SEP dans la famille n°3",
+              "type": "text-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 11,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Confirmé par neurologue n°3",
+              "type": "checkbox",
+              "shortLabel": "",
+              "grows": true,
+              "span": 2,
+              "readonly": false,
+              "options": {
+                "": ""
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Encéphalomyélite disséminée aiguë",
+              "type": "checkbox",
+              "shortLabel": "Encéphalomyélite disséminée aiguë",
+              "grows": true,
+              "span": 2,
+              "readonly": false,
+              "options": {
+                "Encéphalomyélite disséminée aiguë": "Encéphalomyélite disséminée aiguë"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Sclérose concentrique de Balo",
+              "type": "checkbox",
+              "shortLabel": "Sclérose concentrique de Balo",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "options": {
+                "Sclérose concentrique de Balo": "Sclérose concentrique de Balo"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Autre cas de SEP dans la famille n°4",
+              "type": "text-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 11,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Confirmé par neurologue n°4",
+              "type": "checkbox",
+              "shortLabel": "",
+              "grows": true,
+              "span": 2,
+              "readonly": false,
+              "options": {
+                "": ""
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Myélite transverse",
+              "type": "checkbox",
+              "shortLabel": "Myélite transverse",
+              "grows": true,
+              "span": 2,
+              "readonly": false,
+              "options": {
+                "Myélite transverse": "Myélite transverse"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Maladie de Schilder",
+              "type": "checkbox",
+              "shortLabel": "Maladie de Schilder",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "options": {
+                "Maladie de Schilder": "Maladie de Schilder"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Autre cas de SEP dans la famille n°5",
+              "type": "text-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 11,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Confirmé par neurologue n°5",
+              "type": "checkbox",
+              "shortLabel": "",
+              "grows": true,
+              "span": 2,
+              "readonly": false,
+              "options": {
+                "": ""
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Maladie de Devic",
+              "type": "checkbox",
+              "shortLabel": "Maladie de Devic",
+              "grows": true,
+              "span": 2,
+              "readonly": false,
+              "options": {
+                "Maladie de Devic": "Maladie de Devic"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Autre forme de sclérose",
+              "type": "text-field",
+              "shortLabel": "Autre",
+              "grows": true,
+              "span": 22,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "HTLV 1&2",
+              "type": "dropdown-field",
+              "shortLabel": "HTLV 1&2",
+              "grows": true,
+              "span": 19,
+              "readonly": false,
+              "options": {
+                "LEGACY|normal|1": "normal",
+                "LEGACY|anormal|1": "anormal"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "HTLV 1&2 commentaire",
+              "type": "text-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vitesse de sédimentation des hématie",
+              "type": "dropdown-field",
+              "shortLabel": "Vitesse de sédim. des hématies",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "LEGACY|normal|1": "normal",
+                "LEGACY|anormal|1": "anormal"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vitesse de sédimentation des hématie commentaire",
+              "type": "text-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "VDRL&TPHA",
+              "type": "dropdown-field",
+              "shortLabel": "VDRL&TPHA",
+              "grows": true,
+              "span": 11,
+              "readonly": false,
+              "options": {
+                "LEGACY|normal|1": "normal",
+                "LEGACY|anormal|1": "anormal"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "VDRL&TPHA commentaire",
+              "type": "text-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Protéine C-réactiv",
+              "type": "dropdown-field",
+              "shortLabel": "Protéine C-réactiv",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "LEGACY|normal|1": "normal",
+                "LEGACY|anormal|1": "anormal"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Protéine C-réactiv commentaire",
+              "type": "text-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Acide gras à très longue chaîne",
+              "type": "dropdown-field",
+              "shortLabel": "Acide gras à très longue chaîne",
+              "grows": true,
+              "span": 11,
+              "readonly": false,
+              "options": {
+                "LEGACY|normal|1": "normal",
+                "LEGACY|anormal|1": "anormal"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Acide gras à très longue chaîne commentaire",
+              "type": "text-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Anticorps antinucléaires",
+              "type": "dropdown-field",
+              "shortLabel": "Anticorps antinucléaires",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "LEGACY|normal|1": "normal",
+                "LEGACY|anormal|1": "anormal"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Anticorps antinucléaires commentaire",
+              "type": "text-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Lactate/Pyruvate",
+              "type": "dropdown-field",
+              "shortLabel": "Lactate/Pyruvate",
+              "grows": true,
+              "span": 11,
+              "readonly": false,
+              "options": {
+                "LEGACY|normal|1": "normal",
+                "LEGACY|anormal|1": "anormal"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Lactate/Pyruvate commentaire",
+              "type": "text-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": " Anticorps spécifiques d'organe",
+              "type": "dropdown-field",
+              "shortLabel": " Anticorps spécifiques d'organe",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "LEGACY|normal|1": "normal",
+                "LEGACY|anormal|1": "anormal"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": " Anticorps spécifiques d'organe commentaire",
+              "type": "text-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Enzyme leucocytaires",
+              "type": "dropdown-field",
+              "shortLabel": "Enzyme leucocytaires",
+              "grows": true,
+              "span": 11,
+              "readonly": false,
+              "options": {
+                "LEGACY|normal|1": "normal",
+                "LEGACY|anormal|1": "anormal"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Enzyme leucocytaires commentaire",
+              "type": "text-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "HIV",
+              "type": "dropdown-field",
+              "shortLabel": "HIV",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "LEGACY|normal|1": "normal",
+                "LEGACY|anormal|1": "anormal"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "HIV commentaire",
+              "type": "text-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vitamine B12",
+              "type": "dropdown-field",
+              "shortLabel": "Vitamine B12",
+              "grows": true,
+              "span": 11,
+              "readonly": false,
+              "options": {
+                "LEGACY|normal|1": "normal",
+                "LEGACY|anormal|1": "anormal"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vitamine B12 commentaire",
+              "type": "text-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Borellia burgdorferi",
+              "type": "dropdown-field",
+              "shortLabel": "Borellia burgdorferi",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "LEGACY|normal|1": "normal",
+                "LEGACY|anormal|1": "anormal"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Borellia burgdorferi commentaire",
+              "type": "text-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Enzyme de conversion de l'angiotensine",
+              "type": "dropdown-field",
+              "shortLabel": "Enz. conv. de l'angiotensine",
+              "grows": true,
+              "span": 11,
+              "readonly": false,
+              "options": {
+                "LEGACY|normal|1": "normal",
+                "LEGACY|anormal|1": "anormal"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Enzyme de conversion de l'angiotensine commentaire",
+              "type": "text-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 3",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "IRM céphalique: critère de Paty",
+              "type": "checkbox",
+              "shortLabel": "IRM céphalique: critère de Paty",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "IRM céphalique: critère de Paty": "IRM céphalique: critère de Paty"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Liquide céphalo rachidien",
+              "type": "checkbox",
+              "shortLabel": "Liquide céphalo rachidien",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "Liquide céphalo rachidien": "Liquide céphalo rachidien"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "IRM céphalique critère de Barkhof",
+              "type": "checkbox",
+              "shortLabel": "IRM céphalique critère de Barkhof",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "IRM céphalique critère de Barkhof": "IRM céphalique critère de Barkhof"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Potentiels évoqués visuels",
+              "type": "checkbox",
+              "shortLabel": "Potentiels évoqués visuels",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "Potentiels évoqués visuels": "Potentiels évoqués visuels"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "IRM médulaire cervical",
+              "type": "checkbox",
+              "shortLabel": "IRM médulaire cervical",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "IRM médulaire cervical": "IRM médulaire cervical"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Potentiels évoqués auitifs",
+              "type": "checkbox",
+              "shortLabel": "Potentiels évoqués auitifs",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "Potentiels évoqués auitifs": "Potentiels évoqués auitifs"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "IRM médulaire dorsolombaire",
+              "type": "checkbox",
+              "shortLabel": "IRM médulaire dorsolombaire",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "IRM médulaire dorsolombaire": "IRM médulaire dorsolombaire"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Potentiels évoqués somesthésiques",
+              "type": "checkbox",
+              "shortLabel": "Potentiels évoqués somesthésiques",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "Potentiels évoqués somesthésiques": "Potentiels évoqués somesthésiques"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "IRM nouvelle(s) lésion(s) selon critère McDonald",
+              "type": "checkbox",
+              "shortLabel": "IRM nouvelle(s) lésion(s) selon critère McDonald",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "IRM nouvelle(s) lésion(s) selon critère McDonald": "IRM nouvelle(s) lésion(s) selon critère McDonald"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Potentiels évoqués moteurs",
+              "type": "checkbox",
+              "shortLabel": "Potentiels évoqués moteurs",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "Potentiels évoqués moteurs": "Potentiels évoqués moteurs"
+              },
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 4",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Examen neurologique normal.",
+              "type": "checkbox",
+              "shortLabel": "Examen neurologique normal.",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "Examen neurologique normal.": "Examen neurologique normal."
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Aucune gêne fonctionnelle. Minimes anomalies à l'examen neurologique.",
+              "type": "checkbox",
+              "shortLabel": "Aucune gêne fonctionnelle. Minimes anomalies à l'examen neurologique.",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "Aucune gêne fonctionnelle. Minimes anomalies à l'examen neurologique.": "Aucune gêne fonctionnelle. Minimes anomalies à l'examen neurologique."
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Gêne fonctionnelle minime et autre que locomotrice , peut courir.",
+              "type": "checkbox",
+              "shortLabel": "Gêne fonctionnelle minime et autre que locomotrice , peut courir.",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "Gêne fonctionnelle minime et autre que locomotrice , peut courir.": "Gêne fonctionnelle minime et autre que locomotrice , peut courir."
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Périmètre de marche (PM) illimité d'une traite, mais ne peut courir , ou gêne significative, autre que locomotrice.",
+              "type": "checkbox",
+              "shortLabel": "Périmètre de marche (PM) illimité d'une traite, mais ne peut courir , ou gêne significative, autre que locomotrice.",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "Périmètre de marche (PM) illimité d'une traite, mais ne peut courir , ou gêne significative, autre que locomotrice.": "Périmètre de marche (PM) illimité d'une traite, mais ne peut courir , ou gêne significative, autre que locomotrice."
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Marche sans aide , PM limité mais > 500 mètres d'une traite.",
+              "type": "checkbox",
+              "shortLabel": "Marche sans aide , PM limité mais > 500 mètres d'une traite.",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "Marche sans aide , PM limité mais > 500 mètres d'une traite.": "Marche sans aide , PM limité mais > 500 mètres d'une traite."
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Marche sans aide , PM < 500 mètres d'une traite.",
+              "type": "checkbox",
+              "shortLabel": "Marche sans aide , PM < 500 mètres d'une traite.",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "Marche sans aide , PM < 500 mètres d'une traite.": "Marche sans aide , PM < 500 mètres d'une traite."
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "A Marche avec aide bilatérale permanente , PM < 100 mètres d'une traite.",
+              "type": "checkbox",
+              "shortLabel": "A Marche avec aide bilatérale permanente , PM < 100 mètres d'une traite.",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "A Marche avec aide bilatérale permanente , PM < 100 mètres d'une traite.": "A Marche avec aide bilatérale permanente , PM < 100 mètres d'une traite."
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "B Marche avec aide unilatérale permanente , PM < 100 mètres d'une traite.",
+              "type": "checkbox",
+              "shortLabel": "B Marche avec aide unilatérale permanente , PM < 100 mètres d'une traite.",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "B Marche avec aide unilatérale permanente , PM < 100 mètres d'une traite.": "B Marche avec aide unilatérale permanente , PM < 100 mètres d'une traite."
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Confiné à l'intérieur , quelques pas à l'aide des murs et meubles , PM < 20 mètres d'une traite",
+              "type": "checkbox",
+              "shortLabel": "Confiné à l'intérieur , quelques pas à l'aide des murs et meubles , PM < 20 mètres d'une traite",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "Confiné à l'intérieur , quelques pas à l'aide des murs et meubles , PM < 20 mètres d'une traite": "Confiné à l'intérieur , quelques pas à l'aide des murs et meubles , PM < 20 mètres d'une traite"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Confiné au fauteuil , incapable de faire un pas , mouvements utiles des membres supérieurs.",
+              "type": "checkbox",
+              "shortLabel": "Confiné au fauteuil , incapable de faire un pas , mouvements utiles des membres supérieurs.",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "Confiné au fauteuil , incapable de faire un pas , mouvements utiles des membres supérieurs.": "Confiné au fauteuil , incapable de faire un pas , mouvements utiles des membres supérieurs."
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Confiné au lit, totalement dépendant.",
+              "type": "checkbox",
+              "shortLabel": "Confiné au lit, totalement dépendant.",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "Confiné au lit, totalement dépendant.": "Confiné au lit, totalement dépendant."
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Confiné au lit, totalement dépendant, pas de mouvement utile des membres supérieurs",
+              "type": "checkbox",
+              "shortLabel": "Confiné au lit, totalement dépendant, pas de mouvement utile des membres supérieurs",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "Confiné au lit, totalement dépendant, pas de mouvement utile des membres supérieurs": "Confiné au lit, totalement dépendant, pas de mouvement utile des membres supérieurs"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Décès lié à la SEP.",
+              "type": "checkbox",
+              "shortLabel": "Décès lié à la SEP.",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "Décès lié à la SEP.": "Décès lié à la SEP."
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Décès non lié à la SEP.",
+              "type": "checkbox",
+              "shortLabel": "Décès non lié à la SEP.",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "Décès non lié à la SEP.": "Décès non lié à la SEP."
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vérification décès par pathologiste",
+              "type": "text-field",
+              "shortLabel": "Vérification décès par pathologiste",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

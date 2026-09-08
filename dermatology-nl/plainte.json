@@ -1,0 +1,668 @@
+{
+  "form": "Dermatologie/Plainte",
+  "id": "C2869E0C-142D-4C15-967C-C5E373F4600D",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Motif",
+              "type": "text-field",
+              "shortLabel": "Motif",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Anamnèse",
+              "type": "text-field",
+              "shortLabel": "Anamnèse",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "subform",
+              "id": "4EBF83AA-915A-4FEA-9F9D-12B152F9C976",
+              "shortLabel": "Subform",
+              "forms": {},
+              "span": 24,
+              "rowSpan": 1,
+              "labels": {}
+            },
+            {
+              "clazz": "field",
+              "field": "Traitement antérieur",
+              "type": "text-field",
+              "shortLabel": "Traité par",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Résultats examens récents",
+              "type": "text-field",
+              "shortLabel": "Rés. exam.",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Description clinique",
+              "type": "text-field",
+              "shortLabel": "Descr. clin.",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Diagnostics différentiels",
+              "type": "token-field",
+              "shortLabel": "Diag. diff.",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Conclusion",
+              "type": "text-field",
+              "shortLabel": "Conclusion",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Traitements",
+              "type": "token-field",
+              "shortLabel": "Traitements",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "subform",
+              "id": "F29665D9-0E83-4B8F-B6DB-D311785DF85C",
+              "shortLabel": "Examens complémentaires",
+              "forms": {
+                "Examens complémentaires/Mycologie": {
+                  "form": "Examens complémentaires/Mycologie",
+                  "id": "81A121D9-2008-491D-9F35-B94D9E396124",
+                  "sections": [
+                    {
+                      "section": "Main",
+                      "fields": [
+                        {
+                          "clazz": "field",
+                          "field": "Mycologie origine",
+                          "type": "token-field",
+                          "shortLabel": "Origine",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Mycologie examen direct",
+                          "type": "checkbox",
+                          "shortLabel": "Mycologie examen direct",
+                          "grows": true,
+                          "span": 9,
+                          "readonly": false,
+                          "options": {
+                            "Mycologie examen direct": "Mycologie examen direct"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Mycologie culture de champignons filamenteux",
+                          "type": "checkbox",
+                          "shortLabel": "Culture de champ. filamenteux",
+                          "grows": true,
+                          "span": 9,
+                          "readonly": false,
+                          "options": {
+                            "Culture de champ. filamenteux": "Culture de champ. filamenteux"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Mycologie culture de levures",
+                          "type": "checkbox",
+                          "shortLabel": "Mycologie culture de levures",
+                          "grows": true,
+                          "span": 5,
+                          "readonly": false,
+                          "options": {
+                            "Mycologie culture de levures": "Mycologie culture de levures"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "1BE8E192-1390-4F9D-98D4-D94D17AD009E",
+                          "type": "action",
+                          "shortLabel": "Imprimer",
+                          "grows": true,
+                          "span": 1,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Mycologie identification de champignons filamenteux",
+                          "type": "checkbox",
+                          "shortLabel": "Identification de champ. filamenteux",
+                          "grows": true,
+                          "span": 10,
+                          "readonly": false,
+                          "options": {
+                            "Identification de champ. filamenteux": "Identification de champ. filamenteux"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Mycologie identification de levures",
+                          "type": "checkbox",
+                          "shortLabel": "Mycologie identification de levures",
+                          "grows": true,
+                          "span": 14,
+                          "readonly": false,
+                          "options": {
+                            "Mycologie identification de levures": "Mycologie identification de levures"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "Examens complémentaires/Imagerie": {
+                  "form": "Examens complémentaires/Imagerie",
+                  "id": "9AC69410-4328-4CFA-A4A4-E6590591D9CB",
+                  "sections": [
+                    {
+                      "section": "Main",
+                      "fields": [
+                        {
+                          "clazz": "field",
+                          "field": "Rx thorax",
+                          "type": "checkbox",
+                          "shortLabel": "Rx thorax",
+                          "grows": true,
+                          "span": 1,
+                          "readonly": false,
+                          "options": {
+                            "Rx thorax": "Rx thorax"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Rx",
+                          "type": "dropdown-field",
+                          "shortLabel": "Rx",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "options": {
+                            "LEGACY|Thorax|1": "Thorax",
+                            "LEGACY|Main gauche|1": "Main gauche",
+                            "LEGACY|Main droite|1": "Main droite",
+                            "LEGACY|Mains comparées|1": "Mains comparées",
+                            "LEGACY|Pied gauche|1": "Pied gauche",
+                            "LEGACY|Pied droit|1": "Pied droit",
+                            "LEGACY|Pieds comparés|1": "Pieds comparés",
+                            "LEGACY|Cheville gauche|1": "Cheville gauche",
+                            "LEGACY|Cheville droite|1": "Cheville droite"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Echographie",
+                          "type": "text-field",
+                          "shortLabel": "Echogr.",
+                          "grows": true,
+                          "span": 7,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Scanner",
+                          "type": "text-field",
+                          "shortLabel": "Scanner",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Produit de contraste",
+                          "type": "dropdown-field",
+                          "shortLabel": "",
+                          "grows": true,
+                          "span": 4,
+                          "readonly": false,
+                          "options": {
+                            "LEGACY|sans produit de contraste|1": "sans produit de contraste",
+                            "LEGACY|avec produit de contraste|1": "avec produit de contraste"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "PET Scan",
+                          "type": "checkbox",
+                          "shortLabel": "PET Scan",
+                          "grows": true,
+                          "span": 1,
+                          "readonly": false,
+                          "options": {
+                            "PET Scan": "PET Scan"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "IRM",
+                          "type": "text-field",
+                          "shortLabel": "IRM",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Imagerie autre",
+                          "type": "text-field",
+                          "shortLabel": "Imagerie autre",
+                          "grows": true,
+                          "span": 15,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "4255142F-343B-4DF9-B2DD-6473EDF61FFE",
+                          "type": "action",
+                          "shortLabel": "Demande",
+                          "grows": true,
+                          "span": 2,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "Examens complémentaires/Anatomo-pathologie": {
+                  "form": "Examens complémentaires/Anatomo-pathologie",
+                  "id": "EC4F50AC-BF1C-4D00-9691-3C089096A959",
+                  "sections": [
+                    {
+                      "section": "Main",
+                      "fields": [
+                        {
+                          "clazz": "field",
+                          "field": "Analyses urgentes ",
+                          "type": "checkbox",
+                          "shortLabel": "Analyse urgente",
+                          "grows": true,
+                          "span": 1,
+                          "readonly": false,
+                          "options": {
+                            "Analyse urgente": "Analyse urgente"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Nombre(s) de pots",
+                          "type": "number-field",
+                          "shortLabel": "Nombre(s) de pots",
+                          "grows": true,
+                          "span": 12,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Nombre(s) de prélèvement(s) par pot",
+                          "type": "number-field",
+                          "shortLabel": "Nombre(s) de prélèvement(s) par pot",
+                          "grows": true,
+                          "span": 11,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Punch",
+                          "type": "checkbox",
+                          "shortLabel": "Punch",
+                          "grows": true,
+                          "span": 5,
+                          "readonly": false,
+                          "options": {
+                            "Punch": "Punch"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Curette",
+                          "type": "checkbox",
+                          "shortLabel": "Curette",
+                          "grows": true,
+                          "span": 4,
+                          "readonly": false,
+                          "options": {
+                            "Curette": "Curette"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Biopsie à la lame",
+                          "type": "checkbox",
+                          "shortLabel": "Biopsie à la lame",
+                          "grows": true,
+                          "span": 5,
+                          "readonly": false,
+                          "options": {
+                            "Biopsie à la lame": "Biopsie à la lame"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Excision shave-coagulation",
+                          "type": "checkbox",
+                          "shortLabel": "Excision shave-coagulation",
+                          "grows": true,
+                          "span": 5,
+                          "readonly": false,
+                          "options": {
+                            "Excision shave-coagulation": "Excision shave-coagulation"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Excision suture",
+                          "type": "checkbox",
+                          "shortLabel": "Excision suture",
+                          "grows": true,
+                          "span": 5,
+                          "readonly": false,
+                          "options": {
+                            "Excision suture": "Excision suture"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Examen anapath HES",
+                          "type": "checkbox",
+                          "shortLabel": "Ex anapath HES 588011",
+                          "grows": true,
+                          "span": 5,
+                          "readonly": false,
+                          "options": {
+                            "Ex anapath HES 588011": "Ex anapath HES 588011"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Immunomarquage",
+                          "type": "checkbox",
+                          "shortLabel": "Immunomarquage",
+                          "grows": true,
+                          "span": 4,
+                          "readonly": false,
+                          "options": {
+                            "Immunomarquage": "Immunomarquage"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Examen anapath PAS",
+                          "type": "checkbox",
+                          "shortLabel": "PAS",
+                          "grows": true,
+                          "span": 5,
+                          "readonly": false,
+                          "options": {
+                            "PAS": "PAS"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Biologie moléculaire",
+                          "type": "checkbox",
+                          "shortLabel": "Biologie moléculaire",
+                          "grows": true,
+                          "span": 5,
+                          "readonly": false,
+                          "options": {
+                            "Biologie moléculaire": "Biologie moléculaire"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Prélévement d'ongle",
+                          "type": "checkbox",
+                          "shortLabel": "Prélévement d'ongle",
+                          "grows": true,
+                          "span": 5,
+                          "readonly": false,
+                          "options": {
+                            "Prélévement d'ongle": "Prélévement d'ongle"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "IFD",
+                          "type": "checkbox",
+                          "shortLabel": "IFD 588070 X ...",
+                          "grows": true,
+                          "span": 1,
+                          "readonly": false,
+                          "options": {
+                            "IFD 588070 X ...": "IFD 588070 X ..."
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Examen mycologique",
+                          "type": "checkbox",
+                          "shortLabel": "Examen mycologique",
+                          "grows": true,
+                          "span": 7,
+                          "readonly": false,
+                          "options": {
+                            "Examen mycologique": "Examen mycologique"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "IFI",
+                          "type": "checkbox",
+                          "shortLabel": "IFI 588070 X ...",
+                          "grows": true,
+                          "span": 9,
+                          "readonly": false,
+                          "options": {
+                            "IFI 588070 X ...": "IFI 588070 X ..."
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Trichogramme",
+                          "type": "checkbox",
+                          "shortLabel": "Trichogramme",
+                          "grows": true,
+                          "span": 7,
+                          "readonly": false,
+                          "options": {
+                            "Trichogramme": "Trichogramme"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Examen anapath autre",
+                          "type": "text-field",
+                          "shortLabel": "Examen anapath autre",
+                          "grows": true,
+                          "span": 19,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "1C32EE8F-1CD2-4629-AD6A-AF0427B6E5F4",
+                          "type": "action",
+                          "shortLabel": "Biopsie",
+                          "grows": true,
+                          "span": 3,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "11556B65-6543-4EA6-B91A-A9913EEE4C51",
+                          "type": "action",
+                          "shortLabel": "Excision",
+                          "grows": true,
+                          "span": 2,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "Dermatologie/Schéma visage": {
+                  "form": "Dermatologie/Schéma visage",
+                  "id": "DBE1E85D-A5F1-4A7A-AD49-391C91692CB6",
+                  "sections": [
+                    {
+                      "section": "Main",
+                      "fields": []
+                    }
+                  ]
+                },
+                "Dermatologie/Schéma corps homme": {
+                  "form": "Dermatologie/Schéma corps homme",
+                  "id": "EFDB7F19-4520-437B-A90D-8B137630A773",
+                  "sections": [
+                    {
+                      "section": "Main",
+                      "fields": []
+                    }
+                  ]
+                }
+              },
+              "span": 24,
+              "rowSpan": 1,
+              "labels": {}
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

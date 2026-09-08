@@ -1,0 +1,184 @@
+{
+  "form": "Demandes & résultats gynécologie 2.0/Résultats analyse",
+  "id": "FF361F30-2CFD-40EF-9BF1-4D7C8185A894",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Type d'examen",
+          "type": "dropdown-field",
+          "shortLabel": "Type d'examen",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "LEGACY|du dernier frottis|1": "du dernier frottis",
+            "LEGACY|de la prise de sang|1": "de la prise de sang",
+            "LEGACY|de la culture d'urine|1": "de la culture d'urine",
+            "LEGACY|de la culture vaginale|1": "de la culture vaginale",
+            "LEGACY|de la mammographie|1": "de la mammographie",
+            "LEGACY|de la biopsie|1": "de la biopsie",
+            "LEGACY|de l'ostéodensitométrie|1": "de l'ostéodensitométrie"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Conditions examen",
+          "type": "dropdown-field",
+          "shortLabel": "Conditions examen",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "LEGACY|demandé|1": "demandé",
+            "LEGACY|réalisé|1": "réalisé"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Résultat examen",
+          "type": "dropdown-field",
+          "shortLabel": "Résultat examen",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "LEGACY|une petite lésion  qui mériterait une exploration complémentaire (colposcopie).|1": "une petite lésion  qui mériterait une exploration complémentaire (colposcopie).",
+            "LEGACY|la présence de virus HPV|1": "la présence de virus HPV",
+            "LEGACY|la présence de microbes sans réelle infection, mais|1": "la présence de microbes sans réelle infection, mais",
+            "LEGACY|la présence d'une infection sans gravité  mais|1": "la présence d'une infection sans gravité  mais",
+            "LEGACY|la présence de champignons|1": "la présence de champignons",
+            "LEGACY|une petite lésion qui mériterait une exploration complémentaire (colposcopie)|1": "une petite lésion qui mériterait une exploration complémentaire (colposcopie)",
+            "LEGACY|une insuffisance lutéale (de progestérone) |1": "une insuffisance lutéale (de progestérone) ",
+            "LEGACY|un déséquilibre hormonal (trouble de la thyroïde)|1": "un déséquilibre hormonal (trouble de la thyroïde)",
+            "LEGACY|un déséquilibre hormonal dû au début de la ménopause|1": "un déséquilibre hormonal dû au début de la ménopause",
+            "LEGACY|une ostéoporose|1": "une ostéoporose",
+            "LEGACY|une mammographie normale mais qu'il est préférable de contrôler plus tôt que prévu: dans 6 mois. Pour ce faire je vous envoie ci-joint une demande de mammographie.|1": "une mammographie normale mais qu'il est préférable de contrôler plus tôt que prévu: dans 6 mois. Pour ce faire je vous envoie ci-joint une demande de mammographie.",
+            "LEGACY|une lésion qu'il faudrait traiter chirurgicalement.|1": "une lésion qu'il faudrait traiter chirurgicalement.",
+            "LEGACY|un facteur sanguin (Leiden) contre-indiquant la contraception hormonale: dès lors il ne faut pas prendre la pilule mais utiliser le préservatif.|1": "un facteur sanguin (Leiden) contre-indiquant la contraception hormonale: dès lors il ne faut pas prendre la pilule mais utiliser le préservatif.",
+            "LEGACY|une séroconversion toxoplasmique|1": "une séroconversion toxoplasmique",
+            "LEGACY|une séroconversion CMV|1": "une séroconversion CMV",
+            "LEGACY|l'absence d'immunisation à la rubéole. Il est dès lors vivement conseillé de réaliser le vaccin auprès de votre médecin traitant et ce pendant une contraception absolue de 6 mois. Il faudra par ailleurs contrôler l'immunisation par une nouvelle prise de sang dans les mois qui suivent le vaccin.|1": "l'absence d'immunisation à la rubéole. Il est dès lors vivement conseillé de réaliser le vaccin auprès de votre médecin traitant et ce pendant une contraception absolue de 6 mois. Il faudra par ailleurs contrôler l'immunisation par une nouvelle prise de sang dans les mois qui suivent le vaccin."
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Détail examen",
+          "type": "dropdown-field",
+          "shortLabel": "Détail examen",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "LEGACY|modérée|1": "modérée",
+            "LEGACY|modérée à sévère|1": "modérée à sévère",
+            "LEGACY|sévère|1": "sévère"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Traitement",
+          "type": "dropdown-field",
+          "shortLabel": "Traitement",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "LEGACY|qu'il convient d'explorer de manière plus précise|1": "qu'il convient d'explorer de manière plus précise",
+            "LEGACY|qu'il convient de traiter|1": "qu'il convient de traiter",
+            "LEGACY|qu'il convient de  traiter selon  l'ordonnance ci-jointe|1": "qu'il convient de  traiter selon  l'ordonnance ci-jointe",
+            "LEGACY|dont il faudrait déterminer la date de début|1": "dont il faudrait déterminer la date de début",
+            "LEGACY|. De ce fait, il faut réaliser le vaccin GARDASIL chez votre médecin traitant dès que possible puis venir recontrôler le col à ma consultation|1": ". De ce fait, il faut réaliser le vaccin GARDASIL chez votre médecin traitant dès que possible puis venir recontrôler le col à ma consultation"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Suivi de traitement",
+          "type": "dropdown-field",
+          "shortLabel": "Suivi de traitement",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "LEGACY| et ce au moins jusqu'au prochain contrôle d'ostéodensitomérie. (Nb: ce médicament n'est remboursé qu'avec l'accord du médecin conseil de votre mutuelle et pour ce faire vous devez lui remettre les résultats de l'ostéodensitomérie ci-joints)|1": " et ce au moins jusqu'au prochain contrôle d'ostéodensitomérie. (Nb: ce médicament n'est remboursé qu'avec l'accord du médecin conseil de votre mutuelle et pour ce faire vous devez lui remettre les résultats de l'ostéodensitomérie ci-joints)",
+            "LEGACY| pour ce faire veuillez prendre contact avec votre médecin traitant.|1": " pour ce faire veuillez prendre contact avec votre médecin traitant.",
+            "LEGACY|. Je vous rappelle que le premier  jour du cycle est le premier jour des règles et qu'il faut en tenir compte pour le traitement qui commence le 15° jour du cycle|1": ". Je vous rappelle que le premier  jour du cycle est le premier jour des règles et qu'il faut en tenir compte pour le traitement qui commence le 15° jour du cycle"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Résultat prescription supplémentaire",
+          "type": "checkbox",
+          "shortLabel": "Résultat prescription supplémentaire",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "Résultat prescription supplémentaire": "Résultat prescription supplémentaire"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Résultat hydratation",
+          "type": "checkbox",
+          "shortLabel": "Résultat hydratation",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "Résultat hydratation": "Résultat hydratation"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Conclusion résultat",
+          "type": "dropdown-field",
+          "shortLabel": "Conclusion résultat",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "LEGACY|me contactiez dès que possible|1": "me contactiez dès que possible",
+            "LEGACY|repreniez un rendez-vous dès que possible (087/66 17 07)|1": "repreniez un rendez-vous dès que possible (087/66 17 07)",
+            "LEGACY|repreniez un rendez-vous dès que possible (087/66 17 07) pour dans 3-4 mois|1": "repreniez un rendez-vous dès que possible (087/66 17 07) pour dans 3-4 mois",
+            "LEGACY|repreniez un rendez-vous dès que possible (087/66 17 07) pour dans 6 mois|1": "repreniez un rendez-vous dès que possible (087/66 17 07) pour dans 6 mois",
+            "LEGACY|réalisiez une analyse de sang selon la demande ci-jointe dès que possible|1": "réalisiez une analyse de sang selon la demande ci-jointe dès que possible",
+            "LEGACY|réalisiez une analyse de sang selon la demande ci-jointe dans 1 semaine|1": "réalisiez une analyse de sang selon la demande ci-jointe dans 1 semaine",
+            "LEGACY|réalisiez une analyse de sang selon la demande ci-jointe dans 2 semaines|1": "réalisiez une analyse de sang selon la demande ci-jointe dans 2 semaines"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "89FA3C35-B901-4892-9C75-0A3B0B371941",
+          "type": "action",
+          "shortLabel": "Lettre résultats",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

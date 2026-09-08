@@ -1,0 +1,154 @@
+{
+  "form": "Neurologie général/Echelle MMSE",
+  "id": "4D4157D0-F76E-4A67-A0B0-1F20C663AC45",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Orientation dans le temps",
+          "type": "number-field",
+          "shortLabel": "Orientation dans le temps",
+          "grows": true,
+          "span": 7,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Orientation dans l'espace",
+          "type": "number-field",
+          "shortLabel": "Orientation dans l'espace",
+          "grows": true,
+          "span": 17,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Apprentissage",
+          "type": "number-field",
+          "shortLabel": "Apprentissage",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Attention et calcul",
+          "type": "number-field",
+          "shortLabel": "Attention et calcul",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Rappel",
+          "type": "number-field",
+          "shortLabel": "Rappel",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Language, désignation",
+          "type": "number-field",
+          "shortLabel": "Language, désignation",
+          "grows": true,
+          "span": 7,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Language, répétition",
+          "type": "number-field",
+          "shortLabel": "Language, répétition",
+          "grows": true,
+          "span": 17,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Compréhension orale",
+          "type": "number-field",
+          "shortLabel": "Compréhension orale",
+          "grows": true,
+          "span": 7,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Compréhension écrite",
+          "type": "number-field",
+          "shortLabel": "Compréhension écrite",
+          "grows": true,
+          "span": 17,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Language écrit",
+          "type": "number-field",
+          "shortLabel": "Language écrit",
+          "grows": true,
+          "span": 7,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Score Language",
+          "type": "number-field",
+          "shortLabel": "Score Language",
+          "grows": true,
+          "span": 17,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Praxie constructive",
+          "type": "number-field",
+          "shortLabel": "Praxie constructive",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Score MMSE",
+          "type": "number-field",
+          "shortLabel": "Score MMSE",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

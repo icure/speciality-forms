@@ -1,0 +1,95 @@
+{
+  "form": "sous-formulaires CRO visage/front",
+  "id": "3B24AE05-96B5-4A5E-BD00-1BC4B05593DE",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "anesthésique",
+          "type": "dropdown-field",
+          "shortLabel": "infiltration",
+          "grows": true,
+          "span": 11,
+          "readonly": false,
+          "options": {
+            "LEGACY|xylocaïne 1% sans adrénaline|1": "xylocaïne 1% sans adrénaline",
+            "LEGACY|xylocaïne 2% sans adrénaline|1": "xylocaïne 2% sans adrénaline",
+            "LEGACY|xylocaïne 1% avec adrénaline|1": "xylocaïne 1% avec adrénaline",
+            "LEGACY|Naropin 2 mg/ml|1": "Naropin 2 mg/ml",
+            "LEGACY|Naropin 10 mg/ml|1": "Naropin 10 mg/ml",
+            "LEGACY|Cistanest 1%|1": "Cistanest 1%",
+            "LEGACY|Cistanest 2%|1": "Cistanest 2%"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "dilution",
+          "type": "text-field",
+          "shortLabel": "dilution",
+          "grows": true,
+          "span": 13,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "volume injecté",
+          "type": "measure-field",
+          "shortLabel": "volume injecté",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "lifting endoscopique du front",
+          "type": "checkbox",
+          "shortLabel": "lifting endoscopique du front",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "options": {
+            "lifting endoscopique du front": "lifting endoscopique du front"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "lifting sous-périosté par voie bicoronale",
+          "type": "checkbox",
+          "shortLabel": "lifting sous-périosté par voie bicoronale",
+          "grows": true,
+          "span": 11,
+          "readonly": false,
+          "options": {
+            "lifting sous-périosté par voie bicoronale": "lifting sous-périosté par voie bicoronale"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "lifting de la queue du sourcil selon Fogli",
+          "type": "checkbox",
+          "shortLabel": "lifting de la queue du sourcil selon Fogli",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "lifting de la queue du sourcil selon Fogli": "lifting de la queue du sourcil selon Fogli"
+          },
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

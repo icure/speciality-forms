@@ -1,0 +1,203 @@
+{
+  "form": "sous-formulaires CRO-sein/augmentation-pexie mammaire",
+  "id": "6419C8DE-B0E3-4527-973E-FAB028D85FF1",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "nouveau point A",
+          "type": "measure-field",
+          "shortLabel": "nouveau point A",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "cicatrice résiduelle du sein droit",
+          "type": "dropdown-field",
+          "shortLabel": "cicatrice résiduelle du sein droit",
+          "grows": true,
+          "span": 18,
+          "readonly": false,
+          "options": {
+            "LEGACY|péri-aréolaire supérieure|1": "péri-aréolaire supérieure",
+            "LEGACY|péri-aréolaire|1": "péri-aréolaire",
+            "LEGACY|verticale selon Lassus-Lejour|1": "verticale selon Lassus-Lejour",
+            "LEGACY|ancre de marine|1": "ancre de marine"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "technique chirurgicale",
+          "type": "text-field",
+          "shortLabel": "pédicule ",
+          "grows": true,
+          "span": 13,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "cicatrice résiduelle du sein gauche",
+          "type": "dropdown-field",
+          "shortLabel": "cicatrice résiduelle du sein gauche",
+          "grows": true,
+          "span": 11,
+          "readonly": false,
+          "options": {
+            "LEGACY|péri-aréolaire supérieure|1": "péri-aréolaire supérieure",
+            "LEGACY|péri-aréoliare|1": "péri-aréoliare",
+            "LEGACY|verticale selon lassus-Lejour|1": "verticale selon lassus-Lejour",
+            "LEGACY|ancre de marine|1": "ancre de marine"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "résection droite",
+          "type": "measure-field",
+          "shortLabel": "résection droite",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "résection gauche",
+          "type": "measure-field",
+          "shortLabel": "résection gauche",
+          "grows": true,
+          "span": 18,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "marque des prothèses",
+          "type": "text-field",
+          "shortLabel": "marque des prothèses",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "prothèse droite",
+          "type": "text-field",
+          "shortLabel": "prothèse droite",
+          "grows": true,
+          "span": 9,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "prothèse gauche",
+          "type": "text-field",
+          "shortLabel": "prothèse gauche",
+          "grows": true,
+          "span": 7,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "type de prothèse",
+          "type": "dropdown-field",
+          "shortLabel": "type de prothèse",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "LEGACY|rondes |1": "rondes ",
+            "LEGACY|rondes texturées|1": "rondes texturées",
+            "LEGACY|anatomiques|1": "anatomiques"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "numéro de série droit",
+          "type": "text-field",
+          "shortLabel": "numéro de série droit",
+          "grows": true,
+          "span": 9,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "numéro de série gauche",
+          "type": "text-field",
+          "shortLabel": "numéro de série gauche",
+          "grows": true,
+          "span": 7,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "position des prothèses",
+          "type": "dropdown-field",
+          "shortLabel": "position des prothèses",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "LEGACY|sous-glandulaire|1": "sous-glandulaire",
+            "LEGACY|rétropectorale|1": "rétropectorale",
+            "LEGACY|sous-faciale|1": "sous-faciale"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "drainage",
+          "type": "dropdown-field",
+          "shortLabel": "drainage",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "LEGACY|pas de drainage|1": "pas de drainage",
+            "LEGACY|redons aspiratifs|1": "redons aspiratifs"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "traitement post-op",
+          "type": "items-list-field",
+          "shortLabel": "traitement post-op",
+          "grows": true,
+          "span": 24,
+          "rowSpan": 4,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

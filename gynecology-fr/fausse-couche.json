@@ -1,0 +1,50 @@
+{
+  "form": "Gynécologie 3.0/Fausse couche",
+  "id": "BAC10745-5426-4107-8381-4C9489300393",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Intervention prévue",
+          "type": "dropdown-field",
+          "shortLabel": "Intervention prévue",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "LEGACY|Aspiration|1": "Aspiration",
+            "LEGACY|Spontanée|1": "Spontanée",
+            "LEGACY|Déclenchement|1": "Déclenchement"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "AG en semaines",
+          "type": "text-field",
+          "shortLabel": "AG en semaines",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Remarque",
+          "type": "text-field",
+          "shortLabel": "Remarque",
+          "grows": true,
+          "span": 24,
+          "rowSpan": 7,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "form": "Gastroentérologie/Dossier Médical",
+  "id": "FFFFFFFF-FFFF-FFFF-FFFF-DOSSMED00000",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Antécédents médicaux",
+              "type": "token-field",
+              "shortLabel": "Antécédents médicaux",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Allergies alimentaires et respiratoires",
+              "type": "text-field",
+              "shortLabel": "Allergies alimentaires et respiratoires",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Antécédents chirurgicaux",
+              "type": "token-field",
+              "shortLabel": "Antécédents chirurgicaux",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Allergies médicamenteuses",
+              "type": "token-field",
+              "shortLabel": "Allergies médicamenteuses",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Antécédents gynéco-obstétricaux",
+              "type": "token-field",
+              "shortLabel": "Antécédents gynéco-obstétricaux",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Intolérances médicamenteuses",
+              "type": "token-field",
+              "shortLabel": "Intolérances médicamenteuses",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Antécédents familiaux",
+              "type": "token-field",
+              "shortLabel": "Antécédents familiaux",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Statut socio-professionnel",
+              "type": "text-field",
+              "shortLabel": "Statut socio-professionnel",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Tabagisme (pq. ans)",
+              "type": "number-field",
+              "shortLabel": "Tabagisme (pq. ans)",
+              "grows": true,
+              "span": 1,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Détail tabagisme",
+              "type": "text-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Alcool",
+              "type": "measure-field",
+              "shortLabel": "Alcool",
+              "grows": true,
+              "span": 14,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Activité physique",
+              "type": "token-field",
+              "shortLabel": "Activité physique",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Autres assuétudes",
+              "type": "text-field",
+              "shortLabel": "Autres assuétudes",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "7623978B-63FB-4BF3-84A4-98626BC33B65",
+              "type": "action",
+              "shortLabel": "Imprimer",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

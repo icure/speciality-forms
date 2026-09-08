@@ -1,0 +1,328 @@
+{
+  "form": "CRO/CRO tumeur cutanée",
+  "id": "C3E00ADB-2C7F-4299-A811-DC81AE11C618",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "4D1A48C7-5498-4AA4-AA96-194758819049",
+              "type": "action",
+              "shortLabel": "CRO",
+              "grows": true,
+              "span": 22,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "FDF86D60-AA6A-4050-8B16-5E5AA2109059",
+              "type": "action",
+              "shortLabel": "RH",
+              "grows": true,
+              "span": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "intervention chirurgicale réalisée",
+              "type": "text-field",
+              "shortLabel": "intervention chirurgicale réalisée",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "F378AB76-52AE-4813-AE30-E966A3A0C1A2",
+              "type": "action",
+              "shortLabel": "Rapport MT",
+              "grows": true,
+              "span": 22,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "F378AB76-52AE-4813-AE30-E966A3A0C1A2",
+              "type": "action",
+              "shortLabel": "RH OD",
+              "grows": true,
+              "span": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "lieu d'intervention",
+              "type": "dropdown-field",
+              "shortLabel": "lieu d'intervention",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "options": {
+                "LEGACY|Clinic135|1": "Clinic135",
+                "LEGACY|Clinique du Parc Léopold|1": "Clinique du Parc Léopold",
+                "LEGACY|Cliniques Saint-Luc |1": "Cliniques Saint-Luc ",
+                "LEGACY|Hôpital de Braine l'Alleud|1": "Hôpital de Braine l'Alleud"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "date opératoire",
+              "type": "date-picker",
+              "shortLabel": "date opératoire",
+              "grows": true,
+              "span": 17,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "anesthésie",
+              "type": "dropdown-field",
+              "shortLabel": "anesthésie",
+              "grows": true,
+              "span": 18,
+              "readonly": false,
+              "options": {
+                "LEGACY|anesthésie locale|1": "anesthésie locale",
+                "LEGACY|anesthésie générale|1": "anesthésie générale",
+                "LEGACY|anesthésie locale + sédation|1": "anesthésie locale + sédation",
+                "LEGACY|plexus|1": "plexus",
+                "LEGACY|bloc endoveineux|1": "bloc endoveineux",
+                "LEGACY|rachianesthésie|1": "rachianesthésie"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "039E018A-1273-4671-A45A-E4CF4669D057",
+              "type": "action",
+              "shortLabel": "Rapport P",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Opérateur",
+              "type": "text-field",
+              "shortLabel": "Opérateur",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Assistant",
+              "type": "text-field",
+              "shortLabel": "Assistant",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "039E018A-1273-4671-A45A-E4CF4669D057",
+              "type": "action",
+              "shortLabel": "Rapport P + Fact.",
+              "grows": true,
+              "span": 17,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Anesthésiste",
+              "type": "text-field",
+              "shortLabel": "Anesthésiste",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "039E018A-1273-4671-A45A-E4CF4669D057",
+              "type": "action",
+              "shortLabel": "facture A.L.",
+              "grows": true,
+              "span": 17,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "durée d'intervention",
+              "type": "measure-field",
+              "shortLabel": "durée d'intervention",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "désinfectant",
+              "type": "dropdown-field",
+              "shortLabel": "désinfectant",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "LEGACY|isobédatine dermique|1": "isobédatine dermique",
+                "LEGACY|hibitane|1": "hibitane",
+                "LEGACY|chlohexidine aqueuse|1": "chlohexidine aqueuse",
+                "LEGACY|isobétadine alcoolique|1": "isobétadine alcoolique"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "protocole",
+              "type": "text-field",
+              "shortLabel": "protocole",
+              "grows": true,
+              "span": 24,
+              "rowSpan": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "traitement post-op",
+              "type": "items-list-field",
+              "shortLabel": "traitement post-op",
+              "grows": true,
+              "span": 24,
+              "rowSpan": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 3",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "histologie",
+              "type": "text-field",
+              "shortLabel": "histologie définitive",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "date d'entrée",
+              "type": "date-picker",
+              "shortLabel": "date d'entrée",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "date de sortie",
+              "type": "date-picker",
+              "shortLabel": "date de sortie",
+              "grows": true,
+              "span": 19,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "suites",
+              "type": "text-field",
+              "shortLabel": "suites opératoires",
+              "grows": true,
+              "span": 24,
+              "rowSpan": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 4",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "note",
+              "type": "text-field",
+              "shortLabel": "note",
+              "grows": true,
+              "span": 24,
+              "rowSpan": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

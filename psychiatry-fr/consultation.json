@@ -1,0 +1,347 @@
+{
+  "form": "Médecine générale/Consultation",
+  "id": "FFFFFFFF-FFFF-FFFF-FFFF-CONSULTATION",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Consultation",
+              "type": "text-field",
+              "shortLabel": "Compte rendu",
+              "grows": true,
+              "span": 20,
+              "rowSpan": 11,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Poids",
+              "type": "measure-field",
+              "shortLabel": "Poids",
+              "grows": true,
+              "span": 4,
+              "rowSpan": 11,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Taille",
+              "type": "measure-field",
+              "shortLabel": "Taille",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "BMI",
+              "type": "number-field",
+              "shortLabel": "BMI",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Tension artérielle systolique",
+              "type": "measure-field",
+              "shortLabel": "TA sys.",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Tension artérielle diastolique",
+              "type": "measure-field",
+              "shortLabel": "TA dia.",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Pouls",
+              "type": "measure-field",
+              "shortLabel": "Pouls",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Régularité du pouls",
+              "type": "dropdown-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "LEGACY|Régulier|1": "Régulier",
+                "LEGACY|Irrégulier|1": "Irrégulier"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Glyc.",
+              "type": "measure-field",
+              "shortLabel": "Glyc.",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "HbA1c",
+              "type": "measure-field",
+              "shortLabel": "HbA1c",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "9750A401-22E1-493A-B79E-6A18E50387B5",
+              "type": "action",
+              "shortLabel": "Rapport de consult.",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "subform",
+              "id": "D61131E4-CBF5-45BE-8FAE-8F464940E6B8",
+              "shortLabel": "Certificats",
+              "forms": {
+                "Médecine générale/Certificat d'interruption d'activité": {
+                  "form": "Médecine générale/Certificat d'interruption d'activité",
+                  "id": "FFFFFFFF-FFFF-FFFF-FFFF-INCAPACITY00",
+                  "sections": [
+                    {
+                      "section": "Main",
+                      "fields": [
+                        {
+                          "clazz": "field",
+                          "field": "incapacité de",
+                          "type": "dropdown-field",
+                          "shortLabel": "incapacité de",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "options": {
+                            "LEGACY|incapable d'assister au cours de gymnastique|1": "incapable d'assister au cours de gymnastique",
+                            "LEGACY|incapable de suivre le cours de natation|1": "incapable de suivre le cours de natation",
+                            "LEGACY|incapable de suivre les cours|1": "incapable de suivre les cours",
+                            "LEGACY|incapable de travailler|1": "incapable de travailler",
+                            "LEGACY|incapacity to follow courses|1": "incapacity to follow courses",
+                            "LEGACY|incapacity to perform gymnastics|1": "incapacity to perform gymnastics",
+                            "LEGACY|incapacity to swim|1": "incapacity to swim",
+                            "LEGACY|incapacity to work|1": "incapacity to work"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "du",
+                          "type": "date-picker",
+                          "shortLabel": "du",
+                          "grows": true,
+                          "span": 8,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "au",
+                          "type": "date-picker",
+                          "shortLabel": "au",
+                          "grows": true,
+                          "span": 7,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "inclus/exclus",
+                          "type": "dropdown-field",
+                          "shortLabel": "",
+                          "grows": true,
+                          "span": 3,
+                          "readonly": false,
+                          "options": {
+                            "LEGACY|inclus|1": "inclus",
+                            "LEGACY|exclus|1": "exclus"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "pour cause de",
+                          "type": "dropdown-field",
+                          "shortLabel": "pour cause de",
+                          "grows": true,
+                          "span": 11,
+                          "readonly": false,
+                          "options": {
+                            "LEGACY|accident|1": "accident",
+                            "LEGACY|autre|1": "autre",
+                            "LEGACY|consultation médicale|1": "consultation médicale",
+                            "LEGACY|maladie|1": "maladie",
+                            "LEGACY|motif familial|1": "motif familial"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Accident suvenu le",
+                          "type": "date-picker",
+                          "shortLabel": "survenu le",
+                          "grows": true,
+                          "span": 9,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Sortie",
+                          "type": "dropdown-field",
+                          "shortLabel": "Sortie",
+                          "grows": true,
+                          "span": 4,
+                          "readonly": false,
+                          "options": {
+                            "LEGACY|autorisée|1": "autorisée",
+                            "LEGACY|interdite|1": "interdite"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "autres",
+                          "type": "text-field",
+                          "shortLabel": "autres",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "totale",
+                          "type": "date-picker",
+                          "shortLabel": "Reprise d'activité",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "reprise d'activité partielle",
+                          "type": "date-picker",
+                          "shortLabel": "part.",
+                          "grows": true,
+                          "span": 10,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "pourcentage",
+                          "type": "measure-field",
+                          "shortLabel": "à",
+                          "grows": true,
+                          "span": 8,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Commentaire",
+                          "type": "text-field",
+                          "shortLabel": "Commentaire",
+                          "grows": true,
+                          "span": 20,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "78CF4B52-1006-4197-A991-63DD42494020",
+                          "type": "action",
+                          "shortLabel": "Certificat",
+                          "grows": true,
+                          "span": 4,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "span": 24,
+              "rowSpan": 1,
+              "labels": {}
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

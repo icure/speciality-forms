@@ -1,0 +1,118 @@
+{
+  "form": "Gynécologie 3.0/Echo gynécologique court",
+  "id": "44C71A9B-B1D4-473B-BB24-784A43A417A5",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Motif",
+          "type": "text-field",
+          "shortLabel": "Motif",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Voie",
+          "type": "dropdown-field",
+          "shortLabel": "par voie",
+          "grows": true,
+          "span": 10,
+          "readonly": false,
+          "options": {
+            "LEGACY|endovaginale|1": "endovaginale",
+            "LEGACY|abdominale|1": "abdominale"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Qualité examen",
+          "type": "dropdown-field",
+          "shortLabel": "Qualité exam.",
+          "grows": true,
+          "span": 14,
+          "readonly": false,
+          "options": {
+            "LEGACY|bonne|1": "bonne",
+            "LEGACY|médiocre|1": "médiocre"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Utérus",
+          "type": "text-field",
+          "shortLabel": "Utérus",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Ovaire droit",
+          "type": "text-field",
+          "shortLabel": "Ovaire D",
+          "grows": true,
+          "span": 11,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Ovaire gauche",
+          "type": "text-field",
+          "shortLabel": "Ovaire G",
+          "grows": true,
+          "span": 13,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Douglas",
+          "type": "text-field",
+          "shortLabel": "Douglas",
+          "grows": true,
+          "span": 11,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Remarque",
+          "type": "text-field",
+          "shortLabel": "Remarque",
+          "grows": true,
+          "span": 13,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Conclusion",
+          "type": "text-field",
+          "shortLabel": "Ccl",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "form": "Examens complémentaires/Imagerie médicale",
+  "id": "9AC69410-4328-4CFA-A4A4-E6590591D9CB",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Rx thorax",
+          "type": "checkbox",
+          "shortLabel": "Rx thorax",
+          "grows": true,
+          "span": 1,
+          "readonly": false,
+          "options": {
+            "Rx thorax": "Rx thorax"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Rx",
+          "type": "dropdown-field",
+          "shortLabel": "Rx",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "LEGACY|Thorax|1": "Thorax",
+            "LEGACY|Main gauche|1": "Main gauche",
+            "LEGACY|Main droite|1": "Main droite",
+            "LEGACY|Mains comparées|1": "Mains comparées",
+            "LEGACY|Pied gauche|1": "Pied gauche",
+            "LEGACY|Pied droit|1": "Pied droit",
+            "LEGACY|Pieds comparés|1": "Pieds comparés",
+            "LEGACY|Cheville gauche|1": "Cheville gauche",
+            "LEGACY|Cheville droite|1": "Cheville droite"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Echographie",
+          "type": "text-field",
+          "shortLabel": "Echogr.",
+          "grows": true,
+          "span": 7,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Scanner",
+          "type": "text-field",
+          "shortLabel": "Scanner",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Produit de contraste",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "LEGACY|sans produit de contraste|1": "sans produit de contraste",
+            "LEGACY|avec produit de contraste|1": "avec produit de contraste"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "PET Scan",
+          "type": "checkbox",
+          "shortLabel": "PET Scan",
+          "grows": true,
+          "span": 1,
+          "readonly": false,
+          "options": {
+            "PET Scan": "PET Scan"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "IRM",
+          "type": "text-field",
+          "shortLabel": "IRM",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Imagerie autre",
+          "type": "text-field",
+          "shortLabel": "Imagerie autre",
+          "grows": true,
+          "span": 15,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "4255142F-343B-4DF9-B2DD-6473EDF61FFE",
+          "type": "action",
+          "shortLabel": "Demande",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

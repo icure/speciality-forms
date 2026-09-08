@@ -1,0 +1,385 @@
+{
+  "form": "Pré-op/Fiche pré-opératoire",
+  "id": "b1aadf72-91f1-f7ab-a351-ee218a3a3a80",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Date d'hospitalisation",
+              "type": "date-picker",
+              "shortLabel": "Date d'hospitalisation",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Date opératoire",
+              "type": "date-picker",
+              "shortLabel": "Date opératoire",
+              "grows": true,
+              "span": 19,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Intitulé de l'intervention",
+              "type": "token-field",
+              "shortLabel": "Intitulé de l'intervention",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Durée estimée (min)",
+              "type": "number-field",
+              "shortLabel": "Durée estimée (min)",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "labo",
+              "type": "checkbox",
+              "shortLabel": "Labo",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Labo": "Labo"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "ECG",
+              "type": "checkbox",
+              "shortLabel": "ECG",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "ECG": "ECG"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "RX thorax",
+              "type": "checkbox",
+              "shortLabel": "RX thorax",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "RX thorax": "RX thorax"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Bilan séno",
+              "type": "checkbox",
+              "shortLabel": "Bilan séno",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Bilan séno": "Bilan séno"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Angioscan abdominal",
+              "type": "checkbox",
+              "shortLabel": "Angioscan abdominal",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Angioscan abdominal": "Angioscan abdominal"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Bilan ophtalmo",
+              "type": "checkbox",
+              "shortLabel": "Bilan ophtalmo",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Bilan ophtalmo": "Bilan ophtalmo"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "PETscan",
+              "type": "checkbox",
+              "shortLabel": "PETscan",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "PETscan": "PETscan"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Scinti Os",
+              "type": "checkbox",
+              "shortLabel": "Scinti Os",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Scinti Os": "Scinti Os"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Scinti GB*",
+              "type": "checkbox",
+              "shortLabel": "Scinti GB*",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Scinti GB*": "Scinti GB*"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Ctscan thorax",
+              "type": "checkbox",
+              "shortLabel": "CTscan thorax",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "CTscan thorax": "CTscan thorax"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Ctscan abdominal",
+              "type": "checkbox",
+              "shortLabel": "CTscan abdominal",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "CTscan abdominal": "CTscan abdominal"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "CTscan divers",
+              "type": "checkbox",
+              "shortLabel": "CTscan divers",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "CTscan divers": "CTscan divers"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Divers",
+              "type": "token-field",
+              "shortLabel": "Divers",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Consultation anesthésiste",
+              "type": "checkbox",
+              "shortLabel": "Consultation anesthésiste",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "Consultation anesthésiste": "Consultation anesthésiste"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Matériel opératoire spécifique",
+              "type": "token-field",
+              "shortLabel": "Matériel opératoire spécifique",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Commande matériel (implants; autres)",
+              "type": "token-field",
+              "shortLabel": "Commande matériel (implants...)",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "forfait esth.",
+              "type": "checkbox",
+              "shortLabel": "Forfait esth.",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Forfait esth.": "Forfait esth."
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "suppléments esth.",
+              "type": "checkbox",
+              "shortLabel": "Suppl. esth.",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Suppl. esth.": "Suppl. esth."
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "consentement",
+              "type": "checkbox",
+              "shortLabel": "Consentement",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "Consentement": "Consentement"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "bilan pré-op",
+              "type": "checkbox",
+              "shortLabel": "Bilan pré-op",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Bilan pré-op": "Bilan pré-op"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "vêtement compressif",
+              "type": "checkbox",
+              "shortLabel": "Vêtement compressif",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "Vêtement compressif": "Vêtement compressif"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "prescritpion médicaments",
+              "type": "checkbox",
+              "shortLabel": "Prescr. médicaments",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Prescr. médicaments": "Prescr. médicaments"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "2E72CC05-6329-4535-A64E-0D1403EB93DC",
+              "type": "action",
+              "shortLabel": "DAHE Anesth",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

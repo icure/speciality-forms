@@ -1,0 +1,45 @@
+{
+  "form": "Cardiologie/Doppler des vaisseaux du cou",
+  "id": "AF07A40D-BAD9-4C4A-B46E-7E65C59F05A0",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "IMT droite",
+          "type": "measure-field",
+          "shortLabel": "IMT droite",
+          "grows": true,
+          "span": 9,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "IMT gauche",
+          "type": "measure-field",
+          "shortLabel": "IMT gauche",
+          "grows": true,
+          "span": 15,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Conclusion",
+          "type": "text-field",
+          "shortLabel": "Conclusion",
+          "grows": true,
+          "span": 24,
+          "rowSpan": 2,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "form": "Sous-formulaires/Rhino-manométrie",
+  "id": "FC8B15F9-C979-4EAC-9A80-812BF7FBA4F9",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Rhino-manométrie D",
+          "type": "text-field",
+          "shortLabel": "Rhino-manométrie D",
+          "grows": true,
+          "span": 12,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Rhino-manométrie G",
+          "type": "text-field",
+          "shortLabel": "Rhino-manométrie G",
+          "grows": true,
+          "span": 12,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

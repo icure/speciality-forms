@@ -1,0 +1,66 @@
+{
+  "form": "Sous-formulaires/Audiométrie",
+  "id": "320255C0-24AF-4BDF-8038-5F7C0451D8AC",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Conclusion audiométrie",
+          "type": "dropdown-field",
+          "shortLabel": "Audiométrie",
+          "grows": true,
+          "span": 9,
+          "readonly": false,
+          "options": {
+            "LEGACY|audition normale|1": "audition normale",
+            "LEGACY|presbyacousie|1": "presbyacousie",
+            "LEGACY|surdité de transmission|1": "surdité de transmission",
+            "LEGACY|surdité de perception|1": "surdité de perception"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Latéralité audiométrie",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 7,
+          "readonly": false,
+          "options": {
+            "LEGACY|gauche|1": "gauche",
+            "LEGACY|droite|1": "droite",
+            "LEGACY|bilatérale|1": "bilatérale"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Audiométrie perte d'audition",
+          "type": "measure-field",
+          "shortLabel": "perte",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Note",
+          "type": "text-field",
+          "shortLabel": "Note",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

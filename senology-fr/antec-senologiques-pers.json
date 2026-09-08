@@ -1,0 +1,170 @@
+{
+  "form": "Sénologie/Antéc. sénologiques pers.",
+  "id": "16EFBAC1-435A-47EA-B2DF-D63580D7C124",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Année antécédent sénologique personnel",
+          "type": "date-picker",
+          "shortLabel": "Année",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Latéralité",
+          "type": "dropdown-field",
+          "shortLabel": "Latéralité",
+          "grows": true,
+          "span": 19,
+          "readonly": false,
+          "options": {
+            "LEGACY|gauche|1": "gauche",
+            "LEGACY|droit|1": "droit",
+            "LEGACY|bilatéral|1": "bilatéral"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Histologies",
+          "type": "token-field",
+          "shortLabel": "Histologies",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Récepteur œstrogénique",
+          "type": "dropdown-field",
+          "shortLabel": "RO",
+          "grows": true,
+          "span": 3,
+          "readonly": false,
+          "options": {
+            "LEGACY|negatif|1": "negatif",
+            "LEGACY|pos. 1|1": "pos. 1",
+            "LEGACY|pos. 2|1": "pos. 2",
+            "LEGACY|pos. 3|1": "pos. 3",
+            "LEGACY|pos. 4|1": "pos. 4",
+            "LEGACY|pos. 5|1": "pos. 5",
+            "LEGACY|pos. 6|1": "pos. 6",
+            "LEGACY|pos. 7|1": "pos. 7",
+            "LEGACY|pos. 8|1": "pos. 8"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Récepteur progestéronique",
+          "type": "dropdown-field",
+          "shortLabel": "RP",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "LEGACY|négatif|1": "négatif",
+            "LEGACY|pos. 1|1": "pos. 1",
+            "LEGACY|pos. 2|1": "pos. 2",
+            "LEGACY|pos. 3|1": "pos. 3",
+            "LEGACY|pos. 4|1": "pos. 4",
+            "LEGACY|pos. 5|1": "pos. 5",
+            "LEGACY|pos. 6|1": "pos. 6",
+            "LEGACY|pos. 7|1": "pos. 7",
+            "LEGACY|pos. 8|1": "pos. 8"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Neu",
+          "type": "checkbox",
+          "shortLabel": "Neu",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "Neu": "Neu"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "KI 67",
+          "type": "measure-field",
+          "shortLabel": "KI 67",
+          "grows": true,
+          "span": 7,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Ganglions sentinelles",
+          "type": "dropdown-field",
+          "shortLabel": "Gg sent.",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "LEGACY|+|1": "+",
+            "LEGACY|-|1": "-"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Evidement ganglionnaire",
+          "type": "dropdown-field",
+          "shortLabel": "Ev. gg",
+          "grows": true,
+          "span": 3,
+          "readonly": false,
+          "options": {
+            "LEGACY|+|1": "+",
+            "LEGACY|-|1": "-"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Nombre de ganglions positifs",
+          "type": "number-field",
+          "shortLabel": "Nbre",
+          "grows": true,
+          "span": 1,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Métastases",
+          "type": "text-field",
+          "shortLabel": "Métastases",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

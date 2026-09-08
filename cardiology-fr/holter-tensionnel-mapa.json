@@ -1,0 +1,63 @@
+{
+  "form": "Cardiologie/Holter tensionnel (MAPA)",
+  "id": "C23089AB-F95D-4EA4-91B2-A1F4AFD60D2C",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Tension artérielle moyenne totale",
+          "type": "measure-field",
+          "shortLabel": "Tension artérielle moyenne totale",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Tension artérielle moyenne diurne",
+          "type": "measure-field",
+          "shortLabel": "Tension artérielle moyenne diurne",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Tension artérielle moyenne nocturne",
+          "type": "measure-field",
+          "shortLabel": "Tension artérielle moyenne nocturne",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Conclusion",
+          "type": "dropdown-field",
+          "shortLabel": "Conclusion",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "LEGACY|Profil tensionnel diurne et nocturne dans les limites de la normale. Rythme nycthéméral conservé.|1": "Profil tensionnel diurne et nocturne dans les limites de la normale. Rythme nycthéméral conservé.",
+            "LEGACY|Hypertension artérielle systolique diurne. |1": "Hypertension artérielle systolique diurne. ",
+            "LEGACY|Hypertension artérielle diastolique diurne.|1": "Hypertension artérielle diastolique diurne.",
+            "LEGACY|Hypertension artérielle systolodiastolique diurne|1": "Hypertension artérielle systolodiastolique diurne",
+            "LEGACY|Hypertension artérielle systolodiastolique diurne et nocturne.|1": "Hypertension artérielle systolodiastolique diurne et nocturne.",
+            "LEGACY|Hypertension artérielle diastolique diurne et nocturne|1": "Hypertension artérielle diastolique diurne et nocturne"
+          },
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

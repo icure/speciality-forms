@@ -1,0 +1,103 @@
+{
+  "form": "Examens complémentaires/Mycologie",
+  "id": "81A121D9-2008-491D-9F35-B94D9E396124",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Mycologie origine",
+          "type": "token-field",
+          "shortLabel": "Origine",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Mycologie examen direct",
+          "type": "checkbox",
+          "shortLabel": "Mycologie examen direct",
+          "grows": true,
+          "span": 9,
+          "readonly": false,
+          "options": {
+            "Mycologie examen direct": "Mycologie examen direct"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Mycologie culture de champignons filamenteux",
+          "type": "checkbox",
+          "shortLabel": "Culture de champ. filamenteux",
+          "grows": true,
+          "span": 9,
+          "readonly": false,
+          "options": {
+            "Culture de champ. filamenteux": "Culture de champ. filamenteux"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Mycologie culture de levures",
+          "type": "checkbox",
+          "shortLabel": "Mycologie culture de levures",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "options": {
+            "Mycologie culture de levures": "Mycologie culture de levures"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "1BE8E192-1390-4F9D-98D4-D94D17AD009E",
+          "type": "action",
+          "shortLabel": "Imprimer",
+          "grows": true,
+          "span": 1,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Mycologie identification de champignons filamenteux",
+          "type": "checkbox",
+          "shortLabel": "Identification de champ. filamenteux",
+          "grows": true,
+          "span": 10,
+          "readonly": false,
+          "options": {
+            "Identification de champ. filamenteux": "Identification de champ. filamenteux"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Mycologie identification de levures",
+          "type": "checkbox",
+          "shortLabel": "Mycologie identification de levures",
+          "grows": true,
+          "span": 14,
+          "readonly": false,
+          "options": {
+            "Mycologie identification de levures": "Mycologie identification de levures"
+          },
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

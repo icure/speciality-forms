@@ -1,0 +1,167 @@
+{
+  "form": "Médecine générale/Historique Médical",
+  "id": "FFFFFFFF-FFFF-FFFF-FFFF-DOSSMED00000",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Antécédents médicaux",
+              "type": "token-field",
+              "shortLabel": "Antécédents médicaux",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Antécédents chirurgicaux",
+              "type": "token-field",
+              "shortLabel": "Antécédents chirurgicaux",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Antécédents familiaux",
+              "type": "token-field",
+              "shortLabel": "Antécédents familiaux",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Antécédents gynéco-obstétricaux",
+              "type": "token-field",
+              "shortLabel": "Antécédents gynéco-obstétricaux",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Allergies",
+              "type": "token-field",
+              "shortLabel": "Allergies",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Allergies médicamenteuses",
+              "type": "token-field",
+              "shortLabel": "Allergies médicamenteuses",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Tabagisme (pq. ans)",
+              "type": "number-field",
+              "shortLabel": "Tabagisme (pq. ans)",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "tabagisme",
+              "type": "text-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 19,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Alcoolisme",
+              "type": "dropdown-field",
+              "shortLabel": "Alcoolisme",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "LEGACY|Néant|1": "Néant",
+                "LEGACY|1 verre/j.|1": "1 verre/j.",
+                "LEGACY|2 verres/j.|1": "2 verres/j.",
+                "LEGACY|3 verres/j.|1": "3 verres/j.",
+                "LEGACY|4 verres/j.|1": "4 verres/j.",
+                "LEGACY|5 verres/j.|1": "5 verres/j.",
+                "LEGACY|10 verres/j.|1": "10 verres/j.",
+                "LEGACY|15 verres/j.|1": "15 verres/j.",
+                "LEGACY|20 verres/j.|1": "20 verres/j.",
+                "LEGACY|+ de 20 verres/j.|1": "+ de 20 verres/j."
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Refus de transfusion sanguine",
+              "type": "checkbox",
+              "shortLabel": "Refus transf. sang.",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "Refus transf. sang.": "Refus transf. sang."
+              },
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "7623978B-63FB-4BF3-84A4-98626BC33B65",
+              "type": "action",
+              "shortLabel": "Imprimer",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

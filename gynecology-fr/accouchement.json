@@ -1,0 +1,590 @@
+{
+  "form": "Gynécologie 3.0/Accouchement",
+  "id": "0DB6407D-ACA3-4D27-951D-6139E69E749B",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Terme calculé",
+              "type": "date-picker",
+              "shortLabel": "Terme DR",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Terme selon ovulation",
+              "type": "date-picker",
+              "shortLabel": "Terme Ov.",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Terme corrigé",
+              "type": "date-picker",
+              "shortLabel": "Terme cor.",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Age gestationnel",
+              "type": "text-field",
+              "shortLabel": "AG",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Date et heure entrée",
+              "type": "date-picker",
+              "shortLabel": "Entrée",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Date et heure accouchement",
+              "type": "date-picker",
+              "shortLabel": "Accouchement",
+              "grows": true,
+              "span": 11,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Numéro de chambre",
+              "type": "number-field",
+              "shortLabel": "Chambre n°",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Motif entrée",
+              "type": "text-field",
+              "shortLabel": "Motif entrée",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Présentation",
+              "type": "dropdown-field",
+              "shortLabel": "Présentation",
+              "grows": true,
+              "span": 15,
+              "readonly": false,
+              "options": {
+                "LEGACY|occipito-pubienne|1": "occipito-pubienne",
+                "LEGACY|sommet|1": "sommet",
+                "LEGACY|siège|1": "siège",
+                "LEGACY|transverse|1": "transverse"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Travail",
+              "type": "dropdown-field",
+              "shortLabel": "Travail",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "LEGACY|spontané|1": "spontané",
+                "LEGACY|induit par Prostin®|1": "induit par Prostin®",
+                "LEGACY|induit par Prostin® puis Syntocinon®|1": "induit par Prostin® puis Syntocinon®",
+                "LEGACY|induit par Syntocinon®|1": "induit par Syntocinon®"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Cinétique travail",
+              "type": "dropdown-field",
+              "shortLabel": "Cinétique travail",
+              "grows": true,
+              "span": 18,
+              "readonly": false,
+              "options": {
+                "LEGACY|eucinésie|1": "eucinésie",
+                "LEGACY|dyscinésie corrigée|1": "dyscinésie corrigée",
+                "LEGACY|dyscinésie non-corrigée|1": "dyscinésie non-corrigée"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Anesthésie",
+              "type": "dropdown-field",
+              "shortLabel": "Anesthésie",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "LEGACY|péridurale|1": "péridurale",
+                "LEGACY|rachi-anesthésie|1": "rachi-anesthésie",
+                "LEGACY|locale|1": "locale",
+                "LEGACY|aucune|1": "aucune"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Monito",
+              "type": "dropdown-field",
+              "shortLabel": "Monito",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "LEGACY|réactif|1": "réactif",
+                "LEGACY|décélératif|1": "décélératif"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Liquide amniotique",
+              "type": "dropdown-field",
+              "shortLabel": "LA",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "options": {
+                "LEGACY|clair|1": "clair",
+                "LEGACY|teinté|1": "teinté",
+                "LEGACY|méconial|1": "méconial",
+                "LEGACY|sanglant|1": "sanglant"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Cordon",
+              "type": "text-field",
+              "shortLabel": "Cordon",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Accouchement",
+              "type": "text-field",
+              "shortLabel": "Accouchement",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Périnée",
+              "type": "dropdown-field",
+              "shortLabel": "Périnée",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "LEGACY|épisiotomie|1": "épisiotomie",
+                "LEGACY|déchirure|1": "déchirure",
+                "LEGACY|éraillure|1": "éraillure",
+                "LEGACY|périnée complet|1": "périnée complet",
+                "LEGACY|intact|1": "intact"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Délivrance",
+              "type": "dropdown-field",
+              "shortLabel": "Délivrance",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "options": {
+                "LEGACY|spontanée|1": "spontanée",
+                "LEGACY|manuelle|1": "manuelle",
+                "LEGACY|révision|1": "révision",
+                "LEGACY|manuelle puis révision|1": "manuelle puis révision"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Allaitement",
+              "type": "dropdown-field",
+              "shortLabel": "Allaitement",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "LEGACY|maternel|1": "maternel",
+                "LEGACY|artificiel|1": "artificiel"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Prénom bébé",
+              "type": "text-field",
+              "shortLabel": "Prénom",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Sexe bébé",
+              "type": "dropdown-field",
+              "shortLabel": "Sexe",
+              "grows": true,
+              "span": 16,
+              "readonly": false,
+              "options": {
+                "LEGACY|conn. non souhaitée|1": "conn. non souhaitée",
+                "LEGACY|masculin|1": "masculin",
+                "LEGACY|féminin|1": "féminin"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "subform",
+              "id": "8616058C-702C-4CED-B229-510F05CD47ED",
+              "shortLabel": "Bébé(s)",
+              "forms": {
+                "Gynécologie 3.0/BB Accouchement": {
+                  "form": "Gynécologie 3.0/BB Accouchement",
+                  "id": "B7CF36E5-5E12-4474-B905-EBDE585852D5",
+                  "sections": [
+                    {
+                      "section": "Main",
+                      "fields": [
+                        {
+                          "clazz": "field",
+                          "field": "Prénom bébé",
+                          "type": "text-field",
+                          "shortLabel": "Prénom",
+                          "grows": true,
+                          "span": 7,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Sexe bébé",
+                          "type": "dropdown-field",
+                          "shortLabel": "Sexe",
+                          "grows": true,
+                          "span": 9,
+                          "readonly": false,
+                          "options": {
+                            "LEGACY|masculin|1": "masculin",
+                            "LEGACY|féminin|1": "féminin"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Taille bébé",
+                          "type": "measure-field",
+                          "shortLabel": "Taille",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Percentile taille",
+                          "type": "number-field",
+                          "shortLabel": "%",
+                          "grows": true,
+                          "span": 2,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Poids bébé",
+                          "type": "measure-field",
+                          "shortLabel": "Poids",
+                          "grows": true,
+                          "span": 4,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Percentile poids",
+                          "type": "number-field",
+                          "shortLabel": "%",
+                          "grows": true,
+                          "span": 3,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Percentile poids deuxième trimestre",
+                          "type": "number-field",
+                          "shortLabel": "%P T2",
+                          "grows": true,
+                          "span": 5,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Percentile poids troisième trimestre",
+                          "type": "number-field",
+                          "shortLabel": "%P 3T",
+                          "grows": true,
+                          "span": 4,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Périmètre crânien Naissance",
+                          "type": "measure-field",
+                          "shortLabel": "PC",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Percentile Périmètre crânien",
+                          "type": "number-field",
+                          "shortLabel": "%",
+                          "grows": true,
+                          "span": 2,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Apgar 1",
+                          "type": "number-field",
+                          "shortLabel": "Apgar 1",
+                          "grows": true,
+                          "span": 4,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Apgar 5",
+                          "type": "number-field",
+                          "shortLabel": "Apgar 5",
+                          "grows": true,
+                          "span": 5,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Apgar 10",
+                          "type": "number-field",
+                          "shortLabel": "Apgar 10",
+                          "grows": true,
+                          "span": 7,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Centre néo natal",
+                          "type": "checkbox",
+                          "shortLabel": "Néo-nat",
+                          "grows": true,
+                          "span": 4,
+                          "readonly": false,
+                          "options": {
+                            "Néo-nat": "Néo-nat"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Malformations présentes à la naissance",
+                          "type": "checkbox",
+                          "shortLabel": "Malformations",
+                          "grows": true,
+                          "span": 4,
+                          "readonly": false,
+                          "options": {
+                            "Malformations": "Malformations"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "span": 24,
+              "rowSpan": 4,
+              "labels": {}
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Protocole",
+              "type": "text-field",
+              "shortLabel": "Protocole",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Remarques",
+              "type": "text-field",
+              "shortLabel": "Remarques",
+              "grows": true,
+              "span": 24,
+              "rowSpan": 4,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 3",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "360D5028-E5E8-4A4E-88D4-42BE995D0CE7",
+              "type": "action",
+              "shortLabel": "RCM",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "28B1505B-0AF4-42A7-8CAA-C158CB3AD2A0",
+              "type": "action",
+              "shortLabel": "Certif. allait.",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "1156398A-FD59-4D2A-A63F-01FC1DDFE003",
+              "type": "action",
+              "shortLabel": "Certif. accouch.",
+              "grows": true,
+              "span": 14,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "3ADF6FCA-DA99-4213-8123-F79DA11F947D",
+              "type": "action",
+              "shortLabel": "Congé mat.",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

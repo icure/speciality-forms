@@ -1,0 +1,27 @@
+{
+  "form": "sous-formulaires organisation salle d'op/consultation d'anesthésie pré-op",
+  "id": "0CD71418-007A-4AD8-8A7D-32FAF3585E41",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "consultation d'anesthésie pré-opératoire",
+          "type": "dropdown-field",
+          "shortLabel": "cons. d'anesthésie pré-opératoire",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "LEGACY|à faire en ambulatoire|1": "à faire en ambulatoire",
+            "LEGACY|à faire en hospitalisation|1": "à faire en hospitalisation",
+            "LEGACY|faite|1": "faite"
+          },
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

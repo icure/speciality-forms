@@ -1,0 +1,217 @@
+{
+  "form": "Neurologie épilepsie/Suivi épilepsie",
+  "id": "18C1B64F-A3BC-4368-872D-2986AB8F42B9",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Plainte",
+          "type": "text-field",
+          "shortLabel": "Plainte",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Antécédents médicaux",
+          "type": "items-list-field",
+          "shortLabel": "Antécédents médicaux",
+          "grows": true,
+          "span": 12,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Antécedents familiaux",
+          "type": "items-list-field",
+          "shortLabel": "Antécédents familiaux",
+          "grows": true,
+          "span": 12,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Mode de vie",
+          "type": "text-field",
+          "shortLabel": "Mode de vie",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Tension art. sys.",
+          "type": "measure-field",
+          "shortLabel": "TA sys.",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Tension art. dia.",
+          "type": "measure-field",
+          "shortLabel": "TA dia.",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Pouls",
+          "type": "measure-field",
+          "shortLabel": "Pouls",
+          "grows": true,
+          "span": 17,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Régularité du pouls",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 7,
+          "readonly": false,
+          "options": {
+            "LEGACY|Régulier|1": "Régulier",
+            "LEGACY|Irrégulier|1": "Irrégulier"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Examen neurologique",
+          "type": "text-field",
+          "shortLabel": "Examen neurologique",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Examen complémentaire",
+          "type": "text-field",
+          "shortLabel": "Examen complémentaire",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Epilepsie généralisée",
+          "type": "checkbox",
+          "shortLabel": "Epilepsie généralisée",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "Epilepsie généralisée": "Epilepsie généralisée"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Epilepsie partielle",
+          "type": "checkbox",
+          "shortLabel": "Epilepsie partielle",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "Epilepsie partielle": "Epilepsie partielle"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Epilepsie non détermninée",
+          "type": "checkbox",
+          "shortLabel": "Epilepsie non détermninée",
+          "grows": true,
+          "span": 7,
+          "readonly": false,
+          "options": {
+            "Epilepsie non détermninée": "Epilepsie non détermninée"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Pseudo crise d'épilepsie",
+          "type": "checkbox",
+          "shortLabel": "Pseudo crise d'épilepsie",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "options": {
+            "Pseudo crise d'épilepsie": "Pseudo crise d'épilepsie"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Malaise non-épileptique",
+          "type": "checkbox",
+          "shortLabel": "Malaise non-épileptique",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "Malaise non-épileptique": "Malaise non-épileptique"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Autre diagnostic",
+          "type": "text-field",
+          "shortLabel": "Autre diagnostic",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Bilan proposé",
+          "type": "text-field",
+          "shortLabel": "Bilan proposé",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

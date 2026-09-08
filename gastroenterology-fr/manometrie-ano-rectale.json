@@ -1,0 +1,295 @@
+{
+  "form": "Examens gastro/Manométrie ano-rectale",
+  "id": "F2CF582B-4740-4445-BA78-C410988F1B26",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Indication",
+              "type": "text-field",
+              "shortLabel": "Indication",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Pression de repos moyenne du sphincter anal interne",
+              "type": "measure-field",
+              "shortLabel": "Moyenne anale",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Pression rectale ballon dégonflé",
+              "type": "measure-field",
+              "shortLabel": "Pression rectale",
+              "grows": true,
+              "span": 15,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Pression de repos maximale du sphincter anal interne",
+              "type": "measure-field",
+              "shortLabel": "Maximum anal",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Pression anale ballon dégonflé",
+              "type": "measure-field",
+              "shortLabel": "Pression anale",
+              "grows": true,
+              "span": 15,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Gradient ano-rectal ballon dégonflé",
+              "type": "measure-field",
+              "shortLabel": "Gradient ano-rectal",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Pression de contraction volontaire moyenne du sphincter anal externe",
+              "type": "measure-field",
+              "shortLabel": "Moyenne anale",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Pression rectale ballon gonflé",
+              "type": "measure-field",
+              "shortLabel": "Pression rectale ballon gonflé",
+              "grows": true,
+              "span": 15,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Pression de contraction volontaire maximale du sphincter anal externe",
+              "type": "measure-field",
+              "shortLabel": "Maximum anal",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Pression anale ballon gonflé",
+              "type": "measure-field",
+              "shortLabel": "Pression anale ballon gonflé",
+              "grows": true,
+              "span": 15,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Durée de contraction volontaire du sphincter anal externe",
+              "type": "measure-field",
+              "shortLabel": "Durée",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Gradient ano-rectal ballon gonflé",
+              "type": "measure-field",
+              "shortLabel": "Gradient ano-rectal ballon gonflé",
+              "grows": true,
+              "span": 15,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Capacité rectale",
+              "type": "measure-field",
+              "shortLabel": "Capacité rectale",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": " Moyenne anale réflexe à la toux",
+              "type": "measure-field",
+              "shortLabel": " Moyenne anale",
+              "grows": true,
+              "span": 15,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Réflexe recto-anal inhibiteur",
+              "type": "measure-field",
+              "shortLabel": "Réflexe recto-anal inhibiteur",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": " Maximum anal réflexe à la toux",
+              "type": "measure-field",
+              "shortLabel": " Maximum anal",
+              "grows": true,
+              "span": 15,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Volume ballon rectal au seuil de déclenchement du RRAI",
+              "type": "measure-field",
+              "shortLabel": "Vol. ballon rectal seuil décl. RRAI",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Seuil de sensibilité",
+              "type": "measure-field",
+              "shortLabel": "Seuil de sensibilité",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Seuil de besoin",
+              "type": "measure-field",
+              "shortLabel": "Seuil de besoin",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Seuil d'urgence",
+              "type": "measure-field",
+              "shortLabel": "Seuil d'urgence",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Seuil de douleur",
+              "type": "measure-field",
+              "shortLabel": "Seuil de douleur",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Conclusion",
+              "type": "text-field",
+              "shortLabel": "Conclusion",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Attitude",
+              "type": "text-field",
+              "shortLabel": "Attitude",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "4E213EFE-186F-460D-91ED-758B951C50B8",
+              "type": "action",
+              "shortLabel": "Protocole",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

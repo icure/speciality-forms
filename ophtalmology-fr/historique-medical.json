@@ -1,0 +1,159 @@
+{
+  "form": "Ophtalmologie/Historique Médical",
+  "id": "FFFFFFFF-FFFF-FFFF-FFFF-DOSSMED00000",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Antécédents médicaux",
+              "type": "token-field",
+              "shortLabel": "Antécédents médicaux",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Antécédents ophtalmologiques",
+              "type": "token-field",
+              "shortLabel": "Antécédents ophtalmo",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Diabète de type I",
+              "type": "checkbox",
+              "shortLabel": "Diabète de type I",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "options": {
+                "Diabète de type I": "Diabète de type I"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Diabète de type II",
+              "type": "checkbox",
+              "shortLabel": "Diabète de type II",
+              "grows": true,
+              "span": 15,
+              "readonly": false,
+              "options": {
+                "Diabète de type II": "Diabète de type II"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Antécedents familiaux",
+              "type": "token-field",
+              "shortLabel": "Antécédents familiaux",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Allergies",
+              "type": "token-field",
+              "shortLabel": "Allergies",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Allergies médicamenteuses",
+              "type": "token-field",
+              "shortLabel": "Allergies médicamenteuses",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Alcoolisme",
+              "type": "dropdown-field",
+              "shortLabel": "Alcoolisme",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "options": {
+                "LEGACY|Néant|1": "Néant",
+                "LEGACY|1 verre/j.|1": "1 verre/j.",
+                "LEGACY|2 verres/j.|1": "2 verres/j.",
+                "LEGACY|3 verres/j.|1": "3 verres/j.",
+                "LEGACY|4 verres/j.|1": "4 verres/j.",
+                "LEGACY|5 verres/j.|1": "5 verres/j.",
+                "LEGACY|10 verres/j.|1": "10 verres/j.",
+                "LEGACY|15 verres/j.|1": "15 verres/j.",
+                "LEGACY|20 verres/j.|1": "20 verres/j.",
+                "LEGACY|+ de 20 verres/j.|1": "+ de 20 verres/j."
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Tabagisme (pq. ans)",
+              "type": "number-field",
+              "shortLabel": "Tabagisme (pq. ans)",
+              "grows": true,
+              "span": 17,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "7623978B-63FB-4BF3-84A4-98626BC33B65",
+              "type": "action",
+              "shortLabel": "Imprimer",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

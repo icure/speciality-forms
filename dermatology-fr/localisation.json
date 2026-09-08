@@ -1,0 +1,55 @@
+{
+  "form": "Dermatologie/Localisation",
+  "id": "55BE4AC8-6626-48C2-A652-A2EAEC20AE4F",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Localisation",
+          "type": "token-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 13,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Notes lésion",
+          "type": "text-field",
+          "shortLabel": "Notes",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Longueur lésion",
+          "type": "measure-field",
+          "shortLabel": "Longueur",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Largeur lésion",
+          "type": "measure-field",
+          "shortLabel": "Largeur",
+          "grows": true,
+          "span": 3,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

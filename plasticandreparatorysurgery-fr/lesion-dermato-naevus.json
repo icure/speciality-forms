@@ -1,0 +1,195 @@
+{
+  "form": "sous-formulaires dermato/lésion dermato naevus",
+  "id": "C2A4021D-2C32-4B83-AC16-477E8FCA8258",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "lésion",
+          "type": "text-field",
+          "shortLabel": "lésion",
+          "grows": true,
+          "span": 9,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "bénin",
+          "type": "checkbox",
+          "shortLabel": "bénin",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "bénin": "bénin"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "suspect",
+          "type": "checkbox",
+          "shortLabel": "suspect",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "suspect": "suspect"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "malin",
+          "type": "checkbox",
+          "shortLabel": "malin",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "malin": "malin"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "histologie",
+          "type": "text-field",
+          "shortLabel": "histologie",
+          "grows": true,
+          "span": 14,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "resection-fermeture en 1 temps",
+          "type": "checkbox",
+          "shortLabel": "résection-fermeture en 1 temps",
+          "grows": true,
+          "span": 9,
+          "readonly": false,
+          "options": {
+            "résection-fermeture en 1 temps": "résection-fermeture en 1 temps"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "cicatrisation dirigée",
+          "type": "checkbox",
+          "shortLabel": "cicatrisation dirigée",
+          "grows": true,
+          "span": 9,
+          "readonly": false,
+          "options": {
+            "cicatrisation dirigée": "cicatrisation dirigée"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "greffe de peau mince",
+          "type": "checkbox",
+          "shortLabel": "greffe de peau mince",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "greffe de peau mince": "greffe de peau mince"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "résection-fermeture en 2 temps",
+          "type": "checkbox",
+          "shortLabel": "résection-fermeture en 2 temps",
+          "grows": true,
+          "span": 9,
+          "readonly": false,
+          "options": {
+            "résection-fermeture en 2 temps": "résection-fermeture en 2 temps"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "greffe de peau totale",
+          "type": "checkbox",
+          "shortLabel": "greffe de peau totale",
+          "grows": true,
+          "span": 15,
+          "readonly": false,
+          "options": {
+            "greffe de peau totale": "greffe de peau totale"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "analyse extemporanée",
+          "type": "checkbox",
+          "shortLabel": "analyse extemporanée",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "analyse extemporanée": "analyse extemporanée"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "lambeau",
+          "type": "checkbox",
+          "shortLabel": "lambeau",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "options": {
+            "lambeau": "lambeau"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "type de lambeau",
+          "type": "text-field",
+          "shortLabel": "type de lambeau",
+          "grows": true,
+          "span": 13,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "note",
+          "type": "text-field",
+          "shortLabel": "note",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

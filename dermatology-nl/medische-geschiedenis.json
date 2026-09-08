@@ -1,0 +1,231 @@
+{
+  "form": "Dermatologie/Medische geschiedenis",
+  "id": "FFFFFFFF-FFFF-FFFF-FFFF-DOSSMED00000",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Antécédents sans particularités",
+              "type": "checkbox",
+              "shortLabel": "Antécédents sans particularités",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "Antécédents sans particularités": "Antécédents sans particularités"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Phototype",
+              "type": "dropdown-field",
+              "shortLabel": "Phototype",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "options": {
+                "LEGACY|I|1": "I",
+                "LEGACY|I-II|1": "I-II",
+                "LEGACY|II|1": "II",
+                "LEGACY|III|1": "III",
+                "LEGACY|IV|1": "IV"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Groupe sanguin",
+              "type": "dropdown-field",
+              "shortLabel": "Groupe sanguin",
+              "grows": true,
+              "span": 11,
+              "readonly": false,
+              "options": {
+                "LEGACY|O|1": "O",
+                "LEGACY|A|1": "A",
+                "LEGACY|B|1": "B",
+                "LEGACY|AB|1": "AB"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Rhésus",
+              "type": "dropdown-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 1,
+              "readonly": false,
+              "options": {
+                "LEGACY|+|1": "+",
+                "LEGACY|-|1": "-"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Familiale antecedenten",
+              "type": "token-field",
+              "shortLabel": "Familiale antecedenten",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Persoonlijke antecedenten",
+              "type": "token-field",
+              "shortLabel": "Persoonlijke antecedenten",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Heelkundige antecedenten",
+              "type": "token-field",
+              "shortLabel": "Heelkundige antecedenten",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Allergiën",
+              "type": "token-field",
+              "shortLabel": "Allergiën",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Medicamenteuse allergiën",
+              "type": "token-field",
+              "shortLabel": "Medicamenteuse allergiën",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Dermatologishe antecedenten",
+              "type": "text-field",
+              "shortLabel": "Dermatologishe antecedenten",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Alcohol",
+              "type": "checkbox",
+              "shortLabel": "Alcohol",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "Alcohol": "Alcohol"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Alcoolisme",
+              "type": "dropdown-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "LEGACY|Occasionnel|1": "Occasionnel",
+                "LEGACY|Chronique|1": "Chronique",
+                "LEGACY|Sévère|1": "Sévère"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Roken",
+              "type": "checkbox",
+              "shortLabel": "Roken",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Roken": "Roken"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Roken ernst",
+              "type": "dropdown-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "LEGACY|modéré|1": "modéré",
+                "LEGACY|sévère|1": "sévère"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Drugs",
+              "type": "text-field",
+              "shortLabel": "Drugs",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

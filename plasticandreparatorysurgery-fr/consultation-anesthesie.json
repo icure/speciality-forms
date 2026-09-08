@@ -1,0 +1,626 @@
+{
+  "form": "anesthésie/Consultation anesthésie",
+  "id": "99D9ACF3-D215-444D-87F2-18B9A778879F",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Copie type d'intervention",
+              "type": "text-field",
+              "shortLabel": "Intervention prévue",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Coeur",
+              "type": "dropdown-field",
+              "shortLabel": "Coeur",
+              "grows": true,
+              "span": 10,
+              "readonly": false,
+              "options": {
+                "LEGACY|B1 B2 audible RR pas de souffle perçu|1": "B1 B2 audible RR pas de souffle perçu",
+                "LEGACY|Souffle systolique|1": "Souffle systolique",
+                "LEGACY|Souffle diastolique|1": "Souffle diastolique",
+                "LEGACY|Souffle systolique et diastolique|1": "Souffle systolique et diastolique",
+                "LEGACY|Bruits assourdits|1": "Bruits assourdits",
+                "LEGACY|Autres|1": "Autres"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Régularité du pouls",
+              "type": "dropdown-field",
+              "shortLabel": "Régularité du pouls",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "options": {
+                "LEGACY|Régulier|1": "Régulier",
+                "LEGACY|Irrégulier|1": "Irrégulier"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Cou",
+              "type": "dropdown-field",
+              "shortLabel": "Cou",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "LEGACY|Long et mince|1": "Long et mince",
+                "LEGACY|Court et mince|1": "Court et mince",
+                "LEGACY|Long et large|1": "Long et large",
+                "LEGACY|Court et large|1": "Court et large"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Poumon droit",
+              "type": "dropdown-field",
+              "shortLabel": "Poumon droit",
+              "grows": true,
+              "span": 10,
+              "readonly": false,
+              "options": {
+                "LEGACY|MV audible et symétrique|1": "MV audible et symétrique",
+                "LEGACY|Râles|1": "Râles",
+                "LEGACY|Crépitations|1": "Crépitations",
+                "LEGACY|Foyer sommet|1": "Foyer sommet",
+                "LEGACY|Foyer Base|1": "Foyer Base",
+                "LEGACY|Epanchement|1": "Epanchement"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Barbe",
+              "type": "dropdown-field",
+              "shortLabel": "Barbe",
+              "grows": true,
+              "span": 14,
+              "readonly": false,
+              "options": {
+                "LEGACY|Non|1": "Non",
+                "LEGACY|Mince|1": "Mince",
+                "LEGACY|Touffue|1": "Touffue"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Poumon gauche",
+              "type": "dropdown-field",
+              "shortLabel": "Poumon gauche",
+              "grows": true,
+              "span": 10,
+              "readonly": false,
+              "options": {
+                "LEGACY|MV audible et symétrique|1": "MV audible et symétrique",
+                "LEGACY|Râles|1": "Râles",
+                "LEGACY|Crépitations|1": "Crépitations",
+                "LEGACY|Foyer sommet|1": "Foyer sommet",
+                "LEGACY|Foyer Base|1": "Foyer Base",
+                "LEGACY|Epanchement|1": "Epanchement"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Ouverture de bouche",
+              "type": "dropdown-field",
+              "shortLabel": "Ouverture de bouche",
+              "grows": true,
+              "span": 14,
+              "readonly": false,
+              "options": {
+                "LEGACY|< 2 cm|1": "< 2 cm",
+                "LEGACY|2-4 cm|1": "2-4 cm",
+                "LEGACY|> 4 cm|1": "> 4 cm"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "T.A. sys",
+              "type": "measure-field",
+              "shortLabel": "T.A. sys",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "T.A. dias",
+              "type": "measure-field",
+              "shortLabel": "T.A. dias",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Distance thyro-mentonnière",
+              "type": "dropdown-field",
+              "shortLabel": "Distance thyro-mentonnière",
+              "grows": true,
+              "span": 13,
+              "readonly": false,
+              "options": {
+                "LEGACY|> 6 cm|1": "> 6 cm",
+                "LEGACY|4-6 cm|1": "4-6 cm",
+                "LEGACY|< 4 cm|1": "< 4 cm"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Mallampathi",
+              "type": "dropdown-field",
+              "shortLabel": "Mallampathi",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "LEGACY|I|1": "I",
+                "LEGACY|II|1": "II",
+                "LEGACY|III|1": "III",
+                "LEGACY|IV|1": "IV"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Risque NPOV",
+              "type": "dropdown-field",
+              "shortLabel": "Risque NPOV",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "LEGACY|0|1": "0",
+                "LEGACY|I|1": "I",
+                "LEGACY|II|1": "II",
+                "LEGACY|III|1": "III",
+                "LEGACY|IV|1": "IV"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Score A.S.A.",
+              "type": "dropdown-field",
+              "shortLabel": "Score A.S.A.",
+              "grows": true,
+              "span": 10,
+              "readonly": false,
+              "options": {
+                "LEGACY|I|1": "I",
+                "LEGACY|II|1": "II",
+                "LEGACY|III|1": "III",
+                "LEGACY|IV|1": "IV",
+                "LEGACY|V|1": "V"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Nuque",
+              "type": "dropdown-field",
+              "shortLabel": "Nuque",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "options": {
+                "LEGACY|Extension normale|1": "Extension normale",
+                "LEGACY|Extension limitée|1": "Extension limitée",
+                "LEGACY|Extension impossible|1": "Extension impossible"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Antécédent de NPOV",
+              "type": "checkbox",
+              "shortLabel": "Antécédent de NPOV",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "Antécédent de NPOV": "Antécédent de NPOV"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Non- fumeur",
+              "type": "checkbox",
+              "shortLabel": "Non- fumeur",
+              "grows": true,
+              "span": 5,
+              "rowSpan": 2,
+              "readonly": false,
+              "options": {
+                "Non- fumeur": "Non- fumeur"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "RX Thorax",
+              "type": "text-field",
+              "shortLabel": "RX Thorax",
+              "grows": true,
+              "span": 19,
+              "rowSpan": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Morphinique per-op",
+              "type": "checkbox",
+              "shortLabel": "Morphinique per-op",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "Morphinique per-op": "Morphinique per-op"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Femme",
+              "type": "checkbox",
+              "shortLabel": "Femme",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "Femme": "Femme"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Traitement habituel la veille",
+              "type": "checkbox",
+              "shortLabel": "Traitement habituel la veille",
+              "grows": true,
+              "span": 16,
+              "readonly": false,
+              "options": {
+                "Traitement habituel la veille": "Traitement habituel la veille"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Traitement habituel le matin",
+              "type": "checkbox",
+              "shortLabel": "Traitement habituel le matin",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Traitement habituel le matin": "Traitement habituel le matin"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "A jeûn à partir de ",
+              "type": "dropdown-field",
+              "shortLabel": "A jeûn à partir de ",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "LEGACY|Minuit|1": "Minuit",
+                "LEGACY|01H00|1": "01H00",
+                "LEGACY|02H00|1": "02H00",
+                "LEGACY|03H00|1": "03H00",
+                "LEGACY|04H00|1": "04H00",
+                "LEGACY|05H00|1": "05H00",
+                "LEGACY|06H00|1": "06H00",
+                "LEGACY|07H00|1": "07H00",
+                "LEGACY|08H00|1": "08H00",
+                "LEGACY|09H00|1": "09H00",
+                "LEGACY|10H00|1": "10H00",
+                "LEGACY|11H00|1": "11H00",
+                "LEGACY|12H00|1": "12H00",
+                "LEGACY|13H00|1": "13H00",
+                "LEGACY|14H00|1": "14H00",
+                "LEGACY|15H00|1": "15H00",
+                "LEGACY|16H00|1": "16H00",
+                "LEGACY|17H00|1": "17H00",
+                "LEGACY|18H00|1": "18H00",
+                "LEGACY|19H00|1": "19H00",
+                "LEGACY|20H00|1": "20H00",
+                "LEGACY|21H00|1": "21H00",
+                "LEGACY|22H00|1": "22H00",
+                "LEGACY|23H00|1": "23H00"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Traitement habituel la veille sauf",
+              "type": "checkbox",
+              "shortLabel": "Traitement habituel la veille sauf",
+              "grows": true,
+              "span": 16,
+              "readonly": false,
+              "options": {
+                "Traitement habituel la veille sauf": "Traitement habituel la veille sauf"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Traitement habituel le matin sauf",
+              "type": "checkbox",
+              "shortLabel": "Traitement habituel le matin sauf",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Traitement habituel le matin sauf": "Traitement habituel le matin sauf"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Petit déjeûner léger avant",
+              "type": "dropdown-field",
+              "shortLabel": "Petit déjeûner léger avant",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "LEGACY|06H00|1": "06H00",
+                "LEGACY|07H00|1": "07H00",
+                "LEGACY|08H00|1": "08H00",
+                "LEGACY|09H00|1": "09H00",
+                "LEGACY|10H00|1": "10H00",
+                "LEGACY|11H00|1": "11H00",
+                "LEGACY|12H00|1": "12H00",
+                "LEGACY|Pas de déjeûner|1": "Pas de déjeûner"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Ne pas prendre",
+              "type": "text-field",
+              "shortLabel": "Ne pas prendre",
+              "grows": true,
+              "span": 16,
+              "rowSpan": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Ne pas prendre (traitement du matin)",
+              "type": "text-field",
+              "shortLabel": "Ne pas prendre",
+              "grows": true,
+              "span": 8,
+              "rowSpan": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 3",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Traitement particulier la veille",
+              "type": "checkbox",
+              "shortLabel": "Traitement particulier la veille",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "Traitement particulier la veille": "Traitement particulier la veille"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Traitement à l'arrivée",
+              "type": "checkbox",
+              "shortLabel": "Traitement à l'arrivée",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "Traitement à l'arrivée": "Traitement à l'arrivée"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Dafalgan la veille au soir",
+              "type": "dropdown-field",
+              "shortLabel": "Dafalgan la veille au soir",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "LEGACY|Non|1": "Non",
+                "LEGACY|500 mg|1": "500 mg",
+                "LEGACY|1000 mg|1": "1000 mg",
+                "LEGACY|1500 mg|1": "1500 mg",
+                "LEGACY|2000 mg|1": "2000 mg"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Dafalgan à l'arrivée",
+              "type": "dropdown-field",
+              "shortLabel": "Dafalgan à l'arrivée",
+              "grows": true,
+              "span": 18,
+              "readonly": false,
+              "options": {
+                "LEGACY|Non|1": "Non",
+                "LEGACY|500 mg|1": "500 mg",
+                "LEGACY|1000 mg|1": "1000 mg",
+                "LEGACY|1500 mg|1": "1500 mg",
+                "LEGACY|2000 mg|1": "2000 mg"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Xanax la veille au soir",
+              "type": "dropdown-field",
+              "shortLabel": "Xanax la veille au soir",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "LEGACY|Non|1": "Non",
+                "LEGACY|0,25 mg|1": "0,25 mg",
+                "LEGACY|0,5 mg|1": "0,5 mg"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Xanax à l'arrivée",
+              "type": "dropdown-field",
+              "shortLabel": "Xanax à l'arrivée",
+              "grows": true,
+              "span": 18,
+              "readonly": false,
+              "options": {
+                "LEGACY|0|1": "0",
+                "LEGACY|0,25 mg|1": "0,25 mg",
+                "LEGACY|0,5 mg|1": "0,5 mg"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Zantac la veille au soir",
+              "type": "dropdown-field",
+              "shortLabel": "Zantac la veille au soir",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "LEGACY|Non|1": "Non",
+                "LEGACY|150 mg|1": "150 mg",
+                "LEGACY|300 mg|1": "300 mg"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Zantac à l'arrivée",
+              "type": "dropdown-field",
+              "shortLabel": "Zantac à l'arrivée",
+              "grows": true,
+              "span": 18,
+              "readonly": false,
+              "options": {
+                "LEGACY|Non|1": "Non",
+                "LEGACY|150 mg|1": "150 mg",
+                "LEGACY|300 mg|1": "300 mg"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "taille de la langue",
+              "type": "dropdown-field",
+              "shortLabel": "taille de la langue",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

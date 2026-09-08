@@ -1,0 +1,472 @@
+{
+  "form": "CRO/CRO rhinoplastie",
+  "id": "9BBFD9E3-596E-4539-97E4-1EAC14E53D58",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "intervention chirurgicale réalisée",
+              "type": "text-field",
+              "shortLabel": "intervention chirurgicale réalisée",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "lieu d'intervention",
+              "type": "dropdown-field",
+              "shortLabel": "lieu d'intervention",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "LEGACY|Clinic135|1": "Clinic135",
+                "LEGACY|Clinique du Parc Léopold|1": "Clinique du Parc Léopold",
+                "LEGACY|Cliniques Saint-Luc |1": "Cliniques Saint-Luc ",
+                "LEGACY|Hôpital de Braine l'Alleud|1": "Hôpital de Braine l'Alleud"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "date opératoire",
+              "type": "date-picker",
+              "shortLabel": "date opératoire",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "type de rhinoplastie",
+              "type": "dropdown-field",
+              "shortLabel": "type de rhinoplastie",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "options": {
+                "LEGACY|fonctionelle pure|1": "fonctionelle pure",
+                "LEGACY|esthétique pure|1": "esthétique pure",
+                "LEGACY|mixte|1": "mixte"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "4D1A48C7-5498-4AA4-AA96-194758819049",
+              "type": "action",
+              "shortLabel": "CRO",
+              "grows": true,
+              "span": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Opérateur",
+              "type": "text-field",
+              "shortLabel": "Opérateur",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Assistant",
+              "type": "text-field",
+              "shortLabel": "Assistant",
+              "grows": true,
+              "span": 10,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "voie d'abord",
+              "type": "dropdown-field",
+              "shortLabel": "voie d'abord",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "LEGACY|voie de Rethi|1": "voie de Rethi",
+                "LEGACY|intersepto-columellaire|1": "intersepto-columellaire",
+                "LEGACY|marginale|1": "marginale",
+                "LEGACY|intercartilagineuse|1": "intercartilagineuse",
+                "LEGACY|transcartilagineuse|1": "transcartilagineuse"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Anesthésiste",
+              "type": "text-field",
+              "shortLabel": "Anesthésiste",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "anesthésie",
+              "type": "dropdown-field",
+              "shortLabel": "anesthésie",
+              "grows": true,
+              "span": 17,
+              "readonly": false,
+              "options": {
+                "LEGACY|anesthésie locale|1": "anesthésie locale",
+                "LEGACY|anesthésie générale|1": "anesthésie générale",
+                "LEGACY|anesthésie locale + sédation|1": "anesthésie locale + sédation",
+                "LEGACY|plexus|1": "plexus",
+                "LEGACY|bloc endoveineux|1": "bloc endoveineux",
+                "LEGACY|rachianesthésie|1": "rachianesthésie"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "narine droite",
+              "type": "checkbox",
+              "shortLabel": "narine droite",
+              "grows": true,
+              "span": 16,
+              "readonly": false,
+              "options": {
+                "narine droite": "narine droite"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "narine gauche",
+              "type": "checkbox",
+              "shortLabel": "narine gauche",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "narine gauche": "narine gauche"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "FDF86D60-AA6A-4050-8B16-5E5AA2109059",
+              "type": "action",
+              "shortLabel": "RH",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "désinfectant",
+              "type": "dropdown-field",
+              "shortLabel": "désinfectant",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "LEGACY|isobédatine dermique|1": "isobédatine dermique",
+                "LEGACY|hibitane|1": "hibitane",
+                "LEGACY|chlohexidine aqueuse|1": "chlohexidine aqueuse",
+                "LEGACY|isobétadine alcoolique|1": "isobétadine alcoolique"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "antibioprophylaxie",
+              "type": "text-field",
+              "shortLabel": "AB-prophylaxie",
+              "grows": true,
+              "span": 10,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "durée d'intervention",
+              "type": "measure-field",
+              "shortLabel": "durée d'intervention",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "F378AB76-52AE-4813-AE30-E966A3A0C1A2",
+              "type": "action",
+              "shortLabel": "RH OD",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "anesthésique",
+              "type": "dropdown-field",
+              "shortLabel": "infiltration",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "LEGACY|xylocaïne 1% avec adrénaline|1": "xylocaïne 1% avec adrénaline",
+                "LEGACY|xylocaïne 2% avec adrénaline|1": "xylocaïne 2% avec adrénaline"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "volume injecté",
+              "type": "measure-field",
+              "shortLabel": "volume injecté",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "rhinoplastie ",
+              "type": "dropdown-field",
+              "shortLabel": "rhinoplastie ",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "LEGACY|primaire|1": "primaire",
+                "LEGACY|secondaire|1": "secondaire",
+                "LEGACY|tertiaire|1": "tertiaire",
+                "LEGACY|quaternaire|1": "quaternaire",
+                "LEGACY|autre|1": "autre",
+                "LEGACY|fente|1": "fente"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "méthode de résection",
+              "type": "dropdown-field",
+              "shortLabel": "méthode de résection",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "LEGACY|rape|1": "rape",
+                "LEGACY|ostéotome|1": "ostéotome"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "résection dorsale",
+              "type": "measure-field",
+              "shortLabel": "résection dorsale",
+              "grows": true,
+              "span": 18,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "ostéotomie médiane",
+              "type": "dropdown-field",
+              "shortLabel": "ostéotomie médiane",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "LEGACY|non|1": "non",
+                "LEGACY|endonasale|1": "endonasale",
+                "LEGACY|percutanée|1": "percutanée"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "ostéotomie latérale",
+              "type": "dropdown-field",
+              "shortLabel": "ostéotomie latérale",
+              "grows": true,
+              "span": 18,
+              "readonly": false,
+              "options": {
+                "LEGACY|non|1": "non",
+                "LEGACY|percutanée|1": "percutanée",
+                "LEGACY|endonasale|1": "endonasale"
+              },
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "crus latérale restante",
+              "type": "measure-field",
+              "shortLabel": "crus latérale restante",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "sutures dômales",
+              "type": "text-field",
+              "shortLabel": "sutures dômales",
+              "grows": true,
+              "span": 19,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 3",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "protocole",
+              "type": "text-field",
+              "shortLabel": "protocole additionnel",
+              "grows": true,
+              "span": 24,
+              "rowSpan": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 4",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "traitement post-op",
+              "type": "items-list-field",
+              "shortLabel": "traitement post-op",
+              "grows": true,
+              "span": 7,
+              "rowSpan": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "date d'entrée",
+              "type": "date-picker",
+              "shortLabel": "date d'entrée",
+              "grows": true,
+              "span": 6,
+              "rowSpan": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "suites",
+              "type": "text-field",
+              "shortLabel": "suites",
+              "grows": true,
+              "span": 11,
+              "rowSpan": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "date de sortie",
+              "type": "date-picker",
+              "shortLabel": "date de sortie",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "note",
+              "type": "text-field",
+              "shortLabel": "note",
+              "grows": true,
+              "span": 24,
+              "rowSpan": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

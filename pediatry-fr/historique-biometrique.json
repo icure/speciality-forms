@@ -1,0 +1,76 @@
+{
+  "form": "Pédiatrie/Historique biométrique",
+  "id": "13F762E6-1AB4-4629-9B57-BC7770984943",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "subform",
+          "id": "00ED43CF-1405-49CD-9E0E-D1C92207B295",
+          "shortLabel": "Biométries",
+          "forms": {
+            "Sous-formulaires/Biométries": {
+              "form": "Sous-formulaires/Biométries",
+              "id": "5E2B23A4-EC56-457D-BC7E-0EFEF224E525",
+              "sections": [
+                {
+                  "section": "Main",
+                  "fields": [
+                    {
+                      "clazz": "field",
+                      "field": "Poids",
+                      "type": "measure-field",
+                      "shortLabel": "Poids",
+                      "grows": true,
+                      "span": 4,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Taille",
+                      "type": "measure-field",
+                      "shortLabel": "Taille",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Périmètre cranien",
+                      "type": "measure-field",
+                      "shortLabel": "Périmètre cranien",
+                      "grows": true,
+                      "span": 10,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "BMI",
+                      "type": "number-field",
+                      "shortLabel": "BMI",
+                      "grows": true,
+                      "span": 4,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "span": 24,
+          "rowSpan": null,
+          "labels": {}
+        }
+      ]
+    }
+  ]
+}

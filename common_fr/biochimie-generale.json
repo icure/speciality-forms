@@ -1,0 +1,823 @@
+{
+  "form": "Biologie/Biochimie générale",
+  "id": "D9F4A6E6-E77D-483D-B70B-D922E56FB953",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Acide urique",
+          "type": "checkbox",
+          "shortLabel": "Acide urique",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Acide urique": "Acide urique"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Protéines totales",
+          "type": "checkbox",
+          "shortLabel": "Protéines totales",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Protéines totales": "Protéines totales"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Bilirubine (T+C)",
+          "type": "checkbox",
+          "shortLabel": "Bilirubine (T+C)",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Bilirubine (T+C)": "Bilirubine (T+C)"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Cholestérol total",
+          "type": "checkbox",
+          "shortLabel": "Cholestérol total",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Cholestérol total": "Cholestérol total"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Urée",
+          "type": "checkbox",
+          "shortLabel": "Urée",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Urée": "Urée"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Electro des protéines",
+          "type": "checkbox",
+          "shortLabel": "Electro des protéines",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Electro des protéines": "Electro des protéines"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Gamma GT",
+          "type": "checkbox",
+          "shortLabel": "Gamma GT",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Gamma GT": "Gamma GT"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "HDL cholestérol",
+          "type": "checkbox",
+          "shortLabel": "HDL cholestérol",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "HDL cholestérol": "HDL cholestérol"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Créatinine",
+          "type": "checkbox",
+          "shortLabel": "Créatinine",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Créatinine": "Créatinine"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Immunoélectro si pic anormal à l'électro",
+          "type": "checkbox",
+          "shortLabel": "Immunoélec. si pic an.",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Immunoélec. si pic an.": "Immunoélec. si pic an."
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "AST (GOT)",
+          "type": "checkbox",
+          "shortLabel": "AST (GOT)",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "AST (GOT)": "AST (GOT)"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Triglycérides",
+          "type": "checkbox",
+          "shortLabel": "Triglycérides",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Triglycérides": "Triglycérides"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Clairance créatinine",
+          "type": "checkbox",
+          "shortLabel": "Clairance créatinine",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Clairance créatinine": "Clairance créatinine"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Albumine",
+          "type": "checkbox",
+          "shortLabel": "Albumine",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Albumine": "Albumine"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "ALT (GPT)",
+          "type": "checkbox",
+          "shortLabel": "ALT (GPT)",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "ALT (GPT)": "ALT (GPT)"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "LDL cholestérol calculé",
+          "type": "checkbox",
+          "shortLabel": "LDL cholestérol calculé",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "LDL cholestérol calculé": "LDL cholestérol calculé"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "GFR-MDRD (18-70 ans)",
+          "type": "checkbox",
+          "shortLabel": "GFR-MDRD (18-70 ans)",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "GFR-MDRD (18-70 ans)": "GFR-MDRD (18-70 ans)"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Haptoglobine",
+          "type": "checkbox",
+          "shortLabel": "Haptoglobine",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Haptoglobine": "Haptoglobine"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "LDH",
+          "type": "checkbox",
+          "shortLabel": "LDH",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "LDH": "LDH"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Homocysteine (<55ans)",
+          "type": "checkbox",
+          "shortLabel": "Homocysteine (<55ans)",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Homocysteine (<55ans)": "Homocysteine (<55ans)"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Chlore",
+          "type": "checkbox",
+          "shortLabel": "Chlore",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "Chlore": "Chlore"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Orosmucoïde",
+          "type": "checkbox",
+          "shortLabel": "Orosmucoïde",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "Orosmucoïde": "Orosmucoïde"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Iso-LDH si LDH pathologiques",
+          "type": "checkbox",
+          "shortLabel": "Iso-LDH si LDH path.",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "Iso-LDH si LDH path.": "Iso-LDH si LDH path."
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Potassium",
+          "type": "checkbox",
+          "shortLabel": "Potassium",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Potassium": "Potassium"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "C3",
+          "type": "checkbox",
+          "shortLabel": "C3",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "C3": "C3"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "IgA",
+          "type": "checkbox",
+          "shortLabel": "IgA",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "IgA": "IgA"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Photastases alc",
+          "type": "checkbox",
+          "shortLabel": "Photastases alc",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Photastases alc": "Photastases alc"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Sodium",
+          "type": "checkbox",
+          "shortLabel": "Sodium",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "options": {
+            "Sodium": "Sodium"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "IgG",
+          "type": "checkbox",
+          "shortLabel": "IgG",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "options": {
+            "IgG": "IgG"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "IgM",
+          "type": "checkbox",
+          "shortLabel": "IgM",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "IgM": "IgM"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Iso-phosphat.alc., si pathologie osseuse",
+          "type": "checkbox",
+          "shortLabel": "Iso-phos.alc., si path oss.",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "options": {
+            "Iso-phos.alc., si path oss.": "Iso-phos.alc., si path oss."
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Glucose",
+          "type": "checkbox",
+          "shortLabel": "Glucose",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "options": {
+            "Glucose": "Glucose"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Calcium",
+          "type": "checkbox",
+          "shortLabel": "Calcium",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Calcium": "Calcium"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Préalbumine",
+          "type": "checkbox",
+          "shortLabel": "Préalbumine",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Préalbumine": "Préalbumine"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "CPK",
+          "type": "checkbox",
+          "shortLabel": "CPK",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "CPK": "CPK"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Hb glyquée, si patient diabétique",
+          "type": "checkbox",
+          "shortLabel": "Hb glyquée, si pat. diab.",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Hb glyquée, si pat. diab.": "Hb glyquée, si pat. diab."
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Magnésium",
+          "type": "checkbox",
+          "shortLabel": "Magnésium",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "options": {
+            "Magnésium": "Magnésium"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "C4",
+          "type": "checkbox",
+          "shortLabel": "C4",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "options": {
+            "C4": "C4"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "C3d",
+          "type": "checkbox",
+          "shortLabel": "C3d",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "C3d": "C3d"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Troponine lc",
+          "type": "checkbox",
+          "shortLabel": "Troponine lc",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "options": {
+            "Troponine lc": "Troponine lc"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Hb gliquée (3,7€)",
+          "type": "checkbox",
+          "shortLabel": "Hb gliquée (3,7€)",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "options": {
+            "Hb gliquée (3,7€)": "Hb gliquée (3,7€)"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Phosphore",
+          "type": "checkbox",
+          "shortLabel": "Phosphore",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Phosphore": "Phosphore"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Alpha 1 antitrypsine",
+          "type": "checkbox",
+          "shortLabel": "Alpha 1 antitrypsine",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Alpha 1 antitrypsine": "Alpha 1 antitrypsine"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Amylase",
+          "type": "checkbox",
+          "shortLabel": "Amylase",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Amylase": "Amylase"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Insuline",
+          "type": "checkbox",
+          "shortLabel": "Insuline",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Insuline": "Insuline"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Cuivre",
+          "type": "checkbox",
+          "shortLabel": "Cuivre",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "Cuivre": "Cuivre"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Alpha 2 macroglobuline",
+          "type": "checkbox",
+          "shortLabel": "Alpha 2 macroglobuline",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "Alpha 2 macroglobuline": "Alpha 2 macroglobuline"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "C-peptide",
+          "type": "checkbox",
+          "shortLabel": "C-peptide",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "C-peptide": "C-peptide"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Osmolalité",
+          "type": "checkbox",
+          "shortLabel": "Osmolalité",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "Osmolalité": "Osmolalité"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Céruplasmine",
+          "type": "checkbox",
+          "shortLabel": "Céruplasmine",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "Céruplasmine": "Céruplasmine"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Lipase",
+          "type": "checkbox",
+          "shortLabel": "Lipase",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "Lipase": "Lipase"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Bicarbonate",
+          "type": "checkbox",
+          "shortLabel": "Bicarbonate",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "Bicarbonate": "Bicarbonate"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Cryoglobuline",
+          "type": "checkbox",
+          "shortLabel": "Cryoglobuline",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "Cryoglobuline": "Cryoglobuline"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Trypsine",
+          "type": "checkbox",
+          "shortLabel": "Trypsine",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "Trypsine": "Trypsine"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Agglitinines froides",
+          "type": "checkbox",
+          "shortLabel": "Agglitinines froides",
+          "grows": true,
+          "span": 12,
+          "readonly": false,
+          "options": {
+            "Agglitinines froides": "Agglitinines froides"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Cholinestérase",
+          "type": "checkbox",
+          "shortLabel": "Cholinestérase",
+          "grows": true,
+          "span": 12,
+          "readonly": false,
+          "options": {
+            "Cholinestérase": "Cholinestérase"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Cryofibrinogène",
+          "type": "checkbox",
+          "shortLabel": "Cryofibrinogène",
+          "grows": true,
+          "span": 12,
+          "readonly": false,
+          "options": {
+            "Cryofibrinogène": "Cryofibrinogène"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Cholinestérase (dibuc.)",
+          "type": "checkbox",
+          "shortLabel": "Cholinestérase (dibuc.)",
+          "grows": true,
+          "span": 12,
+          "readonly": false,
+          "options": {
+            "Cholinestérase (dibuc.)": "Cholinestérase (dibuc.)"
+          },
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

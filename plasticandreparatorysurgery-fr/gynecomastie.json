@@ -1,0 +1,376 @@
+{
+  "form": "Pré-op/Gynécomastie",
+  "id": "CA0182A2-4653-401E-A1C2-C97A440231D0",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "intitulé",
+              "type": "text-field",
+              "shortLabel": "intitulé",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "diabète",
+              "type": "checkbox",
+              "shortLabel": "diabète",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "options": {
+                "diabète": "diabète"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "plainte",
+              "type": "text-field",
+              "shortLabel": "plaintes",
+              "grows": true,
+              "span": 17,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "symptômes pulmonaires (ashme,...)",
+              "type": "checkbox",
+              "shortLabel": "symptômes pulmonaires (ashme,...)",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "symptômes pulmonaires (ashme,...)": "symptômes pulmonaires (ashme,...)"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "hypercholesterolémie",
+              "type": "checkbox",
+              "shortLabel": "hypercholesterolémie",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "hypercholesterolémie": "hypercholesterolémie"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "alcoolisme",
+              "type": "checkbox",
+              "shortLabel": "alcoolisme",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "alcoolisme": "alcoolisme"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "sensibilité du mammelon",
+              "type": "dropdown-field",
+              "shortLabel": "sensibilité du mammelon",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "LEGACY|conservée|1": "conservée",
+                "LEGACY|diminuée|1": "diminuée",
+                "LEGACY|insensible|1": "insensible"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "symptômes cardiaques",
+              "type": "checkbox",
+              "shortLabel": "symptômes cardiaques",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "symptômes cardiaques": "symptômes cardiaques"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "instabilité psychique",
+              "type": "checkbox",
+              "shortLabel": "instabilité psychique",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "options": {
+                "instabilité psychique": "instabilité psychique"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "peau",
+              "type": "dropdown-field",
+              "shortLabel": "qualité cutanée",
+              "grows": true,
+              "span": 17,
+              "readonly": false,
+              "options": {
+                "LEGACY|bonne qualité|1": "bonne qualité",
+                "LEGACY|mauvaise qualité|1": "mauvaise qualité",
+                "LEGACY|vergetures|1": "vergetures"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "hématomes facilement ",
+              "type": "checkbox",
+              "shortLabel": "hématomes facilement ",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "options": {
+                "hématomes facilement ": "hématomes facilement "
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "symétrie",
+              "type": "dropdown-field",
+              "shortLabel": "symétrie mammaire",
+              "grows": true,
+              "span": 17,
+              "readonly": false,
+              "options": {
+                "LEGACY|G=D|1": "G=D",
+                "LEGACY|G<D|1": "G<D",
+                "LEGACY|G>D|1": "G>D"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "saignements anormaux",
+              "type": "checkbox",
+              "shortLabel": "saignements anormaux",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "options": {
+                "saignements anormaux": "saignements anormaux"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "ptose mammaire",
+              "type": "dropdown-field",
+              "shortLabel": "ptose mammaire",
+              "grows": true,
+              "span": 17,
+              "readonly": false,
+              "options": {
+                "LEGACY|grade 1|1": "grade 1",
+                "LEGACY|grade 2|1": "grade 2",
+                "LEGACY|grade 3|1": "grade 3"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "taille",
+              "type": "measure-field",
+              "shortLabel": "taille",
+              "grows": true,
+              "span": 7,
+              "rowSpan": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "examen clinique",
+              "type": "text-field",
+              "shortLabel": "examen clinique",
+              "grows": true,
+              "span": 17,
+              "rowSpan": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "poids",
+              "type": "measure-field",
+              "shortLabel": "poids",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "BMI",
+              "type": "number-field",
+              "shortLabel": "BMI",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "tabagisme",
+              "type": "dropdown-field",
+              "shortLabel": "tabagisme",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "LEGACY|Non|1": "Non",
+                "LEGACY|ancien fumeur|1": "ancien fumeur",
+                "LEGACY|passif|1": "passif",
+                "LEGACY|qqs cig/j|1": "qqs cig/j",
+                "LEGACY|<1 pa/J|1": "<1 pa/J",
+                "LEGACY|1 pa/J|1": "1 pa/J",
+                "LEGACY|1-2 pa /J|1": "1-2 pa /J",
+                "LEGACY|>2 pa/J|1": ">2 pa/J",
+                "LEGACY|cigares|1": "cigares"
+              },
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "traitement proposé",
+              "type": "dropdown-field",
+              "shortLabel": "traitement proposé",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "LEGACY|liposuccion seule|1": "liposuccion seule",
+                "LEGACY|résection par voie hémi-aréolaire + liposuccion|1": "résection par voie hémi-aréolaire + liposuccion",
+                "LEGACY|résection par voie périe-aréolaire + liposuccion|1": "résection par voie périe-aréolaire + liposuccion",
+                "LEGACY|résection avec cicatrice en ancre de marine|1": "résection avec cicatrice en ancre de marine"
+              },
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 3",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "allaitement",
+              "type": "checkbox",
+              "shortLabel": "écoulement mammellonaire",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "écoulement mammellonaire": "écoulement mammellonaire"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "mammographie a réaliser",
+              "type": "checkbox",
+              "shortLabel": "mammographie a réaliser",
+              "grows": true,
+              "span": 11,
+              "rowSpan": 2,
+              "readonly": false,
+              "options": {
+                "mammographie a réaliser": "mammographie a réaliser"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "nota bene",
+              "type": "text-field",
+              "shortLabel": "nota bene",
+              "grows": true,
+              "span": 13,
+              "rowSpan": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "protocole",
+              "type": "text-field",
+              "shortLabel": "protocole de la mammographie",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

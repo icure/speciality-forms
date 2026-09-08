@@ -1,0 +1,22 @@
+{
+  "form": "Subformulieren/MMR",
+  "id": "D55E18D4-E48C-48B5-97E1-EF1B4DBB6FD6",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Vaccin",
+          "type": "text-field",
+          "shortLabel": "MMR",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

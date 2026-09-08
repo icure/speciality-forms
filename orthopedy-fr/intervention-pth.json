@@ -1,0 +1,146 @@
+{
+  "form": "Orthopédie/Intervention PTH",
+  "id": "A85CFEB1-3C60-4157-883F-D1D615C69306",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Type d'intervention",
+              "type": "dropdown-field",
+              "shortLabel": "Type d'intervention",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "LEGACY|Prothèse totale de hanche|1": "Prothèse totale de hanche",
+                "LEGACY|Prothèse de resurfaçage|1": "Prothèse de resurfaçage",
+                "LEGACY|Prothèse intermédiaire|1": "Prothèse intermédiaire",
+                "LEGACY|Reprise de prothèse totale de hanche|1": "Reprise de prothèse totale de hanche",
+                "LEGACY|Reprise de cotyle|1": "Reprise de cotyle",
+                "LEGACY|Reprise de tige fémorale|1": "Reprise de tige fémorale"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Anesthésiste",
+              "type": "text-field",
+              "shortLabel": "Anesthésiste",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Type d'anesthésie",
+              "type": "dropdown-field",
+              "shortLabel": "Type d'anesthésie",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "LEGACY|anesthésie générale|1": "anesthésie générale",
+                "LEGACY|rachi-anesthésie|1": "rachi-anesthésie",
+                "LEGACY|bloc|1": "bloc"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Voie d'abord",
+              "type": "dropdown-field",
+              "shortLabel": "Voie d'abord",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "LEGACY|Voie de Hueter|1": "Voie de Hueter",
+                "LEGACY|Voie de Rottinger|1": "Voie de Rottinger",
+                "LEGACY|Voie de Hardinge|1": "Voie de Hardinge",
+                "LEGACY|Voie de Moore|1": "Voie de Moore",
+                "LEGACY|Fémorotomie|1": "Fémorotomie"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Type de prothèse",
+              "type": "text-field",
+              "shortLabel": "Type de prothèse",
+              "grows": true,
+              "span": 16,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Protocole",
+              "type": "text-field",
+              "shortLabel": "Protocole",
+              "grows": true,
+              "span": 24,
+              "rowSpan": 11,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Code PTH",
+              "type": "checkbox",
+              "shortLabel": "Code PTH",
+              "grows": true,
+              "span": 23,
+              "readonly": false,
+              "options": {
+                "Code PTH": "Code PTH"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Code reprise",
+              "type": "checkbox",
+              "shortLabel": "Code reprise",
+              "grows": true,
+              "span": 1,
+              "readonly": false,
+              "options": {
+                "Code reprise": "Code reprise"
+              },
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

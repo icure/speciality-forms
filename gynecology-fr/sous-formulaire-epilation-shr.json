@@ -1,0 +1,117 @@
+{
+  "form": "Epilation définitive SOPRANO/Sous-formulaire épilation SHR",
+  "id": "43378C7D-8943-46BC-B3B0-CFEFE1CF7A13",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "date traitement",
+          "type": "date-picker",
+          "shortLabel": "date traitement",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Opérateur",
+          "type": "dropdown-field",
+          "shortLabel": "Opérateur",
+          "grows": true,
+          "span": 9,
+          "readonly": false,
+          "options": {
+            "LEGACY|Cendrine|1": "Cendrine",
+            "LEGACY|Catherine|1": "Catherine",
+            "LEGACY|Dr Norgaard|1": "Dr Norgaard",
+            "LEGACY|Dr Jabri|1": "Dr Jabri"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "phototype peau",
+          "type": "dropdown-field",
+          "shortLabel": "phototype peau du jour",
+          "grows": true,
+          "span": 10,
+          "readonly": false,
+          "options": {
+            "LEGACY|I TRES CLAIR|1": "I TRES CLAIR",
+            "LEGACY|II CLAIR|1": "II CLAIR",
+            "LEGACY|III INTERMEDIAIRE|1": "III INTERMEDIAIRE",
+            "LEGACY|IV MAT|1": "IV MAT",
+            "LEGACY|V BRUN|1": "V BRUN",
+            "LEGACY|VI NOIR|1": "VI NOIR"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Fluence",
+          "type": "number-field",
+          "shortLabel": "Fluence",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Surface de traitement",
+          "type": "number-field",
+          "shortLabel": "Surface de traitement",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Energie totale délivrée",
+          "type": "number-field",
+          "shortLabel": "NRJ tot (Kj)",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": " pièce à main",
+          "type": "dropdown-field",
+          "shortLabel": " pièce à main",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "LEGACY|SPEED|1": "SPEED",
+            "LEGACY|MINI|1": "MINI"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Conclusion séance épilation",
+          "type": "text-field",
+          "shortLabel": "Conclusion séance épilation",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

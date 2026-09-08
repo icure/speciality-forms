@@ -1,0 +1,75 @@
+{
+  "form": "Sous-formulaires/Constipation",
+  "id": "6B7E72D1-9FE4-4F05-A9AB-42191480D1E4",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Evacuation manuelle de fécalome",
+          "type": "checkbox",
+          "shortLabel": "Evacuation manuelle de fécalome",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "Evacuation manuelle de fécalome": "Evacuation manuelle de fécalome"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Lavement",
+          "type": "checkbox",
+          "shortLabel": "Lavement",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "Lavement": "Lavement"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Fréquence",
+          "type": "measure-field",
+          "shortLabel": "Fréquence",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Administration de solution médicamenteuse par une sonde rectale",
+          "type": "checkbox",
+          "shortLabel": "Administration de solution médicamenteuse par une sonde rectale",
+          "grows": true,
+          "span": 16,
+          "readonly": false,
+          "options": {
+            "Administration de solution médicamenteuse par une sonde rectale": "Administration de solution médicamenteuse par une sonde rectale"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Durée",
+          "type": "measure-field",
+          "shortLabel": "Durée",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1394 @@
+{
+  "form": "CRO/CRO chirurgie paroi abdominale",
+  "id": "B0C88878-A829-4355-8B50-26B323ED11AD",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "intervention chirurgicale réalisée",
+              "type": "text-field",
+              "shortLabel": "intervention chirurgicale réalisée",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "A406184A-305D-416D-81F1-5950335860C6",
+              "type": "action",
+              "shortLabel": "CRO",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Opérateur",
+              "type": "text-field",
+              "shortLabel": "Opérateur",
+              "grows": true,
+              "span": 10,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "lieu d'intervention",
+              "type": "dropdown-field",
+              "shortLabel": "lieu d'intervention",
+              "grows": true,
+              "span": 14,
+              "readonly": false,
+              "options": {
+                "LEGACY|Clinic135|1": "Clinic135",
+                "LEGACY|Clinique du Parc Léopold|1": "Clinique du Parc Léopold",
+                "LEGACY|Cliniques Saint-Luc |1": "Cliniques Saint-Luc ",
+                "LEGACY|Hôpital de Braine l'Alleud|1": "Hôpital de Braine l'Alleud"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "date opératoire",
+              "type": "date-picker",
+              "shortLabel": "date opératoire",
+              "grows": true,
+              "span": 22,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "A406184A-305D-416D-81F1-5950335860C6",
+              "type": "action",
+              "shortLabel": "RH",
+              "grows": true,
+              "span": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Assistant",
+              "type": "text-field",
+              "shortLabel": "Assistant",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "antibioprophylaxie",
+              "type": "text-field",
+              "shortLabel": "antibioprophylaxie",
+              "grows": true,
+              "span": 10,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "anesthésie",
+              "type": "dropdown-field",
+              "shortLabel": "anesthésie",
+              "grows": true,
+              "span": 14,
+              "readonly": false,
+              "options": {
+                "LEGACY|anesthésie locale|1": "anesthésie locale",
+                "LEGACY|anesthésie générale|1": "anesthésie générale",
+                "LEGACY|anesthésie locale avec sédation|1": "anesthésie locale avec sédation",
+                "LEGACY|rachianesthésie|1": "rachianesthésie"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Anesthésiste",
+              "type": "text-field",
+              "shortLabel": "Anesthésiste",
+              "grows": true,
+              "span": 10,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "position",
+              "type": "text-field",
+              "shortLabel": "position",
+              "grows": true,
+              "span": 14,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "durée d'intervention",
+              "type": "measure-field",
+              "shortLabel": "durée d'intervention",
+              "grows": true,
+              "span": 10,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "désinfectant",
+              "type": "dropdown-field",
+              "shortLabel": "désinfectant",
+              "grows": true,
+              "span": 14,
+              "readonly": false,
+              "options": {
+                "LEGACY|isobédatine dermique|1": "isobédatine dermique",
+                "LEGACY|hibitane|1": "hibitane",
+                "LEGACY|chlohexidine aqueuse|1": "chlohexidine aqueuse",
+                "LEGACY|isobétadine alcoolique|1": "isobétadine alcoolique"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "subform",
+              "id": "375486E8-2E08-4495-99A9-1DB3CD376220",
+              "shortLabel": "sous-formulaires CRO",
+              "forms": {
+                "sous-formulaires CRO/abdominoplastie": {
+                  "form": "sous-formulaires CRO/abdominoplastie",
+                  "id": "3ECE9304-D515-479F-BD7A-E23F3A38434A",
+                  "sections": [
+                    {
+                      "section": "Main",
+                      "fields": [
+                        {
+                          "clazz": "group",
+                          "group": "Section 1",
+                          "fields": [
+                            {
+                              "clazz": "field",
+                              "field": "incision",
+                              "type": "dropdown-field",
+                              "shortLabel": "incision",
+                              "grows": true,
+                              "span": 12,
+                              "readonly": false,
+                              "options": {
+                                "LEGACY|incision selon Pfannenstiel|1": "incision selon Pfannenstiel",
+                                "LEGACY|incision bi-iliaque|1": "incision bi-iliaque",
+                                "LEGACY|incision circulaire (torsoplastie)|1": "incision circulaire (torsoplastie)"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "excision cutanée",
+                              "type": "dropdown-field",
+                              "shortLabel": "excision cutanée",
+                              "grows": true,
+                              "span": 12,
+                              "readonly": false,
+                              "options": {
+                                "LEGACY|résection de la totalité du panicule sous-ombilical|1": "résection de la totalité du panicule sous-ombilical",
+                                "LEGACY|résection elliptique sus-pubienne|1": "résection elliptique sus-pubienne"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "excision de la cicatrice sus-pubienne",
+                              "type": "checkbox",
+                              "shortLabel": "excision de la cicatrice sus-pubienne",
+                              "grows": true,
+                              "span": 12,
+                              "readonly": false,
+                              "options": {
+                                "excision de la cicatrice sus-pubienne": "excision de la cicatrice sus-pubienne"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "poids réséqué",
+                              "type": "measure-field",
+                              "shortLabel": "poids réséqué",
+                              "grows": true,
+                              "span": 12,
+                              "readonly": false,
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "subform",
+                              "id": "375486E8-2E08-4495-99A9-1DB3CD376220",
+                              "shortLabel": "sous-formulaires CRO abdomen",
+                              "forms": {
+                                "sous-formulaires CRO abdomen/plicature de la gaine des droits": {
+                                  "form": "sous-formulaires CRO abdomen/plicature de la gaine des droits",
+                                  "id": "BB71EB13-CD86-4A6C-B38B-0ABD3828F9C4",
+                                  "sections": [
+                                    {
+                                      "section": "Main",
+                                      "fields": [
+                                        {
+                                          "clazz": "field",
+                                          "field": "plicature sus-ombilicale",
+                                          "type": "checkbox",
+                                          "shortLabel": "plicature sus-ombilicale",
+                                          "grows": true,
+                                          "span": 1,
+                                          "readonly": false,
+                                          "options": {
+                                            "plicature sus-ombilicale": "plicature sus-ombilicale"
+                                          },
+                                          "multiline": false,
+                                          "translate": true
+                                        },
+                                        {
+                                          "clazz": "field",
+                                          "field": "plicature xypho-pubienne",
+                                          "type": "checkbox",
+                                          "shortLabel": "plicature xypho-pubienne",
+                                          "grows": true,
+                                          "span": 11,
+                                          "readonly": false,
+                                          "options": {
+                                            "plicature xypho-pubienne": "plicature xypho-pubienne"
+                                          },
+                                          "multiline": false,
+                                          "translate": true
+                                        },
+                                        {
+                                          "clazz": "field",
+                                          "field": "purse-string péri-ombilical",
+                                          "type": "checkbox",
+                                          "shortLabel": "purse-string péri-ombilical",
+                                          "grows": true,
+                                          "span": 12,
+                                          "readonly": false,
+                                          "options": {
+                                            "purse-string péri-ombilical": "purse-string péri-ombilical"
+                                          },
+                                          "multiline": false,
+                                          "translate": true
+                                        },
+                                        {
+                                          "clazz": "field",
+                                          "field": "plicature sous-ombilicale",
+                                          "type": "checkbox",
+                                          "shortLabel": "plicature sous-ombilicale",
+                                          "grows": true,
+                                          "span": 1,
+                                          "readonly": false,
+                                          "options": {
+                                            "plicature sous-ombilicale": "plicature sous-ombilicale"
+                                          },
+                                          "multiline": false,
+                                          "translate": true
+                                        },
+                                        {
+                                          "clazz": "field",
+                                          "field": "plicatures para-ombilicales",
+                                          "type": "checkbox",
+                                          "shortLabel": "plicatures para-ombilicales",
+                                          "grows": true,
+                                          "span": 10,
+                                          "readonly": false,
+                                          "options": {
+                                            "plicatures para-ombilicales": "plicatures para-ombilicales"
+                                          },
+                                          "multiline": false,
+                                          "translate": true
+                                        },
+                                        {
+                                          "clazz": "field",
+                                          "field": "fil utilisé",
+                                          "type": "text-field",
+                                          "shortLabel": "fil utilisé",
+                                          "grows": true,
+                                          "span": 13,
+                                          "readonly": false,
+                                          "multiline": false,
+                                          "translate": true
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                "sous-formulaires CRO abdomen/cure de hernie": {
+                                  "form": "sous-formulaires CRO abdomen/cure de hernie",
+                                  "id": "AA6A137A-303B-4ACD-B076-B6E218365F6E",
+                                  "sections": [
+                                    {
+                                      "section": "Main",
+                                      "fields": [
+                                        {
+                                          "clazz": "field",
+                                          "field": "hernie ombilicale",
+                                          "type": "checkbox",
+                                          "shortLabel": "hernie ombilicale",
+                                          "grows": true,
+                                          "span": 1,
+                                          "readonly": false,
+                                          "options": {
+                                            "hernie ombilicale": "hernie ombilicale"
+                                          },
+                                          "multiline": false,
+                                          "translate": true
+                                        },
+                                        {
+                                          "clazz": "field",
+                                          "field": "hernie sus-ombilicale",
+                                          "type": "checkbox",
+                                          "shortLabel": "hernie sus-ombilicale",
+                                          "grows": true,
+                                          "span": 6,
+                                          "readonly": false,
+                                          "options": {
+                                            "hernie sus-ombilicale": "hernie sus-ombilicale"
+                                          },
+                                          "multiline": false,
+                                          "translate": true
+                                        },
+                                        {
+                                          "clazz": "field",
+                                          "field": "autre hernie",
+                                          "type": "text-field",
+                                          "shortLabel": "autre hernie",
+                                          "grows": true,
+                                          "span": 10,
+                                          "readonly": false,
+                                          "multiline": false,
+                                          "translate": true
+                                        },
+                                        {
+                                          "clazz": "field",
+                                          "field": "contenu",
+                                          "type": "dropdown-field",
+                                          "shortLabel": "contenu",
+                                          "grows": true,
+                                          "span": 7,
+                                          "readonly": false,
+                                          "options": {
+                                            "LEGACY|lipome pré-herniare|1": "lipome pré-herniare",
+                                            "LEGACY|anse abdominale|1": "anse abdominale",
+                                            "LEGACY|graisse épiploïque|1": "graisse épiploïque"
+                                          },
+                                          "multiline": false,
+                                          "translate": true
+                                        },
+                                        {
+                                          "clazz": "field",
+                                          "field": "hernie inguinale",
+                                          "type": "checkbox",
+                                          "shortLabel": "hernie inguinale",
+                                          "grows": true,
+                                          "span": 1,
+                                          "readonly": false,
+                                          "options": {
+                                            "hernie inguinale": "hernie inguinale"
+                                          },
+                                          "multiline": false,
+                                          "translate": true
+                                        },
+                                        {
+                                          "clazz": "field",
+                                          "field": "hernie sous-ombilicale",
+                                          "type": "checkbox",
+                                          "shortLabel": "hernie sous-ombilicale",
+                                          "grows": true,
+                                          "span": 23,
+                                          "readonly": false,
+                                          "options": {
+                                            "hernie sous-ombilicale": "hernie sous-ombilicale"
+                                          },
+                                          "multiline": false,
+                                          "translate": true
+                                        },
+                                        {
+                                          "clazz": "field",
+                                          "field": "mise en place d'un filet",
+                                          "type": "dropdown-field",
+                                          "shortLabel": "mise en place d'un filet",
+                                          "grows": true,
+                                          "span": 9,
+                                          "readonly": false,
+                                          "options": {
+                                            "LEGACY|marlex|1": "marlex",
+                                            "LEGACY|prolène|1": "prolène",
+                                            "LEGACY|vicryl|1": "vicryl"
+                                          },
+                                          "multiline": false,
+                                          "translate": true
+                                        },
+                                        {
+                                          "clazz": "field",
+                                          "field": "fermetures par points en croix",
+                                          "type": "checkbox",
+                                          "shortLabel": "fermetures par points en croix",
+                                          "grows": true,
+                                          "span": 8,
+                                          "readonly": false,
+                                          "options": {
+                                            "fermetures par points en croix": "fermetures par points en croix"
+                                          },
+                                          "multiline": false,
+                                          "translate": true
+                                        },
+                                        {
+                                          "clazz": "field",
+                                          "field": "fil utilisé",
+                                          "type": "text-field",
+                                          "shortLabel": "fil utilisé",
+                                          "grows": true,
+                                          "span": 7,
+                                          "readonly": false,
+                                          "multiline": false,
+                                          "translate": true
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                "sous-formulaires CRO abdomen/décollement": {
+                                  "form": "sous-formulaires CRO abdomen/décollement",
+                                  "id": "61FD577A-CB7E-4A51-85C5-CE92B3404C5D",
+                                  "sections": [
+                                    {
+                                      "section": "Main",
+                                      "fields": [
+                                        {
+                                          "clazz": "field",
+                                          "field": "décollement cutanéo-graisseux",
+                                          "type": "dropdown-field",
+                                          "shortLabel": "décollement cutanéo-graisseux",
+                                          "grows": true,
+                                          "span": 24,
+                                          "readonly": false,
+                                          "options": {
+                                            "LEGACY|sous-ombilical|1": "sous-ombilical",
+                                            "LEGACY|xypho-pubien|1": "xypho-pubien",
+                                            "LEGACY|xypho-pubien selon Lelouarn|1": "xypho-pubien selon Lelouarn"
+                                          },
+                                          "multiline": false,
+                                          "translate": true
+                                        },
+                                        {
+                                          "clazz": "subform",
+                                          "id": "6D1ED069-160D-4F65-B56E-E62209ED50A7",
+                                          "shortLabel": "sous-formulaires CRO abdomen",
+                                          "forms": {
+                                            "sous-formulaires CRO abdomen/désinsertion du nombril": {
+                                              "form": "sous-formulaires CRO abdomen/désinsertion du nombril",
+                                              "id": "4AC2DD7B-F053-4193-811B-CA1CCA12BE0C",
+                                              "sections": [
+                                                {
+                                                  "section": "Main",
+                                                  "fields": [
+                                                    {
+                                                      "clazz": "field",
+                                                      "field": "suture du nombril à l'endroit initial",
+                                                      "type": "checkbox",
+                                                      "shortLabel": "suture du nombril à l'endroit initial",
+                                                      "grows": true,
+                                                      "span": 13,
+                                                      "readonly": false,
+                                                      "options": {
+                                                        "suture du nombril à l'endroit initial": "suture du nombril à l'endroit initial"
+                                                      },
+                                                      "multiline": false,
+                                                      "translate": true
+                                                    },
+                                                    {
+                                                      "clazz": "field",
+                                                      "field": "descente du nombril",
+                                                      "type": "measure-field",
+                                                      "shortLabel": "descente du nombril",
+                                                      "grows": true,
+                                                      "span": 11,
+                                                      "readonly": false,
+                                                      "multiline": false,
+                                                      "translate": true
+                                                    },
+                                                    {
+                                                      "clazz": "field",
+                                                      "field": "désinsertion du nombril",
+                                                      "type": "checkbox",
+                                                      "shortLabel": "désinsertion du nombril",
+                                                      "grows": true,
+                                                      "span": 13,
+                                                      "readonly": false,
+                                                      "options": {
+                                                        "désinsertion du nombril": "désinsertion du nombril"
+                                                      },
+                                                      "multiline": false,
+                                                      "translate": true
+                                                    },
+                                                    {
+                                                      "clazz": "field",
+                                                      "field": "suture du nombril plus caudalement",
+                                                      "type": "checkbox",
+                                                      "shortLabel": "suture du nombril plus caudalement",
+                                                      "grows": true,
+                                                      "span": 11,
+                                                      "readonly": false,
+                                                      "options": {
+                                                        "suture du nombril plus caudalement": "suture du nombril plus caudalement"
+                                                      },
+                                                      "multiline": false,
+                                                      "translate": true
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            "sous-formulaires CRO abdomen/transposition du nombril": {
+                                              "form": "sous-formulaires CRO abdomen/transposition du nombril",
+                                              "id": "C479A1B7-5EC2-4F3D-8B78-DEC5E33D87DA",
+                                              "sections": [
+                                                {
+                                                  "section": "Main",
+                                                  "fields": [
+                                                    {
+                                                      "clazz": "field",
+                                                      "field": "suture circulaire péri-ombilicale",
+                                                      "type": "checkbox",
+                                                      "shortLabel": "suture circulaire péri-ombilicale",
+                                                      "grows": true,
+                                                      "span": 24,
+                                                      "readonly": false,
+                                                      "options": {
+                                                        "suture circulaire péri-ombilicale": "suture circulaire péri-ombilicale"
+                                                      },
+                                                      "multiline": false,
+                                                      "translate": true
+                                                    },
+                                                    {
+                                                      "clazz": "field",
+                                                      "field": "nombril pédiculé sur la paroi abdominale",
+                                                      "type": "checkbox",
+                                                      "shortLabel": "nombril pédiculé sur la paroi abdominale",
+                                                      "grows": true,
+                                                      "span": 2,
+                                                      "readonly": false,
+                                                      "options": {
+                                                        "nombril pédiculé sur la paroi abdominale": "nombril pédiculé sur la paroi abdominale"
+                                                      },
+                                                      "multiline": false,
+                                                      "translate": true
+                                                    },
+                                                    {
+                                                      "clazz": "field",
+                                                      "field": " plastie d'élargissement ombilicale",
+                                                      "type": "checkbox",
+                                                      "shortLabel": " plastie d'élargissement ombilicale",
+                                                      "grows": true,
+                                                      "span": 22,
+                                                      "readonly": false,
+                                                      "options": {
+                                                        " plastie d'élargissement ombilicale": " plastie d'élargissement ombilicale"
+                                                      },
+                                                      "multiline": false,
+                                                      "translate": true
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          },
+                                          "span": 24,
+                                          "rowSpan": 1,
+                                          "labels": {}
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              },
+                              "span": 24,
+                              "rowSpan": 3,
+                              "labels": {}
+                            }
+                          ],
+                          "borderless": false,
+                          "hideTitle": true,
+                          "translate": true,
+                          "span": 24
+                        },
+                        {
+                          "clazz": "group",
+                          "group": "Section 2",
+                          "fields": [
+                            {
+                              "clazz": "subform",
+                              "id": "4DD9E398-44E0-4478-B44A-E565AFC5B0B4",
+                              "shortLabel": "Liposuccion associée",
+                              "forms": {
+                                "sous-formulaires CRO abdomen/liposuccion": {
+                                  "form": "sous-formulaires CRO abdomen/liposuccion",
+                                  "id": "1E091D21-DFAD-4046-9C8A-3E660C5F0AD6",
+                                  "sections": [
+                                    {
+                                      "section": "Main",
+                                      "fields": [
+                                        {
+                                          "clazz": "field",
+                                          "field": "liposuccion première",
+                                          "type": "checkbox",
+                                          "shortLabel": "liposuccion première",
+                                          "grows": true,
+                                          "span": 8,
+                                          "readonly": false,
+                                          "options": {
+                                            "liposuccion première": "liposuccion première"
+                                          },
+                                          "multiline": false,
+                                          "translate": true
+                                        },
+                                        {
+                                          "clazz": "field",
+                                          "field": "retournement du patient",
+                                          "type": "checkbox",
+                                          "shortLabel": "retournement du patient",
+                                          "grows": true,
+                                          "span": 8,
+                                          "readonly": false,
+                                          "options": {
+                                            "retournement du patient": "retournement du patient"
+                                          },
+                                          "multiline": false,
+                                          "translate": true
+                                        },
+                                        {
+                                          "clazz": "field",
+                                          "field": "infiltration graisseuse préalable",
+                                          "type": "checkbox",
+                                          "shortLabel": "infiltration graisseuse préalable",
+                                          "grows": true,
+                                          "span": 8,
+                                          "readonly": false,
+                                          "options": {
+                                            "infiltration graisseuse préalable": "infiltration graisseuse préalable"
+                                          },
+                                          "multiline": false,
+                                          "translate": true
+                                        },
+                                        {
+                                          "clazz": "field",
+                                          "field": "sérum physiologique",
+                                          "type": "measure-field",
+                                          "shortLabel": "sérum physiologique",
+                                          "grows": true,
+                                          "span": 6,
+                                          "readonly": false,
+                                          "multiline": false,
+                                          "translate": true
+                                        },
+                                        {
+                                          "clazz": "field",
+                                          "field": "naropin",
+                                          "type": "measure-field",
+                                          "shortLabel": "naropin",
+                                          "grows": true,
+                                          "span": 6,
+                                          "readonly": false,
+                                          "multiline": false,
+                                          "translate": true
+                                        },
+                                        {
+                                          "clazz": "field",
+                                          "field": "xylocaïne",
+                                          "type": "measure-field",
+                                          "shortLabel": "xylocaïne",
+                                          "grows": true,
+                                          "span": 7,
+                                          "readonly": false,
+                                          "multiline": false,
+                                          "translate": true
+                                        },
+                                        {
+                                          "clazz": "field",
+                                          "field": "adrénaline",
+                                          "type": "measure-field",
+                                          "shortLabel": "adrénaline",
+                                          "grows": true,
+                                          "span": 5,
+                                          "readonly": false,
+                                          "multiline": false,
+                                          "translate": true
+                                        },
+                                        {
+                                          "clazz": "field",
+                                          "field": "quantité infiltrée",
+                                          "type": "measure-field",
+                                          "shortLabel": "quantité du mélange infiltrée",
+                                          "grows": true,
+                                          "span": 24,
+                                          "readonly": false,
+                                          "multiline": false,
+                                          "translate": true
+                                        },
+                                        {
+                                          "clazz": "field",
+                                          "field": "épigastre",
+                                          "type": "checkbox",
+                                          "shortLabel": "épigastre",
+                                          "grows": true,
+                                          "span": 3,
+                                          "readonly": false,
+                                          "options": {
+                                            "épigastre": "épigastre"
+                                          },
+                                          "multiline": false,
+                                          "translate": true
+                                        },
+                                        {
+                                          "clazz": "field",
+                                          "field": "hanches",
+                                          "type": "checkbox",
+                                          "shortLabel": "hanches",
+                                          "grows": true,
+                                          "span": 3,
+                                          "readonly": false,
+                                          "options": {
+                                            "hanches": "hanches"
+                                          },
+                                          "multiline": false,
+                                          "translate": true
+                                        },
+                                        {
+                                          "clazz": "field",
+                                          "field": "culotte de cheval",
+                                          "type": "checkbox",
+                                          "shortLabel": "culotte de cheval",
+                                          "grows": true,
+                                          "span": 12,
+                                          "readonly": false,
+                                          "options": {
+                                            "culotte de cheval": "culotte de cheval"
+                                          },
+                                          "multiline": false,
+                                          "translate": true
+                                        },
+                                        {
+                                          "clazz": "field",
+                                          "field": "face interne des cuisses",
+                                          "type": "checkbox",
+                                          "shortLabel": "face interne des cuisses",
+                                          "grows": true,
+                                          "span": 6,
+                                          "readonly": false,
+                                          "options": {
+                                            "face interne des cuisses": "face interne des cuisses"
+                                          },
+                                          "multiline": false,
+                                          "translate": true
+                                        },
+                                        {
+                                          "clazz": "field",
+                                          "field": "autre zone traitée",
+                                          "type": "text-field",
+                                          "shortLabel": "autre zone traitée",
+                                          "grows": true,
+                                          "span": 24,
+                                          "readonly": false,
+                                          "multiline": false,
+                                          "translate": true
+                                        },
+                                        {
+                                          "clazz": "field",
+                                          "field": "hypogastre",
+                                          "type": "checkbox",
+                                          "shortLabel": "hypogastre",
+                                          "grows": true,
+                                          "span": 6,
+                                          "readonly": false,
+                                          "options": {
+                                            "hypogastre": "hypogastre"
+                                          },
+                                          "multiline": false,
+                                          "translate": true
+                                        },
+                                        {
+                                          "clazz": "field",
+                                          "field": "flancs",
+                                          "type": "checkbox",
+                                          "shortLabel": "flancs",
+                                          "grows": true,
+                                          "span": 6,
+                                          "readonly": false,
+                                          "options": {
+                                            "flancs": "flancs"
+                                          },
+                                          "multiline": false,
+                                          "translate": true
+                                        },
+                                        {
+                                          "clazz": "field",
+                                          "field": "face interne des genoux",
+                                          "type": "checkbox",
+                                          "shortLabel": "face interne des genoux",
+                                          "grows": true,
+                                          "span": 6,
+                                          "readonly": false,
+                                          "options": {
+                                            "face interne des genoux": "face interne des genoux"
+                                          },
+                                          "multiline": false,
+                                          "translate": true
+                                        },
+                                        {
+                                          "clazz": "field",
+                                          "field": "extension axillaire des seins",
+                                          "type": "checkbox",
+                                          "shortLabel": "extension axillaire des seins",
+                                          "grows": true,
+                                          "span": 6,
+                                          "readonly": false,
+                                          "options": {
+                                            "extension axillaire des seins": "extension axillaire des seins"
+                                          },
+                                          "multiline": false,
+                                          "translate": true
+                                        },
+                                        {
+                                          "clazz": "field",
+                                          "field": "bras",
+                                          "type": "checkbox",
+                                          "shortLabel": "bras",
+                                          "grows": true,
+                                          "span": 6,
+                                          "readonly": false,
+                                          "options": {
+                                            "bras": "bras"
+                                          },
+                                          "multiline": false,
+                                          "translate": true
+                                        },
+                                        {
+                                          "clazz": "field",
+                                          "field": "cou",
+                                          "type": "checkbox",
+                                          "shortLabel": "cou",
+                                          "grows": true,
+                                          "span": 6,
+                                          "readonly": false,
+                                          "options": {
+                                            "cou": "cou"
+                                          },
+                                          "multiline": false,
+                                          "translate": true
+                                        },
+                                        {
+                                          "clazz": "field",
+                                          "field": " bourrellets dorsaux",
+                                          "type": "checkbox",
+                                          "shortLabel": " bourrellets dorsaux",
+                                          "grows": true,
+                                          "span": 6,
+                                          "readonly": false,
+                                          "options": {
+                                            " bourrellets dorsaux": " bourrellets dorsaux"
+                                          },
+                                          "multiline": false,
+                                          "translate": true
+                                        },
+                                        {
+                                          "clazz": "field",
+                                          "field": "mollet",
+                                          "type": "checkbox",
+                                          "shortLabel": "mollet",
+                                          "grows": true,
+                                          "span": 6,
+                                          "readonly": false,
+                                          "options": {
+                                            "mollet": "mollet"
+                                          },
+                                          "multiline": false,
+                                          "translate": true
+                                        },
+                                        {
+                                          "clazz": "field",
+                                          "field": "volume liposuccé",
+                                          "type": "measure-field",
+                                          "shortLabel": "volume liposuccé après décantation",
+                                          "grows": true,
+                                          "span": 24,
+                                          "readonly": false,
+                                          "multiline": false,
+                                          "translate": true
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              },
+                              "span": 24,
+                              "rowSpan": 1,
+                              "labels": {}
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "drainage",
+                              "type": "dropdown-field",
+                              "shortLabel": "drainage",
+                              "grows": true,
+                              "span": 10,
+                              "readonly": false,
+                              "options": {
+                                "LEGACY|pas de drainage|1": "pas de drainage",
+                                "LEGACY|lamelle|1": "lamelle",
+                                "LEGACY|drain de redons aspiratifs|1": "drain de redons aspiratifs",
+                                "LEGACY|2 drains de redons aspiratifs|1": "2 drains de redons aspiratifs"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "fermeture du fascia transversalis",
+                              "type": "dropdown-field",
+                              "shortLabel": "fermeture du fascia transversalis",
+                              "grows": true,
+                              "span": 14,
+                              "readonly": false,
+                              "options": {
+                                "LEGACY|surjet de vicryl 2/0|1": "surjet de vicryl 2/0",
+                                "LEGACY|surjet de monocryl 2/0|1": "surjet de monocryl 2/0"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "points sous-cutanés inversés de",
+                              "type": "dropdown-field",
+                              "shortLabel": "points sous-cutanés inversés de",
+                              "grows": true,
+                              "span": 10,
+                              "readonly": false,
+                              "options": {
+                                "LEGACY|vicryl plus 2 et 3/0|1": "vicryl plus 2 et 3/0",
+                                "LEGACY|Monocryl plus 2 et 3/0|1": "Monocryl plus 2 et 3/0"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "fermeture cutanée par surjet de",
+                              "type": "dropdown-field",
+                              "shortLabel": "fermeture cutanée par surjet de",
+                              "grows": true,
+                              "span": 14,
+                              "readonly": false,
+                              "options": {
+                                "LEGACY|prolène 3/0|1": "prolène 3/0",
+                                "LEGACY|prolène 2/0|1": "prolène 2/0",
+                                "LEGACY|monocryl plus 3/0|1": "monocryl plus 3/0",
+                                "LEGACY|monocryl plus 2/0|1": "monocryl plus 2/0",
+                                "LEGACY|vicryl incolore 3/0|1": "vicryl incolore 3/0",
+                                "LEGACY|vicryl incolore 2/0|1": "vicryl incolore 2/0"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            }
+                          ],
+                          "borderless": false,
+                          "hideTitle": true,
+                          "translate": true,
+                          "span": 24
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "sous-formulaires CRO/liposuccion générique": {
+                  "form": "sous-formulaires CRO/liposuccion générique",
+                  "id": "0F162D93-A47D-4597-A808-76E87894F3E1",
+                  "sections": [
+                    {
+                      "section": "Main",
+                      "fields": [
+                        {
+                          "clazz": "field",
+                          "field": "retournement du patient",
+                          "type": "checkbox",
+                          "shortLabel": "retournement du patient",
+                          "grows": true,
+                          "span": 15,
+                          "readonly": false,
+                          "options": {
+                            "retournement du patient": "retournement du patient"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "infiltration graisseuse préalable",
+                          "type": "checkbox",
+                          "shortLabel": "infiltration graisseuse préalable",
+                          "grows": true,
+                          "span": 9,
+                          "readonly": false,
+                          "options": {
+                            "infiltration graisseuse préalable": "infiltration graisseuse préalable"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "sérum physiologique",
+                          "type": "measure-field",
+                          "shortLabel": "sérum physiologique",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "naropin",
+                          "type": "measure-field",
+                          "shortLabel": "naropin",
+                          "grows": true,
+                          "span": 7,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "xylocaïne",
+                          "type": "measure-field",
+                          "shortLabel": "xylocaïne",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "adrénaline",
+                          "type": "measure-field",
+                          "shortLabel": "adrénaline",
+                          "grows": true,
+                          "span": 5,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "quantité infiltrée",
+                          "type": "measure-field",
+                          "shortLabel": "quantité du mélange infiltrée",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "épigastre",
+                          "type": "checkbox",
+                          "shortLabel": "épigastre",
+                          "grows": true,
+                          "span": 3,
+                          "readonly": false,
+                          "options": {
+                            "épigastre": "épigastre"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "hanches",
+                          "type": "checkbox",
+                          "shortLabel": "hanches",
+                          "grows": true,
+                          "span": 3,
+                          "readonly": false,
+                          "options": {
+                            "hanches": "hanches"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "culotte de cheval",
+                          "type": "checkbox",
+                          "shortLabel": "culotte de cheval",
+                          "grows": true,
+                          "span": 11,
+                          "readonly": false,
+                          "options": {
+                            "culotte de cheval": "culotte de cheval"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "face interne des cuisses",
+                          "type": "checkbox",
+                          "shortLabel": "face interne des cuisses",
+                          "grows": true,
+                          "span": 7,
+                          "readonly": false,
+                          "options": {
+                            "face interne des cuisses": "face interne des cuisses"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "autre zone traitée",
+                          "type": "text-field",
+                          "shortLabel": "autre zone traitée",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "hypogastre",
+                          "type": "checkbox",
+                          "shortLabel": "hypogastre",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "options": {
+                            "hypogastre": "hypogastre"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "flancs",
+                          "type": "checkbox",
+                          "shortLabel": "flancs",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "options": {
+                            "flancs": "flancs"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "face interne des genoux",
+                          "type": "checkbox",
+                          "shortLabel": "face interne des genoux",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "options": {
+                            "face interne des genoux": "face interne des genoux"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "extension axillaire des seins",
+                          "type": "checkbox",
+                          "shortLabel": "extension axillaire des seins",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "options": {
+                            "extension axillaire des seins": "extension axillaire des seins"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "bras",
+                          "type": "checkbox",
+                          "shortLabel": "bras",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "options": {
+                            "bras": "bras"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "cou",
+                          "type": "checkbox",
+                          "shortLabel": "cou",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "options": {
+                            "cou": "cou"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": " bourrellets dorsaux",
+                          "type": "checkbox",
+                          "shortLabel": " bourrellets dorsaux",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "options": {
+                            " bourrellets dorsaux": " bourrellets dorsaux"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "mollet",
+                          "type": "checkbox",
+                          "shortLabel": "mollet",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "options": {
+                            "mollet": "mollet"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "volume liposuccé",
+                          "type": "measure-field",
+                          "shortLabel": "volume liposuccé après décantation",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "span": 24,
+              "rowSpan": 2,
+              "labels": {}
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "traitement post-op",
+              "type": "items-list-field",
+              "shortLabel": "traitement post-op",
+              "grows": true,
+              "span": 24,
+              "rowSpan": 4,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 3",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "date d'entrée",
+              "type": "date-picker",
+              "shortLabel": "date d'entrée",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "date de sortie",
+              "type": "date-picker",
+              "shortLabel": "date de sortie",
+              "grows": true,
+              "span": 17,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "suites",
+              "type": "text-field",
+              "shortLabel": "suites",
+              "grows": true,
+              "span": 24,
+              "rowSpan": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

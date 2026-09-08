@@ -1,0 +1,92 @@
+{
+  "form": "sous-formulaires CRO abdomen/plicature de la gaine des droits",
+  "id": "BB71EB13-CD86-4A6C-B38B-0ABD3828F9C4",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "plicature sus-ombilicale",
+          "type": "checkbox",
+          "shortLabel": "plicature sus-ombilicale",
+          "grows": true,
+          "span": 1,
+          "readonly": false,
+          "options": {
+            "plicature sus-ombilicale": "plicature sus-ombilicale"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "plicature xypho-pubienne",
+          "type": "checkbox",
+          "shortLabel": "plicature xypho-pubienne",
+          "grows": true,
+          "span": 11,
+          "readonly": false,
+          "options": {
+            "plicature xypho-pubienne": "plicature xypho-pubienne"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "purse-string péri-ombilical",
+          "type": "checkbox",
+          "shortLabel": "purse-string péri-ombilical",
+          "grows": true,
+          "span": 12,
+          "readonly": false,
+          "options": {
+            "purse-string péri-ombilical": "purse-string péri-ombilical"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "plicature sous-ombilicale",
+          "type": "checkbox",
+          "shortLabel": "plicature sous-ombilicale",
+          "grows": true,
+          "span": 1,
+          "readonly": false,
+          "options": {
+            "plicature sous-ombilicale": "plicature sous-ombilicale"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "plicatures para-ombilicales",
+          "type": "checkbox",
+          "shortLabel": "plicatures para-ombilicales",
+          "grows": true,
+          "span": 10,
+          "readonly": false,
+          "options": {
+            "plicatures para-ombilicales": "plicatures para-ombilicales"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "fil utilisé",
+          "type": "text-field",
+          "shortLabel": "fil utilisé",
+          "grows": true,
+          "span": 13,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

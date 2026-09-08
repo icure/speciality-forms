@@ -1,0 +1,22 @@
+{
+  "form": "Subformulieren/Vaccin Hepa",
+  "id": "5E3B4BB0-885B-4D8B-B2B1-D1CD5F5217A6",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Vaccin",
+          "type": "text-field",
+          "shortLabel": "Vaccin Hepa",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

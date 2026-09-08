@@ -1,0 +1,75 @@
+{
+  "form": "Sous-formulaires/Thérapie de compression",
+  "id": "6A3B31CF-5350-4A30-8919-065F4382787C",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Application et / ou enlèvement de: Bandage(s) de compression",
+          "type": "checkbox",
+          "shortLabel": "Application et / ou enlèvement de: Bandage(s) de compression",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "Application et / ou enlèvement de: Bandage(s) de compression": "Application et / ou enlèvement de: Bandage(s) de compression"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Pansement(s) de compression",
+          "type": "checkbox",
+          "shortLabel": "Pansement(s) de compression",
+          "grows": true,
+          "span": 15,
+          "readonly": false,
+          "options": {
+            "Pansement(s) de compression": "Pansement(s) de compression"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Bas anti-stase",
+          "type": "checkbox",
+          "shortLabel": "Bas anti-stase",
+          "grows": true,
+          "span": 9,
+          "readonly": false,
+          "options": {
+            "Bas anti-stase": "Bas anti-stase"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Fréquence",
+          "type": "measure-field",
+          "shortLabel": "Fréquence",
+          "grows": true,
+          "span": 10,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Durée",
+          "type": "measure-field",
+          "shortLabel": "Durée",
+          "grows": true,
+          "span": 14,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

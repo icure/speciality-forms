@@ -1,0 +1,265 @@
+{
+  "form": "Orthopédie/Kiné",
+  "id": "070DD656-30F5-4D8D-BDAB-5A3D15D390C0",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Catégorie de pathologies",
+              "type": "dropdown-field",
+              "shortLabel": "Catégorie de pathologies",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "LEGACY|A. affections courantes (max 9. séances)|1": "A. affections courantes (max 9. séances)",
+                "LEGACY|B. affections liste E (max 30 séances)|1": "B. affections liste E (max 30 séances)",
+                "LEGACY|C. affections liste F (max 30 séances)|1": "C. affections liste F (max 30 séances)"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Raison médicale",
+              "type": "text-field",
+              "shortLabel": "Raison médicale",
+              "grows": true,
+              "span": 24,
+              "rowSpan": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Massages",
+              "type": "checkbox",
+              "shortLabel": "Massages",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Massages": "Massages"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Mobilisation sur table",
+              "type": "checkbox",
+              "shortLabel": "Mobilisation sur table",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Mobilisation sur table": "Mobilisation sur table"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Manipulations douces",
+              "type": "checkbox",
+              "shortLabel": "Manipulations douces",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Manipulations douces": "Manipulations douces"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Assouplissements",
+              "type": "checkbox",
+              "shortLabel": "Assouplissements",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Assouplissements": "Assouplissements"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Stretching",
+              "type": "checkbox",
+              "shortLabel": "Stretching",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Stretching": "Stretching"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Proprioception",
+              "type": "checkbox",
+              "shortLabel": "Proprioception",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Proprioception": "Proprioception"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Renforcement musculaire",
+              "type": "checkbox",
+              "shortLabel": "Renforcement musculaire",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Renforcement musculaire": "Renforcement musculaire"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Tonification",
+              "type": "checkbox",
+              "shortLabel": "Tonification",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Tonification": "Tonification"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Gymnastique médicale",
+              "type": "checkbox",
+              "shortLabel": "Gymnastique médicale",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Gymnastique médicale": "Gymnastique médicale"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Crochetage",
+              "type": "checkbox",
+              "shortLabel": "Crochetage",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Crochetage": "Crochetage"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Kiné autre",
+              "type": "text-field",
+              "shortLabel": "Autre",
+              "grows": true,
+              "span": 16,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Nombre de séances",
+              "type": "number-field",
+              "shortLabel": "Nombre de séances",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Fréquence",
+              "type": "measure-field",
+              "shortLabel": "Fréquence",
+              "grows": true,
+              "span": 19,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Date d'intervention",
+              "type": "date-picker",
+              "shortLabel": "Date d'intervention",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Code INAMI",
+              "type": "text-field",
+              "shortLabel": "Code INAMI",
+              "grows": true,
+              "span": 18,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "288999B1-793D-4299-8017-454E20D6D1DD",
+              "type": "action",
+              "shortLabel": "Prescription",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

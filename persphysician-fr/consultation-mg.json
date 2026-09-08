@@ -1,0 +1,573 @@
+{
+  "form": "Médecine générale/Consultation MG",
+  "id": "C22D6A58-C3F0-47EF-B710-AEF65F57AA3D",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Plainte",
+              "type": "text-field",
+              "shortLabel": "Plainte",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Poids",
+              "type": "measure-field",
+              "shortLabel": "Poids",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Taille",
+              "type": "measure-field",
+              "shortLabel": "Taille",
+              "grows": true,
+              "span": 10,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "T°",
+              "type": "measure-field",
+              "shortLabel": "T°",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Tension art. sys.",
+              "type": "measure-field",
+              "shortLabel": "TA sys.",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Tension art. dia.",
+              "type": "measure-field",
+              "shortLabel": "TA dia.",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Glyc.",
+              "type": "measure-field",
+              "shortLabel": "Glyc.",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Pouls",
+              "type": "measure-field",
+              "shortLabel": "Pouls",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Régularité du pouls",
+              "type": "dropdown-field",
+              "shortLabel": "Régularité du pouls",
+              "grows": true,
+              "span": 18,
+              "readonly": false,
+              "options": {
+                "LEGACY|Régulier|1": "Régulier",
+                "LEGACY|Irrégulier|1": "Irrégulier"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Examen clinique",
+              "type": "text-field",
+              "shortLabel": "Exam. clin.",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Résultats examens récents",
+              "type": "text-field",
+              "shortLabel": "Rés. exam.",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Examen complémentaire demandé",
+              "type": "text-field",
+              "shortLabel": "Exam. cpl.",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Diagnostic",
+              "type": "text-field",
+              "shortLabel": "Diagnostic",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Trait. non méd.",
+              "type": "text-field",
+              "shortLabel": "Traitement",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Vaccin Grippe",
+              "type": "checkbox",
+              "shortLabel": "Vac. Grippe",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "Vac. Grippe": "Vac. Grippe"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vaccin Hépatite A",
+              "type": "checkbox",
+              "shortLabel": "Vac. Hép. A",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "Vac. Hép. A": "Vac. Hép. A"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Notification Rappel Vaccin Hépatite A",
+              "type": "checkbox",
+              "shortLabel": "Rpl",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "Rpl": "Rpl"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vaccin Hépatite B",
+              "type": "checkbox",
+              "shortLabel": "Vac. Hép. B",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "Vac. Hép. B": "Vac. Hép. B"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Notification Rappel Vaccin Hépatite B",
+              "type": "checkbox",
+              "shortLabel": "Rpl",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Rpl": "Rpl"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vaccin Meningitec",
+              "type": "checkbox",
+              "shortLabel": "Vac. Meningitec",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "Vac. Meningitec": "Vac. Meningitec"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vaccin Twinrix",
+              "type": "checkbox",
+              "shortLabel": "Vac. Twinrix",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "Vac. Twinrix": "Vac. Twinrix"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Notification Rappel Vaccin Twinrix",
+              "type": "checkbox",
+              "shortLabel": "Rpl",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "Rpl": "Rpl"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vaccin Tedivax",
+              "type": "checkbox",
+              "shortLabel": "Vac. Tedivax",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "Vac. Tedivax": "Vac. Tedivax"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Notification Rappel Vaccin Tedivax",
+              "type": "checkbox",
+              "shortLabel": "Rpl",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Rpl": "Rpl"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vaccin Roug./Rub./Oreillons",
+              "type": "checkbox",
+              "shortLabel": "Vac. RRO",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "Vac. RRO": "Vac. RRO"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vaccin Pneumocoque",
+              "type": "checkbox",
+              "shortLabel": "Vac. Pneumoc.",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "Vac. Pneumoc.": "Vac. Pneumoc."
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Notification Rappel Vaccin Pneumocoque",
+              "type": "checkbox",
+              "shortLabel": "Rpl",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "Rpl": "Rpl"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vaccin Typhim",
+              "type": "checkbox",
+              "shortLabel": "Vac. Typhim",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "Vac. Typhim": "Vac. Typhim"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Notification Rappel Vaccin Typhim",
+              "type": "checkbox",
+              "shortLabel": "Rpl",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Rpl": "Rpl"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vaccin Poliomyélite",
+              "type": "checkbox",
+              "shortLabel": "Vac. Poliomyélite",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "Vac. Poliomyélite": "Vac. Poliomyélite"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vaccin Fièvre Jaune",
+              "type": "checkbox",
+              "shortLabel": "Vac. Fièv. Jaune",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "Vac. Fièv. Jaune": "Vac. Fièv. Jaune"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Notification Rappel Vaccin Fièvre Jaune",
+              "type": "checkbox",
+              "shortLabel": "Rpl",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "Rpl": "Rpl"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vaccin Boostrix",
+              "type": "checkbox",
+              "shortLabel": "Vac. Boostrix",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "Vac. Boostrix": "Vac. Boostrix"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Notification Rappel Vaccin Boostrix",
+              "type": "checkbox",
+              "shortLabel": "Rpl",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Rpl": "Rpl"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vaccin Coqueluche",
+              "type": "checkbox",
+              "shortLabel": "Vac. Coqueluche",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "Vac. Coqueluche": "Vac. Coqueluche"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vaccin Diphtérie",
+              "type": "checkbox",
+              "shortLabel": "Vac. Diphtérie",
+              "grows": true,
+              "span": 1,
+              "readonly": false,
+              "options": {
+                "Vac. Diphtérie": "Vac. Diphtérie"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Rappel cholestérol",
+              "type": "checkbox",
+              "shortLabel": "Rappel cholestérol à 3 mois",
+              "grows": true,
+              "span": 23,
+              "readonly": false,
+              "options": {
+                "Rappel cholestérol à 3 mois": "Rappel cholestérol à 3 mois"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vaccin Haemophilus",
+              "type": "checkbox",
+              "shortLabel": "Vac. Haemophilus",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "Vac. Haemophilus": "Vac. Haemophilus"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vaccin Revaxis",
+              "type": "checkbox",
+              "shortLabel": "Vac. Revaxis",
+              "grows": true,
+              "span": 1,
+              "readonly": false,
+              "options": {
+                "Vac. Revaxis": "Vac. Revaxis"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "9750A401-22E1-493A-B79E-6A18E50387B5",
+              "type": "action",
+              "shortLabel": "Rapport de consult.",
+              "grows": true,
+              "span": 23,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "586DDB4D-D8B5-406D-9F79-BC03F8C2699A",
+              "type": "action",
+              "shortLabel": "AVIS SPECIALISTE",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Examen à effectuer par un spécialiste",
+              "type": "text-field",
+              "shortLabel": "Examen à effectuer par un spécialiste",
+              "grows": true,
+              "span": 24,
+              "rowSpan": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

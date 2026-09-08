@@ -1,0 +1,832 @@
+{
+  "form": "Gastro/Breath test",
+  "id": "4CC2D90F-D893-4DA3-B204-64657E4D7575",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Suiker",
+          "type": "dropdown-field",
+          "shortLabel": "Suiker",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "options": {
+            "LEGACY|lactose|1": "lactose",
+            "LEGACY|fructose|1": "fructose",
+            "LEGACY|lactulose|1": "lactulose",
+            "LEGACY|sorbitol|1": "sorbitol"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Toegediende dosis",
+          "type": "text-field",
+          "shortLabel": "Toegediende dosis",
+          "grows": true,
+          "span": 19,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Symptomen",
+          "type": "text-field",
+          "shortLabel": "Symptomen",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "H2_ppm_exp_0",
+          "type": "measure-field",
+          "shortLabel": "H2_ppm_exp_0",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "M_30",
+          "type": "dropdown-field",
+          "shortLabel": "M_30",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|1|1": "1",
+            "LEGACY|2|1": "2",
+            "LEGACY|3|1": "3"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "B_30",
+          "type": "dropdown-field",
+          "shortLabel": "B_30",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|1|1": "1",
+            "LEGACY|2|1": "2",
+            "LEGACY|3|1": "3"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "GOR_30",
+          "type": "dropdown-field",
+          "shortLabel": "GOR_30",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "LEGACY|1|1": "1",
+            "LEGACY|2|1": "2",
+            "LEGACY|3|1": "3"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "O_30",
+          "type": "dropdown-field",
+          "shortLabel": "O_30",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|1|1": "1",
+            "LEGACY|2|1": "2",
+            "LEGACY|3|1": "3"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "F_30",
+          "type": "dropdown-field",
+          "shortLabel": "F_30",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "LEGACY|1|1": "1",
+            "LEGACY|2|1": "2",
+            "LEGACY|3|1": "3"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "AP_30",
+          "type": "dropdown-field",
+          "shortLabel": "AP_30",
+          "grows": true,
+          "span": 3,
+          "readonly": false,
+          "options": {
+            "LEGACY|1|1": "1",
+            "LEGACY|2|1": "2",
+            "LEGACY|3|1": "3"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "D_30",
+          "type": "dropdown-field",
+          "shortLabel": "D_30",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|1|1": "1",
+            "LEGACY|2|1": "2",
+            "LEGACY|3|1": "3"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "H2_ppm_exp_30",
+          "type": "measure-field",
+          "shortLabel": "H2_ppm_exp_30",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "M_60",
+          "type": "dropdown-field",
+          "shortLabel": "M_60",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|1|1": "1",
+            "LEGACY|2|1": "2",
+            "LEGACY|3|1": "3"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "B_60",
+          "type": "dropdown-field",
+          "shortLabel": "B_60",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|1|1": "1",
+            "LEGACY|2|1": "2",
+            "LEGACY|3|1": "3"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "GOR_60",
+          "type": "dropdown-field",
+          "shortLabel": "GOR_60",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "LEGACY|1|1": "1",
+            "LEGACY|2|1": "2",
+            "LEGACY|3|1": "3"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "O_60",
+          "type": "dropdown-field",
+          "shortLabel": "O_60",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|1|1": "1",
+            "LEGACY|2|1": "2",
+            "LEGACY|3|1": "3"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "F_60",
+          "type": "dropdown-field",
+          "shortLabel": "F_60",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "LEGACY|1|1": "1",
+            "LEGACY|2|1": "2",
+            "LEGACY|3|1": "3"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "AP_60",
+          "type": "dropdown-field",
+          "shortLabel": "AP_60",
+          "grows": true,
+          "span": 3,
+          "readonly": false,
+          "options": {
+            "LEGACY|1|1": "1",
+            "LEGACY|2|1": "2",
+            "LEGACY|3|1": "3"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "D_60",
+          "type": "dropdown-field",
+          "shortLabel": "D_60",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|1|1": "1",
+            "LEGACY|2|1": "2",
+            "LEGACY|3|1": "3"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "H2_ppm_exp_60",
+          "type": "measure-field",
+          "shortLabel": "H2_ppm_exp_60",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "M_90",
+          "type": "dropdown-field",
+          "shortLabel": "M_90",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|1|1": "1",
+            "LEGACY|2|1": "2",
+            "LEGACY|3|1": "3"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "B_90",
+          "type": "dropdown-field",
+          "shortLabel": "B_90",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|1|1": "1",
+            "LEGACY|2|1": "2",
+            "LEGACY|3|1": "3"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "GOR_90",
+          "type": "dropdown-field",
+          "shortLabel": "GOR_90",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "LEGACY|1|1": "1",
+            "LEGACY|2|1": "2",
+            "LEGACY|3|1": "3"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "O_90",
+          "type": "dropdown-field",
+          "shortLabel": "O_90",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|1|1": "1",
+            "LEGACY|2|1": "2",
+            "LEGACY|3|1": "3"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "F_90",
+          "type": "dropdown-field",
+          "shortLabel": "F_90",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "LEGACY|1|1": "1",
+            "LEGACY|2|1": "2",
+            "LEGACY|3|1": "3"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "AP_90",
+          "type": "dropdown-field",
+          "shortLabel": "AP_90",
+          "grows": true,
+          "span": 3,
+          "readonly": false,
+          "options": {
+            "LEGACY|1|1": "1",
+            "LEGACY|2|1": "2",
+            "LEGACY|3|1": "3"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "D_90",
+          "type": "dropdown-field",
+          "shortLabel": "D_90",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|1|1": "1",
+            "LEGACY|2|1": "2",
+            "LEGACY|3|1": "3"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "H2_ppm_exp_90",
+          "type": "measure-field",
+          "shortLabel": "H2_ppm_exp_90",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "M_120",
+          "type": "dropdown-field",
+          "shortLabel": "M_120",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|1|1": "1",
+            "LEGACY|2|1": "2",
+            "LEGACY|3|1": "3"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "B_120",
+          "type": "dropdown-field",
+          "shortLabel": "B_120",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|1|1": "1",
+            "LEGACY|2|1": "2",
+            "LEGACY|3|1": "3"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "GOR_120",
+          "type": "dropdown-field",
+          "shortLabel": "GOR_120",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "LEGACY|1|1": "1",
+            "LEGACY|2|1": "2",
+            "LEGACY|3|1": "3"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "O_120",
+          "type": "dropdown-field",
+          "shortLabel": "O_120",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|1|1": "1",
+            "LEGACY|2|1": "2",
+            "LEGACY|3|1": "3"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "F_120",
+          "type": "dropdown-field",
+          "shortLabel": "F_120",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "LEGACY|1|1": "1",
+            "LEGACY|2|1": "2",
+            "LEGACY|3|1": "3"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "AP_120",
+          "type": "dropdown-field",
+          "shortLabel": "AP_120",
+          "grows": true,
+          "span": 3,
+          "readonly": false,
+          "options": {
+            "LEGACY|1|1": "1",
+            "LEGACY|2|1": "2",
+            "LEGACY|3|1": "3"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "D_120",
+          "type": "dropdown-field",
+          "shortLabel": "D_120",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|1|1": "1",
+            "LEGACY|2|1": "2",
+            "LEGACY|3|1": "3"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "H2_ppm_exp_120",
+          "type": "measure-field",
+          "shortLabel": "H2_ppm_exp_120",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "M_150",
+          "type": "dropdown-field",
+          "shortLabel": "M_150",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|1|1": "1",
+            "LEGACY|2|1": "2",
+            "LEGACY|3|1": "3"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "B_150",
+          "type": "dropdown-field",
+          "shortLabel": "B_150",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|1|1": "1",
+            "LEGACY|2|1": "2",
+            "LEGACY|3|1": "3"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "GOR_150",
+          "type": "dropdown-field",
+          "shortLabel": "GOR_150",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "LEGACY|1|1": "1",
+            "LEGACY|2|1": "2",
+            "LEGACY|3|1": "3"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "O_150",
+          "type": "dropdown-field",
+          "shortLabel": "O_150",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|1|1": "1",
+            "LEGACY|2|1": "2",
+            "LEGACY|3|1": "3"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "F_150",
+          "type": "dropdown-field",
+          "shortLabel": "F_150",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "LEGACY|1|1": "1",
+            "LEGACY|2|1": "2",
+            "LEGACY|3|1": "3"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "AP_150",
+          "type": "dropdown-field",
+          "shortLabel": "AP_150",
+          "grows": true,
+          "span": 3,
+          "readonly": false,
+          "options": {
+            "LEGACY|1|1": "1",
+            "LEGACY|2|1": "2",
+            "LEGACY|3|1": "3"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "D_150",
+          "type": "dropdown-field",
+          "shortLabel": "D_150",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|1|1": "1",
+            "LEGACY|2|1": "2",
+            "LEGACY|3|1": "3"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "H2_ppm_exp_150",
+          "type": "measure-field",
+          "shortLabel": "H2_ppm_exp_150",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "M_180",
+          "type": "dropdown-field",
+          "shortLabel": "M_180",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|1|1": "1",
+            "LEGACY|2|1": "2",
+            "LEGACY|3|1": "3"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "B_180",
+          "type": "dropdown-field",
+          "shortLabel": "B_180",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|1|1": "1",
+            "LEGACY|2|1": "2",
+            "LEGACY|3|1": "3"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "GOR_180",
+          "type": "dropdown-field",
+          "shortLabel": "GOR_180",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "LEGACY|1|1": "1",
+            "LEGACY|2|1": "2",
+            "LEGACY|3|1": "3"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "O_180",
+          "type": "dropdown-field",
+          "shortLabel": "O_180",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|1|1": "1",
+            "LEGACY|2|1": "2",
+            "LEGACY|3|1": "3"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "F_180",
+          "type": "dropdown-field",
+          "shortLabel": "F_180",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "LEGACY|1|1": "1",
+            "LEGACY|2|1": "2",
+            "LEGACY|3|1": "3"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "AP_180",
+          "type": "dropdown-field",
+          "shortLabel": "AP_180",
+          "grows": true,
+          "span": 3,
+          "readonly": false,
+          "options": {
+            "LEGACY|1|1": "1",
+            "LEGACY|2|1": "2",
+            "LEGACY|3|1": "3"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "D_180",
+          "type": "dropdown-field",
+          "shortLabel": "D_180",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|1|1": "1",
+            "LEGACY|2|1": "2",
+            "LEGACY|3|1": "3"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "H2_ppm_exp_180",
+          "type": "measure-field",
+          "shortLabel": "H2_ppm_exp_180",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Besluit",
+          "type": "text-field",
+          "shortLabel": "Besluit",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Houding",
+          "type": "text-field",
+          "shortLabel": "Houding",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "4E213EFE-186F-460D-91ED-758B951C50B8",
+          "type": "action",
+          "shortLabel": "Verslag",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

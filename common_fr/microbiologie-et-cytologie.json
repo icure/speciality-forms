@@ -1,0 +1,680 @@
+{
+  "form": "Biologie/Microbiologie et cytologie",
+  "id": "EF806168-6FD9-49EA-8160-DBBE849454B6",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Sédiment",
+          "type": "checkbox",
+          "shortLabel": "Sédiment",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "Sédiment": "Sédiment"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Examen direct (gram) frottis uro-génital",
+          "type": "checkbox",
+          "shortLabel": "Examen direct (gram)",
+          "grows": true,
+          "span": 22,
+          "readonly": false,
+          "options": {
+            "Examen direct (gram)": "Examen direct (gram)"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Culture urines",
+          "type": "checkbox",
+          "shortLabel": "Culture urines",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "Culture urines": "Culture urines"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Trichom. vaginalis",
+          "type": "checkbox",
+          "shortLabel": "Trichom. vaginalis",
+          "grows": true,
+          "span": 12,
+          "readonly": false,
+          "options": {
+            "Trichom. vaginalis": "Trichom. vaginalis"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Pus origine",
+          "type": "token-field",
+          "shortLabel": "Origine",
+          "grows": true,
+          "span": 10,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "AB urines (si culture positive)",
+          "type": "checkbox",
+          "shortLabel": "AB urines (si culture positive)",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "AB urines (si culture positive)": "AB urines (si culture positive)"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Culture + N. gono",
+          "type": "checkbox",
+          "shortLabel": "Culture + N. gono",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "Culture + N. gono": "Culture + N. gono"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Examen direct (gram) pus-exsudat",
+          "type": "checkbox",
+          "shortLabel": "Examen direct (gram)",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "Examen direct (gram)": "Examen direct (gram)"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Antibiogramme (si culture positive)",
+          "type": "checkbox",
+          "shortLabel": "Antibiogramme (si culture positive)",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "Antibiogramme (si culture positive)": "Antibiogramme (si culture positive)"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Culture mycoplasme frottis uro-génital",
+          "type": "checkbox",
+          "shortLabel": "Culture mycoplasme",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "Culture mycoplasme": "Culture mycoplasme"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Culture mycose pus-exsudat",
+          "type": "checkbox",
+          "shortLabel": "Culture mycose pus-exsudat",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "Culture mycose pus-exsudat": "Culture mycose pus-exsudat"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Culture mycoplasme",
+          "type": "checkbox",
+          "shortLabel": "Culture mycoplasme",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "Culture mycoplasme": "Culture mycoplasme"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "AB frottis uro-génital (si culture positive)",
+          "type": "checkbox",
+          "shortLabel": "AB (si culture positive)",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "AB (si culture positive)": "AB (si culture positive)"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Culture aérobie",
+          "type": "checkbox",
+          "shortLabel": "Culture aérobie",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "Culture aérobie": "Culture aérobie"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Culture mycose urines",
+          "type": "checkbox",
+          "shortLabel": "Culture mycose urines",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "Culture mycose urines": "Culture mycose urines"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Culture mycose frottis uro-génital",
+          "type": "checkbox",
+          "shortLabel": "Culture mycose",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "Culture mycose": "Culture mycose"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Culture anaérobie",
+          "type": "checkbox",
+          "shortLabel": "Culture anaérobie",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "Culture anaérobie": "Culture anaérobie"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Parasites urines",
+          "type": "checkbox",
+          "shortLabel": "Parasites urines",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "Parasites urines": "Parasites urines"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Rechecrhe Strepto B",
+          "type": "checkbox",
+          "shortLabel": "Rechecrhe Strepto B",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "Rechecrhe Strepto B": "Rechecrhe Strepto B"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "AB pus-exsudat (si culture positive)",
+          "type": "checkbox",
+          "shortLabel": "AB(si culture positive)",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "AB(si culture positive)": "AB(si culture positive)"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "BK examen direct urines",
+          "type": "checkbox",
+          "shortLabel": "BK examen direct urines",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "BK examen direct urines": "BK examen direct urines"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Chlamydia (PCR)",
+          "type": "checkbox",
+          "shortLabel": "Chlamydia (PCR)",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "Chlamydia (PCR)": "Chlamydia (PCR)"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Culture mycose",
+          "type": "checkbox",
+          "shortLabel": "Culture mycose",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "Culture mycose": "Culture mycose"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "BK culture urines",
+          "type": "checkbox",
+          "shortLabel": "BK culture urines",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "BK culture urines": "BK culture urines"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Gonocoque (PCR)",
+          "type": "checkbox",
+          "shortLabel": "Gonocoque (PCR)",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "Gonocoque (PCR)": "Gonocoque (PCR)"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "BK examen direct pus-exsudat",
+          "type": "checkbox",
+          "shortLabel": "BK pus-exsudat",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "BK pus-exsudat": "BK pus-exsudat"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Culture mycoplasme urines",
+          "type": "checkbox",
+          "shortLabel": "Culture mycoplasme urines",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "Culture mycoplasme urines": "Culture mycoplasme urines"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Antigène Herpes",
+          "type": "checkbox",
+          "shortLabel": "Antigène Herpes",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "Antigène Herpes": "Antigène Herpes"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "BK culture pus-exsudat",
+          "type": "checkbox",
+          "shortLabel": "BK culture pus-exsudat",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "BK culture pus-exsudat": "BK culture pus-exsudat"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Chlamydia",
+          "type": "checkbox",
+          "shortLabel": "Chlamydia",
+          "grows": true,
+          "span": 12,
+          "readonly": false,
+          "options": {
+            "Chlamydia": "Chlamydia"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Recherche MRSA",
+          "type": "checkbox",
+          "shortLabel": "Recherche MRSA",
+          "grows": true,
+          "span": 12,
+          "readonly": false,
+          "options": {
+            "Recherche MRSA": "Recherche MRSA"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Recherche Strepto B",
+          "type": "checkbox",
+          "shortLabel": "Recherche Strepto B",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "Recherche Strepto B": "Recherche Strepto B"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Gonocoques",
+          "type": "checkbox",
+          "shortLabel": "Gonocoques",
+          "grows": true,
+          "span": 12,
+          "readonly": false,
+          "options": {
+            "Gonocoques": "Gonocoques"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Examen direct (gram) selles",
+          "type": "checkbox",
+          "shortLabel": "Examen direct (gram) selles",
+          "grows": true,
+          "span": 12,
+          "readonly": false,
+          "options": {
+            "Examen direct (gram) selles": "Examen direct (gram) selles"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Examen direct (gram) urines",
+          "type": "checkbox",
+          "shortLabel": "Examen direct (gram) urines",
+          "grows": true,
+          "span": 12,
+          "readonly": false,
+          "options": {
+            "Examen direct (gram) urines": "Examen direct (gram) urines"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Culture selles",
+          "type": "checkbox",
+          "shortLabel": "Culture selles",
+          "grows": true,
+          "span": 12,
+          "readonly": false,
+          "options": {
+            "Culture selles": "Culture selles"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "AB selles (si culture positive)",
+          "type": "checkbox",
+          "shortLabel": "AB selles (si culture positive)",
+          "grows": true,
+          "span": 12,
+          "readonly": false,
+          "options": {
+            "AB selles (si culture positive)": "AB selles (si culture positive)"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Examen direct (gram) frottis de gorge",
+          "type": "checkbox",
+          "shortLabel": "Examen direct (gram)",
+          "grows": true,
+          "span": 12,
+          "readonly": false,
+          "options": {
+            "Examen direct (gram)": "Examen direct (gram)"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Culture mycose selles",
+          "type": "checkbox",
+          "shortLabel": "Culture mycose selles",
+          "grows": true,
+          "span": 12,
+          "readonly": false,
+          "options": {
+            "Culture mycose selles": "Culture mycose selles"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Antigène Strepto A",
+          "type": "checkbox",
+          "shortLabel": "Antigène Strepto A",
+          "grows": true,
+          "span": 12,
+          "readonly": false,
+          "options": {
+            "Antigène Strepto A": "Antigène Strepto A"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Parasites selles",
+          "type": "checkbox",
+          "shortLabel": "Parasites selles",
+          "grows": true,
+          "span": 12,
+          "readonly": false,
+          "options": {
+            "Parasites selles": "Parasites selles"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Culture frottis gorge",
+          "type": "checkbox",
+          "shortLabel": "Culture frottis gorge",
+          "grows": true,
+          "span": 12,
+          "readonly": false,
+          "options": {
+            "Culture frottis gorge": "Culture frottis gorge"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Cryptosoporidium",
+          "type": "checkbox",
+          "shortLabel": "Cryptosoporidium",
+          "grows": true,
+          "span": 12,
+          "readonly": false,
+          "options": {
+            "Cryptosoporidium": "Cryptosoporidium"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "AB frottis gorge (si culture positive)",
+          "type": "checkbox",
+          "shortLabel": "AB frottis gorge",
+          "grows": true,
+          "span": 12,
+          "readonly": false,
+          "options": {
+            "AB frottis gorge": "AB frottis gorge"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Rotavirus <2ans",
+          "type": "checkbox",
+          "shortLabel": "Rotavirus <2ans",
+          "grows": true,
+          "span": 12,
+          "readonly": false,
+          "options": {
+            "Rotavirus <2ans": "Rotavirus <2ans"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Culture mycose frottis gorge",
+          "type": "checkbox",
+          "shortLabel": "Culture mycose",
+          "grows": true,
+          "span": 12,
+          "readonly": false,
+          "options": {
+            "Culture mycose": "Culture mycose"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Digestion",
+          "type": "checkbox",
+          "shortLabel": "Digestion",
+          "grows": true,
+          "span": 12,
+          "readonly": false,
+          "options": {
+            "Digestion": "Digestion"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Recherce MRSA",
+          "type": "checkbox",
+          "shortLabel": "Recherce MRSA",
+          "grows": true,
+          "span": 12,
+          "readonly": false,
+          "options": {
+            "Recherce MRSA": "Recherce MRSA"
+          },
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

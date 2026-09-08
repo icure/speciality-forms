@@ -1,0 +1,226 @@
+{
+  "form": "Orthopédie/Fasciitis plantaris",
+  "id": "AB65F356-F621-4684-96AC-4CB466E374D0",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Anamnese",
+          "type": "text-field",
+          "shortLabel": "Voorgeschiedenis",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Anamnese",
+          "type": "text-field",
+          "shortLabel": "Anamnese",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Anamnese",
+          "type": "text-field",
+          "shortLabel": "Vorige behandelingen",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Lateraliteit voet",
+          "type": "dropdown-field",
+          "shortLabel": "zijde",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "LEGACY|rechts|1": "rechts",
+            "LEGACY|link|1": "link",
+            "LEGACY|bi-lateraliteit|1": "bi-lateraliteit"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Klinisch onderzoek",
+          "type": "text-field",
+          "shortLabel": "ochtendstijfhied",
+          "grows": true,
+          "span": 11,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Klinisch onderzoek",
+          "type": "text-field",
+          "shortLabel": "nachtelijke pijn",
+          "grows": true,
+          "span": 7,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Gewicht",
+          "type": "measure-field",
+          "shortLabel": "Gewicht",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Lengte",
+          "type": "measure-field",
+          "shortLabel": "Lengte",
+          "grows": true,
+          "span": 11,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "BMI",
+          "type": "number-field",
+          "shortLabel": "BMI",
+          "grows": true,
+          "span": 7,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Anamnese",
+          "type": "text-field",
+          "shortLabel": "Klinisch onderzoek",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Pijn",
+          "type": "checkbox",
+          "shortLabel": "Achillespees verkorting",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "Achillespees verkorting": "Achillespees verkorting"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Pijn",
+          "type": "checkbox",
+          "shortLabel": "Gastrocnemicus verkorting",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "Gastrocnemicus verkorting": "Gastrocnemicus verkorting"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Pijn",
+          "type": "checkbox",
+          "shortLabel": "Hallux valgus",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "Hallux valgus": "Hallux valgus"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Pijn",
+          "type": "checkbox",
+          "shortLabel": "Platvoet",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "Platvoet": "Platvoet"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Anamnese",
+          "type": "text-field",
+          "shortLabel": "Technische onderzoeken",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Anamnese",
+          "type": "text-field",
+          "shortLabel": "Differentiaal diagnose",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Anamnese",
+          "type": "text-field",
+          "shortLabel": "Behandelingsvoorstel",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Anamnese",
+          "type": "text-field",
+          "shortLabel": "Conclusie",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,449 @@
+{
+  "form": "sous-formulaires suivi post-op/suivi-post-op sans pansement",
+  "id": "F1D17B2C-0C03-4ABF-85DC-BF2B88757A6F",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "date",
+          "type": "date-picker",
+          "shortLabel": "date",
+          "grows": true,
+          "span": 7,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "intitulé",
+          "type": "text-field",
+          "shortLabel": "intitulé",
+          "grows": true,
+          "span": 17,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "néant",
+          "type": "checkbox",
+          "shortLabel": "néant",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "néant": "néant"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "fièvre",
+          "type": "checkbox",
+          "shortLabel": "fièvre",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "fièvre": "fièvre"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "douleur",
+          "type": "checkbox",
+          "shortLabel": "douleur",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "douleur": "douleur"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "écoulement",
+          "type": "checkbox",
+          "shortLabel": "écoulement",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "écoulement": "écoulement"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "saignement",
+          "type": "checkbox",
+          "shortLabel": "saignement",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "saignement": "saignement"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "plainte",
+          "type": "text-field",
+          "shortLabel": "autre plainte",
+          "grows": true,
+          "span": 10,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "cicatrice eutrophique",
+          "type": "checkbox",
+          "shortLabel": "cicatrice eutrophique",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "cicatrice eutrophique": "cicatrice eutrophique"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "cicatrice élargie",
+          "type": "checkbox",
+          "shortLabel": "cicatrice élargie",
+          "grows": true,
+          "span": 3,
+          "readonly": false,
+          "options": {
+            "cicatrice élargie": "cicatrice élargie"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "cicatrice adhérente",
+          "type": "checkbox",
+          "shortLabel": "cicatrice adhérente",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "options": {
+            "cicatrice adhérente": "cicatrice adhérente"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "cicatrice hypertrophique",
+          "type": "checkbox",
+          "shortLabel": "cicatrice hypertrophique",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "options": {
+            "cicatrice hypertrophique": "cicatrice hypertrophique"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "cicatrice chéloïde",
+          "type": "checkbox",
+          "shortLabel": "cicatrice chéloïde",
+          "grows": true,
+          "span": 3,
+          "readonly": false,
+          "options": {
+            "cicatrice chéloïde": "cicatrice chéloïde"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "examen clinique",
+          "type": "text-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "subform",
+          "id": "7B745BE7-9F7D-4F49-AD81-BB9D515877AA",
+          "shortLabel": "traitements prescrits",
+          "forms": {
+            "sous-formulaires suivi post-op/traitement médicamenteux": {
+              "form": "sous-formulaires suivi post-op/traitement médicamenteux",
+              "id": "B64CE1B7-515E-459C-9643-349C12A9BA63",
+              "sections": [
+                {
+                  "section": "Main",
+                  "fields": []
+                }
+              ]
+            },
+            "sous-formulaires suivi post-op/pansement à domicile": {
+              "form": "sous-formulaires suivi post-op/pansement à domicile",
+              "id": "9624634B-ADDF-47FE-ADC0-78F5C9F956E7",
+              "sections": [
+                {
+                  "section": "Main",
+                  "fields": [
+                    {
+                      "clazz": "field",
+                      "field": "9A46DA60-2542-48D6-A20F-7510D72FFA87",
+                      "type": "action",
+                      "shortLabel": "prescription",
+                      "grows": true,
+                      "span": 24,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "date de début",
+                      "type": "date-picker",
+                      "shortLabel": "date de début",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "date de fin",
+                      "type": "date-picker",
+                      "shortLabel": "date de fin",
+                      "grows": true,
+                      "span": 10,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "rythme",
+                      "type": "dropdown-field",
+                      "shortLabel": "rythme",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "options": {
+                        "LEGACY|quotidien|1": "quotidien",
+                        "LEGACY|tous les deux jours|1": "tous les deux jours",
+                        "LEGACY|tous les 3 jours|1": "tous les 3 jours"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "désinfectant",
+                      "type": "dropdown-field",
+                      "shortLabel": "désinfectant",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "LEGACY|isobédatine dermique|1": "isobédatine dermique",
+                        "LEGACY|hibitane|1": "hibitane",
+                        "LEGACY|chlohexidine aqueuse|1": "chlohexidine aqueuse",
+                        "LEGACY|isobétadine alcoolique|1": "isobétadine alcoolique"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "pansement primaire",
+                      "type": "text-field",
+                      "shortLabel": "pansement primaire",
+                      "grows": true,
+                      "span": 18,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "pansement secondaire",
+                      "type": "text-field",
+                      "shortLabel": "pansement secondaire",
+                      "grows": true,
+                      "span": 24,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true
+                    }
+                  ]
+                }
+              ]
+            },
+            "sous-formulaires suivi post-op/prescription de kinésithérapie": {
+              "form": "sous-formulaires suivi post-op/prescription de kinésithérapie",
+              "id": "8E425AA2-BC31-4C67-AA60-17CB59D5B16C",
+              "sections": [
+                {
+                  "section": "Main",
+                  "fields": [
+                    {
+                      "clazz": "field",
+                      "field": "nombre de séances",
+                      "type": "dropdown-field",
+                      "shortLabel": "nombre de séances",
+                      "grows": true,
+                      "span": 3,
+                      "readonly": false,
+                      "options": {
+                        "LEGACY|9|1": "9",
+                        "LEGACY|18|1": "18",
+                        "LEGACY|40|1": "40"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "rythme",
+                      "type": "dropdown-field",
+                      "shortLabel": "rythme",
+                      "grows": true,
+                      "span": 21,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "traitement de kiné demandé",
+                      "type": "text-field",
+                      "shortLabel": "traitement de kiné demandé",
+                      "grows": true,
+                      "span": 24,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true
+                    }
+                  ]
+                }
+              ]
+            },
+            "sous-formulaires suivi post-op/traitement cicatrice anormale": {
+              "form": "sous-formulaires suivi post-op/traitement cicatrice anormale",
+              "id": "F8CB8BDB-2E37-4617-BE98-49F576B5888D",
+              "sections": [
+                {
+                  "section": "Main",
+                  "fields": [
+                    {
+                      "clazz": "field",
+                      "field": "injection de cortisone",
+                      "type": "checkbox",
+                      "shortLabel": "injection de cortisone",
+                      "grows": true,
+                      "span": 4,
+                      "readonly": false,
+                      "options": {
+                        "injection de cortisone": "injection de cortisone"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "type de cortisone",
+                      "type": "text-field",
+                      "shortLabel": "type de cortisone",
+                      "grows": true,
+                      "span": 20,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "dermatix",
+                      "type": "checkbox",
+                      "shortLabel": "dermatix",
+                      "grows": true,
+                      "span": 4,
+                      "readonly": false,
+                      "options": {
+                        "dermatix": "dermatix"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "patch de silicone",
+                      "type": "checkbox",
+                      "shortLabel": "patch de silicone",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "patch de silicone": "patch de silicone"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "autre",
+                      "type": "text-field",
+                      "shortLabel": "autre",
+                      "grows": true,
+                      "span": 14,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "span": 24,
+          "rowSpan": 1,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "note",
+          "type": "text-field",
+          "shortLabel": "note",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

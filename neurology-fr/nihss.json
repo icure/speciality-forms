@@ -1,0 +1,1029 @@
+{
+  "form": "Neurologie AVC/NIHSS",
+  "id": "ABE345AB-47F4-48DC-B4C1-4083CE144559",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "NIHSS_1a_0",
+              "type": "checkbox",
+              "shortLabel": "0.Vigilant, réagit vivement ",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "0.Vigilant, réagit vivement ": "0.Vigilant, réagit vivement "
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "NIHSS_1a_1",
+              "type": "checkbox",
+              "shortLabel": "1. Non vigilant ( somnolent), mais réagit ou répond sʼil est éveillé par une stimulation mineure ",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "1. Non vigilant ( somnolent), mais réagit ou répond sʼil est éveillé par une stimulation mineure ": "1. Non vigilant ( somnolent), mais réagit ou répond sʼil est éveillé par une stimulation mineure "
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "NIHSS_1a_2",
+              "type": "checkbox",
+              "shortLabel": "2. Non vigilant et ne réagit quʼà des stimulations répétées, ou est inconscient et une stimulation intense ou douloureuse est nécessaire pour obtenir des mouvements autres que stéreotypés. ",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "2. Non vigilant et ne réagit quʼà des stimulations répétées, ou est inconscient et une stimulation intense ou douloureuse est nécessaire pour obtenir des mouvements autres que stéreotypés. ": "2. Non vigilant et ne réagit quʼà des stimulations répétées, ou est inconscient et une stimulation intense ou douloureuse est nécessaire pour obtenir des mouvements autres que stéreotypés. "
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "NIHSS_1a_3",
+              "type": "checkbox",
+              "shortLabel": "3. On obtient uniquement des réponses réﬂexes motrices ou végétatives, ou le patient est totalement areactif et ﬂasque ",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "3. On obtient uniquement des réponses réﬂexes motrices ou végétatives, ou le patient est totalement areactif et ﬂasque ": "3. On obtient uniquement des réponses réﬂexes motrices ou végétatives, ou le patient est totalement areactif et ﬂasque "
+              },
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "NIHSS_1b_0",
+              "type": "checkbox",
+              "shortLabel": "0. Répond aux 2 questions correctement ",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "0. Répond aux 2 questions correctement ": "0. Répond aux 2 questions correctement "
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "NIHSS_1b_1",
+              "type": "checkbox",
+              "shortLabel": "1. Ne répond correctement quʼà une seule question ",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "1. Ne répond correctement quʼà une seule question ": "1. Ne répond correctement quʼà une seule question "
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "NIHSS_1b_2",
+              "type": "checkbox",
+              "shortLabel": "2. Ne répond correctement à aucune des deux questions ",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "2. Ne répond correctement à aucune des deux questions ": "2. Ne répond correctement à aucune des deux questions "
+              },
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 3",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "NIHSS_1c_0",
+              "type": "checkbox",
+              "shortLabel": "0. Exécute les 2 ordres correctement ",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "0. Exécute les 2 ordres correctement ": "0. Exécute les 2 ordres correctement "
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "NIHSS_1c_1",
+              "type": "checkbox",
+              "shortLabel": "1. Exécute 1 ordre sur 2 ",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "1. Exécute 1 ordre sur 2 ": "1. Exécute 1 ordre sur 2 "
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "NIHSS_1c_2",
+              "type": "checkbox",
+              "shortLabel": "2. Nʼexécute aucun des 2 ordres ",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "2. Nʼexécute aucun des 2 ordres ": "2. Nʼexécute aucun des 2 ordres "
+              },
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 4",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "NIHSS_2_0",
+              "type": "checkbox",
+              "shortLabel": "0. Normal ",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "0. Normal ": "0. Normal "
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "NIHSS_2_1",
+              "type": "checkbox",
+              "shortLabel": "1. Paralysie partielle ",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "1. Paralysie partielle ": "1. Paralysie partielle "
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "NIHSS_2_2",
+              "type": "checkbox",
+              "shortLabel": "2. Déviation forcée ou paralysie complète non vaincue par les manoeuvres oculo-!céphaliques ",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "2. Déviation forcée ou paralysie complète non vaincue par les manoeuvres oculo-!céphaliques ": "2. Déviation forcée ou paralysie complète non vaincue par les manoeuvres oculo-!céphaliques "
+              },
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 5",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "NIHSS_3_0",
+              "type": "checkbox",
+              "shortLabel": "0. Aucun trouble du champ visuel ",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "0. Aucun trouble du champ visuel ": "0. Aucun trouble du champ visuel "
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "NIHSS_3_1",
+              "type": "checkbox",
+              "shortLabel": "1. Hémianopsie partielle ( ou extinction visuelle) ",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "1. Hémianopsie partielle ( ou extinction visuelle) ": "1. Hémianopsie partielle ( ou extinction visuelle) "
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "NIHSS_3_2",
+              "type": "checkbox",
+              "shortLabel": "2. Hémianopsie complète ",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "2. Hémianopsie complète ": "2. Hémianopsie complète "
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "NIHSS_3_3",
+              "type": "checkbox",
+              "shortLabel": "3. Hémianopsie bilatérale ( incluant cecité corticale) ",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "3. Hémianopsie bilatérale ( incluant cecité corticale) ": "3. Hémianopsie bilatérale ( incluant cecité corticale) "
+              },
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 6",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "NIHSS_4_0",
+              "type": "checkbox",
+              "shortLabel": "0. Mobilité normale, symétrique ",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "0. Mobilité normale, symétrique ": "0. Mobilité normale, symétrique "
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "NIHSS_4_1",
+              "type": "checkbox",
+              "shortLabel": "1. Paraysie mineure ",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "1. Paraysie mineure ": "1. Paraysie mineure "
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "NIHSS_4_2",
+              "type": "checkbox",
+              "shortLabel": "2. Paralysie partielle ",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "2. Paralysie partielle ": "2. Paralysie partielle "
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "NIHSS_4_3",
+              "type": "checkbox",
+              "shortLabel": "3. Paralysie complète ",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "3. Paralysie complète ": "3. Paralysie complète "
+              },
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 7",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "NIHSS_5a_0",
+              "type": "checkbox",
+              "shortLabel": "0. Pas de chute; maintien du MS à 90° ( ou 45°) pendant 10 secondes ",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "0. Pas de chute; maintien du MS à 90° ( ou 45°) pendant 10 secondes ": "0. Pas de chute; maintien du MS à 90° ( ou 45°) pendant 10 secondes "
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "NIHSS_5a_1",
+              "type": "checkbox",
+              "shortLabel": "1. Chute; le membre supérieur chute en moins de 10 secondes, mais sans atteindre  le plan du lit ou autre support ",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "1. Chute; le membre supérieur chute en moins de 10 secondes, mais sans atteindre  le plan du lit ou autre support ": "1. Chute; le membre supérieur chute en moins de 10 secondes, mais sans atteindre  le plan du lit ou autre support "
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "NIHSS_5a_2",
+              "type": "checkbox",
+              "shortLabel": "2. Le membre supérieur ne peut pas atteindre ou maintenir 90° ( ou 45°), tombe sur le lit, mais le patient peut faire un certain mouvement contre la gravité ",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "2. Le membre supérieur ne peut pas atteindre ou maintenir 90° ( ou 45°), tombe sur le lit, mais le patient peut faire un certain mouvement contre la gravité ": "2. Le membre supérieur ne peut pas atteindre ou maintenir 90° ( ou 45°), tombe sur le lit, mais le patient peut faire un certain mouvement contre la gravité "
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "NIHSS_5a_3",
+              "type": "checkbox",
+              "shortLabel": "3. Aucun mouvement contre la gravité; le MS tombe ",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "3. Aucun mouvement contre la gravité; le MS tombe ": "3. Aucun mouvement contre la gravité; le MS tombe "
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "NIHSS_5a_4",
+              "type": "checkbox",
+              "shortLabel": "4. Absence de mouvement ",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "4. Absence de mouvement ": "4. Absence de mouvement "
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "NIHSS_5a_9",
+              "type": "checkbox",
+              "shortLabel": "9. Amputation/blocage articulaire ",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "9. Amputation/blocage articulaire ": "9. Amputation/blocage articulaire "
+              },
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 8",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "NIHSS_5b_0",
+              "type": "checkbox",
+              "shortLabel": "0. Pas de chute; maintien du MS à 90° ( ou 45°) pendant 10 secondes ",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "0. Pas de chute; maintien du MS à 90° ( ou 45°) pendant 10 secondes ": "0. Pas de chute; maintien du MS à 90° ( ou 45°) pendant 10 secondes "
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "NIHSS_5b_1",
+              "type": "checkbox",
+              "shortLabel": "1. Chute; le membre supérieur chute en moins de 10 secondes, mais sans atteindre  le plan du lit ou autre support ",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "1. Chute; le membre supérieur chute en moins de 10 secondes, mais sans atteindre  le plan du lit ou autre support ": "1. Chute; le membre supérieur chute en moins de 10 secondes, mais sans atteindre  le plan du lit ou autre support "
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "NIHSS_5b_2",
+              "type": "checkbox",
+              "shortLabel": "2. Le membre supérieur ne peut pas atteindre ou maintenir 90° ( ou 45°), tombe sur le lit, mais le patient peut faire un certain mouvement contre la gravité ",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "2. Le membre supérieur ne peut pas atteindre ou maintenir 90° ( ou 45°), tombe sur le lit, mais le patient peut faire un certain mouvement contre la gravité ": "2. Le membre supérieur ne peut pas atteindre ou maintenir 90° ( ou 45°), tombe sur le lit, mais le patient peut faire un certain mouvement contre la gravité "
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "NIHSS_5b_3",
+              "type": "checkbox",
+              "shortLabel": "3. Aucun mouvement contre la gravité; le MS tombe ",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "3. Aucun mouvement contre la gravité; le MS tombe ": "3. Aucun mouvement contre la gravité; le MS tombe "
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "NIHSS_5b_4",
+              "type": "checkbox",
+              "shortLabel": "4. Absence de mouvement ",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "4. Absence de mouvement ": "4. Absence de mouvement "
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "NIHSS_5b_9",
+              "type": "checkbox",
+              "shortLabel": "9. Amputation, blocage articulaire ",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "9. Amputation, blocage articulaire ": "9. Amputation, blocage articulaire "
+              },
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 9",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "NIHSS_6a_0",
+              "type": "checkbox",
+              "shortLabel": "0. Absence de chute; le MI garde la position à 30° pendant 5 secondes ",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "0. Absence de chute; le MI garde la position à 30° pendant 5 secondes ": "0. Absence de chute; le MI garde la position à 30° pendant 5 secondes "
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "NIHSS_6a_1",
+              "type": "checkbox",
+              "shortLabel": "1. Chute; la position ne peut être maintenue pendant 5 secondes, mais le MI ne retombe pas sur le lit! ",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "1. Chute; la position ne peut être maintenue pendant 5 secondes, mais le MI ne retombe pas sur le lit! ": "1. Chute; la position ne peut être maintenue pendant 5 secondes, mais le MI ne retombe pas sur le lit! "
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "NIHSS_6a_2",
+              "type": "checkbox",
+              "shortLabel": "2.  Le MI tombe sur le lit dans les 5 secondes, mais le patient peut faire un certain mouvement contre la gravité ",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "2.  Le MI tombe sur le lit dans les 5 secondes, mais le patient peut faire un certain mouvement contre la gravité ": "2.  Le MI tombe sur le lit dans les 5 secondes, mais le patient peut faire un certain mouvement contre la gravité "
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "NIHSS_6a_3",
+              "type": "checkbox",
+              "shortLabel": "3. Absence de mouvement contre la gravité; le MI tombe instantanément ",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "3. Absence de mouvement contre la gravité; le MI tombe instantanément ": "3. Absence de mouvement contre la gravité; le MI tombe instantanément "
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "NIHSS_6a_4",
+              "type": "checkbox",
+              "shortLabel": "4. Absence de mouvement ",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "4. Absence de mouvement ": "4. Absence de mouvement "
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "NIHSS_6a_9",
+              "type": "checkbox",
+              "shortLabel": "9. Amputation/blocage articulaire ",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "9. Amputation/blocage articulaire ": "9. Amputation/blocage articulaire "
+              },
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 10",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "NIHSS_6b_0",
+              "type": "checkbox",
+              "shortLabel": "0. Absence de chute; le MI garde la position à 30° pendant 5 secondes ",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "0. Absence de chute; le MI garde la position à 30° pendant 5 secondes ": "0. Absence de chute; le MI garde la position à 30° pendant 5 secondes "
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "NIHSS_6b_1",
+              "type": "checkbox",
+              "shortLabel": "1. Chute; la position ne peut être maintenue pendant 5 secondes, mais le MI ne retombe pas sur le lit! ",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "1. Chute; la position ne peut être maintenue pendant 5 secondes, mais le MI ne retombe pas sur le lit! ": "1. Chute; la position ne peut être maintenue pendant 5 secondes, mais le MI ne retombe pas sur le lit! "
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "NIHSS_6b_2",
+              "type": "checkbox",
+              "shortLabel": "2.  Le MI tombe sur le lit dans les 5 secondes, mais le patient peut faire un certain mouvement contre la gravité ",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "2.  Le MI tombe sur le lit dans les 5 secondes, mais le patient peut faire un certain mouvement contre la gravité ": "2.  Le MI tombe sur le lit dans les 5 secondes, mais le patient peut faire un certain mouvement contre la gravité "
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "NIHSS_6b_3",
+              "type": "checkbox",
+              "shortLabel": "3. Absence de mouvement contre la gravité; le MI tombe instantanément ",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "3. Absence de mouvement contre la gravité; le MI tombe instantanément ": "3. Absence de mouvement contre la gravité; le MI tombe instantanément "
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "NIHSS_6b_4",
+              "type": "checkbox",
+              "shortLabel": "4. Absence de mouvement ",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "4. Absence de mouvement ": "4. Absence de mouvement "
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "NIHSS_6b_9",
+              "type": "checkbox",
+              "shortLabel": "9. Amputation/blocage articulaire ",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "9. Amputation/blocage articulaire ": "9. Amputation/blocage articulaire "
+              },
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 11",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "NIHSS_7_0",
+              "type": "checkbox",
+              "shortLabel": "0. Absente ",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "0. Absente ": "0. Absente "
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "NIHSS_7_1",
+              "type": "checkbox",
+              "shortLabel": "1. Présente pour un membre ",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "1. Présente pour un membre ": "1. Présente pour un membre "
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "NIHSS_7_2",
+              "type": "checkbox",
+              "shortLabel": "2. Présente pour deux membres ",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "2. Présente pour deux membres ": "2. Présente pour deux membres "
+              },
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 12",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "NIHSS_8_0",
+              "type": "checkbox",
+              "shortLabel": "0. Normale ",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "0. Normale ": "0. Normale "
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "NIHSS_8_1",
+              "type": "checkbox",
+              "shortLabel": "1. Déﬁcit sensitif discret à modéré; du côté atteint, la piqûre est moins bien perçue ou non perçue mais le patient est conscient dʼêtre touché ",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "1. Déﬁcit sensitif discret à modéré; du côté atteint, la piqûre est moins bien perçue ou non perçue mais le patient est conscient dʼêtre touché ": "1. Déﬁcit sensitif discret à modéré; du côté atteint, la piqûre est moins bien perçue ou non perçue mais le patient est conscient dʼêtre touché "
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "NIHSS_8_2",
+              "type": "checkbox",
+              "shortLabel": "2. Déﬁcit sévère à total; le patient nʼa pas conscience dʼêtre touché au niveau de la face, du bras et de la jambe ",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "2. Déﬁcit sévère à total; le patient nʼa pas conscience dʼêtre touché au niveau de la face, du bras et de la jambe ": "2. Déﬁcit sévère à total; le patient nʼa pas conscience dʼêtre touché au niveau de la face, du bras et de la jambe "
+              },
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 13",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "NIHSS_9_0",
+              "type": "checkbox",
+              "shortLabel": "0. Normal, pas dʼaphasie ",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "0. Normal, pas dʼaphasie ": "0. Normal, pas dʼaphasie "
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "NIHSS_9_1",
+              "type": "checkbox",
+              "shortLabel": "1. Aphasie discrète à modérée. Il existe une perte indiscutabe de la ﬂuence ou des capacités de comprehénsion ",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "1. Aphasie discrète à modérée. Il existe une perte indiscutabe de la ﬂuence ou des capacités de comprehénsion ": "1. Aphasie discrète à modérée. Il existe une perte indiscutabe de la ﬂuence ou des capacités de comprehénsion "
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "NIHSS_9_2",
+              "type": "checkbox",
+              "shortLabel": "2. Aphasie sévère. Lʼexpression est fragmentaire ",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "2. Aphasie sévère. Lʼexpression est fragmentaire ": "2. Aphasie sévère. Lʼexpression est fragmentaire "
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "NIHSS_9_3",
+              "type": "checkbox",
+              "shortLabel": "3. Mutisme; aphasie globale; pas de langage utile, ni de compréhension du langage oral. ",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "3. Mutisme; aphasie globale; pas de langage utile, ni de compréhension du langage oral. ": "3. Mutisme; aphasie globale; pas de langage utile, ni de compréhension du langage oral. "
+              },
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 14",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "NIHSS_10_0",
+              "type": "checkbox",
+              "shortLabel": "0. Normal. ",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "0. Normal. ": "0. Normal. "
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "NIHSS_10_1",
+              "type": "checkbox",
+              "shortLabel": "1. Discrète à modérée; le patient nʼarticule pas bien au moins quelques mots et , au pire, peut être compris avec quelques difﬁcultés. ",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "1. Discrète à modérée; le patient nʼarticule pas bien au moins quelques mots et , au pire, peut être compris avec quelques difﬁcultés. ": "1. Discrète à modérée; le patient nʼarticule pas bien au moins quelques mots et , au pire, peut être compris avec quelques difﬁcultés. "
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "NIHSS_10_2",
+              "type": "checkbox",
+              "shortLabel": "2. Sévère: le discours du patient est tellement mal articulé quʼil devient inintelligible. ",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "2. Sévère: le discours du patient est tellement mal articulé quʼil devient inintelligible. ": "2. Sévère: le discours du patient est tellement mal articulé quʼil devient inintelligible. "
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "NIHSS_10_9",
+              "type": "checkbox",
+              "shortLabel": "9. Intubation ",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "9. Intubation ": "9. Intubation "
+              },
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 15",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "NIHSS_11_0",
+              "type": "checkbox",
+              "shortLabel": "0. Normal ",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "0. Normal ": "0. Normal "
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "NIHSS_11_1",
+              "type": "checkbox",
+              "shortLabel": "1. Extinction ou négligence visuelle, tactile, auditive, spatiale ou personnelle à la stimulation bilatérale simultanée dans une des modalités ",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "1. Extinction ou négligence visuelle, tactile, auditive, spatiale ou personnelle à la stimulation bilatérale simultanée dans une des modalités ": "1. Extinction ou négligence visuelle, tactile, auditive, spatiale ou personnelle à la stimulation bilatérale simultanée dans une des modalités "
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "NIHSS_11_2",
+              "type": "checkbox",
+              "shortLabel": "2. Héminégligence sévère ou portant sur plus dʼune modalité sensorielle. Ne reconnaît pas sa propre main ou ne sʼoriente que vers un côté de lʼespace. ",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "2. Héminégligence sévère ou portant sur plus dʼune modalité sensorielle. Ne reconnaît pas sa propre main ou ne sʼoriente que vers un côté de lʼespace. ": "2. Héminégligence sévère ou portant sur plus dʼune modalité sensorielle. Ne reconnaît pas sa propre main ou ne sʼoriente que vers un côté de lʼespace. "
+              },
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

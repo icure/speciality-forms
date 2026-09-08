@@ -1,0 +1,121 @@
+{
+  "form": "Gynécologie 3.0/Compte rendu opératoire",
+  "id": "AAAFA011-92A8-44AE-9DD2-AC0610A02DB2",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Date intervention",
+              "type": "date-picker",
+              "shortLabel": "Date",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Intervention",
+              "type": "text-field",
+              "shortLabel": "Intervention",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Numéro de chambre",
+              "type": "number-field",
+              "shortLabel": "Ch. n°",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Supplément tarification",
+              "type": "number-field",
+              "shortLabel": "Sup. en %",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Indication",
+              "type": "text-field",
+              "shortLabel": "Indication",
+              "grows": true,
+              "span": 24,
+              "rowSpan": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Anesthésiste",
+              "type": "text-field",
+              "shortLabel": "Anesthésiste",
+              "grows": true,
+              "span": 10,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Assistant",
+              "type": "text-field",
+              "shortLabel": "Assistant",
+              "grows": true,
+              "span": 14,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Compte rendu",
+              "type": "text-field",
+              "shortLabel": "Compte rendu",
+              "grows": true,
+              "span": 24,
+              "rowSpan": 13,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

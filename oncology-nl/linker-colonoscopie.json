@@ -1,0 +1,228 @@
+{
+  "form": "Gastro/Linker colonoscopie",
+  "id": "63DFD727-9BCA-4E01-9461-0C81937BD206",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Indicatie",
+          "type": "text-field",
+          "shortLabel": "Indicatie",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Personeel",
+          "type": "text-field",
+          "shortLabel": "Personeel",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Voorbereiding",
+          "type": "dropdown-field",
+          "shortLabel": "Voorbereiding",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "LEGACY|Nuchter sinds vorige avond|1": "Nuchter sinds vorige avond",
+            "LEGACY|Moviprep|1": "Moviprep",
+            "LEGACY|Picoprep|1": "Picoprep",
+            "LEGACY|Moviprep en Fleet Phospho-Soda|1": "Moviprep en Fleet Phospho-Soda",
+            "LEGACY|Picoprep en Fleet Phospho-Soda|1": "Picoprep en Fleet Phospho-Soda"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Endoscoop",
+          "type": "text-field",
+          "shortLabel": "Endoscoop",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Premedicatie",
+          "type": "token-field",
+          "shortLabel": "Premedicatie",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Sat O2",
+          "type": "checkbox",
+          "shortLabel": "Monitoring:  Sat O2",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "Monitoring:  Sat O2": "Monitoring:  Sat O2"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "ECG",
+          "type": "checkbox",
+          "shortLabel": "ECG",
+          "grows": true,
+          "span": 3,
+          "readonly": false,
+          "options": {
+            "ECG": "ECG"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "HR",
+          "type": "checkbox",
+          "shortLabel": "HR",
+          "grows": true,
+          "span": 13,
+          "readonly": false,
+          "options": {
+            "HR": "HR"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "BD",
+          "type": "checkbox",
+          "shortLabel": "BD",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "BD": "BD"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Rectum",
+          "type": "text-field",
+          "shortLabel": "Rectum",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Sigmoïd",
+          "type": "text-field",
+          "shortLabel": "Sigmoïd",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Linker colon",
+          "type": "text-field",
+          "shortLabel": "Linker colon",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Biopsie",
+          "type": "text-field",
+          "shortLabel": "Biopsie",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Endoscopische behandeling",
+          "type": "text-field",
+          "shortLabel": "Endoscopische behandeling",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Besluit",
+          "type": "text-field",
+          "shortLabel": "Besluit",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Behandelingsvoorstel",
+          "type": "text-field",
+          "shortLabel": "Behandeling ",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Houding",
+          "type": "text-field",
+          "shortLabel": "Houding",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "4E213EFE-186F-460D-91ED-758B951C50B8",
+          "type": "action",
+          "shortLabel": "Verslag",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

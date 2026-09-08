@@ -1,0 +1,264 @@
+{
+  "form": "sous-formulaires CRO visage/blépharoplastie supérieure",
+  "id": "1E9B1F75-8A12-4B0D-B4D5-481252A07357",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "anesthésique",
+          "type": "dropdown-field",
+          "shortLabel": "infiltration",
+          "grows": true,
+          "span": 9,
+          "readonly": false,
+          "options": {
+            "LEGACY|xylocaïne 1% sans adrénaline|1": "xylocaïne 1% sans adrénaline",
+            "LEGACY|xylocaïne 2% sans adrénaline|1": "xylocaïne 2% sans adrénaline",
+            "LEGACY|xylocaïne 1% avec adrénaline|1": "xylocaïne 1% avec adrénaline",
+            "LEGACY|Naropin 2 mg/ml|1": "Naropin 2 mg/ml",
+            "LEGACY|Naropin 10 mg/ml|1": "Naropin 10 mg/ml",
+            "LEGACY|Cistanest 1%|1": "Cistanest 1%",
+            "LEGACY|Cistanest 2%|1": "Cistanest 2%"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "volume injecté",
+          "type": "measure-field",
+          "shortLabel": "volume injecté",
+          "grows": true,
+          "span": 15,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "procédure cutanée",
+          "type": "dropdown-field",
+          "shortLabel": "procédure cutanée",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "LEGACY|incision dans le pli palpébral|1": "incision dans le pli palpébral",
+            "LEGACY|résection cutanée|1": "résection cutanée"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "myomectomie de l'orbiculaire",
+          "type": "checkbox",
+          "shortLabel": "myomectomie de l'orbiculaire",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "myomectomie de l'orbiculaire": "myomectomie de l'orbiculaire"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "fixation transpalpébrale du sourcil",
+          "type": "checkbox",
+          "shortLabel": "fixation transpalpébrale du sourcil",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "fixation transpalpébrale du sourcil": "fixation transpalpébrale du sourcil"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "subform",
+          "id": "9D5A84DF-179E-42D8-AD51-ACD5E12588F9",
+          "shortLabel": "procédures réalisées",
+          "forms": {
+            "sous-formulaires CRO visage/lipectomie supérieure": {
+              "form": "sous-formulaires CRO visage/lipectomie supérieure",
+              "id": "273CF1BB-4650-4687-A047-803E884389A1",
+              "sections": [
+                {
+                  "section": "Main",
+                  "fields": [
+                    {
+                      "clazz": "field",
+                      "field": "résection de la SOOF",
+                      "type": "checkbox",
+                      "shortLabel": "résection de la SOOF",
+                      "grows": true,
+                      "span": 10,
+                      "readonly": false,
+                      "options": {
+                        "résection de la SOOF": "résection de la SOOF"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "résection de la poche de graisse interne",
+                      "type": "checkbox",
+                      "shortLabel": "résection de la poche de graisse interne",
+                      "grows": true,
+                      "span": 4,
+                      "readonly": false,
+                      "options": {
+                        "résection de la poche de graisse interne": "résection de la poche de graisse interne"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "diminution de l'organe en rouleau",
+                      "type": "checkbox",
+                      "shortLabel": "diminution de l'organe en rouleau",
+                      "grows": true,
+                      "span": 10,
+                      "readonly": false,
+                      "options": {
+                        "diminution de l'organe en rouleau": "diminution de l'organe en rouleau"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    }
+                  ]
+                }
+              ]
+            },
+            "sous-formulaires CRO visage/cure de ptosis": {
+              "form": "sous-formulaires CRO visage/cure de ptosis",
+              "id": "F3DC1FD4-84AB-427F-882E-F12D48FBFBC2",
+              "sections": [
+                {
+                  "section": "Main",
+                  "fields": [
+                    {
+                      "clazz": "field",
+                      "field": "côté droit",
+                      "type": "checkbox",
+                      "shortLabel": "côté droit",
+                      "grows": true,
+                      "span": 4,
+                      "readonly": false,
+                      "options": {
+                        "côté droit": "côté droit"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "côté gauche",
+                      "type": "checkbox",
+                      "shortLabel": "côté gauche",
+                      "grows": true,
+                      "span": 4,
+                      "readonly": false,
+                      "options": {
+                        "côté gauche": "côté gauche"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "bilatéral",
+                      "type": "checkbox",
+                      "shortLabel": "bilatéral",
+                      "grows": true,
+                      "span": 5,
+                      "readonly": false,
+                      "options": {
+                        "bilatéral": "bilatéral"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "fil de suture pour le releveur",
+                      "type": "text-field",
+                      "shortLabel": "fil de suture pour le releveur",
+                      "grows": true,
+                      "span": 11,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "traitement du releveur droit",
+                      "type": "dropdown-field",
+                      "shortLabel": "traitement du releveur droit",
+                      "grows": true,
+                      "span": 13,
+                      "readonly": false,
+                      "options": {
+                        "LEGACY|plicature du releveur|1": "plicature du releveur",
+                        "LEGACY|désinsertion du releveur|1": "désinsertion du releveur"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "résection releveur droit",
+                      "type": "measure-field",
+                      "shortLabel": "résection releveur droit",
+                      "grows": true,
+                      "span": 11,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "traitement du releveur gauche",
+                      "type": "dropdown-field",
+                      "shortLabel": "traitement du releveur gauche",
+                      "grows": true,
+                      "span": 13,
+                      "readonly": false,
+                      "options": {
+                        "LEGACY|plicature du releveur|1": "plicature du releveur",
+                        "LEGACY|désinsertion du releveur|1": "désinsertion du releveur"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "résection releveur gauche",
+                      "type": "measure-field",
+                      "shortLabel": "résection releveur gauche",
+                      "grows": true,
+                      "span": 11,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "span": 24,
+          "rowSpan": 2,
+          "labels": {}
+        }
+      ]
+    }
+  ]
+}

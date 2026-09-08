@@ -1,0 +1,1623 @@
+{
+  "form": "Pré-op/rajeunissement du visage",
+  "id": "08FAAC9D-6D43-4B7F-A6E6-B426CAD2F7EA",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "motif de consultation ",
+              "type": "text-field",
+              "shortLabel": "motif de consultation ",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "blépharoplastie supérieure",
+              "type": "checkbox",
+              "shortLabel": "blépharoplastie supérieure",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "blépharoplastie supérieure": "blépharoplastie supérieure"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": " bsup cutanée seule",
+              "type": "checkbox",
+              "shortLabel": "cutanée seule",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "cutanée seule": "cutanée seule"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "rides front",
+              "type": "checkbox",
+              "shortLabel": "rides front et glabelle",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "rides front et glabelle": "rides front et glabelle"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "paupières supérieures",
+              "type": "checkbox",
+              "shortLabel": "paupières supérieures",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "paupières supérieures": "paupières supérieures"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "rides lèvres",
+              "type": "checkbox",
+              "shortLabel": "rides lèvres",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "rides lèvres": "rides lèvres"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": " lipectomie supérieure",
+              "type": "checkbox",
+              "shortLabel": " lipectomie supérieure",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                " lipectomie supérieure": " lipectomie supérieure"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "rides d'expression",
+              "type": "checkbox",
+              "shortLabel": "rides d'expression",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "rides d'expression": "rides d'expression"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "paupières inférieures",
+              "type": "checkbox",
+              "shortLabel": "paupières inférieures",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "paupières inférieures": "paupières inférieures"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "S-amincissement des lèvres",
+              "type": "checkbox",
+              "shortLabel": "amincissement des lèvres",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "amincissement des lèvres": "amincissement des lèvres"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "cure de ptosis palpébral",
+              "type": "checkbox",
+              "shortLabel": "cure de ptosis palpébral",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "cure de ptosis palpébral": "cure de ptosis palpébral"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "réinsertion du releveur",
+              "type": "checkbox",
+              "shortLabel": "réinsertion du releveur",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "réinsertion du releveur": "réinsertion du releveur"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "ptose sourcil",
+              "type": "checkbox",
+              "shortLabel": "ptose sourcil",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "ptose sourcil": "ptose sourcil"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "cernes",
+              "type": "checkbox",
+              "shortLabel": "cernes",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "cernes": "cernes"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "résection de releveur",
+              "type": "checkbox",
+              "shortLabel": "résection de releveur",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "résection de releveur": "résection de releveur"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "régions malaires",
+              "type": "checkbox",
+              "shortLabel": "ptose malaire",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "ptose malaire": "ptose malaire"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "rides joues",
+              "type": "checkbox",
+              "shortLabel": "rides joues",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "rides joues": "rides joues"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "section transpalpébrale des corrugateurs",
+              "type": "checkbox",
+              "shortLabel": "section transpalpébrale des corrugateurs",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "section transpalpébrale des corrugateurs": "section transpalpébrale des corrugateurs"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "suspension frontale",
+              "type": "checkbox",
+              "shortLabel": "suspension frontale",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "suspension frontale": "suspension frontale"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "relachement cervical",
+              "type": "checkbox",
+              "shortLabel": "relachement cervical",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "relachement cervical": "relachement cervical"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "pl-couperose",
+              "type": "checkbox",
+              "shortLabel": "couperose",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "couperose": "couperose"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "fixation du sourcil par voie transpalpébrale",
+              "type": "checkbox",
+              "shortLabel": "fixation du sourcil par voie transpalpébrale",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "fixation du sourcil par voie transpalpébrale": "fixation du sourcil par voie transpalpébrale"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "bajoues",
+              "type": "checkbox",
+              "shortLabel": "bajoues",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "bajoues": "bajoues"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "sillon d'amertume",
+              "type": "checkbox",
+              "shortLabel": "sillon d'amertume",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "sillon d'amertume": "sillon d'amertume"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "S-brides cervicales",
+              "type": "checkbox",
+              "shortLabel": "brides cervicales",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "brides cervicales": "brides cervicales"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "S-taches pigmentaires",
+              "type": "checkbox",
+              "shortLabel": "taches pigmentaires",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "taches pigmentaires": "taches pigmentaires"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "sillons naso-géniens",
+              "type": "checkbox",
+              "shortLabel": "sillons naso-géniens",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "sillons naso-géniens": "sillons naso-géniens"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "lifting de la queue du sourcil selon Fogli",
+              "type": "checkbox",
+              "shortLabel": "lifting de la queue du sourcil selon Fogli",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "lifting de la queue du sourcil selon Fogli": "lifting de la queue du sourcil selon Fogli"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "S-aspect triste",
+              "type": "checkbox",
+              "shortLabel": "aspect triste",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "aspect triste": "aspect triste"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "S-aspect fatigué",
+              "type": "checkbox",
+              "shortLabel": "aspect fatigué",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "aspect fatigué": "aspect fatigué"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "lifting frontal endoscopique",
+              "type": "checkbox",
+              "shortLabel": "lifting frontal endoscopique",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "lifting frontal endoscopique": "lifting frontal endoscopique"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "lifting frontal par voie bicoronale",
+              "type": "checkbox",
+              "shortLabel": "lifting frontal par voie bicoronale",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "lifting frontal par voie bicoronale": "lifting frontal par voie bicoronale"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "plainte",
+              "type": "text-field",
+              "shortLabel": "plainte additionelle",
+              "grows": true,
+              "span": 24,
+              "rowSpan": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": " blépharoplastie inférieure",
+              "type": "checkbox",
+              "shortLabel": " blépharoplastie inférieure",
+              "grows": true,
+              "span": 17,
+              "readonly": false,
+              "options": {
+                " blépharoplastie inférieure": " blépharoplastie inférieure"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": " Hamra",
+              "type": "checkbox",
+              "shortLabel": " Hamra",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                " Hamra": " Hamra"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": " binf cutanée seule",
+              "type": "checkbox",
+              "shortLabel": "cutanée seule",
+              "grows": true,
+              "span": 2,
+              "readonly": false,
+              "options": {
+                "cutanée seule": "cutanée seule"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": " Jelks",
+              "type": "checkbox",
+              "shortLabel": " Jelks",
+              "grows": true,
+              "span": 21,
+              "readonly": false,
+              "options": {
+                " Jelks": " Jelks"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "binf lipectomie associée",
+              "type": "checkbox",
+              "shortLabel": "lipectomie associée",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "lipectomie associée": "lipectomie associée"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "b2 inf voie transconjonctivale",
+              "type": "checkbox",
+              "shortLabel": "voie transconjonctivale",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "voie transconjonctivale": "voie transconjonctivale"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": " binf voie sous-ciliaire",
+              "type": "checkbox",
+              "shortLabel": "voie sous-ciliaire",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "voie sous-ciliaire": "voie sous-ciliaire"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "symétrie des sourcils",
+              "type": "dropdown-field",
+              "shortLabel": "symétrie des sourcils",
+              "grows": true,
+              "span": 7,
+              "rowSpan": 2,
+              "readonly": false,
+              "options": {
+                "LEGACY|symétrique|1": "symétrique",
+                "LEGACY|G>D|1": "G>D",
+                "LEGACY|D>G|1": "D>G"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "complément sourcil",
+              "type": "text-field",
+              "shortLabel": "divers front-sourcil",
+              "grows": true,
+              "span": 10,
+              "rowSpan": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "canthopexie externe",
+              "type": "checkbox",
+              "shortLabel": "canthopexie externe",
+              "grows": true,
+              "span": 7,
+              "rowSpan": 2,
+              "readonly": false,
+              "options": {
+                "canthopexie externe": "canthopexie externe"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "position des sourcils",
+              "type": "dropdown-field",
+              "shortLabel": "position des sourcils",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "options": {
+                "LEGACY|au dessus du rebord orbitaire|1": "au dessus du rebord orbitaire",
+                "LEGACY|au niveau du rebord orbitaire|1": "au niveau du rebord orbitaire",
+                "LEGACY|sous le rebord orbitaire|1": "sous le rebord orbitaire"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": " canthoplastie externe",
+              "type": "checkbox",
+              "shortLabel": " canthoplastie externe",
+              "grows": true,
+              "span": 17,
+              "readonly": false,
+              "options": {
+                " canthoplastie externe": " canthoplastie externe"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": " Khunt-Siemanowski",
+              "type": "checkbox",
+              "shortLabel": " Khunt-Siemanowski",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                " Khunt-Siemanowski": " Khunt-Siemanowski"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "rides glabelle",
+              "type": "dropdown-field",
+              "shortLabel": "rides glabelle",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "options": {
+                "LEGACY|non|1": "non",
+                "LEGACY|dynamiques|1": "dynamiques",
+                "LEGACY|statiques|1": "statiques"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "ouverture oculaire droite",
+              "type": "measure-field",
+              "shortLabel": "ouverture oculaire droite",
+              "grows": true,
+              "span": 17,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "rides frontales",
+              "type": "dropdown-field",
+              "shortLabel": "rides frontales",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "LEGACY|non|1": "non",
+                "LEGACY|dynamiques|1": "dynamiques",
+                "LEGACY|statiques|1": "statiques"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "ouverture oculaire gauche",
+              "type": "measure-field",
+              "shortLabel": "ouverture oculaire gauche",
+              "grows": true,
+              "span": 14,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": " peeling",
+              "type": "checkbox",
+              "shortLabel": " peeling cutané associé",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                " peeling cutané associé": " peeling cutané associé"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "peeling phénol",
+              "type": "checkbox",
+              "shortLabel": "phénol",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "phénol": "phénol"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "peeling TCA",
+              "type": "checkbox",
+              "shortLabel": "TCA",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "TCA": "TCA"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "graisse paupière supérieure",
+              "type": "dropdown-field",
+              "shortLabel": "graisse paupière sup",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "options": {
+                "LEGACY|interne|1": "interne",
+                "LEGACY|moyenne|1": "moyenne",
+                "LEGACY|interne et moyenne|1": "interne et moyenne",
+                "LEGACY|oeil creux|1": "oeil creux",
+                "LEGACY|pas de surcharge|1": "pas de surcharge"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "fonction muscle releveur droit",
+              "type": "measure-field",
+              "shortLabel": "fonction muscle releveur droit",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "lipofilling",
+              "type": "checkbox",
+              "shortLabel": "lipofilling",
+              "grows": true,
+              "span": 2,
+              "readonly": false,
+              "options": {
+                "lipofilling": "lipofilling"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "lipofilling pomettes",
+              "type": "checkbox",
+              "shortLabel": "pomettes",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "pomettes": "pomettes"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "lipofilling tempes",
+              "type": "checkbox",
+              "shortLabel": "tempes",
+              "grows": true,
+              "span": 2,
+              "readonly": false,
+              "options": {
+                "tempes": "tempes"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "lipofilling lèvres",
+              "type": "checkbox",
+              "shortLabel": "lèvres",
+              "grows": true,
+              "span": 2,
+              "readonly": false,
+              "options": {
+                "lèvres": "lèvres"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "lipofilling joues",
+              "type": "checkbox",
+              "shortLabel": "joues",
+              "grows": true,
+              "span": 1,
+              "readonly": false,
+              "options": {
+                "joues": "joues"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "dermatochalasis",
+              "type": "dropdown-field",
+              "shortLabel": "dermatochalasis",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "options": {
+                "LEGACY|léger|1": "léger",
+                "LEGACY|au sourcil|1": "au sourcil",
+                "LEGACY|dépasse le sourcil|1": "dépasse le sourcil",
+                "LEGACY|gêne à la lecture|1": "gêne à la lecture"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "lipofilling SNG",
+              "type": "checkbox",
+              "shortLabel": "SNG",
+              "grows": true,
+              "span": 13,
+              "readonly": false,
+              "options": {
+                "SNG": "SNG"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "lipofilling sourcil",
+              "type": "checkbox",
+              "shortLabel": "sourcil",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "sourcil": "sourcil"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "fonction muscle releveur gauche",
+              "type": "measure-field",
+              "shortLabel": "fonction muscle releveur gauche",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "ptosis",
+              "type": "dropdown-field",
+              "shortLabel": "ptosis",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "options": {
+                "LEGACY|non|1": "non",
+                "LEGACY|symétrique|1": "symétrique",
+                "LEGACY|asymétrique|1": "asymétrique"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "lipofilling bord mandibulaire",
+              "type": "checkbox",
+              "shortLabel": "bord mandibulaire",
+              "grows": true,
+              "span": 17,
+              "readonly": false,
+              "options": {
+                "bord mandibulaire": "bord mandibulaire"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": " lid lag droit",
+              "type": "checkbox",
+              "shortLabel": " lid lag droit",
+              "grows": true,
+              "span": 10,
+              "readonly": false,
+              "options": {
+                " lid lag droit": " lid lag droit"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "lid lag gauche",
+              "type": "checkbox",
+              "shortLabel": "lid lag gauche",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "lid lag gauche": "lid lag gauche"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": " lipofilling rides d'amertume",
+              "type": "checkbox",
+              "shortLabel": "rides d'amertume",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "rides d'amertume": "rides d'amertume"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "lipofilling divers",
+              "type": "text-field",
+              "shortLabel": "divers",
+              "grows": true,
+              "span": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "côté droit",
+              "type": "checkbox",
+              "shortLabel": "côté droit",
+              "grows": true,
+              "span": 2,
+              "readonly": false,
+              "options": {
+                "côté droit": "côté droit"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "côté gauche",
+              "type": "checkbox",
+              "shortLabel": "côté gauche",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "côté gauche": "côté gauche"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "bilatéral",
+              "type": "checkbox",
+              "shortLabel": "bilatéral",
+              "grows": true,
+              "span": 18,
+              "readonly": false,
+              "options": {
+                "bilatéral": "bilatéral"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "graisse paupière inférieure",
+              "type": "dropdown-field",
+              "shortLabel": "graisse paupière inf.",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "options": {
+                "LEGACY|interne|1": "interne",
+                "LEGACY|moyenne|1": "moyenne",
+                "LEGACY|externe|1": "externe",
+                "LEGACY|diffuse|1": "diffuse",
+                "LEGACY|pas de surcharge|1": "pas de surcharge"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "rides paupière inférieure",
+              "type": "dropdown-field",
+              "shortLabel": "rides paupière inférieure",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "options": {
+                "LEGACY|non|1": "non",
+                "LEGACY|dynamiques|1": "dynamiques",
+                "LEGACY|statiques|1": "statiques"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "lifting jugal",
+              "type": "checkbox",
+              "shortLabel": "lifting jugal",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "lifting jugal": "lifting jugal"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": " lifting jugal par voie sous-cilaire",
+              "type": "checkbox",
+              "shortLabel": " lifting jugal par voie sous-cilaire",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                " lifting jugal par voie sous-cilaire": " lifting jugal par voie sous-cilaire"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "snap test",
+              "type": "dropdown-field",
+              "shortLabel": "snap test",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "options": {
+                "LEGACY|tonicité normale|1": "tonicité normale",
+                "LEGACY|laxité horizontale|1": "laxité horizontale",
+                "LEGACY|laxité verticale|1": "laxité verticale",
+                "LEGACY|laxité combinée|1": "laxité combinée"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "rides patte d'oie",
+              "type": "dropdown-field",
+              "shortLabel": "rides patte d'oie",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "options": {
+                "LEGACY|non|1": "non",
+                "LEGACY|dynamiques |1": "dynamiques ",
+                "LEGACY|statiques|1": "statiques"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "lifting jugal par voie temporale",
+              "type": "checkbox",
+              "shortLabel": "lifting jugal par voie temporale",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "lifting jugal par voie temporale": "lifting jugal par voie temporale"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "sillon palpébro-jugal",
+              "type": "dropdown-field",
+              "shortLabel": "cerne",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "LEGACY|légère|1": "légère",
+                "LEGACY|marquée|1": "marquée",
+                "LEGACY|marquée + pigmentation|1": "marquée + pigmentation"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "litfting cervico-facial",
+              "type": "checkbox",
+              "shortLabel": "litfting cervico-facial",
+              "grows": true,
+              "span": 17,
+              "readonly": false,
+              "options": {
+                "litfting cervico-facial": "litfting cervico-facial"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "lifting selon Baker",
+              "type": "checkbox",
+              "shortLabel": "lifting selon Baker",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "options": {
+                "lifting selon Baker": "lifting selon Baker"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "position du bord libre",
+              "type": "dropdown-field",
+              "shortLabel": "position du bord libre",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "options": {
+                "LEGACY|au limbe|1": "au limbe",
+                "LEGACY|tendance à l'oeil rond|1": "tendance à l'oeil rond"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "macs-lift",
+              "type": "checkbox",
+              "shortLabel": "macs-lift",
+              "grows": true,
+              "span": 17,
+              "readonly": false,
+              "options": {
+                "macs-lift": "macs-lift"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "rides paupière inférieure",
+              "type": "dropdown-field",
+              "shortLabel": "rides paup. inf.",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "options": {
+                "LEGACY|non|1": "non",
+                "LEGACY|dynamiques|1": "dynamiques",
+                "LEGACY|statiques|1": "statiques"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "corsetplastie selon Feldman",
+              "type": "checkbox",
+              "shortLabel": "corsetplastie selon Feldman",
+              "grows": true,
+              "span": 17,
+              "readonly": false,
+              "options": {
+                "corsetplastie selon Feldman": "corsetplastie selon Feldman"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "liposuccion cervicale",
+              "type": "checkbox",
+              "shortLabel": "liposuccion cervicale",
+              "grows": true,
+              "span": 17,
+              "readonly": false,
+              "options": {
+                "liposuccion cervicale": "liposuccion cervicale"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "lipectomie cervicale sous-mentonnière",
+              "type": "checkbox",
+              "shortLabel": "lipectomie cervicale sous-mentonnière",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "options": {
+                "lipectomie cervicale sous-mentonnière": "lipectomie cervicale sous-mentonnière"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "ptose malaire",
+              "type": "dropdown-field",
+              "shortLabel": "ptose malaire",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "options": {
+                "LEGACY|absente|1": "absente",
+                "LEGACY|légère |1": "légère ",
+                "LEGACY|sévère|1": "sévère"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "rides jugales",
+              "type": "dropdown-field",
+              "shortLabel": "rides jugales",
+              "grows": true,
+              "span": 17,
+              "readonly": false,
+              "options": {
+                "LEGACY|absentes|1": "absentes",
+                "LEGACY|légères|1": "légères",
+                "LEGACY|marquées|1": "marquées"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "volume pomette et variance",
+              "type": "dropdown-field",
+              "shortLabel": "variance pomette",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "options": {
+                "LEGACY|positive|1": "positive",
+                "LEGACY|négative|1": "négative",
+                "LEGACY|neutre|1": "neutre"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "rides de sorcière",
+              "type": "dropdown-field",
+              "shortLabel": "sillon d'amertume",
+              "grows": true,
+              "span": 17,
+              "readonly": false,
+              "options": {
+                "LEGACY|léger|1": "léger",
+                "LEGACY|marqué|1": "marqué"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "sillon naso-génien",
+              "type": "dropdown-field",
+              "shortLabel": "sillon naso-génien",
+              "grows": true,
+              "span": 14,
+              "rowSpan": 5,
+              "readonly": false,
+              "options": {
+                "LEGACY|léger|1": "léger",
+                "LEGACY|marqué|1": "marqué"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "traitement complémentaire",
+              "type": "text-field",
+              "shortLabel": "traitement complémentaire",
+              "grows": true,
+              "span": 10,
+              "rowSpan": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 3",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "ovale du visage",
+              "type": "dropdown-field",
+              "shortLabel": "ovale du visage",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "options": {
+                "LEGACY|conservé|1": "conservé",
+                "LEGACY|petites bajoues|1": "petites bajoues",
+                "LEGACY|bajoues marquées|1": "bajoues marquées"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "rides péribuccales",
+              "type": "dropdown-field",
+              "shortLabel": "rides péribuccales",
+              "grows": true,
+              "span": 17,
+              "readonly": false,
+              "options": {
+                "LEGACY|non|1": "non",
+                "LEGACY|dynamiques|1": "dynamiques",
+                "LEGACY|statiques et fines|1": "statiques et fines",
+                "LEGACY|statiques et profondes|1": "statiques et profondes"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "brides cervicales",
+              "type": "dropdown-field",
+              "shortLabel": "brides cervicales",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "LEGACY|non |1": "non ",
+                "LEGACY|dynamiques|1": "dynamiques",
+                "LEGACY|statiques|1": "statiques"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "amincissement des lèvres",
+              "type": "checkbox",
+              "shortLabel": "amincissement des lèvres",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "amincissement des lèvres": "amincissement des lèvres"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "relachement cutané",
+              "type": "checkbox",
+              "shortLabel": "relachement cutané cervical",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "relachement cutané cervical": "relachement cutané cervical"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "rides cervicales",
+              "type": "checkbox",
+              "shortLabel": "rides cervicales",
+              "grows": true,
+              "span": 20,
+              "readonly": false,
+              "options": {
+                "rides cervicales": "rides cervicales"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "conclusion",
+              "type": "text-field",
+              "shortLabel": "conclusion",
+              "grows": true,
+              "span": 24,
+              "rowSpan": 4,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "cou gras",
+              "type": "checkbox",
+              "shortLabel": "cou gras",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "cou gras": "cou gras"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "peau",
+              "type": "dropdown-field",
+              "shortLabel": "qualité cutanée",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "options": {
+                "LEGACY|bonne qualité élastique|1": "bonne qualité élastique",
+                "LEGACY|mauvaise qualité élastique|1": "mauvaise qualité élastique",
+                "LEGACY|dermatose|1": "dermatose",
+                "LEGACY|kératoses actiniques|1": "kératoses actiniques"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "mélanose",
+              "type": "checkbox",
+              "shortLabel": "mélanose",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "mélanose": "mélanose"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "couperose",
+              "type": "checkbox",
+              "shortLabel": "couperose",
+              "grows": true,
+              "span": 11,
+              "readonly": false,
+              "options": {
+                "couperose": "couperose"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Fitzpatrick",
+              "type": "dropdown-field",
+              "shortLabel": "Fitzpatrick",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "options": {
+                "LEGACY|type 1|1": "type 1",
+                "LEGACY|type 2|1": "type 2",
+                "LEGACY|type 3|1": "type 3",
+                "LEGACY|type 4|1": "type 4",
+                "LEGACY|type 5|1": "type 5",
+                "LEGACY|type 6|1": "type 6"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "glogau",
+              "type": "dropdown-field",
+              "shortLabel": "glogau",
+              "grows": true,
+              "span": 17,
+              "readonly": false,
+              "options": {
+                "LEGACY|stade 1|1": "stade 1",
+                "LEGACY|stade 2|1": "stade 2",
+                "LEGACY|stade 3|1": "stade 3",
+                "LEGACY|stade 4|1": "stade 4"
+              },
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 4",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "examen clinique",
+              "type": "text-field",
+              "shortLabel": "examen clinique particulier",
+              "grows": true,
+              "span": 14,
+              "rowSpan": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "note",
+              "type": "text-field",
+              "shortLabel": "note",
+              "grows": true,
+              "span": 10,
+              "rowSpan": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

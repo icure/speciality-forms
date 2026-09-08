@@ -1,0 +1,22 @@
+{
+  "form": "Neurologie AVC/Suivi AVC",
+  "id": "95B84B26-5379-4025-AC11-033A742A9F0B",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Modified Ranking Scale avant AVC",
+          "type": "dropdown-field",
+          "shortLabel": "MRS avant AVC",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

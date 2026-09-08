@@ -1,0 +1,411 @@
+{
+  "form": "Cardiologie/Holter 24h/Holter 7j./R test",
+  "id": "C8AD0A48-AC9D-4F29-B5EB-27542C88BBC5",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Type d'examen",
+              "type": "dropdown-field",
+              "shortLabel": "Type d'examen",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "LEGACY|Holter 24h.|1": "Holter 24h.",
+                "LEGACY|Holter 7j.|1": "Holter 7j.",
+                "LEGACY|R Test (Holter événementiel)|1": "R Test (Holter événementiel)"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Rythme sinusal holter",
+              "type": "dropdown-field",
+              "shortLabel": "Rythme sinusal",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "LEGACY|permanent|1": "permanent",
+                "LEGACY|de fond|1": "de fond"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "FC min",
+              "type": "measure-field",
+              "shortLabel": "FC min",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "FC max",
+              "type": "measure-field",
+              "shortLabel": "FC max",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "FC moy",
+              "type": "measure-field",
+              "shortLabel": "FC moy",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Profil chronotrope",
+              "type": "dropdown-field",
+              "shortLabel": "Profil chronotrope",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "LEGACY|absent|1": "absent",
+                "LEGACY|correct|1": "correct",
+                "LEGACY|excessif|1": "excessif"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Extrasystolie auriculaire",
+              "type": "dropdown-field",
+              "shortLabel": "Extrasystolie auric.",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "LEGACY|peu dense|1": "peu dense",
+                "LEGACY|dense|1": "dense",
+                "LEGACY|significative|1": "significative",
+                "LEGACY|très significative|1": "très significative"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "EA bigéminée",
+              "type": "checkbox",
+              "shortLabel": "bigéminée",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "bigéminée": "bigéminée"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "EA trigéminée",
+              "type": "checkbox",
+              "shortLabel": "trigéminée",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "trigéminée": "trigéminée"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "EA doublet",
+              "type": "checkbox",
+              "shortLabel": "doublet",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "doublet": "doublet"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Tachycardie auriculaire",
+              "type": "dropdown-field",
+              "shortLabel": "Tachycardie",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "options": {
+                "LEGACY|soutenue|1": "soutenue",
+                "LEGACY|non soutenue|1": "non soutenue"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Extrasystolie ventriculaire",
+              "type": "dropdown-field",
+              "shortLabel": "Extrasystolie ventr.",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "LEGACY|peu dense|1": "peu dense",
+                "LEGACY|dense|1": "dense",
+                "LEGACY|significative|1": "significative",
+                "LEGACY|très significative|1": "très significative"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "VA bigéminée",
+              "type": "checkbox",
+              "shortLabel": "bigéminée",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "bigéminée": "bigéminée"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "VA trigéminée",
+              "type": "checkbox",
+              "shortLabel": "trigéminée",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "trigéminée": "trigéminée"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "VA doublet",
+              "type": "checkbox",
+              "shortLabel": "doublet",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "doublet": "doublet"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "VA multifocale",
+              "type": "checkbox",
+              "shortLabel": "multifocale",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "multifocale": "multifocale"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Tachycardie ventriculaire",
+              "type": "dropdown-field",
+              "shortLabel": "Tachycardie",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "LEGACY|soutenue|1": "soutenue",
+                "LEGACY|non soutenue|1": "non soutenue"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Conclusion",
+              "type": "text-field",
+              "shortLabel": "Conclusion",
+              "grows": true,
+              "span": 24,
+              "rowSpan": 7,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Allongement de la conduction auriculo-ventriculaire",
+              "type": "checkbox",
+              "shortLabel": "Allongement de la conduction auriculo-ventriculaire",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Allongement de la conduction auriculo-ventriculaire": "Allongement de la conduction auriculo-ventriculaire"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "BAV du deuxième degré de type Mobitz I",
+              "type": "checkbox",
+              "shortLabel": "BAV du deuxième degré de type Mobitz I",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "BAV du deuxième degré de type Mobitz I": "BAV du deuxième degré de type Mobitz I"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Rythme jonctionnel.",
+              "type": "checkbox",
+              "shortLabel": "Rythme jonctionnel.",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Rythme jonctionnel.": "Rythme jonctionnel."
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Trouble mineur de la conduction intra-ventriculaire",
+              "type": "checkbox",
+              "shortLabel": "Trouble mineur de la conduction intra-ventriculaire",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Trouble mineur de la conduction intra-ventriculaire": "Trouble mineur de la conduction intra-ventriculaire"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "BAV du deuxième degré de type Mobitz II",
+              "type": "checkbox",
+              "shortLabel": "BAV du deuxième degré de type Mobitz II",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "BAV du deuxième degré de type Mobitz II": "BAV du deuxième degré de type Mobitz II"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Dysfonction sinusale",
+              "type": "checkbox",
+              "shortLabel": "Dysfonction sinusale",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Dysfonction sinusale": "Dysfonction sinusale"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Trouble de la conduction intra-ventriculaire.",
+              "type": "checkbox",
+              "shortLabel": "Trouble de la conduction intra-ventriculaire.",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Trouble de la conduction intra-ventriculaire.": "Trouble de la conduction intra-ventriculaire."
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Episodes paroxystiques de BAV complet.",
+              "type": "checkbox",
+              "shortLabel": "Episodes paroxystiques de BAV complet.",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Episodes paroxystiques de BAV complet.": "Episodes paroxystiques de BAV complet."
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Syndrome bradycardie-tachycardie",
+              "type": "checkbox",
+              "shortLabel": "Syndrome brady.-tachycardie",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Syndrome brady.-tachycardie": "Syndrome brady.-tachycardie"
+              },
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

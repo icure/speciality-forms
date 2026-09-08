@@ -1,0 +1,275 @@
+{
+  "form": "Gynécologie 3.0/Echo gynécologique",
+  "id": "671E621B-B2CD-4DCF-8F49-DA161656E55B",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Motif",
+          "type": "text-field",
+          "shortLabel": "Motif",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Voie",
+          "type": "dropdown-field",
+          "shortLabel": "Voie",
+          "grows": true,
+          "span": 7,
+          "readonly": false,
+          "options": {
+            "LEGACY|Vaginale|1": "Vaginale",
+            "LEGACY|endovaginale|1": "endovaginale",
+            "LEGACY|abdominale|1": "abdominale",
+            "LEGACY|abdominale et vaginale|1": "abdominale et vaginale"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Date des dernière règles",
+          "type": "date-picker",
+          "shortLabel": "Date des dernière règles",
+          "grows": true,
+          "span": 17,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Traîtement",
+          "type": "text-field",
+          "shortLabel": "Traîtement en cours",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Utérus",
+          "type": "dropdown-field",
+          "shortLabel": "Utérus",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "LEGACY|antéversé fléchi|1": "antéversé fléchi",
+            "LEGACY|rétroversé|1": "rétroversé",
+            "LEGACY|en position intermédiaire|1": "en position intermédiaire",
+            "LEGACY|Absent|1": "Absent"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Fond isthmique",
+          "type": "measure-field",
+          "shortLabel": "Longueur",
+          "grows": true,
+          "span": 7,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Transverse",
+          "type": "measure-field",
+          "shortLabel": "Largeur",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Antéro-postérieur",
+          "type": "measure-field",
+          "shortLabel": "Hauteur",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Endomètre",
+          "type": "text-field",
+          "shortLabel": "Endomètre",
+          "grows": true,
+          "span": 9,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Contours",
+          "type": "text-field",
+          "shortLabel": "Contours",
+          "grows": true,
+          "span": 15,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Cavité",
+          "type": "text-field",
+          "shortLabel": "Cavité",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Myomètre",
+          "type": "text-field",
+          "shortLabel": "Myomètre",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Ovaire droit",
+          "type": "text-field",
+          "shortLabel": "Ovaire droit",
+          "grows": true,
+          "span": 11,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Ovaire gauche",
+          "type": "text-field",
+          "shortLabel": "Ovaire G",
+          "grows": true,
+          "span": 13,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Douglas",
+          "type": "text-field",
+          "shortLabel": "Douglas",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Remarque",
+          "type": "text-field",
+          "shortLabel": "Remarque",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Qualité examen",
+          "type": "dropdown-field",
+          "shortLabel": "Qualité exam.",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "LEGACY|bonne|1": "bonne",
+            "LEGACY|médiocre|1": "médiocre"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Conclusion",
+          "type": "text-field",
+          "shortLabel": "Conclusion",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Proposition thérapeutique",
+          "type": "text-field",
+          "shortLabel": "Prop. thérap.",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Facturation consultation",
+          "type": "checkbox",
+          "shortLabel": "Facturation",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "options": {
+            "Facturation": "Facturation"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Facturation consultation accréditée",
+          "type": "checkbox",
+          "shortLabel": "Fact. acc.",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "options": {
+            "Fact. acc.": "Fact. acc."
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "95260FF7-1250-414F-9EF5-152EAF0C1153",
+          "type": "action",
+          "shortLabel": "Protocole",
+          "grows": true,
+          "span": 14,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

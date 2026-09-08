@@ -1,0 +1,291 @@
+{
+  "form": "Pédiatrie/Vaccinations enfants",
+  "id": "DFE2F929-C5A6-450D-BE1E-4610119BE47C",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Diphtérie-Tétanos-Coqueluche DTP(a) 3 mois",
+          "type": "checkbox",
+          "shortLabel": "Diphtérie-Tétanos-Coqueluche DTP(a) 3 mois",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "Diphtérie-Tétanos-Coqueluche DTP(a) 3 mois": "Diphtérie-Tétanos-Coqueluche DTP(a) 3 mois"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Polio OPV 3 mois",
+          "type": "checkbox",
+          "shortLabel": "+ Polio OPV 3 mois",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "+ Polio OPV 3 mois": "+ Polio OPV 3 mois"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Haemophilius influenzae type b HIB 3 mois",
+          "type": "checkbox",
+          "shortLabel": "+ Haemophilius influenzae type b HIB 3 mois",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "+ Haemophilius influenzae type b HIB 3 mois": "+ Haemophilius influenzae type b HIB 3 mois"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Hépatite B HB 3mois",
+          "type": "checkbox",
+          "shortLabel": "+ Hépatite B HB 3mois",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "+ Hépatite B HB 3mois": "+ Hépatite B HB 3mois"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Diphtérie-Tétanos-Coqueluche DTP(a) 4 mois",
+          "type": "checkbox",
+          "shortLabel": "Diphtérie-Tétanos-Coqueluche DTP(a) 4 mois",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "Diphtérie-Tétanos-Coqueluche DTP(a) 4 mois": "Diphtérie-Tétanos-Coqueluche DTP(a) 4 mois"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Haemophilius influenzae type b HIB 4 mois",
+          "type": "checkbox",
+          "shortLabel": "+ Haemophilius influenzae type b HIB 4 mois",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "+ Haemophilius influenzae type b HIB 4 mois": "+ Haemophilius influenzae type b HIB 4 mois"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Hépatite B HB 4 mois",
+          "type": "checkbox",
+          "shortLabel": "+ Hépatite B HB 4 mois",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "+ Hépatite B HB 4 mois": "+ Hépatite B HB 4 mois"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Diphtérie-Tétanos-Coqueluche DTP(a) 5 mois",
+          "type": "checkbox",
+          "shortLabel": "Diphtérie-Tétanos-Coqueluche DTP(a) 5 mois",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "Diphtérie-Tétanos-Coqueluche DTP(a) 5 mois": "Diphtérie-Tétanos-Coqueluche DTP(a) 5 mois"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Polio OPV 5 mois",
+          "type": "checkbox",
+          "shortLabel": "+ Polio OPV 5 mois",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "+ Polio OPV 5 mois": "+ Polio OPV 5 mois"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Haemophilius influenzae type b HIB 5 mois",
+          "type": "checkbox",
+          "shortLabel": "+ Haemophilius influenzae type b HIB 5 mois",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "+ Haemophilius influenzae type b HIB 5 mois": "+ Haemophilius influenzae type b HIB 5 mois"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Hépatite B HB 5 mois",
+          "type": "checkbox",
+          "shortLabel": "+ Hépatite B HB 5 mois",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "+ Hépatite B HB 5 mois": "+ Hépatite B HB 5 mois"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Diphtérie-Tétanos-Coqueluche DTP(a) 13-14 mois",
+          "type": "checkbox",
+          "shortLabel": "Diphtérie-Tétanos-Coqueluche DTP(a) 13-14 mois",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "Diphtérie-Tétanos-Coqueluche DTP(a) 13-14 mois": "Diphtérie-Tétanos-Coqueluche DTP(a) 13-14 mois"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Polio OPV 13-14 mois",
+          "type": "checkbox",
+          "shortLabel": "+ Polio OPV 13-14 mois",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "+ Polio OPV 13-14 mois": "+ Polio OPV 13-14 mois"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Haemophilius influenzae type b HIB 13-14 mois",
+          "type": "checkbox",
+          "shortLabel": "+ Haemophilius influenzae type b HIB 13-14 mois",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "+ Haemophilius influenzae type b HIB 13-14 mois": "+ Haemophilius influenzae type b HIB 13-14 mois"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Hépatite B HB 13-14 mois",
+          "type": "checkbox",
+          "shortLabel": "+ Hépatite B HB 13-14 mois",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "+ Hépatite B HB 13-14 mois": "+ Hépatite B HB 13-14 mois"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Rougeole-Rubéole-Oreillons RRO 15 mois",
+          "type": "checkbox",
+          "shortLabel": "Rougeole-Rubéole-Oreillons RRO 15 mois",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "Rougeole-Rubéole-Oreillons RRO 15 mois": "Rougeole-Rubéole-Oreillons RRO 15 mois"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Diphtérie-Tétanos-(Coqueluche acellulaire) DTPa 5-6 ans",
+          "type": "checkbox",
+          "shortLabel": "Diphtérie-Tétanos-(Coqueluche acellulaire) DTPa 5-6 ans",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "Diphtérie-Tétanos-(Coqueluche acellulaire) DTPa 5-6 ans": "Diphtérie-Tétanos-(Coqueluche acellulaire) DTPa 5-6 ans"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Polio OPV 5-6 ans",
+          "type": "checkbox",
+          "shortLabel": "+ Polio OPV 5-6 ans",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "+ Polio OPV 5-6 ans": "+ Polio OPV 5-6 ans"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Rougeole-Rubéole-Oreillons RRO 11-12 ans",
+          "type": "checkbox",
+          "shortLabel": "Rougeole-Rubéole-Oreillons RRO 11-12 ans",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "Rougeole-Rubéole-Oreillons RRO 11-12 ans": "Rougeole-Rubéole-Oreillons RRO 11-12 ans"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Tétanos Diphtérie pro adulto Td 15-16 ans",
+          "type": "checkbox",
+          "shortLabel": "Tétanos Diphtérie pro adulto Td 15-16 ans",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "Tétanos Diphtérie pro adulto Td 15-16 ans": "Tétanos Diphtérie pro adulto Td 15-16 ans"
+          },
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

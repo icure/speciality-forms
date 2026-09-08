@@ -1,0 +1,675 @@
+{
+  "form": "Orthopédie/Consultation",
+  "id": "FFFFFFFF-FFFF-FFFF-FFFF-CONSULTATION",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Plainte",
+              "type": "text-field",
+              "shortLabel": "Plainte",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Poids",
+              "type": "measure-field",
+              "shortLabel": "Poids",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Taille",
+              "type": "measure-field",
+              "shortLabel": "Taille",
+              "grows": true,
+              "span": 11,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "BMI",
+              "type": "number-field",
+              "shortLabel": "BMI",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Examen clinique",
+              "type": "text-field",
+              "shortLabel": "Exam. clin.",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Résultats examens récents",
+              "type": "text-field",
+              "shortLabel": "Bilan compl.",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Diagnostic",
+              "type": "text-field",
+              "shortLabel": "Diagnostic",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Trait. non méd.",
+              "type": "text-field",
+              "shortLabel": "Traitement",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "75F0AF4C-25A9-4341-9251-6BC46E9D34C6",
+              "type": "action",
+              "shortLabel": "Rapport",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "0CB1AE45-8BDB-4524-916A-5F33E291F57F",
+              "type": "action",
+              "shortLabel": "Reçu",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Examen à effectuer par un spécialiste",
+              "type": "text-field",
+              "shortLabel": "Examen compl.",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "subform",
+              "id": "69AD190B-992E-4370-A64C-7F43149077FD",
+              "shortLabel": "Certificats & Prescriptions",
+              "forms": {
+                "Sous-formulaires/Demande d'imagerie": {
+                  "form": "Sous-formulaires/Demande d'imagerie",
+                  "id": "0AAC53CF-793F-45D2-ACA9-E0B79E1A1376",
+                  "sections": [
+                    {
+                      "section": "Main",
+                      "fields": [
+                        {
+                          "clazz": "subform",
+                          "id": "F6986527-5C56-4233-8BC7-38D01659D582",
+                          "shortLabel": "Examens demandés",
+                          "forms": {
+                            "Sous-formulaires/Examens d'imagerie": {
+                              "form": "Sous-formulaires/Examens d'imagerie",
+                              "id": "B4F2B274-10FF-4018-BC48-3ED3CADCED57",
+                              "sections": [
+                                {
+                                  "section": "Main",
+                                  "fields": [
+                                    {
+                                      "clazz": "field",
+                                      "field": "CT Scan",
+                                      "type": "checkbox",
+                                      "shortLabel": "CT Scan",
+                                      "grows": true,
+                                      "span": 2,
+                                      "readonly": false,
+                                      "options": {
+                                        "CT Scan": "CT Scan"
+                                      },
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "RMN",
+                                      "type": "checkbox",
+                                      "shortLabel": "RMN",
+                                      "grows": true,
+                                      "span": 2,
+                                      "readonly": false,
+                                      "options": {
+                                        "RMN": "RMN"
+                                      },
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "RX",
+                                      "type": "checkbox",
+                                      "shortLabel": "RX",
+                                      "grows": true,
+                                      "span": 2,
+                                      "readonly": false,
+                                      "options": {
+                                        "RX": "RX"
+                                      },
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "Echographie",
+                                      "type": "checkbox",
+                                      "shortLabel": "Echographie",
+                                      "grows": true,
+                                      "span": 4,
+                                      "readonly": false,
+                                      "options": {
+                                        "Echographie": "Echographie"
+                                      },
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "Scintigraphie",
+                                      "type": "checkbox",
+                                      "shortLabel": "Scintigraphie",
+                                      "grows": true,
+                                      "span": 3,
+                                      "readonly": false,
+                                      "options": {
+                                        "Scintigraphie": "Scintigraphie"
+                                      },
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "Inconnu",
+                                      "type": "checkbox",
+                                      "shortLabel": "Inconnu",
+                                      "grows": true,
+                                      "span": 3,
+                                      "readonly": false,
+                                      "options": {
+                                        "Inconnu": "Inconnu"
+                                      },
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "Autre examen",
+                                      "type": "text-field",
+                                      "shortLabel": "Autre examen",
+                                      "grows": true,
+                                      "span": 8,
+                                      "readonly": false,
+                                      "multiline": false,
+                                      "translate": true
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          },
+                          "span": 24,
+                          "rowSpan": 1,
+                          "labels": {}
+                        },
+                        {
+                          "clazz": "subform",
+                          "id": "16BD8C81-48D3-4E38-B213-B73E2A30A6F8",
+                          "shortLabel": "Examens proposés précédemment et relatifs à la demande de diagnostic",
+                          "forms": {
+                            "Sous-formulaires/Examens d'imagerie": {
+                              "form": "Sous-formulaires/Examens d'imagerie",
+                              "id": "B4F2B274-10FF-4018-BC48-3ED3CADCED57",
+                              "sections": [
+                                {
+                                  "section": "Main",
+                                  "fields": [
+                                    {
+                                      "clazz": "field",
+                                      "field": "CT Scan",
+                                      "type": "checkbox",
+                                      "shortLabel": "CT Scan",
+                                      "grows": true,
+                                      "span": 2,
+                                      "readonly": false,
+                                      "options": {
+                                        "CT Scan": "CT Scan"
+                                      },
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "RMN",
+                                      "type": "checkbox",
+                                      "shortLabel": "RMN",
+                                      "grows": true,
+                                      "span": 2,
+                                      "readonly": false,
+                                      "options": {
+                                        "RMN": "RMN"
+                                      },
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "RX",
+                                      "type": "checkbox",
+                                      "shortLabel": "RX",
+                                      "grows": true,
+                                      "span": 2,
+                                      "readonly": false,
+                                      "options": {
+                                        "RX": "RX"
+                                      },
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "Echographie",
+                                      "type": "checkbox",
+                                      "shortLabel": "Echographie",
+                                      "grows": true,
+                                      "span": 4,
+                                      "readonly": false,
+                                      "options": {
+                                        "Echographie": "Echographie"
+                                      },
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "Scintigraphie",
+                                      "type": "checkbox",
+                                      "shortLabel": "Scintigraphie",
+                                      "grows": true,
+                                      "span": 3,
+                                      "readonly": false,
+                                      "options": {
+                                        "Scintigraphie": "Scintigraphie"
+                                      },
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "Inconnu",
+                                      "type": "checkbox",
+                                      "shortLabel": "Inconnu",
+                                      "grows": true,
+                                      "span": 3,
+                                      "readonly": false,
+                                      "options": {
+                                        "Inconnu": "Inconnu"
+                                      },
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "Autre examen",
+                                      "type": "text-field",
+                                      "shortLabel": "Autre examen",
+                                      "grows": true,
+                                      "span": 8,
+                                      "readonly": false,
+                                      "multiline": false,
+                                      "translate": true
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          },
+                          "span": 24,
+                          "rowSpan": 1,
+                          "labels": {}
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "CA780B84-77FC-443D-BEB5-61A058CA07E2",
+                          "type": "action",
+                          "shortLabel": "Demande",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "Médecine générale/Certificat d'interruption d'activité": {
+                  "form": "Médecine générale/Certificat d'interruption d'activité",
+                  "id": "FFFFFFFF-FFFF-FFFF-FFFF-INCAPACITY00",
+                  "sections": [
+                    {
+                      "section": "Main",
+                      "fields": [
+                        {
+                          "clazz": "group",
+                          "group": "Section 1",
+                          "fields": [
+                            {
+                              "clazz": "field",
+                              "field": "incapacité de",
+                              "type": "dropdown-field",
+                              "shortLabel": "incapacité de",
+                              "grows": true,
+                              "span": 8,
+                              "readonly": false,
+                              "options": {
+                                "LEGACY|travailler|1": "travailler",
+                                "LEGACY|fréquenter les cours|1": "fréquenter les cours",
+                                "LEGACY|suivre le cours de gymnastique|1": "suivre le cours de gymnastique",
+                                "LEGACY|suivre le cours de natation|1": "suivre le cours de natation",
+                                "LEGACY|faire des efforts violents|1": "faire des efforts violents"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "78CF4B52-1006-4197-A991-63DD42494020",
+                              "type": "action",
+                              "shortLabel": "ITT",
+                              "grows": true,
+                              "span": 6,
+                              "readonly": false,
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "1DDFAB99-87B6-42C9-A914-6572C0CEB4DB",
+                              "type": "action",
+                              "shortLabel": "Reprise",
+                              "grows": true,
+                              "span": 6,
+                              "readonly": false,
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "D1E0EDF4-8851-4BB4-A942-0A83AB4034DB",
+                              "type": "action",
+                              "shortLabel": "Accompagnateur",
+                              "grows": true,
+                              "span": 4,
+                              "readonly": false,
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "du",
+                              "type": "date-picker",
+                              "shortLabel": "du",
+                              "grows": true,
+                              "span": 24,
+                              "readonly": false,
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "au",
+                              "type": "date-picker",
+                              "shortLabel": "au",
+                              "grows": true,
+                              "span": 8,
+                              "readonly": false,
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "inclus/exclus",
+                              "type": "dropdown-field",
+                              "shortLabel": "inclus/exclus",
+                              "grows": true,
+                              "span": 8,
+                              "readonly": false,
+                              "options": {
+                                "LEGACY|inclus|1": "inclus",
+                                "LEGACY|exclus|1": "exclus",
+                                "LEGACY|inbegrepen|1": "inbegrepen",
+                                "LEGACY|niet inbegrepen|1": "niet inbegrepen"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "statut de la personne",
+                              "type": "dropdown-field",
+                              "shortLabel": "statut de la personne",
+                              "grows": true,
+                              "span": 8,
+                              "readonly": false,
+                              "options": {
+                                "LEGACY|son fils|1": "son fils",
+                                "LEGACY|sa fille|1": "sa fille",
+                                "LEGACY|son époux|1": "son époux",
+                                "LEGACY|son épouse|1": "son épouse",
+                                "LEGACY|son père|1": "son père",
+                                "LEGACY|sa mère|1": "sa mère",
+                                "LEGACY|zijn/haar zoon|1": "zijn/haar zoon",
+                                "LEGACY|zijn/haar dochter|1": "zijn/haar dochter",
+                                "LEGACY|zijn/haar man|1": "zijn/haar man",
+                                "LEGACY|zijn/haar vrouw|1": "zijn/haar vrouw",
+                                "LEGACY|zijn/haar vader|1": "zijn/haar vader",
+                                "LEGACY|zijn/haar moeder|1": "zijn/haar moeder"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "pour cause de",
+                              "type": "dropdown-field",
+                              "shortLabel": "pour cause de",
+                              "grows": true,
+                              "span": 8,
+                              "readonly": false,
+                              "options": {
+                                "LEGACY|maladie|1": "maladie",
+                                "LEGACY|accident|1": "accident",
+                                "LEGACY|accident de TRAVAIL|1": "accident de TRAVAIL",
+                                "LEGACY|prolongation|1": "prolongation",
+                                "LEGACY|intervention chirurgicale|1": "intervention chirurgicale"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Accident suvenu le",
+                              "type": "date-picker",
+                              "shortLabel": "Accident suvenu le",
+                              "grows": true,
+                              "span": 16,
+                              "readonly": false,
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "autres",
+                              "type": "text-field",
+                              "shortLabel": "autres",
+                              "grows": true,
+                              "span": 24,
+                              "rowSpan": 2,
+                              "readonly": false,
+                              "multiline": false,
+                              "translate": true
+                            }
+                          ],
+                          "borderless": false,
+                          "hideTitle": true,
+                          "translate": true,
+                          "span": 24
+                        },
+                        {
+                          "clazz": "group",
+                          "group": "Section 2",
+                          "fields": [
+                            {
+                              "clazz": "field",
+                              "field": "Sortie",
+                              "type": "dropdown-field",
+                              "shortLabel": "Sortie",
+                              "grows": true,
+                              "span": 24,
+                              "readonly": false,
+                              "options": {
+                                "LEGACY|autorisée|1": "autorisée",
+                                "LEGACY|interdite|1": "interdite",
+                                "LEGACY|toegestaan|1": "toegestaan",
+                                "LEGACY|verboden|1": "verboden"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Diagnostic",
+                              "type": "text-field",
+                              "shortLabel": "Diagnostic",
+                              "grows": true,
+                              "span": 24,
+                              "readonly": false,
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "reprise d'activité partielle",
+                              "type": "date-picker",
+                              "shortLabel": "reprise d'activité partielle",
+                              "grows": true,
+                              "span": 8,
+                              "readonly": false,
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "pourcentage",
+                              "type": "measure-field",
+                              "shortLabel": "à",
+                              "grows": true,
+                              "span": 16,
+                              "readonly": false,
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "totale",
+                              "type": "date-picker",
+                              "shortLabel": "totale",
+                              "grows": true,
+                              "span": 24,
+                              "readonly": false,
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Date de présentation à la consultation",
+                              "type": "date-picker",
+                              "shortLabel": "S'est présenté le",
+                              "grows": true,
+                              "span": 24,
+                              "readonly": false,
+                              "multiline": false,
+                              "translate": true
+                            }
+                          ],
+                          "borderless": false,
+                          "hideTitle": true,
+                          "translate": true,
+                          "span": 24
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "span": 24,
+              "rowSpan": 1,
+              "labels": {}
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "form": "sous-formulaires CRO abdomen/désinsertion du nombril",
+  "id": "4AC2DD7B-F053-4193-811B-CA1CCA12BE0C",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "suture du nombril à l'endroit initial",
+          "type": "checkbox",
+          "shortLabel": "suture du nombril à l'endroit initial",
+          "grows": true,
+          "span": 13,
+          "readonly": false,
+          "options": {
+            "suture du nombril à l'endroit initial": "suture du nombril à l'endroit initial"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "descente du nombril",
+          "type": "measure-field",
+          "shortLabel": "descente du nombril",
+          "grows": true,
+          "span": 11,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "désinsertion du nombril",
+          "type": "checkbox",
+          "shortLabel": "désinsertion du nombril",
+          "grows": true,
+          "span": 13,
+          "readonly": false,
+          "options": {
+            "désinsertion du nombril": "désinsertion du nombril"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "suture du nombril plus caudalement",
+          "type": "checkbox",
+          "shortLabel": "suture du nombril plus caudalement",
+          "grows": true,
+          "span": 11,
+          "readonly": false,
+          "options": {
+            "suture du nombril plus caudalement": "suture du nombril plus caudalement"
+          },
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

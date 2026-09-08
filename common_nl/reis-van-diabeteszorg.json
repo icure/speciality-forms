@@ -1,0 +1,227 @@
+{
+  "form": "Zorgprotocoles/Reis van diabeteszorg",
+  "id": "230188ee-3361-d5df-aaac-233b8270a460",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Startdatum",
+          "type": "date-picker",
+          "shortLabel": "Datum van aanvang van de reis van de zorg",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Einddatum",
+          "type": "date-picker",
+          "shortLabel": "Einddatum",
+          "grows": true,
+          "span": 14,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Datum contact",
+          "type": "date-picker",
+          "shortLabel": "Datum contact",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Specialistisch consult",
+          "type": "checkbox",
+          "shortLabel": "Specialistisch consult",
+          "grows": true,
+          "span": 13,
+          "readonly": false,
+          "options": {
+            "Specialistisch consult": "Specialistisch consult"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Onderwijs sessie",
+          "type": "checkbox",
+          "shortLabel": "Onderwijs sessie",
+          "grows": true,
+          "span": 13,
+          "readonly": false,
+          "options": {
+            "Onderwijs sessie": "Onderwijs sessie"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Contact podoloog",
+          "type": "checkbox",
+          "shortLabel": "Contact podoloog",
+          "grows": true,
+          "span": 13,
+          "readonly": false,
+          "options": {
+            "Contact podoloog": "Contact podoloog"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Contact Diëtist",
+          "type": "checkbox",
+          "shortLabel": "Contact Diëtist",
+          "grows": true,
+          "span": 13,
+          "readonly": false,
+          "options": {
+            "Contact Diëtist": "Contact Diëtist"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Apparatuur prescrition",
+          "type": "checkbox",
+          "shortLabel": "Apparatuur prescrition",
+          "grows": true,
+          "span": 12,
+          "readonly": false,
+          "options": {
+            "Apparatuur prescrition": "Apparatuur prescrition"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Prescription Glucometer",
+          "type": "checkbox",
+          "shortLabel": "Prescription Glucometer",
+          "grows": true,
+          "span": 12,
+          "readonly": false,
+          "options": {
+            "Prescription Glucometer": "Prescription Glucometer"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Tabak",
+          "type": "measure-field",
+          "shortLabel": "Tabak",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "gemotiveerd om te stoppen?",
+          "type": "text-field",
+          "shortLabel": "gemotiveerd om te stoppen?",
+          "grows": true,
+          "span": 16,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Bent u voldoende te bewegen?",
+          "type": "text-field",
+          "shortLabel": "Het uitoefenen",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Alcoholgebruik",
+          "type": "text-field",
+          "shortLabel": "Verbruik. alcohol",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Systolische bloeddruk",
+          "type": "measure-field",
+          "shortLabel": "TA",
+          "grows": true,
+          "span": 9,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Diastolische bloeddruk",
+          "type": "measure-field",
+          "shortLabel": "/",
+          "grows": true,
+          "span": 7,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Gewicht",
+          "type": "measure-field",
+          "shortLabel": "Gewicht",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Maat",
+          "type": "measure-field",
+          "shortLabel": "Maat",
+          "grows": true,
+          "span": 11,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "BMI",
+          "type": "number-field",
+          "shortLabel": "BMI",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

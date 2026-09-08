@@ -1,0 +1,223 @@
+{
+  "form": "Neurologie AVC/CT scans AVC",
+  "id": "205B66F6-EF12-4D02-A130-1ED47AB1F82E",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Heure Ct scan cérébrale:",
+              "type": "date-picker",
+              "shortLabel": "",
+              "grows": true,
+              "span": 7,
+              "rowSpan": 6,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Normales",
+              "type": "checkbox",
+              "shortLabel": "Normales",
+              "grows": true,
+              "span": 17,
+              "rowSpan": 6,
+              "readonly": false,
+              "options": {
+                "Normales": "Normales"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Atrophie cortico-souscorticale",
+              "type": "checkbox",
+              "shortLabel": "Atrophie cortico-souscorticale",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "Atrophie cortico-souscorticale": "Atrophie cortico-souscorticale"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Leucoencéphalopathie Periventriculaire",
+              "type": "checkbox",
+              "shortLabel": "Leucoencéphalopathie Periventriculaire",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "Leucoencéphalopathie Periventriculaire": "Leucoencéphalopathie Periventriculaire"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Leucoencéphalopathie Profonde",
+              "type": "checkbox",
+              "shortLabel": "Leucoencéphalopathie Profonde",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "Leucoencéphalopathie Profonde": "Leucoencéphalopathie Profonde"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Hydrocéphalie",
+              "type": "checkbox",
+              "shortLabel": "Hydrocéphalie",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "Hydrocéphalie": "Hydrocéphalie"
+              },
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Anciennes lésions ischémiques multiples",
+              "type": "dropdown-field",
+              "shortLabel": "Anciennes lésions ischémiques multiples",
+              "grows": true,
+              "span": 13,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Ancienne lésion ischémique unique",
+              "type": "dropdown-field",
+              "shortLabel": "ischémique unique",
+              "grows": true,
+              "span": 11,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Ancienne lésion ischémique partage des eaux",
+              "type": "dropdown-field",
+              "shortLabel": "partage des eaux",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 3",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Hémorragie intraparenchymateuse",
+              "type": "dropdown-field",
+              "shortLabel": "Hémorragie intraparenchymateuse",
+              "grows": true,
+              "span": 13,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Transformation hémorragique dʼun AIC",
+              "type": "dropdown-field",
+              "shortLabel": "Transf. hémor. dʼun AIC",
+              "grows": true,
+              "span": 11,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Hémorragie intraventriculaire",
+              "type": "dropdown-field",
+              "shortLabel": "Hémorragie intraventriculaire",
+              "grows": true,
+              "span": 13,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Hémorragie sous-durale",
+              "type": "dropdown-field",
+              "shortLabel": "Hémorragie sous-durale",
+              "grows": true,
+              "span": 11,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Hémorragie sous-arachnoidienne",
+              "type": "dropdown-field",
+              "shortLabel": "Hémorragie sous-arachnoidienne",
+              "grows": true,
+              "span": 13,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Classification Fisher",
+              "type": "dropdown-field",
+              "shortLabel": "Fisher",
+              "grows": true,
+              "span": 11,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

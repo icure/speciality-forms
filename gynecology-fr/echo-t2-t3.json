@@ -1,0 +1,1684 @@
+{
+  "form": "Gynécologie 3.0/Echo T2-T3",
+  "id": "F114DA7C-79C1-4809-9914-20E279ADE111",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Date des dernières règles",
+              "type": "date-picker",
+              "shortLabel": "DDR",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Terme calculé",
+              "type": "date-picker",
+              "shortLabel": "Term. DR",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Terme corrigé",
+              "type": "date-picker",
+              "shortLabel": "Term. US",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "terme définitif",
+              "type": "date-picker",
+              "shortLabel": "T.fin.",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Date ovulation",
+              "type": "date-picker",
+              "shortLabel": "Pick up",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Terme selon ovulation",
+              "type": "date-picker",
+              "shortLabel": "Terme Fiv",
+              "grows": true,
+              "span": 10,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "AG en semaines",
+              "type": "text-field",
+              "shortLabel": "AG",
+              "grows": true,
+              "span": 11,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Indication de l'examen",
+              "type": "dropdown-field",
+              "shortLabel": "Indication de l'examen",
+              "grows": true,
+              "span": 11,
+              "readonly": false,
+              "options": {
+                "LEGACY|Contrôle morphologique du deuxième trimestre|1": "Contrôle morphologique du deuxième trimestre",
+                "LEGACY|Contrôle de croissance du 3è trimestre|1": "Contrôle de croissance du 3è trimestre",
+                "LEGACY|Examen intermédiaire|1": "Examen intermédiaire"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Complément d'indication",
+              "type": "text-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 13,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Type de grossesse",
+              "type": "dropdown-field",
+              "shortLabel": "Type de grossesse",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "LEGACY|Grossesse unique|1": "Grossesse unique",
+                "LEGACY|Grossesse gémellaire bichoriale|1": "Grossesse gémellaire bichoriale",
+                "LEGACY|Grossesse gémellaire monochoriale biamniotique|1": "Grossesse gémellaire monochoriale biamniotique",
+                "LEGACY|Grossesse gémellaire monochoriale monoamniotique|1": "Grossesse gémellaire monochoriale monoamniotique"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "subform",
+              "id": "41AA68F6-CFBF-469C-83CD-D5649121A3F3",
+              "shortLabel": "BB T2-T3",
+              "forms": {
+                "Gynécologie 3.0/BB T2-T3": {
+                  "form": "Gynécologie 3.0/BB T2-T3",
+                  "id": "A2605AE9-5AC1-4D1D-B020-F3B27A2E13A8",
+                  "sections": [
+                    {
+                      "section": "Main",
+                      "fields": [
+                        {
+                          "clazz": "group",
+                          "group": "Section 1",
+                          "fields": [
+                            {
+                              "clazz": "field",
+                              "field": "BB numéro",
+                              "type": "text-field",
+                              "shortLabel": "BB numéro",
+                              "grows": true,
+                              "span": 3,
+                              "readonly": false,
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "jours",
+                              "type": "number-field",
+                              "shortLabel": "jours",
+                              "grows": true,
+                              "span": 21,
+                              "readonly": false,
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Sexe bébé",
+                              "type": "dropdown-field",
+                              "shortLabel": "Sexe bébé",
+                              "grows": true,
+                              "span": 5,
+                              "readonly": false,
+                              "options": {
+                                "LEGACY|conn. non souhaitée|1": "conn. non souhaitée",
+                                "LEGACY|Vu non communiqué|1": "Vu non communiqué",
+                                "LEGACY|masculin|1": "masculin",
+                                "LEGACY|féminin|1": "féminin"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Présentation",
+                              "type": "dropdown-field",
+                              "shortLabel": "Présentation",
+                              "grows": true,
+                              "span": 19,
+                              "readonly": false,
+                              "options": {
+                                "LEGACY|sommet|1": "sommet",
+                                "LEGACY|siège complet|1": "siège complet",
+                                "LEGACY|siège décomplété mode des fesses|1": "siège décomplété mode des fesses",
+                                "LEGACY|siège décomplété mode d'un pied|1": "siège décomplété mode d'un pied",
+                                "LEGACY|siège décomplété mode des pieds|1": "siège décomplété mode des pieds",
+                                "LEGACY|transverse tête à gauche|1": "transverse tête à gauche",
+                                "LEGACY|transverse tête à droite|1": "transverse tête à droite"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Diamètre bipariétal",
+                              "type": "measure-field",
+                              "shortLabel": "BIP",
+                              "grows": true,
+                              "span": 4,
+                              "readonly": false,
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Percentile Diamètre bipariétal",
+                              "type": "number-field",
+                              "shortLabel": "%",
+                              "grows": true,
+                              "span": 2,
+                              "readonly": false,
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Périmètre crânien",
+                              "type": "measure-field",
+                              "shortLabel": "PC",
+                              "grows": true,
+                              "span": 7,
+                              "readonly": false,
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Percentile Périmètre crânien",
+                              "type": "number-field",
+                              "shortLabel": "%",
+                              "grows": true,
+                              "span": 2,
+                              "readonly": false,
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "VLat",
+                              "type": "measure-field",
+                              "shortLabel": "VLat",
+                              "grows": true,
+                              "span": 9,
+                              "readonly": false,
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "DC",
+                              "type": "measure-field",
+                              "shortLabel": "DC",
+                              "grows": true,
+                              "span": 6,
+                              "readonly": false,
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "DIO",
+                              "type": "measure-field",
+                              "shortLabel": "DIO",
+                              "grows": true,
+                              "span": 9,
+                              "readonly": false,
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "OPN",
+                              "type": "measure-field",
+                              "shortLabel": "OPN",
+                              "grows": true,
+                              "span": 9,
+                              "readonly": false,
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Circonférence abdominale",
+                              "type": "measure-field",
+                              "shortLabel": "CA",
+                              "grows": true,
+                              "span": 4,
+                              "readonly": false,
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Percentile Circonférence abdominale",
+                              "type": "number-field",
+                              "shortLabel": "%",
+                              "grows": true,
+                              "span": 2,
+                              "readonly": false,
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Longueur fémorale",
+                              "type": "measure-field",
+                              "shortLabel": "LF",
+                              "grows": true,
+                              "span": 7,
+                              "readonly": false,
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Percentile Longueur fémorale",
+                              "type": "number-field",
+                              "shortLabel": "%",
+                              "grows": true,
+                              "span": 2,
+                              "readonly": false,
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Pied",
+                              "type": "measure-field",
+                              "shortLabel": "Pied",
+                              "grows": true,
+                              "span": 9,
+                              "readonly": false,
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Diamètre occipito-frontal",
+                              "type": "measure-field",
+                              "shortLabel": "DOF",
+                              "grows": true,
+                              "span": 4,
+                              "readonly": false,
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Percentile Diamètre occipito-frontal",
+                              "type": "number-field",
+                              "shortLabel": "%",
+                              "grows": true,
+                              "span": 2,
+                              "readonly": false,
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Diamètre abdominal antéro-postérieur",
+                              "type": "measure-field",
+                              "shortLabel": "DAP",
+                              "grows": true,
+                              "span": 6,
+                              "readonly": false,
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Percentile Diamètre abdominal antéro-postérieur",
+                              "type": "number-field",
+                              "shortLabel": "%",
+                              "grows": true,
+                              "span": 3,
+                              "readonly": false,
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Diamètre abdominal transverse",
+                              "type": "measure-field",
+                              "shortLabel": "DAT",
+                              "grows": true,
+                              "span": 8,
+                              "readonly": false,
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Percentile Diamètre abdominal transverse",
+                              "type": "number-field",
+                              "shortLabel": "%",
+                              "grows": true,
+                              "span": 1,
+                              "readonly": false,
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Humérus",
+                              "type": "measure-field",
+                              "shortLabel": "Humérus",
+                              "grows": true,
+                              "span": 6,
+                              "readonly": false,
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Tibia",
+                              "type": "measure-field",
+                              "shortLabel": "Tibia",
+                              "grows": true,
+                              "span": 5,
+                              "readonly": false,
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Perroné",
+                              "type": "measure-field",
+                              "shortLabel": "Perroné",
+                              "grows": true,
+                              "span": 7,
+                              "readonly": false,
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Radius",
+                              "type": "measure-field",
+                              "shortLabel": "Radius",
+                              "grows": true,
+                              "span": 6,
+                              "readonly": false,
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Poids estimé",
+                              "type": "measure-field",
+                              "shortLabel": "Poids est.",
+                              "grows": true,
+                              "span": 4,
+                              "readonly": false,
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Percentile poids",
+                              "type": "number-field",
+                              "shortLabel": "%",
+                              "grows": true,
+                              "span": 6,
+                              "readonly": false,
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "DIO/BIP",
+                              "type": "number-field",
+                              "shortLabel": "DIO/BIP",
+                              "grows": true,
+                              "span": 14,
+                              "readonly": false,
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Poids moyen",
+                              "type": "measure-field",
+                              "shortLabel": "Poids moyen",
+                              "grows": true,
+                              "span": 4,
+                              "readonly": false,
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Taille estimée à la naissance",
+                              "type": "measure-field",
+                              "shortLabel": "Tai. bb à la nais.",
+                              "grows": true,
+                              "span": 13,
+                              "readonly": false,
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Poids naissance",
+                              "type": "measure-field",
+                              "shortLabel": "Poids nais.",
+                              "grows": true,
+                              "span": 7,
+                              "readonly": false,
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Conclusion Biométrie",
+                              "type": "dropdown-field",
+                              "shortLabel": "Conclusion Biométrie",
+                              "grows": true,
+                              "span": 24,
+                              "readonly": false,
+                              "options": {
+                                "LEGACY|Croissance en rapport avec l'age gestationnel|1": "Croissance en rapport avec l'age gestationnel",
+                                "LEGACY|Retard de croissance|1": "Retard de croissance",
+                                "LEGACY|Macrosomie|1": "Macrosomie",
+                                "LEGACY|Croissance limite inférieure (p3-10)|1": "Croissance limite inférieure (p3-10)",
+                                "LEGACY|Croissance limite supérieure (p90-97)|1": "Croissance limite supérieure (p90-97)"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Contour",
+                              "type": "checkbox",
+                              "shortLabel": "Contour",
+                              "grows": true,
+                              "span": 3,
+                              "readonly": false,
+                              "options": {
+                                "Contour": "Contour"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Cavum",
+                              "type": "checkbox",
+                              "shortLabel": "Cavum",
+                              "grows": true,
+                              "span": 3,
+                              "readonly": false,
+                              "options": {
+                                "Cavum": "Cavum"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Thalamus",
+                              "type": "checkbox",
+                              "shortLabel": "Thalami",
+                              "grows": true,
+                              "span": 3,
+                              "readonly": false,
+                              "options": {
+                                "Thalami": "Thalami"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Ventricule latéraux",
+                              "type": "checkbox",
+                              "shortLabel": "VL",
+                              "grows": true,
+                              "span": 2,
+                              "readonly": false,
+                              "options": {
+                                "VL": "VL"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Corps caleux",
+                              "type": "checkbox",
+                              "shortLabel": "CC",
+                              "grows": true,
+                              "span": 4,
+                              "readonly": false,
+                              "options": {
+                                "CC": "CC"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Cervelet",
+                              "type": "checkbox",
+                              "shortLabel": "Cervelet",
+                              "grows": true,
+                              "span": 3,
+                              "readonly": false,
+                              "options": {
+                                "Cervelet": "Cervelet"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Fosse postérieure",
+                              "type": "checkbox",
+                              "shortLabel": "Fosse post.",
+                              "grows": true,
+                              "span": 3,
+                              "readonly": false,
+                              "options": {
+                                "Fosse post.": "Fosse post."
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Vallée sylvienne",
+                              "type": "checkbox",
+                              "shortLabel": "Vallée sylvienne",
+                              "grows": true,
+                              "span": 3,
+                              "readonly": false,
+                              "options": {
+                                "Vallée sylvienne": "Vallée sylvienne"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Orbites",
+                              "type": "checkbox",
+                              "shortLabel": "Orbites",
+                              "grows": true,
+                              "span": 3,
+                              "readonly": false,
+                              "options": {
+                                "Orbites": "Orbites"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Bouche",
+                              "type": "checkbox",
+                              "shortLabel": "Bouche",
+                              "grows": true,
+                              "span": 3,
+                              "readonly": false,
+                              "options": {
+                                "Bouche": "Bouche"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Menton",
+                              "type": "checkbox",
+                              "shortLabel": "Menton",
+                              "grows": true,
+                              "span": 3,
+                              "readonly": false,
+                              "options": {
+                                "Menton": "Menton"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Narines",
+                              "type": "checkbox",
+                              "shortLabel": "Narines",
+                              "grows": true,
+                              "span": 9,
+                              "readonly": false,
+                              "options": {
+                                "Narines": "Narines"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Profil",
+                              "type": "checkbox",
+                              "shortLabel": "Profil",
+                              "grows": true,
+                              "span": 3,
+                              "readonly": false,
+                              "options": {
+                                "Profil": "Profil"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Cou",
+                              "type": "checkbox",
+                              "shortLabel": "Cou",
+                              "grows": true,
+                              "span": 3,
+                              "readonly": false,
+                              "options": {
+                                "Cou": "Cou"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Poumon",
+                              "type": "checkbox",
+                              "shortLabel": "Poumons",
+                              "grows": true,
+                              "span": 4,
+                              "readonly": false,
+                              "options": {
+                                "Poumons": "Poumons"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Diaphragme",
+                              "type": "checkbox",
+                              "shortLabel": "Diaphragme",
+                              "grows": true,
+                              "span": 20,
+                              "readonly": false,
+                              "options": {
+                                "Diaphragme": "Diaphragme"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Position du cœur",
+                              "type": "dropdown-field",
+                              "shortLabel": "pos.",
+                              "grows": true,
+                              "span": 3,
+                              "readonly": false,
+                              "options": {
+                                "LEGACY|gauche|1": "gauche",
+                                "LEGACY|droit|1": "droit",
+                                "LEGACY|dévié|1": "dévié"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "4 cavités",
+                              "type": "checkbox",
+                              "shortLabel": "4 cavités",
+                              "grows": true,
+                              "span": 3,
+                              "readonly": false,
+                              "options": {
+                                "4 cavités": "4 cavités"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Septum",
+                              "type": "checkbox",
+                              "shortLabel": "Septum",
+                              "grows": true,
+                              "span": 3,
+                              "readonly": false,
+                              "options": {
+                                "Septum": "Septum"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Croisement",
+                              "type": "checkbox",
+                              "shortLabel": "Crois.",
+                              "grows": true,
+                              "span": 4,
+                              "readonly": false,
+                              "options": {
+                                "Crois.": "Crois."
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Crosse aortique",
+                              "type": "checkbox",
+                              "shortLabel": "Crosse AO",
+                              "grows": true,
+                              "span": 3,
+                              "readonly": false,
+                              "options": {
+                                "Crosse AO": "Crosse AO"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Crosse du canal artériel",
+                              "type": "checkbox",
+                              "shortLabel": "Crosse CA",
+                              "grows": true,
+                              "span": 3,
+                              "readonly": false,
+                              "options": {
+                                "Crosse CA": "Crosse CA"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "tronc pulmonaire et division",
+                              "type": "checkbox",
+                              "shortLabel": "tronc pulmonaire et division",
+                              "grows": true,
+                              "span": 5,
+                              "readonly": false,
+                              "options": {
+                                "tronc pulmonaire et division": "tronc pulmonaire et division"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Veine cave",
+                              "type": "checkbox",
+                              "shortLabel": "Veine cave sup",
+                              "grows": true,
+                              "span": 6,
+                              "readonly": false,
+                              "options": {
+                                "Veine cave sup": "Veine cave sup"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "veine cave inférieure",
+                              "type": "checkbox",
+                              "shortLabel": "veine cave inf",
+                              "grows": true,
+                              "span": 6,
+                              "readonly": false,
+                              "options": {
+                                "veine cave inf": "veine cave inf"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Veine pulmonaire",
+                              "type": "checkbox",
+                              "shortLabel": "Veines pulm.",
+                              "grows": true,
+                              "span": 12,
+                              "readonly": false,
+                              "options": {
+                                "Veines pulm.": "Veines pulm."
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Sagittale",
+                              "type": "checkbox",
+                              "shortLabel": "Sagittale",
+                              "grows": true,
+                              "span": 3,
+                              "readonly": false,
+                              "options": {
+                                "Sagittale": "Sagittale"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Frontale",
+                              "type": "checkbox",
+                              "shortLabel": "Frontale",
+                              "grows": true,
+                              "span": 3,
+                              "readonly": false,
+                              "options": {
+                                "Frontale": "Frontale"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Transversale",
+                              "type": "checkbox",
+                              "shortLabel": "Transvers.",
+                              "grows": true,
+                              "span": 6,
+                              "readonly": false,
+                              "options": {
+                                "Transvers.": "Transvers."
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Epaisseur des tissus mous de la nuque",
+                              "type": "checkbox",
+                              "shortLabel": "Tiss. mous nuque",
+                              "grows": true,
+                              "span": 9,
+                              "readonly": false,
+                              "options": {
+                                "Tiss. mous nuque": "Tiss. mous nuque"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "peau du Dos",
+                              "type": "checkbox",
+                              "shortLabel": "peau du Dos",
+                              "grows": true,
+                              "span": 3,
+                              "readonly": false,
+                              "options": {
+                                "peau du Dos": "peau du Dos"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Paroi abdomen",
+                              "type": "checkbox",
+                              "shortLabel": "Paroi abdo.",
+                              "grows": true,
+                              "span": 3,
+                              "readonly": false,
+                              "options": {
+                                "Paroi abdo.": "Paroi abdo."
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Foie",
+                              "type": "checkbox",
+                              "shortLabel": "Foie",
+                              "grows": true,
+                              "span": 3,
+                              "readonly": false,
+                              "options": {
+                                "Foie": "Foie"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Vésicule",
+                              "type": "checkbox",
+                              "shortLabel": "Vésicule",
+                              "grows": true,
+                              "span": 3,
+                              "readonly": false,
+                              "options": {
+                                "Vésicule": "Vésicule"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Rein droit",
+                              "type": "checkbox",
+                              "shortLabel": "Rein d.",
+                              "grows": true,
+                              "span": 2,
+                              "readonly": false,
+                              "options": {
+                                "Rein d.": "Rein d."
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Rein gauche",
+                              "type": "checkbox",
+                              "shortLabel": "Rein g.",
+                              "grows": true,
+                              "span": 4,
+                              "readonly": false,
+                              "options": {
+                                "Rein g.": "Rein g."
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Estomac",
+                              "type": "checkbox",
+                              "shortLabel": "Estomac",
+                              "grows": true,
+                              "span": 3,
+                              "readonly": false,
+                              "options": {
+                                "Estomac": "Estomac"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Intestin",
+                              "type": "checkbox",
+                              "shortLabel": "Intestin",
+                              "grows": true,
+                              "span": 3,
+                              "readonly": false,
+                              "options": {
+                                "Intestin": "Intestin"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Vessie",
+                              "type": "checkbox",
+                              "shortLabel": "Vessie",
+                              "grows": true,
+                              "span": 3,
+                              "readonly": false,
+                              "options": {
+                                "Vessie": "Vessie"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "membre sup D",
+                              "type": "checkbox",
+                              "shortLabel": "supérieur D",
+                              "grows": true,
+                              "span": 6,
+                              "readonly": false,
+                              "options": {
+                                "supérieur D": "supérieur D"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "membre sup G",
+                              "type": "checkbox",
+                              "shortLabel": "supérieur G",
+                              "grows": true,
+                              "span": 6,
+                              "readonly": false,
+                              "options": {
+                                "supérieur G": "supérieur G"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "main D",
+                              "type": "checkbox",
+                              "shortLabel": "main D",
+                              "grows": true,
+                              "span": 6,
+                              "readonly": false,
+                              "options": {
+                                "main D": "main D"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "main G",
+                              "type": "checkbox",
+                              "shortLabel": "main G",
+                              "grows": true,
+                              "span": 6,
+                              "readonly": false,
+                              "options": {
+                                "main G": "main G"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "membre inférieur D",
+                              "type": "checkbox",
+                              "shortLabel": "inférieur D",
+                              "grows": true,
+                              "span": 6,
+                              "readonly": false,
+                              "options": {
+                                "inférieur D": "inférieur D"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "memebre inférieur G",
+                              "type": "checkbox",
+                              "shortLabel": "inférieur G",
+                              "grows": true,
+                              "span": 6,
+                              "readonly": false,
+                              "options": {
+                                "inférieur G": "inférieur G"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "pied D",
+                              "type": "checkbox",
+                              "shortLabel": "pied D",
+                              "grows": true,
+                              "span": 6,
+                              "readonly": false,
+                              "options": {
+                                "pied D": "pied D"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Pied G",
+                              "type": "checkbox",
+                              "shortLabel": "Pied G",
+                              "grows": true,
+                              "span": 6,
+                              "readonly": false,
+                              "options": {
+                                "Pied G": "Pied G"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Morphologie",
+                              "type": "text-field",
+                              "shortLabel": "Morphologie ",
+                              "grows": true,
+                              "span": 24,
+                              "rowSpan": 2,
+                              "readonly": false,
+                              "multiline": false,
+                              "translate": true
+                            }
+                          ],
+                          "borderless": false,
+                          "hideTitle": true,
+                          "translate": true,
+                          "span": 24
+                        },
+                        {
+                          "clazz": "group",
+                          "group": "Section 2",
+                          "fields": [
+                            {
+                              "clazz": "field",
+                              "field": "Conclusion Morphologie",
+                              "type": "dropdown-field",
+                              "shortLabel": "Conclusion Morphologie",
+                              "grows": true,
+                              "span": 24,
+                              "readonly": false,
+                              "options": {
+                                "LEGACY|Etude morphologique normale en rapport avec l'age gestationnel|1": "Etude morphologique normale en rapport avec l'age gestationnel",
+                                "LEGACY|Anomalie discrète à recontrôler|1": "Anomalie discrète à recontrôler",
+                                "LEGACY|Anomalie majeure imposant mise au point complémentaire|1": "Anomalie majeure imposant mise au point complémentaire"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Position placenta",
+                              "type": "dropdown-field",
+                              "shortLabel": "Position placenta",
+                              "grows": true,
+                              "span": 8,
+                              "readonly": false,
+                              "options": {
+                                "LEGACY|antérieur|1": "antérieur",
+                                "LEGACY|postérieur|1": "postérieur",
+                                "LEGACY|fundique|1": "fundique",
+                                "LEGACY|previa|1": "previa"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Liq amniotique",
+                              "type": "dropdown-field",
+                              "shortLabel": "Liq amniotique",
+                              "grows": true,
+                              "span": 9,
+                              "readonly": false,
+                              "options": {
+                                "LEGACY|Normal|1": "Normal",
+                                "LEGACY|Hydramnios modéré|1": "Hydramnios modéré",
+                                "LEGACY|Hydramnios sévère|1": "Hydramnios sévère",
+                                "LEGACY|Oligoamnios modéré|1": "Oligoamnios modéré",
+                                "LEGACY|Oligoamnios sévère|1": "Oligoamnios sévère"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "AFI",
+                              "type": "measure-field",
+                              "shortLabel": "AFI",
+                              "grows": true,
+                              "span": 6,
+                              "readonly": false,
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Percentile AFI",
+                              "type": "number-field",
+                              "shortLabel": "%",
+                              "grows": true,
+                              "span": 1,
+                              "readonly": false,
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Grade placenta",
+                              "type": "dropdown-field",
+                              "shortLabel": "Grade placenta",
+                              "grows": true,
+                              "span": 24,
+                              "readonly": false,
+                              "options": {
+                                "LEGACY|I|1": "I",
+                                "LEGACY|II|1": "II",
+                                "LEGACY|III|1": "III",
+                                "LEGACY|lacunaire|1": "lacunaire",
+                                "LEGACY|calcifié|1": "calcifié"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Cordon",
+                              "type": "dropdown-field",
+                              "shortLabel": "Cordon",
+                              "grows": true,
+                              "span": 24,
+                              "readonly": false,
+                              "options": {
+                                "LEGACY|2 artères 1 veine|1": "2 artères 1 veine",
+                                "LEGACY|1 artère 1 veine|1": "1 artère 1 veine"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            }
+                          ],
+                          "borderless": false,
+                          "hideTitle": true,
+                          "translate": true,
+                          "span": 24
+                        },
+                        {
+                          "clazz": "group",
+                          "group": "Section 3",
+                          "fields": [
+                            {
+                              "clazz": "field",
+                              "field": "Indice de pulsabilité ombilical",
+                              "type": "measure-field",
+                              "shortLabel": "PI omb",
+                              "grows": true,
+                              "span": 5,
+                              "readonly": false,
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Percentile PI omb",
+                              "type": "number-field",
+                              "shortLabel": "%",
+                              "grows": true,
+                              "span": 7,
+                              "readonly": false,
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Indice résistance artère cérébrale moyenne",
+                              "type": "measure-field",
+                              "shortLabel": "RI a CM",
+                              "grows": true,
+                              "span": 12,
+                              "readonly": false,
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Indice de résistance ombilical",
+                              "type": "measure-field",
+                              "shortLabel": "RI omb",
+                              "grows": true,
+                              "span": 5,
+                              "readonly": false,
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Percentile RI omb",
+                              "type": "number-field",
+                              "shortLabel": "%",
+                              "grows": true,
+                              "span": 7,
+                              "readonly": false,
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Rapport cérébra-placentaire",
+                              "type": "number-field",
+                              "shortLabel": "Rapport cérébro-placentaire",
+                              "grows": true,
+                              "span": 12,
+                              "readonly": false,
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Rhytme cardiaque foetal",
+                              "type": "measure-field",
+                              "shortLabel": "RCF",
+                              "grows": true,
+                              "span": 6,
+                              "readonly": false,
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Doppler ductus veineux",
+                              "type": "dropdown-field",
+                              "shortLabel": "Doppler ductus veineux",
+                              "grows": true,
+                              "span": 18,
+                              "readonly": false,
+                              "options": {
+                                "LEGACY|normal|1": "normal",
+                                "LEGACY|inversion onde A|1": "inversion onde A"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Doppler autre",
+                              "type": "text-field",
+                              "shortLabel": "Doppler autre",
+                              "grows": true,
+                              "span": 24,
+                              "readonly": false,
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Conclusion Doppler",
+                              "type": "dropdown-field",
+                              "shortLabel": "Conclusion Doppler",
+                              "grows": true,
+                              "span": 11,
+                              "readonly": false,
+                              "options": {
+                                "LEGACY|normale|1": "normale",
+                                "LEGACY|Signes de souffrance foetale chronique|1": "Signes de souffrance foetale chronique",
+                                "LEGACY|Anomalies discrètes à recontrôler|1": "Anomalies discrètes à recontrôler"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Conclusion doppler comment",
+                              "type": "text-field",
+                              "shortLabel": "",
+                              "grows": true,
+                              "span": 13,
+                              "readonly": false,
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Morphologie",
+                              "type": "text-field",
+                              "shortLabel": "Remarques",
+                              "grows": true,
+                              "span": 24,
+                              "rowSpan": 2,
+                              "readonly": false,
+                              "multiline": false,
+                              "translate": true
+                            }
+                          ],
+                          "borderless": false,
+                          "hideTitle": true,
+                          "translate": true,
+                          "span": 24
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "span": 24,
+              "rowSpan": 31,
+              "labels": {}
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "RI artère utérine G",
+              "type": "measure-field",
+              "shortLabel": "RI artère utérine G",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "notch art ut G",
+              "type": "checkbox",
+              "shortLabel": "notch G",
+              "grows": true,
+              "span": 16,
+              "readonly": false,
+              "options": {
+                "notch G": "notch G"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "RI artère utérine D",
+              "type": "measure-field",
+              "shortLabel": "RI artère utérine D",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "notch art ut D",
+              "type": "checkbox",
+              "shortLabel": "notch D",
+              "grows": true,
+              "span": 16,
+              "readonly": false,
+              "options": {
+                "notch D": "notch D"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Longueur du col US",
+              "type": "measure-field",
+              "shortLabel": "Col",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Funel",
+              "type": "checkbox",
+              "shortLabel": "Funnel",
+              "grows": true,
+              "span": 17,
+              "readonly": false,
+              "options": {
+                "Funnel": "Funnel"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Qualité examen",
+              "type": "dropdown-field",
+              "shortLabel": "Qualité examen",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "LEGACY|bonne|1": "bonne",
+                "LEGACY|médiocre|1": "médiocre"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Conclusion us",
+              "type": "text-field",
+              "shortLabel": "Conclusion",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Proposition thérapeutique",
+              "type": "text-field",
+              "shortLabel": "Prop. thérap.",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Facturation consultation",
+              "type": "checkbox",
+              "shortLabel": "Facturation",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "Facturation": "Facturation"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Facturation consultation accréditée",
+              "type": "checkbox",
+              "shortLabel": "Fact. acc.",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "Fact. acc.": "Fact. acc."
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Facturation US",
+              "type": "checkbox",
+              "shortLabel": "Fact. US",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "Fact. US": "Fact. US"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "D4DB877D-16F9-4D56-8AF8-FA4C70E279E7",
+              "type": "action",
+              "shortLabel": "Rapport",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

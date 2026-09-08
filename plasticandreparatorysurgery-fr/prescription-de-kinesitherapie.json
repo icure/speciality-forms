@@ -1,0 +1,49 @@
+{
+  "form": "sous-formulaires suivi post-op/prescription de kinésithérapie",
+  "id": "8E425AA2-BC31-4C67-AA60-17CB59D5B16C",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "nombre de séances",
+          "type": "dropdown-field",
+          "shortLabel": "nombre de séances",
+          "grows": true,
+          "span": 3,
+          "readonly": false,
+          "options": {
+            "LEGACY|9|1": "9",
+            "LEGACY|18|1": "18",
+            "LEGACY|40|1": "40"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "rythme",
+          "type": "dropdown-field",
+          "shortLabel": "rythme",
+          "grows": true,
+          "span": 21,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "traitement de kiné demandé",
+          "type": "text-field",
+          "shortLabel": "traitement de kiné demandé",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

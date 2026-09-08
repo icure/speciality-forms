@@ -1,0 +1,99 @@
+{
+  "form": "sous-formulaires suivi post-op/pansement à domicile",
+  "id": "9624634B-ADDF-47FE-ADC0-78F5C9F956E7",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "9A46DA60-2542-48D6-A20F-7510D72FFA87",
+          "type": "action",
+          "shortLabel": "prescription",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "date de début",
+          "type": "date-picker",
+          "shortLabel": "date de début",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "date de fin",
+          "type": "date-picker",
+          "shortLabel": "date de fin",
+          "grows": true,
+          "span": 10,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "rythme",
+          "type": "dropdown-field",
+          "shortLabel": "rythme",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "LEGACY|quotidien|1": "quotidien",
+            "LEGACY|tous les deux jours|1": "tous les deux jours",
+            "LEGACY|tous les 3 jours|1": "tous les 3 jours"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "désinfectant",
+          "type": "dropdown-field",
+          "shortLabel": "désinfectant",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "LEGACY|isobédatine dermique|1": "isobédatine dermique",
+            "LEGACY|hibitane|1": "hibitane",
+            "LEGACY|chlohexidine aqueuse|1": "chlohexidine aqueuse",
+            "LEGACY|isobétadine alcoolique|1": "isobétadine alcoolique"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "pansement primaire",
+          "type": "text-field",
+          "shortLabel": "pansement primaire",
+          "grows": true,
+          "span": 18,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "pansement secondaire",
+          "type": "text-field",
+          "shortLabel": "pansement secondaire",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

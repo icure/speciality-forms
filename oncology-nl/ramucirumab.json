@@ -1,0 +1,295 @@
+{
+  "form": "Oncologie-MAAG/Ramucirumab",
+  "id": "5efd18ab-652b-3071-b349-150dff23d8ed",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Product 1",
+          "type": "text-field",
+          "shortLabel": "Product 1",
+          "grows": true,
+          "span": 14,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Dosis 1",
+          "type": "measure-field",
+          "shortLabel": "Dosis",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Percent 1",
+          "type": "measure-field",
+          "shortLabel": "Percent",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "P1 1",
+          "type": "checkbox",
+          "shortLabel": "1",
+          "grows": true,
+          "span": 1,
+          "readonly": false,
+          "options": {
+            "1": "1"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "P1 2",
+          "type": "checkbox",
+          "shortLabel": "2",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "2": "2"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "P1 3",
+          "type": "checkbox",
+          "shortLabel": "3",
+          "grows": true,
+          "span": 1,
+          "readonly": false,
+          "options": {
+            "3": "3"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "P1 4",
+          "type": "checkbox",
+          "shortLabel": "4",
+          "grows": true,
+          "span": 1,
+          "readonly": false,
+          "options": {
+            "4": "4"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "P1 5",
+          "type": "checkbox",
+          "shortLabel": "5",
+          "grows": true,
+          "span": 1,
+          "readonly": false,
+          "options": {
+            "5": "5"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "P1 6",
+          "type": "checkbox",
+          "shortLabel": "6",
+          "grows": true,
+          "span": 1,
+          "readonly": false,
+          "options": {
+            "6": "6"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "P1 7",
+          "type": "checkbox",
+          "shortLabel": "7",
+          "grows": true,
+          "span": 1,
+          "readonly": false,
+          "options": {
+            "7": "7"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "P1 8",
+          "type": "checkbox",
+          "shortLabel": "8",
+          "grows": true,
+          "span": 1,
+          "readonly": false,
+          "options": {
+            "8": "8"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "P1 9",
+          "type": "checkbox",
+          "shortLabel": "9",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "9": "9"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "P1 10",
+          "type": "checkbox",
+          "shortLabel": "10",
+          "grows": true,
+          "span": 1,
+          "readonly": false,
+          "options": {
+            "10": "10"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "P1 11",
+          "type": "checkbox",
+          "shortLabel": "11",
+          "grows": true,
+          "span": 1,
+          "readonly": false,
+          "options": {
+            "11": "11"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "P1 12",
+          "type": "checkbox",
+          "shortLabel": "12",
+          "grows": true,
+          "span": 1,
+          "readonly": false,
+          "options": {
+            "12": "12"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "P1 13",
+          "type": "checkbox",
+          "shortLabel": "13",
+          "grows": true,
+          "span": 1,
+          "readonly": false,
+          "options": {
+            "13": "13"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "P1 14",
+          "type": "checkbox",
+          "shortLabel": "14",
+          "grows": true,
+          "span": 1,
+          "readonly": false,
+          "options": {
+            "14": "14"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "P1 15",
+          "type": "checkbox",
+          "shortLabel": "15",
+          "grows": true,
+          "span": 1,
+          "readonly": false,
+          "options": {
+            "15": "15"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Berekende dosis 1",
+          "type": "measure-field",
+          "shortLabel": "=>",
+          "grows": true,
+          "span": 7,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "subform",
+          "id": "A51183C9-ADB6-4E5C-8987-F7D9805CCC41",
+          "shortLabel": "Post & supportieve medicatie",
+          "forms": {
+            "Oncologie/Postmedicatie": {
+              "form": "Oncologie/Postmedicatie",
+              "id": "F1A58331-1BD6-49ED-AD4E-9944288E0A5E",
+              "sections": [
+                {
+                  "section": "Main",
+                  "fields": []
+                }
+              ]
+            },
+            "Oncologie/Supportieve medicatie": {
+              "form": "Oncologie/Supportieve medicatie",
+              "id": "58FFD730-4A01-4A7F-8D96-1558A59CFAA6",
+              "sections": [
+                {
+                  "section": "Main",
+                  "fields": []
+                }
+              ]
+            }
+          },
+          "span": 24,
+          "rowSpan": 1,
+          "labels": {}
+        }
+      ]
+    }
+  ]
+}

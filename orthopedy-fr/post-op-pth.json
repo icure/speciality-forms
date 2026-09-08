@@ -1,0 +1,197 @@
+{
+  "form": "Orthopédie/Post-op PTH",
+  "id": "F88CD251-C77E-42D6-B5B2-3E5264C28014",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Temps écoulé depuis l'intervention",
+              "type": "text-field",
+              "shortLabel": "Contrôle",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Plainte",
+              "type": "text-field",
+              "shortLabel": "Plainte",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Examen clinique",
+              "type": "text-field",
+              "shortLabel": "Exam. clin.",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Massage",
+              "type": "checkbox",
+              "shortLabel": "Massage",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "Massage": "Massage"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Mobilisatie",
+              "type": "checkbox",
+              "shortLabel": "Mobilisation",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "Mobilisation": "Mobilisation"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Physiothérapie",
+              "type": "checkbox",
+              "shortLabel": "Physiothérapie",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "Physiothérapie": "Physiothérapie"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Ondes de choc basse fréquence",
+              "type": "checkbox",
+              "shortLabel": "Ondes de choc basse fréquence",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "options": {
+                "Ondes de choc basse fréquence": "Ondes de choc basse fréquence"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Aard van de behandeling",
+              "type": "text-field",
+              "shortLabel": "Nature du traitement",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Lokalisatie",
+              "type": "text-field",
+              "shortLabel": "Localisation",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Nombre de séances",
+              "type": "number-field",
+              "shortLabel": "Nombre de séances",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Fréquence",
+              "type": "measure-field",
+              "shortLabel": "Fréquence",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "AC74C551-DA6C-4DB1-8A6F-26716C77AC44",
+              "type": "action",
+              "shortLabel": "Editer demande kiné",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Examen à effectuer par un spécialiste",
+              "type": "text-field",
+              "shortLabel": "Prescription radiologique",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "4D1D1A19-E597-46D2-83A4-28C23EAF9E70",
+              "type": "action",
+              "shortLabel": "Editer demande examen",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

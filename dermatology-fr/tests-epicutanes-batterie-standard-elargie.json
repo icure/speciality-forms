@@ -1,0 +1,4299 @@
+{
+  "form": "Examens complémentaires/Tests épicutanés : batterie standard élargie",
+  "id": "097859D9-DB45-4565-9727-AC77FE99BF6A",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "01:  Potassium dichromate 0,5% 48 H",
+          "type": "dropdown-field",
+          "shortLabel": "1: Potassium dichromate 0,5%",
+          "grows": true,
+          "span": 14,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {
+            "left": "1: Potassium dichromate 0,5%",
+						"top": "48 H"
+          }
+        },
+        {
+          "clazz": "field",
+          "field": "01: Potassium dichromate 0,5% 72 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {
+						"top": "72 H"
+					}
+        },
+        {
+          "clazz": "field",
+          "field": "01: Potassium dichromate 0,5% 96 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {
+						"top": "96 H"
+					}
+        },
+        {
+          "clazz": "field",
+          "field": "01: Potassium dichromate 0,5% Remarque",
+          "type": "text-field",
+          "shortLabel": "Rem",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "multiline": false,
+          "translate": true,
+          "labels": {
+						"top": "Commentaire"
+					}
+        },
+        {
+          "clazz": "field",
+          "field": "02:  Neomycin sulphate 20% Pet 48 H",
+          "type": "dropdown-field",
+          "shortLabel": "2: Neomycin sulphate 20% Pet",
+          "grows": true,
+          "span": 14,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {
+            "left": "2: Neomycin sulphate 20% Pet"
+          }
+        },
+        {
+          "clazz": "field",
+          "field": "02: Neomycin sulphate 20% Pet 72 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(-/+)|1": "(-/+)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "02: Neomycin sulphate 20% Pet 96 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(-/+)|1": "(-/+)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "02: Neomycin sulphate 20% Pet Remarque",
+          "type": "text-field",
+          "shortLabel": "Rem",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "03:  Thiuram mix 1% Pet 48 H",
+          "type": "dropdown-field",
+          "shortLabel": "3: Thiuram mix 1% Pet",
+          "grows": true,
+          "span": 14,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {
+            "left": "3: Thiuram mix 1% Pet"
+          }
+        },
+        {
+          "clazz": "field",
+          "field": "03: Thiuram mix 1% Pet 72 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "03: Thiuram mix 1% Pet 96 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(-/+)|1": "(-/+)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "03: Thiuram mix 1% Pet Remarque",
+          "type": "text-field",
+          "shortLabel": "Rem",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "04:  Paraphenylenediamine free base 1% Pet 48 H",
+          "type": "dropdown-field",
+          "shortLabel": "4: Paraphenylenediamine free base 1% Pet",
+          "grows": true,
+          "span": 14,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {
+            "left": "4: Paraphenylenediamine free base 1% Pet"
+          }
+        },
+        {
+          "clazz": "field",
+          "field": "04: Paraphenylenediamine free base 1% Pet 72 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(-/+)|1": "(-/+)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "04: Paraphenylenediamine free base 1% Pet 96 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(-/+)|1": "(-/+)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "04: Paraphenylenediamine free base 1% Pet Remarque",
+          "type": "text-field",
+          "shortLabel": "Rem",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "05:  Cobalt chloride 1% Pet 48 H",
+          "type": "dropdown-field",
+          "shortLabel": "5: Cobalt chloride 1% Pet",
+          "grows": true,
+          "span": 14,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {
+            "left": "5: Cobalt chloride 1% Pet"
+          }
+        },
+        {
+          "clazz": "field",
+          "field": "05: Cobalt chloride 1% Pet 72 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(-/+)|1": "(-/+)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "05: Cobalt chloride 1% Pet 96 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(-/+)|1": "(-/+)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "05: Cobalt chloride 1% Pet Remarque",
+          "type": "text-field",
+          "shortLabel": "Rem",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "06:  Benzocaïne 5% Pet 48 H",
+          "type": "dropdown-field",
+          "shortLabel": "6: Benzocaïne 5% Pet",
+          "grows": true,
+          "span": 14,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {
+            "left": "6: Benzocaïne 5% Pet"
+          }
+        },
+        {
+          "clazz": "field",
+          "field": "06: Benzocaïne 5% Pet 72 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(-/+)|1": "(-/+)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "06: Benzocaïne 5% Pet 96 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(-/+)|1": "(-/+)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "06: Benzocaïne 5% Pet Remarque",
+          "type": "text-field",
+          "shortLabel": "Rem",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "07:  Formaldehyde 1% (aqua) 48 H",
+          "type": "dropdown-field",
+          "shortLabel": "7: Formaldehyde 1% (aqua)",
+          "grows": true,
+          "span": 14,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {
+            "left": "7: Formaldehyde 1% (aqua)"
+          }
+        },
+        {
+          "clazz": "field",
+          "field": "07: Formaldehyde 1% (aqua) 72 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(-/+)|1": "(-/+)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "07: Formaldehyde 1% (aqua) 96 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(-/+)|1": "(-/+)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "07: Formaldehyde 1% (aqua) Remarque",
+          "type": "text-field",
+          "shortLabel": "Rem",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "08:  Colophony 20% Pet 48 H",
+          "type": "dropdown-field",
+          "shortLabel": "8: Colophony 20% Pet",
+          "grows": true,
+          "span": 14,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {
+            "left": "8: Colophony 20% Pet"
+          }
+        },
+        {
+          "clazz": "field",
+          "field": "08: Colophony 20% Pet 72 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "08: Colophony 20% Pet 96 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "08: Colophony 20% Pet Remarque",
+          "type": "text-field",
+          "shortLabel": "Rem",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "09:  Clioquinol 5% Pet 48 H",
+          "type": "dropdown-field",
+          "shortLabel": "9: Clioquinol 5% Pet",
+          "grows": true,
+          "span": 14,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {
+            "left": "9: Clioquinol 5% Pet"
+          }
+        },
+        {
+          "clazz": "field",
+          "field": "09: Clioquinol 5% Pet 72 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "09: Clioquinol 5% Pet 96 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "09: Clioquinol 5% Pet Remarque",
+          "type": "text-field",
+          "shortLabel": "Rem",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "10:  Balsams of Peru 25% Pet 48 H",
+          "type": "dropdown-field",
+          "shortLabel": "10: Balsams of Peru 25% Pet",
+          "grows": true,
+          "span": 14,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {
+            "left": "10: Balsams of Peru 25% Pet"
+          }
+        },
+        {
+          "clazz": "field",
+          "field": "10: Balsams of Peru 25% Pet 72 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "10: Balsams of Peru 25% Pet 96 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "10: Balsams of Peru 25% Pet Remarque",
+          "type": "text-field",
+          "shortLabel": "Rem",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "11:  N-isopropyl-N'phenylparaphenylendiamine 0,1% Pet 48 H",
+          "type": "dropdown-field",
+          "shortLabel": "11: N-isopropyl-N'phenylparaphenylendiamine 0,1% Pet",
+          "grows": true,
+          "span": 14,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {
+            "left": "11: N-isopropyl-N'phenylparaphenylendiamine 0,1% Pet"
+          }
+        },
+        {
+          "clazz": "field",
+          "field": "11: N-isopropyl-N'phenylparaphenylendiamine 0,1% Pet 72 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "11: N-isopropyl-N'phenylparaphenylendiamine 0,1% Pet 96 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "11: N-isopropyl-N'phenylparaphenylendiamine 0,1% Pet Remarque",
+          "type": "text-field",
+          "shortLabel": "Rem",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "12:  Wool alcools 30% Pet 48 H",
+          "type": "dropdown-field",
+          "shortLabel": "12: Wool alcools 30% Pet",
+          "grows": true,
+          "span": 14,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {
+            "left": "12: Wool alcools 30% Pet"
+          }
+        },
+        {
+          "clazz": "field",
+          "field": "12: Wool alcools 30% Pet 72 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "12: Wool alcools 30% Pet 96 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "12: Wool alcools 30% Pet Remarque",
+          "type": "text-field",
+          "shortLabel": "Rem",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "13:  Mercapto mix 2% Pet 48 H",
+          "type": "dropdown-field",
+          "shortLabel": "13: Mercapto mix 2% Pet",
+          "grows": true,
+          "span": 14,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {
+            "left": "13: Mercapto mix 2% Pet"
+          }
+        },
+        {
+          "clazz": "field",
+          "field": "13: Mercapto mix 2% Pet 72 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "13: Mercapto mix 2% Pet 96 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "13: Mercapto mix 2% Pet Remarque",
+          "type": "text-field",
+          "shortLabel": "Rem",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "14:  Epoxy resin 1% Pet 48 H",
+          "type": "dropdown-field",
+          "shortLabel": "14: Epoxy resin 1% Pet",
+          "grows": true,
+          "span": 14,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {
+            "left": "14: Epoxy resin 1% Pet"
+          }
+        },
+        {
+          "clazz": "field",
+          "field": "14: Epoxy resin 1% Pet 72 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "14: Epoxy resin 1% Pet 96 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "14: Epoxy resin 1% Pet Remarque",
+          "type": "text-field",
+          "shortLabel": "Rem",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "15:  Paraben mix 12% Pet 48 H",
+          "type": "dropdown-field",
+          "shortLabel": "15: Paraben mix 12% Pet",
+          "grows": true,
+          "span": 14,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {
+            "left": "15: Paraben mix 12% Pet"
+          }
+        },
+        {
+          "clazz": "field",
+          "field": "15: Paraben mix 12% Pet 72 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "15: Paraben mix 12% Pet 96 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "15: Paraben mix 12% Pet Remarque",
+          "type": "text-field",
+          "shortLabel": "Rem",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "16:  Para-tertiary-butyl phenolformaldehyde resin 1% Pet 48 H",
+          "type": "dropdown-field",
+          "shortLabel": "16: Para-tertiary-butyl phenolformaldehyde resin 1% Pet",
+          "grows": true,
+          "span": 14,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {
+            "left": "16: Para-tertiary-butyl phenolformaldehyde resin 1% Pet"
+          }
+        },
+        {
+          "clazz": "field",
+          "field": "16: Para-tertiary-butyl phenolformaldehyde resin 1% Pet 72 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "16: Para-tertiary-butyl phenolformaldehyde resin 1% Pet 96 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "16: Para-tertiary-butyl phenolformaldehyde resin 1% Pet Remarque",
+          "type": "text-field",
+          "shortLabel": "Rem",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "17:  Fragrance Mix 8% Pet 48 H",
+          "type": "dropdown-field",
+          "shortLabel": "17: Fragrance Mix 8% Pet",
+          "grows": true,
+          "span": 14,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {
+            "left": "17: Fragrance Mix 8% Pet"
+          }
+        },
+        {
+          "clazz": "field",
+          "field": "17: Fragrance Mix 8% Pet 72 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "17: Fragrance Mix 8% Pet 96 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "17: Fragrance Mix 8% Pet Remarque",
+          "type": "text-field",
+          "shortLabel": "Rem",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "18:  Sesquiterpene Lactone mix 0,1% Pet 48 H",
+          "type": "dropdown-field",
+          "shortLabel": "18: Sesquiterpene Lactone mix 0,1% Pet",
+          "grows": true,
+          "span": 14,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {
+            "left": "18: Sesquiterpene Lactone mix 0,1% Pet"
+          }
+        },
+        {
+          "clazz": "field",
+          "field": "18: Sesquiterpene Lactone mix 0,1% Pet 72 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "18: Sesquiterpene Lactone mix 0,1% Pet 96 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "18: Sesquiterpene Lactone mix 0,1% Pet Remarque",
+          "type": "text-field",
+          "shortLabel": "Rem",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "19:  Quaternium 15 1% Pet 48 H",
+          "type": "dropdown-field",
+          "shortLabel": "19: Quaternium 15 1% Pet",
+          "grows": true,
+          "span": 14,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {
+            "left": "19: Quaternium 15 1% Pet"
+          }
+        },
+        {
+          "clazz": "field",
+          "field": "19: Quaternium 15 1% Pet 72 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "19: Quaternium 15 1% Pet 96 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "19: Quaternium 15 1% Pet Remarque",
+          "type": "text-field",
+          "shortLabel": "Rem",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "20:  Nickel sulphate 5% Pet 48 H",
+          "type": "dropdown-field",
+          "shortLabel": "20: Nickel sulphate 5% Pet",
+          "grows": true,
+          "span": 14,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {
+            "left": "20: Nickel sulphate 5% Pet"
+          }
+        },
+        {
+          "clazz": "field",
+          "field": "20: Nickel sulphate 5% Pet 72 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "20: Nickel sulphate 5% Pet 96 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "20: Nickel sulphate 5% Pet Remarque",
+          "type": "text-field",
+          "shortLabel": "Rem",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "21:  CI + ME-isthiazolinone 0,01% Pet 48 H",
+          "type": "dropdown-field",
+          "shortLabel": "21: CI + ME-isothiazolinone 0,01% Pet",
+          "grows": true,
+          "span": 14,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {
+            "left": "21: CI + ME-isothiazolinone 0,01% Pet"
+          }
+        },
+        {
+          "clazz": "field",
+          "field": "21: CI + ME-isthiazolinone 0,01% Pet 72 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "21: CI + ME-isthiazolinone 0,01% Pet 96 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "21: CI + ME-isthiazolinone 0,01% Pet Remarque",
+          "type": "text-field",
+          "shortLabel": "Rem",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "22:  Mercaptobenzothiazole 2% Pet 48 H",
+          "type": "dropdown-field",
+          "shortLabel": "22: Mercaptobenzothiazole 2% Pet",
+          "grows": true,
+          "span": 14,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {
+            "left": "22: Mercaptobenzothiazole 2% Pet"
+          }
+        },
+        {
+          "clazz": "field",
+          "field": "22: Mercaptobenzothiazole 2% Pet 72 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "22: Mercaptobenzothiazole 2% Pet 96 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "22: Mercaptobenzothiazole 2% Pet Remarque",
+          "type": "text-field",
+          "shortLabel": "Rem",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "23:  Primin 0,01% Pet 48 H",
+          "type": "dropdown-field",
+          "shortLabel": "23: Primin 0,01% Pet",
+          "grows": true,
+          "span": 14,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {
+            "left": "23: Primin 0,01% Pet"
+          }
+        },
+        {
+          "clazz": "field",
+          "field": "23: Primin 0,01% Pet 72 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "23: Primin 0,01% Pet 96 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "23: Primin 0,01% Pet Remarque",
+          "type": "text-field",
+          "shortLabel": "Rem",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "24:  Amerchol®L101 50% Pet 48 H",
+          "type": "dropdown-field",
+          "shortLabel": "24: Amerchol®L101 50% Pet",
+          "grows": true,
+          "span": 14,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {
+            "left": "24: Amerchol®L101 50% Pet"
+          }
+        },
+        {
+          "clazz": "field",
+          "field": "24: Amerchol®L101 50% Pet 72 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "24: Amerchol®L101 50% Pet 96 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "24: Amerchol®L101 50% Pet Remarque",
+          "type": "text-field",
+          "shortLabel": "Rem",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "25:  Tixoxortol pivalate 0,1% 48 H",
+          "type": "dropdown-field",
+          "shortLabel": "25: Tixocortol pivalate 0,1%",
+          "grows": true,
+          "span": 14,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {
+            "left": "25: Tixocortol pivalate 0,1%"
+          }
+        },
+        {
+          "clazz": "field",
+          "field": "25: Tixoxortol pivalate 0,1% 72 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "25: Tixoxortol pivalate 0,1% 96 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "25: Tixoxortol pivalate 0,1% Remarque",
+          "type": "text-field",
+          "shortLabel": "Rem",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "26:  Budesonide 0,01% Pet 48 H",
+          "type": "dropdown-field",
+          "shortLabel": "26: Budesonide 0,01% Pet",
+          "grows": true,
+          "span": 14,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {
+            "left": "26: Budesonide 0,01% Pet"
+          }
+        },
+        {
+          "clazz": "field",
+          "field": "26: Budesonide 0,01% Pet 72 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "26: Budesonide 0,01% Pet 96 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "26: Budesonide 0,01% Pet Remarque",
+          "type": "text-field",
+          "shortLabel": "Rem",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "27:  Euxyl®K400 48 H",
+          "type": "dropdown-field",
+          "shortLabel": "27: Euxyl®K400",
+          "grows": true,
+          "span": 14,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {
+            "left": "27: Euxyl®K400"
+          }
+        },
+        {
+          "clazz": "field",
+          "field": "27: Euxyl®K400 72 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "27: Euxyl®K400 96 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "27: Euxyl®K400 Remarque",
+          "type": "text-field",
+          "shortLabel": "Rem",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "28:  Propylene glycol 10% (aqua) 48 H",
+          "type": "dropdown-field",
+          "shortLabel": "28: Propylene glycol 10% (aqua)",
+          "grows": true,
+          "span": 14,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {
+            "left": "28: Propylene glycol 10% (aqua)"
+          }
+        },
+        {
+          "clazz": "field",
+          "field": "28: Propylene glycol 10% (aqua) 72 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "28: Propylene glycol 10% (aqua) 96 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "28: Propylene glycol 10% (aqua) Remarque",
+          "type": "text-field",
+          "shortLabel": "Rem",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "29:  Toluenesulfonamide formaldehyde resin 10% Pet 48 H",
+          "type": "dropdown-field",
+          "shortLabel": "29: Toluenesulfonamide formaldehyde resin 10% Pet",
+          "grows": true,
+          "span": 14,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {
+            "left": "29: Toluenesulfonamide formaldehyde resin 10% Pet"
+          }
+        },
+        {
+          "clazz": "field",
+          "field": "29: Toluenesulfonamide formaldehyde resin 10% Pet 72 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "29: Toluenesulfonamide formaldehyde resin 10% Pet 96 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "29: Toluenesulfonamide formaldehyde resin 10% Pet Remarque",
+          "type": "text-field",
+          "shortLabel": "Rem",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "30:  Sorbitan sesquioleate (Arlacel 83) 20% Pet 48 H",
+          "type": "dropdown-field",
+          "shortLabel": "30: Sorbitan sesquioleate (Arlacel 83) 20% Pet",
+          "grows": true,
+          "span": 14,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {
+            "left": "30: Sorbitan sesquioleate (Arlacel 83) 20% Pet"
+          }
+        },
+        {
+          "clazz": "field",
+          "field": "30: Sorbitan sesquioleate (Arlacel 83) 20% Pet 72 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "30: Sorbitan sesquioleate (Arlacel 83) 20% Pet 96 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "30: Sorbitan sesquioleate (Arlacel 83) 20% Pet Remarque",
+          "type": "text-field",
+          "shortLabel": "Rem",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "31:  Thiomersal 0,1% Pet 48 H",
+          "type": "dropdown-field",
+          "shortLabel": "31: Thiomersal 0,1% Pet",
+          "grows": true,
+          "span": 14,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {
+            "left": "31: Thiomersal 0,1% Pet"
+          }
+        },
+        {
+          "clazz": "field",
+          "field": "31: Thiomersal 0,1% Pet 72 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "31: Thiomersal 0,1% Pet 96 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "31: Thiomersal 0,1% Pet Remarque",
+          "type": "text-field",
+          "shortLabel": "Rem",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "32:  Ethylenediamine dihydrochloride 1% Pet 48 H",
+          "type": "dropdown-field",
+          "shortLabel": "32: Ethylenediamine dihydrochloride 1% Pet",
+          "grows": true,
+          "span": 14,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {
+            "left": "32: Ethylenediamine dihydrochloride 1% Pet"
+          }
+        },
+        {
+          "clazz": "field",
+          "field": "32: Ethylenediamine dihydrochloride 1% Pet 72 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "32: Ethylenediamine dihydrochloride 1% Pet 96 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "32: Ethylenediamine dihydrochloride 1% Pet Remarque",
+          "type": "text-field",
+          "shortLabel": "Rem",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "33:  Hydrocortisone- 17-butyrate 1% Pet 48 H",
+          "type": "dropdown-field",
+          "shortLabel": "33: Hydrocortisone- 17-butyrate 1% Pet",
+          "grows": true,
+          "span": 14,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {
+            "left": "33: Hydrocortisone- 17-butyrate 1% Pet"
+          }
+        },
+        {
+          "clazz": "field",
+          "field": "33: Hydrocortisone- 17-butyrate 1% Pet 72 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "33: Hydrocortisone- 17-butyrate 1% Pet 96 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "33: Hydrocortisone- 17-butyrate 1% Pet Remarque",
+          "type": "text-field",
+          "shortLabel": "Rem",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "34: 4,4'diainodiphenylmethane 0,5% Pet  48 H",
+          "type": "dropdown-field",
+          "shortLabel": "34  4,4'diainodiphenylmethane 0,5% Pet  48 H",
+          "grows": true,
+          "span": 14,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {
+            "left": "34  4,4'diainodiphenylmethane 0,5% Pet  48 H"
+          }
+        },
+        {
+          "clazz": "field",
+          "field": "34  4,4'diainodiphenylmethane 0,5% Pet 72 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "34: Rem",
+          "type": "text-field",
+          "shortLabel": "Rem",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "35:  Cetylstearylalcohol 20% Pet 48 H",
+          "type": "dropdown-field",
+          "shortLabel": "35: Cetylstearylalcohol 20% Pet",
+          "grows": true,
+          "span": 14,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {
+            "left": "35: Cetylstearylalcohol 20% Pet"
+          }
+        },
+        {
+          "clazz": "field",
+          "field": "35: Cetylstearylalcohol 20% Pet 72 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "35: Cetylstearylalcohol 20% Pet 96 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "35: Cetylstearylalcohol 20% Pet Remarque",
+          "type": "text-field",
+          "shortLabel": "Rem",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "36:  Dimethylaminopropylamine 1% (aqua) 48 H",
+          "type": "dropdown-field",
+          "shortLabel": "36: Dimethylaminopropylamine 1% (aqua)",
+          "grows": true,
+          "span": 14,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {
+            "left": "36: Dimethylaminopropylamine 1% (aqua)"
+          }
+        },
+        {
+          "clazz": "field",
+          "field": "36: Dimethylaminopropylamine 1% (aqua) 72 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "36: Dimethylaminopropylamine 1% (aqua) 96 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "36: Dimethylaminopropylamine 1% (aqua) Remarque",
+          "type": "text-field",
+          "shortLabel": "Rem",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "37:  Lyral 5% Pet 48 H",
+          "type": "dropdown-field",
+          "shortLabel": "37: Lyral 5% Pet",
+          "grows": true,
+          "span": 14,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {
+            "left": "37: Lyral 5% Pet"
+          }
+        },
+        {
+          "clazz": "field",
+          "field": "37: Lyral 5% Pet 72 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "37: Lyral 5% Pet 96 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "37: Lyral 5% Pet Remarque",
+          "type": "text-field",
+          "shortLabel": "Rem",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "38:  Disperse blue 106 1% Pet 48 H",
+          "type": "dropdown-field",
+          "shortLabel": "38: Disperse blue 106 1% Pet",
+          "grows": true,
+          "span": 14,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {
+            "left": "38: Disperse blue 106 1% Pet"
+          }
+        },
+        {
+          "clazz": "field",
+          "field": "38: Disperse blue 106 1% Pet 72 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "38: Disperse blue 106 1% Pet 96 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "38: Disperse blue 106 1% Pet Remarque",
+          "type": "text-field",
+          "shortLabel": "Rem",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "39:  Thiourea mix 1% Pet 48 H",
+          "type": "dropdown-field",
+          "shortLabel": "39: Thiourea mix 1% Pet",
+          "grows": true,
+          "span": 14,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {
+            "left": "39: Thiourea mix 1% Pet"
+          }
+        },
+        {
+          "clazz": "field",
+          "field": "39: Thiourea mix 1% Pet 72 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "39: Thiourea mix 1% Pet 96 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "39: Thiourea mix 1% Pet Remarque",
+          "type": "text-field",
+          "shortLabel": "Rem",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "40:  Imidazolidinylurea 2% (aqua) 48 H",
+          "type": "dropdown-field",
+          "shortLabel": "40: Imidazolidinylurea 2% (aqua)",
+          "grows": true,
+          "span": 14,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {
+            "left": "40: Imidazolidinylurea 2% (aqua)"
+          }
+        },
+        {
+          "clazz": "field",
+          "field": "40: Imidazolidinylurea 2% (aqua) 72 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "40: Imidazolidinylurea 2% (aqua) 96 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "40: Imidazolidinylurea 2% (aqua) Remarque",
+          "type": "text-field",
+          "shortLabel": "Rem",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "41:  Fragrance mix II 14% Pet 48 H",
+          "type": "dropdown-field",
+          "shortLabel": "41: Fragrance mix II 14% Pet",
+          "grows": true,
+          "span": 14,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {
+            "left": "41: Fragrance mix II 14% Pet"
+          }
+        },
+        {
+          "clazz": "field",
+          "field": "41: Fragrance mix II 14% Pet 72 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "41: Fragrance mix II 14% Pet 96 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "41: Fragrance mix II 14% Pet Remarque",
+          "type": "text-field",
+          "shortLabel": "Rem",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "42:  Methyldibromoglutaronitrile 0,5% Pet 48 H",
+          "type": "dropdown-field",
+          "shortLabel": "42: Methyldibromoglutaronitrile 0,5% Pet",
+          "grows": true,
+          "span": 14,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {
+            "left": "42: Methyldibromoglutaronitrile 0,5% Pet"
+          }
+        },
+        {
+          "clazz": "field",
+          "field": "42: Methyldibromoglutaronitrile 0,5% Pet 72 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "42: Methyldibromoglutaronitrile 0,5% Pet 96 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "42: Methyldibromoglutaronitrile 0,5% Pet Remarque",
+          "type": "text-field",
+          "shortLabel": "Rem",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "43: Triclosan 2% Pet 48 H",
+          "type": "dropdown-field",
+          "shortLabel": "43: Triclosan 2% Pet",
+          "grows": true,
+          "span": 14,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {
+            "left": "43: Triclosan 2% Pet"
+          }
+        },
+        {
+          "clazz": "field",
+          "field": "43: Triclosan 2% Pet 72 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "43: Triclosan 2% Pet 96 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "43: Triclosan 2% Pet Remarque",
+          "type": "text-field",
+          "shortLabel": "Rem",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "44: 1,2-Benzisothiazolin-3-one 0,1% Pet 48 H",
+          "type": "dropdown-field",
+          "shortLabel": "44: 1,2-Benzisothiazolin-3-one 0,1% Pet",
+          "grows": true,
+          "span": 14,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {
+            "left": "44: 1,2-Benzisothiazolin-3-one 0,1% Pet"
+          }
+        },
+        {
+          "clazz": "field",
+          "field": "44: 1,2-Benzisothiazolin-3-one 0,1% Pet 72 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "44: 1,2-Benzisothiazolin-3-one 0,1% Pet 96 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "44: 1,2-Benzisothiazolin-3-one 0,1% Pet Remarque",
+          "type": "text-field",
+          "shortLabel": "Rem",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "45: 2-n-Octyl-4-isothiazolin-3-one 0,1% Pet 48 H",
+          "type": "dropdown-field",
+          "shortLabel": "45: 2-n-Octyl-4-isothiazolin-3-one 0,1% Pet",
+          "grows": true,
+          "span": 14,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {
+            "left": "45: 2-n-Octyl-4-isothiazolin-3-one 0,1% Pet"
+          }
+        },
+        {
+          "clazz": "field",
+          "field": "45: 2-n-Octyl-4-isothiazolin-3-one 0,1% Pet 72 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "45: 2-n-Octyl-4-isothiazolin-3-one 0,1% Pet 96 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "45: 2-n-Octyl-4-isothiazolin-3-one 0,1% Pet Remarque",
+          "type": "text-field",
+          "shortLabel": "Rem",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "46: Benzalkonium Chloride 0,1% Pet 48 H",
+          "type": "dropdown-field",
+          "shortLabel": "46: Benzalkonium Chloride 0,1% Pet",
+          "grows": true,
+          "span": 14,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {
+            "left": "46: Benzalkonium Chloride 0,1% Pet"
+          }
+        },
+        {
+          "clazz": "field",
+          "field": "46: Benzalkonium Chloride 0,1% Pet 72 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "46: Benzalkonium Chloride 0,1% Pet 96 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "46: Benzalkonium Chloride 0,1% Pet Remarque",
+          "type": "text-field",
+          "shortLabel": "Rem",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "47: Lauryl glucoside 3% Pet 48 H",
+          "type": "dropdown-field",
+          "shortLabel": "47: Lauryl glucoside 3% Pet",
+          "grows": true,
+          "span": 14,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {
+            "left": "47: Lauryl glucoside 3% Pet"
+          }
+        },
+        {
+          "clazz": "field",
+          "field": "47: Lauryl glucoside 3% Pet 72 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "47: Lauryl glucoside 3% Pet 96 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "47: Lauryl glucoside 3% Pet Remarque",
+          "type": "text-field",
+          "shortLabel": "Rem",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "48: Turpentine peroxides 0,3% Pet 48 H",
+          "type": "dropdown-field",
+          "shortLabel": "48: Turpentine peroxides 0,3% Pet",
+          "grows": true,
+          "span": 14,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {
+            "left": "48: Turpentine peroxides 0,3% Pet"
+          }
+        },
+        {
+          "clazz": "field",
+          "field": "48: Turpentine peroxides 0,3% Pet 72 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "48: Turpentine peroxides 0,3% Pet 96 H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "48: Turpentine peroxides 0,3% Pet Remarque",
+          "type": "text-field",
+          "shortLabel": "Rem",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "subform",
+          "id": "3516A95A-BCB3-4BE8-91FA-2570181AEA1F",
+          "shortLabel": "Tests complémentaires",
+          "forms": {
+            "Examens complémentaires/Tests complémentaires": {
+              "form": "Examens complémentaires/Tests complémentaires",
+              "id": "9C07ECDA-FBBD-4014-BCFD-389E62931723",
+              "sections": [
+                {
+                  "section": "Main",
+                  "fields": [
+                    {
+                      "clazz": "field",
+                      "field": "01: Test complémentaire 1",
+                      "type": "text-field",
+                      "shortLabel": "1: ",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true,
+                      "labels": {
+                        "left": "1:"
+                      }
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "01: Test complémentaire (48) H",
+                      "type": "dropdown-field",
+                      "shortLabel": "",
+                      "grows": true,
+                      "span": 2,
+                      "readonly": false,
+                      "options": {
+                        "LEGACY|(-)|1": "(-)",
+                        "LEGACY|(+/-)|1": "(+/-)",
+                        "LEGACY|(+)|1": "(+)",
+                        "LEGACY|(++)|1": "(++)",
+                        "LEGACY|(+++)|1": "(+++)"
+                      },
+                      "multiline": false,
+                      "translate": true,
+                      "labels": {}
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "01: Test complémentaire (72) H",
+                      "type": "dropdown-field",
+                      "shortLabel": "",
+                      "grows": true,
+                      "span": 4,
+                      "readonly": false,
+                      "options": {
+                        "LEGACY|(-)|1": "(-)",
+                        "LEGACY|(+/-)|1": "(+/-)",
+                        "LEGACY|(+)|1": "(+)",
+                        "LEGACY|(++)|1": "(++)",
+                        "LEGACY|(+++)|1": "(+++)"
+                      },
+                      "multiline": false,
+                      "translate": true,
+                      "labels": {}
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "01: Test complémentaire (96) H",
+                      "type": "dropdown-field",
+                      "shortLabel": "",
+                      "grows": true,
+                      "span": 2,
+                      "readonly": false,
+                      "options": {
+                        "LEGACY|(-)|1": "(-)",
+                        "LEGACY|(+/-)|1": "(+/-)",
+                        "LEGACY|(+)|1": "(+)",
+                        "LEGACY|(++)|1": "(++)",
+                        "LEGACY|(+++)|1": "(+++)"
+                      },
+                      "multiline": false,
+                      "translate": true,
+                      "labels": {}
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "01: Test complémentaire Remarque",
+                      "type": "text-field",
+                      "shortLabel": "Rem",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true,
+                      "labels": {}
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "02: Test complémentaire 2",
+                      "type": "text-field",
+                      "shortLabel": "2: ",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true,
+                      "labels": {
+                        "left": "2:"
+                      }
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "02: Test complémentaire (48) H",
+                      "type": "dropdown-field",
+                      "shortLabel": "",
+                      "grows": true,
+                      "span": 2,
+                      "readonly": false,
+                      "options": {
+                        "LEGACY|(-)|1": "(-)",
+                        "LEGACY|(+/-)|1": "(+/-)",
+                        "LEGACY|(+)|1": "(+)",
+                        "LEGACY|(++)|1": "(++)",
+                        "LEGACY|(+++)|1": "(+++)"
+                      },
+                      "multiline": false,
+                      "translate": true,
+                      "labels": {}
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "02: Test complémentaire (72) H",
+                      "type": "dropdown-field",
+                      "shortLabel": "",
+                      "grows": true,
+                      "span": 4,
+                      "readonly": false,
+                      "options": {
+                        "LEGACY|(-)|1": "(-)",
+                        "LEGACY|(-/+)|1": "(-/+)",
+                        "LEGACY|(+)|1": "(+)",
+                        "LEGACY|(++)|1": "(++)",
+                        "LEGACY|(+++)|1": "(+++)"
+                      },
+                      "multiline": false,
+                      "translate": true,
+                      "labels": {}
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "02: Test complémentaire (96) H",
+                      "type": "dropdown-field",
+                      "shortLabel": "",
+                      "grows": true,
+                      "span": 2,
+                      "readonly": false,
+                      "options": {
+                        "LEGACY|(-)|1": "(-)",
+                        "LEGACY|(-/+)|1": "(-/+)",
+                        "LEGACY|(+)|1": "(+)",
+                        "LEGACY|(++)|1": "(++)",
+                        "LEGACY|(+++)|1": "(+++)"
+                      },
+                      "multiline": false,
+                      "translate": true,
+                      "labels": {}
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "02: Test complémentaire Remarque",
+                      "type": "text-field",
+                      "shortLabel": "Rem",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true,
+                      "labels": {}
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "03: Test complémentaire 3",
+                      "type": "text-field",
+                      "shortLabel": "3: ",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true,
+                      "labels": {
+                        "left": "3:"
+                      }
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "03: Test complémentaire (48) H",
+                      "type": "dropdown-field",
+                      "shortLabel": "",
+                      "grows": true,
+                      "span": 2,
+                      "readonly": false,
+                      "options": {
+                        "LEGACY|(-)|1": "(-)",
+                        "LEGACY|(+/-)|1": "(+/-)",
+                        "LEGACY|(+)|1": "(+)",
+                        "LEGACY|(++)|1": "(++)",
+                        "LEGACY|(+++)|1": "(+++)"
+                      },
+                      "multiline": false,
+                      "translate": true,
+                      "labels": {}
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "03: Test complémentaire (72) H",
+                      "type": "dropdown-field",
+                      "shortLabel": "",
+                      "grows": true,
+                      "span": 4,
+                      "readonly": false,
+                      "options": {
+                        "LEGACY|(-)|1": "(-)",
+                        "LEGACY|(+/-)|1": "(+/-)",
+                        "LEGACY|(+)|1": "(+)",
+                        "LEGACY|(++)|1": "(++)",
+                        "LEGACY|(+++)|1": "(+++)"
+                      },
+                      "multiline": false,
+                      "translate": true,
+                      "labels": {}
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "03: Test complémentaire (96) H",
+                      "type": "dropdown-field",
+                      "shortLabel": "",
+                      "grows": true,
+                      "span": 2,
+                      "readonly": false,
+                      "options": {
+                        "LEGACY|(-)|1": "(-)",
+                        "LEGACY|(-/+)|1": "(-/+)",
+                        "LEGACY|(+)|1": "(+)",
+                        "LEGACY|(++)|1": "(++)",
+                        "LEGACY|(+++)|1": "(+++)"
+                      },
+                      "multiline": false,
+                      "translate": true,
+                      "labels": {}
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "03: Test complémentaire Remarque",
+                      "type": "text-field",
+                      "shortLabel": "Rem",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true,
+                      "labels": {}
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "04: Test complémentaire 4",
+                      "type": "text-field",
+                      "shortLabel": "4: ",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true,
+                      "labels": {
+                        "left": "4:"
+                      }
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "04: Test complémentaire (48) H",
+                      "type": "dropdown-field",
+                      "shortLabel": "",
+                      "grows": true,
+                      "span": 2,
+                      "readonly": false,
+                      "options": {
+                        "LEGACY|(-)|1": "(-)",
+                        "LEGACY|(+/-)|1": "(+/-)",
+                        "LEGACY|(+)|1": "(+)",
+                        "LEGACY|(++)|1": "(++)",
+                        "LEGACY|(+++)|1": "(+++)"
+                      },
+                      "multiline": false,
+                      "translate": true,
+                      "labels": {}
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "04: Test complémentaire (72) H",
+                      "type": "dropdown-field",
+                      "shortLabel": "",
+                      "grows": true,
+                      "span": 4,
+                      "readonly": false,
+                      "options": {
+                        "LEGACY|(-)|1": "(-)",
+                        "LEGACY|(-/+)|1": "(-/+)",
+                        "LEGACY|(+)|1": "(+)",
+                        "LEGACY|(++)|1": "(++)",
+                        "LEGACY|(+++)|1": "(+++)"
+                      },
+                      "multiline": false,
+                      "translate": true,
+                      "labels": {}
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "04: Test complémentaire (96) H",
+                      "type": "dropdown-field",
+                      "shortLabel": "",
+                      "grows": true,
+                      "span": 2,
+                      "readonly": false,
+                      "options": {
+                        "LEGACY|(-)|1": "(-)",
+                        "LEGACY|(-/+)|1": "(-/+)",
+                        "LEGACY|(+)|1": "(+)",
+                        "LEGACY|(++)|1": "(++)",
+                        "LEGACY|(+++)|1": "(+++)"
+                      },
+                      "multiline": false,
+                      "translate": true,
+                      "labels": {}
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "04: Test complémentaire Remarque",
+                      "type": "text-field",
+                      "shortLabel": "Rem",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true,
+                      "labels": {}
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "05: Test complémentaire 5",
+                      "type": "text-field",
+                      "shortLabel": "5: ",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true,
+                      "labels": {
+                        "left": "5:"
+                      }
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "05: Test complémentaire (48) H",
+                      "type": "dropdown-field",
+                      "shortLabel": "",
+                      "grows": true,
+                      "span": 2,
+                      "readonly": false,
+                      "options": {
+                        "LEGACY|(-)|1": "(-)",
+                        "LEGACY|(+/-)|1": "(+/-)",
+                        "LEGACY|(+)|1": "(+)",
+                        "LEGACY|(++)|1": "(++)",
+                        "LEGACY|(+++)|1": "(+++)"
+                      },
+                      "multiline": false,
+                      "translate": true,
+                      "labels": {}
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "05: Test complémentaire (72) H",
+                      "type": "dropdown-field",
+                      "shortLabel": "",
+                      "grows": true,
+                      "span": 4,
+                      "readonly": false,
+                      "options": {
+                        "LEGACY|(-)|1": "(-)",
+                        "LEGACY|(-/+)|1": "(-/+)",
+                        "LEGACY|(+)|1": "(+)",
+                        "LEGACY|(++)|1": "(++)",
+                        "LEGACY|(+++)|1": "(+++)"
+                      },
+                      "multiline": false,
+                      "translate": true,
+                      "labels": {}
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "05: Test complémentaire (96) H",
+                      "type": "dropdown-field",
+                      "shortLabel": "",
+                      "grows": true,
+                      "span": 2,
+                      "readonly": false,
+                      "options": {
+                        "LEGACY|(-)|1": "(-)",
+                        "LEGACY|(-/+)|1": "(-/+)",
+                        "LEGACY|(+)|1": "(+)",
+                        "LEGACY|(++)|1": "(++)",
+                        "LEGACY|(+++)|1": "(+++)"
+                      },
+                      "multiline": false,
+                      "translate": true,
+                      "labels": {}
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "05: Test complémentaire Remarque",
+                      "type": "text-field",
+                      "shortLabel": "Rem",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true,
+                      "labels": {}
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "06: Test complémentaire 6",
+                      "type": "text-field",
+                      "shortLabel": "6: ",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true,
+                      "labels": {
+                        "left": "6:"
+                      }
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "06: Test complémentaire (48) H",
+                      "type": "dropdown-field",
+                      "shortLabel": "",
+                      "grows": true,
+                      "span": 2,
+                      "readonly": false,
+                      "options": {
+                        "LEGACY|(-)|1": "(-)",
+                        "LEGACY|(+/-)|1": "(+/-)",
+                        "LEGACY|(+)|1": "(+)",
+                        "LEGACY|(++)|1": "(++)",
+                        "LEGACY|(+++)|1": "(+++)"
+                      },
+                      "multiline": false,
+                      "translate": true,
+                      "labels": {}
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "06: Test complémentaire (72) H",
+                      "type": "dropdown-field",
+                      "shortLabel": "",
+                      "grows": true,
+                      "span": 4,
+                      "readonly": false,
+                      "options": {
+                        "LEGACY|(-)|1": "(-)",
+                        "LEGACY|(-/+)|1": "(-/+)",
+                        "LEGACY|(+)|1": "(+)",
+                        "LEGACY|(++)|1": "(++)",
+                        "LEGACY|(+++)|1": "(+++)"
+                      },
+                      "multiline": false,
+                      "translate": true,
+                      "labels": {}
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "06: Test complémentaire (96) H",
+                      "type": "dropdown-field",
+                      "shortLabel": "",
+                      "grows": true,
+                      "span": 2,
+                      "readonly": false,
+                      "options": {
+                        "LEGACY|(-)|1": "(-)",
+                        "LEGACY|(-/+)|1": "(-/+)",
+                        "LEGACY|(+)|1": "(+)",
+                        "LEGACY|(++)|1": "(++)",
+                        "LEGACY|(+++)|1": "(+++)"
+                      },
+                      "multiline": false,
+                      "translate": true,
+                      "labels": {}
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "06: Test complémentaire Remarque",
+                      "type": "text-field",
+                      "shortLabel": "Rem",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true,
+                      "labels": {}
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "07: Test complémentaire 7",
+                      "type": "text-field",
+                      "shortLabel": "7: ",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true,
+                      "labels": {
+                        "left": "7:"
+                      }
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "07: Test complémentaire (48) H",
+                      "type": "dropdown-field",
+                      "shortLabel": "",
+                      "grows": true,
+                      "span": 2,
+                      "readonly": false,
+                      "options": {
+                        "LEGACY|(-)|1": "(-)",
+                        "LEGACY|(+/-)|1": "(+/-)",
+                        "LEGACY|(+)|1": "(+)",
+                        "LEGACY|(++)|1": "(++)",
+                        "LEGACY|(+++)|1": "(+++)"
+                      },
+                      "multiline": false,
+                      "translate": true,
+                      "labels": {}
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "07: Test complémentaire (72) H",
+                      "type": "dropdown-field",
+                      "shortLabel": "",
+                      "grows": true,
+                      "span": 4,
+                      "readonly": false,
+                      "options": {
+                        "LEGACY|(-)|1": "(-)",
+                        "LEGACY|(-/+)|1": "(-/+)",
+                        "LEGACY|(+)|1": "(+)",
+                        "LEGACY|(++)|1": "(++)",
+                        "LEGACY|(+++)|1": "(+++)"
+                      },
+                      "multiline": false,
+                      "translate": true,
+                      "labels": {}
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "07: Test complémentaire (96) H",
+                      "type": "dropdown-field",
+                      "shortLabel": "",
+                      "grows": true,
+                      "span": 2,
+                      "readonly": false,
+                      "options": {
+                        "LEGACY|(-)|1": "(-)",
+                        "LEGACY|(-/+)|1": "(-/+)",
+                        "LEGACY|(+)|1": "(+)",
+                        "LEGACY|(++)|1": "(++)",
+                        "LEGACY|(+++)|1": "(+++)"
+                      },
+                      "multiline": false,
+                      "translate": true,
+                      "labels": {}
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "07: Test complémentaire Remarque",
+                      "type": "text-field",
+                      "shortLabel": "Rem",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true,
+                      "labels": {}
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "08: Test complémentaire 8",
+                      "type": "text-field",
+                      "shortLabel": "8: ",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true,
+                      "labels": {
+                        "left": "8:"
+                      }
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "08: Test complémentaire (48) H",
+                      "type": "dropdown-field",
+                      "shortLabel": "",
+                      "grows": true,
+                      "span": 2,
+                      "readonly": false,
+                      "options": {
+                        "LEGACY|(-)|1": "(-)",
+                        "LEGACY|(+/-)|1": "(+/-)",
+                        "LEGACY|(+)|1": "(+)",
+                        "LEGACY|(++)|1": "(++)",
+                        "LEGACY|(+++)|1": "(+++)"
+                      },
+                      "multiline": false,
+                      "translate": true,
+                      "labels": {}
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "08: Test complémentaire (72) H",
+                      "type": "dropdown-field",
+                      "shortLabel": "",
+                      "grows": true,
+                      "span": 4,
+                      "readonly": false,
+                      "options": {
+                        "LEGACY|(-)|1": "(-)",
+                        "LEGACY|(+/-)|1": "(+/-)",
+                        "LEGACY|(+)|1": "(+)",
+                        "LEGACY|(++)|1": "(++)",
+                        "LEGACY|(+++)|1": "(+++)"
+                      },
+                      "multiline": false,
+                      "translate": true,
+                      "labels": {}
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "08: Test complémentaire (96) H",
+                      "type": "dropdown-field",
+                      "shortLabel": "",
+                      "grows": true,
+                      "span": 2,
+                      "readonly": false,
+                      "options": {
+                        "LEGACY|(-)|1": "(-)",
+                        "LEGACY|(+/-)|1": "(+/-)",
+                        "LEGACY|(+)|1": "(+)",
+                        "LEGACY|(++)|1": "(++)",
+                        "LEGACY|(+++)|1": "(+++)"
+                      },
+                      "multiline": false,
+                      "translate": true,
+                      "labels": {}
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "08: Test complémentaire Remarque",
+                      "type": "text-field",
+                      "shortLabel": "Rem",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true,
+                      "labels": {}
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "09: Test complémentaire 9",
+                      "type": "text-field",
+                      "shortLabel": "9: ",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true,
+                      "labels": {
+                        "left": "9:"
+                      }
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "09: Test complémentaire (48) H",
+                      "type": "dropdown-field",
+                      "shortLabel": "",
+                      "grows": true,
+                      "span": 2,
+                      "readonly": false,
+                      "options": {
+                        "LEGACY|(-)|1": "(-)",
+                        "LEGACY|(+/-)|1": "(+/-)",
+                        "LEGACY|(+)|1": "(+)",
+                        "LEGACY|(++)|1": "(++)",
+                        "LEGACY|(+++)|1": "(+++)"
+                      },
+                      "multiline": false,
+                      "translate": true,
+                      "labels": {}
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "09: Test complémentaire (72) H",
+                      "type": "dropdown-field",
+                      "shortLabel": "",
+                      "grows": true,
+                      "span": 4,
+                      "readonly": false,
+                      "options": {
+                        "LEGACY|(-)|1": "(-)",
+                        "LEGACY|(+/-)|1": "(+/-)",
+                        "LEGACY|(+)|1": "(+)",
+                        "LEGACY|(++)|1": "(++)",
+                        "LEGACY|(+++)|1": "(+++)"
+                      },
+                      "multiline": false,
+                      "translate": true,
+                      "labels": {}
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "09: Test complémentaire (96) H",
+                      "type": "dropdown-field",
+                      "shortLabel": "",
+                      "grows": true,
+                      "span": 2,
+                      "readonly": false,
+                      "options": {
+                        "LEGACY|(-)|1": "(-)",
+                        "LEGACY|(+/-)|1": "(+/-)",
+                        "LEGACY|(+)|1": "(+)",
+                        "LEGACY|(++)|1": "(++)",
+                        "LEGACY|(+++)|1": "(+++)"
+                      },
+                      "multiline": false,
+                      "translate": true,
+                      "labels": {}
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "09: Test complémentaire Remarque",
+                      "type": "text-field",
+                      "shortLabel": "Rem",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true,
+                      "labels": {}
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "10: Test complémentaire 10",
+                      "type": "text-field",
+                      "shortLabel": "10: ",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true,
+                      "labels": {
+                        "left": "10:"
+                      }
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "10: Test complémentaire (48) H",
+                      "type": "dropdown-field",
+                      "shortLabel": "",
+                      "grows": true,
+                      "span": 2,
+                      "readonly": false,
+                      "options": {
+                        "LEGACY|(-)|1": "(-)",
+                        "LEGACY|(+/-)|1": "(+/-)",
+                        "LEGACY|(+)|1": "(+)",
+                        "LEGACY|(++)|1": "(++)",
+                        "LEGACY|(+++)|1": "(+++)"
+                      },
+                      "multiline": false,
+                      "translate": true,
+                      "labels": {}
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "10: Test complémentaire (72) H",
+                      "type": "dropdown-field",
+                      "shortLabel": "",
+                      "grows": true,
+                      "span": 4,
+                      "readonly": false,
+                      "options": {
+                        "LEGACY|(-)|1": "(-)",
+                        "LEGACY|(+/-)|1": "(+/-)",
+                        "LEGACY|(+)|1": "(+)",
+                        "LEGACY|(++)|1": "(++)",
+                        "LEGACY|(+++)|1": "(+++)"
+                      },
+                      "multiline": false,
+                      "translate": true,
+                      "labels": {}
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "10: Test complémentaire (96) H",
+                      "type": "dropdown-field",
+                      "shortLabel": "",
+                      "grows": true,
+                      "span": 2,
+                      "readonly": false,
+                      "options": {
+                        "LEGACY|(-)|1": "(-)",
+                        "LEGACY|(+/-)|1": "(+/-)",
+                        "LEGACY|(+)|1": "(+)",
+                        "LEGACY|(++)|1": "(++)",
+                        "LEGACY|(+++)|1": "(+++)"
+                      },
+                      "multiline": false,
+                      "translate": true,
+                      "labels": {}
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "10: Test complémentaire Remarque",
+                      "type": "text-field",
+                      "shortLabel": "Rem",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true,
+                      "labels": {}
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "1F1F8C05-0DBF-4F5B-8690-76F521C1DB0F",
+                      "type": "action",
+                      "shortLabel": "Imprimer",
+                      "grows": true,
+                      "span": 24,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "span": 24,
+          "rowSpan": 1,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "961B150F-52CB-4E19-B757-3837884AD7A4",
+          "type": "action",
+          "shortLabel": "Imprimer",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

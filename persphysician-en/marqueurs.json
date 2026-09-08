@@ -1,0 +1,193 @@
+{
+  "form": "Biologie/Marqueurs",
+  "id": "71D98DFF-2244-461B-8E92-FEBE1B73FA4A",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "PSA (50 ans et +)",
+          "type": "checkbox",
+          "shortLabel": "PSA (50 ans et +)",
+          "grows": true,
+          "span": 1,
+          "readonly": false,
+          "options": {
+            "PSA (50 ans et +)": "PSA (50 ans et +)"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Alpha-foetoprotéine",
+          "type": "checkbox",
+          "shortLabel": "Alpha-foetoprotéine",
+          "grows": true,
+          "span": 23,
+          "readonly": false,
+          "options": {
+            "Alpha-foetoprotéine": "Alpha-foetoprotéine"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "PSA (5,2€)",
+          "type": "checkbox",
+          "shortLabel": "PSA (5,2€)",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "PSA (5,2€)": "PSA (5,2€)"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Gastrine",
+          "type": "checkbox",
+          "shortLabel": "Gastrine",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Gastrine": "Gastrine"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "CEA, max. 1 analyse",
+          "type": "checkbox",
+          "shortLabel": "CEA, max. 1 analyse",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "CEA, max. 1 analyse": "CEA, max. 1 analyse"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "CA 15,3 (sein), max. 1 analyse",
+          "type": "checkbox",
+          "shortLabel": "CA 15,3 (sein), max. 1",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "CA 15,3 (sein), max. 1": "CA 15,3 (sein), max. 1"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "PSA libre (6,2€)",
+          "type": "checkbox",
+          "shortLabel": "PSA libre (6,2€)",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "PSA libre (6,2€)": "PSA libre (6,2€)"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "β2 microglobuline",
+          "type": "checkbox",
+          "shortLabel": "β2 microglobuline",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "β2 microglobuline": "β2 microglobuline"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "CA 125 (ovaire), max.1 analyse",
+          "type": "checkbox",
+          "shortLabel": "CA 125 (ovaire), max.1",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "CA 125 (ovaire), max.1": "CA 125 (ovaire), max.1"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "NSE (poumon)",
+          "type": "checkbox",
+          "shortLabel": "NSE (poumon)",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "NSE (poumon)": "NSE (poumon)"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "CEA(5,2€)",
+          "type": "checkbox",
+          "shortLabel": "CEA(5,2€)",
+          "grows": true,
+          "span": 1,
+          "readonly": false,
+          "options": {
+            "CEA(5,2€)": "CEA(5,2€)"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "CA 19,9 (pancréas, tr.digestif), max. 1 analyse",
+          "type": "checkbox",
+          "shortLabel": "CA 19,9(pancr.,tr.dig.),mx1",
+          "grows": true,
+          "span": 16,
+          "readonly": false,
+          "options": {
+            "CA 19,9(pancr.,tr.dig.),mx1": "CA 19,9(pancr.,tr.dig.),mx1"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "HCG (ss unité β libre, max. 1 analyse)",
+          "type": "checkbox",
+          "shortLabel": "HCG (ss unité β libre,mx.1)",
+          "grows": true,
+          "span": 7,
+          "readonly": false,
+          "options": {
+            "HCG (ss unité β libre,mx.1)": "HCG (ss unité β libre,mx.1)"
+          },
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

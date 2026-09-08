@@ -1,0 +1,276 @@
+{
+  "form": "Examens complémentaires/Anatomo-pathologie",
+  "id": "EC4F50AC-BF1C-4D00-9691-3C089096A959",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Analyses urgentes ",
+          "type": "checkbox",
+          "shortLabel": "Analyse urgente",
+          "grows": true,
+          "span": 1,
+          "readonly": false,
+          "options": {
+            "Analyse urgente": "Analyse urgente"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Nombre(s) de pots",
+          "type": "number-field",
+          "shortLabel": "Nombre(s) de pots",
+          "grows": true,
+          "span": 12,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Nombre(s) de prélèvement(s) par pot",
+          "type": "number-field",
+          "shortLabel": "Nombre(s) de prélèvement(s) par pot",
+          "grows": true,
+          "span": 11,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Punch",
+          "type": "checkbox",
+          "shortLabel": "Punch",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "options": {
+            "Punch": "Punch"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Curette",
+          "type": "checkbox",
+          "shortLabel": "Curette",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "Curette": "Curette"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Biopsie à la lame",
+          "type": "checkbox",
+          "shortLabel": "Biopsie à la lame",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "options": {
+            "Biopsie à la lame": "Biopsie à la lame"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Excision shave-coagulation",
+          "type": "checkbox",
+          "shortLabel": "Excision shave-coagulation",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "options": {
+            "Excision shave-coagulation": "Excision shave-coagulation"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Excision suture",
+          "type": "checkbox",
+          "shortLabel": "Excision suture",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "options": {
+            "Excision suture": "Excision suture"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Examen anapath HES",
+          "type": "checkbox",
+          "shortLabel": "Ex anapath HES 588011",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "options": {
+            "Ex anapath HES 588011": "Ex anapath HES 588011"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Immunomarquage",
+          "type": "checkbox",
+          "shortLabel": "Immunomarquage",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "Immunomarquage": "Immunomarquage"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Examen anapath PAS",
+          "type": "checkbox",
+          "shortLabel": "PAS",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "options": {
+            "PAS": "PAS"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Biologie moléculaire",
+          "type": "checkbox",
+          "shortLabel": "Biologie moléculaire",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "options": {
+            "Biologie moléculaire": "Biologie moléculaire"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Prélévement d'ongle",
+          "type": "checkbox",
+          "shortLabel": "Prélévement d'ongle",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "options": {
+            "Prélévement d'ongle": "Prélévement d'ongle"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "IFD",
+          "type": "checkbox",
+          "shortLabel": "IFD 588070 X ...",
+          "grows": true,
+          "span": 1,
+          "readonly": false,
+          "options": {
+            "IFD 588070 X ...": "IFD 588070 X ..."
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Examen mycologique",
+          "type": "checkbox",
+          "shortLabel": "Examen mycologique",
+          "grows": true,
+          "span": 7,
+          "readonly": false,
+          "options": {
+            "Examen mycologique": "Examen mycologique"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "IFI",
+          "type": "checkbox",
+          "shortLabel": "IFI 588070 X ...",
+          "grows": true,
+          "span": 9,
+          "readonly": false,
+          "options": {
+            "IFI 588070 X ...": "IFI 588070 X ..."
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Trichogramme",
+          "type": "checkbox",
+          "shortLabel": "Trichogramme",
+          "grows": true,
+          "span": 7,
+          "readonly": false,
+          "options": {
+            "Trichogramme": "Trichogramme"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Examen anapath autre",
+          "type": "text-field",
+          "shortLabel": "Examen anapath autre",
+          "grows": true,
+          "span": 19,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "1C32EE8F-1CD2-4629-AD6A-AF0427B6E5F4",
+          "type": "action",
+          "shortLabel": "Biopsie",
+          "grows": true,
+          "span": 3,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "11556B65-6543-4EA6-B91A-A9913EEE4C51",
+          "type": "action",
+          "shortLabel": "Excision",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

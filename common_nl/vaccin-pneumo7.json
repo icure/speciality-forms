@@ -1,0 +1,22 @@
+{
+  "form": "Subformulieren/Vaccin Pneumo7",
+  "id": "566FBCEC-3250-4CF9-9C31-F9D18A3A237C",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Vaccin",
+          "type": "text-field",
+          "shortLabel": "Vac.pneumo7",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

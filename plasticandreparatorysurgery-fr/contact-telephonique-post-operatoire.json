@@ -1,0 +1,55 @@
+{
+  "form": "Post-op/contact téléphonique post-opératoire",
+  "id": "DBBAC74B-DA50-4669-97A7-0D9B72B56E8B",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "date",
+          "type": "date-picker",
+          "shortLabel": "date",
+          "grows": true,
+          "span": 7,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "intitulé",
+          "type": "text-field",
+          "shortLabel": "intitulé",
+          "grows": true,
+          "span": 17,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "réponse téléphonique",
+          "type": "dropdown-field",
+          "shortLabel": "réponse téléphonique",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "note",
+          "type": "text-field",
+          "shortLabel": "note",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

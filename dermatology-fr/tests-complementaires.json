@@ -1,0 +1,852 @@
+{
+  "form": "Examens complémentaires/Tests complémentaires",
+  "id": "9C07ECDA-FBBD-4014-BCFD-389E62931723",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "01: Test complémentaire 1",
+          "type": "text-field",
+          "shortLabel": "1: ",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "multiline": false,
+          "translate": true,
+          "labels": {
+            "left": "1:"
+          }
+        },
+        {
+          "clazz": "field",
+          "field": "01: Test complémentaire (48) H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "01: Test complémentaire (72) H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "01: Test complémentaire (96) H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "01: Test complémentaire Remarque",
+          "type": "text-field",
+          "shortLabel": "Rem",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "02: Test complémentaire 2",
+          "type": "text-field",
+          "shortLabel": "2: ",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "multiline": false,
+          "translate": true,
+          "labels": {
+            "left": "2:"
+          }
+        },
+        {
+          "clazz": "field",
+          "field": "02: Test complémentaire (48) H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "02: Test complémentaire (72) H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(-/+)|1": "(-/+)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "02: Test complémentaire (96) H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(-/+)|1": "(-/+)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "02: Test complémentaire Remarque",
+          "type": "text-field",
+          "shortLabel": "Rem",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "03: Test complémentaire 3",
+          "type": "text-field",
+          "shortLabel": "3: ",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "multiline": false,
+          "translate": true,
+          "labels": {
+            "left": "3:"
+          }
+        },
+        {
+          "clazz": "field",
+          "field": "03: Test complémentaire (48) H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "03: Test complémentaire (72) H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "03: Test complémentaire (96) H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(-/+)|1": "(-/+)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "03: Test complémentaire Remarque",
+          "type": "text-field",
+          "shortLabel": "Rem",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "04: Test complémentaire 4",
+          "type": "text-field",
+          "shortLabel": "4: ",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "multiline": false,
+          "translate": true,
+          "labels": {
+            "left": "4:"
+          }
+        },
+        {
+          "clazz": "field",
+          "field": "04: Test complémentaire (48) H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "04: Test complémentaire (72) H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(-/+)|1": "(-/+)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "04: Test complémentaire (96) H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(-/+)|1": "(-/+)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "04: Test complémentaire Remarque",
+          "type": "text-field",
+          "shortLabel": "Rem",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "05: Test complémentaire 5",
+          "type": "text-field",
+          "shortLabel": "5: ",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "multiline": false,
+          "translate": true,
+          "labels": {
+            "left": "5:"
+          }
+        },
+        {
+          "clazz": "field",
+          "field": "05: Test complémentaire (48) H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "05: Test complémentaire (72) H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(-/+)|1": "(-/+)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "05: Test complémentaire (96) H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(-/+)|1": "(-/+)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "05: Test complémentaire Remarque",
+          "type": "text-field",
+          "shortLabel": "Rem",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "06: Test complémentaire 6",
+          "type": "text-field",
+          "shortLabel": "6: ",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "multiline": false,
+          "translate": true,
+          "labels": {
+            "left": "6:"
+          }
+        },
+        {
+          "clazz": "field",
+          "field": "06: Test complémentaire (48) H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "06: Test complémentaire (72) H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(-/+)|1": "(-/+)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "06: Test complémentaire (96) H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(-/+)|1": "(-/+)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "06: Test complémentaire Remarque",
+          "type": "text-field",
+          "shortLabel": "Rem",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "07: Test complémentaire 7",
+          "type": "text-field",
+          "shortLabel": "7: ",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "multiline": false,
+          "translate": true,
+          "labels": {
+            "left": "7:"
+          }
+        },
+        {
+          "clazz": "field",
+          "field": "07: Test complémentaire (48) H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "07: Test complémentaire (72) H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(-/+)|1": "(-/+)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "07: Test complémentaire (96) H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(-/+)|1": "(-/+)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "07: Test complémentaire Remarque",
+          "type": "text-field",
+          "shortLabel": "Rem",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "08: Test complémentaire 8",
+          "type": "text-field",
+          "shortLabel": "8: ",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "multiline": false,
+          "translate": true,
+          "labels": {
+            "left": "8:"
+          }
+        },
+        {
+          "clazz": "field",
+          "field": "08: Test complémentaire (48) H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "08: Test complémentaire (72) H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "08: Test complémentaire (96) H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "08: Test complémentaire Remarque",
+          "type": "text-field",
+          "shortLabel": "Rem",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "09: Test complémentaire 9",
+          "type": "text-field",
+          "shortLabel": "9: ",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "multiline": false,
+          "translate": true,
+          "labels": {
+            "left": "9:"
+          }
+        },
+        {
+          "clazz": "field",
+          "field": "09: Test complémentaire (48) H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "09: Test complémentaire (72) H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "09: Test complémentaire (96) H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "09: Test complémentaire Remarque",
+          "type": "text-field",
+          "shortLabel": "Rem",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "10: Test complémentaire 10",
+          "type": "text-field",
+          "shortLabel": "10: ",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "multiline": false,
+          "translate": true,
+          "labels": {
+            "left": "10:"
+          }
+        },
+        {
+          "clazz": "field",
+          "field": "10: Test complémentaire (48) H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "10: Test complémentaire (72) H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "10: Test complémentaire (96) H",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "LEGACY|(-)|1": "(-)",
+            "LEGACY|(+/-)|1": "(+/-)",
+            "LEGACY|(+)|1": "(+)",
+            "LEGACY|(++)|1": "(++)",
+            "LEGACY|(+++)|1": "(+++)"
+          },
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "10: Test complémentaire Remarque",
+          "type": "text-field",
+          "shortLabel": "Rem",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "multiline": false,
+          "translate": true,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "1F1F8C05-0DBF-4F5B-8690-76F521C1DB0F",
+          "type": "action",
+          "shortLabel": "Imprimer",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

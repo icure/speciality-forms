@@ -1,0 +1,22 @@
+{
+  "form": "FORM complémentaires/Note",
+  "id": "F30D640E-C703-4576-A9EA-01613E01488C",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Note",
+          "type": "text-field",
+          "shortLabel": "Note",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

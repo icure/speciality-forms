@@ -1,0 +1,4330 @@
+{
+  "form": "Biologie/Biologie",
+  "id": "007A0C6B-81D1-43CA-8B30-7775F20EEEF3",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Prescritpion urgente",
+          "type": "checkbox",
+          "shortLabel": "Prescritpion urgente",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "options": {
+            "Prescritpion urgente": "Prescritpion urgente"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Analyses urgentes ",
+          "type": "checkbox",
+          "shortLabel": "Analyses urgentes ",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "options": {
+            "Analyses urgentes ": "Analyses urgentes "
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Analyses urgentes, remarques",
+          "type": "text-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "1BE8E192-1390-4F9D-98D4-D94D17AD009E",
+          "type": "action",
+          "shortLabel": "Imprimer",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "subform",
+          "id": "DE267504-4848-476E-BED1-94B3141DDB3C",
+          "shortLabel": "Analyses à réaliser",
+          "forms": {
+            "Biologie/Hématologie": {
+              "form": "Biologie/Hématologie",
+              "id": "38052049-A45B-4170-A878-29C44AEC0671",
+              "sections": [
+                {
+                  "section": "Main",
+                  "fields": [
+                    {
+                      "clazz": "field",
+                      "field": "Hémoglobine",
+                      "type": "checkbox",
+                      "shortLabel": "Hémoglobine",
+                      "grows": true,
+                      "span": 4,
+                      "readonly": false,
+                      "options": {
+                        "Hémoglobine": "Hémoglobine"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "G.R. Hématocrite",
+                      "type": "checkbox",
+                      "shortLabel": "G.R. Hématocrite",
+                      "grows": true,
+                      "span": 4,
+                      "readonly": false,
+                      "options": {
+                        "G.R. Hématocrite": "G.R. Hématocrite"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Globules blancs",
+                      "type": "checkbox",
+                      "shortLabel": "Globules blancs",
+                      "grows": true,
+                      "span": 4,
+                      "readonly": false,
+                      "options": {
+                        "Globules blancs": "Globules blancs"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Formule",
+                      "type": "checkbox",
+                      "shortLabel": "Formule",
+                      "grows": true,
+                      "span": 4,
+                      "readonly": false,
+                      "options": {
+                        "Formule": "Formule"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Plaquettes",
+                      "type": "checkbox",
+                      "shortLabel": "Plaquettes",
+                      "grows": true,
+                      "span": 4,
+                      "readonly": false,
+                      "options": {
+                        "Plaquettes": "Plaquettes"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Réticulocytes",
+                      "type": "checkbox",
+                      "shortLabel": "Réticulocytes",
+                      "grows": true,
+                      "span": 4,
+                      "readonly": false,
+                      "options": {
+                        "Réticulocytes": "Réticulocytes"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Fer",
+                      "type": "checkbox",
+                      "shortLabel": "Fer",
+                      "grows": true,
+                      "span": 4,
+                      "readonly": false,
+                      "options": {
+                        "Fer": "Fer"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Transferrine",
+                      "type": "checkbox",
+                      "shortLabel": "Transferrine",
+                      "grows": true,
+                      "span": 4,
+                      "readonly": false,
+                      "options": {
+                        "Transferrine": "Transferrine"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Fer+IBC (Saturation)",
+                      "type": "checkbox",
+                      "shortLabel": "Fer+IBC (Saturation)",
+                      "grows": true,
+                      "span": 4,
+                      "readonly": false,
+                      "options": {
+                        "Fer+IBC (Saturation)": "Fer+IBC (Saturation)"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Ferritine",
+                      "type": "checkbox",
+                      "shortLabel": "Ferritine",
+                      "grows": true,
+                      "span": 4,
+                      "readonly": false,
+                      "options": {
+                        "Ferritine": "Ferritine"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Vitamine B12",
+                      "type": "checkbox",
+                      "shortLabel": "Vitamine B12",
+                      "grows": true,
+                      "span": 4,
+                      "readonly": false,
+                      "options": {
+                        "Vitamine B12": "Vitamine B12"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Ac folique (sérique)",
+                      "type": "checkbox",
+                      "shortLabel": "Ac folique (sérique)",
+                      "grows": true,
+                      "span": 4,
+                      "readonly": false,
+                      "options": {
+                        "Ac folique (sérique)": "Ac folique (sérique)"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Ac folique (érythroc.)",
+                      "type": "checkbox",
+                      "shortLabel": "Ac folique (érythroc.)",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "Ac folique (érythroc.)": "Ac folique (érythroc.)"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Carboxyhémoglobine",
+                      "type": "checkbox",
+                      "shortLabel": "Carboxyhémoglobine",
+                      "grows": true,
+                      "span": 10,
+                      "readonly": false,
+                      "options": {
+                        "Carboxyhémoglobine": "Carboxyhémoglobine"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Méthémoglobine",
+                      "type": "checkbox",
+                      "shortLabel": "Méthémoglobine",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "options": {
+                        "Méthémoglobine": "Méthémoglobine"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    }
+                  ]
+                }
+              ]
+            },
+            "Biologie/Hemostase": {
+              "form": "Biologie/Hemostase",
+              "id": "0118C48C-2B5C-428A-AC8B-EDE1DA37AAAB",
+              "sections": [
+                {
+                  "section": "Main",
+                  "fields": [
+                    {
+                      "clazz": "field",
+                      "field": "Tps de Quick (+INR)",
+                      "type": "checkbox",
+                      "shortLabel": "Tps de Quick (+INR)",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "options": {
+                        "Tps de Quick (+INR)": "Tps de Quick (+INR)"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Antithrombine III",
+                      "type": "checkbox",
+                      "shortLabel": "Antithrombine III",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "options": {
+                        "Antithrombine III": "Antithrombine III"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Tps de saignement",
+                      "type": "checkbox",
+                      "shortLabel": "Tps de saignement",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "options": {
+                        "Tps de saignement": "Tps de saignement"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Tps de céphaline (APTT)",
+                      "type": "checkbox",
+                      "shortLabel": "Tps de céphaline (APTT)",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "options": {
+                        "Tps de céphaline (APTT)": "Tps de céphaline (APTT)"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Plasminogène",
+                      "type": "checkbox",
+                      "shortLabel": "Plasminogène",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "options": {
+                        "Plasminogène": "Plasminogène"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Von Wilebrand antigène",
+                      "type": "checkbox",
+                      "shortLabel": "Von Wilebrand antigène",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "options": {
+                        "Von Wilebrand antigène": "Von Wilebrand antigène"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Protéine C",
+                      "type": "checkbox",
+                      "shortLabel": "Protéine C",
+                      "grows": true,
+                      "span": 13,
+                      "readonly": false,
+                      "options": {
+                        "Protéine C": "Protéine C"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Von Willebrand activité",
+                      "type": "checkbox",
+                      "shortLabel": "Von Willebrand activité",
+                      "grows": true,
+                      "span": 11,
+                      "readonly": false,
+                      "options": {
+                        "Von Willebrand activité": "Von Willebrand activité"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Tps de céphaline (APTT)",
+                      "type": "checkbox",
+                      "shortLabel": "Tps de céphaline (APTT)",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "options": {
+                        "Tps de céphaline (APTT)": "Tps de céphaline (APTT)"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Protéine S",
+                      "type": "checkbox",
+                      "shortLabel": "Protéine S",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "options": {
+                        "Protéine S": "Protéine S"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Facteur VIII",
+                      "type": "checkbox",
+                      "shortLabel": "Facteur VIII",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "options": {
+                        "Facteur VIII": "Facteur VIII"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Tps de Quick (+INR)",
+                      "type": "checkbox",
+                      "shortLabel": "Tps de Quick (+INR)",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "options": {
+                        "Tps de Quick (+INR)": "Tps de Quick (+INR)"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "APC résistance",
+                      "type": "checkbox",
+                      "shortLabel": "APC résistance",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "options": {
+                        "APC résistance": "APC résistance"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Facteur IX",
+                      "type": "checkbox",
+                      "shortLabel": "Facteur IX",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "options": {
+                        "Facteur IX": "Facteur IX"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Tps de thrombine",
+                      "type": "checkbox",
+                      "shortLabel": "Tps de thrombine",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "options": {
+                        "Tps de thrombine": "Tps de thrombine"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Anticoagulant lupique",
+                      "type": "checkbox",
+                      "shortLabel": "Anticoagulant lupique",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "options": {
+                        "Anticoagulant lupique": "Anticoagulant lupique"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Alpha 2-antiplasmine (5€)",
+                      "type": "checkbox",
+                      "shortLabel": "Alpha 2-antiplasmine (5€)",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "options": {
+                        "Alpha 2-antiplasmine (5€)": "Alpha 2-antiplasmine (5€)"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Fibrogène (Saturation)",
+                      "type": "checkbox",
+                      "shortLabel": "Fibrogène (Saturation)",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "options": {
+                        "Fibrogène (Saturation)": "Fibrogène (Saturation)"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "AC anti-phospolipides",
+                      "type": "checkbox",
+                      "shortLabel": "AC anti-phospolipides",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "options": {
+                        "AC anti-phospolipides": "AC anti-phospolipides"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Facteur XIII",
+                      "type": "checkbox",
+                      "shortLabel": "Facteur XIII",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "options": {
+                        "Facteur XIII": "Facteur XIII"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "D-Dimères",
+                      "type": "checkbox",
+                      "shortLabel": "D-Dimères",
+                      "grows": true,
+                      "span": 24,
+                      "readonly": false,
+                      "options": {
+                        "D-Dimères": "D-Dimères"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    }
+                  ]
+                }
+              ]
+            },
+            "Biologie/Inflammation": {
+              "form": "Biologie/Inflammation",
+              "id": "6C45FBCA-C06A-4742-AB82-096B1D30847E",
+              "sections": [
+                {
+                  "section": "Main",
+                  "fields": [
+                    {
+                      "clazz": "field",
+                      "field": "VS",
+                      "type": "checkbox",
+                      "shortLabel": "VS",
+                      "grows": true,
+                      "span": 1,
+                      "readonly": false,
+                      "options": {
+                        "VS": "VS"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Fibrinogène",
+                      "type": "checkbox",
+                      "shortLabel": "Fibrinogène",
+                      "grows": true,
+                      "span": 5,
+                      "readonly": false,
+                      "options": {
+                        "Fibrinogène": "Fibrinogène"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "RA test",
+                      "type": "checkbox",
+                      "shortLabel": "RA test",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "RA test": "RA test"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "FAN (rech. titrage)",
+                      "type": "checkbox",
+                      "shortLabel": "FAN (rech. titrage)",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "FAN (rech. titrage)": "FAN (rech. titrage)"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "AC anti-filaggrine",
+                      "type": "checkbox",
+                      "shortLabel": "AC anti-filaggrine",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "AC anti-filaggrine": "AC anti-filaggrine"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "CRP",
+                      "type": "checkbox",
+                      "shortLabel": "CRP",
+                      "grows": true,
+                      "span": 1,
+                      "readonly": false,
+                      "options": {
+                        "CRP": "CRP"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "ASLO",
+                      "type": "checkbox",
+                      "shortLabel": "ASLO",
+                      "grows": true,
+                      "span": 5,
+                      "readonly": false,
+                      "options": {
+                        "ASLO": "ASLO"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Waaler-Rose",
+                      "type": "checkbox",
+                      "shortLabel": "Waaler-Rose",
+                      "grows": true,
+                      "span": 12,
+                      "readonly": false,
+                      "options": {
+                        "Waaler-Rose": "Waaler-Rose"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "FAN (identification)",
+                      "type": "checkbox",
+                      "shortLabel": "FAN (identification)",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "FAN (identification)": "FAN (identification)"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    }
+                  ]
+                }
+              ]
+            },
+            "Biologie/Biochimie générale": {
+              "form": "Biologie/Biochimie générale",
+              "id": "D9F4A6E6-E77D-483D-B70B-D922E56FB953",
+              "sections": [
+                {
+                  "section": "Main",
+                  "fields": [
+                    {
+                      "clazz": "field",
+                      "field": "Acide urique",
+                      "type": "checkbox",
+                      "shortLabel": "Acide urique",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "Acide urique": "Acide urique"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Protéines totales",
+                      "type": "checkbox",
+                      "shortLabel": "Protéines totales",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "Protéines totales": "Protéines totales"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Bilirubine (T+C)",
+                      "type": "checkbox",
+                      "shortLabel": "Bilirubine (T+C)",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "Bilirubine (T+C)": "Bilirubine (T+C)"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Cholestérol total",
+                      "type": "checkbox",
+                      "shortLabel": "Cholestérol total",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "Cholestérol total": "Cholestérol total"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Urée",
+                      "type": "checkbox",
+                      "shortLabel": "Urée",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "Urée": "Urée"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Electro des protéines",
+                      "type": "checkbox",
+                      "shortLabel": "Electro des protéines",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "Electro des protéines": "Electro des protéines"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Gamma GT",
+                      "type": "checkbox",
+                      "shortLabel": "Gamma GT",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "Gamma GT": "Gamma GT"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "HDL cholestérol",
+                      "type": "checkbox",
+                      "shortLabel": "HDL cholestérol",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "HDL cholestérol": "HDL cholestérol"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Créatinine",
+                      "type": "checkbox",
+                      "shortLabel": "Créatinine",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "Créatinine": "Créatinine"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Immunoélectro si pic anormal à l'électro",
+                      "type": "checkbox",
+                      "shortLabel": "Immunoélec. si pic an.",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "Immunoélec. si pic an.": "Immunoélec. si pic an."
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "AST (GOT)",
+                      "type": "checkbox",
+                      "shortLabel": "AST (GOT)",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "AST (GOT)": "AST (GOT)"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Triglycérides",
+                      "type": "checkbox",
+                      "shortLabel": "Triglycérides",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "Triglycérides": "Triglycérides"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Clairance créatinine",
+                      "type": "checkbox",
+                      "shortLabel": "Clairance créatinine",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "Clairance créatinine": "Clairance créatinine"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Albumine",
+                      "type": "checkbox",
+                      "shortLabel": "Albumine",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "Albumine": "Albumine"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "ALT (GPT)",
+                      "type": "checkbox",
+                      "shortLabel": "ALT (GPT)",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "ALT (GPT)": "ALT (GPT)"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "LDL cholestérol calculé",
+                      "type": "checkbox",
+                      "shortLabel": "LDL cholestérol calculé",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "LDL cholestérol calculé": "LDL cholestérol calculé"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "GFR-MDRD (18-70 ans)",
+                      "type": "checkbox",
+                      "shortLabel": "GFR-MDRD (18-70 ans)",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "GFR-MDRD (18-70 ans)": "GFR-MDRD (18-70 ans)"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Haptoglobine",
+                      "type": "checkbox",
+                      "shortLabel": "Haptoglobine",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "Haptoglobine": "Haptoglobine"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "LDH",
+                      "type": "checkbox",
+                      "shortLabel": "LDH",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "LDH": "LDH"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Homocysteine (<55ans)",
+                      "type": "checkbox",
+                      "shortLabel": "Homocysteine (<55ans)",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "Homocysteine (<55ans)": "Homocysteine (<55ans)"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Chlore",
+                      "type": "checkbox",
+                      "shortLabel": "Chlore",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "options": {
+                        "Chlore": "Chlore"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Orosmucoïde",
+                      "type": "checkbox",
+                      "shortLabel": "Orosmucoïde",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "options": {
+                        "Orosmucoïde": "Orosmucoïde"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Iso-LDH si LDH pathologiques",
+                      "type": "checkbox",
+                      "shortLabel": "Iso-LDH si LDH path.",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "options": {
+                        "Iso-LDH si LDH path.": "Iso-LDH si LDH path."
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Potassium",
+                      "type": "checkbox",
+                      "shortLabel": "Potassium",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "Potassium": "Potassium"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "C3",
+                      "type": "checkbox",
+                      "shortLabel": "C3",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "C3": "C3"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "IgA",
+                      "type": "checkbox",
+                      "shortLabel": "IgA",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "IgA": "IgA"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Photastases alc",
+                      "type": "checkbox",
+                      "shortLabel": "Photastases alc",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "Photastases alc": "Photastases alc"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Sodium",
+                      "type": "checkbox",
+                      "shortLabel": "Sodium",
+                      "grows": true,
+                      "span": 5,
+                      "readonly": false,
+                      "options": {
+                        "Sodium": "Sodium"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "IgG",
+                      "type": "checkbox",
+                      "shortLabel": "IgG",
+                      "grows": true,
+                      "span": 5,
+                      "readonly": false,
+                      "options": {
+                        "IgG": "IgG"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "IgM",
+                      "type": "checkbox",
+                      "shortLabel": "IgM",
+                      "grows": true,
+                      "span": 4,
+                      "readonly": false,
+                      "options": {
+                        "IgM": "IgM"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Iso-phosphat.alc., si pathologie osseuse",
+                      "type": "checkbox",
+                      "shortLabel": "Iso-phos.alc., si path oss.",
+                      "grows": true,
+                      "span": 5,
+                      "readonly": false,
+                      "options": {
+                        "Iso-phos.alc., si path oss.": "Iso-phos.alc., si path oss."
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Glucose",
+                      "type": "checkbox",
+                      "shortLabel": "Glucose",
+                      "grows": true,
+                      "span": 5,
+                      "readonly": false,
+                      "options": {
+                        "Glucose": "Glucose"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Calcium",
+                      "type": "checkbox",
+                      "shortLabel": "Calcium",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "Calcium": "Calcium"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Préalbumine",
+                      "type": "checkbox",
+                      "shortLabel": "Préalbumine",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "Préalbumine": "Préalbumine"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "CPK",
+                      "type": "checkbox",
+                      "shortLabel": "CPK",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "CPK": "CPK"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Hb glyquée, si patient diabétique",
+                      "type": "checkbox",
+                      "shortLabel": "Hb glyquée, si pat. diab.",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "Hb glyquée, si pat. diab.": "Hb glyquée, si pat. diab."
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Magnésium",
+                      "type": "checkbox",
+                      "shortLabel": "Magnésium",
+                      "grows": true,
+                      "span": 5,
+                      "readonly": false,
+                      "options": {
+                        "Magnésium": "Magnésium"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "C4",
+                      "type": "checkbox",
+                      "shortLabel": "C4",
+                      "grows": true,
+                      "span": 5,
+                      "readonly": false,
+                      "options": {
+                        "C4": "C4"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "C3d",
+                      "type": "checkbox",
+                      "shortLabel": "C3d",
+                      "grows": true,
+                      "span": 4,
+                      "readonly": false,
+                      "options": {
+                        "C3d": "C3d"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Troponine lc",
+                      "type": "checkbox",
+                      "shortLabel": "Troponine lc",
+                      "grows": true,
+                      "span": 5,
+                      "readonly": false,
+                      "options": {
+                        "Troponine lc": "Troponine lc"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Hb gliquée (3,7€)",
+                      "type": "checkbox",
+                      "shortLabel": "Hb gliquée (3,7€)",
+                      "grows": true,
+                      "span": 5,
+                      "readonly": false,
+                      "options": {
+                        "Hb gliquée (3,7€)": "Hb gliquée (3,7€)"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Phosphore",
+                      "type": "checkbox",
+                      "shortLabel": "Phosphore",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "Phosphore": "Phosphore"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Alpha 1 antitrypsine",
+                      "type": "checkbox",
+                      "shortLabel": "Alpha 1 antitrypsine",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "Alpha 1 antitrypsine": "Alpha 1 antitrypsine"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Amylase",
+                      "type": "checkbox",
+                      "shortLabel": "Amylase",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "Amylase": "Amylase"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Insuline",
+                      "type": "checkbox",
+                      "shortLabel": "Insuline",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "Insuline": "Insuline"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Cuivre",
+                      "type": "checkbox",
+                      "shortLabel": "Cuivre",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "options": {
+                        "Cuivre": "Cuivre"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Alpha 2 macroglobuline",
+                      "type": "checkbox",
+                      "shortLabel": "Alpha 2 macroglobuline",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "options": {
+                        "Alpha 2 macroglobuline": "Alpha 2 macroglobuline"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "C-peptide",
+                      "type": "checkbox",
+                      "shortLabel": "C-peptide",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "options": {
+                        "C-peptide": "C-peptide"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Osmolalité",
+                      "type": "checkbox",
+                      "shortLabel": "Osmolalité",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "options": {
+                        "Osmolalité": "Osmolalité"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Céruplasmine",
+                      "type": "checkbox",
+                      "shortLabel": "Céruplasmine",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "options": {
+                        "Céruplasmine": "Céruplasmine"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Lipase",
+                      "type": "checkbox",
+                      "shortLabel": "Lipase",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "options": {
+                        "Lipase": "Lipase"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Bicarbonate",
+                      "type": "checkbox",
+                      "shortLabel": "Bicarbonate",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "options": {
+                        "Bicarbonate": "Bicarbonate"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Cryoglobuline",
+                      "type": "checkbox",
+                      "shortLabel": "Cryoglobuline",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "options": {
+                        "Cryoglobuline": "Cryoglobuline"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Trypsine",
+                      "type": "checkbox",
+                      "shortLabel": "Trypsine",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "options": {
+                        "Trypsine": "Trypsine"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Agglitinines froides",
+                      "type": "checkbox",
+                      "shortLabel": "Agglitinines froides",
+                      "grows": true,
+                      "span": 12,
+                      "readonly": false,
+                      "options": {
+                        "Agglitinines froides": "Agglitinines froides"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Cholinestérase",
+                      "type": "checkbox",
+                      "shortLabel": "Cholinestérase",
+                      "grows": true,
+                      "span": 12,
+                      "readonly": false,
+                      "options": {
+                        "Cholinestérase": "Cholinestérase"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Cryofibrinogène",
+                      "type": "checkbox",
+                      "shortLabel": "Cryofibrinogène",
+                      "grows": true,
+                      "span": 12,
+                      "readonly": false,
+                      "options": {
+                        "Cryofibrinogène": "Cryofibrinogène"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Cholinestérase (dibuc.)",
+                      "type": "checkbox",
+                      "shortLabel": "Cholinestérase (dibuc.)",
+                      "grows": true,
+                      "span": 12,
+                      "readonly": false,
+                      "options": {
+                        "Cholinestérase (dibuc.)": "Cholinestérase (dibuc.)"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    }
+                  ]
+                }
+              ]
+            },
+            "Biologie/Immuno-hématologie": {
+              "form": "Biologie/Immuno-hématologie",
+              "id": "C5B78793-D02F-446D-A7A2-D53A34AA98B1",
+              "sections": [
+                {
+                  "section": "Main",
+                  "fields": [
+                    {
+                      "clazz": "field",
+                      "field": "Groupe ABO + Rh",
+                      "type": "checkbox",
+                      "shortLabel": "Groupe ABO + Rh",
+                      "grows": true,
+                      "span": 7,
+                      "readonly": false,
+                      "options": {
+                        "Groupe ABO + Rh": "Groupe ABO + Rh"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Sous-groupes Rh",
+                      "type": "checkbox",
+                      "shortLabel": "Sous-groupes Rh",
+                      "grows": true,
+                      "span": 7,
+                      "readonly": false,
+                      "options": {
+                        "Sous-groupes Rh": "Sous-groupes Rh"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Coombs direct",
+                      "type": "checkbox",
+                      "shortLabel": "Coombs direct",
+                      "grows": true,
+                      "span": 7,
+                      "readonly": false,
+                      "options": {
+                        "Coombs direct": "Coombs direct"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "AC irréguliers (Anémie hémolytique ou grossesse)",
+                      "type": "checkbox",
+                      "shortLabel": "AC irr. (An. hémol. ou gros.)",
+                      "grows": true,
+                      "span": 3,
+                      "readonly": false,
+                      "options": {
+                        "AC irr. (An. hémol. ou gros.)": "AC irr. (An. hémol. ou gros.)"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    }
+                  ]
+                }
+              ]
+            },
+            "Biologie/Sérologie virale": {
+              "form": "Biologie/Sérologie virale",
+              "id": "DF5AF5CF-B2DC-4189-AC81-10EAAD745321",
+              "sections": [
+                {
+                  "section": "Main",
+                  "fields": [
+                    {
+                      "clazz": "group",
+                      "group": "Section 1",
+                      "fields": [
+                        {
+                          "clazz": "field",
+                          "field": "HAV IgM (diagnostic)",
+                          "type": "checkbox",
+                          "shortLabel": "HAV IgM (diagnostic)",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "options": {
+                            "HAV IgM (diagnostic)": "HAV IgM (diagnostic)"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Rubéole IgM",
+                          "type": "checkbox",
+                          "shortLabel": "Rubéole IgM",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "options": {
+                            "Rubéole IgM": "Rubéole IgM"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Parvovirus B19 IgM",
+                          "type": "checkbox",
+                          "shortLabel": "Parvovirus B19 IgM",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "options": {
+                            "Parvovirus B19 IgM": "Parvovirus B19 IgM"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "EBV IgM",
+                          "type": "checkbox",
+                          "shortLabel": "EBV IgM",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "options": {
+                            "EBV IgM": "EBV IgM"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "HAV IgG (immunité)",
+                          "type": "checkbox",
+                          "shortLabel": "HAV IgG (immunité)",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "options": {
+                            "HAV IgG (immunité)": "HAV IgG (immunité)"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Rubéole IgG (Ϙ)",
+                          "type": "checkbox",
+                          "shortLabel": "Rubéole IgG (Ϙ)",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "options": {
+                            "Rubéole IgG (Ϙ)": "Rubéole IgG (Ϙ)"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Parvovirus B19 IgG",
+                          "type": "checkbox",
+                          "shortLabel": "Parvovirus B19 IgG",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "options": {
+                            "Parvovirus B19 IgG": "Parvovirus B19 IgG"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "EBV IgG",
+                          "type": "checkbox",
+                          "shortLabel": "EBV IgG",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "options": {
+                            "EBV IgG": "EBV IgG"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Rubéole IgG (3,7€)",
+                          "type": "checkbox",
+                          "shortLabel": "Rubéole IgG (3,7€)",
+                          "grows": true,
+                          "span": 11,
+                          "readonly": false,
+                          "options": {
+                            "Rubéole IgG (3,7€)": "Rubéole IgG (3,7€)"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "MNI test",
+                          "type": "checkbox",
+                          "shortLabel": "MNI test",
+                          "grows": true,
+                          "span": 13,
+                          "readonly": false,
+                          "options": {
+                            "MNI test": "MNI test"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        }
+                      ],
+                      "borderless": false,
+                      "hideTitle": true,
+                      "translate": true,
+                      "span": 24
+                    },
+                    {
+                      "clazz": "group",
+                      "group": "Section 2",
+                      "fields": [
+                        {
+                          "clazz": "field",
+                          "field": "Antigène HBs",
+                          "type": "checkbox",
+                          "shortLabel": "Antigène HBs",
+                          "grows": true,
+                          "span": 12,
+                          "readonly": false,
+                          "options": {
+                            "Antigène HBs": "Antigène HBs"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Influenza A",
+                          "type": "checkbox",
+                          "shortLabel": "Influenza A",
+                          "grows": true,
+                          "span": 12,
+                          "readonly": false,
+                          "options": {
+                            "Influenza A": "Influenza A"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Anti-HBc",
+                          "type": "checkbox",
+                          "shortLabel": "Anti-HBc",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "options": {
+                            "Anti-HBc": "Anti-HBc"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Oreillons IgM",
+                          "type": "checkbox",
+                          "shortLabel": "Oreillons IgM",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "options": {
+                            "Oreillons IgM": "Oreillons IgM"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Influenza B",
+                          "type": "checkbox",
+                          "shortLabel": "Influenza B",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "options": {
+                            "Influenza B": "Influenza B"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "CMV IgM",
+                          "type": "checkbox",
+                          "shortLabel": "CMV IgM",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "options": {
+                            "CMV IgM": "CMV IgM"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Anti-HBs",
+                          "type": "checkbox",
+                          "shortLabel": "Anti-HBs",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "options": {
+                            "Anti-HBs": "Anti-HBs"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Oreillons IgG",
+                          "type": "checkbox",
+                          "shortLabel": "Oreillons IgG",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "options": {
+                            "Oreillons IgG": "Oreillons IgG"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Parainfluenza 1",
+                          "type": "checkbox",
+                          "shortLabel": "Parainfluenza 1",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "options": {
+                            "Parainfluenza 1": "Parainfluenza 1"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "CMV IgG",
+                          "type": "checkbox",
+                          "shortLabel": "CMV IgG",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "options": {
+                            "CMV IgG": "CMV IgG"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Antigène HBe",
+                          "type": "checkbox",
+                          "shortLabel": "Antigène HBe",
+                          "grows": true,
+                          "span": 12,
+                          "readonly": false,
+                          "options": {
+                            "Antigène HBe": "Antigène HBe"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Parainfluenza 2",
+                          "type": "checkbox",
+                          "shortLabel": "Parainfluenza 2",
+                          "grows": true,
+                          "span": 12,
+                          "readonly": false,
+                          "options": {
+                            "Parainfluenza 2": "Parainfluenza 2"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Anti-HBe",
+                          "type": "checkbox",
+                          "shortLabel": "Anti-HBe",
+                          "grows": true,
+                          "span": 12,
+                          "readonly": false,
+                          "options": {
+                            "Anti-HBe": "Anti-HBe"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Parainfluenza 3",
+                          "type": "checkbox",
+                          "shortLabel": "Parainfluenza 3",
+                          "grows": true,
+                          "span": 12,
+                          "readonly": false,
+                          "options": {
+                            "Parainfluenza 3": "Parainfluenza 3"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Varicelle IgM",
+                          "type": "checkbox",
+                          "shortLabel": "Varicelle IgM",
+                          "grows": true,
+                          "span": 12,
+                          "readonly": false,
+                          "options": {
+                            "Varicelle IgM": "Varicelle IgM"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Anti-HIV (1+2)",
+                          "type": "checkbox",
+                          "shortLabel": "Anti-HIV (1+2)",
+                          "grows": true,
+                          "span": 12,
+                          "readonly": false,
+                          "options": {
+                            "Anti-HIV (1+2)": "Anti-HIV (1+2)"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Anti-HBC IgM",
+                          "type": "checkbox",
+                          "shortLabel": "Anti-HBC IgM",
+                          "grows": true,
+                          "span": 12,
+                          "readonly": false,
+                          "options": {
+                            "Anti-HBC IgM": "Anti-HBC IgM"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Adénovirus",
+                          "type": "checkbox",
+                          "shortLabel": "Adénovirus",
+                          "grows": true,
+                          "span": 12,
+                          "readonly": false,
+                          "options": {
+                            "Adénovirus": "Adénovirus"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Varicelle IgG",
+                          "type": "checkbox",
+                          "shortLabel": "Varicelle IgG",
+                          "grows": true,
+                          "span": 12,
+                          "readonly": false,
+                          "options": {
+                            "Varicelle IgG": "Varicelle IgG"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Combotest (AG+AC)",
+                          "type": "checkbox",
+                          "shortLabel": "Combotest (AG+AC)",
+                          "grows": true,
+                          "span": 12,
+                          "readonly": false,
+                          "options": {
+                            "Combotest (AG+AC)": "Combotest (AG+AC)"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Entérovirus",
+                          "type": "checkbox",
+                          "shortLabel": "Entérovirus",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "options": {
+                            "Entérovirus": "Entérovirus"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Virus resp. syncitial",
+                          "type": "checkbox",
+                          "shortLabel": "Virus resp. syncitial",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "options": {
+                            "Virus resp. syncitial": "Virus resp. syncitial"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "ANti-HCV",
+                          "type": "checkbox",
+                          "shortLabel": "Anti-HCV",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "options": {
+                            "Anti-HCV": "Anti-HCV"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Rougeole IgM",
+                          "type": "checkbox",
+                          "shortLabel": "Rougeole IgM",
+                          "grows": true,
+                          "span": 10,
+                          "readonly": false,
+                          "options": {
+                            "Rougeole IgM": "Rougeole IgM"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Coxsackies B1-B6",
+                          "type": "checkbox",
+                          "shortLabel": "Coxsackies B1-B6",
+                          "grows": true,
+                          "span": 8,
+                          "readonly": false,
+                          "options": {
+                            "Coxsackies B1-B6": "Coxsackies B1-B6"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "HSV IgM, si patient immunodépr.",
+                          "type": "checkbox",
+                          "shortLabel": "HSV IgM, si p. im.dépr.",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "options": {
+                            "HSV IgM, si p. im.dépr.": "HSV IgM, si p. im.dépr."
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "PCR HCV qualit.Si anti HCV positif",
+                          "type": "checkbox",
+                          "shortLabel": "PCR HCV qual. (Si HCV+)",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "options": {
+                            "PCR HCV qual. (Si HCV+)": "PCR HCV qual. (Si HCV+)"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Rougeole IgG",
+                          "type": "checkbox",
+                          "shortLabel": "Rougeole IgG",
+                          "grows": true,
+                          "span": 12,
+                          "readonly": false,
+                          "options": {
+                            "Rougeole IgG": "Rougeole IgG"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "HSV IgG, si patient immunodépr.",
+                          "type": "checkbox",
+                          "shortLabel": "HSV IgG, si p. im.dépr.",
+                          "grows": true,
+                          "span": 12,
+                          "readonly": false,
+                          "options": {
+                            "HSV IgG, si p. im.dépr.": "HSV IgG, si p. im.dépr."
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "HSV IgM (4,5€)",
+                          "type": "checkbox",
+                          "shortLabel": "HSV IgM (4,5€)",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "options": {
+                            "HSV IgM (4,5€)": "HSV IgM (4,5€)"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "HSV IgG (4,5€)",
+                          "type": "checkbox",
+                          "shortLabel": "HSV IgG (4,5€)",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "options": {
+                            "HSV IgG (4,5€)": "HSV IgG (4,5€)"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        }
+                      ],
+                      "borderless": false,
+                      "hideTitle": true,
+                      "translate": true,
+                      "span": 24
+                    }
+                  ]
+                }
+              ]
+            },
+            "Biologie/Sérologie bactérienne et parasitaire": {
+              "form": "Biologie/Sérologie bactérienne et parasitaire",
+              "id": "8F7F735B-B046-40B7-96B2-4A21A4952812",
+              "sections": [
+                {
+                  "section": "Main",
+                  "fields": [
+                    {
+                      "clazz": "field",
+                      "field": "Brucella",
+                      "type": "checkbox",
+                      "shortLabel": "Brucella",
+                      "grows": true,
+                      "span": 12,
+                      "readonly": false,
+                      "options": {
+                        "Brucella": "Brucella"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "B.burgdorferi IgM",
+                      "type": "checkbox",
+                      "shortLabel": "B.burgdorferi IgM",
+                      "grows": true,
+                      "span": 12,
+                      "readonly": false,
+                      "options": {
+                        "B.burgdorferi IgM": "B.burgdorferi IgM"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "C.pneumoniae IgG",
+                      "type": "checkbox",
+                      "shortLabel": "C.pneumoniae IgG",
+                      "grows": true,
+                      "span": 3,
+                      "readonly": false,
+                      "options": {
+                        "C.pneumoniae IgG": "C.pneumoniae IgG"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Salmonella (Widal)",
+                      "type": "checkbox",
+                      "shortLabel": "Salmonella (Widal)",
+                      "grows": true,
+                      "span": 10,
+                      "readonly": false,
+                      "options": {
+                        "Salmonella (Widal)": "Salmonella (Widal)"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "B.burgdorferi IgG",
+                      "type": "checkbox",
+                      "shortLabel": "B.burgdorferi IgG",
+                      "grows": true,
+                      "span": 11,
+                      "readonly": false,
+                      "options": {
+                        "B.burgdorferi IgG": "B.burgdorferi IgG"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "M.pneumoniae IgM",
+                      "type": "checkbox",
+                      "shortLabel": "M.pneumoniae IgM",
+                      "grows": true,
+                      "span": 12,
+                      "readonly": false,
+                      "options": {
+                        "M.pneumoniae IgM": "M.pneumoniae IgM"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Campylobacter jejuni",
+                      "type": "checkbox",
+                      "shortLabel": "Campylobacter jejuni",
+                      "grows": true,
+                      "span": 12,
+                      "readonly": false,
+                      "options": {
+                        "Campylobacter jejuni": "Campylobacter jejuni"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "M.pneumoniae IgG",
+                      "type": "checkbox",
+                      "shortLabel": "M.pneumoniae IgG",
+                      "grows": true,
+                      "span": 12,
+                      "readonly": false,
+                      "options": {
+                        "M.pneumoniae IgG": "M.pneumoniae IgG"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Yersinia",
+                      "type": "checkbox",
+                      "shortLabel": "Yersinia",
+                      "grows": true,
+                      "span": 12,
+                      "readonly": false,
+                      "options": {
+                        "Yersinia": "Yersinia"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Helicobacter pylori",
+                      "type": "checkbox",
+                      "shortLabel": "Helicobacter pylori",
+                      "grows": true,
+                      "span": 12,
+                      "readonly": false,
+                      "options": {
+                        "Helicobacter pylori": "Helicobacter pylori"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "FTA",
+                      "type": "checkbox",
+                      "shortLabel": "FTA",
+                      "grows": true,
+                      "span": 5,
+                      "readonly": false,
+                      "options": {
+                        "FTA": "FTA"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "TPHA",
+                      "type": "checkbox",
+                      "shortLabel": "TPHA",
+                      "grows": true,
+                      "span": 4,
+                      "readonly": false,
+                      "options": {
+                        "TPHA": "TPHA"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "VDRL",
+                      "type": "checkbox",
+                      "shortLabel": "VDRL",
+                      "grows": true,
+                      "span": 3,
+                      "readonly": false,
+                      "options": {
+                        "VDRL": "VDRL"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Legionella pneumophila",
+                      "type": "checkbox",
+                      "shortLabel": "Legionella pneumophila",
+                      "grows": true,
+                      "span": 24,
+                      "readonly": false,
+                      "options": {
+                        "Legionella pneumophila": "Legionella pneumophila"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "C.trachomatis IgG",
+                      "type": "checkbox",
+                      "shortLabel": "C.trachomatis IgG",
+                      "grows": true,
+                      "span": 12,
+                      "readonly": false,
+                      "options": {
+                        "C.trachomatis IgG": "C.trachomatis IgG"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Fièvre Q",
+                      "type": "checkbox",
+                      "shortLabel": "Fièvre Q",
+                      "grows": true,
+                      "span": 12,
+                      "readonly": false,
+                      "options": {
+                        "Fièvre Q": "Fièvre Q"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Rickettsia",
+                      "type": "checkbox",
+                      "shortLabel": "Rickettsia",
+                      "grows": true,
+                      "span": 12,
+                      "readonly": false,
+                      "options": {
+                        "Rickettsia": "Rickettsia"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Toxoplasma",
+                      "type": "checkbox",
+                      "shortLabel": "Toxoplasma",
+                      "grows": true,
+                      "span": 12,
+                      "readonly": false,
+                      "options": {
+                        "Toxoplasma": "Toxoplasma"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Anti-streptodornase",
+                      "type": "checkbox",
+                      "shortLabel": "Anti-streptodornase",
+                      "grows": true,
+                      "span": 24,
+                      "readonly": false,
+                      "options": {
+                        "Anti-streptodornase": "Anti-streptodornase"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    }
+                  ]
+                }
+              ]
+            },
+            "Biologie/Marqueurs": {
+              "form": "Biologie/Marqueurs",
+              "id": "71D98DFF-2244-461B-8E92-FEBE1B73FA4A",
+              "sections": [
+                {
+                  "section": "Main",
+                  "fields": [
+                    {
+                      "clazz": "field",
+                      "field": "PSA (50 ans et +)",
+                      "type": "checkbox",
+                      "shortLabel": "PSA (50 ans et +)",
+                      "grows": true,
+                      "span": 1,
+                      "readonly": false,
+                      "options": {
+                        "PSA (50 ans et +)": "PSA (50 ans et +)"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Alpha-foetoprotéine",
+                      "type": "checkbox",
+                      "shortLabel": "Alpha-foetoprotéine",
+                      "grows": true,
+                      "span": 23,
+                      "readonly": false,
+                      "options": {
+                        "Alpha-foetoprotéine": "Alpha-foetoprotéine"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "PSA (5,2€)",
+                      "type": "checkbox",
+                      "shortLabel": "PSA (5,2€)",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "PSA (5,2€)": "PSA (5,2€)"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Gastrine",
+                      "type": "checkbox",
+                      "shortLabel": "Gastrine",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "Gastrine": "Gastrine"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "CEA, max. 1 analyse",
+                      "type": "checkbox",
+                      "shortLabel": "CEA, max. 1 analyse",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "CEA, max. 1 analyse": "CEA, max. 1 analyse"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "CA 15,3 (sein), max. 1 analyse",
+                      "type": "checkbox",
+                      "shortLabel": "CA 15,3 (sein), max. 1",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "CA 15,3 (sein), max. 1": "CA 15,3 (sein), max. 1"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "PSA libre (6,2€)",
+                      "type": "checkbox",
+                      "shortLabel": "PSA libre (6,2€)",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "PSA libre (6,2€)": "PSA libre (6,2€)"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "β2 microglobuline",
+                      "type": "checkbox",
+                      "shortLabel": "β2 microglobuline",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "β2 microglobuline": "β2 microglobuline"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "CA 125 (ovaire), max.1 analyse",
+                      "type": "checkbox",
+                      "shortLabel": "CA 125 (ovaire), max.1",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "CA 125 (ovaire), max.1": "CA 125 (ovaire), max.1"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "NSE (poumon)",
+                      "type": "checkbox",
+                      "shortLabel": "NSE (poumon)",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "NSE (poumon)": "NSE (poumon)"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "CEA(5,2€)",
+                      "type": "checkbox",
+                      "shortLabel": "CEA(5,2€)",
+                      "grows": true,
+                      "span": 1,
+                      "readonly": false,
+                      "options": {
+                        "CEA(5,2€)": "CEA(5,2€)"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "CA 19,9 (pancréas, tr.digestif), max. 1 analyse",
+                      "type": "checkbox",
+                      "shortLabel": "CA 19,9(pancr.,tr.dig.),mx1",
+                      "grows": true,
+                      "span": 16,
+                      "readonly": false,
+                      "options": {
+                        "CA 19,9(pancr.,tr.dig.),mx1": "CA 19,9(pancr.,tr.dig.),mx1"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "HCG (ss unité β libre, max. 1 analyse)",
+                      "type": "checkbox",
+                      "shortLabel": "HCG (ss unité β libre,mx.1)",
+                      "grows": true,
+                      "span": 7,
+                      "readonly": false,
+                      "options": {
+                        "HCG (ss unité β libre,mx.1)": "HCG (ss unité β libre,mx.1)"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    }
+                  ]
+                }
+              ]
+            },
+            "Biologie/Toxicologie": {
+              "form": "Biologie/Toxicologie",
+              "id": "B8C17050-3B2F-4B00-8003-B35C0255EB4E",
+              "sections": [
+                {
+                  "section": "Main",
+                  "fields": [
+                    {
+                      "clazz": "field",
+                      "field": "Ethanol",
+                      "type": "checkbox",
+                      "shortLabel": "Ethanol",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "Ethanol": "Ethanol"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Créatinine",
+                      "type": "checkbox",
+                      "shortLabel": "Créatinine",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "Créatinine": "Créatinine"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Benzodiazépines",
+                      "type": "checkbox",
+                      "shortLabel": "Benzodiazépines",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "Benzodiazépines": "Benzodiazépines"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Méthadone",
+                      "type": "checkbox",
+                      "shortLabel": "Méthadone",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "Méthadone": "Méthadone"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Carboxyhémoglobine",
+                      "type": "checkbox",
+                      "shortLabel": "Carboxyhémoglobine",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "Carboxyhémoglobine": "Carboxyhémoglobine"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Amphétamines",
+                      "type": "checkbox",
+                      "shortLabel": "Amphétamines",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "Amphétamines": "Amphétamines"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Cannabis",
+                      "type": "checkbox",
+                      "shortLabel": "Cannabis",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "Cannabis": "Cannabis"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Opiacés",
+                      "type": "checkbox",
+                      "shortLabel": "Opiacés",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "Opiacés": "Opiacés"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Méthémoglobine",
+                      "type": "checkbox",
+                      "shortLabel": "Méthémoglobine",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "Méthémoglobine": "Méthémoglobine"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Barbituriques",
+                      "type": "checkbox",
+                      "shortLabel": "Barbituriques",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "Barbituriques": "Barbituriques"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Cocaïne",
+                      "type": "checkbox",
+                      "shortLabel": "Cocaïne",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "Cocaïne": "Cocaïne"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Cotinine",
+                      "type": "checkbox",
+                      "shortLabel": "Cotinine",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "Cotinine": "Cotinine"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    }
+                  ]
+                }
+              ]
+            },
+            "Biologie/Microbiologie et cytologie": {
+              "form": "Biologie/Microbiologie et cytologie",
+              "id": "EF806168-6FD9-49EA-8160-DBBE849454B6",
+              "sections": [
+                {
+                  "section": "Main",
+                  "fields": [
+                    {
+                      "clazz": "field",
+                      "field": "Sédiment",
+                      "type": "checkbox",
+                      "shortLabel": "Sédiment",
+                      "grows": true,
+                      "span": 1,
+                      "readonly": false,
+                      "options": {
+                        "Sédiment": "Sédiment"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Examen direct (gram) frottis uro-génital",
+                      "type": "checkbox",
+                      "shortLabel": "Examen direct (gram)",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "options": {
+                        "Examen direct (gram)": "Examen direct (gram)"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Examen direct (gram) selles",
+                      "type": "checkbox",
+                      "shortLabel": "Examen direct (gram) selles",
+                      "grows": true,
+                      "span": 15,
+                      "readonly": false,
+                      "options": {
+                        "Examen direct (gram) selles": "Examen direct (gram) selles"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Culture urines",
+                      "type": "checkbox",
+                      "shortLabel": "Culture urines",
+                      "grows": true,
+                      "span": 1,
+                      "readonly": false,
+                      "options": {
+                        "Culture urines": "Culture urines"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Trichom. vaginalis",
+                      "type": "checkbox",
+                      "shortLabel": "Trichom. vaginalis",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "options": {
+                        "Trichom. vaginalis": "Trichom. vaginalis"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Pus origine",
+                      "type": "token-field",
+                      "shortLabel": "Origine",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Culture selles",
+                      "type": "checkbox",
+                      "shortLabel": "Culture selles",
+                      "grows": true,
+                      "span": 7,
+                      "readonly": false,
+                      "options": {
+                        "Culture selles": "Culture selles"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "AB urines (si culture positive)",
+                      "type": "checkbox",
+                      "shortLabel": "AB urines (si culture positive)",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "AB urines (si culture positive)": "AB urines (si culture positive)"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Culture + N. gono",
+                      "type": "checkbox",
+                      "shortLabel": "Culture + N. gono",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "Culture + N. gono": "Culture + N. gono"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Examen direct (gram) pus-exsudat",
+                      "type": "checkbox",
+                      "shortLabel": "Examen direct (gram)",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "Examen direct (gram)": "Examen direct (gram)"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "AB selles (si culture positive)",
+                      "type": "checkbox",
+                      "shortLabel": "AB selles (si culture positive)",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "AB selles (si culture positive)": "AB selles (si culture positive)"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Antibiogramme (si culture positive)",
+                      "type": "checkbox",
+                      "shortLabel": "Antibiogramme (si culture positive)",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "Antibiogramme (si culture positive)": "Antibiogramme (si culture positive)"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Culture mycoplasme frottis uro-génital",
+                      "type": "checkbox",
+                      "shortLabel": "Culture mycoplasme",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "Culture mycoplasme": "Culture mycoplasme"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Culture mycose pus-exsudat",
+                      "type": "checkbox",
+                      "shortLabel": "Culture mycose pus-exsudat",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "Culture mycose pus-exsudat": "Culture mycose pus-exsudat"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Culture mycose selles",
+                      "type": "checkbox",
+                      "shortLabel": "Culture mycose selles",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "Culture mycose selles": "Culture mycose selles"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Culture mycoplasme",
+                      "type": "checkbox",
+                      "shortLabel": "Culture mycoplasme",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "Culture mycoplasme": "Culture mycoplasme"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "AB frottis uro-génital (si culture positive)",
+                      "type": "checkbox",
+                      "shortLabel": "AB (si culture positive)",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "AB (si culture positive)": "AB (si culture positive)"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Culture aérobie",
+                      "type": "checkbox",
+                      "shortLabel": "Culture aérobie",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "Culture aérobie": "Culture aérobie"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Parasites selles",
+                      "type": "checkbox",
+                      "shortLabel": "Parasites selles",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "Parasites selles": "Parasites selles"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Culture mycose urines",
+                      "type": "checkbox",
+                      "shortLabel": "Culture mycose urines",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "Culture mycose urines": "Culture mycose urines"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Culture mycose frottis uro-génital",
+                      "type": "checkbox",
+                      "shortLabel": "Culture mycose",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "Culture mycose": "Culture mycose"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Culture anaérobie",
+                      "type": "checkbox",
+                      "shortLabel": "Culture anaérobie",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "Culture anaérobie": "Culture anaérobie"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Cryptosoporidium",
+                      "type": "checkbox",
+                      "shortLabel": "Cryptosoporidium",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "Cryptosoporidium": "Cryptosoporidium"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Parasites urines",
+                      "type": "checkbox",
+                      "shortLabel": "Parasites urines",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "Parasites urines": "Parasites urines"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Rechecrhe Strepto B",
+                      "type": "checkbox",
+                      "shortLabel": "Rechecrhe Strepto B",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "Rechecrhe Strepto B": "Rechecrhe Strepto B"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "AB pus-exsudat (si culture positive)",
+                      "type": "checkbox",
+                      "shortLabel": "AB(si culture positive)",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "AB(si culture positive)": "AB(si culture positive)"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Rotavirus <2ans",
+                      "type": "checkbox",
+                      "shortLabel": "Rotavirus <2ans",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "Rotavirus <2ans": "Rotavirus <2ans"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "BK examen direct urines",
+                      "type": "checkbox",
+                      "shortLabel": "BK examen direct urines",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "BK examen direct urines": "BK examen direct urines"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Chlamydia (PCR)",
+                      "type": "checkbox",
+                      "shortLabel": "Chlamydia (PCR)",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "Chlamydia (PCR)": "Chlamydia (PCR)"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Culture mycose",
+                      "type": "checkbox",
+                      "shortLabel": "Culture mycose",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "Culture mycose": "Culture mycose"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Digestion",
+                      "type": "checkbox",
+                      "shortLabel": "Digestion",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "Digestion": "Digestion"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "BK culture urines",
+                      "type": "checkbox",
+                      "shortLabel": "BK culture urines",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "options": {
+                        "BK culture urines": "BK culture urines"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Gonocoque (PCR)",
+                      "type": "checkbox",
+                      "shortLabel": "Gonocoque (PCR)",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "options": {
+                        "Gonocoque (PCR)": "Gonocoque (PCR)"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "BK examen direct pus-exsudat",
+                      "type": "checkbox",
+                      "shortLabel": "BK pus-exsudat",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "options": {
+                        "BK pus-exsudat": "BK pus-exsudat"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "BK culture pus-exsudat",
+                      "type": "checkbox",
+                      "shortLabel": "BK culture pus-exsudat",
+                      "grows": true,
+                      "span": 24,
+                      "readonly": false,
+                      "options": {
+                        "BK culture pus-exsudat": "BK culture pus-exsudat"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Culture mycoplasme urines",
+                      "type": "checkbox",
+                      "shortLabel": "Culture mycoplasme urines",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "options": {
+                        "Culture mycoplasme urines": "Culture mycoplasme urines"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Antigène Herpes",
+                      "type": "checkbox",
+                      "shortLabel": "Antigène Herpes",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "options": {
+                        "Antigène Herpes": "Antigène Herpes"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Examen direct (gram) frottis de gorge",
+                      "type": "checkbox",
+                      "shortLabel": "Examen direct (gram)",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "options": {
+                        "Examen direct (gram)": "Examen direct (gram)"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Chlamydia",
+                      "type": "checkbox",
+                      "shortLabel": "Chlamydia",
+                      "grows": true,
+                      "span": 12,
+                      "readonly": false,
+                      "options": {
+                        "Chlamydia": "Chlamydia"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Recherche MRSA",
+                      "type": "checkbox",
+                      "shortLabel": "Recherche MRSA",
+                      "grows": true,
+                      "span": 12,
+                      "readonly": false,
+                      "options": {
+                        "Recherche MRSA": "Recherche MRSA"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Recherche Strepto B",
+                      "type": "checkbox",
+                      "shortLabel": "Recherche Strepto B",
+                      "grows": true,
+                      "span": 12,
+                      "readonly": false,
+                      "options": {
+                        "Recherche Strepto B": "Recherche Strepto B"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Antigène Strepto A",
+                      "type": "checkbox",
+                      "shortLabel": "Antigène Strepto A",
+                      "grows": true,
+                      "span": 12,
+                      "readonly": false,
+                      "options": {
+                        "Antigène Strepto A": "Antigène Strepto A"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Gonocoques",
+                      "type": "checkbox",
+                      "shortLabel": "Gonocoques",
+                      "grows": true,
+                      "span": 12,
+                      "readonly": false,
+                      "options": {
+                        "Gonocoques": "Gonocoques"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Culture frottis gorge",
+                      "type": "checkbox",
+                      "shortLabel": "Culture frottis gorge",
+                      "grows": true,
+                      "span": 12,
+                      "readonly": false,
+                      "options": {
+                        "Culture frottis gorge": "Culture frottis gorge"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Examen direct (gram) urines",
+                      "type": "checkbox",
+                      "shortLabel": "Examen direct (gram) urines",
+                      "grows": true,
+                      "span": 12,
+                      "readonly": false,
+                      "options": {
+                        "Examen direct (gram) urines": "Examen direct (gram) urines"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "AB frottis gorge (si culture positive)",
+                      "type": "checkbox",
+                      "shortLabel": "AB frottis gorge",
+                      "grows": true,
+                      "span": 12,
+                      "readonly": false,
+                      "options": {
+                        "AB frottis gorge": "AB frottis gorge"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Culture mycose frottis gorge",
+                      "type": "checkbox",
+                      "shortLabel": "Culture mycose",
+                      "grows": true,
+                      "span": 24,
+                      "readonly": false,
+                      "options": {
+                        "Culture mycose": "Culture mycose"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Recherce MRSA",
+                      "type": "checkbox",
+                      "shortLabel": "Recherce MRSA",
+                      "grows": true,
+                      "span": 24,
+                      "readonly": false,
+                      "options": {
+                        "Recherce MRSA": "Recherce MRSA"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    }
+                  ]
+                }
+              ]
+            },
+            "Biologie/Hormonologie": {
+              "form": "Biologie/Hormonologie",
+              "id": "CDB4B495-9B62-477B-B5D9-1E5C5265CB4C",
+              "sections": [
+                {
+                  "section": "Main",
+                  "fields": [
+                    {
+                      "clazz": "field",
+                      "field": "TSH, Max.2",
+                      "type": "checkbox",
+                      "shortLabel": "TSH, Max.2",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "TSH, Max.2": "TSH, Max.2"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Cortisol matin(8h), Max.4 analys.",
+                      "type": "checkbox",
+                      "shortLabel": "Cortisol matin(8h), Max.4 analys.",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "Cortisol matin(8h), Max.4 analys.": "Cortisol matin(8h), Max.4 analys."
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "FSH",
+                      "type": "checkbox",
+                      "shortLabel": "FSH",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "FSH": "FSH"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "PTH (intacte)",
+                      "type": "checkbox",
+                      "shortLabel": "PTH (intacte)",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "PTH (intacte)": "PTH (intacte)"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "T4 libre, Max.2",
+                      "type": "checkbox",
+                      "shortLabel": "T4 libre, Max.2",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "T4 libre, Max.2": "T4 libre, Max.2"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Transcortine, Max.4 analyses",
+                      "type": "checkbox",
+                      "shortLabel": "Transcortine, Max.4 analyses",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "Transcortine, Max.4 analyses": "Transcortine, Max.4 analyses"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "LH (non cumulable avec HCG)",
+                      "type": "checkbox",
+                      "shortLabel": "LH (non cumul. HCG)",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "LH (non cumul. HCG)": "LH (non cumul. HCG)"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "25-OH Vitamine D",
+                      "type": "checkbox",
+                      "shortLabel": "25-OH Vitamine D",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "25-OH Vitamine D": "25-OH Vitamine D"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "T3 libre, Max.2",
+                      "type": "checkbox",
+                      "shortLabel": "T3 libre, Max.2",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "T3 libre, Max.2": "T3 libre, Max.2"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Cortisol soir (17h), Max.4 analys.",
+                      "type": "checkbox",
+                      "shortLabel": "Cortisol soir (17h), Max.4 analys.",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "Cortisol soir (17h), Max.4 analys.": "Cortisol soir (17h), Max.4 analys."
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Prolactine",
+                      "type": "checkbox",
+                      "shortLabel": "Prolactine",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "Prolactine": "Prolactine"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Calcitonine (sur glace)",
+                      "type": "checkbox",
+                      "shortLabel": "Calcitonine (sur glace)",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "Calcitonine (sur glace)": "Calcitonine (sur glace)"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "T4/TBG, Max.2",
+                      "type": "checkbox",
+                      "shortLabel": "T4/TBG, Max.2",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "T4/TBG, Max.2": "T4/TBG, Max.2"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Cortisol libre calc. (8h)",
+                      "type": "checkbox",
+                      "shortLabel": "Cortisol libre calc. (8h)",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "Cortisol libre calc. (8h)": "Cortisol libre calc. (8h)"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Oestradiol",
+                      "type": "checkbox",
+                      "shortLabel": "Oestradiol",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "Oestradiol": "Oestradiol"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Androstanediol gluc.",
+                      "type": "checkbox",
+                      "shortLabel": "Androstanediol gluc.",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "Androstanediol gluc.": "Androstanediol gluc."
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "T3/TBG, Max.2",
+                      "type": "checkbox",
+                      "shortLabel": "T3/TBG, Max.2",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "T3/TBG, Max.2": "T3/TBG, Max.2"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Cortisol libre calc. (17h)",
+                      "type": "checkbox",
+                      "shortLabel": "Cortisol libre calc. (17h)",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "Cortisol libre calc. (17h)": "Cortisol libre calc. (17h)"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Oestrone",
+                      "type": "checkbox",
+                      "shortLabel": "Oestrone",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "Oestrone": "Oestrone"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Androstènedione",
+                      "type": "checkbox",
+                      "shortLabel": "Androstènedione",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "Androstènedione": "Androstènedione"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "TSI (monitoring)",
+                      "type": "checkbox",
+                      "shortLabel": "TSI (monitoring)",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "TSI (monitoring)": "TSI (monitoring)"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "DHEA sulfate, Max.4 analyses",
+                      "type": "checkbox",
+                      "shortLabel": "DHEA sulfate, Max.4 analyses",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "DHEA sulfate, Max.4 analyses": "DHEA sulfate, Max.4 analyses"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Progestérone",
+                      "type": "checkbox",
+                      "shortLabel": "Progestérone",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "Progestérone": "Progestérone"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "17OH progestérone",
+                      "type": "checkbox",
+                      "shortLabel": "17OH progestérone",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "17OH progestérone": "17OH progestérone"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "TSI (13,2€)",
+                      "type": "checkbox",
+                      "shortLabel": "TSI (13,2€)",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "options": {
+                        "TSI (13,2€)": "TSI (13,2€)"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "17 OH progest., Max.4 analyses",
+                      "type": "checkbox",
+                      "shortLabel": "17 OH progest., Max.4 analyses",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "options": {
+                        "17 OH progest., Max.4 analyses": "17 OH progest., Max.4 analyses"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Testostérone libre",
+                      "type": "checkbox",
+                      "shortLabel": "Testostérone libre",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "options": {
+                        "Testostérone libre": "Testostérone libre"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Thyroglobuline",
+                      "type": "checkbox",
+                      "shortLabel": "Thyroglobuline",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "options": {
+                        "Thyroglobuline": "Thyroglobuline"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Androstènedione, Max.4 analys.",
+                      "type": "checkbox",
+                      "shortLabel": "Androstènedione, Max.4 analys.",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "options": {
+                        "Androstènedione, Max.4 analys.": "Androstènedione, Max.4 analys."
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Testostérone totale",
+                      "type": "checkbox",
+                      "shortLabel": "Testostérone totale",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "options": {
+                        "Testostérone totale": "Testostérone totale"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "AC anti-thyroglobuline",
+                      "type": "checkbox",
+                      "shortLabel": "AC anti-thyroglobuline",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "options": {
+                        "AC anti-thyroglobuline": "AC anti-thyroglobuline"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Aldostérone",
+                      "type": "checkbox",
+                      "shortLabel": "Aldostérone",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "options": {
+                        "Aldostérone": "Aldostérone"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "HCG",
+                      "type": "checkbox",
+                      "shortLabel": "HCG",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "options": {
+                        "HCG": "HCG"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "AC anti-TPO",
+                      "type": "checkbox",
+                      "shortLabel": "AC anti-TPO",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "options": {
+                        "AC anti-TPO": "AC anti-TPO"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "ACTH (sur glace)",
+                      "type": "checkbox",
+                      "shortLabel": "ACTH (sur glace)",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "options": {
+                        "ACTH (sur glace)": "ACTH (sur glace)"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "HPL",
+                      "type": "checkbox",
+                      "shortLabel": "HPL",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "options": {
+                        "HPL": "HPL"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Rénine (sur glace)",
+                      "type": "checkbox",
+                      "shortLabel": "Rénine (sur glace)",
+                      "grows": true,
+                      "span": 10,
+                      "readonly": false,
+                      "options": {
+                        "Rénine (sur glace)": "Rénine (sur glace)"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Oestriol libre",
+                      "type": "checkbox",
+                      "shortLabel": "Oestriol libre",
+                      "grows": true,
+                      "span": 14,
+                      "readonly": false,
+                      "options": {
+                        "Oestriol libre": "Oestriol libre"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    }
+                  ]
+                }
+              ]
+            },
+            "Biologie/Médicaments": {
+              "form": "Biologie/Médicaments",
+              "id": "CE57575F-77D1-4FA5-87C9-A65F426EA223",
+              "sections": [
+                {
+                  "section": "Main",
+                  "fields": [
+                    {
+                      "clazz": "field",
+                      "field": "Cyclosporine",
+                      "type": "checkbox",
+                      "shortLabel": "Cyclosporine",
+                      "grows": true,
+                      "span": 4,
+                      "readonly": false,
+                      "options": {
+                        "Cyclosporine": "Cyclosporine"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Amiodarone",
+                      "type": "checkbox",
+                      "shortLabel": "Amiodarone",
+                      "grows": true,
+                      "span": 5,
+                      "readonly": false,
+                      "options": {
+                        "Amiodarone": "Amiodarone"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Carbamazépine",
+                      "type": "checkbox",
+                      "shortLabel": "Carbamazépine",
+                      "grows": true,
+                      "span": 7,
+                      "readonly": false,
+                      "options": {
+                        "Carbamazépine": "Carbamazépine"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Lithium",
+                      "type": "checkbox",
+                      "shortLabel": "Lithium",
+                      "grows": true,
+                      "span": 4,
+                      "readonly": false,
+                      "options": {
+                        "Lithium": "Lithium"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Autres",
+                      "type": "text-field",
+                      "shortLabel": "Autres",
+                      "grows": true,
+                      "span": 4,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true
+                    }
+                  ]
+                }
+              ]
+            },
+            "Biologie/Auto-anticorps": {
+              "form": "Biologie/Auto-anticorps",
+              "id": "A5C5E692-0551-4ACE-A3C7-0061DFE43ACE",
+              "sections": [
+                {
+                  "section": "Main",
+                  "fields": [
+                    {
+                      "clazz": "field",
+                      "field": "Titrage anticorps anti-PN (ANCA)",
+                      "type": "checkbox",
+                      "shortLabel": "Titrage anticorps anti-PN (ANCA)",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "options": {
+                        "Titrage anticorps anti-PN (ANCA)": "Titrage anticorps anti-PN (ANCA)"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Iga totales",
+                      "type": "checkbox",
+                      "shortLabel": "Iga totales",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "options": {
+                        "Iga totales": "Iga totales"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Anti-pancréas",
+                      "type": "checkbox",
+                      "shortLabel": "Anti-pancréas",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "options": {
+                        "Anti-pancréas": "Anti-pancréas"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Identification anticorps anti-PN (ANCA)",
+                      "type": "checkbox",
+                      "shortLabel": "Identification anticorps anti-PN (ANCA)",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "options": {
+                        "Identification anticorps anti-PN (ANCA)": "Identification anticorps anti-PN (ANCA)"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "IgA anti-endomysium",
+                      "type": "checkbox",
+                      "shortLabel": "IgA anti-endomysium",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "options": {
+                        "IgA anti-endomysium": "IgA anti-endomysium"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Anti-surrénales",
+                      "type": "checkbox",
+                      "shortLabel": "Anti-surrénales",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "options": {
+                        "Anti-surrénales": "Anti-surrénales"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "IgG anti-gliadine",
+                      "type": "checkbox",
+                      "shortLabel": "IgG anti-gliadine",
+                      "grows": true,
+                      "span": 12,
+                      "readonly": false,
+                      "options": {
+                        "IgG anti-gliadine": "IgG anti-gliadine"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Anti-ovaires",
+                      "type": "checkbox",
+                      "shortLabel": "Anti-ovaires",
+                      "grows": true,
+                      "span": 12,
+                      "readonly": false,
+                      "options": {
+                        "Anti-ovaires": "Anti-ovaires"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "IgA anti-gliadine",
+                      "type": "checkbox",
+                      "shortLabel": "IgA anti-gliadine",
+                      "grows": true,
+                      "span": 12,
+                      "readonly": false,
+                      "options": {
+                        "IgA anti-gliadine": "IgA anti-gliadine"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Anti-hypophyse",
+                      "type": "checkbox",
+                      "shortLabel": "Anti-hypophyse",
+                      "grows": true,
+                      "span": 12,
+                      "readonly": false,
+                      "options": {
+                        "Anti-hypophyse": "Anti-hypophyse"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "span": 24,
+          "rowSpan": 1,
+          "labels": {}
+        }
+      ]
+    }
+  ]
+}

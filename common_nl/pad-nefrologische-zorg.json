@@ -1,0 +1,213 @@
+{
+  "form": "Zorgprotocoles/Pad nefrologische zorg",
+  "id": "688da1d1-3caa-32d8-837f-efec245ccc5b",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Podium",
+          "type": "text-field",
+          "shortLabel": "Podium",
+          "grows": true,
+          "span": 7,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Startdatum",
+          "type": "date-picker",
+          "shortLabel": "Startdatum",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Einddatum",
+          "type": "date-picker",
+          "shortLabel": "Einddatum",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Datum contact",
+          "type": "date-picker",
+          "shortLabel": "Datum contact",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Specialistisch consult",
+          "type": "checkbox",
+          "shortLabel": "Specialistisch consult",
+          "grows": true,
+          "span": 13,
+          "readonly": false,
+          "options": {
+            "Specialistisch consult": "Specialistisch consult"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Onderwijs sessie",
+          "type": "checkbox",
+          "shortLabel": "Onderwijs sessie",
+          "grows": true,
+          "span": 13,
+          "readonly": false,
+          "options": {
+            "Onderwijs sessie": "Onderwijs sessie"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Contact Diëtist",
+          "type": "checkbox",
+          "shortLabel": "Contact Diëtist",
+          "grows": true,
+          "span": 13,
+          "readonly": false,
+          "options": {
+            "Contact Diëtist": "Contact Diëtist"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Tabak",
+          "type": "measure-field",
+          "shortLabel": "Tabak",
+          "grows": true,
+          "span": 9,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "gemotiveerd om te stoppen?",
+          "type": "text-field",
+          "shortLabel": "gemotiveerd om te stoppen?",
+          "grows": true,
+          "span": 15,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Alcoholgebruik",
+          "type": "text-field",
+          "shortLabel": "Verbruik. alcohol",
+          "grows": true,
+          "span": 10,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Bent u voldoende te bewegen?",
+          "type": "text-field",
+          "shortLabel": "Het uitoefenen",
+          "grows": true,
+          "span": 14,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Gewicht",
+          "type": "measure-field",
+          "shortLabel": "Gewicht",
+          "grows": true,
+          "span": 9,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Systolische bloeddruk",
+          "type": "measure-field",
+          "shortLabel": "TA",
+          "grows": true,
+          "span": 9,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Diastolische bloeddruk",
+          "type": "measure-field",
+          "shortLabel": "/",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Volemia",
+          "type": "measure-field",
+          "shortLabel": "Volemia",
+          "grows": true,
+          "span": 9,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Type I diabetes",
+          "type": "checkbox",
+          "shortLabel": "Type I diabetes",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "Type I diabetes": "Type I diabetes"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Type II diabetes",
+          "type": "checkbox",
+          "shortLabel": "Type II diabetes",
+          "grows": true,
+          "span": 7,
+          "readonly": false,
+          "options": {
+            "Type II diabetes": "Type II diabetes"
+          },
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

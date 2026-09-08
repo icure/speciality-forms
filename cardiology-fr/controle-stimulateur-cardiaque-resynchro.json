@@ -1,0 +1,199 @@
+{
+  "form": "Cardiologie/Contrôle stimulateur cardiaque resynchro",
+  "id": "c59d5bb0-867b-b27d-0d86-b97d1bf1d85a",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Voltage de batterie",
+          "type": "text-field",
+          "shortLabel": "Voltage de batterie",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Sonde auriculaire impédance",
+          "type": "measure-field",
+          "shortLabel": "Sonde auriculaire: impédance",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Sonde auriculaire détection",
+          "type": "measure-field",
+          "shortLabel": "détection",
+          "grows": true,
+          "span": 7,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Sonde auriculaire intensité seuil de stimulation",
+          "type": "measure-field",
+          "shortLabel": "seuil de stimulation",
+          "grows": true,
+          "span": 9,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Sonde auriculaire durée seuil de stimulation",
+          "type": "measure-field",
+          "shortLabel": "à",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Sonde ventriculaire droite impédance",
+          "type": "measure-field",
+          "shortLabel": "Sonde VD: impédance",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Sonde ventriculaire droite détection",
+          "type": "measure-field",
+          "shortLabel": " détection",
+          "grows": true,
+          "span": 7,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Sonde ventriculaire droite intensité seuil de stimulation",
+          "type": "measure-field",
+          "shortLabel": "seuil de stimulation",
+          "grows": true,
+          "span": 9,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Sonde ventriculaire droite durée seuil de stimulation",
+          "type": "measure-field",
+          "shortLabel": "à",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Sonde ventriculaire gauche impédance de stimulation",
+          "type": "measure-field",
+          "shortLabel": "Sonde VG: impédance",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Sonde ventriculaire gauche détection",
+          "type": "measure-field",
+          "shortLabel": "détection",
+          "grows": true,
+          "span": 7,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Sonde ventriculaire gauche intensité seuil de stimulation",
+          "type": "measure-field",
+          "shortLabel": "seuil de stimulation",
+          "grows": true,
+          "span": 9,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Sonde ventriculaire gauche durée seuil de stimulation",
+          "type": "measure-field",
+          "shortLabel": "à",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Stimulation bi-ventriculaire: ",
+          "type": "measure-field",
+          "shortLabel": "Stimulation bi-ventriculaire: ",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Mode de stimulation",
+          "type": "text-field",
+          "shortLabel": "Mode de stimulation",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Délai de stimulation VG/VD",
+          "type": "text-field",
+          "shortLabel": "Délai de stimulation VG/VD",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Evénement",
+          "type": "text-field",
+          "shortLabel": "Evénement",
+          "grows": true,
+          "span": 24,
+          "rowSpan": 3,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

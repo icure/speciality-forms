@@ -1,0 +1,91 @@
+{
+  "form": "Demandes & résultats gynécologie 2.0/Demande de Kinésithérapie Périnatale",
+  "id": "803C7264-88D1-4F42-8836-44221B8022B6",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Demande de Kinésithérapie Périnatale",
+          "type": "checkbox",
+          "shortLabel": "Nature du traitement, Kinésithérapie Périnatale",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Nature du traitement, Kinésithérapie Périnatale": "Nature du traitement, Kinésithérapie Périnatale"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "7E6DA617-9263-49F1-9074-827B91A5CA32",
+          "type": "action",
+          "shortLabel": "IMPRIMER",
+          "grows": true,
+          "span": 18,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Nature du traitement, autre :",
+          "type": "text-field",
+          "shortLabel": "Nature du traitement, autre :",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Nombre de tours",
+          "type": "number-field",
+          "shortLabel": "Nombre de tours",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Périodicité",
+          "type": "text-field",
+          "shortLabel": "Périodicité",
+          "grows": true,
+          "span": 20,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Jour d'accouchement prévu",
+          "type": "date-picker",
+          "shortLabel": "Jour d'accouchement prévu",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Nom du médecin",
+          "type": "text-field",
+          "shortLabel": "Nom du médecin",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

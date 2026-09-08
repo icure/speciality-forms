@@ -1,0 +1,361 @@
+{
+  "form": "Subformulieren/Vaccins raadplegen",
+  "id": "94484700-EE5D-43E2-8001-1FA02B7D6C00",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Vaccin Tedivax",
+          "type": "checkbox",
+          "shortLabel": "Tedivax",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "options": {
+            "Tedivax": "Tedivax"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Hepatitis A Vaccin",
+          "type": "checkbox",
+          "shortLabel": "Vac. Hep. A1",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "options": {
+            "Vac. Hep. A1": "Vac. Hep. A1"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Hepatitis B-vaccin",
+          "type": "checkbox",
+          "shortLabel": "Vac. Hep. B1",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "options": {
+            "Vac. Hep. B1": "Vac. Hep. B1"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Twinrix vaccin",
+          "type": "checkbox",
+          "shortLabel": "Twinrix1",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "Twinrix1": "Twinrix1"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Poliovaccin",
+          "type": "checkbox",
+          "shortLabel": "Vac. Poliomyelitis",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "options": {
+            "Vac. Poliomyelitis": "Vac. Poliomyelitis"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Vaccin Revaxis",
+          "type": "checkbox",
+          "shortLabel": "Revaxis",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Revaxis": "Revaxis"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Hepatitis A vaccin booster",
+          "type": "checkbox",
+          "shortLabel": "Vac. Hep. A2",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Vac. Hep. A2": "Vac. Hep. A2"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "1 booster hepatitis B",
+          "type": "checkbox",
+          "shortLabel": "Vac. Hep. B2",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Vac. Hep. B2": "Vac. Hep. B2"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Booster vaccin Twinrix 1",
+          "type": "checkbox",
+          "shortLabel": "Twinrix2",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Twinrix2": "Twinrix2"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Boostrix vaccin",
+          "type": "checkbox",
+          "shortLabel": "Boostrix",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "options": {
+            "Boostrix": "Boostrix"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Roug vaccin. / Rub. / Bof",
+          "type": "checkbox",
+          "shortLabel": "Vac. MMR",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "options": {
+            "Vac. MMR": "Vac. MMR"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "2 booster hepatitis B",
+          "type": "checkbox",
+          "shortLabel": "Vac. Hep. B3",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "options": {
+            "Vac. Hep. B3": "Vac. Hep. B3"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Booster vaccin Twinrix 2",
+          "type": "checkbox",
+          "shortLabel": "Twinrix3",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "Twinrix3": "Twinrix3"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Haemophilus vaccin",
+          "type": "checkbox",
+          "shortLabel": "Vac. Haemophilus",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "options": {
+            "Vac. Haemophilus": "Vac. Haemophilus"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Vaccin Meningitec",
+          "type": "checkbox",
+          "shortLabel": "Vac. Meningitec",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "Vac. Meningitec": "Vac. Meningitec"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Vaccin tegen HPV",
+          "type": "checkbox",
+          "shortLabel": "Vac. HPV1",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "Vac. HPV1": "Vac. HPV1"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Griepvaccin",
+          "type": "checkbox",
+          "shortLabel": "Griepvaccin",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "Griepvaccin": "Griepvaccin"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Pneumokokkenvaccin 23",
+          "type": "checkbox",
+          "shortLabel": "Pneumo 23",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "Pneumo 23": "Pneumo 23"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Booster vaccin tegen HPV 1",
+          "type": "checkbox",
+          "shortLabel": "Vac. HPV2",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Vac. HPV2": "Vac. HPV2"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Prevenar vaccin",
+          "type": "checkbox",
+          "shortLabel": "Prevenar",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Prevenar": "Prevenar"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Vaccin Typhim",
+          "type": "checkbox",
+          "shortLabel": "Vac. Typhim",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Vac. Typhim": "Vac. Typhim"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Kennisgeving vaccin herinnering Typhim",
+          "type": "checkbox",
+          "shortLabel": "Rpl",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Rpl": "Rpl"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Booster vaccin tegen HPV 2",
+          "type": "checkbox",
+          "shortLabel": "Vac. HPV 3",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "Vac. HPV 3": "Vac. HPV 3"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Vaccin tegen gele koorts",
+          "type": "checkbox",
+          "shortLabel": "Vac. FIEV. Geel",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "Vac. FIEV. Geel": "Vac. FIEV. Geel"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Herinnering kennisgeving gelekoortsvaccin",
+          "type": "checkbox",
+          "shortLabel": "Rpl",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "Rpl": "Rpl"
+          },
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

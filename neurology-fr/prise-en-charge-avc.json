@@ -1,0 +1,603 @@
+{
+  "form": "Neurologie AVC/Prise en charge AVC",
+  "id": "B5DE497E-BE50-4DFF-B105-CDD28921174F",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Heure",
+              "type": "dropdown-field",
+              "shortLabel": "Heure",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "LEGACY|precise|1": "precise",
+                "LEGACY|approximative|1": "approximative",
+                "LEGACY|inconnue|1": "inconnue",
+                "LEGACY|au réveil|1": "au réveil"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Début des symptômes",
+              "type": "dropdown-field",
+              "shortLabel": "Début des symptômes",
+              "grows": true,
+              "span": 19,
+              "readonly": false,
+              "options": {
+                "LEGACY|brutale|1": "brutale",
+                "LEGACY|par à coups|1": "par à coups",
+                "LEGACY|progressive|1": "progressive",
+                "LEGACY|au reveil|1": "au reveil",
+                "LEGACY|inconnu|1": "inconnu"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Reconnaissance des symptômes",
+              "type": "dropdown-field",
+              "shortLabel": "Reconnaissance des symptômes",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "LEGACY|par le patient|1": "par le patient",
+                "LEGACY|par quelquʼun de la famille/ami|1": "par quelquʼun de la famille/ami",
+                "LEGACY|par medecin traitant|1": "par medecin traitant",
+                "LEGACY|par neurologue|1": "par neurologue"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Facteur déclenchant",
+              "type": "dropdown-field",
+              "shortLabel": "Facteur déclenchant",
+              "grows": true,
+              "span": 14,
+              "readonly": false,
+              "options": {
+                "LEGACY|Aucun|1": "Aucun",
+                "LEGACY|Stress aigu|1": "Stress aigu",
+                "LEGACY|Traumatisme cranien|1": "Traumatisme cranien",
+                "LEGACY|Traumatisme cervical|1": "Traumatisme cervical",
+                "LEGACY|Traumatisme polytraumatisé|1": "Traumatisme polytraumatisé",
+                "LEGACY|Traumatisme autre|1": "Traumatisme autre",
+                "LEGACY|Prise de medicament/ drogue|1": "Prise de medicament/ drogue",
+                "LEGACY|Sport|1": "Sport",
+                "LEGACY|Coronariographie|1": "Coronariographie",
+                "LEGACY|Chirurgie carotidienne|1": "Chirurgie carotidienne",
+                "LEGACY|Chirurgie cardiaque|1": "Chirurgie cardiaque",
+                "LEGACY|Chirurgie orthopédique|1": "Chirurgie orthopédique",
+                "LEGACY|Chirurgie autre|1": "Chirurgie autre",
+                "LEGACY|Autre|1": "Autre"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Commentaire facteur déclenchant AVC",
+              "type": "text-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Durée des symptômes",
+              "type": "dropdown-field",
+              "shortLabel": "Durée des symptômes",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "LEGACY|< 1 heure|1": "< 1 heure",
+                "LEGACY|1 - 24 heures|1": "1 - 24 heures",
+                "LEGACY|> 24 heures|1": "> 24 heures"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Arrivée par rapport au début des symptômes",
+              "type": "dropdown-field",
+              "shortLabel": "Arrivée par rapport au début des symptômes",
+              "grows": true,
+              "span": 19,
+              "readonly": false,
+              "options": {
+                "LEGACY|<3 h.|1": "<3 h.",
+                "LEGACY|<4,5 h.|1": "<4,5 h.",
+                "LEGACY|4,5 - 6 h.|1": "4,5 - 6 h.",
+                "LEGACY|> 6 h.|1": "> 6 h."
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Date et heure AVC",
+              "type": "date-picker",
+              "shortLabel": "Date et heure AVC",
+              "grows": true,
+              "span": 8,
+              "rowSpan": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Date et heure arrivé hôpital AVC",
+              "type": "date-picker",
+              "shortLabel": "Arrivée hôpital",
+              "grows": true,
+              "span": 16,
+              "rowSpan": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Façon dʼarriver à lʼhôpital",
+              "type": "dropdown-field",
+              "shortLabel": "Façon dʼarriver à lʼhôpital",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "LEGACY|par ses propres moyens|1": "par ses propres moyens",
+                "LEGACY|par ambulance|1": "par ambulance",
+                "LEGACY|par SMUR|1": "par SMUR",
+                "LEGACY|accès via consultation|1": "accès via consultation"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Appel Médecin Traitant",
+              "type": "dropdown-field",
+              "shortLabel": "Appel Médecin Traitant",
+              "grows": true,
+              "span": 19,
+              "readonly": false,
+              "options": {
+                "LEGACY|non|1": "non",
+                "LEGACY|appel ambulance/SMUR|1": "appel ambulance/SMUR",
+                "LEGACY|attendre sa visite < 1h.|1": "attendre sa visite < 1h.",
+                "LEGACY|attendre sa visite > 1h.|1": "attendre sa visite > 1h.",
+                "LEGACY|rdv en consultation|1": "rdv en consultation"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Periode",
+              "type": "dropdown-field",
+              "shortLabel": "Periode",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "LEGACY|premier trmestre|1": "premier trmestre",
+                "LEGACY|deuxième trmestre|1": "deuxième trmestre",
+                "LEGACY|troisième trmestre|1": "troisième trmestre"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Nombre de bebés",
+              "type": "dropdown-field",
+              "shortLabel": "Nombre de bebés",
+              "grows": true,
+              "span": 11,
+              "readonly": false,
+              "options": {
+                "LEGACY|1|1": "1",
+                "LEGACY|2|1": "2",
+                "LEGACY|>2|1": ">2"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Pré-éclampsie",
+              "type": "checkbox",
+              "shortLabel": "Pré-éclampsie",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "options": {
+                "Pré-éclampsie": "Pré-éclampsie"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Nature",
+              "type": "dropdown-field",
+              "shortLabel": "Nature",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "LEGACY|Spontanée|1": "Spontanée",
+                "LEGACY|Hyperstimulation|1": "Hyperstimulation",
+                "LEGACY|FIV|1": "FIV",
+                "LEGACY|IA|1": "IA"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Diabète gestationnel",
+              "type": "checkbox",
+              "shortLabel": "Diabète gestationnel",
+              "grows": true,
+              "span": 19,
+              "readonly": false,
+              "options": {
+                "Diabète gestationnel": "Diabète gestationnel"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Postpartum",
+              "type": "dropdown-field",
+              "shortLabel": "Postpartum",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "LEGACY|précoce|1": "précoce",
+                "LEGACY|tardif|1": "tardif"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Postpartum pré-éclampsie",
+              "type": "checkbox",
+              "shortLabel": "Pré-éclampsie",
+              "grows": true,
+              "span": 19,
+              "readonly": false,
+              "options": {
+                "Pré-éclampsie": "Pré-éclampsie"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Céphalées",
+              "type": "dropdown-field",
+              "shortLabel": "Céphalées",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "LEGACY|en coup de tonerre|1": "en coup de tonerre",
+                "LEGACY|pulsatiles|1": "pulsatiles",
+                "LEGACY|musculotensives|1": "musculotensives"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Cervicalgies",
+              "type": "checkbox",
+              "shortLabel": "Cervicalgies",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Cervicalgies": "Cervicalgies"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Photophobie/phonophobie",
+              "type": "checkbox",
+              "shortLabel": "Photophobie/phonophobie",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "Photophobie/phonophobie": "Photophobie/phonophobie"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Nausées/Vomissements",
+              "type": "checkbox",
+              "shortLabel": "Nausées/Vomissements",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Nausées/Vomissements": "Nausées/Vomissements"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Crise épileptique",
+              "type": "dropdown-field",
+              "shortLabel": "Crise épileptique",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "LEGACY|partielle|1": "partielle",
+                "LEGACY|généralisée|1": "généralisée"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Frissons",
+              "type": "checkbox",
+              "shortLabel": "Frissons",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Frissons": "Frissons"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Douleur thoracique",
+              "type": "checkbox",
+              "shortLabel": "Douleur thoracique",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "Douleur thoracique": "Douleur thoracique"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Lipothymies",
+              "type": "checkbox",
+              "shortLabel": "Lipothymies",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Lipothymies": "Lipothymies"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Modified Rankin Scale avant AVC",
+              "type": "number-field",
+              "shortLabel": "Modified Rankin Scale avant AVC",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Poids",
+              "type": "measure-field",
+              "shortLabel": "Poids",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Taille",
+              "type": "measure-field",
+              "shortLabel": "Taille",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "BMI",
+              "type": "number-field",
+              "shortLabel": "BMI",
+              "grows": true,
+              "span": 13,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Tension art. sys.",
+              "type": "measure-field",
+              "shortLabel": "TA sys.",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Tension art. dia.",
+              "type": "measure-field",
+              "shortLabel": "TA dia.",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Saturation O2",
+              "type": "measure-field",
+              "shortLabel": "Sat O2",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Pouls",
+              "type": "measure-field",
+              "shortLabel": "Pouls",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Régularité du pouls",
+              "type": "dropdown-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "LEGACY|Régulier|1": "Régulier",
+                "LEGACY|Irrégulier|1": "Irrégulier"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "T°",
+              "type": "measure-field",
+              "shortLabel": "T°",
+              "grows": true,
+              "span": 13,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Glyc.",
+              "type": "measure-field",
+              "shortLabel": "Glyc.",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Troubles dermatologiques",
+              "type": "dropdown-field",
+              "shortLabel": "Troubles dermatologiques",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "LEGACY|Livedo Reticularis|1": "Livedo Reticularis",
+                "LEGACY|Livedo Racemosa|1": "Livedo Racemosa",
+                "LEGACY|Telangiectasies faciales|1": "Telangiectasies faciales",
+                "LEGACY|Telangiectasies buccales/levrès|1": "Telangiectasies buccales/levrès",
+                "LEGACY|Angiokeratome|1": "Angiokeratome",
+                "LEGACY|Raynaud|1": "Raynaud",
+                "LEGACY|Purpura|1": "Purpura",
+                "LEGACY|Embolscholestérol|1": "Embolscholestérol",
+                "LEGACY|Autres|1": "Autres"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Score ABCD2",
+              "type": "number-field",
+              "shortLabel": "Score ABCD2",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "NIHSS à l'admission",
+              "type": "number-field",
+              "shortLabel": "NIHSS à l'admission",
+              "grows": true,
+              "span": 20,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

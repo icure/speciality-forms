@@ -1,0 +1,801 @@
+{
+  "form": "Pédiatrie/Vaccinations enfant/date",
+  "id": "3CD13087-3130-4E24-BB71-4EA8A076A365",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Infanrix hexa 2 mois",
+              "type": "checkbox",
+              "shortLabel": "Infanrix hexa 2 mois",
+              "grows": true,
+              "span": 2,
+              "readonly": false,
+              "options": {
+                "Infanrix hexa 2 mois": "Infanrix hexa 2 mois"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Prevenar 2 mois",
+              "type": "checkbox",
+              "shortLabel": "Prevenar 2 mois",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Prevenar 2 mois": "Prevenar 2 mois"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Rotarix 2 mois",
+              "type": "checkbox",
+              "shortLabel": "Rotarix 2 mois",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Rotarix 2 mois": "Rotarix 2 mois"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Rotateq 2 mois",
+              "type": "checkbox",
+              "shortLabel": "Rotateq 2 mois",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "options": {
+                "Rotateq 2 mois": "Rotateq 2 mois"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "BCG",
+              "type": "checkbox",
+              "shortLabel": "BCG",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "BCG": "BCG"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Infanrix hexa 3 mois",
+              "type": "checkbox",
+              "shortLabel": "Infanrix hexa 3 mois",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Infanrix hexa 3 mois": "Infanrix hexa 3 mois"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Rotarix 3 mois",
+              "type": "checkbox",
+              "shortLabel": "Rotarix 3 mois",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Rotarix 3 mois": "Rotarix 3 mois"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Rotateq 3 mois",
+              "type": "checkbox",
+              "shortLabel": "Rotateq 3 mois",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Rotateq 3 mois": "Rotateq 3 mois"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Infanrix hexa 4 mois",
+              "type": "checkbox",
+              "shortLabel": "Infanrix hexa 4 mois",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Infanrix hexa 4 mois": "Infanrix hexa 4 mois"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Prevenar 4 mois",
+              "type": "checkbox",
+              "shortLabel": "Prevenar 4 mois",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Prevenar 4 mois": "Prevenar 4 mois"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Rotateq 4 mois",
+              "type": "checkbox",
+              "shortLabel": "Rotateq 4 mois",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Rotateq 4 mois": "Rotateq 4 mois"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Prevenar 12 mois",
+              "type": "checkbox",
+              "shortLabel": "Prevenar 12 mois",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "Prevenar 12 mois": "Prevenar 12 mois"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vaccin RRO 12 mois",
+              "type": "checkbox",
+              "shortLabel": "RRO 12 mois",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "RRO 12 mois": "RRO 12 mois"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vaccin Méningocoque C",
+              "type": "checkbox",
+              "shortLabel": "Méningocoque C",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "Méningocoque C": "Méningocoque C"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Infanrix hexa 13-14 mois",
+              "type": "checkbox",
+              "shortLabel": "Infanrix hexa 13-14 mois",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "Infanrix hexa 13-14 mois": "Infanrix hexa 13-14 mois"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vaccin contre la varicelle",
+              "type": "checkbox",
+              "shortLabel": "Vac. varicelle",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "Vac. varicelle": "Vac. varicelle"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Notification Rappel Vaccin varicelle",
+              "type": "checkbox",
+              "shortLabel": "Rpl",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "Rpl": "Rpl"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vaccint tetravac",
+              "type": "checkbox",
+              "shortLabel": "Vaccint tetravac",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "Vaccint tetravac": "Vaccint tetravac"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vaccin Twinrix",
+              "type": "checkbox",
+              "shortLabel": "Vac. Twinrix",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Vac. Twinrix": "Vac. Twinrix"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Notification Rappel Vaccin Twinrix",
+              "type": "checkbox",
+              "shortLabel": "Rpl",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Rpl": "Rpl"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vaccin RRO 11-12 ans",
+              "type": "checkbox",
+              "shortLabel": "RRO 11-12 ans",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "RRO 11-12 ans": "RRO 11-12 ans"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vaccin Boostrix",
+              "type": "checkbox",
+              "shortLabel": "Vac. Boostrix 15-16 ans",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "Vac. Boostrix 15-16 ans": "Vac. Boostrix 15-16 ans"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vaccin Hépatite A",
+              "type": "checkbox",
+              "shortLabel": "Vac. Hép. A",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "Vac. Hép. A": "Vac. Hép. A"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Notification Rappel Vaccin Hépatite A",
+              "type": "checkbox",
+              "shortLabel": "Rpl",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "Rpl": "Rpl"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vaccin papillomavirus 1ère dose",
+              "type": "checkbox",
+              "shortLabel": "Vaccin HPV 1ère dose",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "Vaccin HPV 1ère dose": "Vaccin HPV 1ère dose"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vaccin Hépatite B",
+              "type": "checkbox",
+              "shortLabel": "Vac. Hép. B",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "Vac. Hép. B": "Vac. Hép. B"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Notification Rappel Vaccin Hépatite B",
+              "type": "checkbox",
+              "shortLabel": "Rpl",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "Rpl": "Rpl"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vaccin papillomavirus 2ème dose",
+              "type": "checkbox",
+              "shortLabel": "Vaccin HPV 2ème dose",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "Vaccin HPV 2ème dose": "Vaccin HPV 2ème dose"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vaccin Poliomyélite",
+              "type": "checkbox",
+              "shortLabel": "Vac. Poliomyélite",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "Vac. Poliomyélite": "Vac. Poliomyélite"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vaccin papillomavirus 3ème dose",
+              "type": "checkbox",
+              "shortLabel": "Vaccin HPV 3ème dose",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "Vaccin HPV 3ème dose": "Vaccin HPV 3ème dose"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vaccin Coqueluche",
+              "type": "checkbox",
+              "shortLabel": "Vac. Coqueluche",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "Vac. Coqueluche": "Vac. Coqueluche"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vaccin Diphtérie",
+              "type": "checkbox",
+              "shortLabel": "Vac. Diphtérie",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "Vac. Diphtérie": "Vac. Diphtérie"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vaccin Haemophilus",
+              "type": "checkbox",
+              "shortLabel": "Vac. Haemophilus",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "Vac. Haemophilus": "Vac. Haemophilus"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vaccin Grippe",
+              "type": "checkbox",
+              "shortLabel": "Vac. Grippe",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "Vac. Grippe": "Vac. Grippe"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Notification Rappel Vaccin Grippe",
+              "type": "checkbox",
+              "shortLabel": "Rpl",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "Rpl": "Rpl"
+              },
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Diphtérie-Tétanos-Coqueluche DTP(a) 3 mois",
+              "type": "checkbox",
+              "shortLabel": "Diphtérie-Tétanos-Coqueluche DTP(a) 3 mois",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "Diphtérie-Tétanos-Coqueluche DTP(a) 3 mois": "Diphtérie-Tétanos-Coqueluche DTP(a) 3 mois"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Polio OPV 3 mois",
+              "type": "checkbox",
+              "shortLabel": "+ Polio OPV 3 mois",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "+ Polio OPV 3 mois": "+ Polio OPV 3 mois"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Haemophilius influenzae type b HIB 3 mois",
+              "type": "checkbox",
+              "shortLabel": "+ Haemophilius influenzae type b HIB 3 mois",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "+ Haemophilius influenzae type b HIB 3 mois": "+ Haemophilius influenzae type b HIB 3 mois"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Hépatite B HB 3mois",
+              "type": "checkbox",
+              "shortLabel": "+ Hépatite B HB 3mois",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "+ Hépatite B HB 3mois": "+ Hépatite B HB 3mois"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Diphtérie-Tétanos-Coqueluche DTP(a) 4 mois",
+              "type": "checkbox",
+              "shortLabel": "Diphtérie-Tétanos-Coqueluche DTP(a) 4 mois",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "Diphtérie-Tétanos-Coqueluche DTP(a) 4 mois": "Diphtérie-Tétanos-Coqueluche DTP(a) 4 mois"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Haemophilius influenzae type b HIB 4 mois",
+              "type": "checkbox",
+              "shortLabel": "+ Haemophilius influenzae type b HIB 4 mois",
+              "grows": true,
+              "span": 14,
+              "readonly": false,
+              "options": {
+                "+ Haemophilius influenzae type b HIB 4 mois": "+ Haemophilius influenzae type b HIB 4 mois"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Hépatite B HB 4 mois",
+              "type": "checkbox",
+              "shortLabel": "+ Hépatite B HB 4 mois",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "+ Hépatite B HB 4 mois": "+ Hépatite B HB 4 mois"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Diphtérie-Tétanos-Coqueluche DTP(a) 5 mois",
+              "type": "checkbox",
+              "shortLabel": "Diphtérie-Tétanos-Coqueluche DTP(a) 5 mois",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "Diphtérie-Tétanos-Coqueluche DTP(a) 5 mois": "Diphtérie-Tétanos-Coqueluche DTP(a) 5 mois"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Polio OPV 5 mois",
+              "type": "checkbox",
+              "shortLabel": "+ Polio OPV 5 mois",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "+ Polio OPV 5 mois": "+ Polio OPV 5 mois"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Haemophilius influenzae type b HIB 5 mois",
+              "type": "checkbox",
+              "shortLabel": "+ Haemophilius influenzae type b HIB 5 mois",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "+ Haemophilius influenzae type b HIB 5 mois": "+ Haemophilius influenzae type b HIB 5 mois"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Hépatite B HB 5 mois",
+              "type": "checkbox",
+              "shortLabel": "+ Hépatite B HB 5 mois",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "+ Hépatite B HB 5 mois": "+ Hépatite B HB 5 mois"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Diphtérie-Tétanos-Coqueluche DTP(a) 13-14 mois",
+              "type": "checkbox",
+              "shortLabel": "Diphtérie-Tétanos-Coqueluche DTP(a) 13-14 mois",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "Diphtérie-Tétanos-Coqueluche DTP(a) 13-14 mois": "Diphtérie-Tétanos-Coqueluche DTP(a) 13-14 mois"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Polio OPV 13-14 mois",
+              "type": "checkbox",
+              "shortLabel": "+ Polio OPV 13-14 mois",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "+ Polio OPV 13-14 mois": "+ Polio OPV 13-14 mois"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Haemophilius influenzae type b HIB 13-14 mois",
+              "type": "checkbox",
+              "shortLabel": "+ Haemophilius influenzae type b HIB 13-14 mois",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "+ Haemophilius influenzae type b HIB 13-14 mois": "+ Haemophilius influenzae type b HIB 13-14 mois"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Hépatite B HB 13-14 mois",
+              "type": "checkbox",
+              "shortLabel": "+ Hépatite B HB 13-14 mois",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "+ Hépatite B HB 13-14 mois": "+ Hépatite B HB 13-14 mois"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Rougeole-Rubéole-Oreillons RRO 15 mois",
+              "type": "checkbox",
+              "shortLabel": "Rougeole-Rubéole-Oreillons RRO 15 mois",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "Rougeole-Rubéole-Oreillons RRO 15 mois": "Rougeole-Rubéole-Oreillons RRO 15 mois"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Diphtérie-Tétanos-(Coqueluche acellulaire) DTPa 5-6 ans",
+              "type": "checkbox",
+              "shortLabel": "Diphtérie-Tétanos-(Coqu. acel.) DTPa 5-6 ans",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "Diphtérie-Tétanos-(Coqu. acel.) DTPa 5-6 ans": "Diphtérie-Tétanos-(Coqu. acel.) DTPa 5-6 ans"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Polio OPV 5-6 ans",
+              "type": "checkbox",
+              "shortLabel": "+ Polio OPV 5-6 ans",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "+ Polio OPV 5-6 ans": "+ Polio OPV 5-6 ans"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Rougeole-Rubéole-Oreillons RRO 11-12 ans",
+              "type": "checkbox",
+              "shortLabel": "Rougeole-Rubéole-Oreillons RRO 11-12 ans",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "Rougeole-Rubéole-Oreillons RRO 11-12 ans": "Rougeole-Rubéole-Oreillons RRO 11-12 ans"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Tétanos Diphtérie pro adulto Td 15-16 ans",
+              "type": "checkbox",
+              "shortLabel": "Tétanos Diphtérie pro adulto Td 15-16 ans",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "Tétanos Diphtérie pro adulto Td 15-16 ans": "Tétanos Diphtérie pro adulto Td 15-16 ans"
+              },
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

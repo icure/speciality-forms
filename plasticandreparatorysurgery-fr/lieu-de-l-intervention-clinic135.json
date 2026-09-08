@@ -1,0 +1,154 @@
+{
+  "form": "sous-formulaires organisation salle d'op/Lieu de l'intervention - Clinic135",
+  "id": "A5893707-A123-4C8E-B822-AE1626020010",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "lieu d'intervention",
+          "type": "dropdown-field",
+          "shortLabel": "Lieu d'intervention",
+          "grows": true,
+          "span": 9,
+          "readonly": false,
+          "options": {
+            "LEGACY|Clinic 135|1": "Clinic 135",
+            "LEGACY|Clinique du Parc Léopold|1": "Clinique du Parc Léopold",
+            "LEGACY|Hôpital de Braine l'Alleud|1": "Hôpital de Braine l'Alleud"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Date opératoire programmée",
+          "type": "date-picker",
+          "shortLabel": "Date opératoire programmée",
+          "grows": true,
+          "span": 15,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Chirurgien",
+          "type": "dropdown-field",
+          "shortLabel": "Chirurgien",
+          "grows": true,
+          "span": 9,
+          "readonly": false,
+          "options": {
+            "LEGACY|Dr Daniel MEUNIER|1": "Dr Daniel MEUNIER",
+            "LEGACY|Dr Thierry CLEVE|1": "Dr Thierry CLEVE",
+            "LEGACY|Dr Axel deVOOGHT|1": "Dr Axel deVOOGHT"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "temps opératoire",
+          "type": "measure-field",
+          "shortLabel": "temps opératoire",
+          "grows": true,
+          "span": 15,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Anesthésiste",
+          "type": "dropdown-field",
+          "shortLabel": "Anesthésiste",
+          "grows": true,
+          "span": 9,
+          "readonly": false,
+          "options": {
+            "LEGACY|Phil HENDRICKX|1": "Phil HENDRICKX",
+            "LEGACY|Amid EL AFIA|1": "Amid EL AFIA",
+            "LEGACY|Bernard VANDERICK|1": "Bernard VANDERICK",
+            "LEGACY|/|1": "/"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "anesthésie",
+          "type": "dropdown-field",
+          "shortLabel": "anesthésie",
+          "grows": true,
+          "span": 15,
+          "readonly": false,
+          "options": {
+            "LEGACY|anesthésie locale|1": "anesthésie locale",
+            "LEGACY|anesthésie générale|1": "anesthésie générale",
+            "LEGACY|rachianesthésie|1": "rachianesthésie",
+            "LEGACY|anesthésie locale avec sédation|1": "anesthésie locale avec sédation"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Consultation Post-op",
+          "type": "date-picker",
+          "shortLabel": "Consultation post-op. prévue",
+          "grows": true,
+          "span": 10,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Heure consult post-op",
+          "type": "text-field",
+          "shortLabel": "Heure consult post-op",
+          "grows": true,
+          "span": 14,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "prix de l'intervention",
+          "type": "measure-field",
+          "shortLabel": "prix de l'intervention",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "acompte",
+          "type": "measure-field",
+          "shortLabel": "acompte",
+          "grows": true,
+          "span": 9,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "solde",
+          "type": "measure-field",
+          "shortLabel": "solde",
+          "grows": true,
+          "span": 7,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

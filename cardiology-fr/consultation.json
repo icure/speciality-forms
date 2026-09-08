@@ -1,0 +1,2081 @@
+{
+  "form": "Cardiologie/Consultation",
+  "id": "FFFFFFFF-FFFF-FFFF-FFFF-CONSULTATION",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Motifs de contact",
+              "type": "token-field",
+              "shortLabel": "Motifs",
+              "grows": true,
+              "span": 14,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Poids",
+              "type": "measure-field",
+              "shortLabel": "Poids",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Taille",
+              "type": "measure-field",
+              "shortLabel": "Taille",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Tour de taille",
+              "type": "measure-field",
+              "shortLabel": "T. taille",
+              "grows": true,
+              "span": 20,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "BMI",
+              "type": "number-field",
+              "shortLabel": "BMI",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Anamnèse",
+              "type": "text-field",
+              "shortLabel": "Anamnèse",
+              "grows": true,
+              "span": 24,
+              "rowSpan": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Tension artérielle systolique",
+              "type": "measure-field",
+              "shortLabel": "TA",
+              "grows": true,
+              "span": 18,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Tension artérielle diastolique",
+              "type": "measure-field",
+              "shortLabel": "/",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Pouls",
+              "type": "measure-field",
+              "shortLabel": "Pouls",
+              "grows": true,
+              "span": 20,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Régularité du pouls",
+              "type": "dropdown-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "LEGACY|Régulier|1": "Régulier",
+                "LEGACY|Irrégulier|1": "Irrégulier"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Résultats examens récents",
+              "type": "text-field",
+              "shortLabel": "Rés. ex.",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Examen clinique",
+              "type": "dropdown-field",
+              "shortLabel": "Examen clinique",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "LEGACY|Carotides palpées et non soufflantes.\nJugulaires non turgescentes.\nAuscultation cardiaque: B1B2 régulier sans souffle audible.\nAuscultation pulmonaire: murmure vésiculaire clair bilatéralement.\nPas de reflux hépato-jugulaire.\nPas de signes d'insuffisance veineuse des membres inférieurs, manœuvre de Homans négative bilatéralement.\nPouls périphériques palpés.\nPas de déficit neurologique noté.|1": "Carotides palpées et non soufflantes.\nJugulaires non turgescentes.\nAuscultation cardiaque: B1B2 régulier sans souffle audible.\nAuscultation pulmonaire: murmure vésiculaire clair bilatéralement.\nPas de reflux hépato-jugulaire.\nPas de signes d'insuffisance veineuse des membres inférieurs, manœuvre de Homans négative bilatéralement.\nPouls périphériques palpés.\nPas de déficit neurologique noté.",
+                "LEGACY|B1, B2|1": "B1, B2",
+                "LEGACY|B1 B2, pas de souffle. Bruits respiratoires normaux. Abdomen souple, dépressible et indolore. Péristaltisme. Absence d'oedème des membres inférieurs. Pouls périphériques palpés. Absence de souffle carotidien.|1": "B1 B2, pas de souffle. Bruits respiratoires normaux. Abdomen souple, dépressible et indolore. Péristaltisme. Absence d'oedème des membres inférieurs. Pouls périphériques palpés. Absence de souffle carotidien."
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Souffle",
+              "type": "dropdown-field",
+              "shortLabel": "Souffle",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "options": {
+                "LEGACY|systolique|1": "systolique",
+                "LEGACY|diastolique|1": "diastolique"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Oedème des membres inférieurs",
+              "type": "dropdown-field",
+              "shortLabel": "OMI",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "options": {
+                "LEGACY|absence d'œdème des membres inférieurs|1": "absence d'œdème des membres inférieurs",
+                "LEGACY|localisé aux chevilles|1": "localisé aux chevilles",
+                "LEGACY|aux chevilles, D>G|1": "aux chevilles, D>G",
+                "LEGACY|aux chevilles, G>D|1": "aux chevilles, G>D",
+                "LEGACY|remontant jusqu'aux genoux|1": "remontant jusqu'aux genoux"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Bloc de branche droit complet.",
+              "type": "checkbox",
+              "shortLabel": "Abdo OK",
+              "grows": true,
+              "span": 2,
+              "readonly": false,
+              "options": {
+                "Abdo OK": "Abdo OK"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Dermite ocre aux membres inférieurs",
+              "type": "checkbox",
+              "shortLabel": "Dermite ocre MI",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "Dermite ocre MI": "Dermite ocre MI"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": " Absence de souffle carotidien",
+              "type": "checkbox",
+              "shortLabel": " Absence de souffle carotidien",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                " Absence de souffle carotidien": " Absence de souffle carotidien"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Souffle carotidien à droite",
+              "type": "checkbox",
+              "shortLabel": "Souffle car. D",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "options": {
+                "Souffle car. D": "Souffle car. D"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Souffle carotidien à gauche",
+              "type": "checkbox",
+              "shortLabel": "Souffle car. G",
+              "grows": true,
+              "span": 2,
+              "readonly": false,
+              "options": {
+                "Souffle car. G": "Souffle car. G"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Pouls périphériques palpés",
+              "type": "checkbox",
+              "shortLabel": "PPP",
+              "grows": true,
+              "span": 2,
+              "readonly": false,
+              "options": {
+                "PPP": "PPP"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Examen clinique",
+              "type": "text-field",
+              "shortLabel": "Ex. clin.",
+              "grows": true,
+              "span": 24,
+              "rowSpan": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "subform",
+              "id": "DBAA1268-CE9A-4338-90C8-C92CF817F2B2",
+              "shortLabel": "Examens complémentaires & certificats",
+              "forms": {
+                "Cardiologie/ECG": {
+                  "form": "Cardiologie/ECG",
+                  "id": "2F5B2B8E-55B5-4943-9B6F-615FC4D575FB",
+                  "sections": [
+                    {
+                      "section": "Main",
+                      "fields": [
+                        {
+                          "clazz": "field",
+                          "field": "Rythme sinusal",
+                          "type": "measure-field",
+                          "shortLabel": "Rythme sinusal",
+                          "grows": true,
+                          "span": 5,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": " extrasystole auriculaire isolée",
+                          "type": "checkbox",
+                          "shortLabel": "Extrasystole auriculaire isolée",
+                          "grows": true,
+                          "span": 9,
+                          "readonly": false,
+                          "options": {
+                            "Extrasystole auriculaire isolée": "Extrasystole auriculaire isolée"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Extrasystolie ventriculaire",
+                          "type": "dropdown-field",
+                          "shortLabel": "Extrasystolie ventriculaire",
+                          "grows": true,
+                          "span": 10,
+                          "readonly": false,
+                          "options": {
+                            "LEGACY|isolée, type retard droit.|1": "isolée, type retard droit.",
+                            "LEGACY|isolée, type retard gauche.|1": "isolée, type retard gauche.",
+                            "LEGACY|bigéminée.|1": "bigéminée."
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Espace PR",
+                          "type": "measure-field",
+                          "shortLabel": "Espace PR",
+                          "grows": true,
+                          "span": 5,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Durée du QRS",
+                          "type": "measure-field",
+                          "shortLabel": "Durée du QRS",
+                          "grows": true,
+                          "span": 8,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Axe du QRS",
+                          "type": "measure-field",
+                          "shortLabel": "Axe du QRS",
+                          "grows": true,
+                          "span": 7,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "QTc",
+                          "type": "measure-field",
+                          "shortLabel": "QTc",
+                          "grows": true,
+                          "span": 4,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "BAV",
+                          "type": "dropdown-field",
+                          "shortLabel": "BAV",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "options": {
+                            "LEGACY|Bloc auriculoventriculaire du premier degré.|1": "Bloc auriculoventriculaire du premier degré.",
+                            "LEGACY|Bloc auriculoventriculaire du second degré Mobitz I|1": "Bloc auriculoventriculaire du second degré Mobitz I",
+                            "LEGACY|Bloc auriculoventriculaire complet|1": "Bloc auriculoventriculaire complet"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": " Allongment du QT, Extrasystole ventriculaire isolée",
+                          "type": "checkbox",
+                          "shortLabel": " Allongment du QT",
+                          "grows": true,
+                          "span": 18,
+                          "readonly": false,
+                          "options": {
+                            " Allongment du QT": " Allongment du QT"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Déviation axe",
+                          "type": "checkbox",
+                          "shortLabel": "Hémibloc antérieur gauche",
+                          "grows": true,
+                          "span": 12,
+                          "readonly": false,
+                          "options": {
+                            "Hémibloc antérieur gauche": "Hémibloc antérieur gauche"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Absence d'anomalie de la repolarisation",
+                          "type": "checkbox",
+                          "shortLabel": "Absence d'anomalie de la repolarisation",
+                          "grows": true,
+                          "span": 12,
+                          "readonly": false,
+                          "options": {
+                            "Absence d'anomalie de la repolarisation": "Absence d'anomalie de la repolarisation"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Bloc de branche gauche complet",
+                          "type": "checkbox",
+                          "shortLabel": "Bloc de branche gauche complet",
+                          "grows": true,
+                          "span": 12,
+                          "readonly": false,
+                          "options": {
+                            "Bloc de branche gauche complet": "Bloc de branche gauche complet"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": " Anomalies aspécifiques de la repolarisation",
+                          "type": "checkbox",
+                          "shortLabel": " Anomalies aspécifiques de la repolarisation",
+                          "grows": true,
+                          "span": 12,
+                          "readonly": false,
+                          "options": {
+                            " Anomalies aspécifiques de la repolarisation": " Anomalies aspécifiques de la repolarisation"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Bloc de branche droit complet.",
+                          "type": "checkbox",
+                          "shortLabel": "Bloc de branche droit complet.",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "options": {
+                            "Bloc de branche droit complet.": "Bloc de branche droit complet."
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Conclusion ECG",
+                          "type": "text-field",
+                          "shortLabel": "Ccl ECG",
+                          "grows": true,
+                          "span": 18,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": " Bloc de branche droit incomplet",
+                          "type": "checkbox",
+                          "shortLabel": " Bloc de branche droit incomplet",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "options": {
+                            " Bloc de branche droit incomplet": " Bloc de branche droit incomplet"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "Cardiologie/Test d'effort": {
+                  "form": "Cardiologie/Test d'effort",
+                  "id": "CFFA071C-D1DE-494B-8336-36F4B354F09F",
+                  "sections": [
+                    {
+                      "section": "Main",
+                      "fields": [
+                        {
+                          "clazz": "field",
+                          "field": "Niveau de paliers",
+                          "type": "text-field",
+                          "shortLabel": "Niveau de paliers",
+                          "grows": true,
+                          "span": 5,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Tension artérielle systolique maximale",
+                          "type": "measure-field",
+                          "shortLabel": "TA max",
+                          "grows": true,
+                          "span": 11,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Tension artérielle diastolique maximale",
+                          "type": "measure-field",
+                          "shortLabel": "/",
+                          "grows": true,
+                          "span": 8,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Fréquence cardiaque maximale",
+                          "type": "measure-field",
+                          "shortLabel": "Fq. card. max.",
+                          "grows": true,
+                          "span": 7,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Tension artérielle systolique à la troisième minute de récupération",
+                          "type": "measure-field",
+                          "shortLabel": "TA R3",
+                          "grows": true,
+                          "span": 9,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Tension artérielle diastolique à la troisième minute de récupération",
+                          "type": "measure-field",
+                          "shortLabel": "/",
+                          "grows": true,
+                          "span": 8,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Charge maximale atteinte",
+                          "type": "measure-field",
+                          "shortLabel": "Charge max. att.",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Fréquence cardiaque maximale théorique",
+                          "type": "measure-field",
+                          "shortLabel": "% Fq. card. max. th.",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Douleur thoracique",
+                          "type": "checkbox",
+                          "shortLabel": "Douleur thoracique",
+                          "grows": true,
+                          "span": 3,
+                          "readonly": false,
+                          "options": {
+                            "Douleur thoracique": "Douleur thoracique"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Troubles du rythme à l'effort",
+                          "type": "checkbox",
+                          "shortLabel": "Troubles du rythme à l'effort",
+                          "grows": true,
+                          "span": 7,
+                          "readonly": false,
+                          "options": {
+                            "Troubles du rythme à l'effort": "Troubles du rythme à l'effort"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Hypertension à l'effort",
+                          "type": "checkbox",
+                          "shortLabel": "Hypertension à l'effort",
+                          "grows": true,
+                          "span": 7,
+                          "readonly": false,
+                          "options": {
+                            "Hypertension à l'effort": "Hypertension à l'effort"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "ECG suspect",
+                          "type": "checkbox",
+                          "shortLabel": "ECG suspect",
+                          "grows": true,
+                          "span": 4,
+                          "readonly": false,
+                          "options": {
+                            "ECG suspect": "ECG suspect"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Trouble de conduction",
+                          "type": "checkbox",
+                          "shortLabel": "Conduction",
+                          "grows": true,
+                          "span": 3,
+                          "readonly": false,
+                          "options": {
+                            "Conduction": "Conduction"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Conclusion du test à l'effort",
+                          "type": "dropdown-field",
+                          "shortLabel": "Conclusion",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "options": {
+                            "LEGACY|Test à l'effort maximal, cliniquement, électriquement et rythmologiquement négatif.|1": "Test à l'effort maximal, cliniquement, électriquement et rythmologiquement négatif.",
+                            "LEGACY|Test à l'effort sous-mmaximal, cliniquement, électriquement et rythmologiquement négatif.|1": "Test à l'effort sous-mmaximal, cliniquement, électriquement et rythmologiquement négatif."
+                          },
+                          "multiline": false,
+                          "translate": true
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "Cardiologie/Contrôle stimulateur cardiaque": {
+                  "form": "Cardiologie/Contrôle stimulateur cardiaque",
+                  "id": "1305d153-dd54-1ba3-a424-0e6e47f4245f",
+                  "sections": [
+                    {
+                      "section": "Main",
+                      "fields": [
+                        {
+                          "clazz": "field",
+                          "field": "Voltage de batterie",
+                          "type": "text-field",
+                          "shortLabel": "Voltage de batterie",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Sonde auriculaire impédance",
+                          "type": "measure-field",
+                          "shortLabel": "Sonde auriculaire impédance",
+                          "grows": true,
+                          "span": 5,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Sonde auriculaire détection",
+                          "type": "measure-field",
+                          "shortLabel": "détection",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Sonde auriculaire intensité seuil de stimulation",
+                          "type": "measure-field",
+                          "shortLabel": "seuil de stimulation",
+                          "grows": true,
+                          "span": 9,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Sonde auriculaire durée seuil de stimulation",
+                          "type": "measure-field",
+                          "shortLabel": "à",
+                          "grows": true,
+                          "span": 4,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Sonde ventriculaire impédance",
+                          "type": "measure-field",
+                          "shortLabel": "Sonde ventriculaire impédance",
+                          "grows": true,
+                          "span": 5,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Sonde ventriculaire détection",
+                          "type": "measure-field",
+                          "shortLabel": "détection",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Sonde ventriculaire intensité seuil de stimulation",
+                          "type": "measure-field",
+                          "shortLabel": "seuil de stimulation",
+                          "grows": true,
+                          "span": 9,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Sonde ventriculaire durée seuil de stimulation",
+                          "type": "measure-field",
+                          "shortLabel": "à",
+                          "grows": true,
+                          "span": 4,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Mode de stimulation",
+                          "type": "text-field",
+                          "shortLabel": "Mode de stimulation",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Amplitude A et V",
+                          "type": "text-field",
+                          "shortLabel": "Amplitude A et V",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Durée d'impulsion A et V",
+                          "type": "text-field",
+                          "shortLabel": "Durée d'impulsion A et V",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Sensing A et V:",
+                          "type": "text-field",
+                          "shortLabel": "Sensing A et V",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Evénement",
+                          "type": "text-field",
+                          "shortLabel": "Evénement",
+                          "grows": true,
+                          "span": 24,
+                          "rowSpan": 2,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "Cardiologie/Contrôle stimulateur cardiaque resynchro": {
+                  "form": "Cardiologie/Contrôle stimulateur cardiaque resynchro",
+                  "id": "c59d5bb0-867b-b27d-0d86-b97d1bf1d85a",
+                  "sections": [
+                    {
+                      "section": "Main",
+                      "fields": [
+                        {
+                          "clazz": "field",
+                          "field": "Voltage de batterie",
+                          "type": "text-field",
+                          "shortLabel": "Voltage de batterie",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Sonde auriculaire impédance",
+                          "type": "measure-field",
+                          "shortLabel": "Sonde auriculaire: impédance",
+                          "grows": true,
+                          "span": 4,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Sonde auriculaire détection",
+                          "type": "measure-field",
+                          "shortLabel": "détection",
+                          "grows": true,
+                          "span": 7,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Sonde auriculaire intensité seuil de stimulation",
+                          "type": "measure-field",
+                          "shortLabel": "seuil de stimulation",
+                          "grows": true,
+                          "span": 9,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Sonde auriculaire durée seuil de stimulation",
+                          "type": "measure-field",
+                          "shortLabel": "à",
+                          "grows": true,
+                          "span": 4,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Sonde ventriculaire droite impédance",
+                          "type": "measure-field",
+                          "shortLabel": "Sonde VD: impédance",
+                          "grows": true,
+                          "span": 4,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Sonde ventriculaire droite détection",
+                          "type": "measure-field",
+                          "shortLabel": " détection",
+                          "grows": true,
+                          "span": 7,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Sonde ventriculaire droite intensité seuil de stimulation",
+                          "type": "measure-field",
+                          "shortLabel": "seuil de stimulation",
+                          "grows": true,
+                          "span": 9,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Sonde ventriculaire droite durée seuil de stimulation",
+                          "type": "measure-field",
+                          "shortLabel": "à",
+                          "grows": true,
+                          "span": 4,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Sonde ventriculaire gauche impédance de stimulation",
+                          "type": "measure-field",
+                          "shortLabel": "Sonde VG: impédance",
+                          "grows": true,
+                          "span": 4,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Sonde ventriculaire gauche détection",
+                          "type": "measure-field",
+                          "shortLabel": "détection",
+                          "grows": true,
+                          "span": 7,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Sonde ventriculaire gauche intensité seuil de stimulation",
+                          "type": "measure-field",
+                          "shortLabel": "seuil de stimulation",
+                          "grows": true,
+                          "span": 9,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Sonde ventriculaire gauche durée seuil de stimulation",
+                          "type": "measure-field",
+                          "shortLabel": "à",
+                          "grows": true,
+                          "span": 4,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Stimulation bi-ventriculaire: ",
+                          "type": "measure-field",
+                          "shortLabel": "Stimulation bi-ventriculaire: ",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Mode de stimulation",
+                          "type": "text-field",
+                          "shortLabel": "Mode de stimulation",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Délai de stimulation VG/VD",
+                          "type": "text-field",
+                          "shortLabel": "Délai de stimulation VG/VD",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Evénement",
+                          "type": "text-field",
+                          "shortLabel": "Evénement",
+                          "grows": true,
+                          "span": 24,
+                          "rowSpan": 3,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "Cardiologie/Contrôle défibrilateur": {
+                  "form": "Cardiologie/Contrôle défibrilateur",
+                  "id": "4a8ec196-06d7-d0ed-08c4-96bba79804ae",
+                  "sections": [
+                    {
+                      "section": "Main",
+                      "fields": [
+                        {
+                          "clazz": "field",
+                          "field": "Voltage de batterie",
+                          "type": "text-field",
+                          "shortLabel": "Voltage de batterie",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Temps de charge",
+                          "type": "measure-field",
+                          "shortLabel": "Temps de charge",
+                          "grows": true,
+                          "span": 18,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Sonde auriculaire impédance",
+                          "type": "measure-field",
+                          "shortLabel": "Sonde auriculaire: impédance",
+                          "grows": true,
+                          "span": 5,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Sonde auriculaire détection",
+                          "type": "measure-field",
+                          "shortLabel": "détection",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Sonde auriculaire intensité seuil de stimulation",
+                          "type": "measure-field",
+                          "shortLabel": "seuil de stimulation",
+                          "grows": true,
+                          "span": 9,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Sonde auriculaire durée seuil de stimulation",
+                          "type": "measure-field",
+                          "shortLabel": "à",
+                          "grows": true,
+                          "span": 4,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Sonde ventriculaire impédance",
+                          "type": "measure-field",
+                          "shortLabel": "Sonde ventriculaire: impédance",
+                          "grows": true,
+                          "span": 5,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Sonde ventriculaire détection",
+                          "type": "measure-field",
+                          "shortLabel": "détection",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Sonde ventriculaire intensité seuil de stimulation",
+                          "type": "measure-field",
+                          "shortLabel": "seuil de stimulation",
+                          "grows": true,
+                          "span": 9,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Sonde ventriculaire durée seuil de stimulation",
+                          "type": "measure-field",
+                          "shortLabel": "à",
+                          "grows": true,
+                          "span": 4,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Sonde ventriculaire impédance de défibrilation",
+                          "type": "measure-field",
+                          "shortLabel": "impédance de défibrilation",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Veine Cave Supérieure impédance",
+                          "type": "measure-field",
+                          "shortLabel": "VCS: impédance",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Evénement",
+                          "type": "text-field",
+                          "shortLabel": "Evénement",
+                          "grows": true,
+                          "span": 24,
+                          "rowSpan": 3,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "Cardiologie/Contrôle défibrilateur resynchro": {
+                  "form": "Cardiologie/Contrôle défibrilateur resynchro",
+                  "id": "efb28c65-6ec4-b3d8-e14c-015bb0307aba",
+                  "sections": [
+                    {
+                      "section": "Main",
+                      "fields": [
+                        {
+                          "clazz": "field",
+                          "field": "Voltage de batterie",
+                          "type": "text-field",
+                          "shortLabel": "Voltage de batterie",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Temps de charge",
+                          "type": "measure-field",
+                          "shortLabel": "Temps de charge",
+                          "grows": true,
+                          "span": 18,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Sonde auriculaire impédance",
+                          "type": "measure-field",
+                          "shortLabel": "Sonde auriculaire: impédance",
+                          "grows": true,
+                          "span": 5,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Sonde auriculaire détection",
+                          "type": "measure-field",
+                          "shortLabel": "détection",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Sonde auriculaire intensité seuil de stimulation",
+                          "type": "measure-field",
+                          "shortLabel": "seuil de stimulation",
+                          "grows": true,
+                          "span": 9,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Sonde auriculaire durée seuil de stimulation",
+                          "type": "measure-field",
+                          "shortLabel": "à",
+                          "grows": true,
+                          "span": 4,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Sonde ventriculaire droite impédance",
+                          "type": "measure-field",
+                          "shortLabel": "Sonde VD: impédance",
+                          "grows": true,
+                          "span": 5,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Sonde ventriculaire droite détection",
+                          "type": "measure-field",
+                          "shortLabel": " détection",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Sonde ventriculaire droite intensité seuil de stimulation",
+                          "type": "measure-field",
+                          "shortLabel": "seuil de stimulation",
+                          "grows": true,
+                          "span": 9,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Sonde ventriculaire droite durée seuil de stimulation",
+                          "type": "measure-field",
+                          "shortLabel": "à",
+                          "grows": true,
+                          "span": 4,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Sonde ventriculaire impédance de défibrilation",
+                          "type": "measure-field",
+                          "shortLabel": "impédance de défibrilation",
+                          "grows": true,
+                          "span": 5,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Veine Cave Supérieure impédance",
+                          "type": "measure-field",
+                          "shortLabel": "VCS",
+                          "grows": true,
+                          "span": 19,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Sonde ventriculaire gauche impédance de stimulation",
+                          "type": "measure-field",
+                          "shortLabel": "Sonde VG: impédance",
+                          "grows": true,
+                          "span": 5,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Sonde ventriculaire gauche détection",
+                          "type": "measure-field",
+                          "shortLabel": "détection",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Sonde ventriculaire gauche intensité seuil de stimulation",
+                          "type": "measure-field",
+                          "shortLabel": "seuil de stimulation",
+                          "grows": true,
+                          "span": 9,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Sonde ventriculaire gauche durée seuil de stimulation",
+                          "type": "measure-field",
+                          "shortLabel": "à",
+                          "grows": true,
+                          "span": 4,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Délai de stimulation VG/VD",
+                          "type": "text-field",
+                          "shortLabel": "Délai de stimulation VG/VD",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Evénement",
+                          "type": "text-field",
+                          "shortLabel": "Evénement",
+                          "grows": true,
+                          "span": 24,
+                          "rowSpan": 3,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "Cardiologie/Holter tensionnel (MAPA)": {
+                  "form": "Cardiologie/Holter tensionnel (MAPA)",
+                  "id": "C23089AB-F95D-4EA4-91B2-A1F4AFD60D2C",
+                  "sections": [
+                    {
+                      "section": "Main",
+                      "fields": [
+                        {
+                          "clazz": "field",
+                          "field": "Tension artérielle moyenne totale",
+                          "type": "measure-field",
+                          "shortLabel": "Tension artérielle moyenne totale",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Tension artérielle moyenne diurne",
+                          "type": "measure-field",
+                          "shortLabel": "Tension artérielle moyenne diurne",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Tension artérielle moyenne nocturne",
+                          "type": "measure-field",
+                          "shortLabel": "Tension artérielle moyenne nocturne",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Conclusion",
+                          "type": "dropdown-field",
+                          "shortLabel": "Conclusion",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "options": {
+                            "LEGACY|Profil tensionnel diurne et nocturne dans les limites de la normale. Rythme nycthéméral conservé.|1": "Profil tensionnel diurne et nocturne dans les limites de la normale. Rythme nycthéméral conservé.",
+                            "LEGACY|Hypertension artérielle systolique diurne. |1": "Hypertension artérielle systolique diurne. ",
+                            "LEGACY|Hypertension artérielle diastolique diurne.|1": "Hypertension artérielle diastolique diurne.",
+                            "LEGACY|Hypertension artérielle systolodiastolique diurne|1": "Hypertension artérielle systolodiastolique diurne",
+                            "LEGACY|Hypertension artérielle systolodiastolique diurne et nocturne.|1": "Hypertension artérielle systolodiastolique diurne et nocturne.",
+                            "LEGACY|Hypertension artérielle diastolique diurne et nocturne|1": "Hypertension artérielle diastolique diurne et nocturne"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "Cardiologie/Doppler des vaisseaux du cou": {
+                  "form": "Cardiologie/Doppler des vaisseaux du cou",
+                  "id": "AF07A40D-BAD9-4C4A-B46E-7E65C59F05A0",
+                  "sections": [
+                    {
+                      "section": "Main",
+                      "fields": [
+                        {
+                          "clazz": "field",
+                          "field": "IMT droite",
+                          "type": "measure-field",
+                          "shortLabel": "IMT droite",
+                          "grows": true,
+                          "span": 9,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "IMT gauche",
+                          "type": "measure-field",
+                          "shortLabel": "IMT gauche",
+                          "grows": true,
+                          "span": 15,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Conclusion",
+                          "type": "text-field",
+                          "shortLabel": "Conclusion",
+                          "grows": true,
+                          "span": 24,
+                          "rowSpan": 2,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "Cardiologie/Holter 24h/Holter 7j./R test": {
+                  "form": "Cardiologie/Holter 24h/Holter 7j./R test",
+                  "id": "C8AD0A48-AC9D-4F29-B5EB-27542C88BBC5",
+                  "sections": [
+                    {
+                      "section": "Main",
+                      "fields": [
+                        {
+                          "clazz": "group",
+                          "group": "Section 1",
+                          "fields": [
+                            {
+                              "clazz": "field",
+                              "field": "Type d'examen",
+                              "type": "dropdown-field",
+                              "shortLabel": "Type d'examen",
+                              "grows": true,
+                              "span": 24,
+                              "readonly": false,
+                              "options": {
+                                "LEGACY|Holter 24h.|1": "Holter 24h.",
+                                "LEGACY|Holter 7j.|1": "Holter 7j.",
+                                "LEGACY|R Test (Holter événementiel)|1": "R Test (Holter événementiel)"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Rythme sinusal holter",
+                              "type": "dropdown-field",
+                              "shortLabel": "Rythme sinusal",
+                              "grows": true,
+                              "span": 4,
+                              "readonly": false,
+                              "options": {
+                                "LEGACY|permanent|1": "permanent",
+                                "LEGACY|de fond|1": "de fond"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "FC min",
+                              "type": "measure-field",
+                              "shortLabel": "FC min",
+                              "grows": true,
+                              "span": 7,
+                              "readonly": false,
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "FC max",
+                              "type": "measure-field",
+                              "shortLabel": "FC max",
+                              "grows": true,
+                              "span": 7,
+                              "readonly": false,
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "FC moy",
+                              "type": "measure-field",
+                              "shortLabel": "FC moy",
+                              "grows": true,
+                              "span": 6,
+                              "readonly": false,
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Profil chronotrope",
+                              "type": "dropdown-field",
+                              "shortLabel": "Profil chronotrope",
+                              "grows": true,
+                              "span": 24,
+                              "readonly": false,
+                              "options": {
+                                "LEGACY|absent|1": "absent",
+                                "LEGACY|correct|1": "correct",
+                                "LEGACY|excessif|1": "excessif"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Extrasystolie auriculaire",
+                              "type": "dropdown-field",
+                              "shortLabel": "Extrasystolie auric.",
+                              "grows": true,
+                              "span": 5,
+                              "readonly": false,
+                              "options": {
+                                "LEGACY|peu dense|1": "peu dense",
+                                "LEGACY|dense|1": "dense",
+                                "LEGACY|significative|1": "significative",
+                                "LEGACY|très significative|1": "très significative"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "EA bigéminée",
+                              "type": "checkbox",
+                              "shortLabel": "bigéminée",
+                              "grows": true,
+                              "span": 3,
+                              "readonly": false,
+                              "options": {
+                                "bigéminée": "bigéminée"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "EA trigéminée",
+                              "type": "checkbox",
+                              "shortLabel": "trigéminée",
+                              "grows": true,
+                              "span": 4,
+                              "readonly": false,
+                              "options": {
+                                "trigéminée": "trigéminée"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "EA doublet",
+                              "type": "checkbox",
+                              "shortLabel": "doublet",
+                              "grows": true,
+                              "span": 3,
+                              "readonly": false,
+                              "options": {
+                                "doublet": "doublet"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Tachycardie auriculaire",
+                              "type": "dropdown-field",
+                              "shortLabel": "Tachycardie",
+                              "grows": true,
+                              "span": 9,
+                              "readonly": false,
+                              "options": {
+                                "LEGACY|soutenue|1": "soutenue",
+                                "LEGACY|non soutenue|1": "non soutenue"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Extrasystolie ventriculaire",
+                              "type": "dropdown-field",
+                              "shortLabel": "Extrasystolie ventr.",
+                              "grows": true,
+                              "span": 5,
+                              "readonly": false,
+                              "options": {
+                                "LEGACY|peu dense|1": "peu dense",
+                                "LEGACY|dense|1": "dense",
+                                "LEGACY|significative|1": "significative",
+                                "LEGACY|très significative|1": "très significative"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "VA bigéminée",
+                              "type": "checkbox",
+                              "shortLabel": "bigéminée",
+                              "grows": true,
+                              "span": 3,
+                              "readonly": false,
+                              "options": {
+                                "bigéminée": "bigéminée"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "VA trigéminée",
+                              "type": "checkbox",
+                              "shortLabel": "trigéminée",
+                              "grows": true,
+                              "span": 4,
+                              "readonly": false,
+                              "options": {
+                                "trigéminée": "trigéminée"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "VA doublet",
+                              "type": "checkbox",
+                              "shortLabel": "doublet",
+                              "grows": true,
+                              "span": 3,
+                              "readonly": false,
+                              "options": {
+                                "doublet": "doublet"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "VA multifocale",
+                              "type": "checkbox",
+                              "shortLabel": "multifocale",
+                              "grows": true,
+                              "span": 3,
+                              "readonly": false,
+                              "options": {
+                                "multifocale": "multifocale"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Tachycardie ventriculaire",
+                              "type": "dropdown-field",
+                              "shortLabel": "Tachycardie",
+                              "grows": true,
+                              "span": 6,
+                              "readonly": false,
+                              "options": {
+                                "LEGACY|soutenue|1": "soutenue",
+                                "LEGACY|non soutenue|1": "non soutenue"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Conclusion",
+                              "type": "text-field",
+                              "shortLabel": "Conclusion",
+                              "grows": true,
+                              "span": 24,
+                              "rowSpan": 7,
+                              "readonly": false,
+                              "multiline": false,
+                              "translate": true
+                            }
+                          ],
+                          "borderless": false,
+                          "hideTitle": true,
+                          "translate": true,
+                          "span": 24
+                        },
+                        {
+                          "clazz": "group",
+                          "group": "Section 2",
+                          "fields": [
+                            {
+                              "clazz": "field",
+                              "field": "Allongement de la conduction auriculo-ventriculaire",
+                              "type": "checkbox",
+                              "shortLabel": "Allongement de la conduction auriculo-ventriculaire",
+                              "grows": true,
+                              "span": 8,
+                              "readonly": false,
+                              "options": {
+                                "Allongement de la conduction auriculo-ventriculaire": "Allongement de la conduction auriculo-ventriculaire"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "BAV du deuxième degré de type Mobitz I",
+                              "type": "checkbox",
+                              "shortLabel": "BAV du deuxième degré de type Mobitz I",
+                              "grows": true,
+                              "span": 8,
+                              "readonly": false,
+                              "options": {
+                                "BAV du deuxième degré de type Mobitz I": "BAV du deuxième degré de type Mobitz I"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Rythme jonctionnel.",
+                              "type": "checkbox",
+                              "shortLabel": "Rythme jonctionnel.",
+                              "grows": true,
+                              "span": 8,
+                              "readonly": false,
+                              "options": {
+                                "Rythme jonctionnel.": "Rythme jonctionnel."
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Trouble mineur de la conduction intra-ventriculaire",
+                              "type": "checkbox",
+                              "shortLabel": "Trouble mineur de la conduction intra-ventriculaire",
+                              "grows": true,
+                              "span": 8,
+                              "readonly": false,
+                              "options": {
+                                "Trouble mineur de la conduction intra-ventriculaire": "Trouble mineur de la conduction intra-ventriculaire"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "BAV du deuxième degré de type Mobitz II",
+                              "type": "checkbox",
+                              "shortLabel": "BAV du deuxième degré de type Mobitz II",
+                              "grows": true,
+                              "span": 8,
+                              "readonly": false,
+                              "options": {
+                                "BAV du deuxième degré de type Mobitz II": "BAV du deuxième degré de type Mobitz II"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Dysfonction sinusale",
+                              "type": "checkbox",
+                              "shortLabel": "Dysfonction sinusale",
+                              "grows": true,
+                              "span": 8,
+                              "readonly": false,
+                              "options": {
+                                "Dysfonction sinusale": "Dysfonction sinusale"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Trouble de la conduction intra-ventriculaire.",
+                              "type": "checkbox",
+                              "shortLabel": "Trouble de la conduction intra-ventriculaire.",
+                              "grows": true,
+                              "span": 8,
+                              "readonly": false,
+                              "options": {
+                                "Trouble de la conduction intra-ventriculaire.": "Trouble de la conduction intra-ventriculaire."
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Episodes paroxystiques de BAV complet.",
+                              "type": "checkbox",
+                              "shortLabel": "Episodes paroxystiques de BAV complet.",
+                              "grows": true,
+                              "span": 8,
+                              "readonly": false,
+                              "options": {
+                                "Episodes paroxystiques de BAV complet.": "Episodes paroxystiques de BAV complet."
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "Syndrome bradycardie-tachycardie",
+                              "type": "checkbox",
+                              "shortLabel": "Syndrome brady.-tachycardie",
+                              "grows": true,
+                              "span": 8,
+                              "readonly": false,
+                              "options": {
+                                "Syndrome brady.-tachycardie": "Syndrome brady.-tachycardie"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            }
+                          ],
+                          "borderless": false,
+                          "hideTitle": true,
+                          "translate": true,
+                          "span": 24
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "span": 24,
+              "rowSpan": 1,
+              "labels": {}
+            },
+            {
+              "clazz": "field",
+              "field": "Diagnostics",
+              "type": "token-field",
+              "shortLabel": "Diagnos.",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Traitements non-médicamenteux",
+              "type": "token-field",
+              "shortLabel": "Traitem.",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Conclusion",
+              "type": "text-field",
+              "shortLabel": "Conclusion",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 3",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Suivi",
+              "type": "text-field",
+              "shortLabel": "Suivi",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "9750A401-22E1-493A-B79E-6A18E50387B5",
+              "type": "action",
+              "shortLabel": "Rapport de consult.",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "586DDB4D-D8B5-406D-9F79-BC03F8C2699A",
+              "type": "action",
+              "shortLabel": "Demande d'examen",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Facturation 101076",
+              "type": "checkbox",
+              "shortLabel": "Facturation",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "Facturation": "Facturation"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Phrase politesse familière",
+              "type": "checkbox",
+              "shortLabel": "Phrase politesse familière",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Phrase politesse familière": "Phrase politesse familière"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Revoir patient dans",
+              "type": "text-field",
+              "shortLabel": "Revoir patient dans",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

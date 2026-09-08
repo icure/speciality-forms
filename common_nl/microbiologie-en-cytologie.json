@@ -1,0 +1,680 @@
+{
+  "form": "Biologie/Microbiologie en cytologie",
+  "id": "EF806168-6FD9-49EA-8160-DBBE849454B6",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Bezinksel",
+          "type": "checkbox",
+          "shortLabel": "Bezinksel",
+          "grows": true,
+          "span": 1,
+          "readonly": false,
+          "options": {
+            "Bezinksel": "Bezinksel"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Rechtstreeks onderzoek (gram) uitstrijkje urogenitale",
+          "type": "checkbox",
+          "shortLabel": "Rechtstreeks onderzoek (gram)",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "Rechtstreeks onderzoek (gram)": "Rechtstreeks onderzoek (gram)"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Rechtstreeks onderzoek (gram) zadel",
+          "type": "checkbox",
+          "shortLabel": "Rechtstreeks onderzoek (gram) zadel",
+          "grows": true,
+          "span": 15,
+          "readonly": false,
+          "options": {
+            "Rechtstreeks onderzoek (gram) zadel": "Rechtstreeks onderzoek (gram) zadel"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Cultuur urine",
+          "type": "checkbox",
+          "shortLabel": "Cultuur urine",
+          "grows": true,
+          "span": 1,
+          "readonly": false,
+          "options": {
+            "Cultuur urine": "Cultuur urine"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Trichom. vaginalis",
+          "type": "checkbox",
+          "shortLabel": "Trichom. vaginalis",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "Trichom. vaginalis": "Trichom. vaginalis"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Pus oorsprong",
+          "type": "token-field",
+          "shortLabel": "Oorsprong",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Cultuur kruk",
+          "type": "checkbox",
+          "shortLabel": "Cultuur kruk",
+          "grows": true,
+          "span": 7,
+          "readonly": false,
+          "options": {
+            "Cultuur kruk": "Cultuur kruk"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "AB urine (bij de positieve kweek)",
+          "type": "checkbox",
+          "shortLabel": "AB urine (bij de positieve kweek)",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "AB urine (bij de positieve kweek)": "AB urine (bij de positieve kweek)"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Cultuur + N. gono",
+          "type": "checkbox",
+          "shortLabel": "Cultuur + N. gono",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Cultuur + N. gono": "Cultuur + N. gono"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Rechtstreeks onderzoek (gram)-pus exsudaat",
+          "type": "checkbox",
+          "shortLabel": "Rechtstreeks onderzoek (gram)",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Rechtstreeks onderzoek (gram)": "Rechtstreeks onderzoek (gram)"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "AB ontlasting (als positieve kweek)",
+          "type": "checkbox",
+          "shortLabel": "AB ontlasting (als positieve kweek)",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "AB ontlasting (als positieve kweek)": "AB ontlasting (als positieve kweek)"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "DST (indien positieve kweek)",
+          "type": "checkbox",
+          "shortLabel": "DST (indien positieve kweek)",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "DST (indien positieve kweek)": "DST (indien positieve kweek)"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Cultuur urogenitale mycoplasma uitstrijkje",
+          "type": "checkbox",
+          "shortLabel": "Mycoplasma Cultuur",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Mycoplasma Cultuur": "Mycoplasma Cultuur"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Cultuur pus schimmel-exsudaat",
+          "type": "checkbox",
+          "shortLabel": "Cultuur pus schimmel-exsudaat",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Cultuur pus schimmel-exsudaat": "Cultuur pus schimmel-exsudaat"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Cultuur schimmel kruk",
+          "type": "checkbox",
+          "shortLabel": "Cultuur schimmel kruk",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Cultuur schimmel kruk": "Cultuur schimmel kruk"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Mycoplasma Cultuur",
+          "type": "checkbox",
+          "shortLabel": "Mycoplasma Cultuur",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Mycoplasma Cultuur": "Mycoplasma Cultuur"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "AB urogenitale uitstrijkje (indien positieve kweek)",
+          "type": "checkbox",
+          "shortLabel": "AB (indien positieve kweek)",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "AB (indien positieve kweek)": "AB (indien positieve kweek)"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Aerobic Cultuur",
+          "type": "checkbox",
+          "shortLabel": "Aerobic Cultuur",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Aerobic Cultuur": "Aerobic Cultuur"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Kruk parasieten",
+          "type": "checkbox",
+          "shortLabel": "Kruk parasieten",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Kruk parasieten": "Kruk parasieten"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Cultuur schimmel urine",
+          "type": "checkbox",
+          "shortLabel": "Cultuur schimmel urine",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Cultuur schimmel urine": "Cultuur schimmel urine"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Cultuur schimmel uitstrijkje urogenitale",
+          "type": "checkbox",
+          "shortLabel": "Cultuur schimmel",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Cultuur schimmel": "Cultuur schimmel"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Anaërobe Cultuur",
+          "type": "checkbox",
+          "shortLabel": "Anaërobe Cultuur",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Anaërobe Cultuur": "Anaërobe Cultuur"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Cryptosoporidium",
+          "type": "checkbox",
+          "shortLabel": "Cryptosoporidium",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Cryptosoporidium": "Cryptosoporidium"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Parasieten urine",
+          "type": "checkbox",
+          "shortLabel": "Parasieten urine",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Parasieten urine": "Parasieten urine"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Rechecrhe B Streptococcus",
+          "type": "checkbox",
+          "shortLabel": "Rechecrhe B Streptococcus",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Rechecrhe B Streptococcus": "Rechecrhe B Streptococcus"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "AB-slijk pus (indien positieve kweek)",
+          "type": "checkbox",
+          "shortLabel": "AB (indien positieve kweek)",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "AB (indien positieve kweek)": "AB (indien positieve kweek)"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Rotavirus &lt;2 jaar",
+          "type": "checkbox",
+          "shortLabel": "Rotavirus &lt;2 jaar",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Rotavirus &lt;2 jaar": "Rotavirus &lt;2 jaar"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "BK urine onderzoek Direct",
+          "type": "checkbox",
+          "shortLabel": "BK urine onderzoek Direct",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "BK urine onderzoek Direct": "BK urine onderzoek Direct"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Chlamydia (PCR)",
+          "type": "checkbox",
+          "shortLabel": "Chlamydia (PCR)",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Chlamydia (PCR)": "Chlamydia (PCR)"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Cultuur schimmel",
+          "type": "checkbox",
+          "shortLabel": "Cultuur schimmel",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Cultuur schimmel": "Cultuur schimmel"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Spijsvertering",
+          "type": "checkbox",
+          "shortLabel": "Spijsvertering",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Spijsvertering": "Spijsvertering"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "BK Cultuur urine",
+          "type": "checkbox",
+          "shortLabel": "BK Cultuur urine",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "BK Cultuur urine": "BK Cultuur urine"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Gonorroe (PCR)",
+          "type": "checkbox",
+          "shortLabel": "Gonorroe (PCR)",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "Gonorroe (PCR)": "Gonorroe (PCR)"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "BK-rechtstreeks onderzoek pus exsudaat",
+          "type": "checkbox",
+          "shortLabel": "BK-pus exsudaat",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "BK-pus exsudaat": "BK-pus exsudaat"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "BK Cultuur pus-afscheiding",
+          "type": "checkbox",
+          "shortLabel": "BK Cultuur pus-afscheiding",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "BK Cultuur pus-afscheiding": "BK Cultuur pus-afscheiding"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Mycoplasma Cultuur urine",
+          "type": "checkbox",
+          "shortLabel": "Mycoplasma Cultuur urine",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "Mycoplasma Cultuur urine": "Mycoplasma Cultuur urine"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Antigen Herpes",
+          "type": "checkbox",
+          "shortLabel": "Antigen Herpes",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "Antigen Herpes": "Antigen Herpes"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Rechtstreeks onderzoek (gram) keeluitstrijkje",
+          "type": "checkbox",
+          "shortLabel": "Rechtstreeks onderzoek (gram)",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "Rechtstreeks onderzoek (gram)": "Rechtstreeks onderzoek (gram)"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Chlamydia",
+          "type": "checkbox",
+          "shortLabel": "Chlamydia",
+          "grows": true,
+          "span": 12,
+          "readonly": false,
+          "options": {
+            "Chlamydia": "Chlamydia"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Zoeken MRSA",
+          "type": "checkbox",
+          "shortLabel": "Zoeken MRSA",
+          "grows": true,
+          "span": 12,
+          "readonly": false,
+          "options": {
+            "Zoeken MRSA": "Zoeken MRSA"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Zoeken B Streptococcus",
+          "type": "checkbox",
+          "shortLabel": "Zoeken B Streptococcus",
+          "grows": true,
+          "span": 12,
+          "readonly": false,
+          "options": {
+            "Zoeken B Streptococcus": "Zoeken B Streptococcus"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Streptococcus A-antigeen",
+          "type": "checkbox",
+          "shortLabel": "Streptococcus A-antigeen",
+          "grows": true,
+          "span": 12,
+          "readonly": false,
+          "options": {
+            "Streptococcus A-antigeen": "Streptococcus A-antigeen"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Gonokokken",
+          "type": "checkbox",
+          "shortLabel": "Gonokokken",
+          "grows": true,
+          "span": 12,
+          "readonly": false,
+          "options": {
+            "Gonokokken": "Gonokokken"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Cultuur keel uitstrijkje",
+          "type": "checkbox",
+          "shortLabel": "Cultuur keel uitstrijkje",
+          "grows": true,
+          "span": 12,
+          "readonly": false,
+          "options": {
+            "Cultuur keel uitstrijkje": "Cultuur keel uitstrijkje"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Rechtstreeks onderzoek (gram) urine",
+          "type": "checkbox",
+          "shortLabel": "Rechtstreeks onderzoek (gram) urine",
+          "grows": true,
+          "span": 12,
+          "readonly": false,
+          "options": {
+            "Rechtstreeks onderzoek (gram) urine": "Rechtstreeks onderzoek (gram) urine"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "AB keel uitstrijkje (indien positieve kweek)",
+          "type": "checkbox",
+          "shortLabel": "AB keel uitstrijkje",
+          "grows": true,
+          "span": 12,
+          "readonly": false,
+          "options": {
+            "AB keel uitstrijkje": "AB keel uitstrijkje"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Cultuur schimmel uitstrijkje keel",
+          "type": "checkbox",
+          "shortLabel": "Cultuur schimmel",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "Cultuur schimmel": "Cultuur schimmel"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Recherce MRSA",
+          "type": "checkbox",
+          "shortLabel": "Recherce MRSA",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "Recherce MRSA": "Recherce MRSA"
+          },
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

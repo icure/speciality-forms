@@ -1,0 +1,1230 @@
+{
+  "form": "CRO/CRO chirurgie mammaire",
+  "id": "63FD52A4-447B-427B-B85A-0603A0BF4115",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "intervention chirurgicale réalisée",
+              "type": "text-field",
+              "shortLabel": "intervention chirurgicale réalisée",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Opérateur",
+              "type": "text-field",
+              "shortLabel": "Opérateur",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "lieu d'intervention",
+              "type": "dropdown-field",
+              "shortLabel": "lieu d'intervention",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "LEGACY|Clinique Saint-Anne Saint-Rémi|1": "Clinique Saint-Anne Saint-Rémi",
+                "LEGACY|Clinique Claris|1": "Clinique Claris"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Assistant",
+              "type": "text-field",
+              "shortLabel": "Assistant",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "date opératoire",
+              "type": "date-picker",
+              "shortLabel": "date opératoire",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Anesthésiste",
+              "type": "text-field",
+              "shortLabel": "Anesthésiste",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "anesthésie",
+              "type": "dropdown-field",
+              "shortLabel": "anesthésie",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "LEGACY|anesthésie locale|1": "anesthésie locale",
+                "LEGACY|anesthésie générale|1": "anesthésie générale",
+                "LEGACY|anesthésie locale avec sédation|1": "anesthésie locale avec sédation",
+                "LEGACY|rachianesthésie|1": "rachianesthésie"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "antibioprophylaxie",
+              "type": "text-field",
+              "shortLabel": "antibioprophylaxie",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "position",
+              "type": "text-field",
+              "shortLabel": "position",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "durée d'intervention",
+              "type": "measure-field",
+              "shortLabel": "durée d'intervention",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "désinfectant",
+              "type": "dropdown-field",
+              "shortLabel": "désinfectant",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "LEGACY|isobédatine dermique|1": "isobédatine dermique",
+                "LEGACY|hibitane|1": "hibitane",
+                "LEGACY|chlohexidine aqueuse|1": "chlohexidine aqueuse",
+                "LEGACY|isobétadine alcoolique|1": "isobétadine alcoolique"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "subform",
+              "id": "375486E8-2E08-4495-99A9-1DB3CD376220",
+              "shortLabel": "sous-formulaires CRO-sein",
+              "forms": {
+                "sous-formulaires CRO-sein/augmentation mamaire": {
+                  "form": "sous-formulaires CRO-sein/augmentation mamaire",
+                  "id": "46160127-F2CA-4037-8D59-B0455B581150",
+                  "sections": [
+                    {
+                      "section": "Main",
+                      "fields": [
+                        {
+                          "clazz": "field",
+                          "field": "marque des prothèses",
+                          "type": "text-field",
+                          "shortLabel": "marque des prothèses",
+                          "grows": true,
+                          "span": 8,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "type de prothèse",
+                          "type": "dropdown-field",
+                          "shortLabel": "type de prothèse",
+                          "grows": true,
+                          "span": 10,
+                          "readonly": false,
+                          "options": {
+                            "LEGACY|rondes |1": "rondes ",
+                            "LEGACY|rondes texturées|1": "rondes texturées",
+                            "LEGACY|anatomiques|1": "anatomiques"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "voie d'abord",
+                          "type": "dropdown-field",
+                          "shortLabel": "voie d'abord",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "options": {
+                            "LEGACY|sous-mammaire|1": "sous-mammaire",
+                            "LEGACY|péri-aréolaire|1": "péri-aréolaire",
+                            "LEGACY|axillaire|1": "axillaire"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "prothèse droite",
+                          "type": "text-field",
+                          "shortLabel": "prothèse droite",
+                          "grows": true,
+                          "span": 9,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "prothèse gauche",
+                          "type": "text-field",
+                          "shortLabel": "prothèse gauche",
+                          "grows": true,
+                          "span": 15,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "numéro de série droit",
+                          "type": "text-field",
+                          "shortLabel": "numéro de série droit",
+                          "grows": true,
+                          "span": 9,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "numéro de série gauche",
+                          "type": "text-field",
+                          "shortLabel": "numéro de série gauche",
+                          "grows": true,
+                          "span": 15,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "position des prothèses",
+                          "type": "dropdown-field",
+                          "shortLabel": "position des prothèses",
+                          "grows": true,
+                          "span": 9,
+                          "readonly": false,
+                          "options": {
+                            "LEGACY|sous-glandulaire|1": "sous-glandulaire",
+                            "LEGACY|rétropectorale|1": "rétropectorale",
+                            "LEGACY|sous-faciale|1": "sous-faciale"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "drainage",
+                          "type": "dropdown-field",
+                          "shortLabel": "drainage",
+                          "grows": true,
+                          "span": 15,
+                          "readonly": false,
+                          "options": {
+                            "LEGACY|pas de drainage|1": "pas de drainage",
+                            "LEGACY|redons aspiratifs|1": "redons aspiratifs"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "traitement post-op",
+                          "type": "items-list-field",
+                          "shortLabel": "traitement post-op",
+                          "grows": true,
+                          "span": 24,
+                          "rowSpan": 3,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "sous-formulaires CRO-sein/augmentation-pexie mammaire": {
+                  "form": "sous-formulaires CRO-sein/augmentation-pexie mammaire",
+                  "id": "6419C8DE-B0E3-4527-973E-FAB028D85FF1",
+                  "sections": [
+                    {
+                      "section": "Main",
+                      "fields": [
+                        {
+                          "clazz": "field",
+                          "field": "nouveau point A",
+                          "type": "measure-field",
+                          "shortLabel": "nouveau point A",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "cicatrice résiduelle du sein droit",
+                          "type": "dropdown-field",
+                          "shortLabel": "cicatrice résiduelle du sein droit",
+                          "grows": true,
+                          "span": 18,
+                          "readonly": false,
+                          "options": {
+                            "LEGACY|péri-aréolaire supérieure|1": "péri-aréolaire supérieure",
+                            "LEGACY|péri-aréolaire|1": "péri-aréolaire",
+                            "LEGACY|verticale selon Lassus-Lejour|1": "verticale selon Lassus-Lejour",
+                            "LEGACY|ancre de marine|1": "ancre de marine"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "technique chirurgicale",
+                          "type": "text-field",
+                          "shortLabel": "pédicule ",
+                          "grows": true,
+                          "span": 13,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "cicatrice résiduelle du sein gauche",
+                          "type": "dropdown-field",
+                          "shortLabel": "cicatrice résiduelle du sein gauche",
+                          "grows": true,
+                          "span": 11,
+                          "readonly": false,
+                          "options": {
+                            "LEGACY|péri-aréolaire supérieure|1": "péri-aréolaire supérieure",
+                            "LEGACY|péri-aréoliare|1": "péri-aréoliare",
+                            "LEGACY|verticale selon lassus-Lejour|1": "verticale selon lassus-Lejour",
+                            "LEGACY|ancre de marine|1": "ancre de marine"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "résection droite",
+                          "type": "measure-field",
+                          "shortLabel": "résection droite",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "résection gauche",
+                          "type": "measure-field",
+                          "shortLabel": "résection gauche",
+                          "grows": true,
+                          "span": 18,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "marque des prothèses",
+                          "type": "text-field",
+                          "shortLabel": "marque des prothèses",
+                          "grows": true,
+                          "span": 8,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "prothèse droite",
+                          "type": "text-field",
+                          "shortLabel": "prothèse droite",
+                          "grows": true,
+                          "span": 9,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "prothèse gauche",
+                          "type": "text-field",
+                          "shortLabel": "prothèse gauche",
+                          "grows": true,
+                          "span": 7,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "type de prothèse",
+                          "type": "dropdown-field",
+                          "shortLabel": "type de prothèse",
+                          "grows": true,
+                          "span": 8,
+                          "readonly": false,
+                          "options": {
+                            "LEGACY|rondes |1": "rondes ",
+                            "LEGACY|rondes texturées|1": "rondes texturées",
+                            "LEGACY|anatomiques|1": "anatomiques"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "numéro de série droit",
+                          "type": "text-field",
+                          "shortLabel": "numéro de série droit",
+                          "grows": true,
+                          "span": 9,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "numéro de série gauche",
+                          "type": "text-field",
+                          "shortLabel": "numéro de série gauche",
+                          "grows": true,
+                          "span": 7,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "position des prothèses",
+                          "type": "dropdown-field",
+                          "shortLabel": "position des prothèses",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "options": {
+                            "LEGACY|sous-glandulaire|1": "sous-glandulaire",
+                            "LEGACY|rétropectorale|1": "rétropectorale",
+                            "LEGACY|sous-faciale|1": "sous-faciale"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "drainage",
+                          "type": "dropdown-field",
+                          "shortLabel": "drainage",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "options": {
+                            "LEGACY|pas de drainage|1": "pas de drainage",
+                            "LEGACY|redons aspiratifs|1": "redons aspiratifs"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "traitement post-op",
+                          "type": "items-list-field",
+                          "shortLabel": "traitement post-op",
+                          "grows": true,
+                          "span": 24,
+                          "rowSpan": 4,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "sous-formulaires CRO-sein/réduction mammaire": {
+                  "form": "sous-formulaires CRO-sein/réduction mammaire",
+                  "id": "85BEF814-7A6C-45AD-B7B4-8ADB8F731620",
+                  "sections": [
+                    {
+                      "section": "Main",
+                      "fields": [
+                        {
+                          "clazz": "field",
+                          "field": "nouveau point A",
+                          "type": "measure-field",
+                          "shortLabel": "nouveau point A",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "cicatrice résiduelle du sein droit",
+                          "type": "dropdown-field",
+                          "shortLabel": "cicatrice résiduelle du sein droit",
+                          "grows": true,
+                          "span": 18,
+                          "readonly": false,
+                          "options": {
+                            "LEGACY|péri-aréolaire supérieure|1": "péri-aréolaire supérieure",
+                            "LEGACY|péri-aréolaire|1": "péri-aréolaire",
+                            "LEGACY|verticale selon Lassus-Lejour|1": "verticale selon Lassus-Lejour",
+                            "LEGACY|ancre de marine|1": "ancre de marine"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "technique chirurgicale",
+                          "type": "text-field",
+                          "shortLabel": "pédicule ",
+                          "grows": true,
+                          "span": 13,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "cicatrice résiduelle du sein gauche",
+                          "type": "dropdown-field",
+                          "shortLabel": "cicatrice résiduelle du sein gauche",
+                          "grows": true,
+                          "span": 11,
+                          "readonly": false,
+                          "options": {
+                            "LEGACY|péri-aréolaire supérieure|1": "péri-aréolaire supérieure",
+                            "LEGACY|péri-aréoliare|1": "péri-aréoliare",
+                            "LEGACY|verticale selon lassus-Lejour|1": "verticale selon lassus-Lejour",
+                            "LEGACY|ancre de marine|1": "ancre de marine"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "résection droite",
+                          "type": "measure-field",
+                          "shortLabel": "résection droite",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "résection gauche",
+                          "type": "measure-field",
+                          "shortLabel": "résection gauche",
+                          "grows": true,
+                          "span": 7,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "liposuccion associée",
+                          "type": "checkbox",
+                          "shortLabel": "liposuccion associée",
+                          "grows": true,
+                          "span": 4,
+                          "readonly": false,
+                          "options": {
+                            "liposuccion associée": "liposuccion associée"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "volume liposuccé",
+                          "type": "measure-field",
+                          "shortLabel": "volume liposuccé par sein",
+                          "grows": true,
+                          "span": 7,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "drainage",
+                          "type": "dropdown-field",
+                          "shortLabel": "drainage",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "options": {
+                            "LEGACY|NON|1": "NON",
+                            "LEGACY|lamelle|1": "lamelle",
+                            "LEGACY|drain aspiratif de Redon|1": "drain aspiratif de Redon",
+                            "LEGACY|drain NON aspiratif|1": "drain NON aspiratif",
+                            "LEGACY|drain de Blake|1": "drain de Blake"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "traitement post-op",
+                          "type": "items-list-field",
+                          "shortLabel": "traitement post-op",
+                          "grows": true,
+                          "span": 24,
+                          "rowSpan": 3,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "sous-formulaires CRO-sein/remplacement implants mammaires": {
+                  "form": "sous-formulaires CRO-sein/remplacement implants mammaires",
+                  "id": "BE8F696E-7E14-451F-85CB-BFDCCCF6F83F",
+                  "sections": [
+                    {
+                      "section": "Main",
+                      "fields": [
+                        {
+                          "clazz": "group",
+                          "group": "Section 1",
+                          "fields": [
+                            {
+                              "clazz": "field",
+                              "field": "nouveau point A",
+                              "type": "measure-field",
+                              "shortLabel": "nouveau point A",
+                              "grows": true,
+                              "span": 6,
+                              "readonly": false,
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "cicatrice résiduelle du sein droit",
+                              "type": "dropdown-field",
+                              "shortLabel": "cicatrice résiduelle du sein droit",
+                              "grows": true,
+                              "span": 18,
+                              "readonly": false,
+                              "options": {
+                                "LEGACY|péri-aréolaire supérieure|1": "péri-aréolaire supérieure",
+                                "LEGACY|péri-aréolaire|1": "péri-aréolaire",
+                                "LEGACY|verticale selon Lassus-Lejour|1": "verticale selon Lassus-Lejour",
+                                "LEGACY|ancre de marine|1": "ancre de marine"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "technique chirurgicale",
+                              "type": "text-field",
+                              "shortLabel": "pédicule ",
+                              "grows": true,
+                              "span": 13,
+                              "readonly": false,
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "cicatrice résiduelle du sein gauche",
+                              "type": "dropdown-field",
+                              "shortLabel": "cicatrice résiduelle du sein gauche",
+                              "grows": true,
+                              "span": 11,
+                              "readonly": false,
+                              "options": {
+                                "LEGACY|péri-aréolaire supérieure|1": "péri-aréolaire supérieure",
+                                "LEGACY|péri-aréoliare|1": "péri-aréoliare",
+                                "LEGACY|verticale selon lassus-Lejour|1": "verticale selon lassus-Lejour",
+                                "LEGACY|ancre de marine|1": "ancre de marine"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "gestion capsule sein droit",
+                              "type": "dropdown-field",
+                              "shortLabel": "gestion capsule sein droit",
+                              "grows": true,
+                              "span": 24,
+                              "readonly": false,
+                              "options": {
+                                "LEGACY|capsulectomie complète|1": "capsulectomie complète",
+                                "LEGACY|capsulectomie partielle|1": "capsulectomie partielle"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "résection droite",
+                              "type": "measure-field",
+                              "shortLabel": "résection droite",
+                              "grows": true,
+                              "span": 6,
+                              "readonly": false,
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "résection gauche",
+                              "type": "measure-field",
+                              "shortLabel": "résection gauche",
+                              "grows": true,
+                              "span": 18,
+                              "readonly": false,
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "gestion capsule sein gauche",
+                              "type": "dropdown-field",
+                              "shortLabel": "gestion capsule sein gauche",
+                              "grows": true,
+                              "span": 24,
+                              "readonly": false,
+                              "options": {
+                                "LEGACY|capsulectomie complète|1": "capsulectomie complète",
+                                "LEGACY|capsulectomie partielle|1": "capsulectomie partielle"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "prothèse droite rompue",
+                              "type": "checkbox",
+                              "shortLabel": "prothèse droite rompue",
+                              "grows": true,
+                              "span": 24,
+                              "readonly": false,
+                              "options": {
+                                "prothèse droite rompue": "prothèse droite rompue"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "prothèse gauche rompue",
+                              "type": "checkbox",
+                              "shortLabel": "prothèse gauche rompue",
+                              "grows": true,
+                              "span": 5,
+                              "readonly": false,
+                              "options": {
+                                "prothèse gauche rompue": "prothèse gauche rompue"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "prothèses rompues bilatéralement",
+                              "type": "checkbox",
+                              "shortLabel": "prothèses rompues bilatéralement",
+                              "grows": true,
+                              "span": 19,
+                              "readonly": false,
+                              "options": {
+                                "prothèses rompues bilatéralement": "prothèses rompues bilatéralement"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            }
+                          ],
+                          "borderless": false,
+                          "hideTitle": true,
+                          "translate": true,
+                          "span": 24
+                        },
+                        {
+                          "clazz": "group",
+                          "group": "Section 2",
+                          "fields": [
+                            {
+                              "clazz": "field",
+                              "field": "marque des prothèses",
+                              "type": "text-field",
+                              "shortLabel": "marque des prothèses",
+                              "grows": true,
+                              "span": 8,
+                              "readonly": false,
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "prothèse droite",
+                              "type": "text-field",
+                              "shortLabel": "prothèse droite",
+                              "grows": true,
+                              "span": 9,
+                              "readonly": false,
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "prothèse gauche",
+                              "type": "text-field",
+                              "shortLabel": "prothèse gauche",
+                              "grows": true,
+                              "span": 7,
+                              "readonly": false,
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "type de prothèse",
+                              "type": "dropdown-field",
+                              "shortLabel": "type de prothèse",
+                              "grows": true,
+                              "span": 8,
+                              "readonly": false,
+                              "options": {
+                                "LEGACY|rondes |1": "rondes ",
+                                "LEGACY|rondes texturées|1": "rondes texturées",
+                                "LEGACY|anatomiques|1": "anatomiques"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "numéro de série droit",
+                              "type": "text-field",
+                              "shortLabel": "numéro de série droit",
+                              "grows": true,
+                              "span": 9,
+                              "readonly": false,
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "numéro de série gauche",
+                              "type": "text-field",
+                              "shortLabel": "numéro de série gauche",
+                              "grows": true,
+                              "span": 7,
+                              "readonly": false,
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "position des prothèses",
+                              "type": "dropdown-field",
+                              "shortLabel": "position des prothèses",
+                              "grows": true,
+                              "span": 24,
+                              "readonly": false,
+                              "options": {
+                                "LEGACY|sous-glandulaire|1": "sous-glandulaire",
+                                "LEGACY|rétropectorale|1": "rétropectorale",
+                                "LEGACY|sous-faciale|1": "sous-faciale"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "drainage",
+                              "type": "dropdown-field",
+                              "shortLabel": "drainage",
+                              "grows": true,
+                              "span": 24,
+                              "readonly": false,
+                              "options": {
+                                "LEGACY|pas de drainage|1": "pas de drainage",
+                                "LEGACY|redons aspiratifs|1": "redons aspiratifs"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "traitement post-op",
+                              "type": "items-list-field",
+                              "shortLabel": "traitement post-op",
+                              "grows": true,
+                              "span": 24,
+                              "rowSpan": 5,
+                              "readonly": false,
+                              "multiline": false,
+                              "translate": true
+                            }
+                          ],
+                          "borderless": false,
+                          "hideTitle": true,
+                          "translate": true,
+                          "span": 24
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "sous-formulaires CRO-sein/gynécomastie": {
+                  "form": "sous-formulaires CRO-sein/gynécomastie",
+                  "id": "607044E4-DC93-49E3-9726-E24895436637",
+                  "sections": [
+                    {
+                      "section": "Main",
+                      "fields": [
+                        {
+                          "clazz": "group",
+                          "group": "Section 1",
+                          "fields": [
+                            {
+                              "clazz": "field",
+                              "field": "technique chirurgicale",
+                              "type": "text-field",
+                              "shortLabel": "technique chirurgicale",
+                              "grows": true,
+                              "span": 24,
+                              "readonly": false,
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "infiltration",
+                              "type": "dropdown-field",
+                              "shortLabel": "infiltration",
+                              "grows": true,
+                              "span": 24,
+                              "readonly": false,
+                              "options": {
+                                "LEGACY|sérum physilogique avec adrénaline (1L de sérum avec 10 mg d'adrénaline|1": "sérum physilogique avec adrénaline (1L de sérum avec 10 mg d'adrénaline",
+                                "LEGACY|sérum physiologique avec naropin et adrénaline ( 1l de sérum avec 200 mg de naropin et 10 mg d'adrénaline|1": "sérum physiologique avec naropin et adrénaline ( 1l de sérum avec 200 mg de naropin et 10 mg d'adrénaline",
+                                "LEGACY|sérum physiologique avec xylocaïne adrénalinée (s1 L de sérum avec 1 flapule de xylocaïne 2% avec adrénaline)|1": "sérum physiologique avec xylocaïne adrénalinée (s1 L de sérum avec 1 flapule de xylocaïne 2% avec adrénaline)"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "volume injecté",
+                              "type": "measure-field",
+                              "shortLabel": "volume injecté",
+                              "grows": true,
+                              "span": 6,
+                              "readonly": false,
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "liposuccion associée",
+                              "type": "checkbox",
+                              "shortLabel": "liposuccion associée",
+                              "grows": true,
+                              "span": 5,
+                              "readonly": false,
+                              "options": {
+                                "liposuccion associée": "liposuccion associée"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "volume liposuccé",
+                              "type": "measure-field",
+                              "shortLabel": "volume liposuccé par sein",
+                              "grows": true,
+                              "span": 13,
+                              "readonly": false,
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "résection droite",
+                              "type": "measure-field",
+                              "shortLabel": "résection droite",
+                              "grows": true,
+                              "span": 6,
+                              "readonly": false,
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "résection gauche",
+                              "type": "measure-field",
+                              "shortLabel": "résection gauche",
+                              "grows": true,
+                              "span": 9,
+                              "readonly": false,
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "drainage",
+                              "type": "dropdown-field",
+                              "shortLabel": "drainage",
+                              "grows": true,
+                              "span": 9,
+                              "readonly": false,
+                              "options": {
+                                "LEGACY|NON|1": "NON",
+                                "LEGACY|lamelle|1": "lamelle",
+                                "LEGACY|drain aspiratif de Redon|1": "drain aspiratif de Redon",
+                                "LEGACY|drain NON aspiratif|1": "drain NON aspiratif",
+                                "LEGACY|drain de Blake|1": "drain de Blake"
+                              },
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "traitement post-op",
+                              "type": "items-list-field",
+                              "shortLabel": "traitement post-op",
+                              "grows": true,
+                              "span": 24,
+                              "rowSpan": 4,
+                              "readonly": false,
+                              "multiline": false,
+                              "translate": true
+                            }
+                          ],
+                          "borderless": false,
+                          "hideTitle": true,
+                          "translate": true,
+                          "span": 24
+                        },
+                        {
+                          "clazz": "group",
+                          "group": "Section 2",
+                          "fields": [
+                            {
+                              "clazz": "field",
+                              "field": "histologie",
+                              "type": "text-field",
+                              "shortLabel": "conclusion ana. path.",
+                              "grows": true,
+                              "span": 15,
+                              "rowSpan": 2,
+                              "readonly": false,
+                              "multiline": false,
+                              "translate": true
+                            },
+                            {
+                              "clazz": "field",
+                              "field": "note",
+                              "type": "text-field",
+                              "shortLabel": "note",
+                              "grows": true,
+                              "span": 9,
+                              "rowSpan": 2,
+                              "readonly": false,
+                              "multiline": false,
+                              "translate": true
+                            }
+                          ],
+                          "borderless": false,
+                          "hideTitle": true,
+                          "translate": true,
+                          "span": 24
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "span": 24,
+              "rowSpan": 1,
+              "labels": {}
+            },
+            {
+              "clazz": "field",
+              "field": "traitement post-op",
+              "type": "items-list-field",
+              "shortLabel": "traitement post-op",
+              "grows": true,
+              "span": 24,
+              "rowSpan": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "date d'entrée",
+              "type": "date-picker",
+              "shortLabel": "date d'entrée",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "date de sortie",
+              "type": "date-picker",
+              "shortLabel": "date de sortie",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "suites",
+              "type": "text-field",
+              "shortLabel": "suites",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "subform",
+              "id": "0A07484E-2D42-46FA-9624-69D84816022E",
+              "shortLabel": "Suivi post-op",
+              "forms": {
+                "sous-formulaires CRO/Suivi reconstruction": {
+                  "form": "sous-formulaires CRO/Suivi reconstruction",
+                  "id": "0E2B10E4-DF6D-4FDB-BBDF-EBB3904ACDFE",
+                  "sections": [
+                    {
+                      "section": "Main",
+                      "fields": [
+                        {
+                          "clazz": "field",
+                          "field": "Volume d'expansion",
+                          "type": "measure-field",
+                          "shortLabel": "Volume d'expansion",
+                          "grows": true,
+                          "span": 5,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "plainte",
+                          "type": "text-field",
+                          "shortLabel": "plainte",
+                          "grows": true,
+                          "span": 19,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "examen clinique",
+                          "type": "text-field",
+                          "shortLabel": "examen clinique",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "span": 24,
+              "rowSpan": 1,
+              "labels": {}
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

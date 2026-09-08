@@ -1,0 +1,248 @@
+{
+  "form": "sous-formulaires CRO visage/lipofilling du visage",
+  "id": "16976E0E-95F6-4EC9-BE46-F518A79E155C",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "site de prélèvement",
+          "type": "text-field",
+          "shortLabel": "site de prélèvement",
+          "grows": true,
+          "span": 9,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "préparation de la graisse",
+          "type": "dropdown-field",
+          "shortLabel": "préparation de la graisse",
+          "grows": true,
+          "span": 15,
+          "readonly": false,
+          "options": {
+            "LEGACY|centrifugation|1": "centrifugation",
+            "LEGACY|décantation et lavage|1": "décantation et lavage"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "lipofilling pomettes",
+          "type": "checkbox",
+          "shortLabel": "pomettes",
+          "grows": true,
+          "span": 1,
+          "readonly": false,
+          "options": {
+            "pomettes": "pomettes"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "volume par pomette",
+          "type": "measure-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 3,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": " lipofilling rides d'amertume",
+          "type": "checkbox",
+          "shortLabel": "rides d'amertume",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "options": {
+            "rides d'amertume": "rides d'amertume"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "volume par ride d'amertume",
+          "type": "measure-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "lipofilling sourcil",
+          "type": "checkbox",
+          "shortLabel": "sourcil",
+          "grows": true,
+          "span": 3,
+          "readonly": false,
+          "options": {
+            "sourcil": "sourcil"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "volume par sourcil",
+          "type": "measure-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 3,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "lipofilling joues",
+          "type": "checkbox",
+          "shortLabel": "joues",
+          "grows": true,
+          "span": 3,
+          "readonly": false,
+          "options": {
+            "joues": "joues"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "volume par joue",
+          "type": "measure-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "lipofilling SNG",
+          "type": "checkbox",
+          "shortLabel": "sillons naso-géniens",
+          "grows": true,
+          "span": 1,
+          "readonly": false,
+          "options": {
+            "sillons naso-géniens": "sillons naso-géniens"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "volume par sillon",
+          "type": "measure-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 3,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "lipofilling bord mandibulaire",
+          "type": "checkbox",
+          "shortLabel": "bord mandibulaire",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "options": {
+            "bord mandibulaire": "bord mandibulaire"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "volume par bord mandibulaire",
+          "type": "measure-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "lipofilling tempes",
+          "type": "checkbox",
+          "shortLabel": "tempes",
+          "grows": true,
+          "span": 3,
+          "readonly": false,
+          "options": {
+            "tempes": "tempes"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "volume par tempe",
+          "type": "measure-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 3,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "lipofilling lèvres",
+          "type": "checkbox",
+          "shortLabel": "lèvres",
+          "grows": true,
+          "span": 3,
+          "readonly": false,
+          "options": {
+            "lèvres": "lèvres"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "volume par lèvre",
+          "type": "measure-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "lipofilling divers",
+          "type": "text-field",
+          "shortLabel": "lipofilling divers",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,761 @@
+{
+  "form": "Sénologie/Antécédents",
+  "id": "FFFFFFFF-FFFF-FFFF-FFFF-DOSSMED00000",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "subform",
+              "id": "F1188C0F-072E-4E59-B27D-E8F74375295C",
+              "shortLabel": "Antécédents familiaux cancer du sein",
+              "forms": {
+                "Sénologie/Antéc. fam. canc. du sein": {
+                  "form": "Sénologie/Antéc. fam. canc. du sein",
+                  "id": "F41348C3-79B0-4946-804B-74402B30391D",
+                  "sections": [
+                    {
+                      "section": "Main",
+                      "fields": [
+                        {
+                          "clazz": "field",
+                          "field": "Antécédents familiaux cancer du sein",
+                          "type": "checkbox",
+                          "shortLabel": "Ant. f. K sein",
+                          "grows": true,
+                          "span": 1,
+                          "readonly": false,
+                          "options": {
+                            "Ant. f. K sein": "Ant. f. K sein"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Relation familiale",
+                          "type": "text-field",
+                          "shortLabel": "Relation familiale",
+                          "grows": true,
+                          "span": 17,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Age antécédent familial",
+                          "type": "measure-field",
+                          "shortLabel": "à",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "unilatéral",
+                          "type": "checkbox",
+                          "shortLabel": "unilatéral",
+                          "grows": true,
+                          "span": 1,
+                          "readonly": false,
+                          "options": {
+                            "unilatéral": "unilatéral"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "bilatéral",
+                          "type": "checkbox",
+                          "shortLabel": "bilatéral",
+                          "grows": true,
+                          "span": 3,
+                          "readonly": false,
+                          "options": {
+                            "bilatéral": "bilatéral"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "synchrone",
+                          "type": "checkbox",
+                          "shortLabel": "synchrone",
+                          "grows": true,
+                          "span": 5,
+                          "readonly": false,
+                          "options": {
+                            "synchrone": "synchrone"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "asynchrone",
+                          "type": "checkbox",
+                          "shortLabel": "asynchrone",
+                          "grows": true,
+                          "span": 4,
+                          "readonly": false,
+                          "options": {
+                            "asynchrone": "asynchrone"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Age deuxième antécédent familial",
+                          "type": "measure-field",
+                          "shortLabel": "et ",
+                          "grows": true,
+                          "span": 11,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "span": 24,
+              "rowSpan": 1,
+              "labels": {}
+            },
+            {
+              "clazz": "subform",
+              "id": "997DCB56-558B-4003-A1A4-81C506CF8062",
+              "shortLabel": "Antécédents familiaux cancer de l'ovaire",
+              "forms": {
+                "Sénologie/Antéc. fam. canc. de l'ovaire": {
+                  "form": "Sénologie/Antéc. fam. canc. de l'ovaire",
+                  "id": "C9F2F784-0120-474F-927E-B6D8CBE1C146",
+                  "sections": [
+                    {
+                      "section": "Main",
+                      "fields": [
+                        {
+                          "clazz": "field",
+                          "field": "Antécédents familiaux cancer de l'ovaire",
+                          "type": "checkbox",
+                          "shortLabel": "Ant. f. K. de l'ovaire",
+                          "grows": true,
+                          "span": 3,
+                          "readonly": false,
+                          "options": {
+                            "Ant. f. K. de l'ovaire": "Ant. f. K. de l'ovaire"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Relation familiale",
+                          "type": "text-field",
+                          "shortLabel": "Relation familiale",
+                          "grows": true,
+                          "span": 15,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Age antécédent familial",
+                          "type": "measure-field",
+                          "shortLabel": "à",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "span": 24,
+              "rowSpan": 1,
+              "labels": {}
+            },
+            {
+              "clazz": "subform",
+              "id": "F4227499-3DFD-4129-B99D-9A80D260702C",
+              "shortLabel": "Antécédents familiaux cancer de l'utérus",
+              "forms": {
+                "Sénologie/Antéc. fam. canc. de l'utérus": {
+                  "form": "Sénologie/Antéc. fam. canc. de l'utérus",
+                  "id": "34F7BB9B-08F4-4886-86C5-9F8528B279B9",
+                  "sections": [
+                    {
+                      "section": "Main",
+                      "fields": [
+                        {
+                          "clazz": "field",
+                          "field": "Antécadents familiaux cancer de l'utérus",
+                          "type": "checkbox",
+                          "shortLabel": "Ant. f. K de l'utérus",
+                          "grows": true,
+                          "span": 3,
+                          "readonly": false,
+                          "options": {
+                            "Ant. f. K de l'utérus": "Ant. f. K de l'utérus"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Relation familiale",
+                          "type": "text-field",
+                          "shortLabel": "Relation familiale",
+                          "grows": true,
+                          "span": 15,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Age antécédent familial",
+                          "type": "measure-field",
+                          "shortLabel": "à",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "span": 24,
+              "rowSpan": 1,
+              "labels": {}
+            },
+            {
+              "clazz": "field",
+              "field": "Enquête génétique",
+              "type": "checkbox",
+              "shortLabel": "Enquête génétique",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "Enquête génétique": "Enquête génétique"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Résultat enquête génétique",
+              "type": "dropdown-field",
+              "shortLabel": "Résultat enquête génétique",
+              "grows": true,
+              "span": 11,
+              "readonly": false,
+              "options": {
+                "LEGACY|positif|1": "positif",
+                "LEGACY|négatif|1": "négatif"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Gènes",
+              "type": "text-field",
+              "shortLabel": "Gènes",
+              "grows": true,
+              "span": 10,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Diabète",
+              "type": "checkbox",
+              "shortLabel": "Diabète",
+              "grows": true,
+              "span": 10,
+              "readonly": false,
+              "options": {
+                "Diabète": "Diabète"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "HTA",
+              "type": "checkbox",
+              "shortLabel": "HTA",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "HTA": "HTA"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Antécédent césarienne",
+              "type": "checkbox",
+              "shortLabel": "Ant. césarienne",
+              "grows": true,
+              "span": 10,
+              "readonly": false,
+              "options": {
+                "Ant. césarienne": "Ant. césarienne"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Antécédents médicaux",
+              "type": "token-field",
+              "shortLabel": "Antécédents médicaux",
+              "grows": true,
+              "span": 13,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Antécédents chirurgicaux",
+              "type": "token-field",
+              "shortLabel": "Antécédents chirurgicaux",
+              "grows": true,
+              "span": 11,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Prise alcool",
+              "type": "checkbox",
+              "shortLabel": "Prise alcool",
+              "grows": true,
+              "span": 2,
+              "readonly": false,
+              "options": {
+                "Prise alcool": "Prise alcool"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Tabac",
+              "type": "checkbox",
+              "shortLabel": "Tabac",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "Tabac": "Tabac"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Allergies",
+              "type": "text-field",
+              "shortLabel": "Allergies",
+              "grows": true,
+              "span": 17,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Gestité",
+              "type": "number-field",
+              "shortLabel": "G",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Parité",
+              "type": "number-field",
+              "shortLabel": "P",
+              "grows": true,
+              "span": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Age primiparité",
+              "type": "measure-field",
+              "shortLabel": "âge",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Allaitement",
+              "type": "measure-field",
+              "shortLabel": "A",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Fausse couche",
+              "type": "number-field",
+              "shortLabel": "FC",
+              "grows": true,
+              "span": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Extra-utérine",
+              "type": "number-field",
+              "shortLabel": "EU",
+              "grows": true,
+              "span": 1,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Interruption volontaire de grossesse",
+              "type": "number-field",
+              "shortLabel": "IVG",
+              "grows": true,
+              "span": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Traitement hormonal substitutif",
+              "type": "checkbox",
+              "shortLabel": "THS",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "THS": "THS"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Ménarche",
+              "type": "measure-field",
+              "shortLabel": "Ménarche à l'âge de",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Ménopause",
+              "type": "checkbox",
+              "shortLabel": "Ménopause",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Ménopause": "Ménopause"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Age de la ménopause",
+              "type": "measure-field",
+              "shortLabel": "à l'âge de",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Contraception orale",
+              "type": "text-field",
+              "shortLabel": "Contraception orale",
+              "grows": true,
+              "span": 10,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "subform",
+              "id": "2FB95C4E-CFB5-45C3-9315-F9A1DBEE5B56",
+              "shortLabel": "Antécédents sénologiques personnels",
+              "forms": {
+                "Sénologie/Antéc. sénologiques pers.": {
+                  "form": "Sénologie/Antéc. sénologiques pers.",
+                  "id": "16EFBAC1-435A-47EA-B2DF-D63580D7C124",
+                  "sections": [
+                    {
+                      "section": "Main",
+                      "fields": [
+                        {
+                          "clazz": "field",
+                          "field": "Année antécédent sénologique personnel",
+                          "type": "date-picker",
+                          "shortLabel": "Année",
+                          "grows": true,
+                          "span": 5,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Latéralité",
+                          "type": "dropdown-field",
+                          "shortLabel": "Latéralité",
+                          "grows": true,
+                          "span": 19,
+                          "readonly": false,
+                          "options": {
+                            "LEGACY|gauche|1": "gauche",
+                            "LEGACY|droit|1": "droit",
+                            "LEGACY|bilatéral|1": "bilatéral"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Histologies",
+                          "type": "token-field",
+                          "shortLabel": "Histologies",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Récepteur œstrogénique",
+                          "type": "dropdown-field",
+                          "shortLabel": "RO",
+                          "grows": true,
+                          "span": 3,
+                          "readonly": false,
+                          "options": {
+                            "LEGACY|negatif|1": "negatif",
+                            "LEGACY|pos. 1|1": "pos. 1",
+                            "LEGACY|pos. 2|1": "pos. 2",
+                            "LEGACY|pos. 3|1": "pos. 3",
+                            "LEGACY|pos. 4|1": "pos. 4",
+                            "LEGACY|pos. 5|1": "pos. 5",
+                            "LEGACY|pos. 6|1": "pos. 6",
+                            "LEGACY|pos. 7|1": "pos. 7",
+                            "LEGACY|pos. 8|1": "pos. 8"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Récepteur progestéronique",
+                          "type": "dropdown-field",
+                          "shortLabel": "RP",
+                          "grows": true,
+                          "span": 4,
+                          "readonly": false,
+                          "options": {
+                            "LEGACY|négatif|1": "négatif",
+                            "LEGACY|pos. 1|1": "pos. 1",
+                            "LEGACY|pos. 2|1": "pos. 2",
+                            "LEGACY|pos. 3|1": "pos. 3",
+                            "LEGACY|pos. 4|1": "pos. 4",
+                            "LEGACY|pos. 5|1": "pos. 5",
+                            "LEGACY|pos. 6|1": "pos. 6",
+                            "LEGACY|pos. 7|1": "pos. 7",
+                            "LEGACY|pos. 8|1": "pos. 8"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Neu",
+                          "type": "checkbox",
+                          "shortLabel": "Neu",
+                          "grows": true,
+                          "span": 2,
+                          "readonly": false,
+                          "options": {
+                            "Neu": "Neu"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "KI 67",
+                          "type": "measure-field",
+                          "shortLabel": "KI 67",
+                          "grows": true,
+                          "span": 7,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Ganglions sentinelles",
+                          "type": "dropdown-field",
+                          "shortLabel": "Gg sent.",
+                          "grows": true,
+                          "span": 4,
+                          "readonly": false,
+                          "options": {
+                            "LEGACY|+|1": "+",
+                            "LEGACY|-|1": "-"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Evidement ganglionnaire",
+                          "type": "dropdown-field",
+                          "shortLabel": "Ev. gg",
+                          "grows": true,
+                          "span": 3,
+                          "readonly": false,
+                          "options": {
+                            "LEGACY|+|1": "+",
+                            "LEGACY|-|1": "-"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Nombre de ganglions positifs",
+                          "type": "number-field",
+                          "shortLabel": "Nbre",
+                          "grows": true,
+                          "span": 1,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Métastases",
+                          "type": "text-field",
+                          "shortLabel": "Métastases",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "span": 24,
+              "rowSpan": 1,
+              "labels": {}
+            },
+            {
+              "clazz": "field",
+              "field": "Surveillance imagerie depuis",
+              "type": "number-field",
+              "shortLabel": "Surveillance imagerie depuis",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "subform",
+              "id": "570BA2B1-7A38-4536-AD90-273B18EE5EDB",
+              "shortLabel": "Traitement médicamenteux",
+              "forms": {
+                "Sénologie/Traitement médicamenteux": {
+                  "form": "Sénologie/Traitement médicamenteux",
+                  "id": "09A38D9D-16CA-4085-81BF-55ED40329CFB",
+                  "sections": [
+                    {
+                      "section": "Main",
+                      "fields": []
+                    }
+                  ]
+                }
+              },
+              "span": 24,
+              "rowSpan": 5,
+              "labels": {}
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,357 @@
+{
+  "form": "Orthopédie/Pré-op PTH",
+  "id": "CE624C2F-3A45-42E8-A83C-1E5AC10D598A",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Prothèse totale de hanche gauche",
+              "type": "checkbox",
+              "shortLabel": "Gauche",
+              "grows": true,
+              "span": 23,
+              "readonly": false,
+              "options": {
+                "Gauche": "Gauche"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Prothèse totale de hanche droite",
+              "type": "checkbox",
+              "shortLabel": "Droite",
+              "grows": true,
+              "span": 1,
+              "readonly": false,
+              "options": {
+                "Droite": "Droite"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Plainte",
+              "type": "text-field",
+              "shortLabel": "Plainte",
+              "grows": true,
+              "span": 24,
+              "rowSpan": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Poids",
+              "type": "measure-field",
+              "shortLabel": "Poids",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Taille",
+              "type": "measure-field",
+              "shortLabel": "Taille",
+              "grows": true,
+              "span": 11,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "BMI",
+              "type": "number-field",
+              "shortLabel": "BMI",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Examen clinique",
+              "type": "text-field",
+              "shortLabel": "Exam. clin.",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Radio",
+              "type": "text-field",
+              "shortLabel": "Radio",
+              "grows": true,
+              "span": 19,
+              "rowSpan": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Radio clichés patients",
+              "type": "checkbox",
+              "shortLabel": "Clichés patients",
+              "grows": true,
+              "span": 5,
+              "rowSpan": 2,
+              "readonly": false,
+              "options": {
+                "Clichés patients": "Clichés patients"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Radio clichés osirix",
+              "type": "checkbox",
+              "shortLabel": "Clichés osirix",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "Clichés osirix": "Clichés osirix"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Scanner",
+              "type": "text-field",
+              "shortLabel": "Scanner",
+              "grows": true,
+              "span": 19,
+              "rowSpan": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Scanner clichés patients",
+              "type": "checkbox",
+              "shortLabel": "Clichés patients",
+              "grows": true,
+              "span": 5,
+              "rowSpan": 2,
+              "readonly": false,
+              "options": {
+                "Clichés patients": "Clichés patients"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Scanner clichés osirix",
+              "type": "checkbox",
+              "shortLabel": "Clichés osirix",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "Clichés osirix": "Clichés osirix"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "RMN",
+              "type": "text-field",
+              "shortLabel": "RMN",
+              "grows": true,
+              "span": 19,
+              "rowSpan": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "RMN clichés patients",
+              "type": "checkbox",
+              "shortLabel": "Clichés patients",
+              "grows": true,
+              "span": 5,
+              "rowSpan": 2,
+              "readonly": false,
+              "options": {
+                "Clichés patients": "Clichés patients"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "RMN clichés osirix",
+              "type": "checkbox",
+              "shortLabel": "Clichés osirix",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "Clichés osirix": "Clichés osirix"
+              },
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 3",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Diagnostic",
+              "type": "text-field",
+              "shortLabel": "Diagnostic",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Coxarthrose",
+              "type": "checkbox",
+              "shortLabel": "Coxarthrose",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Coxarthrose": "Coxarthrose"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Nécrose aseptique ficat 1",
+              "type": "checkbox",
+              "shortLabel": "Nécrose asept. fic. 1",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Nécrose asept. fic. 1": "Nécrose asept. fic. 1"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Nécrose aseptique ficat 2",
+              "type": "checkbox",
+              "shortLabel": "Nécrose asept. fic. 2",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Nécrose asept. fic. 2": "Nécrose asept. fic. 2"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Fracture du col du fémur",
+              "type": "checkbox",
+              "shortLabel": "Fracture du col",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Fracture du col": "Fracture du col"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Nécrose aseptique ficat 3",
+              "type": "checkbox",
+              "shortLabel": "Nécrose asept. fic. 3",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Nécrose asept. fic. 3": "Nécrose asept. fic. 3"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Nécrose aseptique ficat 4",
+              "type": "checkbox",
+              "shortLabel": "Nécrose asept. fic. 4",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Nécrose asept. fic. 4": "Nécrose asept. fic. 4"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Displasie de hanche",
+              "type": "checkbox",
+              "shortLabel": "Displ. de hanche",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "Displ. de hanche": "Displ. de hanche"
+              },
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

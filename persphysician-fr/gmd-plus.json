@@ -1,0 +1,449 @@
+{
+  "form": "Protocoles de soin/GMD Plus",
+  "id": "c976c314-b3d4-9c15-51fa-d7108b76c5bf",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Tabac",
+              "type": "checkbox",
+              "shortLabel": "Tabac",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "Tabac": "Tabac"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Tabac – combien?",
+              "type": "measure-field",
+              "shortLabel": "Quantité",
+              "grows": true,
+              "span": 11,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Tabac – motivé pour arrêter?",
+              "type": "checkbox",
+              "shortLabel": "motivé pour arrêter?",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "motivé pour arrêter?": "motivé pour arrêter?"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Consommation d'Alcool",
+              "type": "dropdown-field",
+              "shortLabel": "Consommation d'Alcool",
+              "grows": true,
+              "span": 10,
+              "readonly": false,
+              "options": {
+                "LEGACY|1 verre/sem.|1": "1 verre/sem.",
+                "LEGACY|2 verres/sem.|1": "2 verres/sem.",
+                "LEGACY|3 verres/sem.|1": "3 verres/sem.",
+                "LEGACY|4 verres/sem.|1": "4 verres/sem.",
+                "LEGACY|5 verres/sem.|1": "5 verres/sem.",
+                "LEGACY|1 verres/jour|1": "1 verres/jour",
+                "LEGACY|2 verres/jour|1": "2 verres/jour",
+                "LEGACY|3 verres/jour|1": "3 verres/jour",
+                "LEGACY|4 verres/jour|1": "4 verres/jour",
+                "LEGACY|5 verres/jour|1": "5 verres/jour",
+                "LEGACY|+5 verres/jour|1": "+5 verres/jour"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Etes-vous assez en mouvement?",
+              "type": "checkbox",
+              "shortLabel": "Etes-vous assez en mouvement?",
+              "grows": true,
+              "span": 14,
+              "readonly": false,
+              "options": {
+                "Etes-vous assez en mouvement?": "Etes-vous assez en mouvement?"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Etes-vous motivé pour bouger, faire du sport?",
+              "type": "checkbox",
+              "shortLabel": "Etes-vous motivé pour bouger, faire du sport?",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "Etes-vous motivé pour bouger, faire du sport?": "Etes-vous motivé pour bouger, faire du sport?"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Mangez-vous des légumes ou des fruits?",
+              "type": "checkbox",
+              "shortLabel": "Mangez-vous des légumes ou des fruits?",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "Mangez-vous des légumes ou des fruits?": "Mangez-vous des légumes ou des fruits?"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Intéressé dans les choses? Activités?",
+              "type": "checkbox",
+              "shortLabel": "Intéressé dans les choses? Activités?",
+              "grows": true,
+              "span": 10,
+              "readonly": false,
+              "options": {
+                "Intéressé dans les choses? Activités?": "Intéressé dans les choses? Activités?"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Comment vous vous sentez les derniers temps?",
+              "type": "checkbox",
+              "shortLabel": "Comment vous vous sentez les derniers temps?",
+              "grows": true,
+              "span": 14,
+              "readonly": false,
+              "options": {
+                "Comment vous vous sentez les derniers temps?": "Comment vous vous sentez les derniers temps?"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Taille",
+              "type": "measure-field",
+              "shortLabel": "Taille",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Poids",
+              "type": "measure-field",
+              "shortLabel": "Poids",
+              "grows": true,
+              "span": 10,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "BMI",
+              "type": "number-field",
+              "shortLabel": "BMI",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Tour de taille",
+              "type": "measure-field",
+              "shortLabel": "Tour de taille",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Pression systolique",
+              "type": "measure-field",
+              "shortLabel": "Pression systolique",
+              "grows": true,
+              "span": 10,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Pression diastolique",
+              "type": "measure-field",
+              "shortLabel": "dias.",
+              "grows": true,
+              "span": 14,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Antécédents familiaux CV",
+              "type": "token-field",
+              "shortLabel": "Antécédents familiaux CV",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Antécédents familiaux  Diabète",
+              "type": "token-field",
+              "shortLabel": "Antécédents familiaux  Diabète",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Antécédents familiaux  Néo Colon",
+              "type": "token-field",
+              "shortLabel": "Antécédents familiaux  Néo Colon",
+              "grows": true,
+              "span": 13,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Antécédents familiaux Polipe du Colon",
+              "type": "token-field",
+              "shortLabel": "Antécédents familiaux Polipe du Colon",
+              "grows": true,
+              "span": 11,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Grippe",
+              "type": "checkbox",
+              "shortLabel": "Grippe ",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "Grippe ": "Grippe "
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Echéance grippe",
+              "type": "date-picker",
+              "shortLabel": "Echéance",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Pneumococces",
+              "type": "checkbox",
+              "shortLabel": "Pneumococces",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Pneumococces": "Pneumococces"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Echéance pneumococces",
+              "type": "date-picker",
+              "shortLabel": "Echéance",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Tétanos",
+              "type": "checkbox",
+              "shortLabel": "Tétanos",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "Tétanos": "Tétanos"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Echéance tétanos",
+              "type": "date-picker",
+              "shortLabel": "Echéance",
+              "grows": true,
+              "span": 18,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "FOBT",
+              "type": "checkbox",
+              "shortLabel": "FOBT",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "FOBT": "FOBT"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Echéance FOBT",
+              "type": "date-picker",
+              "shortLabel": "Echéance",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Mammographie",
+              "type": "checkbox",
+              "shortLabel": "Mammographie",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Mammographie": "Mammographie"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Echéance Mammographie",
+              "type": "date-picker",
+              "shortLabel": "Echéance",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Coloscopie",
+              "type": "checkbox",
+              "shortLabel": "Coloscopie",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "Coloscopie": "Coloscopie"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Echéance Coloscopie",
+              "type": "date-picker",
+              "shortLabel": "Echéance",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "PAP",
+              "type": "checkbox",
+              "shortLabel": "PAP",
+              "grows": true,
+              "span": 10,
+              "readonly": false,
+              "options": {
+                "PAP": "PAP"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Acide acetylsalicylique",
+              "type": "date-picker",
+              "shortLabel": "Acide acetylsalicylique",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

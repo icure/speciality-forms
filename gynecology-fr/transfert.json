@@ -1,0 +1,193 @@
+{
+  "form": "Gynécologie 3.0/Transfert",
+  "id": "D916E366-F997-4268-A211-470AEA0D2844",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "A6544D3E-AC4D-4185-A54F-FEFB2DFBD3AA",
+              "type": "action",
+              "shortLabel": "Mi-temps méd.",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Allaitement",
+              "type": "checkbox",
+              "shortLabel": "Allaitement mat.",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "Allaitement mat.": "Allaitement mat."
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "GBS",
+              "type": "dropdown-field",
+              "shortLabel": "GBS",
+              "grows": true,
+              "span": 1,
+              "readonly": false,
+              "options": {
+                "LEGACY|+|1": "+",
+                "LEGACY|-|1": "-"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Don de sang de cordon",
+              "type": "checkbox",
+              "shortLabel": "Don de sang de cordon",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "Don de sang de cordon": "Don de sang de cordon"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Souhait péridurale",
+              "type": "checkbox",
+              "shortLabel": "Souhait péri",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "Souhait péri": "Souhait péri"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Césarienne déclenchement",
+              "type": "checkbox",
+              "shortLabel": "CS/déclenchement",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "CS/déclenchement": "CS/déclenchement"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "TCA",
+              "type": "measure-field",
+              "shortLabel": "TCA",
+              "grows": true,
+              "span": 4,
+              "rowSpan": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Transmission autre",
+              "type": "text-field",
+              "shortLabel": "Autres",
+              "grows": true,
+              "span": 12,
+              "rowSpan": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Anesthésiste",
+              "type": "text-field",
+              "shortLabel": "Anesthésiste",
+              "grows": true,
+              "span": 8,
+              "rowSpan": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Quick",
+              "type": "measure-field",
+              "shortLabel": "Quick",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Kiné",
+              "type": "text-field",
+              "shortLabel": "Kiné",
+              "grows": true,
+              "span": 20,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Plaquettes",
+              "type": "measure-field",
+              "shortLabel": "Plaquettes",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Pédiatre",
+              "type": "text-field",
+              "shortLabel": "Pédiatre",
+              "grows": true,
+              "span": 20,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "form": "Examens proposés/Examen complémentaire",
+  "id": "35B51BC5-6D64-45D6-B6A6-F1C0245D522D",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Type d'examen",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "LEGACY|Scanner|1": "Scanner",
+            "LEGACY|IRM|1": "IRM",
+            "LEGACY|Echographie|1": "Echographie",
+            "LEGACY|Biologie|1": "Biologie",
+            "LEGACY|Radiographie|1": "Radiographie"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Détails de l'examen",
+          "type": "text-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 18,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "CC03706B-78D8-4E77-BB18-0920E8AB5FDE",
+          "type": "action",
+          "shortLabel": "Avis",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,666 @@
+{
+  "form": "CRO/CRO autre",
+  "id": "F40AE8DB-D60F-4DC3-9490-18E72F015F3C",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "intervention chirurgicale réalisée",
+              "type": "text-field",
+              "shortLabel": "intervention chirurgicale réalisée",
+              "grows": true,
+              "span": 22,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "063615BC-EA92-453A-BF45-B3B8F91A082B",
+              "type": "action",
+              "shortLabel": "CRO",
+              "grows": true,
+              "span": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Opérateur",
+              "type": "text-field",
+              "shortLabel": "Opérateur",
+              "grows": true,
+              "span": 10,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "lieu d'intervention",
+              "type": "dropdown-field",
+              "shortLabel": "lieu d'intervention",
+              "grows": true,
+              "span": 13,
+              "readonly": false,
+              "options": {
+                "LEGACY|Clinique Saint-Anne Saint-Rémi|1": "Clinique Saint-Anne Saint-Rémi",
+                "LEGACY|Clinique Claris|1": "Clinique Claris"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "54922316-6DAD-4DE5-8214-2006F57175BF",
+              "type": "action",
+              "shortLabel": "RH-OD",
+              "grows": true,
+              "span": 1,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Assistant",
+              "type": "text-field",
+              "shortLabel": "Assistant",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Anesthésiste",
+              "type": "text-field",
+              "shortLabel": "Anesthésiste",
+              "grows": true,
+              "span": 11,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "date opératoire",
+              "type": "date-picker",
+              "shortLabel": "date opératoire",
+              "grows": true,
+              "span": 13,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "antibioprophylaxie",
+              "type": "text-field",
+              "shortLabel": "antibioprophylaxie",
+              "grows": true,
+              "span": 11,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "durée d'intervention",
+              "type": "measure-field",
+              "shortLabel": "durée d'intervention",
+              "grows": true,
+              "span": 13,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "subform",
+              "id": "C84FF2EC-D7B0-4153-9281-DEB917C0DFEE",
+              "shortLabel": "mode d'anesthésie",
+              "forms": {
+                "sous-formulaires entête/anesthésie locale": {
+                  "form": "sous-formulaires entête/anesthésie locale",
+                  "id": "22392445-A205-4ADE-859D-CEA81EE9EC1A",
+                  "sections": [
+                    {
+                      "section": "Main",
+                      "fields": [
+                        {
+                          "clazz": "field",
+                          "field": "anesthésique",
+                          "type": "dropdown-field",
+                          "shortLabel": "anesthésique",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "options": {
+                            "LEGACY|xylocaïne 1% sans adrénaline|1": "xylocaïne 1% sans adrénaline",
+                            "LEGACY|xylocaïne 2% sans adrénaline|1": "xylocaïne 2% sans adrénaline",
+                            "LEGACY|xylocaïne 1% avec adrénaline|1": "xylocaïne 1% avec adrénaline",
+                            "LEGACY|Naropin 2 mg/ml|1": "Naropin 2 mg/ml",
+                            "LEGACY|Naropin 10 mg/ml|1": "Naropin 10 mg/ml",
+                            "LEGACY|Cistanest 1%|1": "Cistanest 1%",
+                            "LEGACY|Cistanest 2%|1": "Cistanest 2%"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "volume injecté",
+                          "type": "measure-field",
+                          "shortLabel": "volume injecté",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "sous-formulaires entête/anesthésie locale avec sédation": {
+                  "form": "sous-formulaires entête/anesthésie locale avec sédation",
+                  "id": "97144B21-BF97-4320-9D1B-884A8BF71E3B",
+                  "sections": [
+                    {
+                      "section": "Main",
+                      "fields": [
+                        {
+                          "clazz": "field",
+                          "field": "anesthésique",
+                          "type": "dropdown-field",
+                          "shortLabel": "anesthésique",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "options": {
+                            "LEGACY|xylocaïne 1% sans adrénaline|1": "xylocaïne 1% sans adrénaline",
+                            "LEGACY|xylocaïne 2% sans adrénaline|1": "xylocaïne 2% sans adrénaline",
+                            "LEGACY|xylocaïne 1% avec adrénaline|1": "xylocaïne 1% avec adrénaline",
+                            "LEGACY|Naropin 2 mg/ml|1": "Naropin 2 mg/ml",
+                            "LEGACY|Naropin 10 mg/ml|1": "Naropin 10 mg/ml",
+                            "LEGACY|Cistanest 1%|1": "Cistanest 1%",
+                            "LEGACY|Cistanest 2%|1": "Cistanest 2%"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "volume injecté",
+                          "type": "measure-field",
+                          "shortLabel": "volume injecté",
+                          "grows": true,
+                          "span": 9,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "dilution",
+                          "type": "text-field",
+                          "shortLabel": "dilution",
+                          "grows": true,
+                          "span": 15,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "sous-formulaires entête/anesthésie autre que locale": {
+                  "form": "sous-formulaires entête/anesthésie autre que locale",
+                  "id": "C5638646-60B9-43E4-A1B6-9FFB789CACD9",
+                  "sections": [
+                    {
+                      "section": "Main",
+                      "fields": [
+                        {
+                          "clazz": "field",
+                          "field": "anesthésie",
+                          "type": "dropdown-field",
+                          "shortLabel": "",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "options": {
+                            "LEGACY|anesthésie générale|1": "anesthésie générale",
+                            "LEGACY|rachianesthésie|1": "rachianesthésie",
+                            "LEGACY|péridurale|1": "péridurale",
+                            "LEGACY|plexus|1": "plexus"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "span": 12,
+              "rowSpan": 1,
+              "labels": {}
+            },
+            {
+              "clazz": "field",
+              "field": "désinfectant",
+              "type": "dropdown-field",
+              "shortLabel": "désinfectant",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "LEGACY|isobédatine dermique|1": "isobédatine dermique",
+                "LEGACY|hibitane|1": "hibitane",
+                "LEGACY|chlohexidine aqueuse|1": "chlohexidine aqueuse",
+                "LEGACY|isobétadine alcoolique|1": "isobétadine alcoolique"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "position",
+              "type": "text-field",
+              "shortLabel": "position",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "subform",
+              "id": "375486E8-2E08-4495-99A9-1DB3CD376220",
+              "shortLabel": "sous-formulaires CRO",
+              "forms": {
+                "sous-formulaires CRO/générique": {
+                  "form": "sous-formulaires CRO/générique",
+                  "id": "93B157F1-0C80-4638-A88A-2C03702D49A9",
+                  "sections": [
+                    {
+                      "section": "Main",
+                      "fields": [
+                        {
+                          "clazz": "field",
+                          "field": "protocole",
+                          "type": "text-field",
+                          "shortLabel": "protocole",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "traitement post-op",
+                          "type": "items-list-field",
+                          "shortLabel": "traitement post-op",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "sous-formulaires CRO/liposuccion générique": {
+                  "form": "sous-formulaires CRO/liposuccion générique",
+                  "id": "0F162D93-A47D-4597-A808-76E87894F3E1",
+                  "sections": [
+                    {
+                      "section": "Main",
+                      "fields": [
+                        {
+                          "clazz": "field",
+                          "field": "retournement du patient",
+                          "type": "checkbox",
+                          "shortLabel": "retournement du patient",
+                          "grows": true,
+                          "span": 15,
+                          "readonly": false,
+                          "options": {
+                            "retournement du patient": "retournement du patient"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "infiltration graisseuse préalable",
+                          "type": "checkbox",
+                          "shortLabel": "infiltration graisseuse préalable",
+                          "grows": true,
+                          "span": 9,
+                          "readonly": false,
+                          "options": {
+                            "infiltration graisseuse préalable": "infiltration graisseuse préalable"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "sérum physiologique",
+                          "type": "measure-field",
+                          "shortLabel": "sérum physiologique",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "naropin",
+                          "type": "measure-field",
+                          "shortLabel": "naropin",
+                          "grows": true,
+                          "span": 7,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "xylocaïne",
+                          "type": "measure-field",
+                          "shortLabel": "xylocaïne",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "adrénaline",
+                          "type": "measure-field",
+                          "shortLabel": "adrénaline",
+                          "grows": true,
+                          "span": 5,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "quantité infiltrée",
+                          "type": "measure-field",
+                          "shortLabel": "quantité du mélange infiltrée",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "épigastre",
+                          "type": "checkbox",
+                          "shortLabel": "épigastre",
+                          "grows": true,
+                          "span": 3,
+                          "readonly": false,
+                          "options": {
+                            "épigastre": "épigastre"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "hanches",
+                          "type": "checkbox",
+                          "shortLabel": "hanches",
+                          "grows": true,
+                          "span": 3,
+                          "readonly": false,
+                          "options": {
+                            "hanches": "hanches"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "culotte de cheval",
+                          "type": "checkbox",
+                          "shortLabel": "culotte de cheval",
+                          "grows": true,
+                          "span": 11,
+                          "readonly": false,
+                          "options": {
+                            "culotte de cheval": "culotte de cheval"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "face interne des cuisses",
+                          "type": "checkbox",
+                          "shortLabel": "face interne des cuisses",
+                          "grows": true,
+                          "span": 7,
+                          "readonly": false,
+                          "options": {
+                            "face interne des cuisses": "face interne des cuisses"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "autre zone traitée",
+                          "type": "text-field",
+                          "shortLabel": "autre zone traitée",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "hypogastre",
+                          "type": "checkbox",
+                          "shortLabel": "hypogastre",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "options": {
+                            "hypogastre": "hypogastre"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "flancs",
+                          "type": "checkbox",
+                          "shortLabel": "flancs",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "options": {
+                            "flancs": "flancs"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "face interne des genoux",
+                          "type": "checkbox",
+                          "shortLabel": "face interne des genoux",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "options": {
+                            "face interne des genoux": "face interne des genoux"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "extension axillaire des seins",
+                          "type": "checkbox",
+                          "shortLabel": "extension axillaire des seins",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "options": {
+                            "extension axillaire des seins": "extension axillaire des seins"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "bras",
+                          "type": "checkbox",
+                          "shortLabel": "bras",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "options": {
+                            "bras": "bras"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "cou",
+                          "type": "checkbox",
+                          "shortLabel": "cou",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "options": {
+                            "cou": "cou"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": " bourrellets dorsaux",
+                          "type": "checkbox",
+                          "shortLabel": " bourrellets dorsaux",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "options": {
+                            " bourrellets dorsaux": " bourrellets dorsaux"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "mollet",
+                          "type": "checkbox",
+                          "shortLabel": "mollet",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "options": {
+                            "mollet": "mollet"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "volume liposuccé",
+                          "type": "measure-field",
+                          "shortLabel": "volume liposuccé après décantation",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "span": 24,
+              "rowSpan": 1,
+              "labels": {}
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "date d'entrée",
+              "type": "date-picker",
+              "shortLabel": "date d'entrée",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "date de sortie",
+              "type": "date-picker",
+              "shortLabel": "date de sortie",
+              "grows": true,
+              "span": 18,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "suites",
+              "type": "text-field",
+              "shortLabel": "suites",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

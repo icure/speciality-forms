@@ -1,0 +1,184 @@
+{
+  "form": "Cardiologie/Test d'effort",
+  "id": "CFFA071C-D1DE-494B-8336-36F4B354F09F",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Niveau de paliers",
+          "type": "text-field",
+          "shortLabel": "Niveau de paliers",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Tension artérielle systolique maximale",
+          "type": "measure-field",
+          "shortLabel": "TA max",
+          "grows": true,
+          "span": 11,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Tension artérielle diastolique maximale",
+          "type": "measure-field",
+          "shortLabel": "/",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Fréquence cardiaque maximale",
+          "type": "measure-field",
+          "shortLabel": "Fq. card. max.",
+          "grows": true,
+          "span": 7,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Tension artérielle systolique à la troisième minute de récupération",
+          "type": "measure-field",
+          "shortLabel": "TA R3",
+          "grows": true,
+          "span": 9,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Tension artérielle diastolique à la troisième minute de récupération",
+          "type": "measure-field",
+          "shortLabel": "/",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Charge maximale atteinte",
+          "type": "measure-field",
+          "shortLabel": "Charge max. att.",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Fréquence cardiaque maximale théorique",
+          "type": "measure-field",
+          "shortLabel": "% Fq. card. max. th.",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Douleur thoracique",
+          "type": "checkbox",
+          "shortLabel": "Douleur thoracique",
+          "grows": true,
+          "span": 3,
+          "readonly": false,
+          "options": {
+            "Douleur thoracique": "Douleur thoracique"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Troubles du rythme à l'effort",
+          "type": "checkbox",
+          "shortLabel": "Troubles du rythme à l'effort",
+          "grows": true,
+          "span": 7,
+          "readonly": false,
+          "options": {
+            "Troubles du rythme à l'effort": "Troubles du rythme à l'effort"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Hypertension à l'effort",
+          "type": "checkbox",
+          "shortLabel": "Hypertension à l'effort",
+          "grows": true,
+          "span": 7,
+          "readonly": false,
+          "options": {
+            "Hypertension à l'effort": "Hypertension à l'effort"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "ECG suspect",
+          "type": "checkbox",
+          "shortLabel": "ECG suspect",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "ECG suspect": "ECG suspect"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Trouble de conduction",
+          "type": "checkbox",
+          "shortLabel": "Conduction",
+          "grows": true,
+          "span": 3,
+          "readonly": false,
+          "options": {
+            "Conduction": "Conduction"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Conclusion du test à l'effort",
+          "type": "dropdown-field",
+          "shortLabel": "Conclusion",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "LEGACY|Test à l'effort maximal, cliniquement, électriquement et rythmologiquement négatif.|1": "Test à l'effort maximal, cliniquement, électriquement et rythmologiquement négatif.",
+            "LEGACY|Test à l'effort sous-mmaximal, cliniquement, électriquement et rythmologiquement négatif.|1": "Test à l'effort sous-mmaximal, cliniquement, électriquement et rythmologiquement négatif."
+          },
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

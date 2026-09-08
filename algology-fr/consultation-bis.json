@@ -1,0 +1,104 @@
+{
+  "form": "Médecine générale/Consultation bis",
+  "id": "62CA42D8-BC89-4A4F-B1CD-99645A8F77C7",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Motifs de contact",
+              "type": "token-field",
+              "shortLabel": "Motifs",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Anamnèse",
+              "type": "text-field",
+              "shortLabel": "Anamnèse",
+              "grows": true,
+              "span": 24,
+              "rowSpan": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Examen clinique",
+              "type": "text-field",
+              "shortLabel": "Ex. clin.",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "HbA1c",
+              "type": "measure-field",
+              "shortLabel": "HbA1c",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Hépatite B HB 13-14 mois",
+              "type": "checkbox",
+              "shortLabel": "Hépatite B HB 13-14 mois",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "Hépatite B HB 13-14 mois": "Hépatite B HB 13-14 mois"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Anti-HBs",
+              "type": "checkbox",
+              "shortLabel": "Anti-HBs",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "Anti-HBs": "Anti-HBs"
+              },
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "form": "injectables/Botox",
+  "id": "8774C8E8-603B-469C-89E7-D37F75CCC910",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "numéro de séance",
+              "type": "number-field",
+              "shortLabel": "numéro de séance",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "date",
+              "type": "date-picker",
+              "shortLabel": "date de traitement",
+              "grows": true,
+              "span": 24,
+              "rowSpan": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "dilution",
+              "type": "dropdown-field",
+              "shortLabel": "toxine et dilution",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "LEGACY|Botox 100 U/ 2ml|1": "Botox 100 U/ 2ml",
+                "LEGACY|Botox 100 U/2,5 ml|1": "Botox 100 U/2,5 ml",
+                "LEGACY|Dysport 500 U/3,3 ml|1": "Dysport 500 U/3,3 ml",
+                "LEGACY|Azzalure 125U/0,63 ml|1": "Azzalure 125U/0,63 ml",
+                "LEGACY|vistabel 50U/1,5 ml|1": "vistabel 50U/1,5 ml"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "rides front",
+              "type": "checkbox",
+              "shortLabel": "rides front",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "rides front": "rides front"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "dose front",
+              "type": "measure-field",
+              "shortLabel": "dose front",
+              "grows": true,
+              "span": 20,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "patte d'oie",
+              "type": "checkbox",
+              "shortLabel": "patte d'oie",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "patte d'oie": "patte d'oie"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "dose patte d'oie",
+              "type": "measure-field",
+              "shortLabel": "dose patte d'oie",
+              "grows": true,
+              "span": 20,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "ride du lion",
+              "type": "checkbox",
+              "shortLabel": "ride du lion",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "ride du lion": "ride du lion"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "dose glabelle",
+              "type": "measure-field",
+              "shortLabel": "dose glabelle",
+              "grows": true,
+              "span": 20,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "bandes plathysmales",
+              "type": "checkbox",
+              "shortLabel": "bandes plathysmales",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "bandes plathysmales": "bandes plathysmales"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "dose bandes platysmales",
+              "type": "measure-field",
+              "shortLabel": "dose bandes platysmales",
+              "grows": true,
+              "span": 20,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "bunny lines",
+              "type": "checkbox",
+              "shortLabel": "bunny lines",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "bunny lines": "bunny lines"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "dose bunny lines",
+              "type": "measure-field",
+              "shortLabel": "dose bunny lines",
+              "grows": true,
+              "span": 20,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "effet indésirable ",
+              "type": "text-field",
+              "shortLabel": "effet indésirable aux injections précédantes",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "note",
+              "type": "text-field",
+              "shortLabel": "note",
+              "grows": true,
+              "span": 24,
+              "rowSpan": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

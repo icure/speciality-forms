@@ -1,0 +1,22 @@
+{
+  "form": "Subformulieren/Vaccin Pneumo23",
+  "id": "6435B955-F941-4B08-B7AA-42D12A79DE32",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Vaccin",
+          "type": "text-field",
+          "shortLabel": "Vac.pneumo23",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

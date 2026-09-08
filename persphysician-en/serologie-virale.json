@@ -1,0 +1,605 @@
+{
+  "form": "Biologie/Sérologie virale",
+  "id": "DF5AF5CF-B2DC-4189-AC81-10EAAD745321",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "HAV IgM (diagnostic)",
+              "type": "checkbox",
+              "shortLabel": "HAV IgM (diagnostic)",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "HAV IgM (diagnostic)": "HAV IgM (diagnostic)"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Rubéole IgM",
+              "type": "checkbox",
+              "shortLabel": "Rubéole IgM",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "Rubéole IgM": "Rubéole IgM"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Parvovirus B19 IgM",
+              "type": "checkbox",
+              "shortLabel": "Parvovirus B19 IgM",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "Parvovirus B19 IgM": "Parvovirus B19 IgM"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "EBV IgM",
+              "type": "checkbox",
+              "shortLabel": "EBV IgM",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "EBV IgM": "EBV IgM"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "HAV IgG (immunité)",
+              "type": "checkbox",
+              "shortLabel": "HAV IgG (immunité)",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "HAV IgG (immunité)": "HAV IgG (immunité)"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Rubéole IgG (Ϙ)",
+              "type": "checkbox",
+              "shortLabel": "Rubéole IgG (Ϙ)",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "Rubéole IgG (Ϙ)": "Rubéole IgG (Ϙ)"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Parvovirus B19 IgG",
+              "type": "checkbox",
+              "shortLabel": "Parvovirus B19 IgG",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "Parvovirus B19 IgG": "Parvovirus B19 IgG"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "EBV IgG",
+              "type": "checkbox",
+              "shortLabel": "EBV IgG",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "EBV IgG": "EBV IgG"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Rubéole IgG (3,7€)",
+              "type": "checkbox",
+              "shortLabel": "Rubéole IgG (3,7€)",
+              "grows": true,
+              "span": 11,
+              "readonly": false,
+              "options": {
+                "Rubéole IgG (3,7€)": "Rubéole IgG (3,7€)"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "MNI test",
+              "type": "checkbox",
+              "shortLabel": "MNI test",
+              "grows": true,
+              "span": 13,
+              "readonly": false,
+              "options": {
+                "MNI test": "MNI test"
+              },
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Antigène HBs",
+              "type": "checkbox",
+              "shortLabel": "Antigène HBs",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "Antigène HBs": "Antigène HBs"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Influenza A",
+              "type": "checkbox",
+              "shortLabel": "Influenza A",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "Influenza A": "Influenza A"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Anti-HBc",
+              "type": "checkbox",
+              "shortLabel": "Anti-HBc",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "Anti-HBc": "Anti-HBc"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Oreillons IgM",
+              "type": "checkbox",
+              "shortLabel": "Oreillons IgM",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "Oreillons IgM": "Oreillons IgM"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Influenza B",
+              "type": "checkbox",
+              "shortLabel": "Influenza B",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "Influenza B": "Influenza B"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "CMV IgM",
+              "type": "checkbox",
+              "shortLabel": "CMV IgM",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "CMV IgM": "CMV IgM"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Anti-HBs",
+              "type": "checkbox",
+              "shortLabel": "Anti-HBs",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "Anti-HBs": "Anti-HBs"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Oreillons IgG",
+              "type": "checkbox",
+              "shortLabel": "Oreillons IgG",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "Oreillons IgG": "Oreillons IgG"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Parainfluenza 1",
+              "type": "checkbox",
+              "shortLabel": "Parainfluenza 1",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "Parainfluenza 1": "Parainfluenza 1"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "CMV IgG",
+              "type": "checkbox",
+              "shortLabel": "CMV IgG",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "CMV IgG": "CMV IgG"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Antigène HBe",
+              "type": "checkbox",
+              "shortLabel": "Antigène HBe",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "Antigène HBe": "Antigène HBe"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Parainfluenza 2",
+              "type": "checkbox",
+              "shortLabel": "Parainfluenza 2",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "Parainfluenza 2": "Parainfluenza 2"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Anti-HBe",
+              "type": "checkbox",
+              "shortLabel": "Anti-HBe",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "Anti-HBe": "Anti-HBe"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Parainfluenza 3",
+              "type": "checkbox",
+              "shortLabel": "Parainfluenza 3",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "Parainfluenza 3": "Parainfluenza 3"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Varicelle IgM",
+              "type": "checkbox",
+              "shortLabel": "Varicelle IgM",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "Varicelle IgM": "Varicelle IgM"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Anti-HIV (1+2)",
+              "type": "checkbox",
+              "shortLabel": "Anti-HIV (1+2)",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "Anti-HIV (1+2)": "Anti-HIV (1+2)"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Anti-HBC IgM",
+              "type": "checkbox",
+              "shortLabel": "Anti-HBC IgM",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "Anti-HBC IgM": "Anti-HBC IgM"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Adénovirus",
+              "type": "checkbox",
+              "shortLabel": "Adénovirus",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "Adénovirus": "Adénovirus"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Varicelle IgG",
+              "type": "checkbox",
+              "shortLabel": "Varicelle IgG",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "Varicelle IgG": "Varicelle IgG"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Combotest (AG+AC)",
+              "type": "checkbox",
+              "shortLabel": "Combotest (AG+AC)",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "Combotest (AG+AC)": "Combotest (AG+AC)"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Entérovirus",
+              "type": "checkbox",
+              "shortLabel": "Entérovirus",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "Entérovirus": "Entérovirus"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Virus resp. syncitial",
+              "type": "checkbox",
+              "shortLabel": "Virus resp. syncitial",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "Virus resp. syncitial": "Virus resp. syncitial"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "ANti-HCV",
+              "type": "checkbox",
+              "shortLabel": "Anti-HCV",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "Anti-HCV": "Anti-HCV"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Rougeole IgM",
+              "type": "checkbox",
+              "shortLabel": "Rougeole IgM",
+              "grows": true,
+              "span": 10,
+              "readonly": false,
+              "options": {
+                "Rougeole IgM": "Rougeole IgM"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Coxsackies B1-B6",
+              "type": "checkbox",
+              "shortLabel": "Coxsackies B1-B6",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Coxsackies B1-B6": "Coxsackies B1-B6"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "HSV IgM, si patient immunodépr.",
+              "type": "checkbox",
+              "shortLabel": "HSV IgM, si p. im.dépr.",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "HSV IgM, si p. im.dépr.": "HSV IgM, si p. im.dépr."
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "PCR HCV qualit.Si anti HCV positif",
+              "type": "checkbox",
+              "shortLabel": "PCR HCV qual. (Si HCV+)",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "PCR HCV qual. (Si HCV+)": "PCR HCV qual. (Si HCV+)"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Rougeole IgG",
+              "type": "checkbox",
+              "shortLabel": "Rougeole IgG",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "Rougeole IgG": "Rougeole IgG"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "HSV IgG, si patient immunodépr.",
+              "type": "checkbox",
+              "shortLabel": "HSV IgG, si p. im.dépr.",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "HSV IgG, si p. im.dépr.": "HSV IgG, si p. im.dépr."
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "HSV IgM (4,5€)",
+              "type": "checkbox",
+              "shortLabel": "HSV IgM (4,5€)",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "HSV IgM (4,5€)": "HSV IgM (4,5€)"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "HSV IgG (4,5€)",
+              "type": "checkbox",
+              "shortLabel": "HSV IgG (4,5€)",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "HSV IgG (4,5€)": "HSV IgG (4,5€)"
+              },
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,277 @@
+{
+  "form": "Biologie/Sérologie bactérienne et parasitaire",
+  "id": "8F7F735B-B046-40B7-96B2-4A21A4952812",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Brucella",
+          "type": "checkbox",
+          "shortLabel": "Brucella",
+          "grows": true,
+          "span": 12,
+          "readonly": false,
+          "options": {
+            "Brucella": "Brucella"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "B.burgdorferi IgM",
+          "type": "checkbox",
+          "shortLabel": "B.burgdorferi IgM",
+          "grows": true,
+          "span": 12,
+          "readonly": false,
+          "options": {
+            "B.burgdorferi IgM": "B.burgdorferi IgM"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "C.pneumoniae IgG",
+          "type": "checkbox",
+          "shortLabel": "C.pneumoniae IgG",
+          "grows": true,
+          "span": 3,
+          "readonly": false,
+          "options": {
+            "C.pneumoniae IgG": "C.pneumoniae IgG"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Salmonella (Widal)",
+          "type": "checkbox",
+          "shortLabel": "Salmonella (Widal)",
+          "grows": true,
+          "span": 10,
+          "readonly": false,
+          "options": {
+            "Salmonella (Widal)": "Salmonella (Widal)"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "B.burgdorferi IgG",
+          "type": "checkbox",
+          "shortLabel": "B.burgdorferi IgG",
+          "grows": true,
+          "span": 11,
+          "readonly": false,
+          "options": {
+            "B.burgdorferi IgG": "B.burgdorferi IgG"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "M.pneumoniae IgM",
+          "type": "checkbox",
+          "shortLabel": "M.pneumoniae IgM",
+          "grows": true,
+          "span": 12,
+          "readonly": false,
+          "options": {
+            "M.pneumoniae IgM": "M.pneumoniae IgM"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Campylobacter jejuni",
+          "type": "checkbox",
+          "shortLabel": "Campylobacter jejuni",
+          "grows": true,
+          "span": 12,
+          "readonly": false,
+          "options": {
+            "Campylobacter jejuni": "Campylobacter jejuni"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "M.pneumoniae IgG",
+          "type": "checkbox",
+          "shortLabel": "M.pneumoniae IgG",
+          "grows": true,
+          "span": 12,
+          "readonly": false,
+          "options": {
+            "M.pneumoniae IgG": "M.pneumoniae IgG"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Yersinia",
+          "type": "checkbox",
+          "shortLabel": "Yersinia",
+          "grows": true,
+          "span": 12,
+          "readonly": false,
+          "options": {
+            "Yersinia": "Yersinia"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Helicobacter pylori",
+          "type": "checkbox",
+          "shortLabel": "Helicobacter pylori",
+          "grows": true,
+          "span": 12,
+          "readonly": false,
+          "options": {
+            "Helicobacter pylori": "Helicobacter pylori"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "FTA",
+          "type": "checkbox",
+          "shortLabel": "FTA",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "options": {
+            "FTA": "FTA"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "TPHA",
+          "type": "checkbox",
+          "shortLabel": "TPHA",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "TPHA": "TPHA"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "VDRL",
+          "type": "checkbox",
+          "shortLabel": "VDRL",
+          "grows": true,
+          "span": 3,
+          "readonly": false,
+          "options": {
+            "VDRL": "VDRL"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Legionella pneumophila",
+          "type": "checkbox",
+          "shortLabel": "Legionella pneumophila",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "Legionella pneumophila": "Legionella pneumophila"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "C.trachomatis IgG",
+          "type": "checkbox",
+          "shortLabel": "C.trachomatis IgG",
+          "grows": true,
+          "span": 12,
+          "readonly": false,
+          "options": {
+            "C.trachomatis IgG": "C.trachomatis IgG"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Fièvre Q",
+          "type": "checkbox",
+          "shortLabel": "Fièvre Q",
+          "grows": true,
+          "span": 12,
+          "readonly": false,
+          "options": {
+            "Fièvre Q": "Fièvre Q"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Rickettsia",
+          "type": "checkbox",
+          "shortLabel": "Rickettsia",
+          "grows": true,
+          "span": 12,
+          "readonly": false,
+          "options": {
+            "Rickettsia": "Rickettsia"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Toxoplasma",
+          "type": "checkbox",
+          "shortLabel": "Toxoplasma",
+          "grows": true,
+          "span": 12,
+          "readonly": false,
+          "options": {
+            "Toxoplasma": "Toxoplasma"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Anti-streptodornase",
+          "type": "checkbox",
+          "shortLabel": "Anti-streptodornase",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "Anti-streptodornase": "Anti-streptodornase"
+          },
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

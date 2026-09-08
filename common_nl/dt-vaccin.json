@@ -1,0 +1,22 @@
+{
+  "form": "Subformulieren/DT-vaccin",
+  "id": "0C5689AB-05E0-48D5-BC0F-8D11F1FDEC18",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Vaccin",
+          "type": "text-field",
+          "shortLabel": "DT-vaccin",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,235 @@
+{
+  "form": "Subformulieren/Arbeidsongeschiktheid",
+  "id": "FFFFFFFF-FFFF-FFFF-FFFF-INCAPACITY00",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "ongeschikt om",
+          "type": "dropdown-field",
+          "shortLabel": "ongeschikt om",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "LEGACY|niet in staat om cursussen assiter|1": "niet in staat om cursussen assiter",
+            "LEGACY|niet in staat om het zwemmen te oefenen|1": "niet in staat om het zwemmen te oefenen",
+            "LEGACY|niet in staat het beoefenen van sport|1": "niet in staat het beoefenen van sport",
+            "LEGACY|niet in staat om het stembureau te komen|1": "niet in staat om het stembureau te komen",
+            "LEGACY|arbeidsongeschikt|1": "arbeidsongeschikt",
+            "LEGACY|ongeschikt om te werken|1": "ongeschikt om te werken",
+            "LEGACY|niet in staat om te reizen|1": "niet in staat om te reizen",
+            "LEGACY|incapable d'assiter aux cours|1": "incapable d'assiter aux cours",
+            "LEGACY|incapable de pratiquer la natation|1": "incapable de pratiquer la natation",
+            "LEGACY|incapable de pratiquer le sport|1": "incapable de pratiquer le sport",
+            "LEGACY|incapable de se rendre au bureau de vote|1": "incapable de se rendre au bureau de vote",
+            "LEGACY|incapable de travaille|1": "incapable de travaille",
+            "LEGACY|incapable de travailler|1": "incapable de travailler",
+            "LEGACY|incapable de voyager|1": "incapable de voyager"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "van",
+          "type": "date-picker",
+          "shortLabel": "van",
+          "grows": true,
+          "span": 7,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "tot",
+          "type": "date-picker",
+          "shortLabel": "tot",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "zich te verplaatsen",
+          "type": "dropdown-field",
+          "shortLabel": "z.t.verpl.",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "LEGACY|autorisée|1": "autorisée",
+            "LEGACY|toegestaan|1": "toegestaan",
+            "LEGACY|verboden|1": "verboden"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "wegens",
+          "type": "dropdown-field",
+          "shortLabel": "wegens",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "LEGACY|ongeval|1": "ongeval",
+            "LEGACY|andere|1": "andere",
+            "LEGACY|medische consultatie|1": "medische consultatie",
+            "LEGACY|ZWANGERSCHAP|1": "ZWANGERSCHAP",
+            "LEGACY|opname|1": "opname",
+            "LEGACY|ziekte|1": "ziekte",
+            "LEGACY|beroepsziekte|1": "beroepsziekte",
+            "LEGACY|familiale redenen|1": "familiale redenen",
+            "LEGACY|medische ontmoeting|1": "medische ontmoeting",
+            "LEGACY|accident|1": "accident",
+            "LEGACY|accident de travail|1": "accident de travail",
+            "LEGACY|autre|1": "autre",
+            "LEGACY|consultation médicale|1": "consultation médicale",
+            "LEGACY|grossesse|1": "grossesse",
+            "LEGACY|hospitalisation|1": "hospitalisation",
+            "LEGACY|maladie|1": "maladie",
+            "LEGACY|maladie professionnelle|1": "maladie professionnelle",
+            "LEGACY|motif familial|1": "motif familial",
+            "LEGACY|rencontre médicale|1": "rencontre médicale"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "suvenu (e)",
+          "type": "date-picker",
+          "shortLabel": "suvenu (e)",
+          "grows": true,
+          "span": 12,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "verlenging",
+          "type": "checkbox",
+          "shortLabel": "verlenging",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "verlenging": "verlenging"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Deeltijdse werkhervatting",
+          "type": "date-picker",
+          "shortLabel": "Deelt. werkhervat.",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "percent",
+          "type": "measure-field",
+          "shortLabel": "met",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "volledige",
+          "type": "date-picker",
+          "shortLabel": "volledige",
+          "grows": true,
+          "span": 9,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "herval",
+          "type": "checkbox",
+          "shortLabel": "herval",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "herval": "herval"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Commentaar",
+          "type": "text-field",
+          "shortLabel": "Commentaar",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Diagnose",
+          "type": "text-field",
+          "shortLabel": "Diagnose",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "EPC-ID",
+          "type": "text-field",
+          "shortLabel": "CBE Bedrijf",
+          "grows": true,
+          "span": 7,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "ID-MEDEX",
+          "type": "text-field",
+          "shortLabel": "Medex pat.",
+          "grows": true,
+          "span": 12,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "78CF4B52-1006-4197-A991-63DD42494020",
+          "type": "action",
+          "shortLabel": "Certificat",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

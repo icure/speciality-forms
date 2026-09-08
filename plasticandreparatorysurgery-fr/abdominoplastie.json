@@ -1,0 +1,862 @@
+{
+  "form": "Pré-op/abdominoplastie",
+  "id": "B2EDF4D7-0E65-43F3-9647-53FACC07E51D",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "motif de consultation ",
+              "type": "text-field",
+              "shortLabel": "motif de consultation ",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "envoi demande prise en charge",
+              "type": "checkbox",
+              "shortLabel": "envoi demande prise en charge",
+              "grows": true,
+              "span": 18,
+              "readonly": false,
+              "options": {
+                "envoi demande prise en charge": "envoi demande prise en charge"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "envoi rapport MT",
+              "type": "checkbox",
+              "shortLabel": "envoi rapport MT",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "envoi rapport MT": "envoi rapport MT"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "abdominoplastie avec transposition de l'ombilic",
+              "type": "checkbox",
+              "shortLabel": "abdominoplastie avec transposition de l'ombilic",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "abdominoplastie avec transposition de l'ombilic": "abdominoplastie avec transposition de l'ombilic"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "dorsalgies",
+              "type": "checkbox",
+              "shortLabel": "dorsalgies",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "dorsalgies": "dorsalgies"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "intertrigo",
+              "type": "checkbox",
+              "shortLabel": "intertrigo",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "intertrigo": "intertrigo"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "mini-abdominoplastie avec descente du nombril",
+              "type": "checkbox",
+              "shortLabel": "mini-abdominoplastie avec descente du nombril",
+              "grows": true,
+              "span": 10,
+              "readonly": false,
+              "options": {
+                "mini-abdominoplastie avec descente du nombril": "mini-abdominoplastie avec descente du nombril"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "cicatrice horizontale sus-pubienne",
+              "type": "checkbox",
+              "shortLabel": "cicatrice horizontale sus-pubienne",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "cicatrice horizontale sus-pubienne": "cicatrice horizontale sus-pubienne"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "relachement cutané",
+              "type": "checkbox",
+              "shortLabel": "relachement cutané",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "relachement cutané": "relachement cutané"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "relachement abdominal",
+              "type": "checkbox",
+              "shortLabel": "relachement abdominal",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "relachement abdominal": "relachement abdominal"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "cicatrice péripubienne en fer à cheval",
+              "type": "checkbox",
+              "shortLabel": "cicatrice péripubienne en fer à cheval",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "cicatrice péripubienne en fer à cheval": "cicatrice péripubienne en fer à cheval"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "cellulite",
+              "type": "checkbox",
+              "shortLabel": "cellulite",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "cellulite": "cellulite"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "difficulté sport",
+              "type": "checkbox",
+              "shortLabel": "difficulté sport",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "difficulté sport": "difficulté sport"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "résection cutanée sus-pubienne simple",
+              "type": "checkbox",
+              "shortLabel": "résection cutanée sus-pubienne simple",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "résection cutanée sus-pubienne simple": "résection cutanée sus-pubienne simple"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "plainte",
+              "type": "text-field",
+              "shortLabel": "autre plainte",
+              "grows": true,
+              "span": 10,
+              "rowSpan": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "plicature de la gaine des droits",
+              "type": "checkbox",
+              "shortLabel": "plicature de la gaine des droits",
+              "grows": true,
+              "span": 9,
+              "rowSpan": 3,
+              "readonly": false,
+              "options": {
+                "plicature de la gaine des droits": "plicature de la gaine des droits"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "plicature xypho-pubienne",
+              "type": "checkbox",
+              "shortLabel": "plicature xypho-pubienne",
+              "grows": true,
+              "span": 5,
+              "rowSpan": 3,
+              "readonly": false,
+              "options": {
+                "plicature xypho-pubienne": "plicature xypho-pubienne"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "plicature sus-ombilicale",
+              "type": "checkbox",
+              "shortLabel": "plicature sus-ombilicale",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "plicature sus-ombilicale": "plicature sus-ombilicale"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "plicature sous-ombilicale",
+              "type": "checkbox",
+              "shortLabel": "plicature sous-ombilicale",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "plicature sous-ombilicale": "plicature sous-ombilicale"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "liposuccion associée",
+              "type": "checkbox",
+              "shortLabel": "liposuccion associée",
+              "grows": true,
+              "span": 18,
+              "readonly": false,
+              "options": {
+                "liposuccion associée": "liposuccion associée"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "épigastre",
+              "type": "checkbox",
+              "shortLabel": "épigastre",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "épigastre": "épigastre"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "hanches",
+              "type": "checkbox",
+              "shortLabel": "hanches",
+              "grows": true,
+              "span": 2,
+              "readonly": false,
+              "options": {
+                "hanches": "hanches"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "hypogastre",
+              "type": "checkbox",
+              "shortLabel": "hypogastre",
+              "grows": true,
+              "span": 21,
+              "readonly": false,
+              "options": {
+                "hypogastre": "hypogastre"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "flancs",
+              "type": "checkbox",
+              "shortLabel": "flancs",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "flancs": "flancs"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "poids",
+              "type": "measure-field",
+              "shortLabel": "poids",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "poids minimum",
+              "type": "measure-field",
+              "shortLabel": "poids minimum",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "poids maximum",
+              "type": "measure-field",
+              "shortLabel": "poids maximum",
+              "grows": true,
+              "span": 15,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "culotte de cheval",
+              "type": "checkbox",
+              "shortLabel": "culotte de cheval",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "culotte de cheval": "culotte de cheval"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "taille",
+              "type": "measure-field",
+              "shortLabel": "taille",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "poids perdu maximum",
+              "type": "measure-field",
+              "shortLabel": "poids perdu maximum",
+              "grows": true,
+              "span": 11,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "face interne des genoux",
+              "type": "checkbox",
+              "shortLabel": "face interne des genoux",
+              "grows": true,
+              "span": 10,
+              "readonly": false,
+              "options": {
+                "face interne des genoux": "face interne des genoux"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "face interne des cuisses",
+              "type": "checkbox",
+              "shortLabel": "face interne des cuisses",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "face interne des cuisses": "face interne des cuisses"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "BMI",
+              "type": "number-field",
+              "shortLabel": "BMI",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "BMI max",
+              "type": "number-field",
+              "shortLabel": "BMI max",
+              "grows": true,
+              "span": 21,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "hernie abdominale",
+              "type": "dropdown-field",
+              "shortLabel": "hernie abdominale associée",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "LEGACY|non|1": "non",
+                "LEGACY|hernie ombilicale|1": "hernie ombilicale",
+                "LEGACY|hernie inguinale|1": "hernie inguinale",
+                "LEGACY|hernie de la ligne blanche sus-ombilicale|1": "hernie de la ligne blanche sus-ombilicale",
+                "LEGACY|hernie de la ligne blanche sous-ombilicale|1": "hernie de la ligne blanche sous-ombilicale"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "peau",
+              "type": "dropdown-field",
+              "shortLabel": "qualité de la peau",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "LEGACY|bonne qualité élastique|1": "bonne qualité élastique",
+                "LEGACY|mauvaise qualité élastique|1": "mauvaise qualité élastique"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "diastasis des muscles droits",
+              "type": "dropdown-field",
+              "shortLabel": "diastasis des muscles droits",
+              "grows": true,
+              "span": 11,
+              "rowSpan": 2,
+              "readonly": false,
+              "options": {
+                "LEGACY|non|1": "non",
+                "LEGACY|1 travers de doigt|1": "1 travers de doigt",
+                "LEGACY|2 travers de doigt|1": "2 travers de doigt"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "traitement proposé",
+              "type": "text-field",
+              "shortLabel": "autre traitement proposé",
+              "grows": true,
+              "span": 13,
+              "rowSpan": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "vergetures",
+              "type": "checkbox",
+              "shortLabel": "vergetures",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "vergetures": "vergetures"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "diastasis sus-ombilical",
+              "type": "checkbox",
+              "shortLabel": "diastasis sus-ombilical",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "diastasis sus-ombilical": "diastasis sus-ombilical"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "irrégularités cutanées",
+              "type": "checkbox",
+              "shortLabel": "irrégularités cutanées",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "irrégularités cutanées": "irrégularités cutanées"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "diastasis sous-ombilical",
+              "type": "checkbox",
+              "shortLabel": "diastasis sous-ombilical",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "diastasis sous-ombilical": "diastasis sous-ombilical"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "diastasis xypho-pubien",
+              "type": "checkbox",
+              "shortLabel": "diastasis xypho-pubien",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "diastasis xypho-pubien": "diastasis xypho-pubien"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": " thrombose",
+              "type": "checkbox",
+              "shortLabel": " thrombose",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                " thrombose": " thrombose"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "infection",
+              "type": "checkbox",
+              "shortLabel": "infection",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "infection": "infection"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "examen clinique",
+              "type": "text-field",
+              "shortLabel": "examen clinique",
+              "grows": true,
+              "span": 10,
+              "rowSpan": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": " phlébite",
+              "type": "checkbox",
+              "shortLabel": " phlébite",
+              "grows": true,
+              "span": 6,
+              "rowSpan": 2,
+              "readonly": false,
+              "options": {
+                " phlébite": " phlébite"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "anomalies cicatricielles",
+              "type": "checkbox",
+              "shortLabel": "anomalies cicatricielles",
+              "grows": true,
+              "span": 8,
+              "rowSpan": 2,
+              "readonly": false,
+              "options": {
+                "anomalies cicatricielles": "anomalies cicatricielles"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "embolie pulmonaire",
+              "type": "checkbox",
+              "shortLabel": "embolie pulmonaire",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "embolie pulmonaire": "embolie pulmonaire"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "saignements",
+              "type": "checkbox",
+              "shortLabel": "saignements",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "saignements": "saignements"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "corrections secondaires",
+              "type": "checkbox",
+              "shortLabel": "corrections secondaires",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "corrections secondaires": "corrections secondaires"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "cicatrice",
+              "type": "text-field",
+              "shortLabel": "présence de cicatrice(s)",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "note",
+              "type": "text-field",
+              "shortLabel": "note",
+              "grows": true,
+              "span": 24,
+              "rowSpan": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Pfannenstiel",
+              "type": "checkbox",
+              "shortLabel": "Pfannenstiel",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Pfannenstiel": "Pfannenstiel"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "laparoscopie",
+              "type": "checkbox",
+              "shortLabel": "laparoscopie",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "laparoscopie": "laparoscopie"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "laparotomie sus-ombilicale",
+              "type": "checkbox",
+              "shortLabel": "laparotomie sus-ombilicale",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "laparotomie sus-ombilicale": "laparotomie sus-ombilicale"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Mac Burney",
+              "type": "checkbox",
+              "shortLabel": "Mac Burney",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Mac Burney": "Mac Burney"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "laparotomie médiane",
+              "type": "checkbox",
+              "shortLabel": "laparotomie médiane",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "laparotomie médiane": "laparotomie médiane"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "laparotomie sous-ombilicale",
+              "type": "checkbox",
+              "shortLabel": "laparotomie sous-ombilicale",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "laparotomie sous-ombilicale": "laparotomie sous-ombilicale"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "cholecystectomie",
+              "type": "checkbox",
+              "shortLabel": "cholecystectomie",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "cholecystectomie": "cholecystectomie"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "ombilicale",
+              "type": "checkbox",
+              "shortLabel": "ombilicale",
+              "grows": true,
+              "span": 18,
+              "readonly": false,
+              "options": {
+                "ombilicale": "ombilicale"
+              },
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "form": "Examens gastro/Examen proctologique",
+  "id": "1C050D8F-4D38-4269-BF8A-EEB0CF8AF285",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Indication",
+          "type": "text-field",
+          "shortLabel": "Indication",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Préparation à l'examen",
+          "type": "dropdown-field",
+          "shortLabel": "Préparation à l'examen",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "LEGACY|A jeûn depuis la veille au soir|1": "A jeûn depuis la veille au soir",
+            "LEGACY|Movicol|1": "Movicol",
+            "LEGACY|Picoprep|1": "Picoprep",
+            "LEGACY|Movicol et Fleet Phospho-Soda|1": "Movicol et Fleet Phospho-Soda",
+            "LEGACY|Picoprep et Fleet Phospho-Soda|1": "Picoprep et Fleet Phospho-Soda"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Matériel",
+          "type": "text-field",
+          "shortLabel": "Matériel",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Examen anal",
+          "type": "text-field",
+          "shortLabel": "Marge anale",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Canal anal",
+          "type": "text-field",
+          "shortLabel": "Canal anal",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Rectoscopie",
+          "type": "text-field",
+          "shortLabel": "Rectum",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Recto-sigmoïdoscopie",
+          "type": "text-field",
+          "shortLabel": "Recto-sigmoïde",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Conclusion",
+          "type": "text-field",
+          "shortLabel": "Conclusion",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Traitement proposé",
+          "type": "text-field",
+          "shortLabel": "Traitement ",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Attitude",
+          "type": "text-field",
+          "shortLabel": "Attitude",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "4E213EFE-186F-460D-91ED-758B951C50B8",
+          "type": "action",
+          "shortLabel": "Protocole",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

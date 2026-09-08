@@ -1,0 +1,159 @@
+{
+  "form": "Orthopédie/Imagerie",
+  "id": "BA037769-8539-44EB-BD9B-596E4444E4D5",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Examen complémentaire RX standard",
+          "type": "checkbox",
+          "shortLabel": "RX standard",
+          "grows": true,
+          "span": 1,
+          "readonly": false,
+          "options": {
+            "RX standard": "RX standard"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Examen complémentaire Arthro Scan",
+          "type": "checkbox",
+          "shortLabel": "Arthro Scan",
+          "grows": true,
+          "span": 10,
+          "readonly": false,
+          "options": {
+            "Arthro Scan": "Arthro Scan"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Goniométrie",
+          "type": "checkbox",
+          "shortLabel": "Goniométrie",
+          "grows": true,
+          "span": 7,
+          "readonly": false,
+          "options": {
+            "Goniométrie": "Goniométrie"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Examen complémentaire RMN",
+          "type": "checkbox",
+          "shortLabel": "RMN",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "RMN": "RMN"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Examen complémentaire CT Scan",
+          "type": "checkbox",
+          "shortLabel": "CT Scan",
+          "grows": true,
+          "span": 1,
+          "readonly": false,
+          "options": {
+            "CT Scan": "CT Scan"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Echo doppler",
+          "type": "checkbox",
+          "shortLabel": "Echo doppler",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "options": {
+            "Echo doppler": "Echo doppler"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Examen complémentaire Echographie",
+          "type": "checkbox",
+          "shortLabel": "Echo",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "options": {
+            "Echo": "Echo"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Scaniométrie",
+          "type": "checkbox",
+          "shortLabel": "Scaniométrie",
+          "grows": true,
+          "span": 7,
+          "readonly": false,
+          "options": {
+            "Scaniométrie": "Scaniométrie"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "RX pieds en charge",
+          "type": "checkbox",
+          "shortLabel": "RX pieds en charge",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "RX pieds en charge": "RX pieds en charge"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Localisations lésions",
+          "type": "token-field",
+          "shortLabel": "Loca. lésions",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "1D2B9896-84CD-4A5C-A6A4-1C0CB8F7FEFE",
+          "type": "action",
+          "shortLabel": "Demande",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

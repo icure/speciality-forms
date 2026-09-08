@@ -1,0 +1,675 @@
+{
+  "form": "Cardiologie/Examen echocardiographique",
+  "id": "4EAB335B-08E2-4302-922F-04A8E4108887",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Diamètre aorte",
+              "type": "measure-field",
+              "shortLabel": "Diam. aorte",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Aspect aorte",
+              "type": "dropdown-field",
+              "shortLabel": "Aspect",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "options": {
+                "LEGACY|dilatée|1": "dilatée",
+                "LEGACY|non dilatée|1": "non dilatée"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Atheromatose",
+              "type": "dropdown-field",
+              "shortLabel": "Atheromatose",
+              "grows": true,
+              "span": 10,
+              "readonly": false,
+              "options": {
+                "LEGACY|0|1": "0",
+                "LEGACY|+|1": "+",
+                "LEGACY|++|1": "++",
+                "LEGACY|+++|1": "+++"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Bi/tri",
+              "type": "dropdown-field",
+              "shortLabel": "Bi/tri",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "LEGACY|bicuspide|1": "bicuspide",
+                "LEGACY|tricuspide|1": "tricuspide"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "IAo",
+              "type": "dropdown-field",
+              "shortLabel": "IAo",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "LEGACY|1|1": "1",
+                "LEGACY|2|1": "2",
+                "LEGACY|3|1": "3",
+                "LEGACY|4|1": "4"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "V max",
+              "type": "measure-field",
+              "shortLabel": "V max",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "VTI IAo",
+              "type": "measure-field",
+              "shortLabel": "VTI IAo",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "R",
+              "type": "measure-field",
+              "shortLabel": "R",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "VA",
+              "type": "measure-field",
+              "shortLabel": "VA",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "ERO",
+              "type": "measure-field",
+              "shortLabel": "ERO",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "VR",
+              "type": "measure-field",
+              "shortLabel": "VR",
+              "grows": true,
+              "span": 18,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "GMax",
+              "type": "measure-field",
+              "shortLabel": "GMax",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "GMoy",
+              "type": "measure-field",
+              "shortLabel": "GMoy",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "AVA",
+              "type": "measure-field",
+              "shortLabel": "AVA",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vitesse maximale du gradient de la valve aortique",
+              "type": "measure-field",
+              "shortLabel": "Vitesse max. grad.",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Dimension oreillette gauche",
+              "type": "measure-field",
+              "shortLabel": "Dimension",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Aspect oreillette gauche",
+              "type": "dropdown-field",
+              "shortLabel": "Aspect",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "options": {
+                "LEGACY|dilatée|1": "dilatée",
+                "LEGACY|non dilatée|1": "non dilatée"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Volume indexé OG",
+              "type": "measure-field",
+              "shortLabel": "VI",
+              "grows": true,
+              "span": 10,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Diamètre télédiastolique",
+              "type": "measure-field",
+              "shortLabel": "Di. télédiastolique",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Epaisseur septum TD",
+              "type": "measure-field",
+              "shortLabel": "Epaisseur septum TD",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Aspect ventricule gauche",
+              "type": "dropdown-field",
+              "shortLabel": "Aspect",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "LEGACY|homogène|1": "homogène",
+                "LEGACY|hétérogène|1": "hétérogène"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Cinétique segmentaire",
+              "type": "dropdown-field",
+              "shortLabel": "Cin. segm.",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "LEGACY|homogène|1": "homogène",
+                "LEGACY|hétérogène|1": "hétérogène"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Diamètre télésystolique",
+              "type": "measure-field",
+              "shortLabel": "Di. télésystolique",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Epaisseur paroi postérieure TD",
+              "type": "measure-field",
+              "shortLabel": "Epaiss. paroi post. TD",
+              "grows": true,
+              "span": 10,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Fraction d'éjection",
+              "type": "dropdown-field",
+              "shortLabel": "Fraction d'éjection",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "options": {
+                "LEGACY|normale|1": "normale",
+                "LEGACY|satisfaisante|1": "satisfaisante",
+                "LEGACY|légèrement altérée|1": "légèrement altérée",
+                "LEGACY|modérément altérée|1": "modérément altérée",
+                "LEGACY|sévèrement altérée|1": "sévèrement altérée"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "subform",
+              "id": "74CAE20B-6A9B-4F6C-8C31-4CC97577A221",
+              "shortLabel": "Segments cardiaques",
+              "forms": {},
+              "span": 24,
+              "rowSpan": 12,
+              "labels": {}
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Aspect valve mitrale",
+              "type": "dropdown-field",
+              "shortLabel": "Aspect",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "LEGACY|normale|1": "normale",
+                "LEGACY|remaniée|1": "remaniée",
+                "LEGACY|calcifiée|1": "calcifiée"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Doppler valve mitrale IP",
+              "type": "dropdown-field",
+              "shortLabel": "Doppler IM",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "LEGACY|E<A|1": "E<A",
+                "LEGACY|E>A|1": "E>A",
+                "LEGACY|E>>A|1": "E>>A",
+                "LEGACY|onde M unique|1": "onde M unique",
+                "LEGACY|E=A|1": "E=A",
+                "LEGACY|NA < arythm.|1": "NA < arythm."
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Aspect valve pulmonaire",
+              "type": "dropdown-field",
+              "shortLabel": "Aspect",
+              "grows": true,
+              "span": 10,
+              "readonly": false,
+              "options": {
+                "LEGACY|remaniée|1": "remaniée",
+                "LEGACY|non remaniée|1": "non remaniée"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Aspect valve tricuspide",
+              "type": "dropdown-field",
+              "shortLabel": "Aspect",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "LEGACY|remaniée|1": "remaniée",
+                "LEGACY|non remaniée|1": "non remaniée"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Doppler valve tricuspide IT",
+              "type": "dropdown-field",
+              "shortLabel": "Doppler IT",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "LEGACY|0|1": "0",
+                "LEGACY|1|1": "1",
+                "LEGACY|2|1": "2",
+                "LEGACY|3|1": "3",
+                "LEGACY|4|1": "4"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Grad OD-VD",
+              "type": "measure-field",
+              "shortLabel": "Grad OD-VD",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Doppler valve pulmonaire IP",
+              "type": "dropdown-field",
+              "shortLabel": "Doppler IP",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "LEGACY|0|1": "0",
+                "LEGACY|1|1": "1",
+                "LEGACY|2|1": "2",
+                "LEGACY|3|1": "3",
+                "LEGACY|4|1": "4"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Diamètre VCI",
+              "type": "measure-field",
+              "shortLabel": "Diamètre VCI",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Niveau de pression OD",
+              "type": "dropdown-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 15,
+              "readonly": false,
+              "options": {
+                "LEGACY|Collapsus > 50%|1": "Collapsus > 50%",
+                "LEGACY|Collapsus < 50%|1": "Collapsus < 50%"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Diamètre ventricule droit",
+              "type": "measure-field",
+              "shortLabel": "Diamètre",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Aspect ventricule droit",
+              "type": "dropdown-field",
+              "shortLabel": "Aspect",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "LEGACY|dilaté|1": "dilaté",
+                "LEGACY|non dilaté|1": "non dilaté"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Aspect oreillette gauche",
+              "type": "dropdown-field",
+              "shortLabel": "Aspect",
+              "grows": true,
+              "span": 10,
+              "readonly": false,
+              "options": {
+                "LEGACY|dilatée|1": "dilatée",
+                "LEGACY|non dilatée|1": "non dilatée"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Péricarde",
+              "type": "dropdown-field",
+              "shortLabel": "Péricarde",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "options": {
+                "LEGACY|libre|1": "libre",
+                "LEGACY|discrète lamelle|1": "discrète lamelle",
+                "LEGACY|épaississement|1": "épaississement"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Sonde de PACE",
+              "type": "checkbox",
+              "shortLabel": "Sonde de PACE",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Sonde de PACE": "Sonde de PACE"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Réseau de",
+              "type": "checkbox",
+              "shortLabel": "Réseau de Chiari",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "Réseau de Chiari": "Réseau de Chiari"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Thromboses",
+              "type": "checkbox",
+              "shortLabel": "Thromboses",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "Thromboses": "Thromboses"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Shunt",
+              "type": "checkbox",
+              "shortLabel": "Shunt",
+              "grows": true,
+              "span": 2,
+              "readonly": false,
+              "options": {
+                "Shunt": "Shunt"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Fonction Vg",
+              "type": "dropdown-field",
+              "shortLabel": "Fonction Vg",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "options": {
+                "LEGACY|Bonne fonction Vg|1": "Bonne fonction Vg",
+                "LEGACY|Altération de fonction Vg\t|1": "Altération de fonction Vg\t"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Hypertrophie Vg",
+              "type": "dropdown-field",
+              "shortLabel": "Hypertrophie Vg",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "options": {
+                "LEGACY|Hypertrophie septale non obstructive|1": "Hypertrophie septale non obstructive",
+                "LEGACY|Hypertrophie Vg concentrique|1": "Hypertrophie Vg concentrique",
+                "LEGACY|pas d'hypertrophie Vg|1": "pas d'hypertrophie Vg"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Pattern mitral",
+              "type": "dropdown-field",
+              "shortLabel": "Pattern mitral",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "LEGACY|normal|1": "normal",
+                "LEGACY|restrictif|1": "restrictif",
+                "LEGACY|trouble de la relaxation|1": "trouble de la relaxation"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Conclusion examen echocardiographique",
+              "type": "text-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 24,
+              "rowSpan": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "93CD30CB-1437-4549-A71C-51E062763B1D",
+              "type": "action",
+              "shortLabel": "Protocole",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "form": "sous-formulaires CRO visage/lipectomie supérieure",
+  "id": "273CF1BB-4650-4687-A047-803E884389A1",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "résection de la SOOF",
+          "type": "checkbox",
+          "shortLabel": "résection de la SOOF",
+          "grows": true,
+          "span": 10,
+          "readonly": false,
+          "options": {
+            "résection de la SOOF": "résection de la SOOF"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "résection de la poche de graisse interne",
+          "type": "checkbox",
+          "shortLabel": "résection de la poche de graisse interne",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "résection de la poche de graisse interne": "résection de la poche de graisse interne"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "diminution de l'organe en rouleau",
+          "type": "checkbox",
+          "shortLabel": "diminution de l'organe en rouleau",
+          "grows": true,
+          "span": 10,
+          "readonly": false,
+          "options": {
+            "diminution de l'organe en rouleau": "diminution de l'organe en rouleau"
+          },
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

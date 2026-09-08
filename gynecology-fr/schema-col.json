@@ -1,0 +1,22 @@
+{
+  "form": "Gynécologie 3.0/Schéma col",
+  "id": "6AFD1608-D437-437F-A447-1129E01D2C69",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Compte-rendu colposcopie",
+          "type": "text-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 11,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

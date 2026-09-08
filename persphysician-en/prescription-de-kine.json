@@ -1,0 +1,486 @@
+{
+  "form": "Sous-formulaires/Prescription de kiné",
+  "id": "AEFED10A-9A72-4B40-981B-1D79ADB05516",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Prescription de kinésithérapie",
+          "type": "checkbox",
+          "shortLabel": "Prescription de kiné",
+          "grows": true,
+          "span": 1,
+          "readonly": false,
+          "options": {
+            "Prescription de kiné": "Prescription de kiné"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Le patient ne peut se déplacer",
+          "type": "checkbox",
+          "shortLabel": "Le patient ne peut se déplacer",
+          "grows": true,
+          "span": 23,
+          "readonly": false,
+          "options": {
+            "Le patient ne peut se déplacer": "Le patient ne peut se déplacer"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Massage",
+          "type": "checkbox",
+          "shortLabel": "Massage",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "Massage": "Massage"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Demande d'avis consultatif kiné",
+          "type": "checkbox",
+          "shortLabel": "Demande d'avis",
+          "grows": true,
+          "span": 1,
+          "readonly": false,
+          "options": {
+            "Demande d'avis": "Demande d'avis"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Demande d'avis",
+          "type": "text-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 16,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Mobilisation",
+          "type": "checkbox",
+          "shortLabel": "Mobilisation",
+          "grows": true,
+          "span": 7,
+          "readonly": false,
+          "options": {
+            "Mobilisation": "Mobilisation"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Genre de séances",
+          "type": "text-field",
+          "shortLabel": "Genre de séances",
+          "grows": true,
+          "span": 15,
+          "rowSpan": 5,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Thermotherapie",
+          "type": "checkbox",
+          "shortLabel": "Thermotherapie",
+          "grows": true,
+          "span": 9,
+          "rowSpan": 5,
+          "readonly": false,
+          "options": {
+            "Thermotherapie": "Thermotherapie"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Electrotherapie",
+          "type": "checkbox",
+          "shortLabel": "Electrotherapie",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "Electrotherapie": "Electrotherapie"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Ultra son",
+          "type": "checkbox",
+          "shortLabel": "Ultra son",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "Ultra son": "Ultra son"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Ondes courtes",
+          "type": "checkbox",
+          "shortLabel": "Ondes courtes",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "Ondes courtes": "Ondes courtes"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Tapotage et gymnastique respiratoire",
+          "type": "checkbox",
+          "shortLabel": "Tapotage et gym. respiratoire",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "Tapotage et gym. respiratoire": "Tapotage et gym. respiratoire"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Rééducation",
+          "type": "checkbox",
+          "shortLabel": "Rééducation",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "Rééducation": "Rééducation"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Fango",
+          "type": "checkbox",
+          "shortLabel": "Fango",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "Fango": "Fango"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Localisation",
+          "type": "text-field",
+          "shortLabel": "Localisation",
+          "grows": true,
+          "span": 15,
+          "rowSpan": 5,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Kiné respiratoire tapotements",
+          "type": "checkbox",
+          "shortLabel": "Kiné respiratoire tapotements",
+          "grows": true,
+          "span": 9,
+          "rowSpan": 5,
+          "readonly": false,
+          "options": {
+            "Kiné respiratoire tapotements": "Kiné respiratoire tapotements"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Drainage lymphatique",
+          "type": "checkbox",
+          "shortLabel": "Drainage lymphatique",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "Drainage lymphatique": "Drainage lymphatique"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Gymnastique",
+          "type": "checkbox",
+          "shortLabel": "Gymnastique",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "Gymnastique": "Gymnastique"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Infra-rouge",
+          "type": "checkbox",
+          "shortLabel": "Infra-rouge",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "Infra-rouge": "Infra-rouge"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Manipulations",
+          "type": "checkbox",
+          "shortLabel": "Manipulations",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "Manipulations": "Manipulations"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Ionisations",
+          "type": "checkbox",
+          "shortLabel": "Ionisations",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "Ionisations": "Ionisations"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Nombre de séances",
+          "type": "number-field",
+          "shortLabel": "Nbre de séances",
+          "grows": true,
+          "span": 3,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Fréquence",
+          "type": "measure-field",
+          "shortLabel": "Fréquence",
+          "grows": true,
+          "span": 10,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Code d'intervention",
+          "type": "text-field",
+          "shortLabel": "Code d'intervention",
+          "grows": true,
+          "span": 11,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Diagnostic",
+          "type": "text-field",
+          "shortLabel": "Diagnostic",
+          "grows": true,
+          "span": 12,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Date intervention",
+          "type": "date-picker",
+          "shortLabel": "Date intervention",
+          "grows": true,
+          "span": 12,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Imagerie kiné",
+          "type": "checkbox",
+          "shortLabel": "Mise à disposition: imagerie",
+          "grows": true,
+          "span": 3,
+          "readonly": false,
+          "options": {
+            "Mise à disposition: imagerie": "Mise à disposition: imagerie"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Biologie kiné",
+          "type": "checkbox",
+          "shortLabel": "Biologie",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "Biologie": "Biologie"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Avis spécialisé kiné",
+          "type": "checkbox",
+          "shortLabel": "Avis spécialisé",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Avis spécialisé": "Avis spécialisé"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Autre avis kiné",
+          "type": "text-field",
+          "shortLabel": "Autre avis",
+          "grows": true,
+          "span": 11,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Evolution pendant tt",
+          "type": "checkbox",
+          "shortLabel": "Je souhairerais connaître l'évolution de la pathologie pendant le traitement",
+          "grows": true,
+          "span": 15,
+          "readonly": false,
+          "options": {
+            "Je souhairerais connaître l'évolution de la pathologie pendant le traitement": "Je souhairerais connaître l'évolution de la pathologie pendant le traitement"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Evolution fin tt",
+          "type": "checkbox",
+          "shortLabel": "à la fin du traitement",
+          "grows": true,
+          "span": 9,
+          "readonly": false,
+          "options": {
+            "à la fin du traitement": "à la fin du traitement"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Communication par courrier",
+          "type": "checkbox",
+          "shortLabel": "Communication par courrier",
+          "grows": true,
+          "span": 3,
+          "readonly": false,
+          "options": {
+            "Communication par courrier": "Communication par courrier"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Communication par téléphone",
+          "type": "checkbox",
+          "shortLabel": "par tél.",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "par tél.": "par tél."
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Communication autre",
+          "type": "text-field",
+          "shortLabel": "autre",
+          "grows": true,
+          "span": 14,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "6BC88DB2-019F-4DE6-BFEB-C2D0E0008842",
+          "type": "action",
+          "shortLabel": "Prescription",
+          "grows": true,
+          "span": 3,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

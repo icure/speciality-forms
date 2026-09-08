@@ -1,0 +1,44 @@
+{
+  "form": "sous-formulaires CRO/Suivi reconstruction",
+  "id": "0E2B10E4-DF6D-4FDB-BBDF-EBB3904ACDFE",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Volume d'expansion",
+          "type": "measure-field",
+          "shortLabel": "Volume d'expansion",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "plainte",
+          "type": "text-field",
+          "shortLabel": "plainte",
+          "grows": true,
+          "span": 19,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "examen clinique",
+          "type": "text-field",
+          "shortLabel": "examen clinique",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "form": "Médecine générale/Dossier Médical",
+  "id": "FFFFFFFF-FFFF-FFFF-FFFF-DOSSMED00000",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Antécedents familiaux",
+              "type": "items-list-field",
+              "shortLabel": "Antécédents familiaux",
+              "grows": true,
+              "span": 13,
+              "rowSpan": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Antécédents médicaux",
+              "type": "items-list-field",
+              "shortLabel": "Antécedents personnels",
+              "grows": true,
+              "span": 11,
+              "rowSpan": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Facteurs de risque",
+              "type": "items-list-field",
+              "shortLabel": "Facteurs de risque",
+              "grows": true,
+              "span": 13,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Allergies",
+              "type": "items-list-field",
+              "shortLabel": "Allergies",
+              "grows": true,
+              "span": 11,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Tabagisme père",
+              "type": "checkbox",
+              "shortLabel": "Tabagisme père",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "options": {
+                "Tabagisme père": "Tabagisme père"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Tabagisme mère",
+              "type": "checkbox",
+              "shortLabel": "Tabagisme mère",
+              "grows": true,
+              "span": 17,
+              "readonly": false,
+              "options": {
+                "Tabagisme mère": "Tabagisme mère"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "7623978B-63FB-4BF3-84A4-98626BC33B65",
+              "type": "action",
+              "shortLabel": "Imprimer",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Groupe sanguin",
+              "type": "dropdown-field",
+              "shortLabel": "GS",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "LEGACY|O|1": "O",
+                "LEGACY|A|1": "A",
+                "LEGACY|B|1": "B",
+                "LEGACY|AB|1": "AB"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Rhésus",
+              "type": "dropdown-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "LEGACY|+|1": "+",
+                "LEGACY|-|1": "-"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Tarif",
+              "type": "dropdown-field",
+              "shortLabel": "Tarif",
+              "grows": true,
+              "span": 16,
+              "readonly": false,
+              "options": {
+                "LEGACY|Tarif 1|1": "Tarif 1",
+                "LEGACY|Tarif 2|1": "Tarif 2",
+                "LEGACY|Tarif 3|1": "Tarif 3"
+              },
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

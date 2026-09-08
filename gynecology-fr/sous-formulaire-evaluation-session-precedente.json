@@ -1,0 +1,44 @@
+{
+  "form": "Epilation définitive SOPRANO/Sous-formulaire évaluation session précédente",
+  "id": "98C74B5F-CC21-4FA9-AF94-15973B585714",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "date traitement",
+          "type": "date-picker",
+          "shortLabel": "date traitement",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Evaluation subjective pilosité",
+          "type": "text-field",
+          "shortLabel": "Evaluation subjective pilosité",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Evaluation objective pilosité",
+          "type": "text-field",
+          "shortLabel": "Evaluation objective pilosité",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

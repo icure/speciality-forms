@@ -1,0 +1,392 @@
+{
+  "form": "Dermatologie/Dépistage",
+  "id": "2278AA2C-B5E4-4FBF-B992-1529D979C526",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Phototype",
+              "type": "dropdown-field",
+              "shortLabel": "Phototype",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "LEGACY|I|1": "I",
+                "LEGACY|II|1": "II",
+                "LEGACY|III|1": "III",
+                "LEGACY|IV|1": "IV"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Antécédent familial de mélanome",
+              "type": "checkbox",
+              "shortLabel": "Antécédent familial de mélanome",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "options": {
+                "Antécédent familial de mélanome": "Antécédent familial de mélanome"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Remarque antécédent familial de mélanome",
+              "type": "text-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 17,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Antécédent personnel de mélanome",
+              "type": "checkbox",
+              "shortLabel": "Antécédent personnel de mélanome",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "options": {
+                "Antécédent personnel de mélanome": "Antécédent personnel de mélanome"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Remarque antécédent personnel de mélanome",
+              "type": "text-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 17,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Séjour prolongé en pays tropical",
+              "type": "checkbox",
+              "shortLabel": "Séjour prolongé en pays tropical",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "options": {
+                "Séjour prolongé en pays tropical": "Séjour prolongé en pays tropical"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Remarque séjour prolongé en pays tropical",
+              "type": "text-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 17,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Exposition régulière",
+              "type": "checkbox",
+              "shortLabel": "Exposition régulière",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "options": {
+                "Exposition régulière": "Exposition régulière"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Remarque exposition régulière",
+              "type": "text-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 17,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Banc solaire au-delà de 100",
+              "type": "checkbox",
+              "shortLabel": "Banc solaire au-delà de 100",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "Banc solaire au-delà de 100": "Banc solaire au-delà de 100"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Banc solaire avant 35 ans",
+              "type": "checkbox",
+              "shortLabel": "Banc solaire avant 35 ans",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "Banc solaire avant 35 ans": "Banc solaire avant 35 ans"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Plus de 10 bancs solaires par an",
+              "type": "checkbox",
+              "shortLabel": "Plus de 10 bancs solaires par an",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "Plus de 10 bancs solaires par an": "Plus de 10 bancs solaires par an"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Banc solaire après 35 ans",
+              "type": "checkbox",
+              "shortLabel": "Banc solaire après 35 ans",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "Banc solaire après 35 ans": "Banc solaire après 35 ans"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Anamnèse",
+              "type": "text-field",
+              "shortLabel": "Anamnèse",
+              "grows": true,
+              "span": 24,
+              "rowSpan": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "subform",
+              "id": "E245C074-1330-44F4-A654-9FCB36EEC53E",
+              "shortLabel": "Examen clinique",
+              "forms": {},
+              "span": 24,
+              "rowSpan": 1,
+              "labels": {}
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 3",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Examen clinique",
+              "type": "text-field",
+              "shortLabel": "Examen clinique autre",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 4",
+          "fields": [
+            {
+              "clazz": "subform",
+              "id": "B7336AD1-D6D5-45E1-A024-12B07C19EEB0",
+              "shortLabel": "Schéma",
+              "forms": {
+                "Dermatologie/Schéma corps homme": {
+                  "form": "Dermatologie/Schéma corps homme",
+                  "id": "EFDB7F19-4520-437B-A90D-8B137630A773",
+                  "sections": [
+                    {
+                      "section": "Main",
+                      "fields": []
+                    }
+                  ]
+                },
+                "Dermatologie/Schéma visage": {
+                  "form": "Dermatologie/Schéma visage",
+                  "id": "DBE1E85D-A5F1-4A7A-AD49-391C91692CB6",
+                  "sections": [
+                    {
+                      "section": "Main",
+                      "fields": []
+                    }
+                  ]
+                }
+              },
+              "span": 24,
+              "rowSpan": 1,
+              "labels": {}
+            },
+            {
+              "clazz": "field",
+              "field": "Dépistage annuel souhaitable",
+              "type": "checkbox",
+              "shortLabel": "Dépistage annuel souhaitable",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "Dépistage annuel souhaitable": "Dépistage annuel souhaitable"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Rassuré sans contrôle prévu sauf demande",
+              "type": "checkbox",
+              "shortLabel": "Rassuré sans contrôle prévu sauf demande",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "Rassuré sans contrôle prévu sauf demande": "Rassuré sans contrôle prévu sauf demande"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Visite de contrôle dans 3 à 6 pour lésion à surveiller",
+              "type": "checkbox",
+              "shortLabel": "Visite de contrôle dans 3 à 6 pour lésion à surveiller",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "Visite de contrôle dans 3 à 6 pour lésion à surveiller": "Visite de contrôle dans 3 à 6 pour lésion à surveiller"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Lésion à biopsier",
+              "type": "checkbox",
+              "shortLabel": "Lésion à biopsier",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "Lésion à biopsier": "Lésion à biopsier"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Identifiant lésion à biopsier",
+              "type": "text-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Lésion à exciser",
+              "type": "checkbox",
+              "shortLabel": "Lésion à exciser",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "Lésion à exciser": "Lésion à exciser"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Identifiant lésion à exciser",
+              "type": "text-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Envoi pour cartographie digitalisée",
+              "type": "checkbox",
+              "shortLabel": "Envoi pour cartographie digitalisée",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "Envoi pour cartographie digitalisée": "Envoi pour cartographie digitalisée"
+              },
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

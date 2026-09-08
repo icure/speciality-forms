@@ -1,0 +1,504 @@
+{
+  "form": "Neurologie Parkinson/Suivi Parkinson",
+  "id": "01312D7C-50E1-467D-919E-509E7EE7B220",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Poids",
+              "type": "measure-field",
+              "shortLabel": "Poids",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Echelle Hoehn and Yahr",
+              "type": "dropdown-field",
+              "shortLabel": "Hoehn and Yahr",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "LEGACY|0: Pas de signes parkinsoniens|1": "0: Pas de signes parkinsoniens",
+                "LEGACY|1: Signes unilatéraux n'entraînant pas de handicap dans la vie quotidienne|1": "1: Signes unilatéraux n'entraînant pas de handicap dans la vie quotidienne",
+                "LEGACY|2: Signes à prédominance unilatérale entraînant un certain handicap|1": "2: Signes à prédominance unilatérale entraînant un certain handicap",
+                "LEGACY|3: Atteinte bilatérale avec une certaine instabilité posturale, malade autonome|1": "3: Atteinte bilatérale avec une certaine instabilité posturale, malade autonome",
+                "LEGACY|4: Handicap sévère, mais possibilités de marche, perte partielle de l'autonomie|1": "4: Handicap sévère, mais possibilités de marche, perte partielle de l'autonomie",
+                "LEGACY|5: Malade en chaise roulante ou alité, non autonome|1": "5: Malade en chaise roulante ou alité, non autonome"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Tension artérielle systolique au repos",
+              "type": "measure-field",
+              "shortLabel": "Repos: TA sys",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Tension artérielle diastolique au repos",
+              "type": "measure-field",
+              "shortLabel": "TA dia",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Rhytme cardiaque au repos",
+              "type": "measure-field",
+              "shortLabel": "RC",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Tension artérielle systolique debout 1 min.",
+              "type": "measure-field",
+              "shortLabel": "Debout 1': TA sys",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Tension artérielle diastolique debout 1 min.",
+              "type": "measure-field",
+              "shortLabel": "TA dia",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Rhytme cardiaque debout 1 min.",
+              "type": "measure-field",
+              "shortLabel": "RC",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Tension artérielle systolique debout 3 min.",
+              "type": "measure-field",
+              "shortLabel": "Debout 3': TA sys",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Tension artérielle diastolique debout 3 min.",
+              "type": "measure-field",
+              "shortLabel": "TA dia",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Rhytme cardiaque debout 3 min.",
+              "type": "measure-field",
+              "shortLabel": "RC",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Tension artérielle systolique debout 5 min.",
+              "type": "measure-field",
+              "shortLabel": "Debout 5': TA sys",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Tension artérielle diastolique debout 5 min.",
+              "type": "measure-field",
+              "shortLabel": "TA dia",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Rhytme cardiaque debout 5 min.",
+              "type": "measure-field",
+              "shortLabel": "RC",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Fluctuations motrices",
+              "type": "dropdown-field",
+              "shortLabel": "Fluctuations motrices",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "LEGACY|oui|1": "oui",
+                "LEGACY|non|1": "non"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Dyskinésies",
+              "type": "dropdown-field",
+              "shortLabel": "Dyskinésies",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "LEGACY|oui|1": "oui",
+                "LEGACY|non|1": "non"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "EEG",
+              "type": "dropdown-field",
+              "shortLabel": "EEG",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "LEGACY|normal|1": "normal",
+                "LEGACY|anormal|1": "anormal"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Commentaire EEG",
+              "type": "text-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "SPECT",
+              "type": "dropdown-field",
+              "shortLabel": "SPECT",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "LEGACY|normal|1": "normal",
+                "LEGACY|anormal|1": "anormal"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Commentaire SPECT",
+              "type": "text-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Bilan neuropsychologique",
+              "type": "dropdown-field",
+              "shortLabel": "Bilan neuropsy.",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "options": {
+                "LEGACY|normal|1": "normal",
+                "LEGACY|anormal|1": "anormal"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Commentaire Bilan neuropsychologique",
+              "type": "text-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Etat Parkinson",
+              "type": "dropdown-field",
+              "shortLabel": "Etat Parkinson",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "options": {
+                "LEGACY|on|1": "on",
+                "LEGACY|off|1": "off"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vomissements",
+              "type": "dropdown-field",
+              "shortLabel": "Vomissements",
+              "grows": true,
+              "span": 15,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Atteintes cognitives",
+              "type": "dropdown-field",
+              "shortLabel": "Atteintes cognitives",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Troubles synphectoriens",
+              "type": "dropdown-field",
+              "shortLabel": "Troubles synphectoriens",
+              "grows": true,
+              "span": 15,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Dépression",
+              "type": "dropdown-field",
+              "shortLabel": "Dépression",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Troubles sexuels",
+              "type": "dropdown-field",
+              "shortLabel": "Troubles sexuels",
+              "grows": true,
+              "span": 15,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Hallucinations",
+              "type": "dropdown-field",
+              "shortLabel": "Hallucinations",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Activité professionnelle",
+              "type": "dropdown-field",
+              "shortLabel": "Activité professionnelle",
+              "grows": true,
+              "span": 15,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Psychose",
+              "type": "dropdown-field",
+              "shortLabel": "Psychose",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Placement en home",
+              "type": "dropdown-field",
+              "shortLabel": "Placement en home",
+              "grows": true,
+              "span": 15,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Trouble du sommeil",
+              "type": "dropdown-field",
+              "shortLabel": "Trouble du sommeil",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Physiotherapie",
+              "type": "dropdown-field",
+              "shortLabel": "Physiotherapie",
+              "grows": true,
+              "span": 15,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Hypotension orthostatique",
+              "type": "dropdown-field",
+              "shortLabel": "Hypotension orthostatique",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Logopédie",
+              "type": "dropdown-field",
+              "shortLabel": "Logopédie",
+              "grows": true,
+              "span": 15,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Constipation",
+              "type": "dropdown-field",
+              "shortLabel": "Constipation",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Psychothérapie",
+              "type": "dropdown-field",
+              "shortLabel": "Psychothérapie",
+              "grows": true,
+              "span": 15,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Nausées",
+              "type": "dropdown-field",
+              "shortLabel": "Nausées",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Commentaire",
+              "type": "text-field",
+              "shortLabel": "Commentaire",
+              "grows": true,
+              "span": 24,
+              "rowSpan": 6,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

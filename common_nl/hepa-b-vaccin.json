@@ -1,0 +1,22 @@
+{
+  "form": "Subformulieren/Hepa B vaccin +",
+  "id": "8BB995F3-37E4-48A9-9D58-D69A7209C5A3",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Vaccin",
+          "type": "text-field",
+          "shortLabel": "Hepa B vaccin +",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

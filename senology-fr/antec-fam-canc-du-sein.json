@@ -1,0 +1,114 @@
+{
+  "form": "Sénologie/Antéc. fam. canc. du sein",
+  "id": "F41348C3-79B0-4946-804B-74402B30391D",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Antécédents familiaux cancer du sein",
+          "type": "checkbox",
+          "shortLabel": "Ant. f. K sein",
+          "grows": true,
+          "span": 1,
+          "readonly": false,
+          "options": {
+            "Ant. f. K sein": "Ant. f. K sein"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Relation familiale",
+          "type": "text-field",
+          "shortLabel": "Relation familiale",
+          "grows": true,
+          "span": 17,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Age antécédent familial",
+          "type": "measure-field",
+          "shortLabel": "à",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "unilatéral",
+          "type": "checkbox",
+          "shortLabel": "unilatéral",
+          "grows": true,
+          "span": 1,
+          "readonly": false,
+          "options": {
+            "unilatéral": "unilatéral"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "bilatéral",
+          "type": "checkbox",
+          "shortLabel": "bilatéral",
+          "grows": true,
+          "span": 3,
+          "readonly": false,
+          "options": {
+            "bilatéral": "bilatéral"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "synchrone",
+          "type": "checkbox",
+          "shortLabel": "synchrone",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "options": {
+            "synchrone": "synchrone"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "asynchrone",
+          "type": "checkbox",
+          "shortLabel": "asynchrone",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "asynchrone": "asynchrone"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Age deuxième antécédent familial",
+          "type": "measure-field",
+          "shortLabel": "et ",
+          "grows": true,
+          "span": 11,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

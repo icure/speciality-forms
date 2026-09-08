@@ -1,0 +1,139 @@
+{
+  "form": "Protocoles de soin/Trajet de soin diabète",
+  "id": "230188ee-3361-d5df-aaac-233b8270a460",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "DMGDu dossier",
+          "type": "date-picker",
+          "shortLabel": "DMG du dossier",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Date de début",
+          "type": "date-picker",
+          "shortLabel": "Date de début du trajet de soin",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Date de fin",
+          "type": "date-picker",
+          "shortLabel": "Date de fin",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Date de contact",
+          "type": "date-picker",
+          "shortLabel": "Date de contact",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Consultation spécialiste",
+          "type": "checkbox",
+          "shortLabel": "Consultation spécialiste",
+          "grows": true,
+          "span": 14,
+          "readonly": false,
+          "options": {
+            "Consultation spécialiste": "Consultation spécialiste"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Session d'éducation",
+          "type": "checkbox",
+          "shortLabel": "Session d'éducation",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "Session d'éducation": "Session d'éducation"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Contact podologue",
+          "type": "checkbox",
+          "shortLabel": "Contact podologue",
+          "grows": true,
+          "span": 14,
+          "readonly": false,
+          "options": {
+            "Contact podologue": "Contact podologue"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Contact Diététicien",
+          "type": "checkbox",
+          "shortLabel": "Contact Diététicien",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "Contact Diététicien": "Contact Diététicien"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Prescription Glucomètre",
+          "type": "checkbox",
+          "shortLabel": "Prescription Glucomètre",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "Prescription Glucomètre": "Prescription Glucomètre"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Prescrition matériel",
+          "type": "checkbox",
+          "shortLabel": "Prescrition matériel",
+          "grows": true,
+          "span": 14,
+          "readonly": false,
+          "options": {
+            "Prescrition matériel": "Prescrition matériel"
+          },
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

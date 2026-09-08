@@ -1,0 +1,639 @@
+{
+  "form": "Gynécologie 3.0/Antécédents",
+  "id": "FFFFFFFF-FFFF-FFFF-FFFF-DOSSMED00000",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Groupe sanguin",
+              "type": "dropdown-field",
+              "shortLabel": "GS",
+              "grows": true,
+              "span": 2,
+              "readonly": false,
+              "options": {
+                "LEGACY|A|1": "A",
+                "LEGACY|B|1": "B",
+                "LEGACY|AB|1": "AB",
+                "LEGACY|O|1": "O"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Rhésus",
+              "type": "dropdown-field",
+              "shortLabel": "Rh",
+              "grows": true,
+              "span": 2,
+              "readonly": false,
+              "options": {
+                "LEGACY|+|1": "+",
+                "LEGACY|-|1": "-"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Gestité",
+              "type": "number-field",
+              "shortLabel": "G",
+              "grows": true,
+              "span": 1,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Parité",
+              "type": "number-field",
+              "shortLabel": "P",
+              "grows": true,
+              "span": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Age primipare",
+              "type": "text-field",
+              "shortLabel": "Age",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Fausse couche",
+              "type": "number-field",
+              "shortLabel": "FC",
+              "grows": true,
+              "span": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Extra-utérine",
+              "type": "number-field",
+              "shortLabel": "EU",
+              "grows": true,
+              "span": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Interruption volontaire de grossesse",
+              "type": "number-field",
+              "shortLabel": "IVG",
+              "grows": true,
+              "span": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Durée allaitement",
+              "type": "measure-field",
+              "shortLabel": "All.",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Taille",
+              "type": "measure-field",
+              "shortLabel": "Taille",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Antécédents familiaux",
+              "type": "token-field",
+              "shortLabel": "Antécédents familiaux",
+              "grows": true,
+              "span": 8,
+              "rowSpan": 4,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Antécédents médicaux",
+              "type": "token-field",
+              "shortLabel": "Antécédents médico-chirurgicaux",
+              "grows": true,
+              "span": 9,
+              "rowSpan": 4,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Antécédents sénologiques",
+              "type": "items-list-field",
+              "shortLabel": "Antécédents sénologiques",
+              "grows": true,
+              "span": 7,
+              "rowSpan": 4,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Vaccin HPV",
+              "type": "checkbox",
+              "shortLabel": "Vaccin HPV",
+              "grows": true,
+              "span": 13,
+              "readonly": false,
+              "options": {
+                "Vaccin HPV": "Vaccin HPV"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Cancer du sein",
+              "type": "checkbox",
+              "shortLabel": "Cancer du sein",
+              "grows": true,
+              "span": 11,
+              "readonly": false,
+              "options": {
+                "Cancer du sein": "Cancer du sein"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Antécédents familiaux cancer du sein",
+              "type": "checkbox",
+              "shortLabel": "Antéc. fam. cancer du sein",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "Antéc. fam. cancer du sein": "Antéc. fam. cancer du sein"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Pathologie de la thyroïde",
+              "type": "checkbox",
+              "shortLabel": "Patho. thyroïde",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Patho. thyroïde": "Patho. thyroïde"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "HTA",
+              "type": "checkbox",
+              "shortLabel": "HTA",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "HTA": "HTA"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Diabète",
+              "type": "checkbox",
+              "shortLabel": "Diabète",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "Diabète": "Diabète"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Leiden",
+              "type": "checkbox",
+              "shortLabel": "Leiden",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "Leiden": "Leiden"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Allergies",
+              "type": "token-field",
+              "shortLabel": "Allergies",
+              "grows": true,
+              "span": 8,
+              "rowSpan": 4,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Facteurs de risque",
+              "type": "items-list-field",
+              "shortLabel": "Facteurs de risque",
+              "grows": true,
+              "span": 9,
+              "rowSpan": 4,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Postit",
+              "type": "text-field",
+              "shortLabel": "Postit",
+              "grows": true,
+              "span": 7,
+              "rowSpan": 4,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 3",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Prise alcool",
+              "type": "checkbox",
+              "shortLabel": "Prise alcool",
+              "grows": true,
+              "span": 13,
+              "readonly": false,
+              "options": {
+                "Prise alcool": "Prise alcool"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Tabac",
+              "type": "checkbox",
+              "shortLabel": "Tabac",
+              "grows": true,
+              "span": 11,
+              "readonly": false,
+              "options": {
+                "Tabac": "Tabac"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Antécédents gynécologiques",
+              "type": "items-list-field",
+              "shortLabel": "Antécédents gynéco-obst",
+              "grows": true,
+              "span": 10,
+              "rowSpan": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 4",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Rubéole",
+              "type": "dropdown-field",
+              "shortLabel": "Rubéole",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "options": {
+                "LEGACY|immunisée|1": "immunisée",
+                "LEGACY|non immunisée|1": "non immunisée",
+                "LEGACY|limite|1": "limite",
+                "LEGACY|virage|1": "virage"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Hépatite B",
+              "type": "dropdown-field",
+              "shortLabel": "Hep B",
+              "grows": true,
+              "span": 17,
+              "readonly": false,
+              "options": {
+                "LEGACY|vacc. pr.|1": "vacc. pr.",
+                "LEGACY|ag négatif|1": "ag négatif",
+                "LEGACY|ag positif|1": "ag positif",
+                "LEGACY|vacc. limite|1": "vacc. limite"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Toxoplasmose",
+              "type": "dropdown-field",
+              "shortLabel": "Toxo",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "options": {
+                "LEGACY|immunisée|1": "immunisée",
+                "LEGACY|non immunisée|1": "non immunisée",
+                "LEGACY|virage|1": "virage",
+                "LEGACY|limite|1": "limite"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Hépatite C",
+              "type": "dropdown-field",
+              "shortLabel": "Hep C",
+              "grows": true,
+              "span": 17,
+              "readonly": false,
+              "options": {
+                "LEGACY|ac -|1": "ac -",
+                "LEGACY|ac +|1": "ac +"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "HIV",
+              "type": "dropdown-field",
+              "shortLabel": "HIV",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "LEGACY|négatif|1": "négatif",
+                "LEGACY|positif|1": "positif"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "CMV",
+              "type": "dropdown-field",
+              "shortLabel": "CMV",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "LEGACY|immunisée|1": "immunisée",
+                "LEGACY|non immunisée|1": "non immunisée",
+                "LEGACY|limite|1": "limite",
+                "LEGACY|virage|1": "virage"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Antécédent césarienne",
+              "type": "checkbox",
+              "shortLabel": "Ant. césarienne",
+              "grows": true,
+              "span": 16,
+              "readonly": false,
+              "options": {
+                "Ant. césarienne": "Ant. césarienne"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Dysménorrhée",
+              "type": "checkbox",
+              "shortLabel": "Cycle: Dysménorrhée",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Cycle: Dysménorrhée": "Cycle: Dysménorrhée"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Ménorragie",
+              "type": "checkbox",
+              "shortLabel": "Ménorragie",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "Ménorragie": "Ménorragie"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Régularité du cycle",
+              "type": "dropdown-field",
+              "shortLabel": "Cycle",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "LEGACY|régulier|1": "régulier",
+                "LEGACY|irrégulier|1": "irrégulier"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Durée du cycle",
+              "type": "text-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Mise en place de sterilet",
+              "type": "dropdown-field",
+              "shortLabel": "Mise en place de sterilet",
+              "grows": true,
+              "span": 11,
+              "readonly": false,
+              "options": {
+                "LEGACY|Mirena|1": "Mirena",
+                "LEGACY|FlexiT|1": "FlexiT",
+                "LEGACY|NovaT|1": "NovaT",
+                "LEGACY|Multiload|1": "Multiload"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Ménarche",
+              "type": "text-field",
+              "shortLabel": "Ménarche",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Ménopause",
+              "type": "checkbox",
+              "shortLabel": "Ménopause",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "Ménopause": "Ménopause"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Age de la ménopause",
+              "type": "measure-field",
+              "shortLabel": "à l'âge de",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Contraception orale",
+              "type": "text-field",
+              "shortLabel": "Contraception orale",
+              "grows": true,
+              "span": 10,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Infertilité",
+              "type": "checkbox",
+              "shortLabel": "Infertilité",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "Infertilité": "Infertilité"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Traitement Subtitutif Hormonal",
+              "type": "checkbox",
+              "shortLabel": "TSH",
+              "grows": true,
+              "span": 19,
+              "readonly": false,
+              "options": {
+                "TSH": "TSH"
+              },
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

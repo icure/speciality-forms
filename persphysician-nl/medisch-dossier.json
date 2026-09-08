@@ -1,0 +1,379 @@
+{
+  "form": "Huisarts/Medisch Dossier",
+  "id": "FFFFFFFF-FFFF-FFFF-FFFF-DOSSMED00000",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Medische antecedenten",
+              "type": "token-field",
+              "shortLabel": "Medische antecedenten",
+              "grows": true,
+              "span": 12,
+              "rowSpan": 4,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Familiale antecedenten",
+              "type": "token-field",
+              "shortLabel": "Familiale antecedenten",
+              "grows": true,
+              "span": 12,
+              "rowSpan": 4,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Conization",
+              "type": "checkbox",
+              "shortLabel": "Conization",
+              "grows": true,
+              "span": 21,
+              "readonly": false,
+              "options": {
+                "Conization": "Conization"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Darmkanker behandeling",
+              "type": "checkbox",
+              "shortLabel": "Tt K Colon",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "Tt K Colon": "Tt K Colon"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Chirurgische antecedenten",
+              "type": "token-field",
+              "shortLabel": "Chirurgische antecedenten",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Type I diabetes",
+              "type": "checkbox",
+              "shortLabel": "Type I diabetes",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "options": {
+                "Type I diabetes": "Type I diabetes"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Type II diabetes",
+              "type": "checkbox",
+              "shortLabel": "Type II diabetes",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Type II diabetes": "Type II diabetes"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Intoleranties",
+              "type": "token-field",
+              "shortLabel": "Intoleranties",
+              "grows": true,
+              "span": 11,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Geneesmiddelenallergieën",
+              "type": "token-field",
+              "shortLabel": "Geneesmiddelenallergieën",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Allergieën",
+              "type": "token-field",
+              "shortLabel": "Allergieën",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Risicofactoren",
+              "type": "token-field",
+              "shortLabel": "Risicofactoren",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "CV risicoscore",
+              "type": "measure-field",
+              "shortLabel": "Score CV",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Tabak",
+              "type": "measure-field",
+              "shortLabel": "Tabak",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Sociale risicofactoren",
+              "type": "token-field",
+              "shortLabel": "Sociale risicofactoren",
+              "grows": true,
+              "span": 11,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Alcoholgebruik",
+              "type": "text-field",
+              "shortLabel": "Alcoholgebruik",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Orgaandonor",
+              "type": "checkbox",
+              "shortLabel": "Orgaandonor",
+              "grows": true,
+              "span": 1,
+              "readonly": false,
+              "options": {
+                "Orgaandonor": "Orgaandonor"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Weigering bloedtransfusie",
+              "type": "checkbox",
+              "shortLabel": "Weigering bloedtransf.",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Weigering bloedtransf.": "Weigering bloedtransf."
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Weigering van intubatie",
+              "type": "checkbox",
+              "shortLabel": "Weigering intubatie",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "Weigering intubatie": "Weigering intubatie"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Weigering reanimatie",
+              "type": "checkbox",
+              "shortLabel": "Weigering reanim.",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "options": {
+                "Weigering reanim.": "Weigering reanim."
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Verzoek om euthanasie",
+              "type": "checkbox",
+              "shortLabel": "Euthanasie aanvraag",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "Euthanasie aanvraag": "Euthanasie aanvraag"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Weigering te vaccineren",
+              "type": "checkbox",
+              "shortLabel": "Weigering te vaccineren",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Weigering te vaccineren": "Weigering te vaccineren"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Toestemming voor deelname aan klinische proeven",
+              "type": "checkbox",
+              "shortLabel": "Toestemming voor deelname aan klinische proeven",
+              "grows": true,
+              "span": 1,
+              "readonly": false,
+              "options": {
+                "Toestemming voor deelname aan klinische proeven": "Toestemming voor deelname aan klinische proeven"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Toestemming voor het gebruik van gegevens in klinische studies",
+              "type": "checkbox",
+              "shortLabel": "gegevens voor gebruik in klinische proeven",
+              "grows": true,
+              "span": 14,
+              "readonly": false,
+              "options": {
+                "gegevens voor gebruik in klinische proeven": "gegevens voor gebruik in klinische proeven"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Toestemming voor het gebruik van gegevens in klinisch onderzoek",
+              "type": "checkbox",
+              "shortLabel": "in klinische studies",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "options": {
+                "in klinische studies": "in klinische studies"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Bloedgroep",
+              "type": "dropdown-field",
+              "shortLabel": "Bloedgroep",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "LEGACY|O|1": "O",
+                "LEGACY|A|1": "A",
+                "LEGACY|B|1": "B",
+                "LEGACY|AB|1": "AB"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Resus",
+              "type": "dropdown-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "LEGACY|+|1": "+",
+                "LEGACY|-|1": "-"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "7623978B-63FB-4BF3-84A4-98626BC33B65",
+              "type": "action",
+              "shortLabel": "Druk af",
+              "grows": true,
+              "span": 17,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

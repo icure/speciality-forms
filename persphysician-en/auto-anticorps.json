@@ -1,0 +1,151 @@
+{
+  "form": "Biologie/Auto-anticorps",
+  "id": "A5C5E692-0551-4ACE-A3C7-0061DFE43ACE",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Titrage anticorps anti-PN (ANCA)",
+          "type": "checkbox",
+          "shortLabel": "Titrage anticorps anti-PN (ANCA)",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "Titrage anticorps anti-PN (ANCA)": "Titrage anticorps anti-PN (ANCA)"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Iga totales",
+          "type": "checkbox",
+          "shortLabel": "Iga totales",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "Iga totales": "Iga totales"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Anti-pancréas",
+          "type": "checkbox",
+          "shortLabel": "Anti-pancréas",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "Anti-pancréas": "Anti-pancréas"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Identification anticorps anti-PN (ANCA)",
+          "type": "checkbox",
+          "shortLabel": "Identification anticorps anti-PN (ANCA)",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "Identification anticorps anti-PN (ANCA)": "Identification anticorps anti-PN (ANCA)"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "IgA anti-endomysium",
+          "type": "checkbox",
+          "shortLabel": "IgA anti-endomysium",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "IgA anti-endomysium": "IgA anti-endomysium"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Anti-surrénales",
+          "type": "checkbox",
+          "shortLabel": "Anti-surrénales",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "Anti-surrénales": "Anti-surrénales"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "IgG anti-gliadine",
+          "type": "checkbox",
+          "shortLabel": "IgG anti-gliadine",
+          "grows": true,
+          "span": 12,
+          "readonly": false,
+          "options": {
+            "IgG anti-gliadine": "IgG anti-gliadine"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Anti-ovaires",
+          "type": "checkbox",
+          "shortLabel": "Anti-ovaires",
+          "grows": true,
+          "span": 12,
+          "readonly": false,
+          "options": {
+            "Anti-ovaires": "Anti-ovaires"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "IgA anti-gliadine",
+          "type": "checkbox",
+          "shortLabel": "IgA anti-gliadine",
+          "grows": true,
+          "span": 12,
+          "readonly": false,
+          "options": {
+            "IgA anti-gliadine": "IgA anti-gliadine"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Anti-hypophyse",
+          "type": "checkbox",
+          "shortLabel": "Anti-hypophyse",
+          "grows": true,
+          "span": 12,
+          "readonly": false,
+          "options": {
+            "Anti-hypophyse": "Anti-hypophyse"
+          },
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

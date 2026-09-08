@@ -1,0 +1,339 @@
+{
+  "form": "Obsolète/1er consultation injectable visage",
+  "id": "59886B6E-44FB-48D8-930C-14D59C667791",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "intitulé",
+              "type": "text-field",
+              "shortLabel": "intitulé",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "allergies",
+              "type": "items-list-field",
+              "shortLabel": "allergies",
+              "grows": true,
+              "span": 6,
+              "rowSpan": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "antécédents médicaux",
+              "type": "items-list-field",
+              "shortLabel": "antécédents médicaux",
+              "grows": true,
+              "span": 18,
+              "rowSpan": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "examen clinique",
+              "type": "text-field",
+              "shortLabel": "examen clinique",
+              "grows": true,
+              "span": 24,
+              "rowSpan": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "allergie aux oeufs",
+              "type": "checkbox",
+              "shortLabel": "allergie aux oeufs",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "allergie aux oeufs": "allergie aux oeufs"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "tabagisme",
+              "type": "dropdown-field",
+              "shortLabel": "tabagisme",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "LEGACY|non|1": "non",
+                "LEGACY|<10 cig/J|1": "<10 cig/J",
+                "LEGACY|1 pa/J|1": "1 pa/J",
+                "LEGACY|1-2 pa/J|1": "1-2 pa/J",
+                "LEGACY|>2 pa/J|1": ">2 pa/J",
+                "LEGACY|ancien fumeur|1": "ancien fumeur"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "pas d'antécédent médical particulier",
+              "type": "checkbox",
+              "shortLabel": "pas d'antécédent médical particulier",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "pas d'antécédent médical particulier": "pas d'antécédent médical particulier"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "médications",
+              "type": "items-list-field",
+              "shortLabel": "médications",
+              "grows": true,
+              "span": 24,
+              "rowSpan": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "ride du lion",
+              "type": "checkbox",
+              "shortLabel": "ride du lion",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "ride du lion": "ride du lion"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "rides de la patte d'oie",
+              "type": "checkbox",
+              "shortLabel": "rides de la patte d'oie",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "rides de la patte d'oie": "rides de la patte d'oie"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "sillons palpébro-jugaux",
+              "type": "checkbox",
+              "shortLabel": "sillons palpébro-jugaux",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "sillons palpébro-jugaux": "sillons palpébro-jugaux"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "rides front",
+              "type": "checkbox",
+              "shortLabel": "rides front",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "rides front": "rides front"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "rides palpébrales",
+              "type": "checkbox",
+              "shortLabel": "rides palpébrales",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "rides palpébrales": "rides palpébrales"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "rides joues",
+              "type": "checkbox",
+              "shortLabel": "rides joues",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "rides joues": "rides joues"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "bajoues",
+              "type": "checkbox",
+              "shortLabel": "bajoues",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "bajoues": "bajoues"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "sillons naso-géniens",
+              "type": "checkbox",
+              "shortLabel": "sillons naso-géniens",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "sillons naso-géniens": "sillons naso-géniens"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "sillons d'amertume",
+              "type": "checkbox",
+              "shortLabel": "sillons d'amertume",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "sillons d'amertume": "sillons d'amertume"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "rides lèvres",
+              "type": "checkbox",
+              "shortLabel": "rides lèvres",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "rides lèvres": "rides lèvres"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "rides cervicales",
+              "type": "checkbox",
+              "shortLabel": "rides cervicales",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "rides cervicales": "rides cervicales"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "amincissement des lèvres",
+              "type": "checkbox",
+              "shortLabel": "amincissement des lèvres",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "amincissement des lèvres": "amincissement des lèvres"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "plainte",
+              "type": "text-field",
+              "shortLabel": "plainte",
+              "grows": true,
+              "span": 24,
+              "rowSpan": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 3",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "note",
+              "type": "text-field",
+              "shortLabel": "note",
+              "grows": true,
+              "span": 24,
+              "rowSpan": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

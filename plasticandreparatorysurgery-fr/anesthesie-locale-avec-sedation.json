@@ -1,0 +1,53 @@
+{
+  "form": "sous-formulaires entête/anesthésie locale avec sédation",
+  "id": "97144B21-BF97-4320-9D1B-884A8BF71E3B",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "anesthésique",
+          "type": "dropdown-field",
+          "shortLabel": "anesthésique",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "LEGACY|xylocaïne 1% sans adrénaline|1": "xylocaïne 1% sans adrénaline",
+            "LEGACY|xylocaïne 2% sans adrénaline|1": "xylocaïne 2% sans adrénaline",
+            "LEGACY|xylocaïne 1% avec adrénaline|1": "xylocaïne 1% avec adrénaline",
+            "LEGACY|Naropin 2 mg/ml|1": "Naropin 2 mg/ml",
+            "LEGACY|Naropin 10 mg/ml|1": "Naropin 10 mg/ml",
+            "LEGACY|Cistanest 1%|1": "Cistanest 1%",
+            "LEGACY|Cistanest 2%|1": "Cistanest 2%"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "volume injecté",
+          "type": "measure-field",
+          "shortLabel": "volume injecté",
+          "grows": true,
+          "span": 9,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "dilution",
+          "type": "text-field",
+          "shortLabel": "dilution",
+          "grows": true,
+          "span": 15,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

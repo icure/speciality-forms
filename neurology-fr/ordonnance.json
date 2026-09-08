@@ -1,0 +1,22 @@
+{
+  "form": "Médecine générale/Ordonnance",
+  "id": "CA6F66EA-F406-46D9-9E6F-03E0C5CBD008",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Trait. non méd.",
+          "type": "text-field",
+          "shortLabel": "Autre trait.",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

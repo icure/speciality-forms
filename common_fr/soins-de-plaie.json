@@ -1,0 +1,273 @@
+{
+  "form": "Sous-formulaires/Soins de plaie",
+  "id": "6DE82F31-5D4C-41A7-B54B-DAFA00BF30CA",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Localisation",
+              "type": "text-field",
+              "shortLabel": "Localisation",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Plaie avec méchage",
+              "type": "checkbox",
+              "shortLabel": "Plaie avec méchage",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "Plaie avec méchage": "Plaie avec méchage"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Ulcère",
+              "type": "checkbox",
+              "shortLabel": "Ulcère",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "Ulcère": "Ulcère"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Brûlure de 2e deg",
+              "type": "checkbox",
+              "shortLabel": "Brûlure de 2e deg",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "Brûlure de 2e deg": "Brûlure de 2e deg"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Brûlure de 3e deg",
+              "type": "checkbox",
+              "shortLabel": "Brûlure de 3e deg",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "Brûlure de 3e deg": "Brûlure de 3e deg"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Greffe",
+              "type": "checkbox",
+              "shortLabel": "Greffe",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "Greffe": "Greffe"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Extension ulcère/brûlure",
+              "type": "dropdown-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "LEGACY|<60cm2|1": "<60cm2",
+                "LEGACY|>60cm2|1": ">60cm2"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Escarre",
+              "type": "checkbox",
+              "shortLabel": "Escarre",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "Escarre": "Escarre"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Atteint les tendons et les os",
+              "type": "checkbox",
+              "shortLabel": "Atteint les tendons et les os",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "options": {
+                "Atteint les tendons et les os": "Atteint les tendons et les os"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Stomie",
+              "type": "checkbox",
+              "shortLabel": "Stomie",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "Stomie": "Stomie"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Extension escarre",
+              "type": "dropdown-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "LEGACY|<60cm2|1": "<60cm2",
+                "LEGACY|>60cm2|1": ">60cm2"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Débridement (escarre décubitus)",
+              "type": "checkbox",
+              "shortLabel": "Débridement (escarre décubitus)",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "Débridement (escarre décubitus)": "Débridement (escarre décubitus)"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Pansement bioactif",
+              "type": "checkbox",
+              "shortLabel": "Pansement bioactif",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "Pansement bioactif": "Pansement bioactif"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Pansement bioactif à surveiller",
+              "type": "checkbox",
+              "shortLabel": "à surveiller",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "options": {
+                "à surveiller": "à surveiller"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Enlèvement de sutures",
+              "type": "checkbox",
+              "shortLabel": "Enlèvement de sutures",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "options": {
+                "Enlèvement de sutures": "Enlèvement de sutures"
+              },
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Autre soin de plaie",
+              "type": "text-field",
+              "shortLabel": "Autre",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Fréquence",
+              "type": "measure-field",
+              "shortLabel": "Fréquence",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Durée",
+              "type": "measure-field",
+              "shortLabel": "Durée",
+              "grows": true,
+              "span": 16,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

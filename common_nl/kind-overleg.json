@@ -1,0 +1,700 @@
+{
+  "form": "Kindergeneeskunde/Kind overleg",
+  "id": "5A8C65D0-D60D-4D4A-93F8-255974E2E9BC",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Klacht",
+              "type": "text-field",
+              "shortLabel": "Klacht",
+              "grows": true,
+              "span": 24,
+              "rowSpan": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Gewicht",
+              "type": "measure-field",
+              "shortLabel": "Gewicht",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Maat",
+              "type": "measure-field",
+              "shortLabel": "Maat",
+              "grows": true,
+              "span": 11,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Craniale perimeter",
+              "type": "measure-field",
+              "shortLabel": "Craniale perimeter",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "BMI",
+              "type": "number-field",
+              "shortLabel": "BMI",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "T °",
+              "type": "measure-field",
+              "shortLabel": "T °",
+              "grows": true,
+              "span": 19,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Dieet",
+              "type": "text-field",
+              "shortLabel": "PSU Plan.",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Klinisch onderzoek",
+              "type": "text-field",
+              "shortLabel": "Examen. knipperen.",
+              "grows": true,
+              "span": 24,
+              "rowSpan": 6,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Verder onderzoek heeft verzocht",
+              "type": "text-field",
+              "shortLabel": "Examen. Cpl.",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Diagnose",
+              "type": "text-field",
+              "shortLabel": "Diagnose",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Lijn. non med.",
+              "type": "text-field",
+              "shortLabel": "Behandeling",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 3",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Infanrix hexa 2 maanden",
+              "type": "checkbox",
+              "shortLabel": "Infanrix hexa 2 maanden",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Infanrix hexa 2 maanden": "Infanrix hexa 2 maanden"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Prevenar 2 maanden",
+              "type": "checkbox",
+              "shortLabel": "Prevenar 2 maanden",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Prevenar 2 maanden": "Prevenar 2 maanden"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Rotarix 2 maanden",
+              "type": "checkbox",
+              "shortLabel": "Rotarix 2 maanden",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Rotarix 2 maanden": "Rotarix 2 maanden"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "ROTATEQ 2 maanden",
+              "type": "checkbox",
+              "shortLabel": "ROTATEQ 2 maanden",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "ROTATEQ 2 maanden": "ROTATEQ 2 maanden"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "BCG",
+              "type": "checkbox",
+              "shortLabel": "BCG",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "BCG": "BCG"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vaccint Tetravac",
+              "type": "checkbox",
+              "shortLabel": "Vaccint Tetravac",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Vaccint Tetravac": "Vaccint Tetravac"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Infanrix hexa 3 maanden",
+              "type": "checkbox",
+              "shortLabel": "Infanrix hexa 3 maanden",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "Infanrix hexa 3 maanden": "Infanrix hexa 3 maanden"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Rotarix 3 maanden",
+              "type": "checkbox",
+              "shortLabel": "Rotarix 3 maanden",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "Rotarix 3 maanden": "Rotarix 3 maanden"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "ROTATEQ 3 maanden",
+              "type": "checkbox",
+              "shortLabel": "ROTATEQ 3 maanden",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "ROTATEQ 3 maanden": "ROTATEQ 3 maanden"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "MMR 11-12 jaar",
+              "type": "checkbox",
+              "shortLabel": "MMR 11-12 jaar",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "MMR 11-12 jaar": "MMR 11-12 jaar"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Infanrix hexa 4 maanden",
+              "type": "checkbox",
+              "shortLabel": "Infanrix hexa 4 maanden",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "Infanrix hexa 4 maanden": "Infanrix hexa 4 maanden"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Prevenar 4 maanden",
+              "type": "checkbox",
+              "shortLabel": "Prevenar 4 maanden",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "Prevenar 4 maanden": "Prevenar 4 maanden"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "ROTATEQ 4 maanden",
+              "type": "checkbox",
+              "shortLabel": "ROTATEQ 4 maanden",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "ROTATEQ 4 maanden": "ROTATEQ 4 maanden"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Boostrix vaccin",
+              "type": "checkbox",
+              "shortLabel": "Vac. Boostrix",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "Vac. Boostrix": "Vac. Boostrix"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Prevenar 12 maanden",
+              "type": "checkbox",
+              "shortLabel": "Prevenar 12 maanden",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Prevenar 12 maanden": "Prevenar 12 maanden"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "MMR 12 maanden",
+              "type": "checkbox",
+              "shortLabel": "MMR 12 maanden",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "MMR 12 maanden": "MMR 12 maanden"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Papillomavirus vaccin eerste dosis",
+              "type": "checkbox",
+              "shortLabel": "HPV-vaccin eerste dosis",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "HPV-vaccin eerste dosis": "HPV-vaccin eerste dosis"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Infanrix hexa 13-14 maanden",
+              "type": "checkbox",
+              "shortLabel": "Infanrix hexa 13-14 maanden",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Infanrix hexa 13-14 maanden": "Infanrix hexa 13-14 maanden"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Meningokokken C-vaccin",
+              "type": "checkbox",
+              "shortLabel": "Meningokokken C",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Meningokokken C": "Meningokokken C"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Papillomavirus vaccin 2de dosis",
+              "type": "checkbox",
+              "shortLabel": "HPV-vaccin 2e dosis",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "HPV-vaccin 2e dosis": "HPV-vaccin 2e dosis"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vaccin tegen waterpokken",
+              "type": "checkbox",
+              "shortLabel": "Vac. waterpokken",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Vac. waterpokken": "Vac. waterpokken"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Herinnering kennisgeving varicella vaccin",
+              "type": "checkbox",
+              "shortLabel": "Rpl",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Rpl": "Rpl"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Papillomavirus vaccin 3de dosis",
+              "type": "checkbox",
+              "shortLabel": "HPV-vaccin 3 dosis",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "HPV-vaccin 3 dosis": "HPV-vaccin 3 dosis"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Twinrix vaccin",
+              "type": "checkbox",
+              "shortLabel": "Vac. Twinrix",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Vac. Twinrix": "Vac. Twinrix"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Kennisgeving vaccin herinnering Twinrix",
+              "type": "checkbox",
+              "shortLabel": "Rpl",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Rpl": "Rpl"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Hepatitis A Vaccin",
+              "type": "checkbox",
+              "shortLabel": "Vac. Hep. Een",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Vac. Hep. Een": "Vac. Hep. Een"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Herinnering kennisgeving Hepatitis A vaccin",
+              "type": "checkbox",
+              "shortLabel": "Rpl",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Rpl": "Rpl"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Hepatitis B-vaccin",
+              "type": "checkbox",
+              "shortLabel": "Vac. Hep. B",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Vac. Hep. B": "Vac. Hep. B"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Herinnering kennisgeving hepatitis B-vaccin",
+              "type": "checkbox",
+              "shortLabel": "Rpl",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Rpl": "Rpl"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Poliovaccin",
+              "type": "checkbox",
+              "shortLabel": "Vac. Poliomyelitis",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Vac. Poliomyelitis": "Vac. Poliomyelitis"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Kinkhoestvaccin",
+              "type": "checkbox",
+              "shortLabel": "Vac. Kinkhoest",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Vac. Kinkhoest": "Vac. Kinkhoest"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Difterie",
+              "type": "checkbox",
+              "shortLabel": "Vac. Difterie",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Vac. Difterie": "Vac. Difterie"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Haemophilus vaccin",
+              "type": "checkbox",
+              "shortLabel": "Vac. Haemophilus",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Vac. Haemophilus": "Vac. Haemophilus"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Griepvaccin",
+              "type": "checkbox",
+              "shortLabel": "Vac. Griep",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Vac. Griep": "Vac. Griep"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Herinnering kennisgeving griepvaccin",
+              "type": "checkbox",
+              "shortLabel": "Rpl",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Rpl": "Rpl"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Andere anti-viraal vaccin",
+              "type": "text-field",
+              "shortLabel": "Andere vac. antivirale",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Andere anti-bacterieel vaccin",
+              "type": "text-field",
+              "shortLabel": "Andere vac. antibacteriële.",
+              "grows": true,
+              "span": 17,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Onderzoek door een specialist",
+              "type": "text-field",
+              "shortLabel": "Gevraagde advies",
+              "grows": true,
+              "span": 20,
+              "rowSpan": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "586DDB4D-D8B5-406D-9F79-BC03F8C2699A",
+              "type": "action",
+              "shortLabel": "Lettre",
+              "grows": true,
+              "span": 4,
+              "rowSpan": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,299 @@
+{
+  "form": "Gynécologie 3.0/SF Sage-Femme",
+  "id": "E332B140-13D7-4F52-A2C3-BEB7FA250178",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Age gestationnel",
+              "type": "text-field",
+              "shortLabel": "AG",
+              "grows": true,
+              "span": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Poids",
+              "type": "measure-field",
+              "shortLabel": "Poids",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Différence de poids",
+              "type": "number-field",
+              "shortLabel": "∆ poids",
+              "grows": true,
+              "span": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Tension art. sys.",
+              "type": "measure-field",
+              "shortLabel": "TA",
+              "grows": true,
+              "span": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Tension art. dia.",
+              "type": "measure-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Albumine",
+              "type": "dropdown-field",
+              "shortLabel": "Alb.",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "LEGACY|0|1": "0",
+                "LEGACY|-|1": "-",
+                "LEGACY|+|1": "+",
+                "LEGACY|++|1": "++",
+                "LEGACY|+++|1": "+++"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Mouvement fœtus",
+              "type": "dropdown-field",
+              "shortLabel": "MF",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "LEGACY|+++|1": "+++",
+                "LEGACY|+/+|1": "+/+",
+                "LEGACY|+-|1": "+-",
+                "LEGACY|++|1": "++",
+                "LEGACY|-|1": "-",
+                "LEGACY|+/-|1": "+/-",
+                "LEGACY|+|1": "+"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Rhytme cardiaque fœtus",
+              "type": "text-field",
+              "shortLabel": "RCF",
+              "grows": true,
+              "span": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Hauteur utérine",
+              "type": "measure-field",
+              "shortLabel": "HU",
+              "grows": true,
+              "span": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Plainte",
+              "type": "text-field",
+              "shortLabel": "Plainte",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Col",
+              "type": "dropdown-field",
+              "shortLabel": "Col",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "LEGACY|32mm|1": "32mm",
+                "LEGACY|37mm|1": "37mm",
+                "LEGACY|pap|1": "pap",
+                "LEGACY|long|1": "long",
+                "LEGACY|mi-long|1": "mi-long",
+                "LEGACY|effacé|1": "effacé",
+                "LEGACY|court|1": "court"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Position du col",
+              "type": "dropdown-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "LEGACY|postérieur|1": "postérieur",
+                "LEGACY|médian|1": "médian",
+                "LEGACY|antérieur|1": "antérieur"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Consistance du col",
+              "type": "dropdown-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "LEGACY|dur|1": "dur",
+                "LEGACY|souple|1": "souple",
+                "LEGACY|mou|1": "mou"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Examen clinique",
+              "type": "text-field",
+              "shortLabel": "Ex.clin.",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Etat du col",
+              "type": "dropdown-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 2,
+              "readonly": false,
+              "options": {
+                "LEGACY|fermé|1": "fermé",
+                "LEGACY|dilaté|1": "dilaté"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Dilatation du col",
+              "type": "measure-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Position bébé",
+              "type": "dropdown-field",
+              "shortLabel": "Pos",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "LEGACY|sommet|1": "sommet",
+                "LEGACY|siège|1": "siège",
+                "LEGACY|transverse|1": "transverse"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Engagement bébé",
+              "type": "dropdown-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 2,
+              "readonly": false,
+              "options": {
+                "LEGACY|mobile|1": "mobile",
+                "LEGACY|engagé|1": "engagé"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Examen à effectuer par un spécialiste",
+              "type": "text-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Conclusion",
+              "type": "text-field",
+              "shortLabel": "Ccl",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

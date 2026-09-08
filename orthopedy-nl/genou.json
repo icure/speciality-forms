@@ -1,0 +1,582 @@
+{
+  "form": "Orthopédie FR/Genou",
+  "id": "3AFE58CD-6133-4A03-850C-C7B9ACE31EC6",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Anamnèse",
+              "type": "text-field",
+              "shortLabel": "Anamnèse",
+              "grows": true,
+              "span": 24,
+              "rowSpan": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Latéralité Genou",
+              "type": "dropdown-field",
+              "shortLabel": "Latéralité Genou",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "options": {
+                "LEGACY|gauche|1": "gauche",
+                "LEGACY|droit|1": "droit",
+                "LEGACY|bilatérale|1": "bilatérale"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Confirmation Latéralité Genou",
+              "type": "dropdown-field",
+              "shortLabel": "Confirmation",
+              "grows": true,
+              "span": 15,
+              "readonly": false,
+              "options": {
+                "LEGACY|gauche|1": "gauche",
+                "LEGACY|droit|1": "droit",
+                "LEGACY|bilatérale|1": "bilatérale"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Douleur Genou",
+              "type": "checkbox",
+              "shortLabel": "Douleur",
+              "grows": true,
+              "span": 2,
+              "readonly": false,
+              "options": {
+                "Douleur": "Douleur"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Instabilité Genou",
+              "type": "checkbox",
+              "shortLabel": "Instabilité",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "Instabilité": "Instabilité"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Blocage Genou",
+              "type": "checkbox",
+              "shortLabel": "Blocage",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "options": {
+                "Blocage": "Blocage"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Craquement Genou",
+              "type": "checkbox",
+              "shortLabel": "Craquement",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Craquement": "Craquement"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Gonflement Genou",
+              "type": "checkbox",
+              "shortLabel": "Gonflement",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Gonflement": "Gonflement"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Périmètre de marche",
+              "type": "dropdown-field",
+              "shortLabel": "Périm. de marche",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "options": {
+                "LEGACY|Normal|1": "Normal",
+                "LEGACY|Réduit|1": "Réduit",
+                "LEGACY|Nul|1": "Nul"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Déviation Genou",
+              "type": "dropdown-field",
+              "shortLabel": "Déviation Genou",
+              "grows": true,
+              "span": 15,
+              "readonly": false,
+              "options": {
+                "LEGACY|Aucune|1": "Aucune",
+                "LEGACY|Varus|1": "Varus",
+                "LEGACY|Valgus|1": "Valgus",
+                "LEGACY|Flessum|1": "Flessum",
+                "LEGACY|Recurvatum|1": "Recurvatum"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Examen clinique",
+              "type": "text-field",
+              "shortLabel": "Exam. clinique",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Examen para-clinique",
+              "type": "text-field",
+              "shortLabel": "Exam. para-clin.",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Gravité varus",
+              "type": "dropdown-field",
+              "shortLabel": "Varus",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "LEGACY|+|1": "+",
+                "LEGACY|++|1": "++",
+                "LEGACY|+++|1": "+++"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Déviation Genou Varus",
+              "type": "measure-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Gravité flessum",
+              "type": "dropdown-field",
+              "shortLabel": "Flessum",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "options": {
+                "LEGACY|+|1": "+",
+                "LEGACY|++|1": "++",
+                "LEGACY|+++|1": "+++"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Déviation Genou Flessum",
+              "type": "measure-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Epanchement Genou",
+              "type": "checkbox",
+              "shortLabel": "Epanchement Genou",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "Epanchement Genou": "Epanchement Genou"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Gravité vlgus",
+              "type": "dropdown-field",
+              "shortLabel": "Valgus",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "LEGACY|+|1": "+",
+                "LEGACY|++|1": "++",
+                "LEGACY|+++|1": "+++"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Déviation Genou Valgus",
+              "type": "measure-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Gravité recurvatum",
+              "type": "dropdown-field",
+              "shortLabel": "Recurvatum",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "LEGACY|+|1": "+",
+                "LEGACY|++|1": "++",
+                "LEGACY|+++|1": "+++"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Déviation Genou Recurvatum",
+              "type": "measure-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Examen complémentaire",
+              "type": "text-field",
+              "shortLabel": "Exam. compl.",
+              "grows": true,
+              "span": 21,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "BB49012D-C076-48ED-8A84-6826651499A9",
+              "type": "action",
+              "shortLabel": "Demande",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Examen complémentaire RX standard",
+              "type": "checkbox",
+              "shortLabel": "RX standard",
+              "grows": true,
+              "span": 1,
+              "readonly": false,
+              "options": {
+                "RX standard": "RX standard"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Examen complémentaire Rotule",
+              "type": "checkbox",
+              "shortLabel": "Rotule",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "Rotule": "Rotule"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Examen complémentaire Goniométrie",
+              "type": "checkbox",
+              "shortLabel": "Gonio",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "Gonio": "Gonio"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Examen complémentaire CT Scan",
+              "type": "checkbox",
+              "shortLabel": "CT Scan",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "CT Scan": "CT Scan"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Examen complémentaire Arthro Scan",
+              "type": "checkbox",
+              "shortLabel": "Arthro Scan",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "Arthro Scan": "Arthro Scan"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Examen complémentaire Echographie",
+              "type": "checkbox",
+              "shortLabel": "Echo",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "Echo": "Echo"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Examen complémentaire RMN",
+              "type": "checkbox",
+              "shortLabel": "IRM",
+              "grows": true,
+              "span": 2,
+              "readonly": false,
+              "options": {
+                "IRM": "IRM"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Examen complémentaire Isotopes",
+              "type": "checkbox",
+              "shortLabel": "Isotopes",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "Isotopes": "Isotopes"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Diagnostic",
+              "type": "text-field",
+              "shortLabel": "Diagnostic",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Trait. non méd.",
+              "type": "dropdown-field",
+              "shortLabel": "Traitement",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "LEGACY|Chirurgical|1": "Chirurgical",
+                "LEGACY|Conservateur Kiné|1": "Conservateur Kiné",
+                "LEGACY|Conservateur AINS+Antalg.|1": "Conservateur AINS+Antalg.",
+                "LEGACY|Conservateur Infiltration|1": "Conservateur Infiltration",
+                "LEGACY|Conservateur Ac. HYAL|1": "Conservateur Ac. HYAL",
+                "LEGACY|Conservateur Autre|1": "Conservateur Autre"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Détail Traitement",
+              "type": "text-field",
+              "shortLabel": "Autre",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Ponction Genou",
+              "type": "checkbox",
+              "shortLabel": "Ponction",
+              "grows": true,
+              "span": 1,
+              "readonly": false,
+              "options": {
+                "Ponction": "Ponction"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Quantité Ponction Genou",
+              "type": "measure-field",
+              "shortLabel": "Quantité",
+              "grows": true,
+              "span": 15,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Aspect Ponction Genou",
+              "type": "dropdown-field",
+              "shortLabel": "Aspect",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "LEGACY|Séreux|1": "Séreux",
+                "LEGACY|Sanglant|1": "Sanglant",
+                "LEGACY|Séro-sanglant|1": "Séro-sanglant",
+                "LEGACY|Pastis|1": "Pastis",
+                "LEGACY|Trouble|1": "Trouble"
+              },
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 3",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Intervention proposée",
+              "type": "dropdown-field",
+              "shortLabel": "Interv. prop.",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "LEGACY|Prothèse tri-compartimentale|1": "Prothèse tri-compartimentale",
+                "LEGACY|Prothèse uni-compartimentale (PUC)|1": "Prothèse uni-compartimentale (PUC)",
+                "LEGACY|Arthroscopie pour ménisectomie|1": "Arthroscopie pour ménisectomie",
+                "LEGACY|Arthroscopie pour shaving cartilagineux|1": "Arthroscopie pour shaving cartilagineux",
+                "LEGACY|Plastie LCA sous arthroscopie|1": "Plastie LCA sous arthroscopie",
+                "LEGACY|Prothèse FP|1": "Prothèse FP",
+                "LEGACY|Autre|1": "Autre"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Détail Intervention Proposée",
+              "type": "text-field",
+              "shortLabel": "Autre",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

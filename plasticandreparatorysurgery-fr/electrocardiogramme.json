@@ -1,0 +1,41 @@
+{
+  "form": "sous-formulaires organisation salle d'op/electrocardiogramme",
+  "id": "A2F6313E-7D21-4B85-8B39-DD1C45503EB4",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "  ECG",
+          "type": "dropdown-field",
+          "shortLabel": "  ECG tracé",
+          "grows": true,
+          "span": 15,
+          "readonly": false,
+          "options": {
+            "LEGACY|à faire en ambulatoire|1": "à faire en ambulatoire",
+            "LEGACY|à faire en hospitalisation|1": "à faire en hospitalisation",
+            "LEGACY|fait|1": "fait"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "résultat ECG reçu",
+          "type": "checkbox",
+          "shortLabel": "résultat ECG reçu",
+          "grows": true,
+          "span": 9,
+          "readonly": false,
+          "options": {
+            "résultat ECG reçu": "résultat ECG reçu"
+          },
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

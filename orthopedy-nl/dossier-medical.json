@@ -1,0 +1,340 @@
+{
+  "form": "Médecine générale/Dossier Médical",
+  "id": "FFFFFFFF-FFFF-FFFF-FFFF-DOSSMED00000",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Antécedents familiaux",
+              "type": "token-field",
+              "shortLabel": "Antéc. familiaux",
+              "grows": true,
+              "span": 12,
+              "rowSpan": 8,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Antécédents chirurgicaux",
+              "type": "token-field",
+              "shortLabel": "Chirurgicaux",
+              "grows": true,
+              "span": 12,
+              "rowSpan": 8,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Antécédents médicaux",
+              "type": "token-field",
+              "shortLabel": "Médicaux",
+              "grows": true,
+              "span": 24,
+              "rowSpan": 4,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 3",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Angor",
+              "type": "checkbox",
+              "shortLabel": "Angor",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "Angor": "Angor"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Hypertension artérielle",
+              "type": "checkbox",
+              "shortLabel": "Hypertension artérielle",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "Hypertension artérielle": "Hypertension artérielle"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "TVP",
+              "type": "checkbox",
+              "shortLabel": "TVP",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "TVP": "TVP"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Embolie pulmonaire",
+              "type": "checkbox",
+              "shortLabel": "Embolie pulmonaire",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "Embolie pulmonaire": "Embolie pulmonaire"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Facteurs de risque",
+              "type": "token-field",
+              "shortLabel": "Facteurs de risque",
+              "grows": true,
+              "span": 12,
+              "rowSpan": 4,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Mode de vie",
+              "type": "text-field",
+              "shortLabel": "Mode de vie",
+              "grows": true,
+              "span": 12,
+              "rowSpan": 4,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Sport",
+              "type": "text-field",
+              "shortLabel": "Sport",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Côté dominant",
+              "type": "text-field",
+              "shortLabel": "Côté dominant",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Tabagisme (pq. ans)",
+              "type": "number-field",
+              "shortLabel": "Tabagisme",
+              "grows": true,
+              "span": 17,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Alcoolisme",
+              "type": "dropdown-field",
+              "shortLabel": "Alcoolisme",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "options": {
+                "LEGACY|Néant|1": "Néant",
+                "LEGACY|1 verre/j.|1": "1 verre/j.",
+                "LEGACY|2 verres/j.|1": "2 verres/j.",
+                "LEGACY|3 verres/j.|1": "3 verres/j.",
+                "LEGACY|4 verres/j.|1": "4 verres/j.",
+                "LEGACY|5 verres/j.|1": "5 verres/j.",
+                "LEGACY|10 verres/j.|1": "10 verres/j.",
+                "LEGACY|15 verres/j.|1": "15 verres/j.",
+                "LEGACY|20 verres/j.|1": "20 verres/j.",
+                "LEGACY|+ de 20 verres/j.|1": "+ de 20 verres/j."
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Allergie à l'iode",
+              "type": "checkbox",
+              "shortLabel": "Allergie à l'iode",
+              "grows": true,
+              "span": 19,
+              "readonly": false,
+              "options": {
+                "Allergie à l'iode": "Allergie à l'iode"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Allergie à la pénicilline",
+              "type": "checkbox",
+              "shortLabel": "Allergie à la pénicilline",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "Allergie à la pénicilline": "Allergie à la pénicilline"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Intolérances",
+              "type": "token-field",
+              "shortLabel": "Intolérances",
+              "grows": true,
+              "span": 12,
+              "rowSpan": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Allergies",
+              "type": "token-field",
+              "shortLabel": "Allergies",
+              "grows": true,
+              "span": 12,
+              "rowSpan": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 4",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Groupe sanguin",
+              "type": "dropdown-field",
+              "shortLabel": "Groupe sanguin",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "options": {
+                "LEGACY|O|1": "O",
+                "LEGACY|A|1": "A",
+                "LEGACY|B|1": "B",
+                "LEGACY|AB|1": "AB"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Rhésus",
+              "type": "dropdown-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "LEGACY|+|1": "+",
+                "LEGACY|-|1": "-"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "7623978B-63FB-4BF3-84A4-98626BC33B65",
+              "type": "action",
+              "shortLabel": "Imprimer",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "37CC50FD-9E9F-4A53-AA94-BF0027069815",
+              "type": "action",
+              "shortLabel": "Druk af",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "2C55A335-E6A0-45DC-891A-EF2C639E1A99",
+              "type": "action",
+              "shortLabel": "Print",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

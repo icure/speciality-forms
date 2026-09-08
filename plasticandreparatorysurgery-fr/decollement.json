@@ -1,0 +1,154 @@
+{
+  "form": "sous-formulaires CRO abdomen/décollement",
+  "id": "61FD577A-CB7E-4A51-85C5-CE92B3404C5D",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "décollement cutanéo-graisseux",
+          "type": "dropdown-field",
+          "shortLabel": "décollement cutanéo-graisseux",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "LEGACY|sous-ombilical|1": "sous-ombilical",
+            "LEGACY|xypho-pubien|1": "xypho-pubien",
+            "LEGACY|xypho-pubien selon Lelouarn|1": "xypho-pubien selon Lelouarn"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "subform",
+          "id": "6D1ED069-160D-4F65-B56E-E62209ED50A7",
+          "shortLabel": "sous-formulaires CRO abdomen",
+          "forms": {
+            "sous-formulaires CRO abdomen/désinsertion du nombril": {
+              "form": "sous-formulaires CRO abdomen/désinsertion du nombril",
+              "id": "4AC2DD7B-F053-4193-811B-CA1CCA12BE0C",
+              "sections": [
+                {
+                  "section": "Main",
+                  "fields": [
+                    {
+                      "clazz": "field",
+                      "field": "suture du nombril à l'endroit initial",
+                      "type": "checkbox",
+                      "shortLabel": "suture du nombril à l'endroit initial",
+                      "grows": true,
+                      "span": 13,
+                      "readonly": false,
+                      "options": {
+                        "suture du nombril à l'endroit initial": "suture du nombril à l'endroit initial"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "descente du nombril",
+                      "type": "measure-field",
+                      "shortLabel": "descente du nombril",
+                      "grows": true,
+                      "span": 11,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "désinsertion du nombril",
+                      "type": "checkbox",
+                      "shortLabel": "désinsertion du nombril",
+                      "grows": true,
+                      "span": 13,
+                      "readonly": false,
+                      "options": {
+                        "désinsertion du nombril": "désinsertion du nombril"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "suture du nombril plus caudalement",
+                      "type": "checkbox",
+                      "shortLabel": "suture du nombril plus caudalement",
+                      "grows": true,
+                      "span": 11,
+                      "readonly": false,
+                      "options": {
+                        "suture du nombril plus caudalement": "suture du nombril plus caudalement"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    }
+                  ]
+                }
+              ]
+            },
+            "sous-formulaires CRO abdomen/transposition du nombril": {
+              "form": "sous-formulaires CRO abdomen/transposition du nombril",
+              "id": "C479A1B7-5EC2-4F3D-8B78-DEC5E33D87DA",
+              "sections": [
+                {
+                  "section": "Main",
+                  "fields": [
+                    {
+                      "clazz": "field",
+                      "field": "suture circulaire péri-ombilicale",
+                      "type": "checkbox",
+                      "shortLabel": "suture circulaire péri-ombilicale",
+                      "grows": true,
+                      "span": 24,
+                      "readonly": false,
+                      "options": {
+                        "suture circulaire péri-ombilicale": "suture circulaire péri-ombilicale"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "nombril pédiculé sur la paroi abdominale",
+                      "type": "checkbox",
+                      "shortLabel": "nombril pédiculé sur la paroi abdominale",
+                      "grows": true,
+                      "span": 2,
+                      "readonly": false,
+                      "options": {
+                        "nombril pédiculé sur la paroi abdominale": "nombril pédiculé sur la paroi abdominale"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": " plastie d'élargissement ombilicale",
+                      "type": "checkbox",
+                      "shortLabel": " plastie d'élargissement ombilicale",
+                      "grows": true,
+                      "span": 22,
+                      "readonly": false,
+                      "options": {
+                        " plastie d'élargissement ombilicale": " plastie d'élargissement ombilicale"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "span": 24,
+          "rowSpan": 1,
+          "labels": {}
+        }
+      ]
+    }
+  ]
+}

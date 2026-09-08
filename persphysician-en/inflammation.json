@@ -1,0 +1,137 @@
+{
+  "form": "Biologie/Inflammation",
+  "id": "6C45FBCA-C06A-4742-AB82-096B1D30847E",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "VS",
+          "type": "checkbox",
+          "shortLabel": "VS",
+          "grows": true,
+          "span": 1,
+          "readonly": false,
+          "options": {
+            "VS": "VS"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Fibrinogène",
+          "type": "checkbox",
+          "shortLabel": "Fibrinogène",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "options": {
+            "Fibrinogène": "Fibrinogène"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "RA test",
+          "type": "checkbox",
+          "shortLabel": "RA test",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "RA test": "RA test"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "FAN (rech. titrage)",
+          "type": "checkbox",
+          "shortLabel": "FAN (rech. titrage)",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "FAN (rech. titrage)": "FAN (rech. titrage)"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "AC anti-filaggrine",
+          "type": "checkbox",
+          "shortLabel": "AC anti-filaggrine",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "AC anti-filaggrine": "AC anti-filaggrine"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "CRP",
+          "type": "checkbox",
+          "shortLabel": "CRP",
+          "grows": true,
+          "span": 1,
+          "readonly": false,
+          "options": {
+            "CRP": "CRP"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "ASLO",
+          "type": "checkbox",
+          "shortLabel": "ASLO",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "options": {
+            "ASLO": "ASLO"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Waaler-Rose",
+          "type": "checkbox",
+          "shortLabel": "Waaler-Rose",
+          "grows": true,
+          "span": 12,
+          "readonly": false,
+          "options": {
+            "Waaler-Rose": "Waaler-Rose"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "FAN (identification)",
+          "type": "checkbox",
+          "shortLabel": "FAN (identification)",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "FAN (identification)": "FAN (identification)"
+          },
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

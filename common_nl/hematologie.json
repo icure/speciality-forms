@@ -1,0 +1,221 @@
+{
+  "form": "Biologie/Hematologie",
+  "id": "38052049-A45B-4170-A878-29C44AEC0671",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Hemoglobine",
+          "type": "checkbox",
+          "shortLabel": "Hemoglobine",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "Hemoglobine": "Hemoglobine"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "GR Hematocrit",
+          "type": "checkbox",
+          "shortLabel": "GR Hematocrit",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "GR Hematocrit": "GR Hematocrit"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Witte bloedcellen",
+          "type": "checkbox",
+          "shortLabel": "Witte bloedcellen",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "Witte bloedcellen": "Witte bloedcellen"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Formule",
+          "type": "checkbox",
+          "shortLabel": "Formule",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "Formule": "Formule"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Bloedplaatjes",
+          "type": "checkbox",
+          "shortLabel": "Bloedplaatjes",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "Bloedplaatjes": "Bloedplaatjes"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Reticulocyten",
+          "type": "checkbox",
+          "shortLabel": "Reticulocyten",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "Reticulocyten": "Reticulocyten"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Ijzer",
+          "type": "checkbox",
+          "shortLabel": "Ijzer",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "Ijzer": "Ijzer"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Transferrine",
+          "type": "checkbox",
+          "shortLabel": "Transferrine",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "Transferrine": "Transferrine"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Iron + IBC (Verzadiging)",
+          "type": "checkbox",
+          "shortLabel": "Iron + IBC (Verzadiging)",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "Iron + IBC (Verzadiging)": "Iron + IBC (Verzadiging)"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Ferritine",
+          "type": "checkbox",
+          "shortLabel": "Ferritine",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "Ferritine": "Ferritine"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Vitamine B12",
+          "type": "checkbox",
+          "shortLabel": "Vitamine B12",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "Vitamine B12": "Vitamine B12"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Foliumzuur Ac (serum)",
+          "type": "checkbox",
+          "shortLabel": "Foliumzuur Ac (serum)",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "Foliumzuur Ac (serum)": "Foliumzuur Ac (serum)"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Foliumzuur Ac (érythroc.)",
+          "type": "checkbox",
+          "shortLabel": "Foliumzuur Ac (érythroc.)",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Foliumzuur Ac (érythroc.)": "Foliumzuur Ac (érythroc.)"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Carboxyhemoglobine",
+          "type": "checkbox",
+          "shortLabel": "Carboxyhemoglobine",
+          "grows": true,
+          "span": 10,
+          "readonly": false,
+          "options": {
+            "Carboxyhemoglobine": "Carboxyhemoglobine"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Methemoglobine",
+          "type": "checkbox",
+          "shortLabel": "Methemoglobine",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "Methemoglobine": "Methemoglobine"
+          },
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

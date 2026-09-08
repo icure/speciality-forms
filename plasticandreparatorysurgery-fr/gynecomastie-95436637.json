@@ -1,0 +1,170 @@
+{
+  "form": "sous-formulaires CRO-sein/gynécomastie",
+  "id": "607044E4-DC93-49E3-9726-E24895436637",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "technique chirurgicale",
+              "type": "text-field",
+              "shortLabel": "technique chirurgicale",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "infiltration",
+              "type": "dropdown-field",
+              "shortLabel": "infiltration",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "LEGACY|sérum physilogique avec adrénaline (1L de sérum avec 10 mg d'adrénaline|1": "sérum physilogique avec adrénaline (1L de sérum avec 10 mg d'adrénaline",
+                "LEGACY|sérum physiologique avec naropin et adrénaline ( 1l de sérum avec 200 mg de naropin et 10 mg d'adrénaline|1": "sérum physiologique avec naropin et adrénaline ( 1l de sérum avec 200 mg de naropin et 10 mg d'adrénaline",
+                "LEGACY|sérum physiologique avec xylocaïne adrénalinée (s1 L de sérum avec 1 flapule de xylocaïne 2% avec adrénaline)|1": "sérum physiologique avec xylocaïne adrénalinée (s1 L de sérum avec 1 flapule de xylocaïne 2% avec adrénaline)"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "volume injecté",
+              "type": "measure-field",
+              "shortLabel": "volume injecté",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "liposuccion associée",
+              "type": "checkbox",
+              "shortLabel": "liposuccion associée",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "liposuccion associée": "liposuccion associée"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "volume liposuccé",
+              "type": "measure-field",
+              "shortLabel": "volume liposuccé par sein",
+              "grows": true,
+              "span": 13,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "résection droite",
+              "type": "measure-field",
+              "shortLabel": "résection droite",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "résection gauche",
+              "type": "measure-field",
+              "shortLabel": "résection gauche",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "drainage",
+              "type": "dropdown-field",
+              "shortLabel": "drainage",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "options": {
+                "LEGACY|NON|1": "NON",
+                "LEGACY|lamelle|1": "lamelle",
+                "LEGACY|drain aspiratif de Redon|1": "drain aspiratif de Redon",
+                "LEGACY|drain NON aspiratif|1": "drain NON aspiratif",
+                "LEGACY|drain de Blake|1": "drain de Blake"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "traitement post-op",
+              "type": "items-list-field",
+              "shortLabel": "traitement post-op",
+              "grows": true,
+              "span": 24,
+              "rowSpan": 4,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "histologie",
+              "type": "text-field",
+              "shortLabel": "conclusion ana. path.",
+              "grows": true,
+              "span": 15,
+              "rowSpan": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "note",
+              "type": "text-field",
+              "shortLabel": "note",
+              "grows": true,
+              "span": 9,
+              "rowSpan": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

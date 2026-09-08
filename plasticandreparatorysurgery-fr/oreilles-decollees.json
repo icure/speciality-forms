@@ -1,0 +1,422 @@
+{
+  "form": "Pré-op/oreilles décollées",
+  "id": "C629D6DF-02DC-425D-B2B1-27F5F4E301F3",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "motif de consultation ",
+              "type": "text-field",
+              "shortLabel": "motif de consultation ",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "côté droit",
+              "type": "checkbox",
+              "shortLabel": "côté droit",
+              "grows": true,
+              "span": 2,
+              "readonly": false,
+              "options": {
+                "côté droit": "côté droit"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "côté gauche",
+              "type": "checkbox",
+              "shortLabel": "côté gauche",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "côté gauche": "côté gauche"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "bilatéral",
+              "type": "checkbox",
+              "shortLabel": "bilatéral",
+              "grows": true,
+              "span": 16,
+              "readonly": false,
+              "options": {
+                "bilatéral": "bilatéral"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "plainte",
+              "type": "text-field",
+              "shortLabel": "plainte",
+              "grows": true,
+              "span": 24,
+              "rowSpan": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "défaut de plicature hélix droit",
+              "type": "checkbox",
+              "shortLabel": "défaut de plicature hélix droit",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "défaut de plicature hélix droit": "défaut de plicature hélix droit"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "défaut de plicature hélix gauche",
+              "type": "checkbox",
+              "shortLabel": "défaut de plicature hélix gauche",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "défaut de plicature hélix gauche": "défaut de plicature hélix gauche"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "hypertrophie de conque droite",
+              "type": "checkbox",
+              "shortLabel": "hypertrophie de conque droite",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "hypertrophie de conque droite": "hypertrophie de conque droite"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "hypertrophie de conque gauche",
+              "type": "checkbox",
+              "shortLabel": "hypertrophie de conque gauche",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "hypertrophie de conque gauche": "hypertrophie de conque gauche"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "angle céphalo-conchal droit ouvert",
+              "type": "checkbox",
+              "shortLabel": "angle céphalo-conchal droit ouvert",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "angle céphalo-conchal droit ouvert": "angle céphalo-conchal droit ouvert"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "angle céphalo-conchal gauche ouvert",
+              "type": "checkbox",
+              "shortLabel": "angle céphalo-conchal gauche ouvert",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "angle céphalo-conchal gauche ouvert": "angle céphalo-conchal gauche ouvert"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "examen clinique",
+              "type": "text-field",
+              "shortLabel": "examen clinique",
+              "grows": true,
+              "span": 24,
+              "rowSpan": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 3",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "plicature hélix droit",
+              "type": "checkbox",
+              "shortLabel": "plicature hélix droit",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "plicature hélix droit": "plicature hélix droit"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "plicature hélix gauche",
+              "type": "checkbox",
+              "shortLabel": "plicature hélix gauche",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "plicature hélix gauche": "plicature hélix gauche"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "infection",
+              "type": "checkbox",
+              "shortLabel": "infection",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "infection": "infection"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "chondrite",
+              "type": "checkbox",
+              "shortLabel": "chondrite",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "chondrite": "chondrite"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "résection de conque droite",
+              "type": "checkbox",
+              "shortLabel": "résection de conque droite",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "résection de conque droite": "résection de conque droite"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "résection de conque gauche",
+              "type": "checkbox",
+              "shortLabel": "résection de conque gauche",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "résection de conque gauche": "résection de conque gauche"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "cicatrice chéloïde",
+              "type": "checkbox",
+              "shortLabel": "cicatrice chéloïde",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "cicatrice chéloïde": "cicatrice chéloïde"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "nécrose cutanée",
+              "type": "checkbox",
+              "shortLabel": "nécrose cutanée",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "nécrose cutanée": "nécrose cutanée"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "enfouissement de conque droite",
+              "type": "checkbox",
+              "shortLabel": "enfouissement de conque droite",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "enfouissement de conque droite": "enfouissement de conque droite"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "enfouissement de conque gauche",
+              "type": "checkbox",
+              "shortLabel": "enfouissement de conque gauche",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "enfouissement de conque gauche": "enfouissement de conque gauche"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "trouble de sensibilité du pavillon",
+              "type": "checkbox",
+              "shortLabel": "trouble de sensibilité du pavillon",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "trouble de sensibilité du pavillon": "trouble de sensibilité du pavillon"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "saignement",
+              "type": "checkbox",
+              "shortLabel": "saignement",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "saignement": "saignement"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "plastie du lobule droit",
+              "type": "checkbox",
+              "shortLabel": "plastie du lobule droit",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "plastie du lobule droit": "plastie du lobule droit"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "plastie du lobule gauche",
+              "type": "checkbox",
+              "shortLabel": "plastie du lobule gauche",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "plastie du lobule gauche": "plastie du lobule gauche"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "traitement proposé",
+              "type": "text-field",
+              "shortLabel": "autre traitement proposé",
+              "grows": true,
+              "span": 12,
+              "rowSpan": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "note",
+              "type": "text-field",
+              "shortLabel": "note",
+              "grows": true,
+              "span": 12,
+              "rowSpan": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

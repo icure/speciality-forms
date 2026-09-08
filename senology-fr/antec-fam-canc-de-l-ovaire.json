@@ -1,0 +1,47 @@
+{
+  "form": "Sénologie/Antéc. fam. canc. de l'ovaire",
+  "id": "C9F2F784-0120-474F-927E-B6D8CBE1C146",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Antécédents familiaux cancer de l'ovaire",
+          "type": "checkbox",
+          "shortLabel": "Ant. f. K. de l'ovaire",
+          "grows": true,
+          "span": 3,
+          "readonly": false,
+          "options": {
+            "Ant. f. K. de l'ovaire": "Ant. f. K. de l'ovaire"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Relation familiale",
+          "type": "text-field",
+          "shortLabel": "Relation familiale",
+          "grows": true,
+          "span": 15,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Age antécédent familial",
+          "type": "measure-field",
+          "shortLabel": "à",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

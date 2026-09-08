@@ -1,0 +1,232 @@
+{
+  "form": "Neurologie général/Auto évaluation de l'humeur",
+  "id": "08F0755B-C885-4A57-8CE6-0AC74D555896",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Etes-vous satisfait de votre vie",
+          "type": "checkbox",
+          "shortLabel": "Etes-vous satisfait de votre vie",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "Etes-vous satisfait de votre vie": "Etes-vous satisfait de votre vie"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Avez-vous renoncé à un grand nombre d'activités",
+          "type": "checkbox",
+          "shortLabel": "Avez-vous renoncé à un grand nombre d'activités",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "Avez-vous renoncé à un grand nombre d'activités": "Avez-vous renoncé à un grand nombre d'activités"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Avez-vous le sentiment que votre vie est vide",
+          "type": "checkbox",
+          "shortLabel": "Avez-vous le sentiment que votre vie est vide",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "Avez-vous le sentiment que votre vie est vide": "Avez-vous le sentiment que votre vie est vide"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Vous ennuyez-vous souvent",
+          "type": "checkbox",
+          "shortLabel": "Vous ennuyez-vous souvent",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "Vous ennuyez-vous souvent": "Vous ennuyez-vous souvent"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Etes-vous de bonne humeur la plupart du temps",
+          "type": "checkbox",
+          "shortLabel": "Etes-vous de bonne humeur la plupart du temps",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "Etes-vous de bonne humeur la plupart du temps": "Etes-vous de bonne humeur la plupart du temps"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Avez-vous peur que quelque chose de mauvais vous arrive",
+          "type": "checkbox",
+          "shortLabel": "Avez-vous peur que quelque chose de mauvais vous arrive",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "Avez-vous peur que quelque chose de mauvais vous arrive": "Avez-vous peur que quelque chose de mauvais vous arrive"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Etes-vous heureux la plupart du temps",
+          "type": "checkbox",
+          "shortLabel": "Etes-vous heureux la plupart du temps",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "Etes-vous heureux la plupart du temps": "Etes-vous heureux la plupart du temps"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Avez vous le sentiment d'être désormais faible",
+          "type": "checkbox",
+          "shortLabel": "Avez vous le sentiment d'être désormais faible",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "Avez vous le sentiment d'être désormais faible": "Avez vous le sentiment d'être désormais faible"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Préférez-vous restez seul dans votre chambre plutôt que de sortir",
+          "type": "checkbox",
+          "shortLabel": "Préférez-vous restez seul dans votre chambre plutôt que de sortir",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "Préférez-vous restez seul dans votre chambre plutôt que de sortir": "Préférez-vous restez seul dans votre chambre plutôt que de sortir"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Pensez-vous que votre mémoire est plus mauvaise que celle de la plupart des gens",
+          "type": "checkbox",
+          "shortLabel": "Pensez-vous que votre mémoire est plus mauvaise que celle de la plupart des gens",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "Pensez-vous que votre mémoire est plus mauvaise que celle de la plupart des gens": "Pensez-vous que votre mémoire est plus mauvaise que celle de la plupart des gens"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Pensez-vous qu'il est merveilleux de vivre à notre époque",
+          "type": "checkbox",
+          "shortLabel": "Pensez-vous qu'il est merveilleux de vivre à notre époque",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "Pensez-vous qu'il est merveilleux de vivre à notre époque": "Pensez-vous qu'il est merveilleux de vivre à notre époque"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Vous sentez-vous une personne sans valeur actuellement",
+          "type": "checkbox",
+          "shortLabel": "Vous sentez-vous une personne sans valeur actuellement",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "Vous sentez-vous une personne sans valeur actuellement": "Vous sentez-vous une personne sans valeur actuellement"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Avez-vous beaucoup d'énergie",
+          "type": "checkbox",
+          "shortLabel": "Avez-vous beaucoup d'énergie",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "Avez-vous beaucoup d'énergie": "Avez-vous beaucoup d'énergie"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Pensez-vous que votre situation actuelle est désespérée",
+          "type": "checkbox",
+          "shortLabel": "Pensez-vous que votre situation actuelle est désespérée",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "Pensez-vous que votre situation actuelle est désespérée": "Pensez-vous que votre situation actuelle est désespérée"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Pensez-vous que la situation des autres est meilleure que la vôtre",
+          "type": "checkbox",
+          "shortLabel": "Pensez-vous que la situation des autres est meilleure que la vôtre",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "Pensez-vous que la situation des autres est meilleure que la vôtre": "Pensez-vous que la situation des autres est meilleure que la vôtre"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Score AE de l'humeur",
+          "type": "number-field",
+          "shortLabel": "Score AE de l'humeur",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

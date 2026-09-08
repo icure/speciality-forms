@@ -1,0 +1,55 @@
+{
+  "form": "sous-formulaires consult. pré-op./pré-op générique",
+  "id": "B4A0A537-0FDF-462F-9730-C03C74DA70AE",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "plainte",
+          "type": "text-field",
+          "shortLabel": "plainte",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "examen clinique",
+          "type": "text-field",
+          "shortLabel": "examen clinique",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "traitement proposé",
+          "type": "text-field",
+          "shortLabel": "traitement proposé",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "note",
+          "type": "text-field",
+          "shortLabel": "note",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

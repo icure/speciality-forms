@@ -1,0 +1,290 @@
+{
+  "form": "General/Septoplastie",
+  "id": "0EE8581C-D77A-45AD-B0F6-67BDA0E9473E",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Anamnèse",
+              "type": "text-field",
+              "shortLabel": "Anamnèse",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "obstruction nasale invalidante",
+              "type": "checkbox",
+              "shortLabel": "obstruction nasale invalidante",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "obstruction nasale invalidante": "obstruction nasale invalidante"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "déviation du rail",
+              "type": "checkbox",
+              "shortLabel": "déviation du rail",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "déviation du rail": "déviation du rail"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "déviation antérieure",
+              "type": "checkbox",
+              "shortLabel": "déviation antérieure",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "déviation antérieure": "déviation antérieure"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "éperon vomérien gauche",
+              "type": "checkbox",
+              "shortLabel": "éperon vomérien gauche",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "éperon vomérien gauche": "éperon vomérien gauche"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "éperon vomérien droit",
+              "type": "checkbox",
+              "shortLabel": "éperon vomérien droit",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "éperon vomérien droit": "éperon vomérien droit"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "hypertrophie des cornets",
+              "type": "checkbox",
+              "shortLabel": "hypertrophie des cornets",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "hypertrophie des cornets": "hypertrophie des cornets"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Examens complémentaires",
+              "type": "text-field",
+              "shortLabel": "Examens compl.",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Technique opératoire",
+              "type": "dropdown-field",
+              "shortLabel": "Technique opératoire",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "LEGACY|cottle simple|1": "cottle simple",
+                "LEGACY|éperon vomérien gauche|1": "éperon vomérien gauche",
+                "LEGACY|éperon vomérien droit|1": "éperon vomérien droit",
+                "LEGACY|conchectomie|1": "conchectomie",
+                "LEGACY|ostéotomie du rail|1": "ostéotomie du rail"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "cottle simple",
+              "type": "checkbox",
+              "shortLabel": "cottle simple",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "cottle simple": "cottle simple"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "exérèse éperon vomérien gauche",
+              "type": "checkbox",
+              "shortLabel": "ex. éperon vomérien gauche",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "options": {
+                "ex. éperon vomérien gauche": "ex. éperon vomérien gauche"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "exérèse éperon vomérien droit",
+              "type": "checkbox",
+              "shortLabel": "ex. éperon vomérien droit",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "options": {
+                "ex. éperon vomérien droit": "ex. éperon vomérien droit"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "conchectomie",
+              "type": "checkbox",
+              "shortLabel": "conchectomie",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "conchectomie": "conchectomie"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "ostéotomie du rail",
+              "type": "checkbox",
+              "shortLabel": "ostéotomie du rail",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "ostéotomie du rail": "ostéotomie du rail"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "coblation des cornets",
+              "type": "checkbox",
+              "shortLabel": "coblation des cornets",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "coblation des cornets": "coblation des cornets"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Traitement post op antibiotiques",
+              "type": "checkbox",
+              "shortLabel": "Traitement post op antibiotiques",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "Traitement post op antibiotiques": "Traitement post op antibiotiques"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Traitment post op anti-inflammatoires",
+              "type": "checkbox",
+              "shortLabel": "Traitment post op anti-inflammatoires",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "Traitment post op anti-inflammatoires": "Traitment post op anti-inflammatoires"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Evolution",
+              "type": "text-field",
+              "shortLabel": "Evolution",
+              "grows": true,
+              "span": 24,
+              "rowSpan": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "E7715BF4-B77D-4223-AAA5-24D8A9760C6E",
+              "type": "action",
+              "shortLabel": "Proto Cavell",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

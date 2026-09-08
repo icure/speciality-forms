@@ -1,0 +1,234 @@
+{
+  "form": "Gynécologie 3.0/Note simple",
+  "id": "E88F1E5E-31D2-452D-BB5F-C13F595EE634",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Date de consultation",
+              "type": "date-picker",
+              "shortLabel": "Date de la note",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "auteur de la note",
+              "type": "dropdown-field",
+              "shortLabel": "auteur de la note",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "LEGACY|Dr Nørgaard|1": "Dr Nørgaard",
+                "LEGACY|Laeticia|1": "Laeticia",
+                "LEGACY|Catherine|1": "Catherine",
+                "LEGACY|Dr Ben Youssef|1": "Dr Ben Youssef",
+                "LEGACY|** Spécifier auteur **|1": "** Spécifier auteur **"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "note simple",
+              "type": "text-field",
+              "shortLabel": "note simple",
+              "grows": true,
+              "span": 24,
+              "rowSpan": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "subform",
+              "id": "953CC8CB-1F88-408F-9A4C-90F198EB5E32",
+              "shortLabel": "Ordonnance de suivi",
+              "forms": {
+                "Gynécologie 3.0/Ordonnance de suivi": {
+                  "form": "Gynécologie 3.0/Ordonnance de suivi",
+                  "id": "8731987C-6758-499E-8468-FA64242317CE",
+                  "sections": [
+                    {
+                      "section": "Main",
+                      "fields": []
+                    }
+                  ]
+                }
+              },
+              "span": 24,
+              "rowSpan": 2,
+              "labels": {}
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 3",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "B4F14E94-2A29-418E-8F7A-D2C5262B6B2A",
+              "type": "action",
+              "shortLabel": "6M pap HPV?",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "1D3BDA0A-E479-4573-9F38-91F01964943C",
+              "type": "action",
+              "shortLabel": "6M PAP HPV+",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "7DBC71CD-B6CC-4556-9FBB-155A0762F13E",
+              "type": "action",
+              "shortLabel": "6M PAP HPV -",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "3398FDA0-ABD1-4424-ABB7-4B92E8F2A1D2",
+              "type": "action",
+              "shortLabel": "Colposcopie",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "FB1D0707-C11A-49CF-A468-22FC0343AC64",
+              "type": "action",
+              "shortLabel": "PAP inflammatoire",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "6C4900DC-42F3-4E73-86D4-8D0822072035",
+              "type": "action",
+              "shortLabel": "PAP nl 1an",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "B4F14E94-2A29-418E-8F7A-D2C5262B6B2A",
+              "type": "action",
+              "shortLabel": "UK 6M pap HPV?",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "1D3BDA0A-E479-4573-9F38-91F01964943C",
+              "type": "action",
+              "shortLabel": "UK 6M PAP HPV+",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "7DBC71CD-B6CC-4556-9FBB-155A0762F13E",
+              "type": "action",
+              "shortLabel": "UK 6M PAP HPV -",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "3398FDA0-ABD1-4424-ABB7-4B92E8F2A1D2",
+              "type": "action",
+              "shortLabel": "UK Colposcopie",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "52C316E0-EF3C-4834-BBBD-AF0EDE5A0E63",
+              "type": "action",
+              "shortLabel": "UK PAP inflammatoire",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "24B5494C-B684-4940-B78E-A3816C7E2B2C",
+              "type": "action",
+              "shortLabel": "UK PAP nl 1an",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

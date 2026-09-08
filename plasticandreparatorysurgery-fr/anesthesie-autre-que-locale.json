@@ -1,0 +1,28 @@
+{
+  "form": "sous-formulaires entête/anesthésie autre que locale",
+  "id": "C5638646-60B9-43E4-A1B6-9FFB789CACD9",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "anesthésie",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "LEGACY|anesthésie générale|1": "anesthésie générale",
+            "LEGACY|rachianesthésie|1": "rachianesthésie",
+            "LEGACY|péridurale|1": "péridurale",
+            "LEGACY|plexus|1": "plexus"
+          },
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

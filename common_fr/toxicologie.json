@@ -1,0 +1,179 @@
+{
+  "form": "Biologie/Toxicologie",
+  "id": "B8C17050-3B2F-4B00-8003-B35C0255EB4E",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Ethanol",
+          "type": "checkbox",
+          "shortLabel": "Ethanol",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Ethanol": "Ethanol"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Créatinine",
+          "type": "checkbox",
+          "shortLabel": "Créatinine",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Créatinine": "Créatinine"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Benzodiazépines",
+          "type": "checkbox",
+          "shortLabel": "Benzodiazépines",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Benzodiazépines": "Benzodiazépines"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Méthadone",
+          "type": "checkbox",
+          "shortLabel": "Méthadone",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Méthadone": "Méthadone"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Carboxyhémoglobine",
+          "type": "checkbox",
+          "shortLabel": "Carboxyhémoglobine",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Carboxyhémoglobine": "Carboxyhémoglobine"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Amphétamines",
+          "type": "checkbox",
+          "shortLabel": "Amphétamines",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Amphétamines": "Amphétamines"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Cannabis",
+          "type": "checkbox",
+          "shortLabel": "Cannabis",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Cannabis": "Cannabis"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Opiacés",
+          "type": "checkbox",
+          "shortLabel": "Opiacés",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Opiacés": "Opiacés"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Méthémoglobine",
+          "type": "checkbox",
+          "shortLabel": "Méthémoglobine",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Méthémoglobine": "Méthémoglobine"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Barbituriques",
+          "type": "checkbox",
+          "shortLabel": "Barbituriques",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Barbituriques": "Barbituriques"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Cocaïne",
+          "type": "checkbox",
+          "shortLabel": "Cocaïne",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Cocaïne": "Cocaïne"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Cotinine",
+          "type": "checkbox",
+          "shortLabel": "Cotinine",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Cotinine": "Cotinine"
+          },
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

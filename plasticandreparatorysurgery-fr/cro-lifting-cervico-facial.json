@@ -1,0 +1,954 @@
+{
+  "form": "CRO/CRO lifting cervico-facial",
+  "id": "2166A46C-6EDD-4C06-9B3C-E26C9652DED5",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "intervention chirurgicale réalisée",
+              "type": "text-field",
+              "shortLabel": "intervention chirurgicale réalisée",
+              "grows": true,
+              "span": 20,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "A45607A0-336D-4154-BFD3-21C590795CB6",
+              "type": "action",
+              "shortLabel": "CRO Lift Baker + B4",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "lieu d'intervention",
+              "type": "dropdown-field",
+              "shortLabel": "lieu d'intervention",
+              "grows": true,
+              "span": 10,
+              "readonly": false,
+              "options": {
+                "LEGACY|Clinic135|1": "Clinic135",
+                "LEGACY|Clinique du Parc Léopold|1": "Clinique du Parc Léopold",
+                "LEGACY|Cliniques Saint-Luc |1": "Cliniques Saint-Luc ",
+                "LEGACY|Hôpital de Braine l'Alleud|1": "Hôpital de Braine l'Alleud"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "date opératoire",
+              "type": "date-picker",
+              "shortLabel": "date opératoire",
+              "grows": true,
+              "span": 14,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Opérateur",
+              "type": "text-field",
+              "shortLabel": "Opérateur",
+              "grows": true,
+              "span": 10,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Assistant",
+              "type": "text-field",
+              "shortLabel": "Assistant",
+              "grows": true,
+              "span": 14,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Anesthésiste",
+              "type": "text-field",
+              "shortLabel": "Anesthésiste",
+              "grows": true,
+              "span": 10,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "anesthésie",
+              "type": "dropdown-field",
+              "shortLabel": "anesthésie",
+              "grows": true,
+              "span": 14,
+              "readonly": false,
+              "options": {
+                "LEGACY|anesthésie locale|1": "anesthésie locale",
+                "LEGACY|anesthésie générale|1": "anesthésie générale",
+                "LEGACY|anesthésie locale + sédation|1": "anesthésie locale + sédation",
+                "LEGACY|plexus|1": "plexus",
+                "LEGACY|bloc endoveineux|1": "bloc endoveineux",
+                "LEGACY|rachianesthésie|1": "rachianesthésie"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "antibioprophylaxie",
+              "type": "text-field",
+              "shortLabel": "antibioprophylaxie",
+              "grows": true,
+              "span": 10,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "désinfectant",
+              "type": "dropdown-field",
+              "shortLabel": "désinfectant",
+              "grows": true,
+              "span": 14,
+              "readonly": false,
+              "options": {
+                "LEGACY|isobédatine dermique|1": "isobédatine dermique",
+                "LEGACY|hibitane|1": "hibitane",
+                "LEGACY|chlohexidine aqueuse|1": "chlohexidine aqueuse",
+                "LEGACY|isobétadine alcoolique|1": "isobétadine alcoolique"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "durée d'intervention",
+              "type": "measure-field",
+              "shortLabel": "durée d'intervention",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "position",
+              "type": "text-field",
+              "shortLabel": "position",
+              "grows": true,
+              "span": 21,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "subform",
+              "id": "899043EB-8FEF-401D-A15C-3134557639C1",
+              "shortLabel": "techniques utilisées",
+              "forms": {
+                "sous-formulaires CRO visage/front": {
+                  "form": "sous-formulaires CRO visage/front",
+                  "id": "3B24AE05-96B5-4A5E-BD00-1BC4B05593DE",
+                  "sections": [
+                    {
+                      "section": "Main",
+                      "fields": [
+                        {
+                          "clazz": "field",
+                          "field": "anesthésique",
+                          "type": "dropdown-field",
+                          "shortLabel": "infiltration",
+                          "grows": true,
+                          "span": 11,
+                          "readonly": false,
+                          "options": {
+                            "LEGACY|xylocaïne 1% sans adrénaline|1": "xylocaïne 1% sans adrénaline",
+                            "LEGACY|xylocaïne 2% sans adrénaline|1": "xylocaïne 2% sans adrénaline",
+                            "LEGACY|xylocaïne 1% avec adrénaline|1": "xylocaïne 1% avec adrénaline",
+                            "LEGACY|Naropin 2 mg/ml|1": "Naropin 2 mg/ml",
+                            "LEGACY|Naropin 10 mg/ml|1": "Naropin 10 mg/ml",
+                            "LEGACY|Cistanest 1%|1": "Cistanest 1%",
+                            "LEGACY|Cistanest 2%|1": "Cistanest 2%"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "dilution",
+                          "type": "text-field",
+                          "shortLabel": "dilution",
+                          "grows": true,
+                          "span": 13,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "volume injecté",
+                          "type": "measure-field",
+                          "shortLabel": "volume injecté",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "lifting endoscopique du front",
+                          "type": "checkbox",
+                          "shortLabel": "lifting endoscopique du front",
+                          "grows": true,
+                          "span": 5,
+                          "readonly": false,
+                          "options": {
+                            "lifting endoscopique du front": "lifting endoscopique du front"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "lifting sous-périosté par voie bicoronale",
+                          "type": "checkbox",
+                          "shortLabel": "lifting sous-périosté par voie bicoronale",
+                          "grows": true,
+                          "span": 11,
+                          "readonly": false,
+                          "options": {
+                            "lifting sous-périosté par voie bicoronale": "lifting sous-périosté par voie bicoronale"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "lifting de la queue du sourcil selon Fogli",
+                          "type": "checkbox",
+                          "shortLabel": "lifting de la queue du sourcil selon Fogli",
+                          "grows": true,
+                          "span": 8,
+                          "readonly": false,
+                          "options": {
+                            "lifting de la queue du sourcil selon Fogli": "lifting de la queue du sourcil selon Fogli"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "sous-formulaires CRO visage/blépharoplastie supérieure": {
+                  "form": "sous-formulaires CRO visage/blépharoplastie supérieure",
+                  "id": "1E9B1F75-8A12-4B0D-B4D5-481252A07357",
+                  "sections": [
+                    {
+                      "section": "Main",
+                      "fields": [
+                        {
+                          "clazz": "field",
+                          "field": "anesthésique",
+                          "type": "dropdown-field",
+                          "shortLabel": "infiltration",
+                          "grows": true,
+                          "span": 9,
+                          "readonly": false,
+                          "options": {
+                            "LEGACY|xylocaïne 1% sans adrénaline|1": "xylocaïne 1% sans adrénaline",
+                            "LEGACY|xylocaïne 2% sans adrénaline|1": "xylocaïne 2% sans adrénaline",
+                            "LEGACY|xylocaïne 1% avec adrénaline|1": "xylocaïne 1% avec adrénaline",
+                            "LEGACY|Naropin 2 mg/ml|1": "Naropin 2 mg/ml",
+                            "LEGACY|Naropin 10 mg/ml|1": "Naropin 10 mg/ml",
+                            "LEGACY|Cistanest 1%|1": "Cistanest 1%",
+                            "LEGACY|Cistanest 2%|1": "Cistanest 2%"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "volume injecté",
+                          "type": "measure-field",
+                          "shortLabel": "volume injecté",
+                          "grows": true,
+                          "span": 15,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "procédure cutanée",
+                          "type": "dropdown-field",
+                          "shortLabel": "procédure cutanée",
+                          "grows": true,
+                          "span": 8,
+                          "readonly": false,
+                          "options": {
+                            "LEGACY|incision dans le pli palpébral|1": "incision dans le pli palpébral",
+                            "LEGACY|résection cutanée|1": "résection cutanée"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "myomectomie de l'orbiculaire",
+                          "type": "checkbox",
+                          "shortLabel": "myomectomie de l'orbiculaire",
+                          "grows": true,
+                          "span": 8,
+                          "readonly": false,
+                          "options": {
+                            "myomectomie de l'orbiculaire": "myomectomie de l'orbiculaire"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "fixation transpalpébrale du sourcil",
+                          "type": "checkbox",
+                          "shortLabel": "fixation transpalpébrale du sourcil",
+                          "grows": true,
+                          "span": 8,
+                          "readonly": false,
+                          "options": {
+                            "fixation transpalpébrale du sourcil": "fixation transpalpébrale du sourcil"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "subform",
+                          "id": "9D5A84DF-179E-42D8-AD51-ACD5E12588F9",
+                          "shortLabel": "procédures réalisées",
+                          "forms": {
+                            "sous-formulaires CRO visage/lipectomie supérieure": {
+                              "form": "sous-formulaires CRO visage/lipectomie supérieure",
+                              "id": "273CF1BB-4650-4687-A047-803E884389A1",
+                              "sections": [
+                                {
+                                  "section": "Main",
+                                  "fields": [
+                                    {
+                                      "clazz": "field",
+                                      "field": "résection de la SOOF",
+                                      "type": "checkbox",
+                                      "shortLabel": "résection de la SOOF",
+                                      "grows": true,
+                                      "span": 10,
+                                      "readonly": false,
+                                      "options": {
+                                        "résection de la SOOF": "résection de la SOOF"
+                                      },
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "résection de la poche de graisse interne",
+                                      "type": "checkbox",
+                                      "shortLabel": "résection de la poche de graisse interne",
+                                      "grows": true,
+                                      "span": 4,
+                                      "readonly": false,
+                                      "options": {
+                                        "résection de la poche de graisse interne": "résection de la poche de graisse interne"
+                                      },
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "diminution de l'organe en rouleau",
+                                      "type": "checkbox",
+                                      "shortLabel": "diminution de l'organe en rouleau",
+                                      "grows": true,
+                                      "span": 10,
+                                      "readonly": false,
+                                      "options": {
+                                        "diminution de l'organe en rouleau": "diminution de l'organe en rouleau"
+                                      },
+                                      "multiline": false,
+                                      "translate": true
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            "sous-formulaires CRO visage/cure de ptosis": {
+                              "form": "sous-formulaires CRO visage/cure de ptosis",
+                              "id": "F3DC1FD4-84AB-427F-882E-F12D48FBFBC2",
+                              "sections": [
+                                {
+                                  "section": "Main",
+                                  "fields": [
+                                    {
+                                      "clazz": "field",
+                                      "field": "côté droit",
+                                      "type": "checkbox",
+                                      "shortLabel": "côté droit",
+                                      "grows": true,
+                                      "span": 4,
+                                      "readonly": false,
+                                      "options": {
+                                        "côté droit": "côté droit"
+                                      },
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "côté gauche",
+                                      "type": "checkbox",
+                                      "shortLabel": "côté gauche",
+                                      "grows": true,
+                                      "span": 4,
+                                      "readonly": false,
+                                      "options": {
+                                        "côté gauche": "côté gauche"
+                                      },
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "bilatéral",
+                                      "type": "checkbox",
+                                      "shortLabel": "bilatéral",
+                                      "grows": true,
+                                      "span": 5,
+                                      "readonly": false,
+                                      "options": {
+                                        "bilatéral": "bilatéral"
+                                      },
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "fil de suture pour le releveur",
+                                      "type": "text-field",
+                                      "shortLabel": "fil de suture pour le releveur",
+                                      "grows": true,
+                                      "span": 11,
+                                      "readonly": false,
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "traitement du releveur droit",
+                                      "type": "dropdown-field",
+                                      "shortLabel": "traitement du releveur droit",
+                                      "grows": true,
+                                      "span": 13,
+                                      "readonly": false,
+                                      "options": {
+                                        "LEGACY|plicature du releveur|1": "plicature du releveur",
+                                        "LEGACY|désinsertion du releveur|1": "désinsertion du releveur"
+                                      },
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "résection releveur droit",
+                                      "type": "measure-field",
+                                      "shortLabel": "résection releveur droit",
+                                      "grows": true,
+                                      "span": 11,
+                                      "readonly": false,
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "traitement du releveur gauche",
+                                      "type": "dropdown-field",
+                                      "shortLabel": "traitement du releveur gauche",
+                                      "grows": true,
+                                      "span": 13,
+                                      "readonly": false,
+                                      "options": {
+                                        "LEGACY|plicature du releveur|1": "plicature du releveur",
+                                        "LEGACY|désinsertion du releveur|1": "désinsertion du releveur"
+                                      },
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "résection releveur gauche",
+                                      "type": "measure-field",
+                                      "shortLabel": "résection releveur gauche",
+                                      "grows": true,
+                                      "span": 11,
+                                      "readonly": false,
+                                      "multiline": false,
+                                      "translate": true
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          },
+                          "span": 24,
+                          "rowSpan": 2,
+                          "labels": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "sous-formulaires CRO visage/blépharoplastie inférieure": {
+                  "form": "sous-formulaires CRO visage/blépharoplastie inférieure",
+                  "id": "0C5E378E-F775-4878-9D06-962A1A4854BD",
+                  "sections": [
+                    {
+                      "section": "Main",
+                      "fields": [
+                        {
+                          "clazz": "field",
+                          "field": "anesthésique",
+                          "type": "dropdown-field",
+                          "shortLabel": "infiltration",
+                          "grows": true,
+                          "span": 13,
+                          "readonly": false,
+                          "options": {
+                            "LEGACY|xylocaïne 1% sans adrénaline|1": "xylocaïne 1% sans adrénaline",
+                            "LEGACY|xylocaïne 2% sans adrénaline|1": "xylocaïne 2% sans adrénaline",
+                            "LEGACY|xylocaïne 1% avec adrénaline|1": "xylocaïne 1% avec adrénaline",
+                            "LEGACY|Naropin 2 mg/ml|1": "Naropin 2 mg/ml",
+                            "LEGACY|Naropin 10 mg/ml|1": "Naropin 10 mg/ml",
+                            "LEGACY|Cistanest 1%|1": "Cistanest 1%",
+                            "LEGACY|Cistanest 2%|1": "Cistanest 2%"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "volume injecté",
+                          "type": "measure-field",
+                          "shortLabel": "volume injecté",
+                          "grows": true,
+                          "span": 11,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "voie transconjonctivale",
+                          "type": "checkbox",
+                          "shortLabel": "voie transconjonctivale",
+                          "grows": true,
+                          "span": 12,
+                          "readonly": false,
+                          "options": {
+                            "voie transconjonctivale": "voie transconjonctivale"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "résection graisseuse à la demande",
+                          "type": "checkbox",
+                          "shortLabel": "résection graisseuse à la demande",
+                          "grows": true,
+                          "span": 12,
+                          "readonly": false,
+                          "options": {
+                            "résection graisseuse à la demande": "résection graisseuse à la demande"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "voie sous-ciliaire",
+                          "type": "checkbox",
+                          "shortLabel": "voie sous-ciliaire",
+                          "grows": true,
+                          "span": 12,
+                          "readonly": false,
+                          "options": {
+                            "voie sous-ciliaire": "voie sous-ciliaire"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "redrapage graisseux pré-malaire",
+                          "type": "checkbox",
+                          "shortLabel": "redrapage graisseux pré-malaire",
+                          "grows": true,
+                          "span": 12,
+                          "readonly": false,
+                          "options": {
+                            "redrapage graisseux pré-malaire": "redrapage graisseux pré-malaire"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "sous-formulaires CRO visage/lipofilling du visage": {
+                  "form": "sous-formulaires CRO visage/lipofilling du visage",
+                  "id": "16976E0E-95F6-4EC9-BE46-F518A79E155C",
+                  "sections": [
+                    {
+                      "section": "Main",
+                      "fields": [
+                        {
+                          "clazz": "field",
+                          "field": "site de prélèvement",
+                          "type": "text-field",
+                          "shortLabel": "site de prélèvement",
+                          "grows": true,
+                          "span": 9,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "préparation de la graisse",
+                          "type": "dropdown-field",
+                          "shortLabel": "préparation de la graisse",
+                          "grows": true,
+                          "span": 15,
+                          "readonly": false,
+                          "options": {
+                            "LEGACY|centrifugation|1": "centrifugation",
+                            "LEGACY|décantation et lavage|1": "décantation et lavage"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "lipofilling pomettes",
+                          "type": "checkbox",
+                          "shortLabel": "pomettes",
+                          "grows": true,
+                          "span": 1,
+                          "readonly": false,
+                          "options": {
+                            "pomettes": "pomettes"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "volume par pomette",
+                          "type": "measure-field",
+                          "shortLabel": "",
+                          "grows": true,
+                          "span": 3,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": " lipofilling rides d'amertume",
+                          "type": "checkbox",
+                          "shortLabel": "rides d'amertume",
+                          "grows": true,
+                          "span": 5,
+                          "readonly": false,
+                          "options": {
+                            "rides d'amertume": "rides d'amertume"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "volume par ride d'amertume",
+                          "type": "measure-field",
+                          "shortLabel": "",
+                          "grows": true,
+                          "span": 4,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "lipofilling sourcil",
+                          "type": "checkbox",
+                          "shortLabel": "sourcil",
+                          "grows": true,
+                          "span": 3,
+                          "readonly": false,
+                          "options": {
+                            "sourcil": "sourcil"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "volume par sourcil",
+                          "type": "measure-field",
+                          "shortLabel": "",
+                          "grows": true,
+                          "span": 3,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "lipofilling joues",
+                          "type": "checkbox",
+                          "shortLabel": "joues",
+                          "grows": true,
+                          "span": 3,
+                          "readonly": false,
+                          "options": {
+                            "joues": "joues"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "volume par joue",
+                          "type": "measure-field",
+                          "shortLabel": "",
+                          "grows": true,
+                          "span": 2,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "lipofilling SNG",
+                          "type": "checkbox",
+                          "shortLabel": "sillons naso-géniens",
+                          "grows": true,
+                          "span": 1,
+                          "readonly": false,
+                          "options": {
+                            "sillons naso-géniens": "sillons naso-géniens"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "volume par sillon",
+                          "type": "measure-field",
+                          "shortLabel": "",
+                          "grows": true,
+                          "span": 3,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "lipofilling bord mandibulaire",
+                          "type": "checkbox",
+                          "shortLabel": "bord mandibulaire",
+                          "grows": true,
+                          "span": 5,
+                          "readonly": false,
+                          "options": {
+                            "bord mandibulaire": "bord mandibulaire"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "volume par bord mandibulaire",
+                          "type": "measure-field",
+                          "shortLabel": "",
+                          "grows": true,
+                          "span": 4,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "lipofilling tempes",
+                          "type": "checkbox",
+                          "shortLabel": "tempes",
+                          "grows": true,
+                          "span": 3,
+                          "readonly": false,
+                          "options": {
+                            "tempes": "tempes"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "volume par tempe",
+                          "type": "measure-field",
+                          "shortLabel": "",
+                          "grows": true,
+                          "span": 3,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "lipofilling lèvres",
+                          "type": "checkbox",
+                          "shortLabel": "lèvres",
+                          "grows": true,
+                          "span": 3,
+                          "readonly": false,
+                          "options": {
+                            "lèvres": "lèvres"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "volume par lèvre",
+                          "type": "measure-field",
+                          "shortLabel": "",
+                          "grows": true,
+                          "span": 2,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "lipofilling divers",
+                          "type": "text-field",
+                          "shortLabel": "lipofilling divers",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "span": 24,
+              "rowSpan": 1,
+              "labels": {}
+            },
+            {
+              "clazz": "field",
+              "field": "protocole",
+              "type": "text-field",
+              "shortLabel": "protocole additionnel",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "traitement post-op",
+              "type": "items-list-field",
+              "shortLabel": "traitement post-op",
+              "grows": true,
+              "span": 24,
+              "rowSpan": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "date d'entrée",
+              "type": "date-picker",
+              "shortLabel": "date d'entrée",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "date de sortie",
+              "type": "date-picker",
+              "shortLabel": "date de sortie",
+              "grows": true,
+              "span": 19,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "note",
+              "type": "text-field",
+              "shortLabel": "note",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

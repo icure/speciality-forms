@@ -1,0 +1,22 @@
+{
+  "form": "Sous-formulaires/Test allergique cutané",
+  "id": "47FD764F-F94D-4049-86EB-17569210FE34",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Test allergique cutané",
+          "type": "text-field",
+          "shortLabel": "Test all. cut.",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

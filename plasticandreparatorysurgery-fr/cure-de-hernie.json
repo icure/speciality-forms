@@ -1,0 +1,135 @@
+{
+  "form": "sous-formulaires CRO abdomen/cure de hernie",
+  "id": "AA6A137A-303B-4ACD-B076-B6E218365F6E",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "hernie ombilicale",
+          "type": "checkbox",
+          "shortLabel": "hernie ombilicale",
+          "grows": true,
+          "span": 1,
+          "readonly": false,
+          "options": {
+            "hernie ombilicale": "hernie ombilicale"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "hernie sus-ombilicale",
+          "type": "checkbox",
+          "shortLabel": "hernie sus-ombilicale",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "hernie sus-ombilicale": "hernie sus-ombilicale"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "autre hernie",
+          "type": "text-field",
+          "shortLabel": "autre hernie",
+          "grows": true,
+          "span": 10,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "contenu",
+          "type": "dropdown-field",
+          "shortLabel": "contenu",
+          "grows": true,
+          "span": 7,
+          "readonly": false,
+          "options": {
+            "LEGACY|lipome pré-herniare|1": "lipome pré-herniare",
+            "LEGACY|anse abdominale|1": "anse abdominale",
+            "LEGACY|graisse épiploïque|1": "graisse épiploïque"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "hernie inguinale",
+          "type": "checkbox",
+          "shortLabel": "hernie inguinale",
+          "grows": true,
+          "span": 1,
+          "readonly": false,
+          "options": {
+            "hernie inguinale": "hernie inguinale"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "hernie sous-ombilicale",
+          "type": "checkbox",
+          "shortLabel": "hernie sous-ombilicale",
+          "grows": true,
+          "span": 23,
+          "readonly": false,
+          "options": {
+            "hernie sous-ombilicale": "hernie sous-ombilicale"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "mise en place d'un filet",
+          "type": "dropdown-field",
+          "shortLabel": "mise en place d'un filet",
+          "grows": true,
+          "span": 9,
+          "readonly": false,
+          "options": {
+            "LEGACY|marlex|1": "marlex",
+            "LEGACY|prolène|1": "prolène",
+            "LEGACY|vicryl|1": "vicryl"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "fermetures par points en croix",
+          "type": "checkbox",
+          "shortLabel": "fermetures par points en croix",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "fermetures par points en croix": "fermetures par points en croix"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "fil utilisé",
+          "type": "text-field",
+          "shortLabel": "fil utilisé",
+          "grows": true,
+          "span": 7,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

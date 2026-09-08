@@ -1,0 +1,249 @@
+{
+  "form": "Orthopedie NL/Kine",
+  "id": "9A2BEC34-F171-4198-B91A-E8A1F90A0BAF",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Medische oorzaak",
+              "type": "text-field",
+              "shortLabel": "Medische reden",
+              "grows": true,
+              "span": 24,
+              "rowSpan": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Massage",
+              "type": "checkbox",
+              "shortLabel": "Massage",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Massage": "Massage"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Mobilisatie",
+              "type": "checkbox",
+              "shortLabel": "Mobilisatie",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Mobilisatie": "Mobilisatie"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Zachte manipulatie",
+              "type": "checkbox",
+              "shortLabel": "Zachte manipulatie",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Zachte manipulatie": "Zachte manipulatie"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Versoepelingsoefeningen",
+              "type": "checkbox",
+              "shortLabel": "Versoepelingsoefeningen",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Versoepelingsoefeningen": "Versoepelingsoefeningen"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Stretching",
+              "type": "checkbox",
+              "shortLabel": "Stretching",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Stretching": "Stretching"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Proprioceptie",
+              "type": "checkbox",
+              "shortLabel": "Proprioceptie",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Proprioceptie": "Proprioceptie"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Spierversterking",
+              "type": "checkbox",
+              "shortLabel": "Spierversterking",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Spierversterking": "Spierversterking"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Tonificatie",
+              "type": "checkbox",
+              "shortLabel": "Tonificatie",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Tonificatie": "Tonificatie"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Medische gymnastiek",
+              "type": "checkbox",
+              "shortLabel": "Medische gymnastiek",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Medische gymnastiek": "Medische gymnastiek"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Crochetage",
+              "type": "checkbox",
+              "shortLabel": "Crochetage",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Crochetage": "Crochetage"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Andere",
+              "type": "text-field",
+              "shortLabel": "Andere",
+              "grows": true,
+              "span": 16,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Aantal sessies",
+              "type": "number-field",
+              "shortLabel": "Aantal sessies",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Frequentie",
+              "type": "measure-field",
+              "shortLabel": "Frequentie",
+              "grows": true,
+              "span": 18,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Datum interventie",
+              "type": "date-picker",
+              "shortLabel": "Datum interventie",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "RIZIV code",
+              "type": "number-field",
+              "shortLabel": "RIZIV code",
+              "grows": true,
+              "span": 16,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "63EBE56E-46B5-4175-B2D4-AA1BDA9F610C",
+              "type": "action",
+              "shortLabel": "Voorschrift",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

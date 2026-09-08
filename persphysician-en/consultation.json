@@ -1,0 +1,2494 @@
+{
+  "form": "Médecine générale/Consultation",
+  "id": "FFFFFFFF-FFFF-FFFF-FFFF-CONSULTATION",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Motifs de contact",
+              "type": "token-field",
+              "shortLabel": "Motifs",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Anamnèse",
+              "type": "text-field",
+              "shortLabel": "Anamnèse",
+              "grows": true,
+              "span": 24,
+              "rowSpan": 4,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Examen clinique",
+              "type": "text-field",
+              "shortLabel": "Ex. clin.",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Tension artérielle systolique",
+              "type": "measure-field",
+              "shortLabel": "TA sys.",
+              "grows": true,
+              "span": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Tension artérielle diastolique",
+              "type": "measure-field",
+              "shortLabel": "/",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Poids",
+              "type": "measure-field",
+              "shortLabel": "Poids",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Taille",
+              "type": "measure-field",
+              "shortLabel": "Taille",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "BMI",
+              "type": "number-field",
+              "shortLabel": "BMI",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "HbA1c",
+              "type": "measure-field",
+              "shortLabel": "HbA1c",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Pouls",
+              "type": "measure-field",
+              "shortLabel": "Pouls",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Régularité du pouls",
+              "type": "dropdown-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 2,
+              "readonly": false,
+              "options": {
+                "LEGACY|Régulier|1": "Régulier",
+                "LEGACY|Irrégulier|1": "Irrégulier"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "T°",
+              "type": "measure-field",
+              "shortLabel": "T°",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Tour de taille",
+              "type": "measure-field",
+              "shortLabel": "Tour. taille",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Glyc.",
+              "type": "measure-field",
+              "shortLabel": "Glyc.",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Diagnostics",
+              "type": "token-field",
+              "shortLabel": "Diagnostics",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Examen à effectuer par un spécialiste",
+              "type": "text-field",
+              "shortLabel": "Examen à effectuer par un spécialiste",
+              "grows": true,
+              "span": 24,
+              "rowSpan": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Résultats examens récents",
+              "type": "text-field",
+              "shortLabel": "Rés. ex.",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Traitements non-médicamenteux",
+              "type": "token-field",
+              "shortLabel": "Traitements  non méd",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "586DDB4D-D8B5-406D-9F79-BC03F8C2699A",
+              "type": "action",
+              "shortLabel": "AVIS SPECIALISTE",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Recherche de sang occulte dans les selles",
+              "type": "checkbox",
+              "shortLabel": "Rech. sang occ. /selles",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "Rech. sang occ. /selles": "Rech. sang occ. /selles"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Frottis du col de l'utérus",
+              "type": "checkbox",
+              "shortLabel": "Frottis col de l'utérus",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "Frottis col de l'utérus": "Frottis col de l'utérus"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Mammotest",
+              "type": "checkbox",
+              "shortLabel": "Mammotest",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "Mammotest": "Mammotest"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Rappel cholestérol",
+              "type": "checkbox",
+              "shortLabel": "Rappel cholestérol",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "Rappel cholestérol": "Rappel cholestérol"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "ECG",
+              "type": "checkbox",
+              "shortLabel": "ECG",
+              "grows": true,
+              "span": 18,
+              "readonly": false,
+              "options": {
+                "ECG": "ECG"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Biologie",
+              "type": "checkbox",
+              "shortLabel": "Biologie",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Biologie": "Biologie"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Avis ophtalmo",
+              "type": "checkbox",
+              "shortLabel": "Avis ophtalmo",
+              "grows": true,
+              "span": 2,
+              "readonly": false,
+              "options": {
+                "Avis ophtalmo": "Avis ophtalmo"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "9750A401-22E1-493A-B79E-6A18E50387B5",
+              "type": "action",
+              "shortLabel": "Rapport de consult.",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "subform",
+              "id": "6FF898B0-2694-4973-83F3-1F93C6DADC61",
+              "shortLabel": "Certificats et prescriptions",
+              "forms": {
+                "Médecine générale/Certificat d'interruption d'activité": {
+                  "form": "Médecine générale/Certificat d'interruption d'activité",
+                  "id": "FFFFFFFF-FFFF-FFFF-FFFF-INCAPACITY00",
+                  "sections": [
+                    {
+                      "section": "Main",
+                      "fields": [
+                        {
+                          "clazz": "field",
+                          "field": "incapacité de",
+                          "type": "dropdown-field",
+                          "shortLabel": "incapacité de",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "options": {
+                            "LEGACY|incapable d'assister au cours de gymnastique|1": "incapable d'assister au cours de gymnastique",
+                            "LEGACY|incapable de suivre le cours de natation|1": "incapable de suivre le cours de natation",
+                            "LEGACY|incapable de suivre les cours|1": "incapable de suivre les cours",
+                            "LEGACY|incapable de travailler|1": "incapable de travailler",
+                            "LEGACY|incapable de fréquenter la crèche|1": "incapable de fréquenter la crèche",
+                            "LEGACY|incapacity to follow courses|1": "incapacity to follow courses",
+                            "LEGACY|incapacity to perform gymnastics|1": "incapacity to perform gymnastics",
+                            "LEGACY|incapacity to swim|1": "incapacity to swim",
+                            "LEGACY|incapacity to work|1": "incapacity to work"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "du",
+                          "type": "date-picker",
+                          "shortLabel": "du",
+                          "grows": true,
+                          "span": 7,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "au",
+                          "type": "date-picker",
+                          "shortLabel": "au",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "inclus/exclus",
+                          "type": "dropdown-field",
+                          "shortLabel": "inclus/exclus",
+                          "grows": true,
+                          "span": 5,
+                          "readonly": false,
+                          "options": {
+                            "LEGACY|inclus|1": "inclus",
+                            "LEGACY|exclus|1": "exclus"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "pour cause de",
+                          "type": "dropdown-field",
+                          "shortLabel": "pour cause de",
+                          "grows": true,
+                          "span": 9,
+                          "readonly": false,
+                          "options": {
+                            "LEGACY|accident|1": "accident",
+                            "LEGACY|accident du travail|1": "accident du travail",
+                            "LEGACY|consultation médicale|1": "consultation médicale",
+                            "LEGACY|maladie|1": "maladie",
+                            "LEGACY|motif familial|1": "motif familial",
+                            "LEGACY|autre|1": "autre"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Accident suvenu le",
+                          "type": "date-picker",
+                          "shortLabel": "Accident suvenu le",
+                          "grows": true,
+                          "span": 10,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Sortie",
+                          "type": "dropdown-field",
+                          "shortLabel": "Sortie",
+                          "grows": true,
+                          "span": 5,
+                          "readonly": false,
+                          "options": {
+                            "LEGACY|autorisée|1": "autorisée",
+                            "LEGACY|interdite|1": "interdite"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "autres",
+                          "type": "text-field",
+                          "shortLabel": "autres",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "reprise d'activité partielle",
+                          "type": "date-picker",
+                          "shortLabel": "Repr. act. part.",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "pourcentage",
+                          "type": "measure-field",
+                          "shortLabel": "à",
+                          "grows": true,
+                          "span": 9,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "totale",
+                          "type": "date-picker",
+                          "shortLabel": "totale",
+                          "grows": true,
+                          "span": 9,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Commentaire",
+                          "type": "text-field",
+                          "shortLabel": "Commentaire",
+                          "grows": true,
+                          "span": 18,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "78CF4B52-1006-4197-A991-63DD42494020",
+                          "type": "action",
+                          "shortLabel": "Certificat",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "Sous-formulaires/Prescription de kiné": {
+                  "form": "Sous-formulaires/Prescription de kiné",
+                  "id": "AEFED10A-9A72-4B40-981B-1D79ADB05516",
+                  "sections": [
+                    {
+                      "section": "Main",
+                      "fields": [
+                        {
+                          "clazz": "field",
+                          "field": "Prescription de kinésithérapie",
+                          "type": "checkbox",
+                          "shortLabel": "Prescription de kiné",
+                          "grows": true,
+                          "span": 1,
+                          "readonly": false,
+                          "options": {
+                            "Prescription de kiné": "Prescription de kiné"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Le patient ne peut se déplacer",
+                          "type": "checkbox",
+                          "shortLabel": "Le patient ne peut se déplacer",
+                          "grows": true,
+                          "span": 23,
+                          "readonly": false,
+                          "options": {
+                            "Le patient ne peut se déplacer": "Le patient ne peut se déplacer"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Massage",
+                          "type": "checkbox",
+                          "shortLabel": "Massage",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "options": {
+                            "Massage": "Massage"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Demande d'avis consultatif kiné",
+                          "type": "checkbox",
+                          "shortLabel": "Demande d'avis",
+                          "grows": true,
+                          "span": 1,
+                          "readonly": false,
+                          "options": {
+                            "Demande d'avis": "Demande d'avis"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Demande d'avis",
+                          "type": "text-field",
+                          "shortLabel": "",
+                          "grows": true,
+                          "span": 16,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Mobilisation",
+                          "type": "checkbox",
+                          "shortLabel": "Mobilisation",
+                          "grows": true,
+                          "span": 7,
+                          "readonly": false,
+                          "options": {
+                            "Mobilisation": "Mobilisation"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Genre de séances",
+                          "type": "text-field",
+                          "shortLabel": "Genre de séances",
+                          "grows": true,
+                          "span": 15,
+                          "rowSpan": 5,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Thermotherapie",
+                          "type": "checkbox",
+                          "shortLabel": "Thermotherapie",
+                          "grows": true,
+                          "span": 9,
+                          "rowSpan": 5,
+                          "readonly": false,
+                          "options": {
+                            "Thermotherapie": "Thermotherapie"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Electrotherapie",
+                          "type": "checkbox",
+                          "shortLabel": "Electrotherapie",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "options": {
+                            "Electrotherapie": "Electrotherapie"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Ultra son",
+                          "type": "checkbox",
+                          "shortLabel": "Ultra son",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "options": {
+                            "Ultra son": "Ultra son"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Ondes courtes",
+                          "type": "checkbox",
+                          "shortLabel": "Ondes courtes",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "options": {
+                            "Ondes courtes": "Ondes courtes"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Tapotage et gymnastique respiratoire",
+                          "type": "checkbox",
+                          "shortLabel": "Tapotage et gym. respiratoire",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "options": {
+                            "Tapotage et gym. respiratoire": "Tapotage et gym. respiratoire"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Rééducation",
+                          "type": "checkbox",
+                          "shortLabel": "Rééducation",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "options": {
+                            "Rééducation": "Rééducation"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Fango",
+                          "type": "checkbox",
+                          "shortLabel": "Fango",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "options": {
+                            "Fango": "Fango"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Localisation",
+                          "type": "text-field",
+                          "shortLabel": "Localisation",
+                          "grows": true,
+                          "span": 15,
+                          "rowSpan": 5,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Kiné respiratoire tapotements",
+                          "type": "checkbox",
+                          "shortLabel": "Kiné respiratoire tapotements",
+                          "grows": true,
+                          "span": 9,
+                          "rowSpan": 5,
+                          "readonly": false,
+                          "options": {
+                            "Kiné respiratoire tapotements": "Kiné respiratoire tapotements"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Drainage lymphatique",
+                          "type": "checkbox",
+                          "shortLabel": "Drainage lymphatique",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "options": {
+                            "Drainage lymphatique": "Drainage lymphatique"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Gymnastique",
+                          "type": "checkbox",
+                          "shortLabel": "Gymnastique",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "options": {
+                            "Gymnastique": "Gymnastique"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Infra-rouge",
+                          "type": "checkbox",
+                          "shortLabel": "Infra-rouge",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "options": {
+                            "Infra-rouge": "Infra-rouge"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Manipulations",
+                          "type": "checkbox",
+                          "shortLabel": "Manipulations",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "options": {
+                            "Manipulations": "Manipulations"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Ionisations",
+                          "type": "checkbox",
+                          "shortLabel": "Ionisations",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "options": {
+                            "Ionisations": "Ionisations"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Nombre de séances",
+                          "type": "number-field",
+                          "shortLabel": "Nbre de séances",
+                          "grows": true,
+                          "span": 3,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Fréquence",
+                          "type": "measure-field",
+                          "shortLabel": "Fréquence",
+                          "grows": true,
+                          "span": 10,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Code d'intervention",
+                          "type": "text-field",
+                          "shortLabel": "Code d'intervention",
+                          "grows": true,
+                          "span": 11,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Diagnostic",
+                          "type": "text-field",
+                          "shortLabel": "Diagnostic",
+                          "grows": true,
+                          "span": 12,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Date intervention",
+                          "type": "date-picker",
+                          "shortLabel": "Date intervention",
+                          "grows": true,
+                          "span": 12,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Imagerie kiné",
+                          "type": "checkbox",
+                          "shortLabel": "Mise à disposition: imagerie",
+                          "grows": true,
+                          "span": 3,
+                          "readonly": false,
+                          "options": {
+                            "Mise à disposition: imagerie": "Mise à disposition: imagerie"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Biologie kiné",
+                          "type": "checkbox",
+                          "shortLabel": "Biologie",
+                          "grows": true,
+                          "span": 4,
+                          "readonly": false,
+                          "options": {
+                            "Biologie": "Biologie"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Avis spécialisé kiné",
+                          "type": "checkbox",
+                          "shortLabel": "Avis spécialisé",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "options": {
+                            "Avis spécialisé": "Avis spécialisé"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Autre avis kiné",
+                          "type": "text-field",
+                          "shortLabel": "Autre avis",
+                          "grows": true,
+                          "span": 11,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Evolution pendant tt",
+                          "type": "checkbox",
+                          "shortLabel": "Je souhairerais connaître l'évolution de la pathologie pendant le traitement",
+                          "grows": true,
+                          "span": 15,
+                          "readonly": false,
+                          "options": {
+                            "Je souhairerais connaître l'évolution de la pathologie pendant le traitement": "Je souhairerais connaître l'évolution de la pathologie pendant le traitement"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Evolution fin tt",
+                          "type": "checkbox",
+                          "shortLabel": "à la fin du traitement",
+                          "grows": true,
+                          "span": 9,
+                          "readonly": false,
+                          "options": {
+                            "à la fin du traitement": "à la fin du traitement"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Communication par courrier",
+                          "type": "checkbox",
+                          "shortLabel": "Communication par courrier",
+                          "grows": true,
+                          "span": 3,
+                          "readonly": false,
+                          "options": {
+                            "Communication par courrier": "Communication par courrier"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Communication par téléphone",
+                          "type": "checkbox",
+                          "shortLabel": "par tél.",
+                          "grows": true,
+                          "span": 4,
+                          "readonly": false,
+                          "options": {
+                            "par tél.": "par tél."
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Communication autre",
+                          "type": "text-field",
+                          "shortLabel": "autre",
+                          "grows": true,
+                          "span": 14,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "6BC88DB2-019F-4DE6-BFEB-C2D0E0008842",
+                          "type": "action",
+                          "shortLabel": "Prescription",
+                          "grows": true,
+                          "span": 3,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "Sous-formulaires/Soins infirmiers": {
+                  "form": "Sous-formulaires/Soins infirmiers",
+                  "id": "64DAB551-B007-4B5C-BD64-F886301F5326",
+                  "sections": [
+                    {
+                      "section": "Main",
+                      "fields": [
+                        {
+                          "clazz": "subform",
+                          "id": "D019AC3A-99D8-47B6-8A18-5F333A2C545F",
+                          "shortLabel": "Détail des soins à prodiguer",
+                          "forms": {
+                            "Sous-formulaires/Administration ou application de médicaments": {
+                              "form": "Sous-formulaires/Administration ou application de médicaments",
+                              "id": "F25A53D3-31F1-4A51-975C-74DFD70A645B",
+                              "sections": [
+                                {
+                                  "section": "Main",
+                                  "fields": [
+                                    {
+                                      "clazz": "field",
+                                      "field": "Injection",
+                                      "type": "dropdown-field",
+                                      "shortLabel": "Injection",
+                                      "grows": true,
+                                      "span": 5,
+                                      "readonly": false,
+                                      "options": {
+                                        "LEGACY|IM|1": "IM",
+                                        "LEGACY|SC|1": "SC",
+                                        "LEGACY|ID|1": "ID",
+                                        "LEGACY|IV|1": "IV"
+                                      },
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "Application de gouttes ou pommade ophtalmique en phase post-opératoire",
+                                      "type": "checkbox",
+                                      "shortLabel": "Application de gouttes ou pommade ophtalm. en phase post-op.",
+                                      "grows": true,
+                                      "span": 14,
+                                      "readonly": false,
+                                      "options": {
+                                        "Application de gouttes ou pommade ophtalm. en phase post-op.": "Application de gouttes ou pommade ophtalm. en phase post-op."
+                                      },
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "Date intervention",
+                                      "type": "date-picker",
+                                      "shortLabel": "en date du",
+                                      "grows": true,
+                                      "span": 5,
+                                      "readonly": false,
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "Application de pommades ou d'un produit médicamenteux",
+                                      "type": "checkbox",
+                                      "shortLabel": "Application de pommades ou d'un produit médicamenteux",
+                                      "grows": true,
+                                      "span": 18,
+                                      "readonly": false,
+                                      "options": {
+                                        "Application de pommades ou d'un produit médicamenteux": "Application de pommades ou d'un produit médicamenteux"
+                                      },
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "Pathologie application",
+                                      "type": "dropdown-field",
+                                      "shortLabel": "",
+                                      "grows": true,
+                                      "span": 6,
+                                      "readonly": false,
+                                      "options": {
+                                        "LEGACY|Zona|1": "Zona",
+                                        "LEGACY|Eczéma|1": "Eczéma",
+                                        "LEGACY|Psoriasis|1": "Psoriasis",
+                                        "LEGACY|Verrues|1": "Verrues",
+                                        "LEGACY|Dermatomycoses|1": "Dermatomycoses"
+                                      },
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "Autre pathologie application",
+                                      "type": "text-field",
+                                      "shortLabel": "Autre pathologie",
+                                      "grows": true,
+                                      "span": 24,
+                                      "readonly": false,
+                                      "multiline": false,
+                                      "translate": true
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            "Sous-formulaires/Sondes": {
+                              "form": "Sous-formulaires/Sondes",
+                              "id": "244D262F-6F8C-48C3-8975-B39159AAAB94",
+                              "sections": [
+                                {
+                                  "section": "Main",
+                                  "fields": [
+                                    {
+                                      "clazz": "field",
+                                      "field": "Sondage vésical",
+                                      "type": "checkbox",
+                                      "shortLabel": "Sondage vésical",
+                                      "grows": true,
+                                      "span": 24,
+                                      "readonly": false,
+                                      "options": {
+                                        "Sondage vésical": "Sondage vésical"
+                                      },
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "Instillation vésicale",
+                                      "type": "checkbox",
+                                      "shortLabel": "Instillation vésicale",
+                                      "grows": true,
+                                      "span": 2,
+                                      "readonly": false,
+                                      "options": {
+                                        "Instillation vésicale": "Instillation vésicale"
+                                      },
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "Qté instillation vésicale",
+                                      "type": "measure-field",
+                                      "shortLabel": "Qté",
+                                      "grows": true,
+                                      "span": 22,
+                                      "readonly": false,
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "Lavage de vessie",
+                                      "type": "checkbox",
+                                      "shortLabel": "Lavage de vessie",
+                                      "grows": true,
+                                      "span": 2,
+                                      "readonly": false,
+                                      "options": {
+                                        "Lavage de vessie": "Lavage de vessie"
+                                      },
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "Qté lavage de vessie",
+                                      "type": "measure-field",
+                                      "shortLabel": "Qté",
+                                      "grows": true,
+                                      "span": 22,
+                                      "readonly": false,
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "Lavage intestinal",
+                                      "type": "checkbox",
+                                      "shortLabel": "Lavage intestinal",
+                                      "grows": true,
+                                      "span": 2,
+                                      "readonly": false,
+                                      "options": {
+                                        "Lavage intestinal": "Lavage intestinal"
+                                      },
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "Qté lavage intestinal",
+                                      "type": "measure-field",
+                                      "shortLabel": "Qté",
+                                      "grows": true,
+                                      "span": 22,
+                                      "readonly": false,
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "Tubage et drainage gastro-intestinal",
+                                      "type": "checkbox",
+                                      "shortLabel": "Tubage et drainage gastro-intestinal",
+                                      "grows": true,
+                                      "span": 2,
+                                      "readonly": false,
+                                      "options": {
+                                        "Tubage et drainage gastro-intestinal": "Tubage et drainage gastro-intestinal"
+                                      },
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "Fréquence tubage",
+                                      "type": "measure-field",
+                                      "shortLabel": "Fréquence",
+                                      "grows": true,
+                                      "span": 12,
+                                      "readonly": false,
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "Durée tubage",
+                                      "type": "measure-field",
+                                      "shortLabel": "Durée",
+                                      "grows": true,
+                                      "span": 10,
+                                      "readonly": false,
+                                      "multiline": false,
+                                      "translate": true
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            "Sous-formulaires/Constipation": {
+                              "form": "Sous-formulaires/Constipation",
+                              "id": "6B7E72D1-9FE4-4F05-A9AB-42191480D1E4",
+                              "sections": [
+                                {
+                                  "section": "Main",
+                                  "fields": [
+                                    {
+                                      "clazz": "field",
+                                      "field": "Evacuation manuelle de fécalome",
+                                      "type": "checkbox",
+                                      "shortLabel": "Evacuation manuelle de fécalome",
+                                      "grows": true,
+                                      "span": 8,
+                                      "readonly": false,
+                                      "options": {
+                                        "Evacuation manuelle de fécalome": "Evacuation manuelle de fécalome"
+                                      },
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "Lavement",
+                                      "type": "checkbox",
+                                      "shortLabel": "Lavement",
+                                      "grows": true,
+                                      "span": 8,
+                                      "readonly": false,
+                                      "options": {
+                                        "Lavement": "Lavement"
+                                      },
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "Fréquence",
+                                      "type": "measure-field",
+                                      "shortLabel": "Fréquence",
+                                      "grows": true,
+                                      "span": 8,
+                                      "readonly": false,
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "Administration de solution médicamenteuse par une sonde rectale",
+                                      "type": "checkbox",
+                                      "shortLabel": "Administration de solution médicamenteuse par une sonde rectale",
+                                      "grows": true,
+                                      "span": 16,
+                                      "readonly": false,
+                                      "options": {
+                                        "Administration de solution médicamenteuse par une sonde rectale": "Administration de solution médicamenteuse par une sonde rectale"
+                                      },
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "Durée",
+                                      "type": "measure-field",
+                                      "shortLabel": "Durée",
+                                      "grows": true,
+                                      "span": 8,
+                                      "readonly": false,
+                                      "multiline": false,
+                                      "translate": true
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            "Sous-formulaires/Soins de plaie": {
+                              "form": "Sous-formulaires/Soins de plaie",
+                              "id": "6DE82F31-5D4C-41A7-B54B-DAFA00BF30CA",
+                              "sections": [
+                                {
+                                  "section": "Main",
+                                  "fields": [
+                                    {
+                                      "clazz": "group",
+                                      "group": "Section 1",
+                                      "fields": [
+                                        {
+                                          "clazz": "field",
+                                          "field": "Localisation",
+                                          "type": "text-field",
+                                          "shortLabel": "Localisation",
+                                          "grows": true,
+                                          "span": 24,
+                                          "readonly": false,
+                                          "multiline": false,
+                                          "translate": true
+                                        },
+                                        {
+                                          "clazz": "field",
+                                          "field": "Plaie avec méchage",
+                                          "type": "checkbox",
+                                          "shortLabel": "Plaie avec méchage",
+                                          "grows": true,
+                                          "span": 24,
+                                          "readonly": false,
+                                          "options": {
+                                            "Plaie avec méchage": "Plaie avec méchage"
+                                          },
+                                          "multiline": false,
+                                          "translate": true
+                                        },
+                                        {
+                                          "clazz": "field",
+                                          "field": "Ulcère",
+                                          "type": "checkbox",
+                                          "shortLabel": "Ulcère",
+                                          "grows": true,
+                                          "span": 6,
+                                          "readonly": false,
+                                          "options": {
+                                            "Ulcère": "Ulcère"
+                                          },
+                                          "multiline": false,
+                                          "translate": true
+                                        },
+                                        {
+                                          "clazz": "field",
+                                          "field": "Brûlure de 2e deg",
+                                          "type": "checkbox",
+                                          "shortLabel": "Brûlure de 2e deg",
+                                          "grows": true,
+                                          "span": 5,
+                                          "readonly": false,
+                                          "options": {
+                                            "Brûlure de 2e deg": "Brûlure de 2e deg"
+                                          },
+                                          "multiline": false,
+                                          "translate": true
+                                        },
+                                        {
+                                          "clazz": "field",
+                                          "field": "Brûlure de 3e deg",
+                                          "type": "checkbox",
+                                          "shortLabel": "Brûlure de 3e deg",
+                                          "grows": true,
+                                          "span": 6,
+                                          "readonly": false,
+                                          "options": {
+                                            "Brûlure de 3e deg": "Brûlure de 3e deg"
+                                          },
+                                          "multiline": false,
+                                          "translate": true
+                                        },
+                                        {
+                                          "clazz": "field",
+                                          "field": "Greffe",
+                                          "type": "checkbox",
+                                          "shortLabel": "Greffe",
+                                          "grows": true,
+                                          "span": 3,
+                                          "readonly": false,
+                                          "options": {
+                                            "Greffe": "Greffe"
+                                          },
+                                          "multiline": false,
+                                          "translate": true
+                                        },
+                                        {
+                                          "clazz": "field",
+                                          "field": "Extension ulcère/brûlure",
+                                          "type": "dropdown-field",
+                                          "shortLabel": "",
+                                          "grows": true,
+                                          "span": 4,
+                                          "readonly": false,
+                                          "options": {
+                                            "LEGACY|<60cm2|1": "<60cm2",
+                                            "LEGACY|>60cm2|1": ">60cm2"
+                                          },
+                                          "multiline": false,
+                                          "translate": true
+                                        },
+                                        {
+                                          "clazz": "field",
+                                          "field": "Escarre",
+                                          "type": "checkbox",
+                                          "shortLabel": "Escarre",
+                                          "grows": true,
+                                          "span": 6,
+                                          "readonly": false,
+                                          "options": {
+                                            "Escarre": "Escarre"
+                                          },
+                                          "multiline": false,
+                                          "translate": true
+                                        },
+                                        {
+                                          "clazz": "field",
+                                          "field": "Atteint les tendons et les os",
+                                          "type": "checkbox",
+                                          "shortLabel": "Atteint les tendons et les os",
+                                          "grows": true,
+                                          "span": 9,
+                                          "readonly": false,
+                                          "options": {
+                                            "Atteint les tendons et les os": "Atteint les tendons et les os"
+                                          },
+                                          "multiline": false,
+                                          "translate": true
+                                        },
+                                        {
+                                          "clazz": "field",
+                                          "field": "Stomie",
+                                          "type": "checkbox",
+                                          "shortLabel": "Stomie",
+                                          "grows": true,
+                                          "span": 5,
+                                          "readonly": false,
+                                          "options": {
+                                            "Stomie": "Stomie"
+                                          },
+                                          "multiline": false,
+                                          "translate": true
+                                        },
+                                        {
+                                          "clazz": "field",
+                                          "field": "Extension escarre",
+                                          "type": "dropdown-field",
+                                          "shortLabel": "",
+                                          "grows": true,
+                                          "span": 4,
+                                          "readonly": false,
+                                          "options": {
+                                            "LEGACY|<60cm2|1": "<60cm2",
+                                            "LEGACY|>60cm2|1": ">60cm2"
+                                          },
+                                          "multiline": false,
+                                          "translate": true
+                                        },
+                                        {
+                                          "clazz": "field",
+                                          "field": "Débridement (escarre décubitus)",
+                                          "type": "checkbox",
+                                          "shortLabel": "Débridement (escarre décubitus)",
+                                          "grows": true,
+                                          "span": 24,
+                                          "readonly": false,
+                                          "options": {
+                                            "Débridement (escarre décubitus)": "Débridement (escarre décubitus)"
+                                          },
+                                          "multiline": false,
+                                          "translate": true
+                                        },
+                                        {
+                                          "clazz": "field",
+                                          "field": "Pansement bioactif",
+                                          "type": "checkbox",
+                                          "shortLabel": "Pansement bioactif",
+                                          "grows": true,
+                                          "span": 6,
+                                          "readonly": false,
+                                          "options": {
+                                            "Pansement bioactif": "Pansement bioactif"
+                                          },
+                                          "multiline": false,
+                                          "translate": true
+                                        },
+                                        {
+                                          "clazz": "field",
+                                          "field": "Pansement bioactif à surveiller",
+                                          "type": "checkbox",
+                                          "shortLabel": "à surveiller",
+                                          "grows": true,
+                                          "span": 9,
+                                          "readonly": false,
+                                          "options": {
+                                            "à surveiller": "à surveiller"
+                                          },
+                                          "multiline": false,
+                                          "translate": true
+                                        },
+                                        {
+                                          "clazz": "field",
+                                          "field": "Enlèvement de sutures",
+                                          "type": "checkbox",
+                                          "shortLabel": "Enlèvement de sutures",
+                                          "grows": true,
+                                          "span": 9,
+                                          "readonly": false,
+                                          "options": {
+                                            "Enlèvement de sutures": "Enlèvement de sutures"
+                                          },
+                                          "multiline": false,
+                                          "translate": true
+                                        }
+                                      ],
+                                      "borderless": false,
+                                      "hideTitle": true,
+                                      "translate": true,
+                                      "span": 24
+                                    },
+                                    {
+                                      "clazz": "group",
+                                      "group": "Section 2",
+                                      "fields": [
+                                        {
+                                          "clazz": "field",
+                                          "field": "Autre soin de plaie",
+                                          "type": "text-field",
+                                          "shortLabel": "Autre",
+                                          "grows": true,
+                                          "span": 24,
+                                          "readonly": false,
+                                          "multiline": false,
+                                          "translate": true
+                                        },
+                                        {
+                                          "clazz": "field",
+                                          "field": "Fréquence",
+                                          "type": "measure-field",
+                                          "shortLabel": "Fréquence",
+                                          "grows": true,
+                                          "span": 8,
+                                          "readonly": false,
+                                          "multiline": false,
+                                          "translate": true
+                                        },
+                                        {
+                                          "clazz": "field",
+                                          "field": "Durée",
+                                          "type": "measure-field",
+                                          "shortLabel": "Durée",
+                                          "grows": true,
+                                          "span": 16,
+                                          "readonly": false,
+                                          "multiline": false,
+                                          "translate": true
+                                        }
+                                      ],
+                                      "borderless": false,
+                                      "hideTitle": true,
+                                      "translate": true,
+                                      "span": 24
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            "Sous-formulaires/Thérapie de compression": {
+                              "form": "Sous-formulaires/Thérapie de compression",
+                              "id": "6A3B31CF-5350-4A30-8919-065F4382787C",
+                              "sections": [
+                                {
+                                  "section": "Main",
+                                  "fields": [
+                                    {
+                                      "clazz": "field",
+                                      "field": "Application et / ou enlèvement de: Bandage(s) de compression",
+                                      "type": "checkbox",
+                                      "shortLabel": "Application et / ou enlèvement de: Bandage(s) de compression",
+                                      "grows": true,
+                                      "span": 24,
+                                      "readonly": false,
+                                      "options": {
+                                        "Application et / ou enlèvement de: Bandage(s) de compression": "Application et / ou enlèvement de: Bandage(s) de compression"
+                                      },
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "Pansement(s) de compression",
+                                      "type": "checkbox",
+                                      "shortLabel": "Pansement(s) de compression",
+                                      "grows": true,
+                                      "span": 15,
+                                      "readonly": false,
+                                      "options": {
+                                        "Pansement(s) de compression": "Pansement(s) de compression"
+                                      },
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "Bas anti-stase",
+                                      "type": "checkbox",
+                                      "shortLabel": "Bas anti-stase",
+                                      "grows": true,
+                                      "span": 9,
+                                      "readonly": false,
+                                      "options": {
+                                        "Bas anti-stase": "Bas anti-stase"
+                                      },
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "Fréquence",
+                                      "type": "measure-field",
+                                      "shortLabel": "Fréquence",
+                                      "grows": true,
+                                      "span": 10,
+                                      "readonly": false,
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "Durée",
+                                      "type": "measure-field",
+                                      "shortLabel": "Durée",
+                                      "grows": true,
+                                      "span": 14,
+                                      "readonly": false,
+                                      "multiline": false,
+                                      "translate": true
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            "Sous-formulaires/Nutrition entérale": {
+                              "form": "Sous-formulaires/Nutrition entérale",
+                              "id": "09BBA6AB-F79C-45AA-BA1C-934D8D7A060A",
+                              "sections": [
+                                {
+                                  "section": "Main",
+                                  "fields": [
+                                    {
+                                      "clazz": "field",
+                                      "field": "Sonde nutrition",
+                                      "type": "dropdown-field",
+                                      "shortLabel": "Via une sonde",
+                                      "grows": true,
+                                      "span": 24,
+                                      "readonly": false,
+                                      "options": {
+                                        "LEGACY|gastrique|1": "gastrique",
+                                        "LEGACY|gastrostomie|1": "gastrostomie",
+                                        "LEGACY|entérostomie|1": "entérostomie"
+                                      },
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "Quantité",
+                                      "type": "measure-field",
+                                      "shortLabel": "Quantité",
+                                      "grows": true,
+                                      "span": 12,
+                                      "readonly": false,
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "Débit",
+                                      "type": "measure-field",
+                                      "shortLabel": "Débit",
+                                      "grows": true,
+                                      "span": 12,
+                                      "readonly": false,
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "Fréquence",
+                                      "type": "measure-field",
+                                      "shortLabel": "Fréquence",
+                                      "grows": true,
+                                      "span": 9,
+                                      "readonly": false,
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "Durée",
+                                      "type": "measure-field",
+                                      "shortLabel": "Durée",
+                                      "grows": true,
+                                      "span": 15,
+                                      "readonly": false,
+                                      "multiline": false,
+                                      "translate": true
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          },
+                          "span": 24,
+                          "rowSpan": 1,
+                          "labels": {}
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Autres soins/techniques spécifiques",
+                          "type": "text-field",
+                          "shortLabel": "Autres soins/techniques spécifiques",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Informations médicales importantes",
+                          "type": "text-field",
+                          "shortLabel": "Informations médicales importantes",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Evolution pendant tt",
+                          "type": "checkbox",
+                          "shortLabel": "Je souhairerais connaître l'évolution de la pathologie pendant le traitement",
+                          "grows": true,
+                          "span": 15,
+                          "readonly": false,
+                          "options": {
+                            "Je souhairerais connaître l'évolution de la pathologie pendant le traitement": "Je souhairerais connaître l'évolution de la pathologie pendant le traitement"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Evolution fin tt",
+                          "type": "checkbox",
+                          "shortLabel": "à la fin du traitement",
+                          "grows": true,
+                          "span": 9,
+                          "readonly": false,
+                          "options": {
+                            "à la fin du traitement": "à la fin du traitement"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Communication par courrier",
+                          "type": "checkbox",
+                          "shortLabel": "Communication par courrier",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "options": {
+                            "Communication par courrier": "Communication par courrier"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Communication par téléphone",
+                          "type": "checkbox",
+                          "shortLabel": "par tél.",
+                          "grows": true,
+                          "span": 3,
+                          "readonly": false,
+                          "options": {
+                            "par tél.": "par tél."
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Communication autre",
+                          "type": "text-field",
+                          "shortLabel": "autre",
+                          "grows": true,
+                          "span": 12,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "6BC88DB2-019F-4DE6-BFEB-C2D0E0008842",
+                          "type": "action",
+                          "shortLabel": "Prescription",
+                          "grows": true,
+                          "span": 3,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "Sous-formulaires/Demande d'imagerie": {
+                  "form": "Sous-formulaires/Demande d'imagerie",
+                  "id": "0AAC53CF-793F-45D2-ACA9-E0B79E1A1376",
+                  "sections": [
+                    {
+                      "section": "Main",
+                      "fields": [
+                        {
+                          "clazz": "subform",
+                          "id": "F6986527-5C56-4233-8BC7-38D01659D582",
+                          "shortLabel": "Examens demandés",
+                          "forms": {
+                            "Sous-formulaires/Examens d'imagerie": {
+                              "form": "Sous-formulaires/Examens d'imagerie",
+                              "id": "B4F2B274-10FF-4018-BC48-3ED3CADCED57",
+                              "sections": [
+                                {
+                                  "section": "Main",
+                                  "fields": [
+                                    {
+                                      "clazz": "field",
+                                      "field": "CT Scan",
+                                      "type": "checkbox",
+                                      "shortLabel": "CT Scan",
+                                      "grows": true,
+                                      "span": 2,
+                                      "readonly": false,
+                                      "options": {
+                                        "CT Scan": "CT Scan"
+                                      },
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "RMN",
+                                      "type": "checkbox",
+                                      "shortLabel": "RMN",
+                                      "grows": true,
+                                      "span": 2,
+                                      "readonly": false,
+                                      "options": {
+                                        "RMN": "RMN"
+                                      },
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "RX",
+                                      "type": "checkbox",
+                                      "shortLabel": "RX",
+                                      "grows": true,
+                                      "span": 2,
+                                      "readonly": false,
+                                      "options": {
+                                        "RX": "RX"
+                                      },
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "Echographie",
+                                      "type": "checkbox",
+                                      "shortLabel": "Echographie",
+                                      "grows": true,
+                                      "span": 4,
+                                      "readonly": false,
+                                      "options": {
+                                        "Echographie": "Echographie"
+                                      },
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "Scintigraphie",
+                                      "type": "checkbox",
+                                      "shortLabel": "Scintigraphie",
+                                      "grows": true,
+                                      "span": 3,
+                                      "readonly": false,
+                                      "options": {
+                                        "Scintigraphie": "Scintigraphie"
+                                      },
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "Inconnu",
+                                      "type": "checkbox",
+                                      "shortLabel": "Inconnu",
+                                      "grows": true,
+                                      "span": 3,
+                                      "readonly": false,
+                                      "options": {
+                                        "Inconnu": "Inconnu"
+                                      },
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "Autre examen",
+                                      "type": "text-field",
+                                      "shortLabel": "Autre examen",
+                                      "grows": true,
+                                      "span": 8,
+                                      "readonly": false,
+                                      "multiline": false,
+                                      "translate": true
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          },
+                          "span": 24,
+                          "rowSpan": 1,
+                          "labels": {}
+                        },
+                        {
+                          "clazz": "subform",
+                          "id": "16BD8C81-48D3-4E38-B213-B73E2A30A6F8",
+                          "shortLabel": "Examens proposés précédemment et relatifs à la demande de diagnostic",
+                          "forms": {
+                            "Sous-formulaires/Examens d'imagerie": {
+                              "form": "Sous-formulaires/Examens d'imagerie",
+                              "id": "B4F2B274-10FF-4018-BC48-3ED3CADCED57",
+                              "sections": [
+                                {
+                                  "section": "Main",
+                                  "fields": [
+                                    {
+                                      "clazz": "field",
+                                      "field": "CT Scan",
+                                      "type": "checkbox",
+                                      "shortLabel": "CT Scan",
+                                      "grows": true,
+                                      "span": 2,
+                                      "readonly": false,
+                                      "options": {
+                                        "CT Scan": "CT Scan"
+                                      },
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "RMN",
+                                      "type": "checkbox",
+                                      "shortLabel": "RMN",
+                                      "grows": true,
+                                      "span": 2,
+                                      "readonly": false,
+                                      "options": {
+                                        "RMN": "RMN"
+                                      },
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "RX",
+                                      "type": "checkbox",
+                                      "shortLabel": "RX",
+                                      "grows": true,
+                                      "span": 2,
+                                      "readonly": false,
+                                      "options": {
+                                        "RX": "RX"
+                                      },
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "Echographie",
+                                      "type": "checkbox",
+                                      "shortLabel": "Echographie",
+                                      "grows": true,
+                                      "span": 4,
+                                      "readonly": false,
+                                      "options": {
+                                        "Echographie": "Echographie"
+                                      },
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "Scintigraphie",
+                                      "type": "checkbox",
+                                      "shortLabel": "Scintigraphie",
+                                      "grows": true,
+                                      "span": 3,
+                                      "readonly": false,
+                                      "options": {
+                                        "Scintigraphie": "Scintigraphie"
+                                      },
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "Inconnu",
+                                      "type": "checkbox",
+                                      "shortLabel": "Inconnu",
+                                      "grows": true,
+                                      "span": 3,
+                                      "readonly": false,
+                                      "options": {
+                                        "Inconnu": "Inconnu"
+                                      },
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "Autre examen",
+                                      "type": "text-field",
+                                      "shortLabel": "Autre examen",
+                                      "grows": true,
+                                      "span": 8,
+                                      "readonly": false,
+                                      "multiline": false,
+                                      "translate": true
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          },
+                          "span": 24,
+                          "rowSpan": 1,
+                          "labels": {}
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "CA780B84-77FC-443D-BEB5-61A058CA07E2",
+                          "type": "action",
+                          "shortLabel": "Demande",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "Sous-formulaires/Vaccins consult": {
+                  "form": "Sous-formulaires/Vaccins consult",
+                  "id": "94484700-EE5D-43E2-8001-1FA02B7D6C00",
+                  "sections": [
+                    {
+                      "section": "Main",
+                      "fields": [
+                        {
+                          "clazz": "field",
+                          "field": "Vaccin Tedivax",
+                          "type": "checkbox",
+                          "shortLabel": "Tedivax",
+                          "grows": true,
+                          "span": 5,
+                          "readonly": false,
+                          "options": {
+                            "Tedivax": "Tedivax"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Vaccin Hépatite A",
+                          "type": "checkbox",
+                          "shortLabel": "Vac. Hép. A1",
+                          "grows": true,
+                          "span": 5,
+                          "readonly": false,
+                          "options": {
+                            "Vac. Hép. A1": "Vac. Hép. A1"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Vaccin Hépatite B",
+                          "type": "checkbox",
+                          "shortLabel": "Vac. Hép. B1",
+                          "grows": true,
+                          "span": 5,
+                          "readonly": false,
+                          "options": {
+                            "Vac. Hép. B1": "Vac. Hép. B1"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Vaccin Twinrix",
+                          "type": "checkbox",
+                          "shortLabel": "Twinrix1",
+                          "grows": true,
+                          "span": 4,
+                          "readonly": false,
+                          "options": {
+                            "Twinrix1": "Twinrix1"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Vaccin Poliomyélite",
+                          "type": "checkbox",
+                          "shortLabel": "Vac. Poliomyélite",
+                          "grows": true,
+                          "span": 5,
+                          "readonly": false,
+                          "options": {
+                            "Vac. Poliomyélite": "Vac. Poliomyélite"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Vaccin Revaxis",
+                          "type": "checkbox",
+                          "shortLabel": "Revaxis",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "options": {
+                            "Revaxis": "Revaxis"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Vaccin de rappel hépatite A",
+                          "type": "checkbox",
+                          "shortLabel": "Vac. Hép. A2",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "options": {
+                            "Vac. Hép. A2": "Vac. Hép. A2"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Vaccin de rappel 1 hépatite B",
+                          "type": "checkbox",
+                          "shortLabel": "Vac. Hép. B2",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "options": {
+                            "Vac. Hép. B2": "Vac. Hép. B2"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Vaccin de rappel 1 Twinrix",
+                          "type": "checkbox",
+                          "shortLabel": "Twinrix2",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "options": {
+                            "Twinrix2": "Twinrix2"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Vaccin Boostrix",
+                          "type": "checkbox",
+                          "shortLabel": "Boostrix",
+                          "grows": true,
+                          "span": 5,
+                          "readonly": false,
+                          "options": {
+                            "Boostrix": "Boostrix"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Vaccin Roug./Rub./Oreillons",
+                          "type": "checkbox",
+                          "shortLabel": "Vac. RRO",
+                          "grows": true,
+                          "span": 5,
+                          "readonly": false,
+                          "options": {
+                            "Vac. RRO": "Vac. RRO"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Vaccin de rappel 2 hépatite B",
+                          "type": "checkbox",
+                          "shortLabel": "Vac. Hép. B3",
+                          "grows": true,
+                          "span": 5,
+                          "readonly": false,
+                          "options": {
+                            "Vac. Hép. B3": "Vac. Hép. B3"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Vaccin de rappel 2 Twinrix ",
+                          "type": "checkbox",
+                          "shortLabel": "Twinrix3",
+                          "grows": true,
+                          "span": 4,
+                          "readonly": false,
+                          "options": {
+                            "Twinrix3": "Twinrix3"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Vaccin Haemophilus",
+                          "type": "checkbox",
+                          "shortLabel": "Vac. Haemophilus",
+                          "grows": true,
+                          "span": 5,
+                          "readonly": false,
+                          "options": {
+                            "Vac. Haemophilus": "Vac. Haemophilus"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Vaccin Meningitec",
+                          "type": "checkbox",
+                          "shortLabel": "Vac. Meningitec",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "options": {
+                            "Vac. Meningitec": "Vac. Meningitec"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Vaccin contre le HPV",
+                          "type": "checkbox",
+                          "shortLabel": "Vac. HPV1",
+                          "grows": true,
+                          "span": 8,
+                          "readonly": false,
+                          "options": {
+                            "Vac. HPV1": "Vac. HPV1"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Vaccin Grippe",
+                          "type": "checkbox",
+                          "shortLabel": "Vaccin Grippe",
+                          "grows": true,
+                          "span": 8,
+                          "readonly": false,
+                          "options": {
+                            "Vaccin Grippe": "Vaccin Grippe"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Vaccin pneumocoques 23",
+                          "type": "checkbox",
+                          "shortLabel": "Pneumo 23",
+                          "grows": true,
+                          "span": 8,
+                          "readonly": false,
+                          "options": {
+                            "Pneumo 23": "Pneumo 23"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Vaccin de rappel 1 contre le HPV",
+                          "type": "checkbox",
+                          "shortLabel": "Vac. HPV2",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "options": {
+                            "Vac. HPV2": "Vac. HPV2"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Vaccin Prevenar",
+                          "type": "checkbox",
+                          "shortLabel": "Prevenar",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "options": {
+                            "Prevenar": "Prevenar"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Vaccin Typhim",
+                          "type": "checkbox",
+                          "shortLabel": "Vac. Typhim",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "options": {
+                            "Vac. Typhim": "Vac. Typhim"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Notification Rappel Vaccin Typhim",
+                          "type": "checkbox",
+                          "shortLabel": "Rpl",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "options": {
+                            "Rpl": "Rpl"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Vaccin de rappel 2 contre le HPV",
+                          "type": "checkbox",
+                          "shortLabel": "Vac. HPV3",
+                          "grows": true,
+                          "span": 8,
+                          "readonly": false,
+                          "options": {
+                            "Vac. HPV3": "Vac. HPV3"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Vaccin Fièvre Jaune",
+                          "type": "checkbox",
+                          "shortLabel": "Vac. Fièv. Jaune",
+                          "grows": true,
+                          "span": 8,
+                          "readonly": false,
+                          "options": {
+                            "Vac. Fièv. Jaune": "Vac. Fièv. Jaune"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Notification Rappel Vaccin Fièvre Jaune",
+                          "type": "checkbox",
+                          "shortLabel": "Rpl",
+                          "grows": true,
+                          "span": 8,
+                          "readonly": false,
+                          "options": {
+                            "Rpl": "Rpl"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "span": 24,
+              "rowSpan": 1,
+              "labels": {}
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

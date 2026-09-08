@@ -1,0 +1,22 @@
+{
+  "form": "Sous-formulaires/Fibroscopie",
+  "id": "16C95839-3E81-400E-BED8-7AB1289765E1",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Fibroscopie",
+          "type": "text-field",
+          "shortLabel": "Fibroscopie",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

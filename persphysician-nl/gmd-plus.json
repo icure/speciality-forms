@@ -1,0 +1,445 @@
+{
+  "form": "Zorgprotocoles/GMD Plus",
+  "id": "c976c314-b3d4-9c15-51fa-d7108b76c5bf",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Start DMG +",
+              "type": "checkbox",
+              "shortLabel": "Start DMG +",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "Start DMG +": "Start DMG +"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Tabak",
+              "type": "measure-field",
+              "shortLabel": "Tabak",
+              "grows": true,
+              "span": 11,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "gemotiveerd om te stoppen?",
+              "type": "text-field",
+              "shortLabel": "gemotiveerd om te stoppen?",
+              "grows": true,
+              "span": 13,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Alcoholgebruik",
+              "type": "text-field",
+              "shortLabel": "Alcoholgebruik",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Bent u voldoende te bewegen?",
+              "type": "text-field",
+              "shortLabel": "Bent u voldoende te bewegen?",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Bent u gemotiveerd om te bewegen, te sporten?",
+              "type": "text-field",
+              "shortLabel": "Bent u gemotiveerd om te bewegen, te sporten?",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Eet je groenten of fruit?",
+              "type": "text-field",
+              "shortLabel": "Eet je groenten of fruit?",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Geïnteresseerd in de dingen? Activiteiten?",
+              "type": "text-field",
+              "shortLabel": "Geïnteresseerd in de dingen? Activiteiten?",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Hoe je je voelt de laatste tijd?",
+              "type": "text-field",
+              "shortLabel": "Hoe je je voelt de laatste tijd?",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Maat",
+              "type": "measure-field",
+              "shortLabel": "Maat",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Gewicht",
+              "type": "measure-field",
+              "shortLabel": "Gewicht",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "BMI",
+              "type": "number-field",
+              "shortLabel": "BMI",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Buikomtrek",
+              "type": "measure-field",
+              "shortLabel": "Buikomtrek",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Systolische bloeddruk",
+              "type": "measure-field",
+              "shortLabel": "TA",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Diastolische bloeddruk",
+              "type": "measure-field",
+              "shortLabel": "/",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "CV risicoscore",
+              "type": "measure-field",
+              "shortLabel": "Score CV",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "CV familiegeschiedenis",
+              "type": "token-field",
+              "shortLabel": "CV familiegeschiedenis",
+              "grows": true,
+              "span": 8,
+              "rowSpan": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Familiegeschiedenis van diabetes",
+              "type": "token-field",
+              "shortLabel": "Familiegeschiedenis van diabetes",
+              "grows": true,
+              "span": 9,
+              "rowSpan": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Familiale antecedenten",
+              "type": "token-field",
+              "shortLabel": "Andere familiegeschiedenis",
+              "grows": true,
+              "span": 7,
+              "rowSpan": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Familiegeschiedenis Nieuwe Colon",
+              "type": "token-field",
+              "shortLabel": "Familiegeschiedenis Nieuwe Colon",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Familiegeschiedenis Polipe Colon",
+              "type": "token-field",
+              "shortLabel": "Familiegeschiedenis Polipe Colon",
+              "grows": true,
+              "span": 15,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Datum Griep",
+              "type": "date-picker",
+              "shortLabel": "Griep",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Deadline griep",
+              "type": "date-picker",
+              "shortLabel": "Rijpheid",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Datum Pneumokokken",
+              "type": "date-picker",
+              "shortLabel": "Pneumokokken",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Deadline pneumococces",
+              "type": "date-picker",
+              "shortLabel": "Rijpheid",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Datum Tetanus",
+              "type": "date-picker",
+              "shortLabel": "Tetanus",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Deadline tetanus",
+              "type": "date-picker",
+              "shortLabel": "Rijpheid",
+              "grows": true,
+              "span": 18,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Fecaal occult bloed-test",
+              "type": "checkbox",
+              "shortLabel": "FOBT",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "FOBT": "FOBT"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Deadline FOBT",
+              "type": "date-picker",
+              "shortLabel": "Rijpheid",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Mammotest",
+              "type": "checkbox",
+              "shortLabel": "Mammotest",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "options": {
+                "Mammotest": "Mammotest"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Deadline Mammografie",
+              "type": "date-picker",
+              "shortLabel": "Rijpheid",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Colonoscopie",
+              "type": "checkbox",
+              "shortLabel": "Colonoscopie",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "Colonoscopie": "Colonoscopie"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Deadline Colonoscopie",
+              "type": "date-picker",
+              "shortLabel": "Rijpheid",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Uitstrijkje van de baarmoederhals",
+              "type": "checkbox",
+              "shortLabel": "Uitstrijkje",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "options": {
+                "Uitstrijkje": "Uitstrijkje"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Deadline uitstrijkje nek",
+              "type": "date-picker",
+              "shortLabel": "Rijpheid",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Acetylsalicylzuur",
+              "type": "date-picker",
+              "shortLabel": "Acetylsalicylzuur",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

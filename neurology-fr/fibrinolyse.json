@@ -1,0 +1,482 @@
+{
+  "form": "Neurologie AVC/Fibrinolyse",
+  "id": "EF878763-DF7D-4B96-8EBA-BD8BD0D4A05C",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Fênetre ﬁbrinolyse",
+              "type": "dropdown-field",
+              "shortLabel": "Fênetre ﬁbrinolyse",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "LEGACY|<1 heure dès début des symptômes|1": "<1 heure dès début des symptômes",
+                "LEGACY|1-3 heures|1": "1-3 heures",
+                "LEGACY|3-4,5 heures|1": "3-4,5 heures",
+                "LEGACY|non|1": "non"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Candidat ﬁbrinolyse",
+              "type": "checkbox",
+              "shortLabel": "Candidat ﬁbrinolyse",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "Candidat ﬁbrinolyse": "Candidat ﬁbrinolyse"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Contreindications Générales",
+              "type": "dropdown-field",
+              "shortLabel": "Contreindications Générales",
+              "grows": true,
+              "span": 21,
+              "readonly": false,
+              "options": {
+                "LEGACY|Antécedent dʼHemorragie Intracranienne/ HSA associée à un|1": "Antécedent dʼHemorragie Intracranienne/ HSA associée à un",
+                "LEGACY|anévrysme|1": "anévrysme",
+                "LEGACY|Trouble hémorragique signiﬁcatif actuel ou au cours des six derniers|1": "Trouble hémorragique signiﬁcatif actuel ou au cours des six derniers",
+                "LEGACY|mois|1": "mois",
+                "LEGACY|INR >1,7|1": "INR >1,7",
+                "LEGACY|Grossesse ou postpartum|1": "Grossesse ou postpartum",
+                "LEGACY|Infarctus de Myocarde< 1 mois|1": "Infarctus de Myocarde< 1 mois",
+                "LEGACY|Chirurgie Majeure< 15 jours|1": "Chirurgie Majeure< 15 jours",
+                "LEGACY|Antécedent de lésion sévère du SNC|1": "Antécedent de lésion sévère du SNC",
+                "LEGACY|Massage cardiaque externe traumatique< 10 jours|1": "Massage cardiaque externe traumatique< 10 jours",
+                "LEGACY|Accouchement|1": "Accouchement",
+                "LEGACY|Ponction dʼun vaisseau non accessible à la compression|1": "Ponction dʼun vaisseau non accessible à la compression",
+                "LEGACY|HTA sévère non controlée|1": "HTA sévère non controlée",
+                "LEGACY|Endocardite bactérienne|1": "Endocardite bactérienne",
+                "LEGACY|Péricardite|1": "Péricardite",
+                "LEGACY|Pancréatite aiguë|1": "Pancréatite aiguë",
+                "LEGACY|Ulcéres gastro-intestinaux< 3 mois/ varices oesophagiennes|1": "Ulcéres gastro-intestinaux< 3 mois/ varices oesophagiennes",
+                "LEGACY|Hépatopathie sévère|1": "Hépatopathie sévère",
+                "LEGACY|Néoplasie à haut risque hémorragique|1": "Néoplasie à haut risque hémorragique"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Contreindications Neurologiques",
+              "type": "dropdown-field",
+              "shortLabel": "Contreindications Neurologiques",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "LEGACY|Déﬁcit neurologique en regression|1": "Déﬁcit neurologique en regression",
+                "LEGACY|NIHSS>25|1": "NIHSS>25",
+                "LEGACY|Crise dʼepilepsie à lʼinstauration|1": "Crise dʼepilepsie à lʼinstauration",
+                "LEGACY|AVC ou trauma cranien <3 mois|1": "AVC ou trauma cranien <3 mois",
+                "LEGACY|HIC au Ct|1": "HIC au Ct",
+                "LEGACY|Plaquettes <100.000/mm3|1": "Plaquettes <100.000/mm3"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Patient sortant des critères dʼâge",
+              "type": "dropdown-field",
+              "shortLabel": "Patient sortant des critères dʼâge",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "LEGACY|trop jeune|1": "trop jeune",
+                "LEGACY|>80 ans|1": ">80 ans"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Dose dʼActilyse",
+              "type": "measure-field",
+              "shortLabel": "Dose dʼActilyse",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Doute diagnostique",
+              "type": "checkbox",
+              "shortLabel": "Doute diagnostique",
+              "grows": true,
+              "span": 10,
+              "readonly": false,
+              "options": {
+                "Doute diagnostique": "Doute diagnostique"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Neurologue inconfortable",
+              "type": "checkbox",
+              "shortLabel": "Neurologue inconfortable",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "Neurologue inconfortable": "Neurologue inconfortable"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Epuisement fenêrtre",
+              "type": "checkbox",
+              "shortLabel": "Epuisement fenêrtre",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Epuisement fenêrtre": "Epuisement fenêrtre"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Heure du bolus dʼActilyse",
+              "type": "date-picker",
+              "shortLabel": "H. du bolus dʼActilyse",
+              "grows": true,
+              "span": 24,
+              "rowSpan": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "HTA rebelle",
+              "type": "checkbox",
+              "shortLabel": "HTA rebelle",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "HTA rebelle": "HTA rebelle"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Réaction allergique",
+              "type": "checkbox",
+              "shortLabel": "Réaction allergique",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "Réaction allergique": "Réaction allergique"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Saignement actif",
+              "type": "checkbox",
+              "shortLabel": "Saignement actif",
+              "grows": true,
+              "span": 11,
+              "readonly": false,
+              "options": {
+                "Saignement actif": "Saignement actif"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Hémorragie intracranienne",
+              "type": "checkbox",
+              "shortLabel": "Hémorragie intracranienne",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "Hémorragie intracranienne": "Hémorragie intracranienne"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "NIHSS avant ﬁbrinolyse",
+              "type": "number-field",
+              "shortLabel": "NIHSS avant ﬁbrinolyse",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "NIHSS 1H après",
+              "type": "number-field",
+              "shortLabel": "NIHSS 1H après",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "NIHSS à 24Hs",
+              "type": "number-field",
+              "shortLabel": "NIHSS à 24Hs",
+              "grows": true,
+              "span": 10,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "NIHSS à 1 semaine",
+              "type": "number-field",
+              "shortLabel": "NIHSS à 1 semaine",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Pas lésion CT Scan à 3 heures",
+              "type": "checkbox",
+              "shortLabel": "Pas lésion",
+              "grows": true,
+              "span": 1,
+              "readonly": false,
+              "options": {
+                "Pas lésion": "Pas lésion"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Lésion en voie dʼinstallation CT Scan à 3 heures",
+              "type": "checkbox",
+              "shortLabel": "Lésion en voie dʼinstallation",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "Lésion en voie dʼinstallation": "Lésion en voie dʼinstallation"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Hypersignal ACM CT Scan à 3 heures",
+              "type": "checkbox",
+              "shortLabel": "Hypersignal ACM",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "Hypersignal ACM": "Hypersignal ACM"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Transformation hémorragique précoce CT Scan à 3 heures",
+              "type": "dropdown-field",
+              "shortLabel": "Transformation hémor. préc.",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "LEGACY|HI 1: petéchies simples|1": "HI 1: petéchies simples",
+                "LEGACY|HI 2: petéchies conﬂuentes|1": "HI 2: petéchies conﬂuentes",
+                "LEGACY|PH 1: < 30% de la zone infarcie avec effet de masse modérée|1": "PH 1: < 30% de la zone infarcie avec effet de masse modérée",
+                "LEGACY|PH 2: > 30% de la zone infarcie avec effet de mase considérable|1": "PH 2: > 30% de la zone infarcie avec effet de mase considérable",
+                "LEGACY|HIC symptomatique|1": "HIC symptomatique",
+                "LEGACY|Décès|1": "Décès"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Hypodensité parenchymateuse CT Scan à 3 heures",
+              "type": "checkbox",
+              "shortLabel": "Hypodensité parenchymateuse",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "Hypodensité parenchymateuse": "Hypodensité parenchymateuse"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Recanalisation ACM CT Scan à 3 heures",
+              "type": "checkbox",
+              "shortLabel": "Recanalisation ACM",
+              "grows": true,
+              "span": 18,
+              "readonly": false,
+              "options": {
+                "Recanalisation ACM": "Recanalisation ACM"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Pas lésion CT Scan à 24 heures",
+              "type": "checkbox",
+              "shortLabel": "Pas lésion",
+              "grows": true,
+              "span": 1,
+              "readonly": false,
+              "options": {
+                "Pas lésion": "Pas lésion"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Lésion en voie dʼinstallation CT Scan à 24 heures",
+              "type": "checkbox",
+              "shortLabel": "Lésion en voie dʼinstallation",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "Lésion en voie dʼinstallation": "Lésion en voie dʼinstallation"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Hypersignal ACM CT Scan à 24 heures",
+              "type": "checkbox",
+              "shortLabel": "Hypersignal ACM",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "Hypersignal ACM": "Hypersignal ACM"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Transformation hémorragique précoce CT Scan à 24 heures",
+              "type": "dropdown-field",
+              "shortLabel": "Transformation hémor. préc.",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "LEGACY|HI 1: petéchies simples|1": "HI 1: petéchies simples",
+                "LEGACY|HI 2: petéchies conﬂuentes|1": "HI 2: petéchies conﬂuentes",
+                "LEGACY|PH 1: < 30% de la zone infarcie avec effet de masse modérée|1": "PH 1: < 30% de la zone infarcie avec effet de masse modérée",
+                "LEGACY|PH 2: > 30% de la zone infarcie avec effet de mase considérable|1": "PH 2: > 30% de la zone infarcie avec effet de mase considérable",
+                "LEGACY|HIC symptomatique|1": "HIC symptomatique",
+                "LEGACY|Décès|1": "Décès"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Hypodensité parenchymateuse CT Scan à 24 heures",
+              "type": "checkbox",
+              "shortLabel": "Hypodensité parenchymateuse",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "Hypodensité parenchymateuse": "Hypodensité parenchymateuse"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Recanalisation ACM CT Scan à 24 heures",
+              "type": "checkbox",
+              "shortLabel": "Recanalisation ACM",
+              "grows": true,
+              "span": 18,
+              "readonly": false,
+              "options": {
+                "Recanalisation ACM": "Recanalisation ACM"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Sonothrombolyse",
+              "type": "dropdown-field",
+              "shortLabel": "Sonothrombolyse",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

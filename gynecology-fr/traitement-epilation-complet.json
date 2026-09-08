@@ -1,0 +1,568 @@
+{
+  "form": "Epilation définitive SOPRANO/Traitement épilation complet",
+  "id": "E3B7DA43-DF3C-4262-9FFD-B06D60A714DD",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "phototype peau",
+          "type": "dropdown-field",
+          "shortLabel": "phototype peau",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "options": {
+            "LEGACY|I TRES CLAIR|1": "I TRES CLAIR",
+            "LEGACY|II CLAIR|1": "II CLAIR",
+            "LEGACY|III INTERMEDIAIRE|1": "III INTERMEDIAIRE",
+            "LEGACY|IV MAT|1": "IV MAT",
+            "LEGACY|V BRUN|1": "V BRUN",
+            "LEGACY|VI NOIR|1": "VI NOIR"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Hirsutisme?",
+          "type": "checkbox",
+          "shortLabel": "Hirsutisme?",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Hirsutisme?": "Hirsutisme?"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "EVALUATION HORMONALE si HIRSUTISME?",
+          "type": "dropdown-field",
+          "shortLabel": "EVALUATION HORMONALE si HIRSUTISME?",
+          "grows": true,
+          "span": 13,
+          "readonly": false,
+          "options": {
+            "LEGACY|NORMALE|1": "NORMALE",
+            "LEGACY|ANORMALE|1": "ANORMALE"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "consentement signé",
+          "type": "checkbox",
+          "shortLabel": "consentement signé",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "consentement signé": "consentement signé"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Zone traitée",
+          "type": "dropdown-field",
+          "shortLabel": "Zone traitée",
+          "grows": true,
+          "span": 22,
+          "readonly": false,
+          "options": {
+            "LEGACY|Aisselles|1": "Aisselles",
+            "LEGACY|1/2 Jambes|1": "1/2 Jambes",
+            "LEGACY|Cuisses|1": "Cuisses",
+            "LEGACY|Bikini simple|1": "Bikini simple",
+            "LEGACY|Bikini complet|1": "Bikini complet",
+            "LEGACY|Périnée|1": "Périnée",
+            "LEGACY|Dos|1": "Dos",
+            "LEGACY|Torse|1": "Torse",
+            "LEGACY|Lèvre sup|1": "Lèvre sup",
+            "LEGACY|Sourcils|1": "Sourcils",
+            "LEGACY|Nuque|1": "Nuque",
+            "LEGACY|Barbe|1": "Barbe",
+            "LEGACY|Avant-bras|1": "Avant-bras",
+            "LEGACY|Bras|1": "Bras",
+            "LEGACY|Favoris|1": "Favoris",
+            "LEGACY|Menton|1": "Menton",
+            "LEGACY|indéfini|1": "indéfini"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "subform",
+          "id": "3F63E7AB-0DD9-40DA-AA01-2A985CE272B4",
+          "shortLabel": "Epilation définitive SOPRANO",
+          "forms": {
+            "Epilation définitive SOPRANO/Sous formulaire épilation HR": {
+              "form": "Epilation définitive SOPRANO/Sous formulaire épilation HR",
+              "id": "93032A7F-C0F9-43ED-A77D-841F17E4244A",
+              "sections": [
+                {
+                  "section": "Main",
+                  "fields": [
+                    {
+                      "clazz": "field",
+                      "field": "date traitement",
+                      "type": "date-picker",
+                      "shortLabel": "date traitement",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Opérateur",
+                      "type": "dropdown-field",
+                      "shortLabel": "Opérateur",
+                      "grows": true,
+                      "span": 9,
+                      "readonly": false,
+                      "options": {
+                        "LEGACY|Cendrine|1": "Cendrine",
+                        "LEGACY|Catherine|1": "Catherine",
+                        "LEGACY|Dr Norgaard|1": "Dr Norgaard",
+                        "LEGACY|Dr Jabri|1": "Dr Jabri"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": " pièce à main",
+                      "type": "dropdown-field",
+                      "shortLabel": " pièce à main",
+                      "grows": true,
+                      "span": 9,
+                      "readonly": false,
+                      "options": {
+                        "LEGACY|SPEED|1": "SPEED",
+                        "LEGACY|MINI|1": "MINI"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "phototype peau",
+                      "type": "dropdown-field",
+                      "shortLabel": "phototype du jour",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "options": {
+                        "LEGACY|I TRES CLAIR|1": "I TRES CLAIR",
+                        "LEGACY|II CLAIR|1": "II CLAIR",
+                        "LEGACY|III INTERMEDIAIRE|1": "III INTERMEDIAIRE",
+                        "LEGACY|IV MAT|1": "IV MAT",
+                        "LEGACY|V BRUN|1": "V BRUN",
+                        "LEGACY|VI NOIR|1": "VI NOIR"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Réglage HR \"skin type\"",
+                      "type": "dropdown-field",
+                      "shortLabel": "Réglage HR \"skin type\"",
+                      "grows": true,
+                      "span": 11,
+                      "readonly": false,
+                      "options": {
+                        "LEGACY|LIGHT|1": "LIGHT",
+                        "LEGACY|DARK|1": "DARK"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "fréquence HR",
+                      "type": "dropdown-field",
+                      "shortLabel": "fréquence HR",
+                      "grows": true,
+                      "span": 7,
+                      "readonly": false,
+                      "options": {
+                        "LEGACY|0,5|1": "0,5",
+                        "LEGACY|1|1": "1",
+                        "LEGACY|2|1": "2",
+                        "LEGACY|3|1": "3"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Fluence",
+                      "type": "number-field",
+                      "shortLabel": "Fluence",
+                      "grows": true,
+                      "span": 13,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Surface de traitement",
+                      "type": "number-field",
+                      "shortLabel": "Surface de traitement",
+                      "grows": true,
+                      "span": 11,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Conclusion séance épilation",
+                      "type": "text-field",
+                      "shortLabel": "Conclusion séance épilation",
+                      "grows": true,
+                      "span": 24,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true
+                    }
+                  ]
+                }
+              ]
+            },
+            "Epilation définitive SOPRANO/Sous formulaire épilation STAC": {
+              "form": "Epilation définitive SOPRANO/Sous formulaire épilation STAC",
+              "id": "1E1F9F52-9EC5-4E51-A8A1-C3E9890B8B25",
+              "sections": [
+                {
+                  "section": "Main",
+                  "fields": [
+                    {
+                      "clazz": "field",
+                      "field": "date traitement",
+                      "type": "date-picker",
+                      "shortLabel": "date traitement",
+                      "grows": true,
+                      "span": 5,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Opérateur",
+                      "type": "dropdown-field",
+                      "shortLabel": "Opérateur",
+                      "grows": true,
+                      "span": 9,
+                      "readonly": false,
+                      "options": {
+                        "LEGACY|Cendrine|1": "Cendrine",
+                        "LEGACY|Catherine|1": "Catherine",
+                        "LEGACY|Dr Norgaard|1": "Dr Norgaard",
+                        "LEGACY|Dr Jabri|1": "Dr Jabri"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "phototype peau",
+                      "type": "dropdown-field",
+                      "shortLabel": "phototype peau du jour",
+                      "grows": true,
+                      "span": 10,
+                      "readonly": false,
+                      "options": {
+                        "LEGACY|I TRES CLAIR|1": "I TRES CLAIR",
+                        "LEGACY|II CLAIR|1": "II CLAIR",
+                        "LEGACY|III INTERMEDIAIRE|1": "III INTERMEDIAIRE",
+                        "LEGACY|IV MAT|1": "IV MAT",
+                        "LEGACY|V BRUN|1": "V BRUN",
+                        "LEGACY|VI NOIR|1": "VI NOIR"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Mode Stack",
+                      "type": "dropdown-field",
+                      "shortLabel": "Mode Stack",
+                      "grows": true,
+                      "span": 14,
+                      "readonly": false,
+                      "options": {
+                        "LEGACY|2|1": "2",
+                        "LEGACY|3|1": "3",
+                        "LEGACY|4|1": "4",
+                        "LEGACY|5|1": "5"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": " pièce à main",
+                      "type": "dropdown-field",
+                      "shortLabel": " pièce à main",
+                      "grows": true,
+                      "span": 10,
+                      "readonly": false,
+                      "options": {
+                        "LEGACY|SPEED|1": "SPEED",
+                        "LEGACY|MINI|1": "MINI"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Fluence",
+                      "type": "number-field",
+                      "shortLabel": "Fluence",
+                      "grows": true,
+                      "span": 2,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Surface de traitement",
+                      "type": "number-field",
+                      "shortLabel": "Surface de traitement",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Energie totale délivrée",
+                      "type": "number-field",
+                      "shortLabel": "NRJ tot (Kj)",
+                      "grows": true,
+                      "span": 7,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "NRJ/cm2 (Kj/cm2)",
+                      "type": "number-field",
+                      "shortLabel": "NRJ/cm2 (Kj/cm2)",
+                      "grows": true,
+                      "span": 7,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Conclusion séance épilation",
+                      "type": "text-field",
+                      "shortLabel": "Conclusion séance épilation",
+                      "grows": true,
+                      "span": 24,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true
+                    }
+                  ]
+                }
+              ]
+            },
+            "Epilation définitive SOPRANO/Sous-formulaire épilation SHR": {
+              "form": "Epilation définitive SOPRANO/Sous-formulaire épilation SHR",
+              "id": "43378C7D-8943-46BC-B3B0-CFEFE1CF7A13",
+              "sections": [
+                {
+                  "section": "Main",
+                  "fields": [
+                    {
+                      "clazz": "field",
+                      "field": "date traitement",
+                      "type": "date-picker",
+                      "shortLabel": "date traitement",
+                      "grows": true,
+                      "span": 5,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Opérateur",
+                      "type": "dropdown-field",
+                      "shortLabel": "Opérateur",
+                      "grows": true,
+                      "span": 9,
+                      "readonly": false,
+                      "options": {
+                        "LEGACY|Cendrine|1": "Cendrine",
+                        "LEGACY|Catherine|1": "Catherine",
+                        "LEGACY|Dr Norgaard|1": "Dr Norgaard",
+                        "LEGACY|Dr Jabri|1": "Dr Jabri"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "phototype peau",
+                      "type": "dropdown-field",
+                      "shortLabel": "phototype peau du jour",
+                      "grows": true,
+                      "span": 10,
+                      "readonly": false,
+                      "options": {
+                        "LEGACY|I TRES CLAIR|1": "I TRES CLAIR",
+                        "LEGACY|II CLAIR|1": "II CLAIR",
+                        "LEGACY|III INTERMEDIAIRE|1": "III INTERMEDIAIRE",
+                        "LEGACY|IV MAT|1": "IV MAT",
+                        "LEGACY|V BRUN|1": "V BRUN",
+                        "LEGACY|VI NOIR|1": "VI NOIR"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Fluence",
+                      "type": "number-field",
+                      "shortLabel": "Fluence",
+                      "grows": true,
+                      "span": 2,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Surface de traitement",
+                      "type": "number-field",
+                      "shortLabel": "Surface de traitement",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Energie totale délivrée",
+                      "type": "number-field",
+                      "shortLabel": "NRJ tot (Kj)",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": " pièce à main",
+                      "type": "dropdown-field",
+                      "shortLabel": " pièce à main",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "options": {
+                        "LEGACY|SPEED|1": "SPEED",
+                        "LEGACY|MINI|1": "MINI"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Conclusion séance épilation",
+                      "type": "text-field",
+                      "shortLabel": "Conclusion séance épilation",
+                      "grows": true,
+                      "span": 24,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true
+                    }
+                  ]
+                }
+              ]
+            },
+            "Epilation définitive SOPRANO/Sous-formulaire évaluation session précédente": {
+              "form": "Epilation définitive SOPRANO/Sous-formulaire évaluation session précédente",
+              "id": "98C74B5F-CC21-4FA9-AF94-15973B585714",
+              "sections": [
+                {
+                  "section": "Main",
+                  "fields": [
+                    {
+                      "clazz": "field",
+                      "field": "date traitement",
+                      "type": "date-picker",
+                      "shortLabel": "date traitement",
+                      "grows": true,
+                      "span": 24,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Evaluation subjective pilosité",
+                      "type": "text-field",
+                      "shortLabel": "Evaluation subjective pilosité",
+                      "grows": true,
+                      "span": 24,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Evaluation objective pilosité",
+                      "type": "text-field",
+                      "shortLabel": "Evaluation objective pilosité",
+                      "grows": true,
+                      "span": 24,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "span": 24,
+          "rowSpan": 1,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "Conclusion traitement complet épilation",
+          "type": "text-field",
+          "shortLabel": "Conclusion traitement complet épilation",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

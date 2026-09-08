@@ -1,0 +1,52 @@
+{
+  "form": "sous-formulaires organisation salle d'op/autre examen",
+  "id": "4B1B02A2-3D88-4590-904D-43010DA6AA50",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "autre examen",
+          "type": "text-field",
+          "shortLabel": "autre examen",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "autre examen a faire",
+          "type": "dropdown-field",
+          "shortLabel": "a faire",
+          "grows": true,
+          "span": 12,
+          "readonly": false,
+          "options": {
+            "LEGACY|à faire en ambulatoire|1": "à faire en ambulatoire",
+            "LEGACY|à faire en hospitalisation|1": "à faire en hospitalisation",
+            "LEGACY|fait|1": "fait"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "autre examen reçu",
+          "type": "checkbox",
+          "shortLabel": "examen reçu",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "examen reçu": "examen reçu"
+          },
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

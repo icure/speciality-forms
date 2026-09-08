@@ -1,0 +1,22 @@
+{
+  "form": "Subformulieren/HepB-vaccin",
+  "id": "76B55BAD-F213-476A-81E0-DF9F5AE915BC",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Vaccin",
+          "type": "text-field",
+          "shortLabel": "HepB-vaccin",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

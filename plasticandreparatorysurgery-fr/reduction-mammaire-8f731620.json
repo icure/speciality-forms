@@ -1,0 +1,144 @@
+{
+  "form": "sous-formulaires CRO-sein/réduction mammaire",
+  "id": "85BEF814-7A6C-45AD-B7B4-8ADB8F731620",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "nouveau point A",
+          "type": "measure-field",
+          "shortLabel": "nouveau point A",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "cicatrice résiduelle du sein droit",
+          "type": "dropdown-field",
+          "shortLabel": "cicatrice résiduelle du sein droit",
+          "grows": true,
+          "span": 18,
+          "readonly": false,
+          "options": {
+            "LEGACY|péri-aréolaire supérieure|1": "péri-aréolaire supérieure",
+            "LEGACY|péri-aréolaire|1": "péri-aréolaire",
+            "LEGACY|verticale selon Lassus-Lejour|1": "verticale selon Lassus-Lejour",
+            "LEGACY|ancre de marine|1": "ancre de marine"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "technique chirurgicale",
+          "type": "text-field",
+          "shortLabel": "pédicule ",
+          "grows": true,
+          "span": 13,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "cicatrice résiduelle du sein gauche",
+          "type": "dropdown-field",
+          "shortLabel": "cicatrice résiduelle du sein gauche",
+          "grows": true,
+          "span": 11,
+          "readonly": false,
+          "options": {
+            "LEGACY|péri-aréolaire supérieure|1": "péri-aréolaire supérieure",
+            "LEGACY|péri-aréoliare|1": "péri-aréoliare",
+            "LEGACY|verticale selon lassus-Lejour|1": "verticale selon lassus-Lejour",
+            "LEGACY|ancre de marine|1": "ancre de marine"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "résection droite",
+          "type": "measure-field",
+          "shortLabel": "résection droite",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "résection gauche",
+          "type": "measure-field",
+          "shortLabel": "résection gauche",
+          "grows": true,
+          "span": 7,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "liposuccion associée",
+          "type": "checkbox",
+          "shortLabel": "liposuccion associée",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "liposuccion associée": "liposuccion associée"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "volume liposuccé",
+          "type": "measure-field",
+          "shortLabel": "volume liposuccé par sein",
+          "grows": true,
+          "span": 7,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "drainage",
+          "type": "dropdown-field",
+          "shortLabel": "drainage",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "LEGACY|NON|1": "NON",
+            "LEGACY|lamelle|1": "lamelle",
+            "LEGACY|drain aspiratif de Redon|1": "drain aspiratif de Redon",
+            "LEGACY|drain NON aspiratif|1": "drain NON aspiratif",
+            "LEGACY|drain de Blake|1": "drain de Blake"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "traitement post-op",
+          "type": "items-list-field",
+          "shortLabel": "traitement post-op",
+          "grows": true,
+          "span": 24,
+          "rowSpan": 3,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

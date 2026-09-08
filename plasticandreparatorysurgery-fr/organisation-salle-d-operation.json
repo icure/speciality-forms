@@ -1,0 +1,961 @@
+{
+  "form": "Organisation salle d'op/organisation salle d'opération",
+  "id": "A0A6F105-B2DE-434D-957F-CFEBB19AC210",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "subform",
+          "id": "05E90551-927B-4F92-B814-C07F99CC895D",
+          "shortLabel": "intervention chirurgicale prévue /générique",
+          "forms": {
+            "sous-formulaires organisation salle d'op/intervention chirurgicale prévue /générique": {
+              "form": "sous-formulaires organisation salle d'op/intervention chirurgicale prévue /générique",
+              "id": "3DF5E418-7691-47AB-AEAE-FEE1F75FC301",
+              "sections": [
+                {
+                  "section": "Main",
+                  "fields": [
+                    {
+                      "clazz": "field",
+                      "field": "Type d'intervention ",
+                      "type": "text-field",
+                      "shortLabel": "intervention programée",
+                      "grows": true,
+                      "span": 24,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "matériel à prévoir",
+                      "type": "text-field",
+                      "shortLabel": "matériel à prévoir",
+                      "grows": true,
+                      "span": 24,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "commande d'implant",
+                      "type": "checkbox",
+                      "shortLabel": "commande d'implant",
+                      "grows": true,
+                      "span": 3,
+                      "readonly": false,
+                      "options": {
+                        "commande d'implant": "commande d'implant"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "implant",
+                      "type": "text-field",
+                      "shortLabel": "implant",
+                      "grows": true,
+                      "span": 21,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "note",
+                      "type": "text-field",
+                      "shortLabel": "note",
+                      "grows": true,
+                      "span": 24,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "span": 24,
+          "rowSpan": 1,
+          "labels": {}
+        },
+        {
+          "clazz": "subform",
+          "id": "3172745E-9007-48CD-8E68-C3CE69442B44",
+          "shortLabel": "sous-formulaires organisation salle d'op",
+          "forms": {
+            "sous-formulaires organisation salle d'op/Lieu de l'intervention - Clinic135": {
+              "form": "sous-formulaires organisation salle d'op/Lieu de l'intervention - Clinic135",
+              "id": "A5893707-A123-4C8E-B822-AE1626020010",
+              "sections": [
+                {
+                  "section": "Main",
+                  "fields": [
+                    {
+                      "clazz": "field",
+                      "field": "lieu d'intervention",
+                      "type": "dropdown-field",
+                      "shortLabel": "Lieu d'intervention",
+                      "grows": true,
+                      "span": 9,
+                      "readonly": false,
+                      "options": {
+                        "LEGACY|Clinic 135|1": "Clinic 135",
+                        "LEGACY|Clinique du Parc Léopold|1": "Clinique du Parc Léopold",
+                        "LEGACY|Hôpital de Braine l'Alleud|1": "Hôpital de Braine l'Alleud"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Date opératoire programmée",
+                      "type": "date-picker",
+                      "shortLabel": "Date opératoire programmée",
+                      "grows": true,
+                      "span": 15,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Chirurgien",
+                      "type": "dropdown-field",
+                      "shortLabel": "Chirurgien",
+                      "grows": true,
+                      "span": 9,
+                      "readonly": false,
+                      "options": {
+                        "LEGACY|Dr Daniel MEUNIER|1": "Dr Daniel MEUNIER",
+                        "LEGACY|Dr Thierry CLEVE|1": "Dr Thierry CLEVE",
+                        "LEGACY|Dr Axel deVOOGHT|1": "Dr Axel deVOOGHT"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "temps opératoire",
+                      "type": "measure-field",
+                      "shortLabel": "temps opératoire",
+                      "grows": true,
+                      "span": 15,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Anesthésiste",
+                      "type": "dropdown-field",
+                      "shortLabel": "Anesthésiste",
+                      "grows": true,
+                      "span": 9,
+                      "readonly": false,
+                      "options": {
+                        "LEGACY|Phil HENDRICKX|1": "Phil HENDRICKX",
+                        "LEGACY|Amid EL AFIA|1": "Amid EL AFIA",
+                        "LEGACY|Bernard VANDERICK|1": "Bernard VANDERICK",
+                        "LEGACY|/|1": "/"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "anesthésie",
+                      "type": "dropdown-field",
+                      "shortLabel": "anesthésie",
+                      "grows": true,
+                      "span": 15,
+                      "readonly": false,
+                      "options": {
+                        "LEGACY|anesthésie locale|1": "anesthésie locale",
+                        "LEGACY|anesthésie générale|1": "anesthésie générale",
+                        "LEGACY|rachianesthésie|1": "rachianesthésie",
+                        "LEGACY|anesthésie locale avec sédation|1": "anesthésie locale avec sédation"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Consultation Post-op",
+                      "type": "date-picker",
+                      "shortLabel": "Consultation post-op. prévue",
+                      "grows": true,
+                      "span": 10,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "Heure consult post-op",
+                      "type": "text-field",
+                      "shortLabel": "Heure consult post-op",
+                      "grows": true,
+                      "span": 14,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "prix de l'intervention",
+                      "type": "measure-field",
+                      "shortLabel": "prix de l'intervention",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "acompte",
+                      "type": "measure-field",
+                      "shortLabel": "acompte",
+                      "grows": true,
+                      "span": 9,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "solde",
+                      "type": "measure-field",
+                      "shortLabel": "solde",
+                      "grows": true,
+                      "span": 7,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true
+                    }
+                  ]
+                }
+              ]
+            },
+            "sous-formulaires organisation salle d'op/Lieu d'intervention - Parc Léopold": {
+              "form": "sous-formulaires organisation salle d'op/Lieu d'intervention - Parc Léopold",
+              "id": "A9312031-2A0F-43A3-967A-E6163514C049",
+              "sections": [
+                {
+                  "section": "Main",
+                  "fields": [
+                    {
+                      "clazz": "group",
+                      "group": "Section 1",
+                      "fields": [
+                        {
+                          "clazz": "field",
+                          "field": "lieu d'intervention",
+                          "type": "dropdown-field",
+                          "shortLabel": "Lieu d'intervention",
+                          "grows": true,
+                          "span": 10,
+                          "readonly": false,
+                          "options": {
+                            "LEGACY|Clinic 135|1": "Clinic 135",
+                            "LEGACY|Clinique du Parc Léopold|1": "Clinique du Parc Léopold",
+                            "LEGACY|Hôpital de Braine l'Alleud|1": "Hôpital de Braine l'Alleud"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Date opératoire programmée",
+                          "type": "date-picker",
+                          "shortLabel": "Date opératoire programmée",
+                          "grows": true,
+                          "span": 14,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Chirurgien",
+                          "type": "dropdown-field",
+                          "shortLabel": "Chirurgien",
+                          "grows": true,
+                          "span": 10,
+                          "readonly": false,
+                          "options": {
+                            "LEGACY|Dr Daniel MEUNIER|1": "Dr Daniel MEUNIER",
+                            "LEGACY|Dr Thierry CLEVE|1": "Dr Thierry CLEVE",
+                            "LEGACY|Dr Axel deVOOGHT|1": "Dr Axel deVOOGHT"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "temps opératoire",
+                          "type": "measure-field",
+                          "shortLabel": "temps opératoire",
+                          "grows": true,
+                          "span": 14,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Anesthésiste",
+                          "type": "dropdown-field",
+                          "shortLabel": "Anesthésiste",
+                          "grows": true,
+                          "span": 10,
+                          "readonly": false,
+                          "options": {
+                            "LEGACY|Amid EL AFIA|1": "Amid EL AFIA",
+                            "LEGACY|Valery Macquaire|1": "Valery Macquaire",
+                            "LEGACY|Danièle Yazbeck|1": "Danièle Yazbeck",
+                            "LEGACY|Jean-Philippe Pahaut|1": "Jean-Philippe Pahaut",
+                            "LEGACY|/|1": "/"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "anesthésie",
+                          "type": "dropdown-field",
+                          "shortLabel": "anesthésie",
+                          "grows": true,
+                          "span": 14,
+                          "readonly": false,
+                          "options": {
+                            "LEGACY|anesthésie locale|1": "anesthésie locale",
+                            "LEGACY|anesthésie générale|1": "anesthésie générale",
+                            "LEGACY|rachianesthésie|1": "rachianesthésie",
+                            "LEGACY|anesthésie locale avec sédation|1": "anesthésie locale avec sédation"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "heure d'intervention",
+                          "type": "text-field",
+                          "shortLabel": "heure d'intervention",
+                          "grows": true,
+                          "span": 10,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "entrée",
+                          "type": "dropdown-field",
+                          "shortLabel": "entrée",
+                          "grows": true,
+                          "span": 14,
+                          "readonly": false,
+                          "options": {
+                            "LEGACY|le jour même|1": "le jour même",
+                            "LEGACY|la veille|1": "la veille"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "heure d'admission",
+                          "type": "text-field",
+                          "shortLabel": "heure d'admission",
+                          "grows": true,
+                          "span": 10,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "chambre",
+                          "type": "dropdown-field",
+                          "shortLabel": "chambre",
+                          "grows": true,
+                          "span": 14,
+                          "readonly": false,
+                          "options": {
+                            "LEGACY|un lit|1": "un lit",
+                            "LEGACY|deux lits|1": "deux lits",
+                            "LEGACY|commune|1": "commune",
+                            "LEGACY|pas de chambre|1": "pas de chambre",
+                            "LEGACY|chambre de luxe|1": "chambre de luxe",
+                            "LEGACY|C3 : 2 lits|1": "C3 : 2 lits",
+                            "LEGACY|C3 : 1lit|1": "C3 : 1lit"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "durée du séjour",
+                          "type": "dropdown-field",
+                          "shortLabel": "durée du séjour",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "options": {
+                            "LEGACY|sept nuits|1": "sept nuits",
+                            "LEGACY|1 nuit|1": "1 nuit",
+                            "LEGACY|deux nuits|1": "deux nuits",
+                            "LEGACY|trois nuits|1": "trois nuits",
+                            "LEGACY|quatre nuits|1": "quatre nuits",
+                            "LEGACY|cinq nuits|1": "cinq nuits",
+                            "LEGACY|six nuits|1": "six nuits",
+                            "LEGACY|une journée|1": "une journée"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "ambulatoire",
+                          "type": "checkbox",
+                          "shortLabel": "ambulatoire",
+                          "grows": true,
+                          "span": 1,
+                          "readonly": false,
+                          "options": {
+                            "ambulatoire": "ambulatoire"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "hospitalisation",
+                          "type": "checkbox",
+                          "shortLabel": "hospitalisation",
+                          "grows": true,
+                          "span": 4,
+                          "readonly": false,
+                          "options": {
+                            "hospitalisation": "hospitalisation"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Quartier opératoire",
+                          "type": "checkbox",
+                          "shortLabel": "Quartier opératoire",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "options": {
+                            "Quartier opératoire": "Quartier opératoire"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "VIPO",
+                          "type": "checkbox",
+                          "shortLabel": "VIPO",
+                          "grows": true,
+                          "span": 4,
+                          "readonly": false,
+                          "options": {
+                            "VIPO": "VIPO"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Intervention mutuelle",
+                          "type": "checkbox",
+                          "shortLabel": "Intervention mutuelle",
+                          "grows": true,
+                          "span": 5,
+                          "readonly": false,
+                          "options": {
+                            "Intervention mutuelle": "Intervention mutuelle"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "assurance privée",
+                          "type": "checkbox",
+                          "shortLabel": "assurance privée",
+                          "grows": true,
+                          "span": 4,
+                          "readonly": false,
+                          "options": {
+                            "assurance privée": "assurance privée"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "à jeun",
+                          "type": "checkbox",
+                          "shortLabel": "à jeun",
+                          "grows": true,
+                          "span": 5,
+                          "readonly": false,
+                          "options": {
+                            "à jeun": "à jeun"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "clinique de jour",
+                          "type": "checkbox",
+                          "shortLabel": "Clinique de jour",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "options": {
+                            "Clinique de jour": "Clinique de jour"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": " CEE",
+                          "type": "checkbox",
+                          "shortLabel": " CEE",
+                          "grows": true,
+                          "span": 8,
+                          "readonly": false,
+                          "options": {
+                            " CEE": " CEE"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Régime Préférentiel",
+                          "type": "checkbox",
+                          "shortLabel": "Régime Préférentiel",
+                          "grows": true,
+                          "span": 5,
+                          "readonly": false,
+                          "options": {
+                            "Régime Préférentiel": "Régime Préférentiel"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Bloc op booké",
+                          "type": "checkbox",
+                          "shortLabel": "Bloc op booké",
+                          "grows": true,
+                          "span": 1,
+                          "readonly": false,
+                          "options": {
+                            "Bloc op booké": "Bloc op booké"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Plateau technique",
+                          "type": "checkbox",
+                          "shortLabel": "Plateau technique",
+                          "grows": true,
+                          "span": 23,
+                          "readonly": false,
+                          "options": {
+                            "Plateau technique": "Plateau technique"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        }
+                      ],
+                      "borderless": false,
+                      "hideTitle": true,
+                      "translate": true,
+                      "span": 24
+                    },
+                    {
+                      "clazz": "group",
+                      "group": "Section 2",
+                      "fields": [
+                        {
+                          "clazz": "field",
+                          "field": "Consultation Post-op",
+                          "type": "date-picker",
+                          "shortLabel": "Consultation post-op. prévue",
+                          "grows": true,
+                          "span": 11,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Heure consult post-op",
+                          "type": "text-field",
+                          "shortLabel": "Heure consult post-op",
+                          "grows": true,
+                          "span": 13,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        }
+                      ],
+                      "borderless": false,
+                      "hideTitle": true,
+                      "translate": true,
+                      "span": 24
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "span": 24,
+          "rowSpan": 1,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "pas de bilan pré-opératoire à faire",
+          "type": "checkbox",
+          "shortLabel": "pas de bilan pré-opératoire à faire",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "pas de bilan pré-opératoire à faire": "pas de bilan pré-opératoire à faire"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "subform",
+          "id": "159420A9-3E6F-4587-8643-583D032E354C",
+          "shortLabel": "Examens pré-opératoires à réaliser",
+          "forms": {
+            "sous-formulaires organisation salle d'op/prise de sang": {
+              "form": "sous-formulaires organisation salle d'op/prise de sang",
+              "id": "73809DC5-1C5D-4921-8B5C-8F1DD6977045",
+              "sections": [
+                {
+                  "section": "Main",
+                  "fields": [
+                    {
+                      "clazz": "field",
+                      "field": " Biologie",
+                      "type": "dropdown-field",
+                      "shortLabel": " Biologie sanguine",
+                      "grows": true,
+                      "span": 15,
+                      "readonly": false,
+                      "options": {
+                        "LEGACY|à faire en ambulatoire|1": "à faire en ambulatoire",
+                        "LEGACY|à faire en hospitalisation|1": "à faire en hospitalisation",
+                        "LEGACY|Faite|1": "Faite"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "résultat bio. sanguine reçu",
+                      "type": "checkbox",
+                      "shortLabel": "résultat reçu",
+                      "grows": true,
+                      "span": 9,
+                      "readonly": false,
+                      "options": {
+                        "résultat reçu": "résultat reçu"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    }
+                  ]
+                }
+              ]
+            },
+            "sous-formulaires organisation salle d'op/avis cardiologique": {
+              "form": "sous-formulaires organisation salle d'op/avis cardiologique",
+              "id": "E3D0CE03-920E-45EE-A5EB-D470011DCEB0",
+              "sections": [
+                {
+                  "section": "Main",
+                  "fields": [
+                    {
+                      "clazz": "field",
+                      "field": "avis cardiologique",
+                      "type": "dropdown-field",
+                      "shortLabel": "avis cardiologique",
+                      "grows": true,
+                      "span": 15,
+                      "readonly": false,
+                      "options": {
+                        "LEGACY|à faire en ambulatoire|1": "à faire en ambulatoire",
+                        "LEGACY|à faire en hospitalisation|1": "à faire en hospitalisation",
+                        "LEGACY|fait|1": "fait"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "résultat avis cardio reçu",
+                      "type": "checkbox",
+                      "shortLabel": "résultat reçu",
+                      "grows": true,
+                      "span": 9,
+                      "readonly": false,
+                      "options": {
+                        "résultat reçu": "résultat reçu"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    }
+                  ]
+                }
+              ]
+            },
+            "sous-formulaires organisation salle d'op/electrocardiogramme": {
+              "form": "sous-formulaires organisation salle d'op/electrocardiogramme",
+              "id": "A2F6313E-7D21-4B85-8B39-DD1C45503EB4",
+              "sections": [
+                {
+                  "section": "Main",
+                  "fields": [
+                    {
+                      "clazz": "field",
+                      "field": "  ECG",
+                      "type": "dropdown-field",
+                      "shortLabel": "  ECG tracé",
+                      "grows": true,
+                      "span": 15,
+                      "readonly": false,
+                      "options": {
+                        "LEGACY|à faire en ambulatoire|1": "à faire en ambulatoire",
+                        "LEGACY|à faire en hospitalisation|1": "à faire en hospitalisation",
+                        "LEGACY|fait|1": "fait"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "résultat ECG reçu",
+                      "type": "checkbox",
+                      "shortLabel": "résultat ECG reçu",
+                      "grows": true,
+                      "span": 9,
+                      "readonly": false,
+                      "options": {
+                        "résultat ECG reçu": "résultat ECG reçu"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    }
+                  ]
+                }
+              ]
+            },
+            "sous-formulaires organisation salle d'op/bilan mammographique": {
+              "form": "sous-formulaires organisation salle d'op/bilan mammographique",
+              "id": "75AE5DD4-8FE6-4D83-B0C0-294388E8CECB",
+              "sections": [
+                {
+                  "section": "Main",
+                  "fields": [
+                    {
+                      "clazz": "field",
+                      "field": " Mammographie",
+                      "type": "dropdown-field",
+                      "shortLabel": "bilan mammographie",
+                      "grows": true,
+                      "span": 15,
+                      "readonly": false,
+                      "options": {
+                        "LEGACY|à faire en ambulatoire|1": "à faire en ambulatoire",
+                        "LEGACY|à faire en hospitalisation|1": "à faire en hospitalisation",
+                        "LEGACY|fait|1": "fait"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "résultat bila mammo reçu",
+                      "type": "checkbox",
+                      "shortLabel": "résultat reçu",
+                      "grows": true,
+                      "span": 9,
+                      "readonly": false,
+                      "options": {
+                        "résultat reçu": "résultat reçu"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    }
+                  ]
+                }
+              ]
+            },
+            "sous-formulaires organisation salle d'op/EFR": {
+              "form": "sous-formulaires organisation salle d'op/EFR",
+              "id": "7D898666-FF87-4248-81DC-1B4E5F3EF617",
+              "sections": [
+                {
+                  "section": "Main",
+                  "fields": [
+                    {
+                      "clazz": "field",
+                      "field": "EFR",
+                      "type": "dropdown-field",
+                      "shortLabel": "épreuves fonctionelles respiratoires",
+                      "grows": true,
+                      "span": 15,
+                      "readonly": false,
+                      "options": {
+                        "LEGACY|à faire en ambulatoire|1": "à faire en ambulatoire",
+                        "LEGACY|à faire en hospitalisation|1": "à faire en hospitalisation",
+                        "LEGACY|faite|1": "faite"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "résultat EFR reçu",
+                      "type": "checkbox",
+                      "shortLabel": "résultat reçu",
+                      "grows": true,
+                      "span": 9,
+                      "readonly": false,
+                      "options": {
+                        "résultat reçu": "résultat reçu"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    }
+                  ]
+                }
+              ]
+            },
+            "sous-formulaires organisation salle d'op/autre examen": {
+              "form": "sous-formulaires organisation salle d'op/autre examen",
+              "id": "4B1B02A2-3D88-4590-904D-43010DA6AA50",
+              "sections": [
+                {
+                  "section": "Main",
+                  "fields": [
+                    {
+                      "clazz": "field",
+                      "field": "autre examen",
+                      "type": "text-field",
+                      "shortLabel": "autre examen",
+                      "grows": true,
+                      "span": 8,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "autre examen a faire",
+                      "type": "dropdown-field",
+                      "shortLabel": "a faire",
+                      "grows": true,
+                      "span": 12,
+                      "readonly": false,
+                      "options": {
+                        "LEGACY|à faire en ambulatoire|1": "à faire en ambulatoire",
+                        "LEGACY|à faire en hospitalisation|1": "à faire en hospitalisation",
+                        "LEGACY|fait|1": "fait"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "autre examen reçu",
+                      "type": "checkbox",
+                      "shortLabel": "examen reçu",
+                      "grows": true,
+                      "span": 4,
+                      "readonly": false,
+                      "options": {
+                        "examen reçu": "examen reçu"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    }
+                  ]
+                }
+              ]
+            },
+            "sous-formulaires organisation salle d'op/consultation d'anesthésie pré-op": {
+              "form": "sous-formulaires organisation salle d'op/consultation d'anesthésie pré-op",
+              "id": "0CD71418-007A-4AD8-8A7D-32FAF3585E41",
+              "sections": [
+                {
+                  "section": "Main",
+                  "fields": [
+                    {
+                      "clazz": "field",
+                      "field": "consultation d'anesthésie pré-opératoire",
+                      "type": "dropdown-field",
+                      "shortLabel": "cons. d'anesthésie pré-opératoire",
+                      "grows": true,
+                      "span": 24,
+                      "readonly": false,
+                      "options": {
+                        "LEGACY|à faire en ambulatoire|1": "à faire en ambulatoire",
+                        "LEGACY|à faire en hospitalisation|1": "à faire en hospitalisation",
+                        "LEGACY|faite|1": "faite"
+                      },
+                      "multiline": false,
+                      "translate": true
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "span": 24,
+          "rowSpan": 1,
+          "labels": {}
+        },
+        {
+          "clazz": "field",
+          "field": "ordres infirmiers",
+          "type": "text-field",
+          "shortLabel": "ordres infirmiers à l'admission",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,557 @@
+{
+  "form": "Orthopedie NL/Knie",
+  "id": "7130BBFF-FB03-4BE0-BD19-7FEE8979CA35",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Anamnese",
+              "type": "text-field",
+              "shortLabel": "Anamnese",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Lateraliteit knie",
+              "type": "dropdown-field",
+              "shortLabel": "Lateraliteit knie",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "LEGACY|links|1": "links",
+                "LEGACY|rechts|1": "rechts",
+                "LEGACY|bilateraliteit|1": "bilateraliteit"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Bevestiging",
+              "type": "dropdown-field",
+              "shortLabel": "Bevestiging",
+              "grows": true,
+              "span": 16,
+              "readonly": false,
+              "options": {
+                "LEGACY|links|1": "links",
+                "LEGACY|rechts|1": "rechts",
+                "LEGACY|bilateraliteit|1": "bilateraliteit"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Pijn",
+              "type": "checkbox",
+              "shortLabel": "Pijn",
+              "grows": true,
+              "span": 1,
+              "readonly": false,
+              "options": {
+                "Pijn": "Pijn"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Instabiliteit",
+              "type": "checkbox",
+              "shortLabel": "Instabiliteit",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "Instabiliteit": "Instabiliteit"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Blokkering",
+              "type": "checkbox",
+              "shortLabel": "Blokkering",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "options": {
+                "Blokkering": "Blokkering"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Gekraak",
+              "type": "checkbox",
+              "shortLabel": "Gekraak",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "Gekraak": "Gekraak"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Zwelling",
+              "type": "checkbox",
+              "shortLabel": "Zwelling",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "Zwelling": "Zwelling"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Perimeters",
+              "type": "dropdown-field",
+              "shortLabel": "Perimeters",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "LEGACY|normaal|1": "normaal",
+                "LEGACY|beperkt|1": "beperkt",
+                "LEGACY|geen|1": "geen"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Afwijking knie",
+              "type": "dropdown-field",
+              "shortLabel": "Afwijking knie",
+              "grows": true,
+              "span": 16,
+              "readonly": false,
+              "options": {
+                "LEGACY|geen|1": "geen",
+                "LEGACY|varus|1": "varus",
+                "LEGACY|valgus|1": "valgus",
+                "LEGACY|flessum|1": "flessum",
+                "LEGACY|recurvatum|1": "recurvatum"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Klinisch onderzoek",
+              "type": "text-field",
+              "shortLabel": "Klinisch onderzoek",
+              "grows": true,
+              "span": 24,
+              "rowSpan": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Para-klinisch onderzoek",
+              "type": "text-field",
+              "shortLabel": "Para-klinisch onderzoek",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Varus",
+              "type": "dropdown-field",
+              "shortLabel": "Varus",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "LEGACY|+|1": "+",
+                "LEGACY|++|1": "++",
+                "LEGACY|+++|1": "+++"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "varus de",
+              "type": "measure-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Flessum",
+              "type": "dropdown-field",
+              "shortLabel": "Flessum",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "options": {
+                "LEGACY|+|1": "+",
+                "LEGACY|++|1": "++",
+                "LEGACY|+++|1": "+++"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "flessum",
+              "type": "measure-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Uitstorting knie",
+              "type": "checkbox",
+              "shortLabel": "Uitstorting knie",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Uitstorting knie": "Uitstorting knie"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Valgus",
+              "type": "dropdown-field",
+              "shortLabel": "Valgus",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "LEGACY|+|1": "+",
+                "LEGACY|++|1": "++",
+                "LEGACY|+++|1": "+++"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "valgus d",
+              "type": "measure-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Recurvatum",
+              "type": "dropdown-field",
+              "shortLabel": "Recurvatum",
+              "grows": true,
+              "span": 10,
+              "readonly": false,
+              "options": {
+                "LEGACY|+|1": "+",
+                "LEGACY|++|1": "++",
+                "LEGACY|+++|1": "+++"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "recurvatum",
+              "type": "measure-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Complem. examen",
+              "type": "text-field",
+              "shortLabel": "Complem. examen",
+              "grows": true,
+              "span": 20,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "A5C47604-BA6A-47F0-B21D-721EBF1C84E2",
+              "type": "action",
+              "shortLabel": "Aanvraag OZ",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "RX standaard",
+              "type": "checkbox",
+              "shortLabel": "RX standaard",
+              "grows": true,
+              "span": 1,
+              "readonly": false,
+              "options": {
+                "RX standaard": "RX standaard"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Knieschijf",
+              "type": "checkbox",
+              "shortLabel": "Knieschijf",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "Knieschijf": "Knieschijf"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Goniometrie",
+              "type": "checkbox",
+              "shortLabel": "Goniometrie",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Goniometrie": "Goniometrie"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "CT scan",
+              "type": "checkbox",
+              "shortLabel": "CT scan",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "CT scan": "CT scan"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Arthro scan",
+              "type": "checkbox",
+              "shortLabel": "Arthro scan",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Arthro scan": "Arthro scan"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Echo",
+              "type": "checkbox",
+              "shortLabel": "Echo",
+              "grows": true,
+              "span": 2,
+              "readonly": false,
+              "options": {
+                "Echo": "Echo"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "MRI",
+              "type": "checkbox",
+              "shortLabel": "MRI",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "MRI": "MRI"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Scintigrafie",
+              "type": "checkbox",
+              "shortLabel": "Scintigrafie",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "Scintigrafie": "Scintigrafie"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Diagnose",
+              "type": "text-field",
+              "shortLabel": "Diagnose",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Behandeling",
+              "type": "dropdown-field",
+              "shortLabel": "Behandeling",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "LEGACY|chirurgie|1": "chirurgie"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Andere",
+              "type": "text-field",
+              "shortLabel": "Andere",
+              "grows": true,
+              "span": 16,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Punctie",
+              "type": "checkbox",
+              "shortLabel": "Punctie",
+              "grows": true,
+              "span": 1,
+              "readonly": false,
+              "options": {
+                "Punctie": "Punctie"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Hoeveelheid",
+              "type": "measure-field",
+              "shortLabel": "Hoeveelheid",
+              "grows": true,
+              "span": 14,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Uitzicht",
+              "type": "dropdown-field",
+              "shortLabel": "Uitzicht",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "options": {
+                "LEGACY|sereus|1": "sereus",
+                "LEGACY|bloedend|1": "bloedend",
+                "LEGACY|sero-bloedend|1": "sero-bloedend",
+                "LEGACY|wazig|1": "wazig"
+              },
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Voorgestelde interventie",
+              "type": "dropdown-field",
+              "shortLabel": "Voorgestelde interventie",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "andere",
+              "type": "token-field",
+              "shortLabel": "Andere",
+              "grows": true,
+              "span": 16,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

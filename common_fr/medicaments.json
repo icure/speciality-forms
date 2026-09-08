@@ -1,0 +1,78 @@
+{
+  "form": "Biologie/Médicaments",
+  "id": "CE57575F-77D1-4FA5-87C9-A65F426EA223",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Cyclosporine",
+          "type": "checkbox",
+          "shortLabel": "Cyclosporine",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "Cyclosporine": "Cyclosporine"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Amiodarone",
+          "type": "checkbox",
+          "shortLabel": "Amiodarone",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "options": {
+            "Amiodarone": "Amiodarone"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Carbamazépine",
+          "type": "checkbox",
+          "shortLabel": "Carbamazépine",
+          "grows": true,
+          "span": 7,
+          "readonly": false,
+          "options": {
+            "Carbamazépine": "Carbamazépine"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Lithium",
+          "type": "checkbox",
+          "shortLabel": "Lithium",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "Lithium": "Lithium"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Autres",
+          "type": "text-field",
+          "shortLabel": "Autres",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

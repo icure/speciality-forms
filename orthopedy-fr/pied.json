@@ -1,0 +1,293 @@
+{
+  "form": "Orthopédie/Pied",
+  "id": "5231FAD6-5E81-46D4-963E-5CFD0CAB8E3F",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Anamnèse",
+              "type": "text-field",
+              "shortLabel": "Anamnèse",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Latéralité pied",
+              "type": "dropdown-field",
+              "shortLabel": "Latéralité pied",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "LEGACY|gauche|1": "gauche",
+                "LEGACY|droite|1": "droite",
+                "LEGACY|bilatérale|1": "bilatérale"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Périmètre de marche",
+              "type": "dropdown-field",
+              "shortLabel": "Périm. de marche",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "options": {
+                "LEGACY|Normal|1": "Normal",
+                "LEGACY|Réduit|1": "Réduit",
+                "LEGACY|Nul|1": "Nul"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Douleur Hanche",
+              "type": "checkbox",
+              "shortLabel": "Douleur",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Douleur": "Douleur"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Douleur quotidienne",
+              "type": "checkbox",
+              "shortLabel": "Douleur quotidienne",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "Douleur quotidienne": "Douleur quotidienne"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Problème dans les chaussures",
+              "type": "checkbox",
+              "shortLabel": "Problème dans les chaussures",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "options": {
+                "Problème dans les chaussures": "Problème dans les chaussures"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Examen clinique",
+              "type": "text-field",
+              "shortLabel": "Exam. clinique",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Examen para-clinique",
+              "type": "text-field",
+              "shortLabel": "Exam. para-clin.",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Examen complémentaire",
+              "type": "text-field",
+              "shortLabel": "Exam. compl.",
+              "grows": true,
+              "span": 21,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "BB49012D-C076-48ED-8A84-6826651499A9",
+              "type": "action",
+              "shortLabel": "Demande",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Examen complémentaire RX standard",
+              "type": "checkbox",
+              "shortLabel": "RX standard",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "RX standard": "RX standard"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Examen complémentaire CT Scan",
+              "type": "checkbox",
+              "shortLabel": "CT Scan",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "CT Scan": "CT Scan"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Examen complémentaire Echographie",
+              "type": "checkbox",
+              "shortLabel": "Echo",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Echo": "Echo"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Examen complémentaire IRM",
+              "type": "checkbox",
+              "shortLabel": "IRM",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "IRM": "IRM"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Examen complémentaire Isotopes",
+              "type": "checkbox",
+              "shortLabel": "Isotopes",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "Isotopes": "Isotopes"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Diagnostic",
+              "type": "text-field",
+              "shortLabel": "Diagnostic",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Trait. non méd.",
+              "type": "dropdown-field",
+              "shortLabel": "Traitement",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "LEGACY|Chirurgical|1": "Chirurgical",
+                "LEGACY|Conservateur Kiné|1": "Conservateur Kiné",
+                "LEGACY|Conservateur AINS+Antalg.|1": "Conservateur AINS+Antalg.",
+                "LEGACY|Conservateur Infiltration|1": "Conservateur Infiltration",
+                "LEGACY|Conservateur Ac. HYAL|1": "Conservateur Ac. HYAL",
+                "LEGACY|Conservateur Autre|1": "Conservateur Autre"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Détail Traitement",
+              "type": "text-field",
+              "shortLabel": "Autre",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Intervention proposée",
+              "type": "text-field",
+              "shortLabel": "Interv. prop.",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Détail Intervention Proposée",
+              "type": "text-field",
+              "shortLabel": "Autre",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "form": "sous-formulaires dermato/lésion dermato baso-spino",
+  "id": "5E430C5F-BCE8-4B0E-8C06-84F006CC953E",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "lésion",
+          "type": "dropdown-field",
+          "shortLabel": "lésion",
+          "grows": true,
+          "span": 9,
+          "readonly": false,
+          "options": {
+            "LEGACY|carcinome baso-cellulaire|1": "carcinome baso-cellulaire",
+            "LEGACY|carcinome spino-cellulaire|1": "carcinome spino-cellulaire"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "confirmé à la biopsie",
+          "type": "checkbox",
+          "shortLabel": "confirmé à la biopsie",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "confirmé à la biopsie": "confirmé à la biopsie"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "histologie",
+          "type": "text-field",
+          "shortLabel": "histologie de la biopsie éventuelle",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "resection-fermeture en 1 temps",
+          "type": "checkbox",
+          "shortLabel": "résection-fermeture en 1 temps",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "résection-fermeture en 1 temps": "résection-fermeture en 1 temps"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "cicatrisation dirigée",
+          "type": "checkbox",
+          "shortLabel": "cicatrisation dirigée",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "cicatrisation dirigée": "cicatrisation dirigée"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "greffe de peau mince",
+          "type": "checkbox",
+          "shortLabel": "greffe de peau mince",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "greffe de peau mince": "greffe de peau mince"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "résection-fermeture en 2 temps",
+          "type": "checkbox",
+          "shortLabel": "résection-fermeture en 2 temps",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "résection-fermeture en 2 temps": "résection-fermeture en 2 temps"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "résection suture",
+          "type": "checkbox",
+          "shortLabel": "résection suture",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "résection suture": "résection suture"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "greffe de peau totale",
+          "type": "checkbox",
+          "shortLabel": "greffe de peau totale",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "greffe de peau totale": "greffe de peau totale"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "analyse extemporanée",
+          "type": "checkbox",
+          "shortLabel": "analyse extemporanée",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "analyse extemporanée": "analyse extemporanée"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "lambeau",
+          "type": "checkbox",
+          "shortLabel": "lambeau",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "options": {
+            "lambeau": "lambeau"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "type de lambeau",
+          "type": "text-field",
+          "shortLabel": "type de lambeau",
+          "grows": true,
+          "span": 13,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,700 @@
+{
+  "form": "Pédiatrie/Consultation enfant",
+  "id": "5A8C65D0-D60D-4D4A-93F8-255974E2E9BC",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Plainte",
+              "type": "text-field",
+              "shortLabel": "Plainte",
+              "grows": true,
+              "span": 24,
+              "rowSpan": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Poids",
+              "type": "measure-field",
+              "shortLabel": "Poids",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Taille",
+              "type": "measure-field",
+              "shortLabel": "Taille",
+              "grows": true,
+              "span": 11,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Périmètre cranien",
+              "type": "measure-field",
+              "shortLabel": "Périmètre cranien",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "BMI",
+              "type": "number-field",
+              "shortLabel": "BMI",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "T°",
+              "type": "measure-field",
+              "shortLabel": "T°",
+              "grows": true,
+              "span": 19,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Régime alimentaire",
+              "type": "text-field",
+              "shortLabel": "Régime alim.",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Examen clinique",
+              "type": "text-field",
+              "shortLabel": "Exam. clin.",
+              "grows": true,
+              "span": 24,
+              "rowSpan": 6,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Examen complémentaire demandé",
+              "type": "text-field",
+              "shortLabel": "Exam. cpl.",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Diagnostic",
+              "type": "text-field",
+              "shortLabel": "Diagnostic",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Trait. non méd.",
+              "type": "text-field",
+              "shortLabel": "Traitement",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 3",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Infanrix hexa 2 mois",
+              "type": "checkbox",
+              "shortLabel": "Infanrix hexa 2 mois",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Infanrix hexa 2 mois": "Infanrix hexa 2 mois"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Prevenar 2 mois",
+              "type": "checkbox",
+              "shortLabel": "Prevenar 2 mois",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Prevenar 2 mois": "Prevenar 2 mois"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Rotarix 2 mois",
+              "type": "checkbox",
+              "shortLabel": "Rotarix 2 mois",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Rotarix 2 mois": "Rotarix 2 mois"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Rotateq 2 mois",
+              "type": "checkbox",
+              "shortLabel": "Rotateq 2 mois",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Rotateq 2 mois": "Rotateq 2 mois"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "BCG",
+              "type": "checkbox",
+              "shortLabel": "BCG",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "BCG": "BCG"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vaccint tetravac",
+              "type": "checkbox",
+              "shortLabel": "Vaccint tetravac",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Vaccint tetravac": "Vaccint tetravac"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Infanrix hexa 3 mois",
+              "type": "checkbox",
+              "shortLabel": "Infanrix hexa 3 mois",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "Infanrix hexa 3 mois": "Infanrix hexa 3 mois"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Rotarix 3 mois",
+              "type": "checkbox",
+              "shortLabel": "Rotarix 3 mois",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "Rotarix 3 mois": "Rotarix 3 mois"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Rotateq 3 mois",
+              "type": "checkbox",
+              "shortLabel": "Rotateq 3 mois",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "Rotateq 3 mois": "Rotateq 3 mois"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vaccin RRO 11-12 ans",
+              "type": "checkbox",
+              "shortLabel": "RRO 11-12 ans",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "RRO 11-12 ans": "RRO 11-12 ans"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Infanrix hexa 4 mois",
+              "type": "checkbox",
+              "shortLabel": "Infanrix hexa 4 mois",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "Infanrix hexa 4 mois": "Infanrix hexa 4 mois"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Prevenar 4 mois",
+              "type": "checkbox",
+              "shortLabel": "Prevenar 4 mois",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "Prevenar 4 mois": "Prevenar 4 mois"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Rotateq 4 mois",
+              "type": "checkbox",
+              "shortLabel": "Rotateq 4 mois",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "Rotateq 4 mois": "Rotateq 4 mois"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vaccin Boostrix",
+              "type": "checkbox",
+              "shortLabel": "Vac. Boostrix",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "Vac. Boostrix": "Vac. Boostrix"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Prevenar 12 mois",
+              "type": "checkbox",
+              "shortLabel": "Prevenar 12 mois",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Prevenar 12 mois": "Prevenar 12 mois"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vaccin RRO 12 mois",
+              "type": "checkbox",
+              "shortLabel": "RRO 12 mois",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "RRO 12 mois": "RRO 12 mois"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vaccin papillomavirus 1ère dose",
+              "type": "checkbox",
+              "shortLabel": "Vaccin HPV 1ère dose",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Vaccin HPV 1ère dose": "Vaccin HPV 1ère dose"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Infanrix hexa 13-14 mois",
+              "type": "checkbox",
+              "shortLabel": "Infanrix hexa 13-14 mois",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Infanrix hexa 13-14 mois": "Infanrix hexa 13-14 mois"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vaccin Méningocoque C",
+              "type": "checkbox",
+              "shortLabel": "Méningocoque C",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Méningocoque C": "Méningocoque C"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vaccin papillomavirus 2ème dose",
+              "type": "checkbox",
+              "shortLabel": "Vaccin HPV 2ème dose",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Vaccin HPV 2ème dose": "Vaccin HPV 2ème dose"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vaccin contre la varicelle",
+              "type": "checkbox",
+              "shortLabel": "Vac. varicelle",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Vac. varicelle": "Vac. varicelle"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Notification Rappel Vaccin varicelle",
+              "type": "checkbox",
+              "shortLabel": "Rpl",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Rpl": "Rpl"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vaccin papillomavirus 3ème dose",
+              "type": "checkbox",
+              "shortLabel": "Vaccin HPV 3ème dose",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Vaccin HPV 3ème dose": "Vaccin HPV 3ème dose"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vaccin Twinrix",
+              "type": "checkbox",
+              "shortLabel": "Vac. Twinrix",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Vac. Twinrix": "Vac. Twinrix"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Notification Rappel Vaccin Twinrix",
+              "type": "checkbox",
+              "shortLabel": "Rpl",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Rpl": "Rpl"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vaccin Hépatite A",
+              "type": "checkbox",
+              "shortLabel": "Vac. Hép. A",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Vac. Hép. A": "Vac. Hép. A"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Notification Rappel Vaccin Hépatite A",
+              "type": "checkbox",
+              "shortLabel": "Rpl",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Rpl": "Rpl"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vaccin Hépatite B",
+              "type": "checkbox",
+              "shortLabel": "Vac. Hép. B",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Vac. Hép. B": "Vac. Hép. B"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Notification Rappel Vaccin Hépatite B",
+              "type": "checkbox",
+              "shortLabel": "Rpl",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Rpl": "Rpl"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vaccin Poliomyélite",
+              "type": "checkbox",
+              "shortLabel": "Vac. Poliomyélite",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Vac. Poliomyélite": "Vac. Poliomyélite"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vaccin Coqueluche",
+              "type": "checkbox",
+              "shortLabel": "Vac. Coqueluche",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Vac. Coqueluche": "Vac. Coqueluche"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vaccin Diphtérie",
+              "type": "checkbox",
+              "shortLabel": "Vac. Diphtérie",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Vac. Diphtérie": "Vac. Diphtérie"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vaccin Haemophilus",
+              "type": "checkbox",
+              "shortLabel": "Vac. Haemophilus",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Vac. Haemophilus": "Vac. Haemophilus"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vaccin Grippe",
+              "type": "checkbox",
+              "shortLabel": "Vac. Grippe",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Vac. Grippe": "Vac. Grippe"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Notification Rappel Vaccin Grippe",
+              "type": "checkbox",
+              "shortLabel": "Rpl",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Rpl": "Rpl"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Autre vaccin anti-viral",
+              "type": "text-field",
+              "shortLabel": "Autre vac. anti-viral",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Autre vaccin anti-bactérien",
+              "type": "text-field",
+              "shortLabel": "Autre vac. anti-bact.",
+              "grows": true,
+              "span": 17,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Examen à effectuer par un spécialiste",
+              "type": "text-field",
+              "shortLabel": "Avis demandé",
+              "grows": true,
+              "span": 20,
+              "rowSpan": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "586DDB4D-D8B5-406D-9F79-BC03F8C2699A",
+              "type": "action",
+              "shortLabel": "Lettre",
+              "grows": true,
+              "span": 4,
+              "rowSpan": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

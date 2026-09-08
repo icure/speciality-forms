@@ -1,0 +1,47 @@
+{
+  "form": "Sénologie/Antéc. fam. canc. de l'utérus",
+  "id": "34F7BB9B-08F4-4886-86C5-9F8528B279B9",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Antécadents familiaux cancer de l'utérus",
+          "type": "checkbox",
+          "shortLabel": "Ant. f. K de l'utérus",
+          "grows": true,
+          "span": 3,
+          "readonly": false,
+          "options": {
+            "Ant. f. K de l'utérus": "Ant. f. K de l'utérus"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Relation familiale",
+          "type": "text-field",
+          "shortLabel": "Relation familiale",
+          "grows": true,
+          "span": 15,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Age antécédent familial",
+          "type": "measure-field",
+          "shortLabel": "à",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

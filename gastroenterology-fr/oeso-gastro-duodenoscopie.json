@@ -1,0 +1,272 @@
+{
+  "form": "Examens gastro/Oeso-gastro-duodénoscopie",
+  "id": "BB83AD17-2615-4611-B951-30D77A698793",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Indication",
+              "type": "text-field",
+              "shortLabel": "Indication",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Personnel",
+              "type": "text-field",
+              "shortLabel": "Personnel",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Préparation à l'examen",
+              "type": "dropdown-field",
+              "shortLabel": "Préparation à l'examen",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "LEGACY|A jeûn depuis la veille au soir|1": "A jeûn depuis la veille au soir",
+                "LEGACY|Movicol|1": "Movicol",
+                "LEGACY|Picoprep|1": "Picoprep",
+                "LEGACY|Movicol et Fleet Phospho-Soda|1": "Movicol et Fleet Phospho-Soda",
+                "LEGACY|Picoprep et Fleet Phospho-Soda|1": "Picoprep et Fleet Phospho-Soda"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Matériel",
+              "type": "text-field",
+              "shortLabel": "Matériel",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Prémédication",
+              "type": "token-field",
+              "shortLabel": "Prémédication",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Sat O2",
+              "type": "checkbox",
+              "shortLabel": "Monitoring:  Sat O2",
+              "grows": true,
+              "span": 2,
+              "readonly": false,
+              "options": {
+                "Monitoring:  Sat O2": "Monitoring:  Sat O2"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "ECG",
+              "type": "checkbox",
+              "shortLabel": "ECG",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "ECG": "ECG"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "FC",
+              "type": "checkbox",
+              "shortLabel": "FC",
+              "grows": true,
+              "span": 14,
+              "readonly": false,
+              "options": {
+                "FC": "FC"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "PA",
+              "type": "checkbox",
+              "shortLabel": "PA",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "PA": "PA"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Oesophage",
+              "type": "text-field",
+              "shortLabel": "Oesophage",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Estomac",
+              "type": "text-field",
+              "shortLabel": "Estomac",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 3",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Duodenum",
+              "type": "text-field",
+              "shortLabel": "Duodenum",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Biopsies",
+              "type": "text-field",
+              "shortLabel": "Biopsies",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Traitement endoscopique",
+              "type": "text-field",
+              "shortLabel": "Traitement endoscopique",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Conclusion",
+              "type": "text-field",
+              "shortLabel": "Conclusion",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Traitement proposé",
+              "type": "text-field",
+              "shortLabel": "Traitement ",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Attitude",
+              "type": "text-field",
+              "shortLabel": "Attitude",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "4E213EFE-186F-460D-91ED-758B951C50B8",
+              "type": "action",
+              "shortLabel": "Protocole",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "gastroscopie",
+              "type": "checkbox",
+              "shortLabel": "gastroscopie",
+              "grows": true,
+              "span": 19,
+              "readonly": false,
+              "options": {
+                "gastroscopie": "gastroscopie"
+              },
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

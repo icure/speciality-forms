@@ -1,0 +1,106 @@
+{
+  "form": "Subformulieren/Beeldvormingsonderzoeken",
+  "id": "B4F2B274-10FF-4018-BC48-3ED3CADCED57",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "CT-scan",
+          "type": "checkbox",
+          "shortLabel": "CT-scan",
+          "grows": true,
+          "span": 1,
+          "readonly": false,
+          "options": {
+            "CT-scan": "CT-scan"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "MRI-scan",
+          "type": "checkbox",
+          "shortLabel": "MRI-scan",
+          "grows": true,
+          "span": 1,
+          "readonly": false,
+          "options": {
+            "MRI-scan": "MRI-scan"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "RX",
+          "type": "checkbox",
+          "shortLabel": "RX",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "RX": "RX"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Echografie",
+          "type": "checkbox",
+          "shortLabel": "Echografie",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "Echografie": "Echografie"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Scintigrafie",
+          "type": "checkbox",
+          "shortLabel": "Scintigrafie",
+          "grows": true,
+          "span": 3,
+          "readonly": false,
+          "options": {
+            "Scintigrafie": "Scintigrafie"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Onbekend",
+          "type": "checkbox",
+          "shortLabel": "Onbekend",
+          "grows": true,
+          "span": 3,
+          "readonly": false,
+          "options": {
+            "Onbekend": "Onbekend"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Ander onderzoek",
+          "type": "text-field",
+          "shortLabel": "Ander onderzoek",
+          "grows": true,
+          "span": 10,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,937 @@
+{
+  "form": "Médecine générale/Vaccinations",
+  "id": "06593284-78C6-4725-121F-189B4525043C",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Infanrix hexa 2 mois",
+              "type": "checkbox",
+              "shortLabel": "Infanrix hexa 1",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "Infanrix hexa 1": "Infanrix hexa 1"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Diphtérie-Tétanos-Coqueluche DTP(a) 3 mois",
+              "type": "checkbox",
+              "shortLabel": "DTP(a) 1",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "DTP(a) 1": "DTP(a) 1"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vaccint tetravac",
+              "type": "checkbox",
+              "shortLabel": "Tetravac 1",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "Tetravac 1": "Tetravac 1"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Polio OPV 3 mois",
+              "type": "checkbox",
+              "shortLabel": "Polio 1",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Polio 1": "Polio 1"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Haemophilius influenzae type b HIB 3 mois",
+              "type": "checkbox",
+              "shortLabel": "Haem. infl. b 1",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "Haem. infl. b 1": "Haem. infl. b 1"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Infanrix hexa 3 mois",
+              "type": "checkbox",
+              "shortLabel": "Infanrix hexa 2",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "Infanrix hexa 2": "Infanrix hexa 2"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Diphtérie-Tétanos-Coqueluche DTP(a) 4 mois",
+              "type": "checkbox",
+              "shortLabel": "DTP(a) 2",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "DTP(a) 2": "DTP(a) 2"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Tetravac 2",
+              "type": "checkbox",
+              "shortLabel": "Tetravac 2",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "Tetravac 2": "Tetravac 2"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Polio OPV 5 mois",
+              "type": "checkbox",
+              "shortLabel": "Polio 2",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Polio 2": "Polio 2"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Haemophilius influenzae type b HIB 4 mois",
+              "type": "checkbox",
+              "shortLabel": "Haem. infl. b 2",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "Haem. infl. b 2": "Haem. infl. b 2"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Infanrix hexa 4 mois",
+              "type": "checkbox",
+              "shortLabel": "Infanrix hexa 3",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "Infanrix hexa 3": "Infanrix hexa 3"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Diphtérie-Tétanos-Coqueluche DTP(a) 5 mois",
+              "type": "checkbox",
+              "shortLabel": "DTP(a) 3",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "DTP(a) 3": "DTP(a) 3"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Tetravac 3",
+              "type": "checkbox",
+              "shortLabel": "Tetravac 3",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "Tetravac 3": "Tetravac 3"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Polio OPV 13-14 mois",
+              "type": "checkbox",
+              "shortLabel": "Polio 3",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Polio 3": "Polio 3"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Haemophilius influenzae type b HIB 5 mois",
+              "type": "checkbox",
+              "shortLabel": "Haem. infl. b 3",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "Haem. infl. b 3": "Haem. infl. b 3"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Infanrix hexa 13-14 mois",
+              "type": "checkbox",
+              "shortLabel": "Infanrix hexa 4",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "Infanrix hexa 4": "Infanrix hexa 4"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Diphtérie-Tétanos-Coqueluche DTP(a) 13-14 mois",
+              "type": "checkbox",
+              "shortLabel": "DTP(a) 4",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "DTP(a) 4": "DTP(a) 4"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Tetravac 4",
+              "type": "checkbox",
+              "shortLabel": "Tetravac 4",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "Tetravac 4": "Tetravac 4"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Polio OPV 5-6 ans",
+              "type": "checkbox",
+              "shortLabel": "Polio 4",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Polio 4": "Polio 4"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Haemophilius influenzae type b HIB 13-14 mois",
+              "type": "checkbox",
+              "shortLabel": "Haem. infl. b 4",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "Haem. infl. b 4": "Haem. infl. b 4"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vaccin RRO 12 mois",
+              "type": "checkbox",
+              "shortLabel": "RRO 1",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "RRO 1": "RRO 1"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Prevenar 2 mois",
+              "type": "checkbox",
+              "shortLabel": "Prevenar 1",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "Prevenar 1": "Prevenar 1"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Rotateq 2 mois",
+              "type": "checkbox",
+              "shortLabel": "Rotavirus 1",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "Rotavirus 1": "Rotavirus 1"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vaccin contre la varicelle",
+              "type": "checkbox",
+              "shortLabel": "Varicelle",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "Varicelle": "Varicelle"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vaccin RRO 11-12 ans",
+              "type": "checkbox",
+              "shortLabel": "RRO 2",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "RRO 2": "RRO 2"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Prevenar 4 mois",
+              "type": "checkbox",
+              "shortLabel": "Prevenar 2",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "Prevenar 2": "Prevenar 2"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Rotateq 3 mois",
+              "type": "checkbox",
+              "shortLabel": "Rotavirus 2",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "Rotavirus 2": "Rotavirus 2"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vaccin Méningocoque C",
+              "type": "checkbox",
+              "shortLabel": "Méningocoque C",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "Méningocoque C": "Méningocoque C"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Prevenar 12 mois",
+              "type": "checkbox",
+              "shortLabel": "Prevenar 3",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Prevenar 3": "Prevenar 3"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Rotateq 4 mois",
+              "type": "checkbox",
+              "shortLabel": "Rotavirus 3",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Rotavirus 3": "Rotavirus 3"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "BCG",
+              "type": "checkbox",
+              "shortLabel": "BCG",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "BCG": "BCG"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vaccin papillomavirus 1ère dose",
+              "type": "checkbox",
+              "shortLabel": "Vaccin HPV 1",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Vaccin HPV 1": "Vaccin HPV 1"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vaccin Hépatite A",
+              "type": "checkbox",
+              "shortLabel": "Hép. A 1",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Hép. A 1": "Hép. A 1"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vaccin Hépatite B",
+              "type": "checkbox",
+              "shortLabel": "Hép. B 1",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Hép. B 1": "Hép. B 1"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vaccin papillomavirus 2ème dose",
+              "type": "checkbox",
+              "shortLabel": "Vaccin HPV 2",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Vaccin HPV 2": "Vaccin HPV 2"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vaccin Hépatite A D2",
+              "type": "checkbox",
+              "shortLabel": "Hép. A 2",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Hép. A 2": "Hép. A 2"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vaccin Hépatite B D2",
+              "type": "checkbox",
+              "shortLabel": "Hép. B 2",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Hép. B 2": "Hép. B 2"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Pneumo 23 1",
+              "type": "checkbox",
+              "shortLabel": "Pneumo 23 1",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "Pneumo 23 1": "Pneumo 23 1"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vaccin papillomavirus 3ème dose",
+              "type": "checkbox",
+              "shortLabel": "Vac. HPV 3",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Vac. HPV 3": "Vac. HPV 3"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vaccin Hépatite B D3",
+              "type": "checkbox",
+              "shortLabel": "Hép. B 3",
+              "grows": true,
+              "span": 20,
+              "readonly": false,
+              "options": {
+                "Hép. B 3": "Hép. B 3"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Pneumo 23 2",
+              "type": "checkbox",
+              "shortLabel": "Pneumo 23 2",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "Pneumo 23 2": "Pneumo 23 2"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Pneumo 23 3",
+              "type": "checkbox",
+              "shortLabel": "Pneumo 23 3",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "Pneumo 23 3": "Pneumo 23 3"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vaccin Diphtérie Tétanos 1",
+              "type": "checkbox",
+              "shortLabel": "Vaccin DT 1",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Vaccin DT 1": "Vaccin DT 1"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vaccin Typhim",
+              "type": "checkbox",
+              "shortLabel": "Vac. Typh. 1",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Vac. Typh. 1": "Vac. Typh. 1"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vac. Fièvre jaune 1",
+              "type": "checkbox",
+              "shortLabel": "F. jaune 1",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "F. jaune 1": "F. jaune 1"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vaccin Diphtérie Tétanos 2",
+              "type": "checkbox",
+              "shortLabel": "Vaccin DT 2",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Vaccin DT 2": "Vaccin DT 2"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vac. Typh. 2",
+              "type": "checkbox",
+              "shortLabel": "Vac. Typh. 2",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Vac. Typh. 2": "Vac. Typh. 2"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vac. Fièvre jaune 2",
+              "type": "checkbox",
+              "shortLabel": "F. jaune 2",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "F. jaune 2": "F. jaune 2"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vaccin Diphtérie Tétanos 3",
+              "type": "checkbox",
+              "shortLabel": "Vaccin DT 3",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "Vaccin DT 3": "Vaccin DT 3"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vac. Typh. 3",
+              "type": "checkbox",
+              "shortLabel": "Vac. Typh. 3",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "Vac. Typh. 3": "Vac. Typh. 3"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vac. Fièvre jaune 3",
+              "type": "checkbox",
+              "shortLabel": "F. jaune 3",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "F. jaune 3": "F. jaune 3"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Meningocoque A+C 1",
+              "type": "checkbox",
+              "shortLabel": "Meningo A+C 1",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "Meningo A+C 1": "Meningo A+C 1"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vaccin Diphtérie Tétanos 4",
+              "type": "checkbox",
+              "shortLabel": "Vaccin DT 4",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "Vaccin DT 4": "Vaccin DT 4"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vac. Typh. 4",
+              "type": "checkbox",
+              "shortLabel": "Vac. Typh. 4",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "Vac. Typh. 4": "Vac. Typh. 4"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vac. Fièvre jaune 4",
+              "type": "checkbox",
+              "shortLabel": "F. jaune 4",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "F. jaune 4": "F. jaune 4"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Meningocoque A+C 2",
+              "type": "checkbox",
+              "shortLabel": "Meningo A+C 2",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "Meningo A+C 2": "Meningo A+C 2"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vaccin Diphtérie Tétanos 5",
+              "type": "checkbox",
+              "shortLabel": "Vaccin DT 5",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "Vaccin DT 5": "Vaccin DT 5"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vac. Typh. 5",
+              "type": "checkbox",
+              "shortLabel": "Vac. Typh. 5",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "Vac. Typh. 5": "Vac. Typh. 5"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vac. Fièvre jaune 5",
+              "type": "checkbox",
+              "shortLabel": "F. jaune 5",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "F. jaune 5": "F. jaune 5"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Meningocoque A+C 3",
+              "type": "checkbox",
+              "shortLabel": "Meningo A+C 3",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "Meningo A+C 3": "Meningo A+C 3"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vaccin Diphtérie Tétanos 6",
+              "type": "checkbox",
+              "shortLabel": "Vaccin DT 6",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "Vaccin DT 6": "Vaccin DT 6"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vaccin Diphtérie Tétanos 7",
+              "type": "checkbox",
+              "shortLabel": "Vaccin DT 7",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "Vaccin DT 7": "Vaccin DT 7"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vaccin Diphtérie Tétanos 8",
+              "type": "checkbox",
+              "shortLabel": "Dern. vac. DT",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "Dern. vac. DT": "Dern. vac. DT"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Réactions aux vaccins",
+              "type": "text-field",
+              "shortLabel": "Réact. aux vaccins",
+              "grows": true,
+              "span": 24,
+              "rowSpan": 4,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Autres vaccins",
+              "type": "items-list-field",
+              "shortLabel": "Autres vaccins",
+              "grows": true,
+              "span": 24,
+              "rowSpan": 7,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

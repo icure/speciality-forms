@@ -1,0 +1,143 @@
+{
+  "form": "Protocoles de soin/Trajet de soin insuffisance rénale",
+  "id": "688da1d1-3caa-32d8-837f-efec245ccc5b",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "DMGDu dossier",
+          "type": "date-picker",
+          "shortLabel": "DMG du dossier",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Date de début",
+          "type": "date-picker",
+          "shortLabel": "Date de début du trajet de soin",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Date de fin",
+          "type": "date-picker",
+          "shortLabel": "Date de fin",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Date de contact",
+          "type": "date-picker",
+          "shortLabel": "Date de contact",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Consultation spécialiste",
+          "type": "checkbox",
+          "shortLabel": "Consultation spécialiste",
+          "grows": true,
+          "span": 14,
+          "readonly": false,
+          "options": {
+            "Consultation spécialiste": "Consultation spécialiste"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Session d'éducation",
+          "type": "checkbox",
+          "shortLabel": "Session d'éducation",
+          "grows": true,
+          "span": 14,
+          "readonly": false,
+          "options": {
+            "Session d'éducation": "Session d'éducation"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Contact Diététicien",
+          "type": "checkbox",
+          "shortLabel": "Contact Diététicien",
+          "grows": true,
+          "span": 14,
+          "readonly": false,
+          "options": {
+            "Contact Diététicien": "Contact Diététicien"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Stade",
+          "type": "dropdown-field",
+          "shortLabel": "Stade",
+          "grows": true,
+          "span": 10,
+          "readonly": false,
+          "options": {
+            "LEGACY|I.Individu sain|1": "I.Individu sain",
+            "LEGACY|II. IRC légère|1": "II. IRC légère",
+            "LEGACY|III.IRC modérée|1": "III.IRC modérée",
+            "LEGACY|IV. IRC sévère|1": "IV. IRC sévère",
+            "LEGACY|V.  IRC terminale|1": "V.  IRC terminale"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Diabète type I",
+          "type": "checkbox",
+          "shortLabel": "Diabète type I",
+          "grows": true,
+          "span": 9,
+          "readonly": false,
+          "options": {
+            "Diabète type I": "Diabète type I"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Diabète type II",
+          "type": "checkbox",
+          "shortLabel": "Diabète type II",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "options": {
+            "Diabète type II": "Diabète type II"
+          },
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "form": "sous-formulaires organisation salle d'op/intervention chirurgicale prévue /générique",
+  "id": "3DF5E418-7691-47AB-AEAE-FEE1F75FC301",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Type d'intervention ",
+          "type": "text-field",
+          "shortLabel": "intervention programée",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "matériel à prévoir",
+          "type": "text-field",
+          "shortLabel": "matériel à prévoir",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "commande d'implant",
+          "type": "checkbox",
+          "shortLabel": "commande d'implant",
+          "grows": true,
+          "span": 3,
+          "readonly": false,
+          "options": {
+            "commande d'implant": "commande d'implant"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "implant",
+          "type": "text-field",
+          "shortLabel": "implant",
+          "grows": true,
+          "span": 21,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "note",
+          "type": "text-field",
+          "shortLabel": "note",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

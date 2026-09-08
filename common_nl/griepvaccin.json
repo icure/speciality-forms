@@ -1,0 +1,22 @@
+{
+  "form": "Subformulieren/Griepvaccin",
+  "id": "86D6DFDC-D42B-4CE7-A7C3-5659815197B7",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Vaccin",
+          "type": "text-field",
+          "shortLabel": "Griepvaccin",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

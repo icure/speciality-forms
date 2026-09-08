@@ -1,0 +1,96 @@
+{
+  "form": "Sous-formulaires/Administration ou application de médicaments",
+  "id": "F25A53D3-31F1-4A51-975C-74DFD70A645B",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Injection",
+          "type": "dropdown-field",
+          "shortLabel": "Injection",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "options": {
+            "LEGACY|IM|1": "IM",
+            "LEGACY|SC|1": "SC",
+            "LEGACY|ID|1": "ID",
+            "LEGACY|IV|1": "IV"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Application de gouttes ou pommade ophtalmique en phase post-opératoire",
+          "type": "checkbox",
+          "shortLabel": "Application de gouttes ou pommade ophtalm. en phase post-op.",
+          "grows": true,
+          "span": 14,
+          "readonly": false,
+          "options": {
+            "Application de gouttes ou pommade ophtalm. en phase post-op.": "Application de gouttes ou pommade ophtalm. en phase post-op."
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Date intervention",
+          "type": "date-picker",
+          "shortLabel": "en date du",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Application de pommades ou d'un produit médicamenteux",
+          "type": "checkbox",
+          "shortLabel": "Application de pommades ou d'un produit médicamenteux",
+          "grows": true,
+          "span": 18,
+          "readonly": false,
+          "options": {
+            "Application de pommades ou d'un produit médicamenteux": "Application de pommades ou d'un produit médicamenteux"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Pathologie application",
+          "type": "dropdown-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "LEGACY|Zona|1": "Zona",
+            "LEGACY|Eczéma|1": "Eczéma",
+            "LEGACY|Psoriasis|1": "Psoriasis",
+            "LEGACY|Verrues|1": "Verrues",
+            "LEGACY|Dermatomycoses|1": "Dermatomycoses"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Autre pathologie application",
+          "type": "text-field",
+          "shortLabel": "Autre pathologie",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

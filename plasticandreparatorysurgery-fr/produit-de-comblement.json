@@ -1,0 +1,212 @@
+{
+  "form": "Plastique/Produit de comblement",
+  "id": "94d6d19c-e18a-f2eb-9a9d-125368de1d40",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Produit utilisé",
+          "type": "dropdown-field",
+          "shortLabel": "Produit utilisé",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "LEGACY|Volbella|1": "Volbella",
+            "LEGACY|Volift|1": "Volift",
+            "LEGACY|Voluma|1": "Voluma"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Date d'expiration",
+          "type": "date-picker",
+          "shortLabel": "Date d'expiration",
+          "grows": true,
+          "span": 10,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Lot",
+          "type": "text-field",
+          "shortLabel": "Lot",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "front",
+          "type": "checkbox",
+          "shortLabel": "front",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "options": {
+            "front": "front"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "glabelle",
+          "type": "checkbox",
+          "shortLabel": "glabelle",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "options": {
+            "glabelle": "glabelle"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "patte d'oie",
+          "type": "checkbox",
+          "shortLabel": "patte d'oie",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "patte d'oie": "patte d'oie"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "vallée des larmes",
+          "type": "checkbox",
+          "shortLabel": "vallée des larmes",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "options": {
+            "vallée des larmes": "vallée des larmes"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "sillon naso-génien",
+          "type": "checkbox",
+          "shortLabel": "sillon naso-génien",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "options": {
+            "sillon naso-génien": "sillon naso-génien"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "lèvre supérieure",
+          "type": "checkbox",
+          "shortLabel": "lèvre supérieure",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "options": {
+            "lèvre supérieure": "lèvre supérieure"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "lèvre inférieure",
+          "type": "checkbox",
+          "shortLabel": "lèvre inférieure",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "options": {
+            "lèvre inférieure": "lèvre inférieure"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "pli d'amertume",
+          "type": "checkbox",
+          "shortLabel": "pli d'amertume",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "pli d'amertume": "pli d'amertume"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "menton",
+          "type": "checkbox",
+          "shortLabel": "menton",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "options": {
+            "menton": "menton"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "région malaire",
+          "type": "checkbox",
+          "shortLabel": "région malaire",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "options": {
+            "région malaire": "région malaire"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "divers",
+          "type": "token-field",
+          "shortLabel": "divers",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "note",
+          "type": "text-field",
+          "shortLabel": "Note",
+          "grows": true,
+          "span": 11,
+          "rowSpan": 13,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

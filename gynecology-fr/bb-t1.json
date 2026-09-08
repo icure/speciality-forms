@@ -1,0 +1,508 @@
+{
+  "form": "Gynécologie 3.0/BB T1",
+  "id": "9E72CF2E-A5DD-4A07-9A66-65D9D72F3C1B",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "BB numéro",
+          "type": "text-field",
+          "shortLabel": "BB numéro",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "CRL",
+          "type": "measure-field",
+          "shortLabel": "CRL",
+          "grows": true,
+          "span": 3,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Age gestationnel CRL",
+          "type": "text-field",
+          "shortLabel": "AG CRL",
+          "grows": true,
+          "span": 11,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Terme CRL",
+          "type": "date-picker",
+          "shortLabel": "Terme CRL",
+          "grows": true,
+          "span": 10,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Diamètre bipariétal",
+          "type": "measure-field",
+          "shortLabel": "BIP",
+          "grows": true,
+          "span": 3,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Age gestationnel diamètre bipariétal",
+          "type": "text-field",
+          "shortLabel": "AG BIP",
+          "grows": true,
+          "span": 14,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Vésicule ombilicale",
+          "type": "measure-field",
+          "shortLabel": "Vésic. omb.",
+          "grows": true,
+          "span": 7,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Circonférence abdominale",
+          "type": "measure-field",
+          "shortLabel": "CA",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Rhytme cardiaque foetal",
+          "type": "measure-field",
+          "shortLabel": "RCF",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Mouvements foetus",
+          "type": "checkbox",
+          "shortLabel": "Mvt foetus",
+          "grows": true,
+          "span": 20,
+          "readonly": false,
+          "options": {
+            "Mvt foetus": "Mvt foetus"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Nuque",
+          "type": "measure-field",
+          "shortLabel": "Nuque 1",
+          "grows": true,
+          "span": 3,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Nuque2",
+          "type": "measure-field",
+          "shortLabel": "Nuque2",
+          "grows": true,
+          "span": 13,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Nuque3",
+          "type": "measure-field",
+          "shortLabel": "Nuque3",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Cerveau",
+          "type": "dropdown-field",
+          "shortLabel": "Cerveau",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "LEGACY|vu et symétrique|1": "vu et symétrique",
+            "LEGACY|anormal|1": "anormal"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Membres",
+          "type": "dropdown-field",
+          "shortLabel": "Membres",
+          "grows": true,
+          "span": 16,
+          "readonly": false,
+          "options": {
+            "LEGACY|4 membres, 3 segments|1": "4 membres, 3 segments",
+            "LEGACY|4 membres, segments mal vus|1": "4 membres, segments mal vus"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Insertion ombilicale",
+          "type": "dropdown-field",
+          "shortLabel": "Ins. ombilicale",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "LEGACY|normalement inséré|1": "normalement inséré",
+            "LEGACY|omphalocèle|1": "omphalocèle"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Contour",
+          "type": "checkbox",
+          "shortLabel": "Contour",
+          "grows": true,
+          "span": 3,
+          "readonly": false,
+          "options": {
+            "Contour": "Contour"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Faux",
+          "type": "checkbox",
+          "shortLabel": "Faux",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "Faux": "Faux"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Plexus",
+          "type": "checkbox",
+          "shortLabel": "Plexus",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "Plexus": "Plexus"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Orbites",
+          "type": "checkbox",
+          "shortLabel": "Orbites",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "Orbites": "Orbites"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Cristallin",
+          "type": "checkbox",
+          "shortLabel": "Cristallin",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "options": {
+            "Cristallin": "Cristallin"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Os propres du nez",
+          "type": "checkbox",
+          "shortLabel": "Os propres du nez",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "Os propres du nez": "Os propres du nez"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Paroi abdomen",
+          "type": "checkbox",
+          "shortLabel": "Paroi abdo.",
+          "grows": true,
+          "span": 3,
+          "readonly": false,
+          "options": {
+            "Paroi abdo.": "Paroi abdo."
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Estomac",
+          "type": "checkbox",
+          "shortLabel": "Estomac",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "Estomac": "Estomac"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Vessie",
+          "type": "checkbox",
+          "shortLabel": "Vessie",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "options": {
+            "Vessie": "Vessie"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Rein droit",
+          "type": "checkbox",
+          "shortLabel": "Rein d.",
+          "grows": true,
+          "span": 7,
+          "readonly": false,
+          "options": {
+            "Rein d.": "Rein d."
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Rein gauche",
+          "type": "checkbox",
+          "shortLabel": "Rein g.",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "options": {
+            "Rein g.": "Rein g."
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Diaphragme",
+          "type": "checkbox",
+          "shortLabel": "Diaphragme",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "Diaphragme": "Diaphragme"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Cœur",
+          "type": "checkbox",
+          "shortLabel": "cœur",
+          "grows": true,
+          "span": 20,
+          "readonly": false,
+          "options": {
+            "cœur": "cœur"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Membre supérieur droit",
+          "type": "checkbox",
+          "shortLabel": "sup. D.",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "sup. D.": "sup. D."
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Membre supérieur gauche",
+          "type": "checkbox",
+          "shortLabel": "G.",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "G.": "G."
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Main droite",
+          "type": "checkbox",
+          "shortLabel": "Main D.",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Main D.": "Main D."
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Main gauche",
+          "type": "checkbox",
+          "shortLabel": "G.",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "G.": "G."
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Membre inférieur droit",
+          "type": "checkbox",
+          "shortLabel": "inf. D.",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "inf. D.": "inf. D."
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Membre inférieur gauche",
+          "type": "checkbox",
+          "shortLabel": "G.",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "G.": "G."
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Pied droit",
+          "type": "checkbox",
+          "shortLabel": "Pied D.",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Pied D.": "Pied D."
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Pied gauche",
+          "type": "checkbox",
+          "shortLabel": "G.",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "G.": "G."
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "remarques",
+          "type": "text-field",
+          "shortLabel": "remarques",
+          "grows": true,
+          "span": 24,
+          "rowSpan": 2,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

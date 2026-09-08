@@ -1,0 +1,543 @@
+{
+  "form": "Biologie/Hormonologie",
+  "id": "CDB4B495-9B62-477B-B5D9-1E5C5265CB4C",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "TSH max. 2",
+          "type": "checkbox",
+          "shortLabel": "TSH max. 2",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "TSH max. 2": "TSH max. 2"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Cortisol ochtend (08:00) Max.4 geanalyseerd.",
+          "type": "checkbox",
+          "shortLabel": "Cortisol ochtend (08:00) Max.4 geanalyseerd.",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Cortisol ochtend (08:00) Max.4 geanalyseerd.": "Cortisol ochtend (08:00) Max.4 geanalyseerd."
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "FSH",
+          "type": "checkbox",
+          "shortLabel": "FSH",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "FSH": "FSH"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "PTH (intacte)",
+          "type": "checkbox",
+          "shortLabel": "PTH (intacte)",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "PTH (intacte)": "PTH (intacte)"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Vrij T4, max.2",
+          "type": "checkbox",
+          "shortLabel": "Vrij T4, max.2",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Vrij T4, max.2": "Vrij T4, max.2"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Globuline, Max.4 analyseert",
+          "type": "checkbox",
+          "shortLabel": "Globuline, Max.4 analyseert",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Globuline, Max.4 analyseert": "Globuline, Max.4 analyseert"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "LH (kan niet worden gecombineerd met HCG)",
+          "type": "checkbox",
+          "shortLabel": "LH (niet cumulatief. HCG)",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "LH (niet cumulatief. HCG)": "LH (niet cumulatief. HCG)"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "25-OH vitamine D",
+          "type": "checkbox",
+          "shortLabel": "25-OH vitamine D",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "25-OH vitamine D": "25-OH vitamine D"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Gratis T3, max.2",
+          "type": "checkbox",
+          "shortLabel": "Gratis T3, max.2",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Gratis T3, max.2": "Gratis T3, max.2"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Avond cortisol (17u), Max.4 geanalyseerd.",
+          "type": "checkbox",
+          "shortLabel": "Avond cortisol (17u), Max.4 geanalyseerd.",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Avond cortisol (17u), Max.4 geanalyseerd.": "Avond cortisol (17u), Max.4 geanalyseerd."
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Prolactine",
+          "type": "checkbox",
+          "shortLabel": "Prolactine",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Prolactine": "Prolactine"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Calcitonine (op ijs)",
+          "type": "checkbox",
+          "shortLabel": "Calcitonine (op ijs)",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Calcitonine (op ijs)": "Calcitonine (op ijs)"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "T4/TBG, max.2",
+          "type": "checkbox",
+          "shortLabel": "T4/TBG, max.2",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "T4/TBG, max.2": "T4/TBG, max.2"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Vrije cortisol calc. (8u)",
+          "type": "checkbox",
+          "shortLabel": "Vrije cortisol calc. (8u)",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Vrije cortisol calc. (8u)": "Vrije cortisol calc. (8u)"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Estradiol",
+          "type": "checkbox",
+          "shortLabel": "Estradiol",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Estradiol": "Estradiol"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Androstanediol gluc.",
+          "type": "checkbox",
+          "shortLabel": "Androstanediol gluc.",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Androstanediol gluc.": "Androstanediol gluc."
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "T3/TBG, max.2",
+          "type": "checkbox",
+          "shortLabel": "T3/TBG, max.2",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "T3/TBG, max.2": "T3/TBG, max.2"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Vrije cortisol calc. (17h)",
+          "type": "checkbox",
+          "shortLabel": "Vrije cortisol calc. (17h)",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Vrije cortisol calc. (17h)": "Vrije cortisol calc. (17h)"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Estron",
+          "type": "checkbox",
+          "shortLabel": "Estron",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Estron": "Estron"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Androstenedione",
+          "type": "checkbox",
+          "shortLabel": "Androstenedione",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Androstenedione": "Androstenedione"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "TSI (monitoring)",
+          "type": "checkbox",
+          "shortLabel": "TSI (monitoring)",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "TSI (monitoring)": "TSI (monitoring)"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "DHEA sulfaat, Max.4 analyseert",
+          "type": "checkbox",
+          "shortLabel": "DHEA sulfaat, Max.4 analyseert",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "DHEA sulfaat, Max.4 analyseert": "DHEA sulfaat, Max.4 analyseert"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Progesteron",
+          "type": "checkbox",
+          "shortLabel": "Progesteron",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Progesteron": "Progesteron"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "17OH progesteron",
+          "type": "checkbox",
+          "shortLabel": "17OH progesteron",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "17OH progesteron": "17OH progesteron"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "TSI (13.2 €)",
+          "type": "checkbox",
+          "shortLabel": "TSI (13.2 €)",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "TSI (13.2 €)": "TSI (13.2 €)"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "17 OH Progest., Max.4 analyseert",
+          "type": "checkbox",
+          "shortLabel": "17 OH Progest., Max.4 analyseert",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "17 OH Progest., Max.4 analyseert": "17 OH Progest., Max.4 analyseert"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Vrije testosteron",
+          "type": "checkbox",
+          "shortLabel": "Vrije testosteron",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "Vrije testosteron": "Vrije testosteron"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Thyreoglobuline",
+          "type": "checkbox",
+          "shortLabel": "Thyreoglobuline",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "Thyreoglobuline": "Thyreoglobuline"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Androsteendion, Max.4 geanalyseerd.",
+          "type": "checkbox",
+          "shortLabel": "Androsteendion, Max.4 geanalyseerd.",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "Androsteendion, Max.4 geanalyseerd.": "Androsteendion, Max.4 geanalyseerd."
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Totaal testosteron",
+          "type": "checkbox",
+          "shortLabel": "Totaal testosteron",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "Totaal testosteron": "Totaal testosteron"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Thyreoglobuline AC",
+          "type": "checkbox",
+          "shortLabel": "Thyreoglobuline AC",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "Thyreoglobuline AC": "Thyreoglobuline AC"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Aldosteron",
+          "type": "checkbox",
+          "shortLabel": "Aldosteron",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "Aldosteron": "Aldosteron"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "HCG",
+          "type": "checkbox",
+          "shortLabel": "HCG",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "HCG": "HCG"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "AC TPO",
+          "type": "checkbox",
+          "shortLabel": "AC TPO",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "AC TPO": "AC TPO"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "ACTH (op ijs)",
+          "type": "checkbox",
+          "shortLabel": "ACTH (op ijs)",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "ACTH (op ijs)": "ACTH (op ijs)"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "HPL",
+          "type": "checkbox",
+          "shortLabel": "HPL",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "HPL": "HPL"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Renine (op ijs)",
+          "type": "checkbox",
+          "shortLabel": "Renine (op ijs)",
+          "grows": true,
+          "span": 10,
+          "readonly": false,
+          "options": {
+            "Renine (op ijs)": "Renine (op ijs)"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Gratis oestriol",
+          "type": "checkbox",
+          "shortLabel": "Gratis oestriol",
+          "grows": true,
+          "span": 14,
+          "readonly": false,
+          "options": {
+            "Gratis oestriol": "Gratis oestriol"
+          },
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

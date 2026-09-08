@@ -1,0 +1,630 @@
+{
+  "form": "Pré-op/réduction mammaire",
+  "id": "6C23EB81-B095-4DF7-8F71-099C8542C68A",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "intitulé",
+              "type": "text-field",
+              "shortLabel": "intitulé",
+              "grows": true,
+              "span": 11,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "fiche d'info",
+              "type": "checkbox",
+              "shortLabel": "fiche d'info donnée",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "fiche d'info donnée": "fiche d'info donnée"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "61E5AA6E-A4EB-418E-A17F-AD3998C12B0A",
+              "type": "action",
+              "shortLabel": "demande mutuelle",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "mastodynies",
+              "type": "checkbox",
+              "shortLabel": "mastodynies",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "mastodynies": "mastodynies"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "intertrigo",
+              "type": "checkbox",
+              "shortLabel": "intertrigo",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "intertrigo": "intertrigo"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "difficulté sport",
+              "type": "checkbox",
+              "shortLabel": "difficulté sport",
+              "grows": true,
+              "span": 16,
+              "readonly": false,
+              "options": {
+                "difficulté sport": "difficulté sport"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "plainte",
+              "type": "text-field",
+              "shortLabel": "autres plaintes",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "dorsalgies",
+              "type": "checkbox",
+              "shortLabel": "dorsalgies",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "dorsalgies": "dorsalgies"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "douleur épaules",
+              "type": "checkbox",
+              "shortLabel": "douleur épaules",
+              "grows": true,
+              "span": 21,
+              "readonly": false,
+              "options": {
+                "douleur épaules": "douleur épaules"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "ptose mammaire",
+              "type": "dropdown-field",
+              "shortLabel": "ptose mammaire",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "LEGACY|grade A (AMC <1 cm sous IMF)|1": "grade A (AMC <1 cm sous IMF)",
+                "LEGACY|grade 2 (AMC 1-3 cm sous IMF)|1": "grade 2 (AMC 1-3 cm sous IMF)",
+                "LEGACY|grade 3 (AMC>3 cm sous IMF)|1": "grade 3 (AMC>3 cm sous IMF)",
+                "LEGACY|pseudoptosis|1": "pseudoptosis"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "poids",
+              "type": "measure-field",
+              "shortLabel": "poids",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "taille actuelle soutient",
+              "type": "text-field",
+              "shortLabel": "taille actuelle soutient",
+              "grows": true,
+              "span": 19,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "sensibilité du mammelon",
+              "type": "dropdown-field",
+              "shortLabel": "sensibilité du mammelon",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "LEGACY|conservée|1": "conservée",
+                "LEGACY|diminuée|1": "diminuée",
+                "LEGACY|insensible|1": "insensible"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "taille",
+              "type": "measure-field",
+              "shortLabel": "taille",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "taille désirée de soutient",
+              "type": "text-field",
+              "shortLabel": "taille désirée de soutient",
+              "grows": true,
+              "span": 11,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "peau",
+              "type": "dropdown-field",
+              "shortLabel": "qualité cutanée",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "options": {
+                "LEGACY|bonne qualité|1": "bonne qualité",
+                "LEGACY|mauvaise qualité|1": "mauvaise qualité",
+                "LEGACY|vergetures|1": "vergetures"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "BMI",
+              "type": "number-field",
+              "shortLabel": "BMI",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "symétrie",
+              "type": "dropdown-field",
+              "shortLabel": "symétrie mammaire",
+              "grows": true,
+              "span": 21,
+              "readonly": false,
+              "options": {
+                "LEGACY|G=D|1": "G=D",
+                "LEGACY|G<D|1": "G<D",
+                "LEGACY|G>D|1": "G>D"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "distance mm gauche",
+              "type": "measure-field",
+              "shortLabel": "distance manubrio-mamelonnaire gauche",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "dist mm dte",
+              "type": "measure-field",
+              "shortLabel": "distance manubrio-mamelonnaire droite",
+              "grows": true,
+              "span": 11,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "N-IMF droit",
+              "type": "measure-field",
+              "shortLabel": "N-IMF droit",
+              "grows": true,
+              "span": 13,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "N-IMF gauche",
+              "type": "measure-field",
+              "shortLabel": "N-IMF gauche",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "examen clinique",
+              "type": "text-field",
+              "shortLabel": "examen clinique",
+              "grows": true,
+              "span": 24,
+              "rowSpan": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 3",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "mammographie réalisée",
+              "type": "checkbox",
+              "shortLabel": "mammographie réalisée",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "mammographie réalisée": "mammographie réalisée"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "mammographie a réaliser",
+              "type": "checkbox",
+              "shortLabel": "mammographie a réaliser",
+              "grows": true,
+              "span": 19,
+              "readonly": false,
+              "options": {
+                "mammographie a réaliser": "mammographie a réaliser"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "suivi mammographique",
+              "type": "dropdown-field",
+              "shortLabel": "suivi mammographique",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "LEGACY|aucun|1": "aucun",
+                "LEGACY|suivi annuel|1": "suivi annuel",
+                "LEGACY|suivi tous les 2 ans|1": "suivi tous les 2 ans"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "protocole",
+              "type": "text-field",
+              "shortLabel": "protocole de la mammographie",
+              "grows": true,
+              "span": 24,
+              "rowSpan": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 4",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "traitement proposé",
+              "type": "text-field",
+              "shortLabel": "traitement proposé",
+              "grows": true,
+              "span": 24,
+              "rowSpan": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 5",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": " technique verticale",
+              "type": "checkbox",
+              "shortLabel": "technique verticale",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "technique verticale": "technique verticale"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": " thrombose",
+              "type": "checkbox",
+              "shortLabel": " thrombose",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                " thrombose": " thrombose"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "anomalies cicatricielles",
+              "type": "checkbox",
+              "shortLabel": "anomalies cicatricielles",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "anomalies cicatricielles": "anomalies cicatricielles"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": " technique de Hammond",
+              "type": "checkbox",
+              "shortLabel": "technique de Hammond",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "technique de Hammond": "technique de Hammond"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": " phlébite",
+              "type": "checkbox",
+              "shortLabel": " phlébite",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                " phlébite": " phlébite"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "impact sur la lactation",
+              "type": "checkbox",
+              "shortLabel": "impact sur la lactation",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "impact sur la lactation": "impact sur la lactation"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "technique avec cicatrice résiduelle en ancre de marine",
+              "type": "checkbox",
+              "shortLabel": "technique avec cicatrice résiduelle en ancre de marine",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "technique avec cicatrice résiduelle en ancre de marine": "technique avec cicatrice résiduelle en ancre de marine"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "saignements",
+              "type": "checkbox",
+              "shortLabel": "saignements",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "saignements": "saignements"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "troubles de sensibilité du mamellon",
+              "type": "checkbox",
+              "shortLabel": "troubles de sensibilité du mamellon",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "troubles de sensibilité du mamellon": "troubles de sensibilité du mamellon"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": " nécrose aréolaire",
+              "type": "checkbox",
+              "shortLabel": " nécrose aréolaire",
+              "grows": true,
+              "span": 13,
+              "readonly": false,
+              "options": {
+                " nécrose aréolaire": " nécrose aréolaire"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": " dehiscense cicatricelle",
+              "type": "checkbox",
+              "shortLabel": " dehiscense cicatricelle",
+              "grows": true,
+              "span": 11,
+              "readonly": false,
+              "options": {
+                " dehiscense cicatricelle": " dehiscense cicatricelle"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": " pédicule supérieur",
+              "type": "checkbox",
+              "shortLabel": " pédicule supérieur",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                " pédicule supérieur": " pédicule supérieur"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": " Mac Kissock",
+              "type": "checkbox",
+              "shortLabel": " Mac Kissock",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                " Mac Kissock": " Mac Kissock"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": " pédicule inférieur",
+              "type": "checkbox",
+              "shortLabel": " pédicule inférieur",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                " pédicule inférieur": " pédicule inférieur"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "note",
+              "type": "text-field",
+              "shortLabel": "note",
+              "grows": true,
+              "span": 24,
+              "rowSpan": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

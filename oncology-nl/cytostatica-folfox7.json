@@ -1,0 +1,149 @@
+{
+  "form": "Oncologie/Cytostatica-Folfox7",
+  "id": "2B7B321B-AC92-49C5-AB01-18903EEA95A3",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Vitamine",
+          "type": "text-field",
+          "shortLabel": "Vitamine",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Produkt 1",
+          "type": "text-field",
+          "shortLabel": "Produkt 1",
+          "grows": true,
+          "span": 14,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Dosis",
+          "type": "measure-field",
+          "shortLabel": "Dosis",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Percent",
+          "type": "measure-field",
+          "shortLabel": "Percent",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "P1 1",
+          "type": "checkbox",
+          "shortLabel": "1",
+          "grows": true,
+          "span": 1,
+          "readonly": false,
+          "options": {
+            "1": "1"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "P1 2",
+          "type": "checkbox",
+          "shortLabel": "2",
+          "grows": true,
+          "span": 1,
+          "readonly": false,
+          "options": {
+            "2": "2"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "P1 3",
+          "type": "checkbox",
+          "shortLabel": "3",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "3": "3"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Berekende dosis",
+          "type": "measure-field",
+          "shortLabel": "=>",
+          "grows": true,
+          "span": 16,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Produkt 2",
+          "type": "text-field",
+          "shortLabel": "Produkt 2",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "subform",
+          "id": "A51183C9-ADB6-4E5C-8987-F7D9805CCC41",
+          "shortLabel": "Post & supportieve medicatie",
+          "forms": {
+            "Oncologie/Postmedicatie": {
+              "form": "Oncologie/Postmedicatie",
+              "id": "F1A58331-1BD6-49ED-AD4E-9944288E0A5E",
+              "sections": [
+                {
+                  "section": "Main",
+                  "fields": []
+                }
+              ]
+            },
+            "Oncologie/Supportieve medicatie": {
+              "form": "Oncologie/Supportieve medicatie",
+              "id": "58FFD730-4A01-4A7F-8D96-1558A59CFAA6",
+              "sections": [
+                {
+                  "section": "Main",
+                  "fields": []
+                }
+              ]
+            }
+          },
+          "span": 24,
+          "rowSpan": 1,
+          "labels": {}
+        }
+      ]
+    }
+  ]
+}

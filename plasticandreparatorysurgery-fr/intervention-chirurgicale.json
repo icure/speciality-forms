@@ -1,0 +1,33 @@
+{
+  "form": "sous-formulaires organisation salle d'op/Intervention chirurgicale",
+  "id": "C7BB898C-9D6D-40FE-8109-94C7FD0E9659",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Type d'intervention ",
+          "type": "text-field",
+          "shortLabel": "intervention programée",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "durée d'intervention",
+          "type": "text-field",
+          "shortLabel": "durée d'intervention",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

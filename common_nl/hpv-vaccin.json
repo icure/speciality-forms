@@ -1,0 +1,22 @@
+{
+  "form": "Subformulieren/HPV-vaccin",
+  "id": "92BE63CC-7163-40F9-8654-2A73773F0FFC",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Vaccin",
+          "type": "text-field",
+          "shortLabel": "HPV-vaccin",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "form": "Biologie/Immuno-hématologie",
+  "id": "C5B78793-D02F-446D-A7A2-D53A34AA98B1",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Groupe ABO + Rh",
+          "type": "checkbox",
+          "shortLabel": "Groupe ABO + Rh",
+          "grows": true,
+          "span": 7,
+          "readonly": false,
+          "options": {
+            "Groupe ABO + Rh": "Groupe ABO + Rh"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Sous-groupes Rh",
+          "type": "checkbox",
+          "shortLabel": "Sous-groupes Rh",
+          "grows": true,
+          "span": 7,
+          "readonly": false,
+          "options": {
+            "Sous-groupes Rh": "Sous-groupes Rh"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Coombs direct",
+          "type": "checkbox",
+          "shortLabel": "Coombs direct",
+          "grows": true,
+          "span": 7,
+          "readonly": false,
+          "options": {
+            "Coombs direct": "Coombs direct"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "AC irréguliers (Anémie hémolytique ou grossesse)",
+          "type": "checkbox",
+          "shortLabel": "AC irr. (An. hémol. ou gros.)",
+          "grows": true,
+          "span": 3,
+          "readonly": false,
+          "options": {
+            "AC irr. (An. hémol. ou gros.)": "AC irr. (An. hémol. ou gros.)"
+          },
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

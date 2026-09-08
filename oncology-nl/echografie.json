@@ -1,0 +1,121 @@
+{
+  "form": "Gastro/Echografie",
+  "id": "391E90D3-9A47-4AC8-971A-E9014B18866F",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Indicatie",
+          "type": "text-field",
+          "shortLabel": "Indicatie",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Lever",
+          "type": "text-field",
+          "shortLabel": "Lever",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Galblaas",
+          "type": "text-field",
+          "shortLabel": "Galblaas",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Pancreas",
+          "type": "text-field",
+          "shortLabel": "Pancreas",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Milt",
+          "type": "text-field",
+          "shortLabel": "Milt",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Nieren",
+          "type": "text-field",
+          "shortLabel": "Nieren",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Besluit",
+          "type": "text-field",
+          "shortLabel": "Besluit",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Behandelingsvoorstel",
+          "type": "text-field",
+          "shortLabel": "Behandeling ",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Houding",
+          "type": "text-field",
+          "shortLabel": "Houding",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "4E213EFE-186F-460D-91ED-758B951C50B8",
+          "type": "action",
+          "shortLabel": "Verslag",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

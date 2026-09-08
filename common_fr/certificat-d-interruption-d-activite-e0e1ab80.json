@@ -1,0 +1,243 @@
+{
+  "form": "Médecine générale/Certificat d'interruption d'activité",
+  "id": "6F6560A2-4E4E-4F29-BC5A-C8B2E0E1AB80",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "78CF4B52-1006-4197-A991-63DD42494020",
+              "type": "action",
+              "shortLabel": "Certificat",
+              "grows": true,
+              "span": 20,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "D1E0EDF4-8851-4BB4-A942-0A83AB4034DB",
+              "type": "action",
+              "shortLabel": "Accompagnateur",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "incapacité de",
+              "type": "dropdown-field",
+              "shortLabel": "incapacité de",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "LEGACY|travailler|1": "travailler",
+                "LEGACY|fréquenter les cours|1": "fréquenter les cours",
+                "LEGACY|suivre le cours de gymnastique|1": "suivre le cours de gymnastique",
+                "LEGACY|suivre le cours de natation|1": "suivre le cours de natation",
+                "LEGACY|faire des efforts violents|1": "faire des efforts violents",
+                "LEGACY|arbeid te verrichten|1": "arbeid te verrichten",
+                "LEGACY|de lessen te volgen|1": "de lessen te volgen",
+                "LEGACY|aan de turnlessen deel te nemen|1": "aan de turnlessen deel te nemen",
+                "LEGACY|aan de zwemlessen deel te nemen|1": "aan de zwemlessen deel te nemen",
+                "LEGACY|zware  krachtinspanningen te leveren|1": "zware  krachtinspanningen te leveren"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "du",
+              "type": "date-picker",
+              "shortLabel": "du",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "au",
+              "type": "date-picker",
+              "shortLabel": "au",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "inclus/exclus",
+              "type": "dropdown-field",
+              "shortLabel": "inclus/exclus",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "options": {
+                "LEGACY|inclus|1": "inclus",
+                "LEGACY|exclus|1": "exclus",
+                "LEGACY|inbegrepen|1": "inbegrepen",
+                "LEGACY|niet inbegrepen|1": "niet inbegrepen"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "statut de la personne",
+              "type": "dropdown-field",
+              "shortLabel": "statut de la personne",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "LEGACY|son père|1": "son père",
+                "LEGACY|sa mère|1": "sa mère",
+                "LEGACY|son époux|1": "son époux",
+                "LEGACY|son épouse|1": "son épouse",
+                "LEGACY|zijn/haar vader|1": "zijn/haar vader",
+                "LEGACY|zijn/haar moeder|1": "zijn/haar moeder",
+                "LEGACY|haar man|1": "haar man",
+                "LEGACY|zijn vrouw|1": "zijn vrouw"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "pour cause de",
+              "type": "dropdown-field",
+              "shortLabel": "pour cause de",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "LEGACY|maladie|1": "maladie",
+                "LEGACY|accident survenu le|1": "accident survenu le",
+                "LEGACY|accident|1": "accident",
+                "LEGACY|prolongation|1": "prolongation",
+                "LEGACY|intervention chirurgicale|1": "intervention chirurgicale",
+                "LEGACY|ziekte|1": "ziekte",
+                "LEGACY|een ongeval, hem overkomen op|1": "een ongeval, hem overkomen op",
+                "LEGACY|een ongeval, haar overkomen op|1": "een ongeval, haar overkomen op",
+                "LEGACY|een heelkundige ingreep|1": "een heelkundige ingreep",
+                "LEGACY|verlenging|1": "verlenging"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Accident suvenu le",
+              "type": "date-picker",
+              "shortLabel": "Accident suvenu le",
+              "grows": true,
+              "span": 16,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "autres",
+              "type": "text-field",
+              "shortLabel": "autres",
+              "grows": true,
+              "span": 24,
+              "rowSpan": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Sortie",
+              "type": "dropdown-field",
+              "shortLabel": "Sortie",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "LEGACY|autorisée|1": "autorisée",
+                "LEGACY|interdite|1": "interdite",
+                "LEGACY|toegestaan|1": "toegestaan",
+                "LEGACY|verboden|1": "verboden"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "reprise d'activité partielle",
+              "type": "date-picker",
+              "shortLabel": "reprise d'activité partielle",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "pourcentage",
+              "type": "measure-field",
+              "shortLabel": "à",
+              "grows": true,
+              "span": 16,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "totale",
+              "type": "date-picker",
+              "shortLabel": "totale",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "100 %",
+              "type": "measure-field",
+              "shortLabel": "à",
+              "grows": true,
+              "span": 16,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

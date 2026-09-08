@@ -1,0 +1,22 @@
+{
+  "form": "Sous-formulaires/Tympanométrie",
+  "id": "CCD985EE-16CC-40D0-A1B1-5770CACC56B1",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Tympanométrie",
+          "type": "text-field",
+          "shortLabel": "Tympanométrie",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

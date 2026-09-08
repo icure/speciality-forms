@@ -1,0 +1,221 @@
+{
+  "form": "Biologie/Hématologie",
+  "id": "38052049-A45B-4170-A878-29C44AEC0671",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Hémoglobine",
+          "type": "checkbox",
+          "shortLabel": "Hémoglobine",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "Hémoglobine": "Hémoglobine"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "G.R. Hématocrite",
+          "type": "checkbox",
+          "shortLabel": "G.R. Hématocrite",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "G.R. Hématocrite": "G.R. Hématocrite"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Globules blancs",
+          "type": "checkbox",
+          "shortLabel": "Globules blancs",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "Globules blancs": "Globules blancs"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Formule",
+          "type": "checkbox",
+          "shortLabel": "Formule",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "Formule": "Formule"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Plaquettes",
+          "type": "checkbox",
+          "shortLabel": "Plaquettes",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "Plaquettes": "Plaquettes"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Réticulocytes",
+          "type": "checkbox",
+          "shortLabel": "Réticulocytes",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "Réticulocytes": "Réticulocytes"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Fer",
+          "type": "checkbox",
+          "shortLabel": "Fer",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "Fer": "Fer"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Transferrine",
+          "type": "checkbox",
+          "shortLabel": "Transferrine",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "Transferrine": "Transferrine"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Fer+IBC (Saturation)",
+          "type": "checkbox",
+          "shortLabel": "Fer+IBC (Saturation)",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "Fer+IBC (Saturation)": "Fer+IBC (Saturation)"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Ferritine",
+          "type": "checkbox",
+          "shortLabel": "Ferritine",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "Ferritine": "Ferritine"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Vitamine B12",
+          "type": "checkbox",
+          "shortLabel": "Vitamine B12",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "Vitamine B12": "Vitamine B12"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Ac folique (sérique)",
+          "type": "checkbox",
+          "shortLabel": "Ac folique (sérique)",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "Ac folique (sérique)": "Ac folique (sérique)"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Ac folique (érythroc.)",
+          "type": "checkbox",
+          "shortLabel": "Ac folique (érythroc.)",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Ac folique (érythroc.)": "Ac folique (érythroc.)"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Carboxyhémoglobine",
+          "type": "checkbox",
+          "shortLabel": "Carboxyhémoglobine",
+          "grows": true,
+          "span": 10,
+          "readonly": false,
+          "options": {
+            "Carboxyhémoglobine": "Carboxyhémoglobine"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Méthémoglobine",
+          "type": "checkbox",
+          "shortLabel": "Méthémoglobine",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "Méthémoglobine": "Méthémoglobine"
+          },
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

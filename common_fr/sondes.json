@@ -1,0 +1,136 @@
+{
+  "form": "Sous-formulaires/Sondes",
+  "id": "244D262F-6F8C-48C3-8975-B39159AAAB94",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Sondage vésical",
+          "type": "checkbox",
+          "shortLabel": "Sondage vésical",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "Sondage vésical": "Sondage vésical"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Instillation vésicale",
+          "type": "checkbox",
+          "shortLabel": "Instillation vésicale",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "Instillation vésicale": "Instillation vésicale"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Qté instillation vésicale",
+          "type": "measure-field",
+          "shortLabel": "Qté",
+          "grows": true,
+          "span": 22,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Lavage de vessie",
+          "type": "checkbox",
+          "shortLabel": "Lavage de vessie",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "Lavage de vessie": "Lavage de vessie"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Qté lavage de vessie",
+          "type": "measure-field",
+          "shortLabel": "Qté",
+          "grows": true,
+          "span": 22,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Lavage intestinal",
+          "type": "checkbox",
+          "shortLabel": "Lavage intestinal",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "Lavage intestinal": "Lavage intestinal"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Qté lavage intestinal",
+          "type": "measure-field",
+          "shortLabel": "Qté",
+          "grows": true,
+          "span": 22,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Tubage et drainage gastro-intestinal",
+          "type": "checkbox",
+          "shortLabel": "Tubage et drainage gastro-intestinal",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "Tubage et drainage gastro-intestinal": "Tubage et drainage gastro-intestinal"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Fréquence tubage",
+          "type": "measure-field",
+          "shortLabel": "Fréquence",
+          "grows": true,
+          "span": 12,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Durée tubage",
+          "type": "measure-field",
+          "shortLabel": "Durée",
+          "grows": true,
+          "span": 10,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

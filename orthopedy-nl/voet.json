@@ -1,0 +1,265 @@
+{
+  "form": "Orthopedie NL/Voet",
+  "id": "AA8568C8-B795-45EC-83C7-CF5EDE145274",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Anamnese",
+              "type": "text-field",
+              "shortLabel": "Anamnese",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Lateraliteit voet",
+              "type": "dropdown-field",
+              "shortLabel": "Lateraliteit voet",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "LEGACY|rechts|1": "rechts",
+                "LEGACY|link|1": "link",
+                "LEGACY|bi-lateraliteit|1": "bi-lateraliteit"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Pijn",
+              "type": "checkbox",
+              "shortLabel": "Pijn",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "Pijn": "Pijn"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Dagelijkse pijn",
+              "type": "checkbox",
+              "shortLabel": "Dagelijkse pijn",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "options": {
+                "Dagelijkse pijn": "Dagelijkse pijn"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Problemen schoeisel",
+              "type": "checkbox",
+              "shortLabel": "Problemen schoeisel",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "Problemen schoeisel": "Problemen schoeisel"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Klinisch onderzoek",
+              "type": "text-field",
+              "shortLabel": "Klinisch onderzoek",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Para-klinisch onderzoek",
+              "type": "text-field",
+              "shortLabel": "Para-klinisch onderzoek",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Complem. examen",
+              "type": "text-field",
+              "shortLabel": "Complem. examen",
+              "grows": true,
+              "span": 21,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "C5F53A3E-20B4-44D6-8B1A-F2C5D8CF6D61",
+              "type": "action",
+              "shortLabel": "Aanvraag OZ",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "RX standaard",
+              "type": "checkbox",
+              "shortLabel": "RX standaard",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "RX standaard": "RX standaard"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "CT scan",
+              "type": "checkbox",
+              "shortLabel": "CT scan",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "CT scan": "CT scan"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Echo",
+              "type": "checkbox",
+              "shortLabel": "Echo",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "options": {
+                "Echo": "Echo"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "MRI",
+              "type": "checkbox",
+              "shortLabel": "MRI",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "MRI": "MRI"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Diagnose",
+              "type": "text-field",
+              "shortLabel": "Diagnose",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Scintigrafie",
+              "type": "checkbox",
+              "shortLabel": "Scintigrafie",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "Scintigrafie": "Scintigrafie"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Behandeling",
+              "type": "dropdown-field",
+              "shortLabel": "Behandeling",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "LEGACY|Chirurgie|1": "Chirurgie",
+                "LEGACY|Kinesist|1": "Kinesist",
+                "LEGACY|Conservateur AINS + Antalg|1": "Conservateur AINS + Antalg",
+                "LEGACY|Conservateur Infiltration|1": "Conservateur Infiltration",
+                "LEGACY|Conservateur Ac. HYAL|1": "Conservateur Ac. HYAL"
+              },
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Voorgestelde interventie",
+              "type": "text-field",
+              "shortLabel": "Voorgestelde interventie",
+              "grows": true,
+              "span": 11,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Andere",
+              "type": "text-field",
+              "shortLabel": "Andere",
+              "grows": true,
+              "span": 13,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

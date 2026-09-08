@@ -1,0 +1,22 @@
+{
+  "form": "Sous-formulaires/Autre Examen",
+  "id": "D2B88017-BE92-49CF-BA8E-DA777AF49FF7",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Autre examen paraclinique",
+          "type": "text-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

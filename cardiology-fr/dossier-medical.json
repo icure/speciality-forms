@@ -1,0 +1,364 @@
+{
+  "form": "Cardiologie/Dossier Médical",
+  "id": "FFFFFFFF-FFFF-FFFF-FFFF-DOSSMED00000",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Antécédents médicaux",
+              "type": "token-field",
+              "shortLabel": "Antécédents médicaux",
+              "grows": true,
+              "span": 12,
+              "rowSpan": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Antécédents familiaux",
+              "type": "token-field",
+              "shortLabel": "Antécédents familiaux",
+              "grows": true,
+              "span": 12,
+              "rowSpan": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Intolérances",
+              "type": "token-field",
+              "shortLabel": "Intolérances",
+              "grows": true,
+              "span": 11,
+              "rowSpan": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Antécédents chirurgicaux",
+              "type": "token-field",
+              "shortLabel": "Antécédents chirurgicaux",
+              "grows": true,
+              "span": 13,
+              "rowSpan": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Allergies",
+              "type": "token-field",
+              "shortLabel": "Allergies",
+              "grows": true,
+              "span": 24,
+              "rowSpan": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Mode de vie",
+              "type": "text-field",
+              "shortLabel": "Mode de vie",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Allergie au produit de contraste iodé",
+              "type": "checkbox",
+              "shortLabel": "Allergie prod. contraste iodé",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "Allergie prod. contraste iodé": "Allergie prod. contraste iodé"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Allergie à la péniciline",
+              "type": "checkbox",
+              "shortLabel": "All. péniciline",
+              "grows": true,
+              "span": 18,
+              "readonly": false,
+              "options": {
+                "All. péniciline": "All. péniciline"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Facteurs de risque",
+              "type": "token-field",
+              "shortLabel": "Facteurs de risque",
+              "grows": true,
+              "span": 24,
+              "rowSpan": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Allergies médicamenteuses",
+              "type": "token-field",
+              "shortLabel": "Allergies médicamenteuses",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Tabagisme (pq. ans)",
+              "type": "number-field",
+              "shortLabel": "Tabac (pq. ans)",
+              "grows": true,
+              "span": 16,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Ethylisme",
+              "type": "measure-field",
+              "shortLabel": "Ethylisme",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Stress",
+              "type": "checkbox",
+              "shortLabel": "Stress",
+              "grows": true,
+              "span": 1,
+              "readonly": false,
+              "options": {
+                "Stress": "Stress"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Antécédents cardio-vasculaires familiaux",
+              "type": "checkbox",
+              "shortLabel": "Atcd CV fam.",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "Atcd CV fam.": "Atcd CV fam."
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Diabète type insulino-dépendant",
+              "type": "checkbox",
+              "shortLabel": "Diab. ins.-dép.",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "Diab. ins.-dép.": "Diab. ins.-dép."
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Diabète non insulino-dépendant",
+              "type": "checkbox",
+              "shortLabel": "Diabète non ins.-dép.",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "Diabète non ins.-dép.": "Diabète non ins.-dép."
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Hypercholestérolémie",
+              "type": "checkbox",
+              "shortLabel": "Hypercholestérolémie",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "Hypercholestérolémie": "Hypercholestérolémie"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Obésité",
+              "type": "checkbox",
+              "shortLabel": "Obésité",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "Obésité": "Obésité"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Hypertension artérielle",
+              "type": "checkbox",
+              "shortLabel": "HTA",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "HTA": "HTA"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Insuffisance rénale",
+              "type": "checkbox",
+              "shortLabel": "Insuffisance rénale",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "Insuffisance rénale": "Insuffisance rénale"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Ménopause précoce",
+              "type": "checkbox",
+              "shortLabel": "Ménopause précoce",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "Ménopause précoce": "Ménopause précoce"
+              },
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 3",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Refus d'intubation",
+              "type": "checkbox",
+              "shortLabel": "Refus intubation",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Refus intubation": "Refus intubation"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Refus de réanimation",
+              "type": "checkbox",
+              "shortLabel": "Refus réanim.",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Refus réanim.": "Refus réanim."
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Refus de transfusion sanguine",
+              "type": "checkbox",
+              "shortLabel": "Refus transf. sang.",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Refus transf. sang.": "Refus transf. sang."
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "7623978B-63FB-4BF3-84A4-98626BC33B65",
+              "type": "action",
+              "shortLabel": "Imprimer",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

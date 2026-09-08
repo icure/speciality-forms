@@ -1,0 +1,462 @@
+{
+  "form": "Plastique/Silhouette corporelle",
+  "id": "1597dc99-e1ac-48a4-785e-1a4e13708dd0",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "bras",
+              "type": "checkbox",
+              "shortLabel": "bras",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "bras": "bras"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "abdomen",
+              "type": "checkbox",
+              "shortLabel": "abdomen",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "abdomen": "abdomen"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "dos",
+              "type": "checkbox",
+              "shortLabel": "dos",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "dos": "dos"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "flancs",
+              "type": "checkbox",
+              "shortLabel": "flancs",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "flancs": "flancs"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "hanches",
+              "type": "checkbox",
+              "shortLabel": "hanches",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "hanches": "hanches"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "cuisses",
+              "type": "checkbox",
+              "shortLabel": "cuisses",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "cuisses": "cuisses"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "cicatrices",
+              "type": "token-field",
+              "shortLabel": "cicatrices",
+              "grows": true,
+              "span": 24,
+              "rowSpan": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "dermochalasis brachial",
+              "type": "checkbox",
+              "shortLabel": "dermochalasis brachial",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "dermochalasis brachial": "dermochalasis brachial"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "dermochalasis crural",
+              "type": "checkbox",
+              "shortLabel": "dermochalasis crural",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "dermochalasis crural": "dermochalasis crural"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "dermochalasis abdominal antérieur",
+              "type": "checkbox",
+              "shortLabel": "dermochalasis abdominal antérieur",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "dermochalasis abdominal antérieur": "dermochalasis abdominal antérieur"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "dermochalasis tronculaire",
+              "type": "checkbox",
+              "shortLabel": "dermochalasis tronculaire",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "dermochalasis tronculaire": "dermochalasis tronculaire"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "hernie épigastrique",
+              "type": "checkbox",
+              "shortLabel": "hernie épigastrique",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "hernie épigastrique": "hernie épigastrique"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "hernie ombilicale",
+              "type": "checkbox",
+              "shortLabel": "hernie ombilicale",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "hernie ombilicale": "hernie ombilicale"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "hernie sous-ombilicale",
+              "type": "checkbox",
+              "shortLabel": "hernie sous-ombilicale",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "options": {
+                "hernie sous-ombilicale": "hernie sous-ombilicale"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "éventration",
+              "type": "checkbox",
+              "shortLabel": "éventration",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "éventration": "éventration"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "pli sus-pubien marqué",
+              "type": "checkbox",
+              "shortLabel": "pli sus-pubien marqué",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "pli sus-pubien marqué": "pli sus-pubien marqué"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "relâchement musculoaponévrotique abdominal antérieur",
+              "type": "checkbox",
+              "shortLabel": "relâchement musculoaponévrotique abdominal antérieur",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "relâchement musculoaponévrotique abdominal antérieur": "relâchement musculoaponévrotique abdominal antérieur"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "lipodystrophie des hanches",
+              "type": "checkbox",
+              "shortLabel": "lipodystrophie des hanches",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "lipodystrophie des hanches": "lipodystrophie des hanches"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "lipodytrophie des flancs",
+              "type": "checkbox",
+              "shortLabel": "lipodytrophie des flancs",
+              "grows": true,
+              "span": 11,
+              "readonly": false,
+              "options": {
+                "lipodytrophie des flancs": "lipodytrophie des flancs"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "lipodystrophie abdominale",
+              "type": "checkbox",
+              "shortLabel": "lipodystrophie abdominale",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "options": {
+                "lipodystrophie abdominale": "lipodystrophie abdominale"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "diastasis des muscles recti abdominis",
+              "type": "dropdown-field",
+              "shortLabel": "diastasis des muscles recti abdominis",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "LEGACY|absent|1": "absent",
+                "LEGACY|modéré|1": "modéré",
+                "LEGACY|majeur|1": "majeur"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "plastie de bras",
+              "type": "checkbox",
+              "shortLabel": "plastie de bras",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "plastie de bras": "plastie de bras"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "plastie abdominale antérieure",
+              "type": "checkbox",
+              "shortLabel": "plastie abdominale antérieure",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "plastie abdominale antérieure": "plastie abdominale antérieure"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "plastie abdominale circulaire",
+              "type": "checkbox",
+              "shortLabel": "plastie abdominale circulaire",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "plastie abdominale circulaire": "plastie abdominale circulaire"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "plastie de cuisses",
+              "type": "checkbox",
+              "shortLabel": "plastie de cuisses",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "plastie de cuisses": "plastie de cuisses"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "plastie abdominale antérieure avec transposition ombilicale",
+              "type": "checkbox",
+              "shortLabel": "plastie abdo. ant. avec transpo. ombil",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "plastie abdo. ant. avec transpo. ombil": "plastie abdo. ant. avec transpo. ombil"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "plicature musculoaponévrotique antérieure",
+              "type": "checkbox",
+              "shortLabel": "plicature musculoaponévrotique antérieure",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "plicature musculoaponévrotique antérieure": "plicature musculoaponévrotique antérieure"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "lipoaspiration des flancs en position dorsale",
+              "type": "checkbox",
+              "shortLabel": "lipoaspiration des flancs en position dorsale",
+              "grows": true,
+              "span": 16,
+              "readonly": false,
+              "options": {
+                "lipoaspiration des flancs en position dorsale": "lipoaspiration des flancs en position dorsale"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "lipoaspiration du dos",
+              "type": "checkbox",
+              "shortLabel": "lipoaspiration du dos",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "lipoaspiration du dos": "lipoaspiration du dos"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "lipoaspiration des flancs en position ventrale",
+              "type": "checkbox",
+              "shortLabel": "lipoaspiration des flancs en position ventrale",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "lipoaspiration des flancs en position ventrale": "lipoaspiration des flancs en position ventrale"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Traitement proposé",
+              "type": "text-field",
+              "shortLabel": "autre:",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

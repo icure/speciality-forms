@@ -1,0 +1,87 @@
+{
+  "form": "anesthésie/Protocole anesthésie",
+  "id": "9F4A7BDB-680D-4DB9-BAFB-F5BDFA99990F",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "subform",
+          "id": "C7F1DA20-626F-4F13-96BF-612D799F7566",
+          "shortLabel": "Mesures per-opératoires",
+          "forms": {
+            "sous-formulaires suivi post-op/mesures per-opératoires": {
+              "form": "sous-formulaires suivi post-op/mesures per-opératoires",
+              "id": "FC1BE19C-7DA8-46E4-96BB-0F7AE118D195",
+              "sections": [
+                {
+                  "section": "Main",
+                  "fields": [
+                    {
+                      "clazz": "field",
+                      "field": "tension artérielle systolique",
+                      "type": "measure-field",
+                      "shortLabel": "tas",
+                      "grows": true,
+                      "span": 4,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "tension artérielle diastolique",
+                      "type": "measure-field",
+                      "shortLabel": "tad",
+                      "grows": true,
+                      "span": 5,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "fréquence cardique",
+                      "type": "measure-field",
+                      "shortLabel": "fc",
+                      "grows": true,
+                      "span": 6,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "saturation O2",
+                      "type": "measure-field",
+                      "shortLabel": "sO2",
+                      "grows": true,
+                      "span": 5,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true
+                    },
+                    {
+                      "clazz": "field",
+                      "field": "pression CO2",
+                      "type": "measure-field",
+                      "shortLabel": "pCO2",
+                      "grows": true,
+                      "span": 4,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "span": 24,
+          "rowSpan": null,
+          "labels": {}
+        }
+      ]
+    }
+  ]
+}

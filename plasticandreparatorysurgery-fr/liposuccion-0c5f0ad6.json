@@ -1,0 +1,298 @@
+{
+  "form": "sous-formulaires CRO abdomen/liposuccion",
+  "id": "1E091D21-DFAD-4046-9C8A-3E660C5F0AD6",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "liposuccion première",
+          "type": "checkbox",
+          "shortLabel": "liposuccion première",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "liposuccion première": "liposuccion première"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "retournement du patient",
+          "type": "checkbox",
+          "shortLabel": "retournement du patient",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "retournement du patient": "retournement du patient"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "infiltration graisseuse préalable",
+          "type": "checkbox",
+          "shortLabel": "infiltration graisseuse préalable",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "infiltration graisseuse préalable": "infiltration graisseuse préalable"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "sérum physiologique",
+          "type": "measure-field",
+          "shortLabel": "sérum physiologique",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "naropin",
+          "type": "measure-field",
+          "shortLabel": "naropin",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "xylocaïne",
+          "type": "measure-field",
+          "shortLabel": "xylocaïne",
+          "grows": true,
+          "span": 7,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "adrénaline",
+          "type": "measure-field",
+          "shortLabel": "adrénaline",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "quantité infiltrée",
+          "type": "measure-field",
+          "shortLabel": "quantité du mélange infiltrée",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "épigastre",
+          "type": "checkbox",
+          "shortLabel": "épigastre",
+          "grows": true,
+          "span": 3,
+          "readonly": false,
+          "options": {
+            "épigastre": "épigastre"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "hanches",
+          "type": "checkbox",
+          "shortLabel": "hanches",
+          "grows": true,
+          "span": 3,
+          "readonly": false,
+          "options": {
+            "hanches": "hanches"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "culotte de cheval",
+          "type": "checkbox",
+          "shortLabel": "culotte de cheval",
+          "grows": true,
+          "span": 12,
+          "readonly": false,
+          "options": {
+            "culotte de cheval": "culotte de cheval"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "face interne des cuisses",
+          "type": "checkbox",
+          "shortLabel": "face interne des cuisses",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "face interne des cuisses": "face interne des cuisses"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "autre zone traitée",
+          "type": "text-field",
+          "shortLabel": "autre zone traitée",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "hypogastre",
+          "type": "checkbox",
+          "shortLabel": "hypogastre",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "hypogastre": "hypogastre"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "flancs",
+          "type": "checkbox",
+          "shortLabel": "flancs",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "flancs": "flancs"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "face interne des genoux",
+          "type": "checkbox",
+          "shortLabel": "face interne des genoux",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "face interne des genoux": "face interne des genoux"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "extension axillaire des seins",
+          "type": "checkbox",
+          "shortLabel": "extension axillaire des seins",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "extension axillaire des seins": "extension axillaire des seins"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "bras",
+          "type": "checkbox",
+          "shortLabel": "bras",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "bras": "bras"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "cou",
+          "type": "checkbox",
+          "shortLabel": "cou",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "cou": "cou"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": " bourrellets dorsaux",
+          "type": "checkbox",
+          "shortLabel": " bourrellets dorsaux",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            " bourrellets dorsaux": " bourrellets dorsaux"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "mollet",
+          "type": "checkbox",
+          "shortLabel": "mollet",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "mollet": "mollet"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "volume liposuccé",
+          "type": "measure-field",
+          "shortLabel": "volume liposuccé après décantation",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

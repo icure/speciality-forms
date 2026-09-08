@@ -1,0 +1,22 @@
+{
+  "form": "General/Suivi",
+  "id": "675CE529-59D2-4F02-A16A-6992A59A2A02",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Suivi",
+          "type": "text-field",
+          "shortLabel": "Suivi",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

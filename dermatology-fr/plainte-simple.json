@@ -1,0 +1,104 @@
+{
+  "form": "Dermatologie/Plainte simple",
+  "id": "8571C4AF-71EA-4B3C-8808-C319052B1374",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Motif",
+          "type": "text-field",
+          "shortLabel": "Motif",
+          "grows": true,
+          "span": 12,
+          "rowSpan": 2,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Anamnèse",
+          "type": "text-field",
+          "shortLabel": "Anamnèse",
+          "grows": true,
+          "span": 12,
+          "rowSpan": 2,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Traitement antérieur",
+          "type": "text-field",
+          "shortLabel": "Traité par",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Description clinique",
+          "type": "text-field",
+          "shortLabel": "Descr. clin.",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Résultats examens récents",
+          "type": "text-field",
+          "shortLabel": "Rés. exam.",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Conclusion",
+          "type": "text-field",
+          "shortLabel": "Conclusion",
+          "grows": true,
+          "span": 12,
+          "rowSpan": 4,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Diagnostics différentiels",
+          "type": "token-field",
+          "shortLabel": "Diag. diff.",
+          "grows": true,
+          "span": 12,
+          "rowSpan": 4,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Traitements",
+          "type": "token-field",
+          "shortLabel": "Traitements",
+          "grows": true,
+          "span": 24,
+          "rowSpan": 2,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

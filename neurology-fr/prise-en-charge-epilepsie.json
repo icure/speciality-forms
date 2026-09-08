@@ -1,0 +1,1309 @@
+{
+  "form": "Neurologie épilepsie/Prise en charge épilepsie",
+  "id": "C8BA94C8-A309-4E46-8947-A83A612EB9A8",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Acide valproïque",
+              "type": "checkbox",
+              "shortLabel": "Acide valproïque",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "Acide valproïque": "Acide valproïque"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Dose maximale Acide valproïque",
+              "type": "measure-field",
+              "shortLabel": "Dosage max.",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Tolérance Acide valproïque",
+              "type": "checkbox",
+              "shortLabel": "Tol.",
+              "grows": true,
+              "span": 2,
+              "readonly": false,
+              "options": {
+                "Tol.": "Tol."
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Efficacité Acide valproïque",
+              "type": "dropdown-field",
+              "shortLabel": "Efficacité",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "LEGACY|bonne|1": "bonne",
+                "LEGACY|partielle|1": "partielle",
+                "LEGACY|nulle|1": "nulle"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Convulsion fébrile",
+              "type": "dropdown-field",
+              "shortLabel": "Convulsion fébrile",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "options": {
+                "LEGACY|simple|1": "simple",
+                "LEGACY|prolongée/compliquée|1": "prolongée/compliquée",
+                "LEGACY|aucune|1": "aucune",
+                "LEGACY|pas clair|1": "pas clair"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Carbamazépine",
+              "type": "checkbox",
+              "shortLabel": "Carbamazépine",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "Carbamazépine": "Carbamazépine"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Dose maximale Carbamazépine",
+              "type": "measure-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Tolérance Carbamazépine",
+              "type": "checkbox",
+              "shortLabel": "",
+              "grows": true,
+              "span": 2,
+              "readonly": false,
+              "options": {
+                "": ""
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Efficacité Carbamazépine",
+              "type": "dropdown-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "options": {
+                "LEGACY|bonne|1": "bonne",
+                "LEGACY|partielle|1": "partielle",
+                "LEGACY|nulle|1": "nulle"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Age de la première crise d'épilepsie",
+              "type": "measure-field",
+              "shortLabel": "Age de la 1ère CE",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Oxcarbamazépine",
+              "type": "checkbox",
+              "shortLabel": "Oxcarbamazépine",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "Oxcarbamazépine": "Oxcarbamazépine"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Dose maximale Oxcarbamazépine",
+              "type": "measure-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Tolérance Oxcarbamazépine",
+              "type": "checkbox",
+              "shortLabel": "",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "": ""
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Efficacité Oxcarbamazépine",
+              "type": "dropdown-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "LEGACY|bonne|1": "bonne",
+                "LEGACY|partielle|1": "partielle",
+                "LEGACY|nulle|1": "nulle"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Phénytoïne",
+              "type": "checkbox",
+              "shortLabel": "Phénytoïne",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "Phénytoïne": "Phénytoïne"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Dose maximale Phénytoïne",
+              "type": "measure-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Tolérance Phénytoïne",
+              "type": "checkbox",
+              "shortLabel": "",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "": ""
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Efficacité Phénytoïne",
+              "type": "dropdown-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "LEGACY|bonne|1": "bonne",
+                "LEGACY|partielle|1": "partielle",
+                "LEGACY|nulle|1": "nulle"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Ethosuximide",
+              "type": "checkbox",
+              "shortLabel": "Ethosuximide",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "Ethosuximide": "Ethosuximide"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Dose maximale Ethosuximide",
+              "type": "measure-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Tolérance Ethosuximide",
+              "type": "checkbox",
+              "shortLabel": "",
+              "grows": true,
+              "span": 2,
+              "readonly": false,
+              "options": {
+                "": ""
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Efficacité Ethosuximide",
+              "type": "dropdown-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "LEGACY|bonne|1": "bonne",
+                "LEGACY|partielle|1": "partielle",
+                "LEGACY|nulle|1": "nulle"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "sensation subjective préictale",
+              "type": "checkbox",
+              "shortLabel": "sensation subjective préictale",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "sensation subjective préictale": "sensation subjective préictale"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Commentaire sensation subjective préictale",
+              "type": "text-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "signes objectifs précoces",
+              "type": "checkbox",
+              "shortLabel": "signes objectifs précoces",
+              "grows": true,
+              "span": 18,
+              "readonly": false,
+              "options": {
+                "signes objectifs précoces": "signes objectifs précoces"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Commentaire signes objectifs précoces",
+              "type": "text-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Phénobarbital",
+              "type": "checkbox",
+              "shortLabel": "Phénobarbital",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "Phénobarbital": "Phénobarbital"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Dose maximale Phénobarbital",
+              "type": "measure-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Tolérance Phénobarbital",
+              "type": "checkbox",
+              "shortLabel": "",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "": ""
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Efficacité Phénobarbital",
+              "type": "dropdown-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "LEGACY|bonne|1": "bonne",
+                "LEGACY|partielle|1": "partielle",
+                "LEGACY|nulle|1": "nulle"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "signes objectifs tardifs",
+              "type": "checkbox",
+              "shortLabel": "signes objectifs tardifs",
+              "grows": true,
+              "span": 18,
+              "readonly": false,
+              "options": {
+                "signes objectifs tardifs": "signes objectifs tardifs"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Commentaire signes objectifs tardifs",
+              "type": "text-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Gabapentine",
+              "type": "checkbox",
+              "shortLabel": "Gabapentine",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "Gabapentine": "Gabapentine"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Dose maximale Gabapentine",
+              "type": "measure-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Tolérance Gabapentine",
+              "type": "checkbox",
+              "shortLabel": "",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "": ""
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Efficacité Gabapentine",
+              "type": "dropdown-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "LEGACY|bonne|1": "bonne",
+                "LEGACY|partielle|1": "partielle",
+                "LEGACY|nulle|1": "nulle"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "déficit post-critique",
+              "type": "checkbox",
+              "shortLabel": "déficit post-critique",
+              "grows": true,
+              "span": 18,
+              "readonly": false,
+              "options": {
+                "déficit post-critique": "déficit post-critique"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Commentaire déficit post-critique",
+              "type": "text-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Lamotrigine",
+              "type": "checkbox",
+              "shortLabel": "Lamotrigine",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "Lamotrigine": "Lamotrigine"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Dose maximale Lamotrigine",
+              "type": "measure-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Tolérance Lamotrigine",
+              "type": "checkbox",
+              "shortLabel": "",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "": ""
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Efficacité Lamotrigine",
+              "type": "dropdown-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "LEGACY|bonne|1": "bonne",
+                "LEGACY|partielle|1": "partielle",
+                "LEGACY|nulle|1": "nulle"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Lévétiracétam",
+              "type": "checkbox",
+              "shortLabel": "Lévétiracétam",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "Lévétiracétam": "Lévétiracétam"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Dose maximale Lévétiracétam",
+              "type": "measure-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Tolérance Lévétiracétam",
+              "type": "checkbox",
+              "shortLabel": "",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "": ""
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Efficacité Lévétiracétam",
+              "type": "dropdown-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "LEGACY|bonne|1": "bonne",
+                "LEGACY|partielle|1": "partielle",
+                "LEGACY|nulle|1": "nulle"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Plusieurs crises d'épilepsie",
+              "type": "text-field",
+              "shortLabel": "Plusieurs crises d'épilepsie",
+              "grows": true,
+              "span": 24,
+              "rowSpan": 6,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Prégabaline",
+              "type": "checkbox",
+              "shortLabel": "Prégabaline",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "Prégabaline": "Prégabaline"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Dose maximale Prégabaline",
+              "type": "measure-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Tolérance Prégabaline",
+              "type": "checkbox",
+              "shortLabel": "",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "": ""
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Efficacité Prégabaline",
+              "type": "dropdown-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "LEGACY|bonne|1": "bonne",
+                "LEGACY|partielle|1": "partielle",
+                "LEGACY|nulle|1": "nulle"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Tiagabine",
+              "type": "checkbox",
+              "shortLabel": "Tiagabine",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "Tiagabine": "Tiagabine"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Dose maximale Tiagabine",
+              "type": "measure-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Tolérance Tiagabine",
+              "type": "checkbox",
+              "shortLabel": "",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "": ""
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Efficacité Tiagabine",
+              "type": "dropdown-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "LEGACY|bonne|1": "bonne",
+                "LEGACY|partielle|1": "partielle",
+                "LEGACY|nulle|1": "nulle"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Topiramate",
+              "type": "checkbox",
+              "shortLabel": "Topiramate",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "Topiramate": "Topiramate"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Dose maximale Topiramate",
+              "type": "measure-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Tolérance Topiramate",
+              "type": "checkbox",
+              "shortLabel": "",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "": ""
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Efficacité Topiramate",
+              "type": "dropdown-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "LEGACY|bonne|1": "bonne",
+                "LEGACY|partielle|1": "partielle",
+                "LEGACY|nulle|1": "nulle"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vigabatrine",
+              "type": "checkbox",
+              "shortLabel": "Vigabatrine",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "Vigabatrine": "Vigabatrine"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Dose maximale Vigabatrine",
+              "type": "measure-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Tolérance Vigabatrine",
+              "type": "checkbox",
+              "shortLabel": "",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "": ""
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Efficacité Vigabatrine",
+              "type": "dropdown-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "LEGACY|bonne|1": "bonne",
+                "LEGACY|partielle|1": "partielle",
+                "LEGACY|nulle|1": "nulle"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Lacosamide",
+              "type": "checkbox",
+              "shortLabel": "Lacosamide",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "Lacosamide": "Lacosamide"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Dose maximale Lacosamide",
+              "type": "measure-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Tolérance Lacosamide",
+              "type": "checkbox",
+              "shortLabel": "",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "": ""
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Efficacité Lacosamide",
+              "type": "dropdown-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "LEGACY|bonne|1": "bonne",
+                "LEGACY|partielle|1": "partielle",
+                "LEGACY|nulle|1": "nulle"
+              },
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "EEG intercritique",
+              "type": "dropdown-field",
+              "shortLabel": "EEG intercritique",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "options": {
+                "LEGACY|normal|1": "normal",
+                "LEGACY|anormal|1": "anormal"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Commentaire EEG intercritique",
+              "type": "text-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "PET",
+              "type": "dropdown-field",
+              "shortLabel": "PET",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "LEGACY|normal|1": "normal",
+                "LEGACY|anormal|1": "anormal"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Commentaire PET",
+              "type": "text-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "EEG critique",
+              "type": "dropdown-field",
+              "shortLabel": "EEG critique",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "options": {
+                "LEGACY|normal|1": "normal",
+                "LEGACY|anormal|1": "anormal"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Commentaire EEG critique",
+              "type": "text-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Bilan neuropsychologique",
+              "type": "dropdown-field",
+              "shortLabel": "Bilan neuropsychologique",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "LEGACY|normal|1": "normal",
+                "LEGACY|anormal|1": "anormal"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Commentaire Bilan neuropsychologique",
+              "type": "text-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "EEG video",
+              "type": "dropdown-field",
+              "shortLabel": "EEG video",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "options": {
+                "LEGACY|normal|1": "normal",
+                "LEGACY|anormal|1": "anormal"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Commentaire EEG video",
+              "type": "text-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "WADA",
+              "type": "dropdown-field",
+              "shortLabel": "WADA",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "LEGACY|normal|1": "normal",
+                "LEGACY|anormal|1": "anormal"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Commentaire WADA",
+              "type": "text-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "MEG",
+              "type": "dropdown-field",
+              "shortLabel": "MEG",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "options": {
+                "LEGACY|normal|1": "normal",
+                "LEGACY|anormal|1": "anormal"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Commentaire MEG",
+              "type": "text-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "IRM fonctionnelle",
+              "type": "dropdown-field",
+              "shortLabel": "IRM fonctionnelle",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "LEGACY|normal|1": "normal",
+                "LEGACY|anormal|1": "anormal"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Commentaire IRM fonctionnelle",
+              "type": "text-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "IRM",
+              "type": "dropdown-field",
+              "shortLabel": "IRM",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "options": {
+                "LEGACY|normal|1": "normal",
+                "LEGACY|anormal|1": "anormal"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Commentaire IRM",
+              "type": "text-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 17,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 3",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "SEEG",
+              "type": "text-field",
+              "shortLabel": "SEEG",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Résection",
+              "type": "text-field",
+              "shortLabel": "Résection",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "VNS",
+              "type": "text-field",
+              "shortLabel": "VNS",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Réunion pluridisciplinaire",
+              "type": "text-field",
+              "shortLabel": "Réunion pluridisc.",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 4",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Epilepsie généralisée",
+              "type": "checkbox",
+              "shortLabel": "Epilepsie généralisée",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Epilepsie généralisée": "Epilepsie généralisée"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Epilepsie partielle",
+              "type": "checkbox",
+              "shortLabel": "Epilepsie partielle",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Epilepsie partielle": "Epilepsie partielle"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Epilepsie non détermninée",
+              "type": "checkbox",
+              "shortLabel": "Epilepsie non détermninée",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Epilepsie non détermninée": "Epilepsie non détermninée"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Pseudo crise d'épilepsie",
+              "type": "checkbox",
+              "shortLabel": "Pseudo crise d'épilepsie",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Pseudo crise d'épilepsie": "Pseudo crise d'épilepsie"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Malaise non-épileptique",
+              "type": "checkbox",
+              "shortLabel": "Malaise non-épileptique",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Malaise non-épileptique": "Malaise non-épileptique"
+              },
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

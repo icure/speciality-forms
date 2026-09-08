@@ -1,0 +1,55 @@
+{
+  "form": "Sous-formulaires/Biométries",
+  "id": "5E2B23A4-EC56-457D-BC7E-0EFEF224E525",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Poids",
+          "type": "measure-field",
+          "shortLabel": "Poids",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Taille",
+          "type": "measure-field",
+          "shortLabel": "Taille",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Périmètre cranien",
+          "type": "measure-field",
+          "shortLabel": "Périmètre cranien",
+          "grows": true,
+          "span": 10,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "BMI",
+          "type": "number-field",
+          "shortLabel": "BMI",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

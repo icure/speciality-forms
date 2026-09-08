@@ -1,0 +1,71 @@
+{
+  "form": "Sous-formulaires/Nutrition entérale",
+  "id": "09BBA6AB-F79C-45AA-BA1C-934D8D7A060A",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Sonde nutrition",
+          "type": "dropdown-field",
+          "shortLabel": "Via une sonde",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "LEGACY|gastrique|1": "gastrique",
+            "LEGACY|gastrostomie|1": "gastrostomie",
+            "LEGACY|entérostomie|1": "entérostomie"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Quantité",
+          "type": "measure-field",
+          "shortLabel": "Quantité",
+          "grows": true,
+          "span": 12,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Débit",
+          "type": "measure-field",
+          "shortLabel": "Débit",
+          "grows": true,
+          "span": 12,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Fréquence",
+          "type": "measure-field",
+          "shortLabel": "Fréquence",
+          "grows": true,
+          "span": 9,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Durée",
+          "type": "measure-field",
+          "shortLabel": "Durée",
+          "grows": true,
+          "span": 15,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

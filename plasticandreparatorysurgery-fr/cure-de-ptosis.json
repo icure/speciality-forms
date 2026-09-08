@@ -1,0 +1,116 @@
+{
+  "form": "sous-formulaires CRO visage/cure de ptosis",
+  "id": "F3DC1FD4-84AB-427F-882E-F12D48FBFBC2",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "côté droit",
+          "type": "checkbox",
+          "shortLabel": "côté droit",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "côté droit": "côté droit"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "côté gauche",
+          "type": "checkbox",
+          "shortLabel": "côté gauche",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "côté gauche": "côté gauche"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "bilatéral",
+          "type": "checkbox",
+          "shortLabel": "bilatéral",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "options": {
+            "bilatéral": "bilatéral"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "fil de suture pour le releveur",
+          "type": "text-field",
+          "shortLabel": "fil de suture pour le releveur",
+          "grows": true,
+          "span": 11,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "traitement du releveur droit",
+          "type": "dropdown-field",
+          "shortLabel": "traitement du releveur droit",
+          "grows": true,
+          "span": 13,
+          "readonly": false,
+          "options": {
+            "LEGACY|plicature du releveur|1": "plicature du releveur",
+            "LEGACY|désinsertion du releveur|1": "désinsertion du releveur"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "résection releveur droit",
+          "type": "measure-field",
+          "shortLabel": "résection releveur droit",
+          "grows": true,
+          "span": 11,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "traitement du releveur gauche",
+          "type": "dropdown-field",
+          "shortLabel": "traitement du releveur gauche",
+          "grows": true,
+          "span": 13,
+          "readonly": false,
+          "options": {
+            "LEGACY|plicature du releveur|1": "plicature du releveur",
+            "LEGACY|désinsertion du releveur|1": "désinsertion du releveur"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "résection releveur gauche",
+          "type": "measure-field",
+          "shortLabel": "résection releveur gauche",
+          "grows": true,
+          "span": 11,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

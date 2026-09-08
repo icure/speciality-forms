@@ -1,0 +1,75 @@
+{
+  "form": "sous-formulaires suivi post-op/traitement cicatrice anormale",
+  "id": "F8CB8BDB-2E37-4617-BE98-49F576B5888D",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "injection de cortisone",
+          "type": "checkbox",
+          "shortLabel": "injection de cortisone",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "injection de cortisone": "injection de cortisone"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "type de cortisone",
+          "type": "text-field",
+          "shortLabel": "type de cortisone",
+          "grows": true,
+          "span": 20,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "dermatix",
+          "type": "checkbox",
+          "shortLabel": "dermatix",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "dermatix": "dermatix"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "patch de silicone",
+          "type": "checkbox",
+          "shortLabel": "patch de silicone",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "patch de silicone": "patch de silicone"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "autre",
+          "type": "text-field",
+          "shortLabel": "autre",
+          "grows": true,
+          "span": 14,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

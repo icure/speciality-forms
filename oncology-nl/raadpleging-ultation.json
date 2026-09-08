@@ -1,0 +1,2426 @@
+{
+  "form": "Huisarts/Raadpleging",
+  "id": "FFFFFFFF-FFFF-FFFF-FFFF-CONSULTATION",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Motief",
+              "type": "token-field",
+              "shortLabel": "Motief",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Anamnese",
+              "type": "text-field",
+              "shortLabel": "Anamnese",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Klinisch onderzoek",
+              "type": "text-field",
+              "shortLabel": "Klin. onderz.",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Systolische bloeddruk",
+              "type": "measure-field",
+              "shortLabel": "TA sys.",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Diastolische bloeddruk",
+              "type": "measure-field",
+              "shortLabel": "/",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Gewicht",
+              "type": "measure-field",
+              "shortLabel": "Gewicht",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Lengte",
+              "type": "measure-field",
+              "shortLabel": "Lengte",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "BMI",
+              "type": "number-field",
+              "shortLabel": "BMI",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Lichaamsoppervlakte",
+              "type": "measure-field",
+              "shortLabel": "LO",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Pols",
+              "type": "measure-field",
+              "shortLabel": "Pols",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Regelmatigheid pols",
+              "type": "dropdown-field",
+              "shortLabel": "",
+              "grows": true,
+              "span": 2,
+              "readonly": false,
+              "options": {
+                "LEGACY|Regelmatig|1": "Regelmatig",
+                "LEGACY|Onregelmatig|1": "Onregelmatig"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "T °",
+              "type": "measure-field",
+              "shortLabel": "T °",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Buikomtrek",
+              "type": "measure-field",
+              "shortLabel": "Buikomtrek",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Creatinine",
+              "type": "measure-field",
+              "shortLabel": "Creatinine",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Diagnose",
+              "type": "token-field",
+              "shortLabel": "Diagnose",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Resultaten recente beoordelingen",
+              "type": "text-field",
+              "shortLabel": "Res. odz.",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Behandeling",
+              "type": "token-field",
+              "shortLabel": "Behandeling",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "9750A401-22E1-493A-B79E-6A18E50387B5",
+              "type": "action",
+              "shortLabel": "Verslag",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "subform",
+              "id": "6FF898B0-2694-4973-83F3-1F93C6DADC61",
+              "shortLabel": "Certificaten en voorschriften",
+              "forms": {
+                "Subformulieren/Arbeidsongeschiktheid": {
+                  "form": "Subformulieren/Arbeidsongeschiktheid",
+                  "id": "FFFFFFFF-FFFF-FFFF-FFFF-INCAPACITY00",
+                  "sections": [
+                    {
+                      "section": "Main",
+                      "fields": [
+                        {
+                          "clazz": "field",
+                          "field": "ongeschikt om",
+                          "type": "dropdown-field",
+                          "shortLabel": "ongeschikt om",
+                          "grows": true,
+                          "span": 8,
+                          "readonly": false,
+                          "options": {
+                            "LEGACY|niet in staat om cursussen assiter|1": "niet in staat om cursussen assiter",
+                            "LEGACY|niet in staat om het zwemmen te oefenen|1": "niet in staat om het zwemmen te oefenen",
+                            "LEGACY|niet in staat het beoefenen van sport|1": "niet in staat het beoefenen van sport",
+                            "LEGACY|niet in staat om het stembureau te komen|1": "niet in staat om het stembureau te komen",
+                            "LEGACY|arbeidsongeschikt|1": "arbeidsongeschikt",
+                            "LEGACY|ongeschikt om te werken|1": "ongeschikt om te werken",
+                            "LEGACY|niet in staat om te reizen|1": "niet in staat om te reizen",
+                            "LEGACY|incapable d'assiter aux cours|1": "incapable d'assiter aux cours",
+                            "LEGACY|incapable de pratiquer la natation|1": "incapable de pratiquer la natation",
+                            "LEGACY|incapable de pratiquer le sport|1": "incapable de pratiquer le sport",
+                            "LEGACY|incapable de se rendre au bureau de vote|1": "incapable de se rendre au bureau de vote",
+                            "LEGACY|incapable de travaille|1": "incapable de travaille",
+                            "LEGACY|incapable de travailler|1": "incapable de travailler",
+                            "LEGACY|incapable de voyager|1": "incapable de voyager"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "van",
+                          "type": "date-picker",
+                          "shortLabel": "van",
+                          "grows": true,
+                          "span": 7,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "tot",
+                          "type": "date-picker",
+                          "shortLabel": "tot",
+                          "grows": true,
+                          "span": 5,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "zich te verplaatsen",
+                          "type": "dropdown-field",
+                          "shortLabel": "z.t.verpl.",
+                          "grows": true,
+                          "span": 4,
+                          "readonly": false,
+                          "options": {
+                            "LEGACY|autorisée|1": "autorisée",
+                            "LEGACY|toegestaan|1": "toegestaan",
+                            "LEGACY|verboden|1": "verboden"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "wegens",
+                          "type": "dropdown-field",
+                          "shortLabel": "wegens",
+                          "grows": true,
+                          "span": 8,
+                          "readonly": false,
+                          "options": {
+                            "LEGACY|ongeval|1": "ongeval",
+                            "LEGACY|andere|1": "andere",
+                            "LEGACY|medische consultatie|1": "medische consultatie",
+                            "LEGACY|ZWANGERSCHAP|1": "ZWANGERSCHAP",
+                            "LEGACY|opname|1": "opname",
+                            "LEGACY|ziekte|1": "ziekte",
+                            "LEGACY|beroepsziekte|1": "beroepsziekte",
+                            "LEGACY|familiale redenen|1": "familiale redenen",
+                            "LEGACY|medische ontmoeting|1": "medische ontmoeting",
+                            "LEGACY|accident|1": "accident",
+                            "LEGACY|accident de travail|1": "accident de travail",
+                            "LEGACY|autre|1": "autre",
+                            "LEGACY|consultation médicale|1": "consultation médicale",
+                            "LEGACY|grossesse|1": "grossesse",
+                            "LEGACY|hospitalisation|1": "hospitalisation",
+                            "LEGACY|maladie|1": "maladie",
+                            "LEGACY|maladie professionnelle|1": "maladie professionnelle",
+                            "LEGACY|motif familial|1": "motif familial",
+                            "LEGACY|rencontre médicale|1": "rencontre médicale"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "suvenu (e)",
+                          "type": "date-picker",
+                          "shortLabel": "suvenu (e)",
+                          "grows": true,
+                          "span": 12,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "verlenging",
+                          "type": "checkbox",
+                          "shortLabel": "verlenging",
+                          "grows": true,
+                          "span": 4,
+                          "readonly": false,
+                          "options": {
+                            "verlenging": "verlenging"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Deeltijdse werkhervatting",
+                          "type": "date-picker",
+                          "shortLabel": "Deelt. werkhervat.",
+                          "grows": true,
+                          "span": 5,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "percent",
+                          "type": "measure-field",
+                          "shortLabel": "met",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "volledige",
+                          "type": "date-picker",
+                          "shortLabel": "volledige",
+                          "grows": true,
+                          "span": 9,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "herval",
+                          "type": "checkbox",
+                          "shortLabel": "herval",
+                          "grows": true,
+                          "span": 4,
+                          "readonly": false,
+                          "options": {
+                            "herval": "herval"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Commentaar",
+                          "type": "text-field",
+                          "shortLabel": "Commentaar",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Diagnose",
+                          "type": "text-field",
+                          "shortLabel": "Diagnose",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "EPC-ID",
+                          "type": "text-field",
+                          "shortLabel": "CBE Bedrijf",
+                          "grows": true,
+                          "span": 7,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "ID-MEDEX",
+                          "type": "text-field",
+                          "shortLabel": "Medex pat.",
+                          "grows": true,
+                          "span": 12,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "78CF4B52-1006-4197-A991-63DD42494020",
+                          "type": "action",
+                          "shortLabel": "Certificat",
+                          "grows": true,
+                          "span": 5,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "Subformulieren/Voorschrift kinesitherapie": {
+                  "form": "Subformulieren/Voorschrift kinesitherapie",
+                  "id": "AEFED10A-9A72-4B40-981B-1D79ADB05516",
+                  "sections": [
+                    {
+                      "section": "Main",
+                      "fields": [
+                        {
+                          "clazz": "field",
+                          "field": "Voorschrift kinesitherapie",
+                          "type": "checkbox",
+                          "shortLabel": "Voorschrift kinesith.",
+                          "grows": true,
+                          "span": 1,
+                          "readonly": false,
+                          "options": {
+                            "Voorschrift kinesith.": "Voorschrift kinesith."
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "De patiënt kan zich verplatsen",
+                          "type": "checkbox",
+                          "shortLabel": "De patiënt kan zich verplatsen",
+                          "grows": true,
+                          "span": 23,
+                          "readonly": false,
+                          "options": {
+                            "De patiënt kan zich verplatsen": "De patiënt kan zich verplatsen"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Massage",
+                          "type": "checkbox",
+                          "shortLabel": "Massage",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "options": {
+                            "Massage": "Massage"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Advies",
+                          "type": "checkbox",
+                          "shortLabel": "Adviesaanvraag",
+                          "grows": true,
+                          "span": 1,
+                          "readonly": false,
+                          "options": {
+                            "Adviesaanvraag": "Adviesaanvraag"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Adviesaanvraag",
+                          "type": "text-field",
+                          "shortLabel": "",
+                          "grows": true,
+                          "span": 15,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Mobilisatie",
+                          "type": "checkbox",
+                          "shortLabel": "Mobilisatie",
+                          "grows": true,
+                          "span": 8,
+                          "readonly": false,
+                          "options": {
+                            "Mobilisatie": "Mobilisatie"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Type sessies",
+                          "type": "text-field",
+                          "shortLabel": "Type sessies",
+                          "grows": true,
+                          "span": 15,
+                          "rowSpan": 5,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Thermotherapie",
+                          "type": "checkbox",
+                          "shortLabel": "Thermotherapie",
+                          "grows": true,
+                          "span": 9,
+                          "rowSpan": 5,
+                          "readonly": false,
+                          "options": {
+                            "Thermotherapie": "Thermotherapie"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Elektrotherapie",
+                          "type": "checkbox",
+                          "shortLabel": "Elektrotherapie",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "options": {
+                            "Elektrotherapie": "Elektrotherapie"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Ultrageluid",
+                          "type": "checkbox",
+                          "shortLabel": "Ultrageluid",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "options": {
+                            "Ultrageluid": "Ultrageluid"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Korte golf",
+                          "type": "checkbox",
+                          "shortLabel": "Korte golf",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "options": {
+                            "Korte golf": "Korte golf"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Ademhalingsoefeningen",
+                          "type": "checkbox",
+                          "shortLabel": "Fitnessruimte",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "options": {
+                            "Fitnessruimte": "Fitnessruimte"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Heropvoeding",
+                          "type": "checkbox",
+                          "shortLabel": "Heropvoeding",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "options": {
+                            "Heropvoeding": "Heropvoeding"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Fango",
+                          "type": "checkbox",
+                          "shortLabel": "Fango",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "options": {
+                            "Fango": "Fango"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Plaats",
+                          "type": "text-field",
+                          "shortLabel": "Plaats",
+                          "grows": true,
+                          "span": 15,
+                          "rowSpan": 5,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Ademhalingskinesitherapie",
+                          "type": "checkbox",
+                          "shortLabel": "Ademhalingskinesitherapie",
+                          "grows": true,
+                          "span": 9,
+                          "rowSpan": 5,
+                          "readonly": false,
+                          "options": {
+                            "Ademhalingskinesitherapie": "Ademhalingskinesitherapie"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Lymfedrainage",
+                          "type": "checkbox",
+                          "shortLabel": "Lymfedrainage",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "options": {
+                            "Lymfedrainage": "Lymfedrainage"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Gymnastiek",
+                          "type": "checkbox",
+                          "shortLabel": "Gymnastiek",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "options": {
+                            "Gymnastiek": "Gymnastiek"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Infrarood",
+                          "type": "checkbox",
+                          "shortLabel": "Infrarood",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "options": {
+                            "Infrarood": "Infrarood"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Manipulaties",
+                          "type": "checkbox",
+                          "shortLabel": "Manipulaties",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "options": {
+                            "Manipulaties": "Manipulaties"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Ionisatie",
+                          "type": "checkbox",
+                          "shortLabel": "Ionisatie",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "options": {
+                            "Ionisatie": "Ionisatie"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Aantal sessies",
+                          "type": "number-field",
+                          "shortLabel": "Aantal sessies",
+                          "grows": true,
+                          "span": 3,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Frequentie",
+                          "type": "measure-field",
+                          "shortLabel": "Frequentie",
+                          "grows": true,
+                          "span": 10,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Actie Code",
+                          "type": "text-field",
+                          "shortLabel": "Actie Code",
+                          "grows": true,
+                          "span": 11,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Diagnose",
+                          "type": "text-field",
+                          "shortLabel": "Diagnose",
+                          "grows": true,
+                          "span": 12,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Datum reactie",
+                          "type": "date-picker",
+                          "shortLabel": "Datum reactie",
+                          "grows": true,
+                          "span": 12,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Beeldvorming kine",
+                          "type": "checkbox",
+                          "shortLabel": "Beeldvorming",
+                          "grows": true,
+                          "span": 3,
+                          "readonly": false,
+                          "options": {
+                            "Beeldvorming": "Beeldvorming"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Biologie kine",
+                          "type": "checkbox",
+                          "shortLabel": "Biologie",
+                          "grows": true,
+                          "span": 4,
+                          "readonly": false,
+                          "options": {
+                            "Biologie": "Biologie"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Advies specialist",
+                          "type": "checkbox",
+                          "shortLabel": "Advies kine",
+                          "grows": true,
+                          "span": 5,
+                          "readonly": false,
+                          "options": {
+                            "Advies kine": "Advies kine"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Nader order kyne",
+                          "type": "text-field",
+                          "shortLabel": "Andere opmerk.",
+                          "grows": true,
+                          "span": 12,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Evolutie ged. beh.",
+                          "type": "checkbox",
+                          "shortLabel": "Ik wens op de hoogte van de evolutie van de behandeling te worden gehouden",
+                          "grows": true,
+                          "span": 15,
+                          "readonly": false,
+                          "options": {
+                            "Ik wens op de hoogte van de evolutie van de behandeling te worden gehouden": "Ik wens op de hoogte van de evolutie van de behandeling te worden gehouden"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Evolutie einde beh.",
+                          "type": "checkbox",
+                          "shortLabel": "aan het einde van de behandeling",
+                          "grows": true,
+                          "span": 9,
+                          "readonly": false,
+                          "options": {
+                            "aan het einde van de behandeling": "aan het einde van de behandeling"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Mailcommunicatie",
+                          "type": "checkbox",
+                          "shortLabel": "Mailcommunicatie",
+                          "grows": true,
+                          "span": 3,
+                          "readonly": false,
+                          "options": {
+                            "Mailcommunicatie": "Mailcommunicatie"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Communicatie per telefoon",
+                          "type": "checkbox",
+                          "shortLabel": "tel.",
+                          "grows": true,
+                          "span": 4,
+                          "readonly": false,
+                          "options": {
+                            "tel.": "tel."
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Andere communicatie",
+                          "type": "text-field",
+                          "shortLabel": "andere",
+                          "grows": true,
+                          "span": 12,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "6BC88DB2-019F-4DE6-BFEB-C2D0E0008842",
+                          "type": "action",
+                          "shortLabel": "Prescription",
+                          "grows": true,
+                          "span": 5,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "Subformulieren/Verpleging": {
+                  "form": "Subformulieren/Verpleging",
+                  "id": "64DAB551-B007-4B5C-BD64-F886301F5326",
+                  "sections": [
+                    {
+                      "section": "Main",
+                      "fields": [
+                        {
+                          "clazz": "subform",
+                          "id": "D019AC3A-99D8-47B6-8A18-5F333A2C545F",
+                          "shortLabel": "Zorgen",
+                          "forms": {
+                            "Subformulieren/Administratie of de toepassing van geneesmiddelen": {
+                              "form": "Subformulieren/Administratie of de toepassing van geneesmiddelen",
+                              "id": "F25A53D3-31F1-4A51-975C-74DFD70A645B",
+                              "sections": [
+                                {
+                                  "section": "Main",
+                                  "fields": [
+                                    {
+                                      "clazz": "field",
+                                      "field": "Injectie",
+                                      "type": "dropdown-field",
+                                      "shortLabel": "Injectie",
+                                      "grows": true,
+                                      "span": 5,
+                                      "readonly": false,
+                                      "options": {
+                                        "LEGACY|IM|1": "IM",
+                                        "LEGACY|SC|1": "SC",
+                                        "LEGACY|ID|1": "ID",
+                                        "LEGACY|IV|1": "IV"
+                                      },
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "Het toepassen van druppels of oogzalf postoperatieve fase",
+                                      "type": "checkbox",
+                                      "shortLabel": "Toepassing van druppels of zalf oogartsen. in post-op.",
+                                      "grows": true,
+                                      "span": 14,
+                                      "readonly": false,
+                                      "options": {
+                                        "Toepassing van druppels of zalf oogartsen. in post-op.": "Toepassing van druppels of zalf oogartsen. in post-op."
+                                      },
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "Datum reactie",
+                                      "type": "date-picker",
+                                      "shortLabel": "verouderd",
+                                      "grows": true,
+                                      "span": 5,
+                                      "readonly": false,
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "Toepassing van zalven of geneesmiddel",
+                                      "type": "checkbox",
+                                      "shortLabel": "Toepassing van zalven of geneesmiddel",
+                                      "grows": true,
+                                      "span": 18,
+                                      "readonly": false,
+                                      "options": {
+                                        "Toepassing van zalven of geneesmiddel": "Toepassing van zalven of geneesmiddel"
+                                      },
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "Pathologie Application",
+                                      "type": "dropdown-field",
+                                      "shortLabel": "",
+                                      "grows": true,
+                                      "span": 6,
+                                      "readonly": false,
+                                      "options": {
+                                        "LEGACY|Gordelroos|1": "Gordelroos",
+                                        "LEGACY|Eczeem|1": "Eczeem",
+                                        "LEGACY|Psoriasis|1": "Psoriasis",
+                                        "LEGACY|Wratten|1": "Wratten",
+                                        "LEGACY|Dermatomycosen|1": "Dermatomycosen"
+                                      },
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "Andere pathologie Application",
+                                      "type": "text-field",
+                                      "shortLabel": "Andere pathologie",
+                                      "grows": true,
+                                      "span": 24,
+                                      "readonly": false,
+                                      "multiline": false,
+                                      "translate": true
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            "Subformulieren/Probes": {
+                              "form": "Subformulieren/Probes",
+                              "id": "244D262F-6F8C-48C3-8975-B39159AAAB94",
+                              "sections": [
+                                {
+                                  "section": "Main",
+                                  "fields": [
+                                    {
+                                      "clazz": "field",
+                                      "field": "Poll blaas",
+                                      "type": "checkbox",
+                                      "shortLabel": "Poll blaas",
+                                      "grows": true,
+                                      "span": 24,
+                                      "readonly": false,
+                                      "options": {
+                                        "Poll blaas": "Poll blaas"
+                                      },
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "Vesicale instillatie",
+                                      "type": "checkbox",
+                                      "shortLabel": "Vesicale instillatie",
+                                      "grows": true,
+                                      "span": 2,
+                                      "readonly": false,
+                                      "options": {
+                                        "Vesicale instillatie": "Vesicale instillatie"
+                                      },
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "Aantal vesicale instillatie",
+                                      "type": "measure-field",
+                                      "shortLabel": "Aantal",
+                                      "grows": true,
+                                      "span": 22,
+                                      "readonly": false,
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "Was de blaas",
+                                      "type": "checkbox",
+                                      "shortLabel": "Was de blaas",
+                                      "grows": true,
+                                      "span": 2,
+                                      "readonly": false,
+                                      "options": {
+                                        "Was de blaas": "Was de blaas"
+                                      },
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "Blaasspoeling Aantal",
+                                      "type": "measure-field",
+                                      "shortLabel": "Aantal",
+                                      "grows": true,
+                                      "span": 22,
+                                      "readonly": false,
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "Darmlavage",
+                                      "type": "checkbox",
+                                      "shortLabel": "Darmlavage",
+                                      "grows": true,
+                                      "span": 2,
+                                      "readonly": false,
+                                      "options": {
+                                        "Darmlavage": "Darmlavage"
+                                      },
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "Aantal darmlavage",
+                                      "type": "measure-field",
+                                      "shortLabel": "Aantal",
+                                      "grows": true,
+                                      "span": 22,
+                                      "readonly": false,
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "Tubing en gastro-intestinale drainage",
+                                      "type": "checkbox",
+                                      "shortLabel": "Tubing en gastro-intestinale drainage",
+                                      "grows": true,
+                                      "span": 2,
+                                      "readonly": false,
+                                      "options": {
+                                        "Tubing en gastro-intestinale drainage": "Tubing en gastro-intestinale drainage"
+                                      },
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "Frequentie behuizing",
+                                      "type": "measure-field",
+                                      "shortLabel": "Frequentie",
+                                      "grows": true,
+                                      "span": 12,
+                                      "readonly": false,
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "Tijd behuizing",
+                                      "type": "measure-field",
+                                      "shortLabel": "Duur",
+                                      "grows": true,
+                                      "span": 10,
+                                      "readonly": false,
+                                      "multiline": false,
+                                      "translate": true
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            "Subformulieren/Constipatie": {
+                              "form": "Subformulieren/Constipatie",
+                              "id": "6B7E72D1-9FE4-4F05-A9AB-42191480D1E4",
+                              "sections": [
+                                {
+                                  "section": "Main",
+                                  "fields": [
+                                    {
+                                      "clazz": "field",
+                                      "field": "Manuele evacuatie van fecale impactie",
+                                      "type": "checkbox",
+                                      "shortLabel": "Manuele evacuatie van fecale impactie",
+                                      "grows": true,
+                                      "span": 8,
+                                      "readonly": false,
+                                      "options": {
+                                        "Manuele evacuatie van fecale impactie": "Manuele evacuatie van fecale impactie"
+                                      },
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "Klisteer",
+                                      "type": "checkbox",
+                                      "shortLabel": "Klisteer",
+                                      "grows": true,
+                                      "span": 8,
+                                      "readonly": false,
+                                      "options": {
+                                        "Klisteer": "Klisteer"
+                                      },
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "Frequentie",
+                                      "type": "measure-field",
+                                      "shortLabel": "Frequentie",
+                                      "grows": true,
+                                      "span": 8,
+                                      "readonly": false,
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "Toediening van de geneesmiddeloplossing door een rectale sonde",
+                                      "type": "checkbox",
+                                      "shortLabel": "Toediening van de geneesmiddeloplossing door een rectale sonde",
+                                      "grows": true,
+                                      "span": 16,
+                                      "readonly": false,
+                                      "options": {
+                                        "Toediening van de geneesmiddeloplossing door een rectale sonde": "Toediening van de geneesmiddeloplossing door een rectale sonde"
+                                      },
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "Duur",
+                                      "type": "measure-field",
+                                      "shortLabel": "Duur",
+                                      "grows": true,
+                                      "span": 8,
+                                      "readonly": false,
+                                      "multiline": false,
+                                      "translate": true
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            "Subformulieren/Wondverzorging": {
+                              "form": "Subformulieren/Wondverzorging",
+                              "id": "6DE82F31-5D4C-41A7-B54B-DAFA00BF30CA",
+                              "sections": [
+                                {
+                                  "section": "Main",
+                                  "fields": [
+                                    {
+                                      "clazz": "group",
+                                      "group": "Section 1",
+                                      "fields": [
+                                        {
+                                          "clazz": "field",
+                                          "field": "Plaats",
+                                          "type": "text-field",
+                                          "shortLabel": "Plaats",
+                                          "grows": true,
+                                          "span": 24,
+                                          "readonly": false,
+                                          "multiline": false,
+                                          "translate": true
+                                        },
+                                        {
+                                          "clazz": "field",
+                                          "field": "Wond met Wicking",
+                                          "type": "checkbox",
+                                          "shortLabel": "Wond met Wicking",
+                                          "grows": true,
+                                          "span": 24,
+                                          "readonly": false,
+                                          "options": {
+                                            "Wond met Wicking": "Wond met Wicking"
+                                          },
+                                          "multiline": false,
+                                          "translate": true
+                                        },
+                                        {
+                                          "clazz": "field",
+                                          "field": "Maagzweer",
+                                          "type": "checkbox",
+                                          "shortLabel": "Maagzweer",
+                                          "grows": true,
+                                          "span": 5,
+                                          "readonly": false,
+                                          "options": {
+                                            "Maagzweer": "Maagzweer"
+                                          },
+                                          "multiline": false,
+                                          "translate": true
+                                        },
+                                        {
+                                          "clazz": "field",
+                                          "field": "2 deg branden",
+                                          "type": "checkbox",
+                                          "shortLabel": "2 deg branden",
+                                          "grows": true,
+                                          "span": 5,
+                                          "readonly": false,
+                                          "options": {
+                                            "2 deg branden": "2 deg branden"
+                                          },
+                                          "multiline": false,
+                                          "translate": true
+                                        },
+                                        {
+                                          "clazz": "field",
+                                          "field": "3 graden verbranden",
+                                          "type": "checkbox",
+                                          "shortLabel": "3 graden verbranden",
+                                          "grows": true,
+                                          "span": 7,
+                                          "readonly": false,
+                                          "options": {
+                                            "3 graden verbranden": "3 graden verbranden"
+                                          },
+                                          "multiline": false,
+                                          "translate": true
+                                        },
+                                        {
+                                          "clazz": "field",
+                                          "field": "Ent",
+                                          "type": "checkbox",
+                                          "shortLabel": "Ent",
+                                          "grows": true,
+                                          "span": 3,
+                                          "readonly": false,
+                                          "options": {
+                                            "Ent": "Ent"
+                                          },
+                                          "multiline": false,
+                                          "translate": true
+                                        },
+                                        {
+                                          "clazz": "field",
+                                          "field": "Uitbreiding zweer / burn",
+                                          "type": "dropdown-field",
+                                          "shortLabel": "",
+                                          "grows": true,
+                                          "span": 4,
+                                          "readonly": false,
+                                          "options": {
+                                            "LEGACY|&lt;60cm2|1": "&lt;60cm2",
+                                            "LEGACY|&gt; 60cm2|1": "&gt; 60cm2"
+                                          },
+                                          "multiline": false,
+                                          "translate": true
+                                        },
+                                        {
+                                          "clazz": "field",
+                                          "field": "Modderpoel",
+                                          "type": "checkbox",
+                                          "shortLabel": "Modderpoel",
+                                          "grows": true,
+                                          "span": 5,
+                                          "readonly": false,
+                                          "options": {
+                                            "Modderpoel": "Modderpoel"
+                                          },
+                                          "multiline": false,
+                                          "translate": true
+                                        },
+                                        {
+                                          "clazz": "field",
+                                          "field": "Bereikte de pezen en botten",
+                                          "type": "checkbox",
+                                          "shortLabel": "Bereikte de pezen en botten",
+                                          "grows": true,
+                                          "span": 10,
+                                          "readonly": false,
+                                          "options": {
+                                            "Bereikte de pezen en botten": "Bereikte de pezen en botten"
+                                          },
+                                          "multiline": false,
+                                          "translate": true
+                                        },
+                                        {
+                                          "clazz": "field",
+                                          "field": "Stoma",
+                                          "type": "checkbox",
+                                          "shortLabel": "Stoma",
+                                          "grows": true,
+                                          "span": 5,
+                                          "readonly": false,
+                                          "options": {
+                                            "Stoma": "Stoma"
+                                          },
+                                          "multiline": false,
+                                          "translate": true
+                                        },
+                                        {
+                                          "clazz": "field",
+                                          "field": "Uitbreiding korst",
+                                          "type": "dropdown-field",
+                                          "shortLabel": "",
+                                          "grows": true,
+                                          "span": 4,
+                                          "readonly": false,
+                                          "options": {
+                                            "LEGACY|&lt;60cm2|1": "&lt;60cm2",
+                                            "LEGACY|&gt; 60cm2|1": "&gt; 60cm2"
+                                          },
+                                          "multiline": false,
+                                          "translate": true
+                                        },
+                                        {
+                                          "clazz": "field",
+                                          "field": "Debridement (korst decubitus)",
+                                          "type": "checkbox",
+                                          "shortLabel": "Debridement (korst decubitus)",
+                                          "grows": true,
+                                          "span": 24,
+                                          "readonly": false,
+                                          "options": {
+                                            "Debridement (korst decubitus)": "Debridement (korst decubitus)"
+                                          },
+                                          "multiline": false,
+                                          "translate": true
+                                        },
+                                        {
+                                          "clazz": "field",
+                                          "field": "Bioactieve dressing",
+                                          "type": "checkbox",
+                                          "shortLabel": "Bioactieve dressing",
+                                          "grows": true,
+                                          "span": 5,
+                                          "readonly": false,
+                                          "options": {
+                                            "Bioactieve dressing": "Bioactieve dressing"
+                                          },
+                                          "multiline": false,
+                                          "translate": true
+                                        },
+                                        {
+                                          "clazz": "field",
+                                          "field": "Bioactieve dressing beeldscherm",
+                                          "type": "checkbox",
+                                          "shortLabel": "controle",
+                                          "grows": true,
+                                          "span": 10,
+                                          "readonly": false,
+                                          "options": {
+                                            "controle": "controle"
+                                          },
+                                          "multiline": false,
+                                          "translate": true
+                                        },
+                                        {
+                                          "clazz": "field",
+                                          "field": "Verwijdering van hechtingen",
+                                          "type": "checkbox",
+                                          "shortLabel": "Verwijdering van hechtingen",
+                                          "grows": true,
+                                          "span": 9,
+                                          "readonly": false,
+                                          "options": {
+                                            "Verwijdering van hechtingen": "Verwijdering van hechtingen"
+                                          },
+                                          "multiline": false,
+                                          "translate": true
+                                        }
+                                      ],
+                                      "borderless": false,
+                                      "hideTitle": true,
+                                      "translate": true,
+                                      "span": 24
+                                    },
+                                    {
+                                      "clazz": "group",
+                                      "group": "Section 2",
+                                      "fields": [
+                                        {
+                                          "clazz": "field",
+                                          "field": "Andere wondverzorging",
+                                          "type": "text-field",
+                                          "shortLabel": "andere",
+                                          "grows": true,
+                                          "span": 24,
+                                          "readonly": false,
+                                          "multiline": false,
+                                          "translate": true
+                                        },
+                                        {
+                                          "clazz": "field",
+                                          "field": "Frequentie",
+                                          "type": "measure-field",
+                                          "shortLabel": "Frequentie",
+                                          "grows": true,
+                                          "span": 8,
+                                          "readonly": false,
+                                          "multiline": false,
+                                          "translate": true
+                                        },
+                                        {
+                                          "clazz": "field",
+                                          "field": "Duur",
+                                          "type": "measure-field",
+                                          "shortLabel": "Duur",
+                                          "grows": true,
+                                          "span": 16,
+                                          "readonly": false,
+                                          "multiline": false,
+                                          "translate": true
+                                        }
+                                      ],
+                                      "borderless": false,
+                                      "hideTitle": true,
+                                      "translate": true,
+                                      "span": 24
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            "Subformulieren/Compressie Therapie": {
+                              "form": "Subformulieren/Compressie Therapie",
+                              "id": "6A3B31CF-5350-4A30-8919-065F4382787C",
+                              "sections": [
+                                {
+                                  "section": "Main",
+                                  "fields": [
+                                    {
+                                      "clazz": "field",
+                                      "field": "Toepassing en / of verwijdering van: band (en) compressie",
+                                      "type": "checkbox",
+                                      "shortLabel": "Toepassing en / of verwijdering van: band (en) compressie",
+                                      "grows": true,
+                                      "span": 24,
+                                      "readonly": false,
+                                      "options": {
+                                        "Toepassing en / of verwijdering van: band (en) compressie": "Toepassing en / of verwijdering van: band (en) compressie"
+                                      },
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "Wondverband (s) compressie",
+                                      "type": "checkbox",
+                                      "shortLabel": "Wondverband (s) compressie",
+                                      "grows": true,
+                                      "span": 15,
+                                      "readonly": false,
+                                      "options": {
+                                        "Wondverband (s) compressie": "Wondverband (s) compressie"
+                                      },
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "Laag anti-stasis",
+                                      "type": "checkbox",
+                                      "shortLabel": "Laag anti-stasis",
+                                      "grows": true,
+                                      "span": 9,
+                                      "readonly": false,
+                                      "options": {
+                                        "Laag anti-stasis": "Laag anti-stasis"
+                                      },
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "Frequentie",
+                                      "type": "measure-field",
+                                      "shortLabel": "Frequentie",
+                                      "grows": true,
+                                      "span": 10,
+                                      "readonly": false,
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "Duur",
+                                      "type": "measure-field",
+                                      "shortLabel": "Duur",
+                                      "grows": true,
+                                      "span": 14,
+                                      "readonly": false,
+                                      "multiline": false,
+                                      "translate": true
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            "Subformulieren/Enterale voeding": {
+                              "form": "Subformulieren/Enterale voeding",
+                              "id": "09BBA6AB-F79C-45AA-BA1C-934D8D7A060A",
+                              "sections": [
+                                {
+                                  "section": "Main",
+                                  "fields": [
+                                    {
+                                      "clazz": "field",
+                                      "field": "Voeding sonde",
+                                      "type": "dropdown-field",
+                                      "shortLabel": "Via een sensor",
+                                      "grows": true,
+                                      "span": 24,
+                                      "readonly": false,
+                                      "options": {
+                                        "LEGACY|maag-|1": "maag-",
+                                        "LEGACY|gastrostomie|1": "gastrostomie",
+                                        "LEGACY|enterostomie|1": "enterostomie"
+                                      },
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "Bedrag",
+                                      "type": "measure-field",
+                                      "shortLabel": "Bedrag",
+                                      "grows": true,
+                                      "span": 12,
+                                      "readonly": false,
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "Debet",
+                                      "type": "measure-field",
+                                      "shortLabel": "Debet",
+                                      "grows": true,
+                                      "span": 12,
+                                      "readonly": false,
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "Frequentie",
+                                      "type": "measure-field",
+                                      "shortLabel": "Frequentie",
+                                      "grows": true,
+                                      "span": 9,
+                                      "readonly": false,
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "Duur",
+                                      "type": "measure-field",
+                                      "shortLabel": "Duur",
+                                      "grows": true,
+                                      "span": 15,
+                                      "readonly": false,
+                                      "multiline": false,
+                                      "translate": true
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          },
+                          "span": 24,
+                          "rowSpan": 1,
+                          "labels": {}
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Andere Verzorging / technische specifieke",
+                          "type": "text-field",
+                          "shortLabel": "Andere Verzorging / technische specifieke",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Belangrijke medische informatie",
+                          "type": "text-field",
+                          "shortLabel": "Belangrijke medische informatie",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Evolutie ged. beh.",
+                          "type": "checkbox",
+                          "shortLabel": "Ik wens op de hoogte van de evolutie van de behandeling te worden gehouden",
+                          "grows": true,
+                          "span": 15,
+                          "readonly": false,
+                          "options": {
+                            "Ik wens op de hoogte van de evolutie van de behandeling te worden gehouden": "Ik wens op de hoogte van de evolutie van de behandeling te worden gehouden"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Evolutie einde beh.",
+                          "type": "checkbox",
+                          "shortLabel": "aan het einde van de behandeling",
+                          "grows": true,
+                          "span": 9,
+                          "readonly": false,
+                          "options": {
+                            "aan het einde van de behandeling": "aan het einde van de behandeling"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Mailcommunicatie",
+                          "type": "checkbox",
+                          "shortLabel": "Mailcommunicatie",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "options": {
+                            "Mailcommunicatie": "Mailcommunicatie"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Communicatie per telefoon",
+                          "type": "checkbox",
+                          "shortLabel": "tel.",
+                          "grows": true,
+                          "span": 3,
+                          "readonly": false,
+                          "options": {
+                            "tel.": "tel."
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Andere communicatie",
+                          "type": "text-field",
+                          "shortLabel": "andere",
+                          "grows": true,
+                          "span": 12,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "6BC88DB2-019F-4DE6-BFEB-C2D0E0008842",
+                          "type": "action",
+                          "shortLabel": "Prescription",
+                          "grows": true,
+                          "span": 3,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "Subformulieren/Aanvraag voor beeldvorming": {
+                  "form": "Subformulieren/Aanvraag voor beeldvorming",
+                  "id": "0AAC53CF-793F-45D2-ACA9-E0B79E1A1376",
+                  "sections": [
+                    {
+                      "section": "Main",
+                      "fields": [
+                        {
+                          "clazz": "subform",
+                          "id": "F6986527-5C56-4233-8BC7-38D01659D582",
+                          "shortLabel": "Examens demandés",
+                          "forms": {
+                            "Subformulieren/Beeldvormingsonderzoeken": {
+                              "form": "Subformulieren/Beeldvormingsonderzoeken",
+                              "id": "B4F2B274-10FF-4018-BC48-3ED3CADCED57",
+                              "sections": [
+                                {
+                                  "section": "Main",
+                                  "fields": [
+                                    {
+                                      "clazz": "field",
+                                      "field": "CT-scan",
+                                      "type": "checkbox",
+                                      "shortLabel": "CT-scan",
+                                      "grows": true,
+                                      "span": 1,
+                                      "readonly": false,
+                                      "options": {
+                                        "CT-scan": "CT-scan"
+                                      },
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "MRI-scan",
+                                      "type": "checkbox",
+                                      "shortLabel": "MRI-scan",
+                                      "grows": true,
+                                      "span": 1,
+                                      "readonly": false,
+                                      "options": {
+                                        "MRI-scan": "MRI-scan"
+                                      },
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "RX",
+                                      "type": "checkbox",
+                                      "shortLabel": "RX",
+                                      "grows": true,
+                                      "span": 2,
+                                      "readonly": false,
+                                      "options": {
+                                        "RX": "RX"
+                                      },
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "Echografie",
+                                      "type": "checkbox",
+                                      "shortLabel": "Echografie",
+                                      "grows": true,
+                                      "span": 4,
+                                      "readonly": false,
+                                      "options": {
+                                        "Echografie": "Echografie"
+                                      },
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "Scintigrafie",
+                                      "type": "checkbox",
+                                      "shortLabel": "Scintigrafie",
+                                      "grows": true,
+                                      "span": 3,
+                                      "readonly": false,
+                                      "options": {
+                                        "Scintigrafie": "Scintigrafie"
+                                      },
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "Onbekend",
+                                      "type": "checkbox",
+                                      "shortLabel": "Onbekend",
+                                      "grows": true,
+                                      "span": 3,
+                                      "readonly": false,
+                                      "options": {
+                                        "Onbekend": "Onbekend"
+                                      },
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "Ander onderzoek",
+                                      "type": "text-field",
+                                      "shortLabel": "Ander onderzoek",
+                                      "grows": true,
+                                      "span": 10,
+                                      "readonly": false,
+                                      "multiline": false,
+                                      "translate": true
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          },
+                          "span": 24,
+                          "rowSpan": 1,
+                          "labels": {}
+                        },
+                        {
+                          "clazz": "subform",
+                          "id": "16BD8C81-48D3-4E38-B213-B73E2A30A6F8",
+                          "shortLabel": "Examens proposés précédemment et relatifs à la demande de diagnostic",
+                          "forms": {
+                            "Subformulieren/Beeldvormingsonderzoeken": {
+                              "form": "Subformulieren/Beeldvormingsonderzoeken",
+                              "id": "B4F2B274-10FF-4018-BC48-3ED3CADCED57",
+                              "sections": [
+                                {
+                                  "section": "Main",
+                                  "fields": [
+                                    {
+                                      "clazz": "field",
+                                      "field": "CT-scan",
+                                      "type": "checkbox",
+                                      "shortLabel": "CT-scan",
+                                      "grows": true,
+                                      "span": 1,
+                                      "readonly": false,
+                                      "options": {
+                                        "CT-scan": "CT-scan"
+                                      },
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "MRI-scan",
+                                      "type": "checkbox",
+                                      "shortLabel": "MRI-scan",
+                                      "grows": true,
+                                      "span": 1,
+                                      "readonly": false,
+                                      "options": {
+                                        "MRI-scan": "MRI-scan"
+                                      },
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "RX",
+                                      "type": "checkbox",
+                                      "shortLabel": "RX",
+                                      "grows": true,
+                                      "span": 2,
+                                      "readonly": false,
+                                      "options": {
+                                        "RX": "RX"
+                                      },
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "Echografie",
+                                      "type": "checkbox",
+                                      "shortLabel": "Echografie",
+                                      "grows": true,
+                                      "span": 4,
+                                      "readonly": false,
+                                      "options": {
+                                        "Echografie": "Echografie"
+                                      },
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "Scintigrafie",
+                                      "type": "checkbox",
+                                      "shortLabel": "Scintigrafie",
+                                      "grows": true,
+                                      "span": 3,
+                                      "readonly": false,
+                                      "options": {
+                                        "Scintigrafie": "Scintigrafie"
+                                      },
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "Onbekend",
+                                      "type": "checkbox",
+                                      "shortLabel": "Onbekend",
+                                      "grows": true,
+                                      "span": 3,
+                                      "readonly": false,
+                                      "options": {
+                                        "Onbekend": "Onbekend"
+                                      },
+                                      "multiline": false,
+                                      "translate": true
+                                    },
+                                    {
+                                      "clazz": "field",
+                                      "field": "Ander onderzoek",
+                                      "type": "text-field",
+                                      "shortLabel": "Ander onderzoek",
+                                      "grows": true,
+                                      "span": 10,
+                                      "readonly": false,
+                                      "multiline": false,
+                                      "translate": true
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          },
+                          "span": 24,
+                          "rowSpan": 1,
+                          "labels": {}
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "CA780B84-77FC-443D-BEB5-61A058CA07E2",
+                          "type": "action",
+                          "shortLabel": "Demande",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "multiline": false,
+                          "translate": true
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "Subformulieren/Vaccins raadplegen": {
+                  "form": "Subformulieren/Vaccins raadplegen",
+                  "id": "94484700-EE5D-43E2-8001-1FA02B7D6C00",
+                  "sections": [
+                    {
+                      "section": "Main",
+                      "fields": [
+                        {
+                          "clazz": "field",
+                          "field": "Vaccin Tedivax",
+                          "type": "checkbox",
+                          "shortLabel": "Tedivax",
+                          "grows": true,
+                          "span": 5,
+                          "readonly": false,
+                          "options": {
+                            "Tedivax": "Tedivax"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Hepatitis A Vaccin",
+                          "type": "checkbox",
+                          "shortLabel": "Vac. Hep. A1",
+                          "grows": true,
+                          "span": 5,
+                          "readonly": false,
+                          "options": {
+                            "Vac. Hep. A1": "Vac. Hep. A1"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Hepatitis B-vaccin",
+                          "type": "checkbox",
+                          "shortLabel": "Vac. Hep. B1",
+                          "grows": true,
+                          "span": 5,
+                          "readonly": false,
+                          "options": {
+                            "Vac. Hep. B1": "Vac. Hep. B1"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Twinrix vaccin",
+                          "type": "checkbox",
+                          "shortLabel": "Twinrix1",
+                          "grows": true,
+                          "span": 4,
+                          "readonly": false,
+                          "options": {
+                            "Twinrix1": "Twinrix1"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Poliovaccin",
+                          "type": "checkbox",
+                          "shortLabel": "Vac. Poliomyelitis",
+                          "grows": true,
+                          "span": 5,
+                          "readonly": false,
+                          "options": {
+                            "Vac. Poliomyelitis": "Vac. Poliomyelitis"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Vaccin Revaxis",
+                          "type": "checkbox",
+                          "shortLabel": "Revaxis",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "options": {
+                            "Revaxis": "Revaxis"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Hepatitis A vaccin booster",
+                          "type": "checkbox",
+                          "shortLabel": "Vac. Hep. A2",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "options": {
+                            "Vac. Hep. A2": "Vac. Hep. A2"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "1 booster hepatitis B",
+                          "type": "checkbox",
+                          "shortLabel": "Vac. Hep. B2",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "options": {
+                            "Vac. Hep. B2": "Vac. Hep. B2"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Booster vaccin Twinrix 1",
+                          "type": "checkbox",
+                          "shortLabel": "Twinrix2",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "options": {
+                            "Twinrix2": "Twinrix2"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Boostrix vaccin",
+                          "type": "checkbox",
+                          "shortLabel": "Boostrix",
+                          "grows": true,
+                          "span": 5,
+                          "readonly": false,
+                          "options": {
+                            "Boostrix": "Boostrix"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Roug vaccin. / Rub. / Bof",
+                          "type": "checkbox",
+                          "shortLabel": "Vac. MMR",
+                          "grows": true,
+                          "span": 5,
+                          "readonly": false,
+                          "options": {
+                            "Vac. MMR": "Vac. MMR"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "2 booster hepatitis B",
+                          "type": "checkbox",
+                          "shortLabel": "Vac. Hep. B3",
+                          "grows": true,
+                          "span": 5,
+                          "readonly": false,
+                          "options": {
+                            "Vac. Hep. B3": "Vac. Hep. B3"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Booster vaccin Twinrix 2",
+                          "type": "checkbox",
+                          "shortLabel": "Twinrix3",
+                          "grows": true,
+                          "span": 4,
+                          "readonly": false,
+                          "options": {
+                            "Twinrix3": "Twinrix3"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Haemophilus vaccin",
+                          "type": "checkbox",
+                          "shortLabel": "Vac. Haemophilus",
+                          "grows": true,
+                          "span": 5,
+                          "readonly": false,
+                          "options": {
+                            "Vac. Haemophilus": "Vac. Haemophilus"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Vaccin Meningitec",
+                          "type": "checkbox",
+                          "shortLabel": "Vac. Meningitec",
+                          "grows": true,
+                          "span": 24,
+                          "readonly": false,
+                          "options": {
+                            "Vac. Meningitec": "Vac. Meningitec"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Vaccin tegen HPV",
+                          "type": "checkbox",
+                          "shortLabel": "Vac. HPV1",
+                          "grows": true,
+                          "span": 8,
+                          "readonly": false,
+                          "options": {
+                            "Vac. HPV1": "Vac. HPV1"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Griepvaccin",
+                          "type": "checkbox",
+                          "shortLabel": "Griepvaccin",
+                          "grows": true,
+                          "span": 8,
+                          "readonly": false,
+                          "options": {
+                            "Griepvaccin": "Griepvaccin"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Pneumokokkenvaccin 23",
+                          "type": "checkbox",
+                          "shortLabel": "Pneumo 23",
+                          "grows": true,
+                          "span": 8,
+                          "readonly": false,
+                          "options": {
+                            "Pneumo 23": "Pneumo 23"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Booster vaccin tegen HPV 1",
+                          "type": "checkbox",
+                          "shortLabel": "Vac. HPV2",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "options": {
+                            "Vac. HPV2": "Vac. HPV2"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Prevenar vaccin",
+                          "type": "checkbox",
+                          "shortLabel": "Prevenar",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "options": {
+                            "Prevenar": "Prevenar"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Vaccin Typhim",
+                          "type": "checkbox",
+                          "shortLabel": "Vac. Typhim",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "options": {
+                            "Vac. Typhim": "Vac. Typhim"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Kennisgeving vaccin herinnering Typhim",
+                          "type": "checkbox",
+                          "shortLabel": "Rpl",
+                          "grows": true,
+                          "span": 6,
+                          "readonly": false,
+                          "options": {
+                            "Rpl": "Rpl"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Booster vaccin tegen HPV 2",
+                          "type": "checkbox",
+                          "shortLabel": "Vac. HPV 3",
+                          "grows": true,
+                          "span": 8,
+                          "readonly": false,
+                          "options": {
+                            "Vac. HPV 3": "Vac. HPV 3"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Vaccin tegen gele koorts",
+                          "type": "checkbox",
+                          "shortLabel": "Vac. FIEV. Geel",
+                          "grows": true,
+                          "span": 8,
+                          "readonly": false,
+                          "options": {
+                            "Vac. FIEV. Geel": "Vac. FIEV. Geel"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        },
+                        {
+                          "clazz": "field",
+                          "field": "Herinnering kennisgeving gelekoortsvaccin",
+                          "type": "checkbox",
+                          "shortLabel": "Rpl",
+                          "grows": true,
+                          "span": 8,
+                          "readonly": false,
+                          "options": {
+                            "Rpl": "Rpl"
+                          },
+                          "multiline": false,
+                          "translate": true
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "span": 24,
+              "rowSpan": 1,
+              "labels": {}
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

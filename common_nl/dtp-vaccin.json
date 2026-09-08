@@ -1,0 +1,22 @@
+{
+  "form": "Subformulieren/DTP-vaccin",
+  "id": "00A454BF-E20E-4421-B4A8-783A44570505",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Vaccin",
+          "type": "text-field",
+          "shortLabel": "DTP-vaccin",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

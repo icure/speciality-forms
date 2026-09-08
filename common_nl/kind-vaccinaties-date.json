@@ -1,0 +1,801 @@
+{
+  "form": "Kindergeneeskunde/Kind Vaccinaties / Date",
+  "id": "3CD13087-3130-4E24-BB71-4EA8A076A365",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Infanrix hexa 2 maanden",
+              "type": "checkbox",
+              "shortLabel": "Infanrix hexa 2 maanden",
+              "grows": true,
+              "span": 2,
+              "readonly": false,
+              "options": {
+                "Infanrix hexa 2 maanden": "Infanrix hexa 2 maanden"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Prevenar 2 maanden",
+              "type": "checkbox",
+              "shortLabel": "Prevenar 2 maanden",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "Prevenar 2 maanden": "Prevenar 2 maanden"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Rotarix 2 maanden",
+              "type": "checkbox",
+              "shortLabel": "Rotarix 2 maanden",
+              "grows": true,
+              "span": 11,
+              "readonly": false,
+              "options": {
+                "Rotarix 2 maanden": "Rotarix 2 maanden"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "ROTATEQ 2 maanden",
+              "type": "checkbox",
+              "shortLabel": "ROTATEQ 2 maanden",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "ROTATEQ 2 maanden": "ROTATEQ 2 maanden"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Infanrix hexa 3 maanden",
+              "type": "checkbox",
+              "shortLabel": "Infanrix hexa 3 maanden",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Infanrix hexa 3 maanden": "Infanrix hexa 3 maanden"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Rotarix 3 maanden",
+              "type": "checkbox",
+              "shortLabel": "Rotarix 3 maanden",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Rotarix 3 maanden": "Rotarix 3 maanden"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "ROTATEQ 3 maanden",
+              "type": "checkbox",
+              "shortLabel": "ROTATEQ 3 maanden",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "ROTATEQ 3 maanden": "ROTATEQ 3 maanden"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Infanrix hexa 4 maanden",
+              "type": "checkbox",
+              "shortLabel": "Infanrix hexa 4 maanden",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Infanrix hexa 4 maanden": "Infanrix hexa 4 maanden"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Prevenar 4 maanden",
+              "type": "checkbox",
+              "shortLabel": "Prevenar 4 maanden",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Prevenar 4 maanden": "Prevenar 4 maanden"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "ROTATEQ 4 maanden",
+              "type": "checkbox",
+              "shortLabel": "ROTATEQ 4 maanden",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "ROTATEQ 4 maanden": "ROTATEQ 4 maanden"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Prevenar 12 maanden",
+              "type": "checkbox",
+              "shortLabel": "Prevenar 12 maanden",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "Prevenar 12 maanden": "Prevenar 12 maanden"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "MMR 12 maanden",
+              "type": "checkbox",
+              "shortLabel": "MMR 12 maanden",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "MMR 12 maanden": "MMR 12 maanden"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Meningokokken C-vaccin",
+              "type": "checkbox",
+              "shortLabel": "Meningokokken C",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "Meningokokken C": "Meningokokken C"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Infanrix hexa 13-14 maanden",
+              "type": "checkbox",
+              "shortLabel": "Infanrix hexa 13-14 maanden",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "Infanrix hexa 13-14 maanden": "Infanrix hexa 13-14 maanden"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "BCG",
+              "type": "checkbox",
+              "shortLabel": "BCG",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "BCG": "BCG"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vaccin tegen waterpokken",
+              "type": "checkbox",
+              "shortLabel": "Vac. waterpokken",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "Vac. waterpokken": "Vac. waterpokken"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Herinnering kennisgeving varicella vaccin",
+              "type": "checkbox",
+              "shortLabel": "Rpl",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "Rpl": "Rpl"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Vaccint Tetravac",
+              "type": "checkbox",
+              "shortLabel": "Vaccint Tetravac",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "Vaccint Tetravac": "Vaccint Tetravac"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Twinrix vaccin",
+              "type": "checkbox",
+              "shortLabel": "Vac. Twinrix",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Vac. Twinrix": "Vac. Twinrix"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Kennisgeving vaccin herinnering Twinrix",
+              "type": "checkbox",
+              "shortLabel": "Rpl",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "Rpl": "Rpl"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "MMR 11-12 jaar",
+              "type": "checkbox",
+              "shortLabel": "MMR 11-12 jaar",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "MMR 11-12 jaar": "MMR 11-12 jaar"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Boostrix vaccin",
+              "type": "checkbox",
+              "shortLabel": "Vac. Boostrix 15-16 jaar",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "Vac. Boostrix 15-16 jaar": "Vac. Boostrix 15-16 jaar"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Hepatitis A Vaccin",
+              "type": "checkbox",
+              "shortLabel": "Vac. Hep. Een",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "Vac. Hep. Een": "Vac. Hep. Een"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Herinnering kennisgeving Hepatitis A vaccin",
+              "type": "checkbox",
+              "shortLabel": "Rpl",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "Rpl": "Rpl"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Papillomavirus vaccin eerste dosis",
+              "type": "checkbox",
+              "shortLabel": "HPV-vaccin eerste dosis",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "HPV-vaccin eerste dosis": "HPV-vaccin eerste dosis"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Hepatitis B-vaccin",
+              "type": "checkbox",
+              "shortLabel": "Vac. Hep. B",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "Vac. Hep. B": "Vac. Hep. B"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Herinnering kennisgeving hepatitis B-vaccin",
+              "type": "checkbox",
+              "shortLabel": "Rpl",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "Rpl": "Rpl"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Papillomavirus vaccin 2de dosis",
+              "type": "checkbox",
+              "shortLabel": "HPV-vaccin 2e dosis",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "HPV-vaccin 2e dosis": "HPV-vaccin 2e dosis"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Poliovaccin",
+              "type": "checkbox",
+              "shortLabel": "Vac. Poliomyelitis",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "Vac. Poliomyelitis": "Vac. Poliomyelitis"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Papillomavirus vaccin 3de dosis",
+              "type": "checkbox",
+              "shortLabel": "HPV-vaccin 3 dosis",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "HPV-vaccin 3 dosis": "HPV-vaccin 3 dosis"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Kinkhoestvaccin",
+              "type": "checkbox",
+              "shortLabel": "Vac. Kinkhoest",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "Vac. Kinkhoest": "Vac. Kinkhoest"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Difterie",
+              "type": "checkbox",
+              "shortLabel": "Vac. Difterie",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "Vac. Difterie": "Vac. Difterie"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Haemophilus vaccin",
+              "type": "checkbox",
+              "shortLabel": "Vac. Haemophilus",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "Vac. Haemophilus": "Vac. Haemophilus"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Griepvaccin",
+              "type": "checkbox",
+              "shortLabel": "Vac. Griep",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "Vac. Griep": "Vac. Griep"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Herinnering kennisgeving griepvaccin",
+              "type": "checkbox",
+              "shortLabel": "Rpl",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "Rpl": "Rpl"
+              },
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Difterie-tetanus-kinkhoest (DTP a) 3 maanden",
+              "type": "checkbox",
+              "shortLabel": "Difterie-tetanus-kinkhoest (DTP a) 3 maanden",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "Difterie-tetanus-kinkhoest (DTP a) 3 maanden": "Difterie-tetanus-kinkhoest (DTP a) 3 maanden"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Polio OPV 3 maanden",
+              "type": "checkbox",
+              "shortLabel": "+ Polio OPV 3 maanden",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "+ Polio OPV 3 maanden": "+ Polio OPV 3 maanden"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Haemophilus influenzae type b Hib 3 maanden",
+              "type": "checkbox",
+              "shortLabel": "Haemophilus influenzae type b + HIB 3 maanden",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "Haemophilus influenzae type b + HIB 3 maanden": "Haemophilus influenzae type b + HIB 3 maanden"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Hepatitis B HB 3months",
+              "type": "checkbox",
+              "shortLabel": "+ Hepatitis B HB 3months",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "+ Hepatitis B HB 3months": "+ Hepatitis B HB 3months"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Difterie-tetanus-kinkhoest (DTP a) 4 maanden",
+              "type": "checkbox",
+              "shortLabel": "Difterie-tetanus-kinkhoest (DTP a) 4 maanden",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "Difterie-tetanus-kinkhoest (DTP a) 4 maanden": "Difterie-tetanus-kinkhoest (DTP a) 4 maanden"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Haemophilus influenzae type b Hib 4 maanden",
+              "type": "checkbox",
+              "shortLabel": "+ Haemophilus influenzae type b Hib 4 maanden",
+              "grows": true,
+              "span": 14,
+              "readonly": false,
+              "options": {
+                "+ Haemophilus influenzae type b Hib 4 maanden": "+ Haemophilus influenzae type b Hib 4 maanden"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "HB Hepatitis B 4 maanden",
+              "type": "checkbox",
+              "shortLabel": "+ Hepatitis B HB 4 maanden",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "+ Hepatitis B HB 4 maanden": "+ Hepatitis B HB 4 maanden"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Difterie-tetanus-kinkhoest (DTP a) 5 maanden",
+              "type": "checkbox",
+              "shortLabel": "Difterie-tetanus-kinkhoest (DTP a) 5 maanden",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "Difterie-tetanus-kinkhoest (DTP a) 5 maanden": "Difterie-tetanus-kinkhoest (DTP a) 5 maanden"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Polio OPV 5 maanden",
+              "type": "checkbox",
+              "shortLabel": "Polio OPV + 5 maanden",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "Polio OPV + 5 maanden": "Polio OPV + 5 maanden"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Haemophilus influenzae type b Hib 5 maanden",
+              "type": "checkbox",
+              "shortLabel": "Haemophilus influenzae type b + HIB 5 maanden",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "Haemophilus influenzae type b + HIB 5 maanden": "Haemophilus influenzae type b + HIB 5 maanden"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "HB Hepatitis B 5 maanden",
+              "type": "checkbox",
+              "shortLabel": "+ Hepatitis B HB 5 maanden",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "+ Hepatitis B HB 5 maanden": "+ Hepatitis B HB 5 maanden"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Difterie-tetanus-kinkhoest (DTP a) 13-14 maanden",
+              "type": "checkbox",
+              "shortLabel": "Difterie-tetanus-kinkhoest (DTP a) 13-14 maanden",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "Difterie-tetanus-kinkhoest (DTP a) 13-14 maanden": "Difterie-tetanus-kinkhoest (DTP a) 13-14 maanden"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Polio OPV 13-14 maanden",
+              "type": "checkbox",
+              "shortLabel": "+ Polio OPV 13-14 maanden",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "+ Polio OPV 13-14 maanden": "+ Polio OPV 13-14 maanden"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Haemophilus influenzae type b Hib 13-14 maanden",
+              "type": "checkbox",
+              "shortLabel": "+ Haemophilus influenzae type b Hib 13-14 maanden",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "+ Haemophilus influenzae type b Hib 13-14 maanden": "+ Haemophilus influenzae type b Hib 13-14 maanden"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "HB Hepatitis B 13-14 maanden",
+              "type": "checkbox",
+              "shortLabel": "Hepatitis B + HB 13-14 maanden",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "Hepatitis B + HB 13-14 maanden": "Hepatitis B + HB 13-14 maanden"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Mazelen-bof-rubella MMR 15 maanden",
+              "type": "checkbox",
+              "shortLabel": "Mazelen-bof-rubella MMR 15 maanden",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "Mazelen-bof-rubella MMR 15 maanden": "Mazelen-bof-rubella MMR 15 maanden"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Difterie-Tetanus (pertussis) DTPa 5-6 jaar",
+              "type": "checkbox",
+              "shortLabel": "Difterie-Tetanus (Coqu. ACEL.) DTPa 5-6 jaar",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "Difterie-Tetanus (Coqu. ACEL.) DTPa 5-6 jaar": "Difterie-Tetanus (Coqu. ACEL.) DTPa 5-6 jaar"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Polio OPV 5-6 jaar",
+              "type": "checkbox",
+              "shortLabel": "+ Polio OPV 5-6 jaar",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "+ Polio OPV 5-6 jaar": "+ Polio OPV 5-6 jaar"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Mazelen-bof-rubella MMR 11-12 jaar",
+              "type": "checkbox",
+              "shortLabel": "Mazelen-bof-rubella MMR 11-12 jaar",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "Mazelen-bof-rubella MMR 11-12 jaar": "Mazelen-bof-rubella MMR 11-12 jaar"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Tetanus Difterie pro adulto Td 15-16 jaar",
+              "type": "checkbox",
+              "shortLabel": "Tetanus Difterie pro adulto Td 15-16 jaar",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "Tetanus Difterie pro adulto Td 15-16 jaar": "Tetanus Difterie pro adulto Td 15-16 jaar"
+              },
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

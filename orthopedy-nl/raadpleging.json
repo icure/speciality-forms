@@ -1,0 +1,324 @@
+{
+  "form": "Orthopedie NL/Raadpleging",
+  "id": "FADBA272-63F6-4AB7-B3BB-59BC1908A14B",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Klacht",
+              "type": "text-field",
+              "shortLabel": "Klacht",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Gewicht",
+              "type": "measure-field",
+              "shortLabel": "Gewicht",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Lengte",
+              "type": "measure-field",
+              "shortLabel": "Lengte",
+              "grows": true,
+              "span": 18,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "BMI",
+              "type": "number-field",
+              "shortLabel": "BMI",
+              "grows": true,
+              "span": 1,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Klinisch onderzoek",
+              "type": "text-field",
+              "shortLabel": "Klinisch onderzoek",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Bilan compl.",
+              "type": "text-field",
+              "shortLabel": "Bilan compl.",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Diagnose",
+              "type": "text-field",
+              "shortLabel": "Diagnose",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Behandeling",
+              "type": "text-field",
+              "shortLabel": "Behandeling",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Complem. examen",
+              "type": "text-field",
+              "shortLabel": "Complem. examen",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "RX standaard",
+              "type": "checkbox",
+              "shortLabel": "RX standaard",
+              "grows": true,
+              "span": 2,
+              "readonly": false,
+              "options": {
+                "RX standaard": "RX standaard"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "CT scan",
+              "type": "checkbox",
+              "shortLabel": "CT scan",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "CT scan": "CT scan"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Arthro Scan",
+              "type": "checkbox",
+              "shortLabel": "Arthro Scan",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Arthro Scan": "Arthro Scan"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Echo",
+              "type": "checkbox",
+              "shortLabel": "Echo",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Echo": "Echo"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Goniometrie",
+              "type": "checkbox",
+              "shortLabel": "Goniometrie",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "Goniometrie": "Goniometrie"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Scaniometrie",
+              "type": "checkbox",
+              "shortLabel": "Scaniometrie",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Scaniometrie": "Scaniometrie"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "RMN",
+              "type": "checkbox",
+              "shortLabel": "RMN",
+              "grows": true,
+              "span": 2,
+              "readonly": false,
+              "options": {
+                "RMN": "RMN"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Zijde",
+              "type": "dropdown-field",
+              "shortLabel": "Zijde",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                "LEGACY|links|1": "links",
+                "LEGACY|rechts|1": "rechts",
+                "LEGACY|bilateraal|1": "bilateraal"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "EMG aanvraag",
+              "type": "checkbox",
+              "shortLabel": "EMG",
+              "grows": true,
+              "span": 18,
+              "readonly": false,
+              "options": {
+                "EMG": "EMG"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Local. letsels",
+              "type": "text-field",
+              "shortLabel": "Local. letsels",
+              "grows": true,
+              "span": 18,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "1D2B9896-84CD-4A5C-A6A4-1C0CB8F7FEFE",
+              "type": "action",
+              "shortLabel": "Demande",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "5A2C26C5-AE00-4963-836C-940A2B3541F6",
+              "type": "action",
+              "shortLabel": "Aanvraag",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "B2340D19-8A6D-4464-9CB6-DB8279FD6C9F",
+              "type": "action",
+              "shortLabel": "Rapport",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "A5F14403-BCFA-4215-BF06-5B6C23739B6C",
+              "type": "action",
+              "shortLabel": "Verslag",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "94DB11FC-A4A6-48BA-9F8F-E7C65891BCE9",
+              "type": "action",
+              "shortLabel": "Reçu",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

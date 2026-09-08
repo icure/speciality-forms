@@ -1,0 +1,380 @@
+{
+  "form": "Pré-op/Chirurgie mammaire",
+  "id": "32e7bff6-f9bd-9792-72f5-57b193ec6c9d",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Plainte subjective",
+              "type": "text-field",
+              "shortLabel": "Plainte subjective",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "hypertrophie mammaire",
+              "type": "checkbox",
+              "shortLabel": "Hypertrophie mam.",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "Hypertrophie mam.": "Hypertrophie mam."
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "hypotrophie mammaire",
+              "type": "checkbox",
+              "shortLabel": "Hypotrophie mam.",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Hypotrophie mam.": "Hypotrophie mam."
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "taille actuelle soutient",
+              "type": "text-field",
+              "shortLabel": "Taille act. sout.",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "taille désirée de soutient",
+              "type": "text-field",
+              "shortLabel": "désirée",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "asymétrie mammaire",
+              "type": "checkbox",
+              "shortLabel": "Asymétrie mam.",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Asymétrie mam.": "Asymétrie mam."
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "forme du sein",
+              "type": "checkbox",
+              "shortLabel": "Forme du sein",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "Forme du sein": "Forme du sein"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Cicatrices",
+              "type": "token-field",
+              "shortLabel": "Cicatrices",
+              "grows": true,
+              "span": 24,
+              "rowSpan": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "dist mm dte",
+              "type": "measure-field",
+              "shortLabel": "Flèche st.-m. D",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "distance mm gauche",
+              "type": "measure-field",
+              "shortLabel": "G",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Distance inter-mammaire (IMD)",
+              "type": "measure-field",
+              "shortLabel": "Distance inter-mammaire (IMD)",
+              "grows": true,
+              "span": 10,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Diamètre aréolaire (AD) D",
+              "type": "measure-field",
+              "shortLabel": "Diamètre aréolaire D",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Diamètre aréolaire (AD) G",
+              "type": "measure-field",
+              "shortLabel": "G",
+              "grows": true,
+              "span": 16,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Diamètre glandulaire (GD) D",
+              "type": "measure-field",
+              "shortLabel": "Diamètre glandulaire D",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Diamètre glandulaire (GD) G",
+              "type": "measure-field",
+              "shortLabel": "G",
+              "grows": true,
+              "span": 16,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Hauteur glandulaire (GH) D",
+              "type": "measure-field",
+              "shortLabel": "Hauteur glandulaire D",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Hauteur glandulaire (GH) G",
+              "type": "measure-field",
+              "shortLabel": "G",
+              "grows": true,
+              "span": 16,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Distance mamelon/sillon IM (NIMFD) D",
+              "type": "measure-field",
+              "shortLabel": "Distance mamelon/sillon IM D",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Distance mamelon/sillon IM (NIMFD) G",
+              "type": "measure-field",
+              "shortLabel": "G",
+              "grows": true,
+              "span": 16,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Symétrie",
+              "type": "dropdown-field",
+              "shortLabel": "Symétrie",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "LEGACY|volume D = volume G|1": "volume D = volume G",
+                "LEGACY|volume D > volume G|1": "volume D > volume G",
+                "LEGACY|volume D < volume G|1": "volume D < volume G"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Degré de ptose (Regnault)",
+              "type": "dropdown-field",
+              "shortLabel": "Degré de ptose (Regnault)",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "LEGACY|grade 1|1": "grade 1",
+                "LEGACY|grade 2|1": "grade 2",
+                "LEGACY|grade 3|1": "grade 3",
+                "LEGACY|pseudoptose|1": "pseudoptose"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Degré de ptose (Regnault) Segment 3 D",
+              "type": "dropdown-field",
+              "shortLabel": "Segment 3 droit",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "options": {
+                "LEGACY|normal|1": "normal",
+                "LEGACY|hypoplasie modérée|1": "hypoplasie modérée",
+                "LEGACY|hypoplasie sévère|1": "hypoplasie sévère"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Degré de ptose (Regnault) Segment 3 G",
+              "type": "dropdown-field",
+              "shortLabel": "Segment 3 gauche",
+              "grows": true,
+              "span": 15,
+              "readonly": false,
+              "options": {
+                "LEGACY|normal|1": "normal",
+                "LEGACY|hypoplasie modérée|1": "hypoplasie modérée",
+                "LEGACY|hypoplasie sévère|1": "hypoplasie sévère"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Appréciation",
+              "type": "dropdown-field",
+              "shortLabel": "Appréciation",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "LEGACY|hypertrophie mammaire|1": "hypertrophie mammaire",
+                "LEGACY|hypotrophie mammaire|1": "hypotrophie mammaire",
+                "LEGACY|seins tubéreux|1": "seins tubéreux",
+                "LEGACY|gynécomastie|1": "gynécomastie",
+                "LEGACY|asymétrie mammaire|1": "asymétrie mammaire"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Traitement proposé",
+              "type": "dropdown-field",
+              "shortLabel": "Traitement proposé",
+              "grows": true,
+              "span": 13,
+              "readonly": false,
+              "options": {
+                "LEGACY|réduction mammaire cic. en T inversé|1": "réduction mammaire cic. en T inversé",
+                "LEGACY|réduction mammaire de type Thorek|1": "réduction mammaire de type Thorek",
+                "LEGACY|réduction mammaire cic. verticale|1": "réduction mammaire cic. verticale",
+                "LEGACY|augmentation mammaire proth. ronde sous-glandulaire par voie péri-aréolaire|1": "augmentation mammaire proth. ronde sous-glandulaire par voie péri-aréolaire",
+                "LEGACY|augmentation mammaire proth. ronde sous-glandulaire par voie sous-mammaire|1": "augmentation mammaire proth. ronde sous-glandulaire par voie sous-mammaire",
+                "LEGACY|augmentation mammaire proth. anat. sous-glandulaire par voie péri-aréolaire|1": "augmentation mammaire proth. anat. sous-glandulaire par voie péri-aréolaire",
+                "LEGACY|augmentation mammaire proth. anat. sous-glandulaire par voie sous-mammaire|1": "augmentation mammaire proth. anat. sous-glandulaire par voie sous-mammaire",
+                "LEGACY|augmentation mammaire proth. ronde rétro-pec. par voie péri-aréolaire|1": "augmentation mammaire proth. ronde rétro-pec. par voie péri-aréolaire",
+                "LEGACY|augmentation mammaire proth. ronde rétro-pec. par voie sous-mammaire|1": "augmentation mammaire proth. ronde rétro-pec. par voie sous-mammaire",
+                "LEGACY|augmentation mammaire proth. anat. rétro-pec. par voie péri-aréolaire|1": "augmentation mammaire proth. anat. rétro-pec. par voie péri-aréolaire",
+                "LEGACY|augmentation mammaire proth. anat. rétro-pec. par voie sous-mammaire|1": "augmentation mammaire proth. anat. rétro-pec. par voie sous-mammaire",
+                "LEGACY|remplacement de proth. par voie péri-aréolaire|1": "remplacement de proth. par voie péri-aréolaire",
+                "LEGACY|remplacement de proth. par voie sous-mammaire|1": "remplacement de proth. par voie sous-mammaire",
+                "LEGACY|ablation de proth. et pexie en T inversé|1": "ablation de proth. et pexie en T inversé",
+                "LEGACY|mastopexie avec cic. en T inversé|1": "mastopexie avec cic. en T inversé",
+                "LEGACY|mastopexie avec cic. verticale|1": "mastopexie avec cic. verticale",
+                "LEGACY|cure de gynécomastie par lipo.|1": "cure de gynécomastie par lipo.",
+                "LEGACY|cure de gynécomastie par lipo. + réduction aréolaire|1": "cure de gynécomastie par lipo. + réduction aréolaire",
+                "LEGACY|cure de gynécomastie par lipo. ± excision glandulaire|1": "cure de gynécomastie par lipo. ± excision glandulaire",
+                "LEGACY|cure de gynécomastie par lipo. ± excision glandulaire et réduction aréolaire|1": "cure de gynécomastie par lipo. ± excision glandulaire et réduction aréolaire"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "7A7ABD61-5415-47EF-923E-3F5B0B6978F7",
+              "type": "action",
+              "shortLabel": "Accord MC",
+              "grows": true,
+              "span": 11,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

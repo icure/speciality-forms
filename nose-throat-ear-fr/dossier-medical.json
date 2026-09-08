@@ -1,0 +1,99 @@
+{
+  "form": "General/Dossier médical",
+  "id": "FFFFFFFF-FFFF-FFFF-FFFF-DOSSMED00000",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Antécédents chirurgicaux",
+          "type": "items-list-field",
+          "shortLabel": "Antécédents chirurgicaux",
+          "grows": true,
+          "span": 13,
+          "rowSpan": 3,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Antécédents médicaux",
+          "type": "items-list-field",
+          "shortLabel": "Antécédents médicaux",
+          "grows": true,
+          "span": 11,
+          "rowSpan": 3,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Antécédents familiaux",
+          "type": "items-list-field",
+          "shortLabel": "Antécédents familiaux",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Allergies",
+          "type": "items-list-field",
+          "shortLabel": "Allergies",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Tabac",
+          "type": "checkbox",
+          "shortLabel": "Tabac",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "Tabac": "Tabac"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Alcool",
+          "type": "checkbox",
+          "shortLabel": "Alcool",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "options": {
+            "Alcool": "Alcool"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Fréquente la crêche",
+          "type": "checkbox",
+          "shortLabel": "Crêche",
+          "grows": true,
+          "span": 13,
+          "readonly": false,
+          "options": {
+            "Crêche": "Crêche"
+          },
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

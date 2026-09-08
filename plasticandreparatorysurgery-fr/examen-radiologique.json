@@ -1,0 +1,130 @@
+{
+  "form": "sous-formulaires organisation salle d'op/examen radiologique",
+  "id": "AC2997B0-BAEF-4F01-B3C1-16C82FD227F6",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "examen radiologique",
+          "type": "dropdown-field",
+          "shortLabel": "examen radiologique",
+          "grows": true,
+          "span": 18,
+          "readonly": false,
+          "options": {
+            "LEGACY|à faire en ambulatoire|1": "à faire en ambulatoire",
+            "LEGACY|à faire en hospitalisation|1": "à faire en hospitalisation",
+            "LEGACY|fait|1": "fait"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "examen radio reçu",
+          "type": "checkbox",
+          "shortLabel": "examen radio reçu",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "examen radio reçu": "examen radio reçu"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "CT",
+          "type": "checkbox",
+          "shortLabel": "CT-Scan",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "CT-Scan": "CT-Scan"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "IRM",
+          "type": "checkbox",
+          "shortLabel": "IRM",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "options": {
+            "IRM": "IRM"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "radio",
+          "type": "checkbox",
+          "shortLabel": "radio",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "radio": "radio"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "écho",
+          "type": "checkbox",
+          "shortLabel": "écho",
+          "grows": true,
+          "span": 3,
+          "readonly": false,
+          "options": {
+            "écho": "écho"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "type d'examen radiologique",
+          "type": "text-field",
+          "shortLabel": "autre examen radiogique",
+          "grows": true,
+          "span": 13,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "information clinique",
+          "type": "text-field",
+          "shortLabel": "information clinique",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "raison de la demande",
+          "type": "text-field",
+          "shortLabel": "raison de la demande",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

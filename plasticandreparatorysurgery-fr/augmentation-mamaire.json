@@ -1,0 +1,141 @@
+{
+  "form": "sous-formulaires CRO-sein/augmentation mamaire",
+  "id": "46160127-F2CA-4037-8D59-B0455B581150",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "marque des prothèses",
+          "type": "text-field",
+          "shortLabel": "marque des prothèses",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "type de prothèse",
+          "type": "dropdown-field",
+          "shortLabel": "type de prothèse",
+          "grows": true,
+          "span": 10,
+          "readonly": false,
+          "options": {
+            "LEGACY|rondes |1": "rondes ",
+            "LEGACY|rondes texturées|1": "rondes texturées",
+            "LEGACY|anatomiques|1": "anatomiques"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "voie d'abord",
+          "type": "dropdown-field",
+          "shortLabel": "voie d'abord",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "options": {
+            "LEGACY|sous-mammaire|1": "sous-mammaire",
+            "LEGACY|péri-aréolaire|1": "péri-aréolaire",
+            "LEGACY|axillaire|1": "axillaire"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "prothèse droite",
+          "type": "text-field",
+          "shortLabel": "prothèse droite",
+          "grows": true,
+          "span": 9,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "prothèse gauche",
+          "type": "text-field",
+          "shortLabel": "prothèse gauche",
+          "grows": true,
+          "span": 15,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "numéro de série droit",
+          "type": "text-field",
+          "shortLabel": "numéro de série droit",
+          "grows": true,
+          "span": 9,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "numéro de série gauche",
+          "type": "text-field",
+          "shortLabel": "numéro de série gauche",
+          "grows": true,
+          "span": 15,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "position des prothèses",
+          "type": "dropdown-field",
+          "shortLabel": "position des prothèses",
+          "grows": true,
+          "span": 9,
+          "readonly": false,
+          "options": {
+            "LEGACY|sous-glandulaire|1": "sous-glandulaire",
+            "LEGACY|rétropectorale|1": "rétropectorale",
+            "LEGACY|sous-faciale|1": "sous-faciale"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "drainage",
+          "type": "dropdown-field",
+          "shortLabel": "drainage",
+          "grows": true,
+          "span": 15,
+          "readonly": false,
+          "options": {
+            "LEGACY|pas de drainage|1": "pas de drainage",
+            "LEGACY|redons aspiratifs|1": "redons aspiratifs"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "traitement post-op",
+          "type": "items-list-field",
+          "shortLabel": "traitement post-op",
+          "grows": true,
+          "span": 24,
+          "rowSpan": 3,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

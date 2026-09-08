@@ -1,0 +1,107 @@
+{
+  "form": "Orthopédie/Scintigraphie osseuse",
+  "id": "E8FD29EC-88E0-4953-B316-EA2418728438",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Scintigraphie corps entier",
+          "type": "checkbox",
+          "shortLabel": "Corps entier",
+          "grows": true,
+          "span": 1,
+          "readonly": false,
+          "options": {
+            "Corps entier": "Corps entier"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Scintigraphie régionale",
+          "type": "checkbox",
+          "shortLabel": "Scintigraphie régionale",
+          "grows": true,
+          "span": 13,
+          "readonly": false,
+          "options": {
+            "Scintigraphie régionale": "Scintigraphie régionale"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Anticorps antigranulocytaires",
+          "type": "checkbox",
+          "shortLabel": "Ac antigranulocytaires",
+          "grows": true,
+          "span": 10,
+          "readonly": false,
+          "options": {
+            "Ac antigranulocytaires": "Ac antigranulocytaires"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Gallium",
+          "type": "checkbox",
+          "shortLabel": "Gallium",
+          "grows": true,
+          "span": 1,
+          "readonly": false,
+          "options": {
+            "Gallium": "Gallium"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Phase vasculaire et osseuse",
+          "type": "checkbox",
+          "shortLabel": "Phase vasculaire et osseuse",
+          "grows": true,
+          "span": 10,
+          "readonly": false,
+          "options": {
+            "Phase vasculaire et osseuse": "Phase vasculaire et osseuse"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Recherche de pathologie",
+          "type": "dropdown-field",
+          "shortLabel": "Pathologie",
+          "grows": true,
+          "span": 13,
+          "readonly": false,
+          "options": {
+            "LEGACY|algoneurodystrophie (AND)|1": "algoneurodystrophie (AND)",
+            "LEGACY|nécrose aseptique (NA)|1": "nécrose aseptique (NA)"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "1D2B9896-84CD-4A5C-A6A4-1C0CB8F7FEFE",
+          "type": "action",
+          "shortLabel": "Demande",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

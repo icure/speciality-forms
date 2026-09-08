@@ -1,0 +1,221 @@
+{
+  "form": "FORM complémentaires/Prescription kiné",
+  "id": "EDDECA75-D566-4A13-869C-349AC9F174D4",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Massage",
+              "type": "checkbox",
+              "shortLabel": "Massage",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "Massage": "Massage"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Aard van de behandeling",
+              "type": "text-field",
+              "shortLabel": "Nature du traitement",
+              "grows": true,
+              "span": 14,
+              "rowSpan": 4,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Mobilisatie",
+              "type": "checkbox",
+              "shortLabel": "Mobilisation",
+              "grows": true,
+              "span": 10,
+              "rowSpan": 4,
+              "readonly": false,
+              "options": {
+                "Mobilisation": "Mobilisation"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Warmtetherapie",
+              "type": "checkbox",
+              "shortLabel": "Thérapie par le chaud",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "Thérapie par le chaud": "Thérapie par le chaud"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Electrotheraphie",
+              "type": "checkbox",
+              "shortLabel": "Electro Thérapie",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "Electro Thérapie": "Electro Thérapie"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Ultra son",
+              "type": "checkbox",
+              "shortLabel": "Ultra son",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "Ultra son": "Ultra son"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Korte golven",
+              "type": "checkbox",
+              "shortLabel": "Hautes fréquences",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "Hautes fréquences": "Hautes fréquences"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Tapotage en ademhalingsgymnastiek",
+              "type": "checkbox",
+              "shortLabel": "Tapotage et Gymnastique de la respiration",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "Tapotage et Gymnastique de la respiration": "Tapotage et Gymnastique de la respiration"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Lokalisatie",
+              "type": "text-field",
+              "shortLabel": "Localisation",
+              "grows": true,
+              "span": 24,
+              "rowSpan": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "MOTIFS",
+              "type": "text-field",
+              "shortLabel": "MOTIF(S)",
+              "grows": true,
+              "span": 24,
+              "rowSpan": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 3",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Nombre de séances",
+              "type": "number-field",
+              "shortLabel": "Nombre de séances",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Fréquence",
+              "type": "measure-field",
+              "shortLabel": "Fréquence",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Diagnose",
+              "type": "text-field",
+              "shortLabel": "Diagnostic",
+              "grows": true,
+              "span": 24,
+              "rowSpan": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "AC74C551-DA6C-4DB1-8A6F-26716C77AC44",
+              "type": "action",
+              "shortLabel": "IMPRIMER",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

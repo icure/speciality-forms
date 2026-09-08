@@ -1,0 +1,305 @@
+{
+  "form": "Biologie/Hemostase",
+  "id": "0118C48C-2B5C-428A-AC8B-EDE1DA37AAAB",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Tps de Quick (+INR)",
+          "type": "checkbox",
+          "shortLabel": "Tps de Quick (+INR)",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "Tps de Quick (+INR)": "Tps de Quick (+INR)"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Antithrombine III",
+          "type": "checkbox",
+          "shortLabel": "Antithrombine III",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "Antithrombine III": "Antithrombine III"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Tps de saignement",
+          "type": "checkbox",
+          "shortLabel": "Tps de saignement",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "Tps de saignement": "Tps de saignement"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Tps de céphaline (APTT)",
+          "type": "checkbox",
+          "shortLabel": "Tps de céphaline (APTT)",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "Tps de céphaline (APTT)": "Tps de céphaline (APTT)"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Plasminogène",
+          "type": "checkbox",
+          "shortLabel": "Plasminogène",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "Plasminogène": "Plasminogène"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Von Wilebrand antigène",
+          "type": "checkbox",
+          "shortLabel": "Von Wilebrand antigène",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "Von Wilebrand antigène": "Von Wilebrand antigène"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Protéine C",
+          "type": "checkbox",
+          "shortLabel": "Protéine C",
+          "grows": true,
+          "span": 13,
+          "readonly": false,
+          "options": {
+            "Protéine C": "Protéine C"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Von Willebrand activité",
+          "type": "checkbox",
+          "shortLabel": "Von Willebrand activité",
+          "grows": true,
+          "span": 11,
+          "readonly": false,
+          "options": {
+            "Von Willebrand activité": "Von Willebrand activité"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Tps de céphaline (APTT)",
+          "type": "checkbox",
+          "shortLabel": "Tps de céphaline (APTT)",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "Tps de céphaline (APTT)": "Tps de céphaline (APTT)"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Protéine S",
+          "type": "checkbox",
+          "shortLabel": "Protéine S",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "Protéine S": "Protéine S"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Facteur VIII",
+          "type": "checkbox",
+          "shortLabel": "Facteur VIII",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "Facteur VIII": "Facteur VIII"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Tps de Quick (+INR)",
+          "type": "checkbox",
+          "shortLabel": "Tps de Quick (+INR)",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "Tps de Quick (+INR)": "Tps de Quick (+INR)"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "APC résistance",
+          "type": "checkbox",
+          "shortLabel": "APC résistance",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "APC résistance": "APC résistance"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Facteur IX",
+          "type": "checkbox",
+          "shortLabel": "Facteur IX",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "Facteur IX": "Facteur IX"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Tps de thrombine",
+          "type": "checkbox",
+          "shortLabel": "Tps de thrombine",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "Tps de thrombine": "Tps de thrombine"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Anticoagulant lupique",
+          "type": "checkbox",
+          "shortLabel": "Anticoagulant lupique",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "Anticoagulant lupique": "Anticoagulant lupique"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Alpha 2-antiplasmine (5€)",
+          "type": "checkbox",
+          "shortLabel": "Alpha 2-antiplasmine (5€)",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "Alpha 2-antiplasmine (5€)": "Alpha 2-antiplasmine (5€)"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Fibrogène (Saturation)",
+          "type": "checkbox",
+          "shortLabel": "Fibrogène (Saturation)",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "Fibrogène (Saturation)": "Fibrogène (Saturation)"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "AC anti-phospolipides",
+          "type": "checkbox",
+          "shortLabel": "AC anti-phospolipides",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "AC anti-phospolipides": "AC anti-phospolipides"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Facteur XIII",
+          "type": "checkbox",
+          "shortLabel": "Facteur XIII",
+          "grows": true,
+          "span": 8,
+          "readonly": false,
+          "options": {
+            "Facteur XIII": "Facteur XIII"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "D-Dimères",
+          "type": "checkbox",
+          "shortLabel": "D-Dimères",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "D-Dimères": "D-Dimères"
+          },
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

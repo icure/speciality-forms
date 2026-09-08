@@ -1,0 +1,623 @@
+{
+  "form": "Pré-op/reconstruction mammaire",
+  "id": "94184306-1FFE-4B51-B0D9-DD71F522324A",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "modalité de reconstruction",
+              "type": "dropdown-field",
+              "shortLabel": "modalité de reconstruction",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "options": {
+                "LEGACY|primaire|1": "primaire",
+                "LEGACY|secondaire|1": "secondaire"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "localisation ",
+              "type": "dropdown-field",
+              "shortLabel": "localisation ",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "LEGACY|QSE|1": "QSE",
+                "LEGACY|QSI|1": "QSI",
+                "LEGACY|QIE|1": "QIE",
+                "LEGACY|QII|1": "QII"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "côté droit",
+              "type": "checkbox",
+              "shortLabel": "côté droit",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "côté droit": "côté droit"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "côté gauche",
+              "type": "checkbox",
+              "shortLabel": "côté gauche",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "côté gauche": "côté gauche"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "bilatéral",
+              "type": "checkbox",
+              "shortLabel": "bilatéral",
+              "grows": true,
+              "span": 1,
+              "readonly": false,
+              "options": {
+                "bilatéral": "bilatéral"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "traitement chirurgical instauré",
+              "type": "dropdown-field",
+              "shortLabel": "traitement chirurgical instauré",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "LEGACY|tumorectomie|1": "tumorectomie",
+                "LEGACY|quadrantectomie|1": "quadrantectomie",
+                "LEGACY|mammectomie|1": "mammectomie"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "envoi rapport MT",
+              "type": "checkbox",
+              "shortLabel": "envoi rapport MT",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "envoi rapport MT": "envoi rapport MT"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": " ganglion sentinelle",
+              "type": "checkbox",
+              "shortLabel": " ganglion sentinelle",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                " ganglion sentinelle": " ganglion sentinelle"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "curage axillaire",
+              "type": "checkbox",
+              "shortLabel": "curage axillaire",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "curage axillaire": "curage axillaire"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "5E4D6B90-9EED-4D27-99B9-C90AF154786D",
+              "type": "action",
+              "shortLabel": "rapport médecin",
+              "grows": true,
+              "span": 14,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "année du traitement",
+              "type": "number-field",
+              "shortLabel": "année du traitement",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "radiothérapie",
+              "type": "checkbox",
+              "shortLabel": "radiothérapie",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "radiothérapie": "radiothérapie"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "5E4D6B90-9EED-4D27-99B9-C90AF154786D",
+              "type": "action",
+              "shortLabel": "Mutuelle/ implant 1 temps",
+              "grows": true,
+              "span": 21,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "chimiothérapie",
+              "type": "checkbox",
+              "shortLabel": "chimiothérapie",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "chimiothérapie": "chimiothérapie"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "autre traitement",
+              "type": "text-field",
+              "shortLabel": "autre traitement",
+              "grows": true,
+              "span": 21,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "hormonothérapie",
+              "type": "checkbox",
+              "shortLabel": "hormonothérapie",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "hormonothérapie": "hormonothérapie"
+              },
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "poids",
+              "type": "measure-field",
+              "shortLabel": "poids",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "taille",
+              "type": "measure-field",
+              "shortLabel": "taille",
+              "grows": true,
+              "span": 20,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "BMI",
+              "type": "number-field",
+              "shortLabel": "BMI",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 3",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "cicatrice adhérente",
+              "type": "checkbox",
+              "shortLabel": "cicatrice adhérente",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "cicatrice adhérente": "cicatrice adhérente"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "séquelles de radiothérapie",
+              "type": "checkbox",
+              "shortLabel": "séquelles de radiothérapie",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "séquelles de radiothérapie": "séquelles de radiothérapie"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "douleurs",
+              "type": "checkbox",
+              "shortLabel": "douleurs",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "douleurs": "douleurs"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "résection muscle pectoral",
+              "type": "checkbox",
+              "shortLabel": "résection muscle pectoral",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "résection muscle pectoral": "résection muscle pectoral"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "oedème mb. sup.",
+              "type": "checkbox",
+              "shortLabel": "oedème mb. sup.",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "oedème mb. sup.": "oedème mb. sup."
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "rétraction",
+              "type": "checkbox",
+              "shortLabel": "rétraction",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "rétraction": "rétraction"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "volume sein controlatéral",
+              "type": "dropdown-field",
+              "shortLabel": "volume sein controlatéral",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "LEGACY|petit (A)|1": "petit (A)",
+                "LEGACY|moyen (B)|1": "moyen (B)",
+                "LEGACY|gros(C-D)|1": "gros(C-D)"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "ptose mammaire",
+              "type": "dropdown-field",
+              "shortLabel": "ptose mammaire ( Regnault)",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "options": {
+                "LEGACY|grade A (AMC< 1cm sous IMF)|1": "grade A (AMC< 1cm sous IMF)",
+                "LEGACY|grade B (AMC 1-3 cm sous IMF)|1": "grade B (AMC 1-3 cm sous IMF)",
+                "LEGACY|grade C (AMC >3 cm sous IMF)|1": "grade C (AMC >3 cm sous IMF)",
+                "LEGACY|pseudoptose (AMC> IMF)|1": "pseudoptose (AMC> IMF)"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "reconstruction par implant",
+              "type": "checkbox",
+              "shortLabel": "reconstruction par implant",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "reconstruction par implant": "reconstruction par implant"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "implant 1 temps",
+              "type": "checkbox",
+              "shortLabel": "1 temps",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "options": {
+                "1 temps": "1 temps"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "implant 2 temps",
+              "type": "checkbox",
+              "shortLabel": "2 temps",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "2 temps": "2 temps"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "examen clinique",
+              "type": "text-field",
+              "shortLabel": "examen clinique",
+              "grows": true,
+              "span": 9,
+              "rowSpan": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "reconstruction par lambeau",
+              "type": "checkbox",
+              "shortLabel": "reconstruction par lambeau",
+              "grows": true,
+              "span": 8,
+              "rowSpan": 2,
+              "readonly": false,
+              "options": {
+                "reconstruction par lambeau": "reconstruction par lambeau"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "grand dorsal",
+              "type": "checkbox",
+              "shortLabel": "grand dorsal",
+              "grows": true,
+              "span": 7,
+              "rowSpan": 2,
+              "readonly": false,
+              "options": {
+                "grand dorsal": "grand dorsal"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "avec implant",
+              "type": "checkbox",
+              "shortLabel": "avec implant",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "avec implant": "avec implant"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "tram",
+              "type": "checkbox",
+              "shortLabel": "tram",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "tram": "tram"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "lambeau libre",
+              "type": "checkbox",
+              "shortLabel": "lambeau libre",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "lambeau libre": "lambeau libre"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "symétrisation controlatérale ",
+              "type": "checkbox",
+              "shortLabel": "symétrisation controlatérale ",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "symétrisation controlatérale ": "symétrisation controlatérale "
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "divers",
+              "type": "text-field",
+              "shortLabel": "divers",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 4",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "suivi oncologique",
+              "type": "checkbox",
+              "shortLabel": "suivi oncologique régulier",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "suivi oncologique régulier": "suivi oncologique régulier"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "rémission",
+              "type": "checkbox",
+              "shortLabel": "rémission",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "rémission": "rémission"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "maladie en évolution",
+              "type": "checkbox",
+              "shortLabel": "maladie en évolution",
+              "grows": true,
+              "span": 11,
+              "readonly": false,
+              "options": {
+                "maladie en évolution": "maladie en évolution"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "nota bene",
+              "type": "text-field",
+              "shortLabel": "nota bene",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

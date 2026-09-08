@@ -1,0 +1,857 @@
+{
+  "form": "Pré-op/blépharoplastie",
+  "id": "4B23A99E-06B6-4932-AC72-D4D31EA9AC9F",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "motif de consultation ",
+              "type": "text-field",
+              "shortLabel": "motif de consultation ",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "envoi rapport MT",
+              "type": "checkbox",
+              "shortLabel": "envoi rapport MT",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "envoi rapport MT": "envoi rapport MT"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "plainte",
+              "type": "text-field",
+              "shortLabel": "plainte",
+              "grows": true,
+              "span": 10,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "plainte oculaire",
+              "type": "text-field",
+              "shortLabel": "plainte oculaire",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 3",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "position des sourcils",
+              "type": "dropdown-field",
+              "shortLabel": "position des sourcils",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "LEGACY|au dessus du rebord orbitaire|1": "au dessus du rebord orbitaire",
+                "LEGACY|au niveau du rebord orbitaire|1": "au niveau du rebord orbitaire",
+                "LEGACY|sous le rebord orbitaire|1": "sous le rebord orbitaire"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "symétrie des sourcils",
+              "type": "dropdown-field",
+              "shortLabel": "symétrie des sourcils",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "LEGACY|G>D|1": "G>D",
+                "LEGACY|D>G|1": "D>G",
+                "LEGACY|G=D|1": "G=D"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "rides glabelle",
+              "type": "dropdown-field",
+              "shortLabel": "rides glabelle",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "LEGACY|non|1": "non",
+                "LEGACY|dynamiques|1": "dynamiques",
+                "LEGACY|statiques|1": "statiques"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "rides frontales",
+              "type": "dropdown-field",
+              "shortLabel": "rides frontales",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "LEGACY|non|1": "non",
+                "LEGACY|dynamiques|1": "dynamiques",
+                "LEGACY|statiques|1": "statiques"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "hypertonie frontale droite",
+              "type": "checkbox",
+              "shortLabel": "hypertonie frontale droite",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "hypertonie frontale droite": "hypertonie frontale droite"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": " hypertonie frontale gauche",
+              "type": "checkbox",
+              "shortLabel": " hypertonie frontale gauche",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                " hypertonie frontale gauche": " hypertonie frontale gauche"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "test de shirmer",
+              "type": "text-field",
+              "shortLabel": "test de shirmer",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "examen ophtalmologique",
+              "type": "text-field",
+              "shortLabel": "examen ophtalmologique",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 4",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "dermatochalasis",
+              "type": "dropdown-field",
+              "shortLabel": "dermatochalasis",
+              "grows": true,
+              "span": 10,
+              "rowSpan": 2,
+              "readonly": false,
+              "options": {
+                "LEGACY|léger|1": "léger",
+                "LEGACY|ne touche pas lescils|1": "ne touche pas lescils",
+                "LEGACY|touche les ciks|1": "touche les ciks",
+                "LEGACY|gêne au champs de vision|1": "gêne au champs de vision"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "examen clinique",
+              "type": "text-field",
+              "shortLabel": "examen clinique particulier",
+              "grows": true,
+              "span": 14,
+              "rowSpan": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "graisse",
+              "type": "dropdown-field",
+              "shortLabel": "graisse",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "LEGACY|oeil creux|1": "oeil creux",
+                "LEGACY|interne|1": "interne",
+                "LEGACY|interne et moyenne|1": "interne et moyenne",
+                "LEGACY|non|1": "non"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "ptosis",
+              "type": "dropdown-field",
+              "shortLabel": "ptosis",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "LEGACY|non|1": "non",
+                "LEGACY|symétrique|1": "symétrique",
+                "LEGACY|asymétrique|1": "asymétrique"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "côté gauche",
+              "type": "checkbox",
+              "shortLabel": "côté gauche",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "côté gauche": "côté gauche"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "côté droit",
+              "type": "checkbox",
+              "shortLabel": "côté droit",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "côté droit": "côté droit"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "bilatéral",
+              "type": "checkbox",
+              "shortLabel": "bilatéral",
+              "grows": true,
+              "span": 16,
+              "readonly": false,
+              "options": {
+                "bilatéral": "bilatéral"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "ouverture oculaire droite",
+              "type": "measure-field",
+              "shortLabel": "ouverture oculaire droite",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "blépharoplastie supérieure",
+              "type": "checkbox",
+              "shortLabel": "blépharoplastie supérieure",
+              "grows": true,
+              "span": 8,
+              "readonly": false,
+              "options": {
+                "blépharoplastie supérieure": "blépharoplastie supérieure"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": " bsup cutanée seule",
+              "type": "checkbox",
+              "shortLabel": "cutanée seule",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "options": {
+                "cutanée seule": "cutanée seule"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "ouverture oculaire gauche",
+              "type": "measure-field",
+              "shortLabel": "ouverture oculaire gauche",
+              "grows": true,
+              "span": 10,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": " lipectomie supérieure",
+              "type": "checkbox",
+              "shortLabel": " lipectomie supérieure",
+              "grows": true,
+              "span": 14,
+              "readonly": false,
+              "options": {
+                " lipectomie supérieure": " lipectomie supérieure"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "cure de ptosis palpébral",
+              "type": "checkbox",
+              "shortLabel": "cure de ptosis palpébral",
+              "grows": true,
+              "span": 19,
+              "readonly": false,
+              "options": {
+                "cure de ptosis palpébral": "cure de ptosis palpébral"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "réinsertion du releveur",
+              "type": "checkbox",
+              "shortLabel": "réinsertion du releveur",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "réinsertion du releveur": "réinsertion du releveur"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "fonction muscle releveur droit",
+              "type": "measure-field",
+              "shortLabel": "fonction muscle releveur droit",
+              "grows": true,
+              "span": 10,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "résection de releveur",
+              "type": "checkbox",
+              "shortLabel": "résection de releveur",
+              "grows": true,
+              "span": 14,
+              "readonly": false,
+              "options": {
+                "résection de releveur": "résection de releveur"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "fonction muscle releveur gauche",
+              "type": "measure-field",
+              "shortLabel": "fonction muscle releveur gauche",
+              "grows": true,
+              "span": 10,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "suspension frontale",
+              "type": "checkbox",
+              "shortLabel": "suspension frontale",
+              "grows": true,
+              "span": 14,
+              "readonly": false,
+              "options": {
+                "suspension frontale": "suspension frontale"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "fixation du sourcil par voie transpalpébrale",
+              "type": "checkbox",
+              "shortLabel": "fixation du sourcil par voie transpalpébrale",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "fixation du sourcil par voie transpalpébrale": "fixation du sourcil par voie transpalpébrale"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": " lid lag droit",
+              "type": "checkbox",
+              "shortLabel": " lid lag droit",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                " lid lag droit": " lid lag droit"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "lid lag gauche",
+              "type": "checkbox",
+              "shortLabel": "lid lag gauche",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "options": {
+                "lid lag gauche": "lid lag gauche"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "lifting de la queue du sourcil selon Fogli",
+              "type": "checkbox",
+              "shortLabel": "lifting de la queue du sourcil selon Fogli",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "options": {
+                "lifting de la queue du sourcil selon Fogli": "lifting de la queue du sourcil selon Fogli"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "lifting frontal endoscopique",
+              "type": "checkbox",
+              "shortLabel": "lifting frontal endoscopique",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "lifting frontal endoscopique": "lifting frontal endoscopique"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "lifting frontal par voie bicoronale",
+              "type": "checkbox",
+              "shortLabel": "lifting frontal par voie bicoronale",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "lifting frontal par voie bicoronale": "lifting frontal par voie bicoronale"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "snap test",
+              "type": "dropdown-field",
+              "shortLabel": "snap test",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "LEGACY|tonicité normale|1": "tonicité normale",
+                "LEGACY|laxité horizontale|1": "laxité horizontale",
+                "LEGACY|laxité verticale|1": "laxité verticale",
+                "LEGACY|laxité combinée|1": "laxité combinée"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": " blépharoplastie inférieure",
+              "type": "checkbox",
+              "shortLabel": " blépharoplastie inférieure",
+              "grows": true,
+              "span": 15,
+              "readonly": false,
+              "options": {
+                " blépharoplastie inférieure": " blépharoplastie inférieure"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": " Hamra",
+              "type": "checkbox",
+              "shortLabel": " Hamra",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "options": {
+                " Hamra": " Hamra"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "position du bord libre",
+              "type": "dropdown-field",
+              "shortLabel": "position du bord libre",
+              "grows": true,
+              "span": 10,
+              "readonly": false,
+              "options": {
+                "LEGACY|au limbe|1": "au limbe",
+                "LEGACY|oeil rond|1": "oeil rond"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": " Jelks",
+              "type": "checkbox",
+              "shortLabel": " Jelks",
+              "grows": true,
+              "span": 14,
+              "readonly": false,
+              "options": {
+                " Jelks": " Jelks"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "graisse paupière inférieure",
+              "type": "dropdown-field",
+              "shortLabel": "graisse",
+              "grows": true,
+              "span": 10,
+              "readonly": false,
+              "options": {
+                "LEGACY|interne|1": "interne",
+                "LEGACY|externe|1": "externe",
+                "LEGACY|diffuse|1": "diffuse",
+                "LEGACY|oeil creux|1": "oeil creux"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "b2 inf voie transconjonctivale",
+              "type": "checkbox",
+              "shortLabel": "voie transconjonctivale",
+              "grows": true,
+              "span": 14,
+              "readonly": false,
+              "options": {
+                "voie transconjonctivale": "voie transconjonctivale"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "rides paupière inférieure",
+              "type": "dropdown-field",
+              "shortLabel": "rides paupière inférieure",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "options": {
+                "LEGACY|non|1": "non",
+                "LEGACY|dynamiques|1": "dynamiques",
+                "LEGACY|statiques|1": "statiques"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": " binf voie sous-ciliaire",
+              "type": "checkbox",
+              "shortLabel": "voie sous-ciliaire",
+              "grows": true,
+              "span": 11,
+              "readonly": false,
+              "options": {
+                "voie sous-ciliaire": "voie sous-ciliaire"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": " binf cutanée seule",
+              "type": "checkbox",
+              "shortLabel": "cutanée seule",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "cutanée seule": "cutanée seule"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "sillon palpébro-jugal marqué",
+              "type": "checkbox",
+              "shortLabel": "sillon palpébro-jugal marqué",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "sillon palpébro-jugal marqué": "sillon palpébro-jugal marqué"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "binf lipectomie associée",
+              "type": "checkbox",
+              "shortLabel": "lipectomie associée",
+              "grows": true,
+              "span": 19,
+              "readonly": false,
+              "options": {
+                "lipectomie associée": "lipectomie associée"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "pigmentation cutanée",
+              "type": "dropdown-field",
+              "shortLabel": "pigmentation cutanée",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "LEGACY|légère|1": "légère",
+                "LEGACY|marqué|1": "marqué"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "canthopexie externe",
+              "type": "checkbox",
+              "shortLabel": "canthopexie externe",
+              "grows": true,
+              "span": 14,
+              "readonly": false,
+              "options": {
+                "canthopexie externe": "canthopexie externe"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": " canthoplastie externe",
+              "type": "checkbox",
+              "shortLabel": " canthoplastie externe",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "options": {
+                " canthoplastie externe": " canthoplastie externe"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": " Khunt-Siemanowski",
+              "type": "checkbox",
+              "shortLabel": " Khunt-Siemanowski",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                " Khunt-Siemanowski": " Khunt-Siemanowski"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "rides patte d'oie",
+              "type": "dropdown-field",
+              "shortLabel": "rides patte d'oie",
+              "grows": true,
+              "span": 10,
+              "readonly": false,
+              "options": {
+                "LEGACY|non|1": "non",
+                "LEGACY|dynamiques |1": "dynamiques ",
+                "LEGACY|statiques|1": "statiques"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": " peeling",
+              "type": "checkbox",
+              "shortLabel": " peeling cutané associé",
+              "grows": true,
+              "span": 14,
+              "readonly": false,
+              "options": {
+                " peeling cutané associé": " peeling cutané associé"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "variance malaire",
+              "type": "dropdown-field",
+              "shortLabel": "variance malaire",
+              "grows": true,
+              "span": 10,
+              "readonly": false,
+              "options": {
+                "LEGACY|positive|1": "positive",
+                "LEGACY|négative|1": "négative"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "autre traitement",
+              "type": "text-field",
+              "shortLabel": "autre traitement",
+              "grows": true,
+              "span": 14,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "note",
+              "type": "text-field",
+              "shortLabel": "note",
+              "grows": true,
+              "span": 24,
+              "rowSpan": 3,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "conclusion",
+              "type": "text-field",
+              "shortLabel": "conclusion",
+              "grows": true,
+              "span": 24,
+              "rowSpan": 2,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

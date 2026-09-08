@@ -1,0 +1,802 @@
+{
+  "form": "Médecine générale/Dossier Médical",
+  "id": "F7796E7A-D93A-45D9-9B90-FB07C955E63E",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "group",
+          "group": "Section 1",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Taille",
+              "type": "measure-field",
+              "shortLabel": "Taille",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Poids",
+              "type": "measure-field",
+              "shortLabel": "Poids",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Obésité",
+              "type": "checkbox",
+              "shortLabel": "Obésité",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "Obésité": "Obésité"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Droitier",
+              "type": "checkbox",
+              "shortLabel": "Droitier",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "options": {
+                "Droitier": "Droitier"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Gaucher",
+              "type": "checkbox",
+              "shortLabel": "Gaucher",
+              "grows": true,
+              "span": 2,
+              "readonly": false,
+              "options": {
+                "Gaucher": "Gaucher"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Ambidextre",
+              "type": "checkbox",
+              "shortLabel": "Ambidextre",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "Ambidextre": "Ambidextre"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Effectif de la fratrie du patient",
+              "type": "number-field",
+              "shortLabel": "Effectf fratrie pat.",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Rang du patient dans la fratrie",
+              "type": "number-field",
+              "shortLabel": "Rang dans la fratrie",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Gemellité",
+              "type": "dropdown-field",
+              "shortLabel": "Gemellité",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "options": {
+                "LEGACY|non|1": "non",
+                "LEGACY|monozygote|1": "monozygote",
+                "LEGACY|dizygote|1": "dizygote"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Facteur racial",
+              "type": "dropdown-field",
+              "shortLabel": "Facteur racial",
+              "grows": true,
+              "span": 6,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Tabagisme (pq. ans)",
+              "type": "number-field",
+              "shortLabel": "Tabagisme (pq. ans)",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Alcoolisme",
+              "type": "dropdown-field",
+              "shortLabel": "Alcool",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "LEGACY|Néant|1": "Néant",
+                "LEGACY|1 verre/j.|1": "1 verre/j.",
+                "LEGACY|2 verres/j.|1": "2 verres/j.",
+                "LEGACY|3 verres/j.|1": "3 verres/j.",
+                "LEGACY|4 verres/j.|1": "4 verres/j.",
+                "LEGACY|5 verres/j.|1": "5 verres/j.",
+                "LEGACY|10 verres/j.|1": "10 verres/j.",
+                "LEGACY|15 verres/j.|1": "15 verres/j.",
+                "LEGACY|20 verres/j.|1": "20 verres/j.",
+                "LEGACY|+ de 20 verres/j.|1": "+ de 20 verres/j."
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Pesticides",
+              "type": "checkbox",
+              "shortLabel": "Pesticides",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "Pesticides": "Pesticides"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "MPTP",
+              "type": "checkbox",
+              "shortLabel": "MPTP",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "MPTP": "MPTP"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Manganèse",
+              "type": "checkbox",
+              "shortLabel": "Manganèse",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "Manganèse": "Manganèse"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Autre toxique",
+              "type": "text-field",
+              "shortLabel": "Autre tox.",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Mode de vie",
+              "type": "text-field",
+              "shortLabel": "Mode de vie",
+              "grows": true,
+              "span": 9,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "A domicile seul",
+              "type": "checkbox",
+              "shortLabel": "A domicile seul",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "A domicile seul": "A domicile seul"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "A domicile accompagné",
+              "type": "checkbox",
+              "shortLabel": "accompagné",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "accompagné": "accompagné"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "En institution (MR)",
+              "type": "checkbox",
+              "shortLabel": "En institution: MR",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "En institution: MR": "En institution: MR"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "En institution (MRS)",
+              "type": "checkbox",
+              "shortLabel": "MRS",
+              "grows": true,
+              "span": 2,
+              "readonly": false,
+              "options": {
+                "MRS": "MRS"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Autre institution",
+              "type": "checkbox",
+              "shortLabel": "autre",
+              "grows": true,
+              "span": 2,
+              "readonly": false,
+              "options": {
+                "autre": "autre"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Activité sportive régulière",
+              "type": "checkbox",
+              "shortLabel": "Activité sportive régulière",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "options": {
+                "Activité sportive régulière": "Activité sportive régulière"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Maladie auto-immune",
+              "type": "checkbox",
+              "shortLabel": "Maladie auto-immune",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "Maladie auto-immune": "Maladie auto-immune"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Encéphalite",
+              "type": "checkbox",
+              "shortLabel": "Encéphalite",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "Encéphalite": "Encéphalite"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Hydrocéphalie Normotensive",
+              "type": "checkbox",
+              "shortLabel": "HNT",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "HNT": "HNT"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Cancer",
+              "type": "checkbox",
+              "shortLabel": "Cancer",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "options": {
+                "Cancer": "Cancer"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Pathologie de la thyroïde",
+              "type": "checkbox",
+              "shortLabel": "Pathologie de la thyroïde",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Pathologie de la thyroïde": "Pathologie de la thyroïde"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Traumatisme crânien",
+              "type": "checkbox",
+              "shortLabel": "Traumatisme crânien",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Traumatisme crânien": "Traumatisme crânien"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Diabète",
+              "type": "checkbox",
+              "shortLabel": "Diabète",
+              "grows": true,
+              "span": 3,
+              "readonly": false,
+              "options": {
+                "Diabète": "Diabète"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Pathologie du métabolisme phosphocalcique",
+              "type": "checkbox",
+              "shortLabel": "Path. métab. phosphoCa",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "Path. métab. phosphoCa": "Path. métab. phosphoCa"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Migraine",
+              "type": "checkbox",
+              "shortLabel": "Migraine",
+              "grows": true,
+              "span": 5,
+              "readonly": false,
+              "options": {
+                "Migraine": "Migraine"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Lésion vasculaire cérébrale",
+              "type": "checkbox",
+              "shortLabel": "Lésion vasculaire cérébrale",
+              "grows": true,
+              "span": 7,
+              "readonly": false,
+              "options": {
+                "Lésion vasculaire cérébrale": "Lésion vasculaire cérébrale"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Tumeur cérébrale",
+              "type": "checkbox",
+              "shortLabel": "Tumeur cérébrale",
+              "grows": true,
+              "span": 4,
+              "readonly": false,
+              "options": {
+                "Tumeur cérébrale": "Tumeur cérébrale"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Hypercholesterolemie",
+              "type": "dropdown-field",
+              "shortLabel": "Hypercholesterolemie",
+              "grows": true,
+              "span": 10,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Maladie du tissu connectif",
+              "type": "dropdown-field",
+              "shortLabel": "Maladie du tissu connectif",
+              "grows": true,
+              "span": 14,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "HTA",
+              "type": "dropdown-field",
+              "shortLabel": "HTA",
+              "grows": true,
+              "span": 10,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Gynécologique",
+              "type": "dropdown-field",
+              "shortLabel": "Gynécologique",
+              "grows": true,
+              "span": 14,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Maladie Cardique",
+              "type": "dropdown-field",
+              "shortLabel": "Maladie Cardique",
+              "grows": true,
+              "span": 10,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Maladies Héréditaires",
+              "type": "dropdown-field",
+              "shortLabel": "Maladies Héréditaires",
+              "grows": true,
+              "span": 14,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Arterite des Membres Inférieurs",
+              "type": "dropdown-field",
+              "shortLabel": "Arterite des Membres Inférieurs",
+              "grows": true,
+              "span": 10,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Comorbidité",
+              "type": "dropdown-field",
+              "shortLabel": "Comorbidité",
+              "grows": true,
+              "span": 14,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Atheromatose des vaisseaux du cou",
+              "type": "dropdown-field",
+              "shortLabel": "Atheromatose des vaisseaux du cou",
+              "grows": true,
+              "span": 10,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Antécedents personnels",
+              "type": "dropdown-field",
+              "shortLabel": "Antécedents personnels",
+              "grows": true,
+              "span": 14,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Maladie Pulmonaire",
+              "type": "dropdown-field",
+              "shortLabel": "Maladie Pulmonaire",
+              "grows": true,
+              "span": 10,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "IRC",
+              "type": "dropdown-field",
+              "shortLabel": "IRC",
+              "grows": true,
+              "span": 14,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Maladie Hematologique",
+              "type": "dropdown-field",
+              "shortLabel": "Maladie Hematologique",
+              "grows": true,
+              "span": 10,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Anévrysmes cérébraux",
+              "type": "dropdown-field",
+              "shortLabel": "Anévrysmes cérébraux",
+              "grows": true,
+              "span": 14,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Maladie systémique",
+              "type": "dropdown-field",
+              "shortLabel": "Maladie systémique",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Antécédents médicaux",
+              "type": "items-list-field",
+              "shortLabel": "Antécédents médicaux",
+              "grows": true,
+              "span": 9,
+              "rowSpan": 4,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Antécedents familiaux",
+              "type": "items-list-field",
+              "shortLabel": "Antécédents familiaux",
+              "grows": true,
+              "span": 15,
+              "rowSpan": 4,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        },
+        {
+          "clazz": "group",
+          "group": "Section 2",
+          "fields": [
+            {
+              "clazz": "field",
+              "field": "Allergies",
+              "type": "items-list-field",
+              "shortLabel": "Allergies",
+              "grows": true,
+              "span": 9,
+              "rowSpan": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Antiplaquettaires",
+              "type": "dropdown-field",
+              "shortLabel": "Antiplaquettaires",
+              "grows": true,
+              "span": 4,
+              "rowSpan": 5,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Antithrombotiques",
+              "type": "dropdown-field",
+              "shortLabel": "Antithrombotiques",
+              "grows": true,
+              "span": 24,
+              "readonly": false,
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Antihypertenseurs",
+              "type": "checkbox",
+              "shortLabel": "Antihypertenseurs",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "Antihypertenseurs": "Antihypertenseurs"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Statines",
+              "type": "checkbox",
+              "shortLabel": "Statines",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "Statines": "Statines"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Hypoglycemiants",
+              "type": "checkbox",
+              "shortLabel": "Hypoglycemiants",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "Hypoglycemiants": "Hypoglycemiants"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Insuline",
+              "type": "checkbox",
+              "shortLabel": "Insuline",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "Insuline": "Insuline"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Contraceptifs Hormonaux",
+              "type": "checkbox",
+              "shortLabel": "Contracep. Hormonaux",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "Contracep. Hormonaux": "Contracep. Hormonaux"
+              },
+              "multiline": false,
+              "translate": true
+            },
+            {
+              "clazz": "field",
+              "field": "Thérape Hormonale Substitutive",
+              "type": "checkbox",
+              "shortLabel": "THS",
+              "grows": true,
+              "span": 12,
+              "readonly": false,
+              "options": {
+                "THS": "THS"
+              },
+              "multiline": false,
+              "translate": true
+            }
+          ],
+          "borderless": false,
+          "hideTitle": true,
+          "translate": true,
+          "span": 24
+        }
+      ]
+    }
+  ]
+}

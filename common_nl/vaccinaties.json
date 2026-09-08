@@ -1,0 +1,263 @@
+{
+  "form": "Huisarts/Vaccinaties",
+  "id": "9D4E1AC5-30DD-4B0F-801F-1118C091D445",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "subform",
+          "id": "C12782D0-4584-4CEA-88C1-B88E3CD73740",
+          "shortLabel": "Ineentingen",
+          "forms": {
+            "Subformulieren/DT-vaccin": {
+              "form": "Subformulieren/DT-vaccin",
+              "id": "0C5689AB-05E0-48D5-BC0F-8D11F1FDEC18",
+              "sections": [
+                {
+                  "section": "Main",
+                  "fields": [
+                    {
+                      "clazz": "field",
+                      "field": "Vaccin",
+                      "type": "text-field",
+                      "shortLabel": "DT-vaccin",
+                      "grows": true,
+                      "span": 24,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true
+                    }
+                  ]
+                }
+              ]
+            },
+            "Subformulieren/DTP-vaccin": {
+              "form": "Subformulieren/DTP-vaccin",
+              "id": "00A454BF-E20E-4421-B4A8-783A44570505",
+              "sections": [
+                {
+                  "section": "Main",
+                  "fields": [
+                    {
+                      "clazz": "field",
+                      "field": "Vaccin",
+                      "type": "text-field",
+                      "shortLabel": "DTP-vaccin",
+                      "grows": true,
+                      "span": 24,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true
+                    }
+                  ]
+                }
+              ]
+            },
+            "Subformulieren/Vaccin CDT": {
+              "form": "Subformulieren/Vaccin CDT",
+              "id": "1F153126-61B2-4427-83FB-C13832EFE7E2",
+              "sections": [
+                {
+                  "section": "Main",
+                  "fields": [
+                    {
+                      "clazz": "field",
+                      "field": "Vaccin",
+                      "type": "text-field",
+                      "shortLabel": "Vaccin CDT",
+                      "grows": true,
+                      "span": 24,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true
+                    }
+                  ]
+                }
+              ]
+            },
+            "Subformulieren/MMR": {
+              "form": "Subformulieren/MMR",
+              "id": "D55E18D4-E48C-48B5-97E1-EF1B4DBB6FD6",
+              "sections": [
+                {
+                  "section": "Main",
+                  "fields": [
+                    {
+                      "clazz": "field",
+                      "field": "Vaccin",
+                      "type": "text-field",
+                      "shortLabel": "MMR",
+                      "grows": true,
+                      "span": 24,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true
+                    }
+                  ]
+                }
+              ]
+            },
+            "Subformulieren/Vaccin Pneumo7": {
+              "form": "Subformulieren/Vaccin Pneumo7",
+              "id": "566FBCEC-3250-4CF9-9C31-F9D18A3A237C",
+              "sections": [
+                {
+                  "section": "Main",
+                  "fields": [
+                    {
+                      "clazz": "field",
+                      "field": "Vaccin",
+                      "type": "text-field",
+                      "shortLabel": "Vac.pneumo7",
+                      "grows": true,
+                      "span": 24,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true
+                    }
+                  ]
+                }
+              ]
+            },
+            "Subformulieren/Vaccin Pneumo23": {
+              "form": "Subformulieren/Vaccin Pneumo23",
+              "id": "6435B955-F941-4B08-B7AA-42D12A79DE32",
+              "sections": [
+                {
+                  "section": "Main",
+                  "fields": [
+                    {
+                      "clazz": "field",
+                      "field": "Vaccin",
+                      "type": "text-field",
+                      "shortLabel": "Vac.pneumo23",
+                      "grows": true,
+                      "span": 24,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true
+                    }
+                  ]
+                }
+              ]
+            },
+            "Subformulieren/Griepvaccin": {
+              "form": "Subformulieren/Griepvaccin",
+              "id": "86D6DFDC-D42B-4CE7-A7C3-5659815197B7",
+              "sections": [
+                {
+                  "section": "Main",
+                  "fields": [
+                    {
+                      "clazz": "field",
+                      "field": "Vaccin",
+                      "type": "text-field",
+                      "shortLabel": "Griepvaccin",
+                      "grows": true,
+                      "span": 24,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true
+                    }
+                  ]
+                }
+              ]
+            },
+            "Subformulieren/Vaccin Hepa": {
+              "form": "Subformulieren/Vaccin Hepa",
+              "id": "5E3B4BB0-885B-4D8B-B2B1-D1CD5F5217A6",
+              "sections": [
+                {
+                  "section": "Main",
+                  "fields": [
+                    {
+                      "clazz": "field",
+                      "field": "Vaccin",
+                      "type": "text-field",
+                      "shortLabel": "Vaccin Hepa",
+                      "grows": true,
+                      "span": 24,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true
+                    }
+                  ]
+                }
+              ]
+            },
+            "Subformulieren/HepB-vaccin": {
+              "form": "Subformulieren/HepB-vaccin",
+              "id": "76B55BAD-F213-476A-81E0-DF9F5AE915BC",
+              "sections": [
+                {
+                  "section": "Main",
+                  "fields": [
+                    {
+                      "clazz": "field",
+                      "field": "Vaccin",
+                      "type": "text-field",
+                      "shortLabel": "HepB-vaccin",
+                      "grows": true,
+                      "span": 24,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true
+                    }
+                  ]
+                }
+              ]
+            },
+            "Subformulieren/Hepa B vaccin +": {
+              "form": "Subformulieren/Hepa B vaccin +",
+              "id": "8BB995F3-37E4-48A9-9D58-D69A7209C5A3",
+              "sections": [
+                {
+                  "section": "Main",
+                  "fields": [
+                    {
+                      "clazz": "field",
+                      "field": "Vaccin",
+                      "type": "text-field",
+                      "shortLabel": "Hepa B vaccin +",
+                      "grows": true,
+                      "span": 24,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true
+                    }
+                  ]
+                }
+              ]
+            },
+            "Subformulieren/HPV-vaccin": {
+              "form": "Subformulieren/HPV-vaccin",
+              "id": "92BE63CC-7163-40F9-8654-2A73773F0FFC",
+              "sections": [
+                {
+                  "section": "Main",
+                  "fields": [
+                    {
+                      "clazz": "field",
+                      "field": "Vaccin",
+                      "type": "text-field",
+                      "shortLabel": "HPV-vaccin",
+                      "grows": true,
+                      "span": 24,
+                      "readonly": false,
+                      "multiline": false,
+                      "translate": true
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "span": 24,
+          "rowSpan": 1,
+          "labels": {}
+        }
+      ]
+    }
+  ]
+}

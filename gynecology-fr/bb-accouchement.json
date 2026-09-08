@@ -1,0 +1,186 @@
+{
+  "form": "Gynécologie 3.0/BB Accouchement",
+  "id": "B7CF36E5-5E12-4474-B905-EBDE585852D5",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Prénom bébé",
+          "type": "text-field",
+          "shortLabel": "Prénom",
+          "grows": true,
+          "span": 7,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Sexe bébé",
+          "type": "dropdown-field",
+          "shortLabel": "Sexe",
+          "grows": true,
+          "span": 9,
+          "readonly": false,
+          "options": {
+            "LEGACY|masculin|1": "masculin",
+            "LEGACY|féminin|1": "féminin"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Taille bébé",
+          "type": "measure-field",
+          "shortLabel": "Taille",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Percentile taille",
+          "type": "number-field",
+          "shortLabel": "%",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Poids bébé",
+          "type": "measure-field",
+          "shortLabel": "Poids",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Percentile poids",
+          "type": "number-field",
+          "shortLabel": "%",
+          "grows": true,
+          "span": 3,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Percentile poids deuxième trimestre",
+          "type": "number-field",
+          "shortLabel": "%P T2",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Percentile poids troisième trimestre",
+          "type": "number-field",
+          "shortLabel": "%P 3T",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Périmètre crânien Naissance",
+          "type": "measure-field",
+          "shortLabel": "PC",
+          "grows": true,
+          "span": 6,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Percentile Périmètre crânien",
+          "type": "number-field",
+          "shortLabel": "%",
+          "grows": true,
+          "span": 2,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Apgar 1",
+          "type": "number-field",
+          "shortLabel": "Apgar 1",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Apgar 5",
+          "type": "number-field",
+          "shortLabel": "Apgar 5",
+          "grows": true,
+          "span": 5,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Apgar 10",
+          "type": "number-field",
+          "shortLabel": "Apgar 10",
+          "grows": true,
+          "span": 7,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Centre néo natal",
+          "type": "checkbox",
+          "shortLabel": "Néo-nat",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "Néo-nat": "Néo-nat"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Malformations présentes à la naissance",
+          "type": "checkbox",
+          "shortLabel": "Malformations",
+          "grows": true,
+          "span": 4,
+          "readonly": false,
+          "options": {
+            "Malformations": "Malformations"
+          },
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

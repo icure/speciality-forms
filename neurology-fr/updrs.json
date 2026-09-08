@@ -1,0 +1,2668 @@
+{
+  "form": "Neurologie Parkinson/UPDRS",
+  "id": "BE43B8B2-47F4-48DC-B4C1-4083CE144559",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Updrs_1_0",
+          "type": "checkbox",
+          "shortLabel": "0 = Absent",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "0 = Absent": "0 = Absent"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_1_1",
+          "type": "checkbox",
+          "shortLabel": "1 = Léger. Manque de mémoire habituel avec souvenir partiel des événements sans autre difficulté",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "1 = Léger. Manque de mémoire habituel avec souvenir partiel des événements sans autre difficulté": "1 = Léger. Manque de mémoire habituel avec souvenir partiel des événements sans autre difficulté"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_1_2",
+          "type": "checkbox",
+          "shortLabel": "2 = Perte mnésique modérée, avec désorientation et difficultés modérées à faire face à des problèmes complexes. Atteinte légère mais indiscutable de ses capacités fonctionnelles avec besoin d'une incitation occasionnelle de l'entourage",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "2 = Perte mnésique modérée, avec désorientation et difficultés modérées à faire face à des problèmes complexes. Atteinte légère mais indiscutable de ses capacités fonctionnelles avec besoin d'une incitation occasionnelle de l'entourage": "2 = Perte mnésique modérée, avec désorientation et difficultés modérées à faire face à des problèmes complexes. Atteinte légère mais indiscutable de ses capacités fonctionnelles avec besoin d'une incitation occasionnelle de l'entourage"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_1_3",
+          "type": "checkbox",
+          "shortLabel": "3 = Déficit mnésique grave avec désorientation dans le temps et souvent dans l'espace. Handicap grave face aux problèmes",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "3 = Déficit mnésique grave avec désorientation dans le temps et souvent dans l'espace. Handicap grave face aux problèmes": "3 = Déficit mnésique grave avec désorientation dans le temps et souvent dans l'espace. Handicap grave face aux problèmes"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_1_4",
+          "type": "checkbox",
+          "shortLabel": "4 = Perte mnésique sévère avec uniquement conservation de sa propre orientation. Incapable de porter des jugements ou de résoudre des problèmes, demande beaucoup d'aide pour les soins personnels, ne peut plus être seul",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "4 = Perte mnésique sévère avec uniquement conservation de sa propre orientation. Incapable de porter des jugements ou de résoudre des problèmes, demande beaucoup d'aide pour les soins personnels, ne peut plus être seul": "4 = Perte mnésique sévère avec uniquement conservation de sa propre orientation. Incapable de porter des jugements ou de résoudre des problèmes, demande beaucoup d'aide pour les soins personnels, ne peut plus être seul"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_2_0",
+          "type": "checkbox",
+          "shortLabel": "0 = Aucun",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "0 = Aucun": "0 = Aucun"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_2_1",
+          "type": "checkbox",
+          "shortLabel": "1 = Rêves animés",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "1 = Rêves animés": "1 = Rêves animés"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_2_2",
+          "type": "checkbox",
+          "shortLabel": "2 = Hallucinations bénignes critiquées",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "2 = Hallucinations bénignes critiquées": "2 = Hallucinations bénignes critiquées"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_2_3",
+          "type": "checkbox",
+          "shortLabel": "3 = Hallucinations occasionnelles ou fréquentes ou idées délirantes non critiquées : peuvent gêner les activités quotidiennes",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "3 = Hallucinations occasionnelles ou fréquentes ou idées délirantes non critiquées : peuvent gêner les activités quotidiennes": "3 = Hallucinations occasionnelles ou fréquentes ou idées délirantes non critiquées : peuvent gêner les activités quotidiennes"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_2_4",
+          "type": "checkbox",
+          "shortLabel": "4 = Hallucinations continuelles. Idées délirantes ou psychose expansive : incapable de prendre soin de lui-même",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "4 = Hallucinations continuelles. Idées délirantes ou psychose expansive : incapable de prendre soin de lui-même": "4 = Hallucinations continuelles. Idées délirantes ou psychose expansive : incapable de prendre soin de lui-même"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_3_0",
+          "type": "checkbox",
+          "shortLabel": "0 = Absente",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "0 = Absente": "0 = Absente"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_3_1",
+          "type": "checkbox",
+          "shortLabel": "1 = Périodes de tristesse ou sentiment de culpabilité excessif ne persistant pas plusieurs jours ou semaines",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "1 = Périodes de tristesse ou sentiment de culpabilité excessif ne persistant pas plusieurs jours ou semaines": "1 = Périodes de tristesse ou sentiment de culpabilité excessif ne persistant pas plusieurs jours ou semaines"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_3_2",
+          "type": "checkbox",
+          "shortLabel": "2 = Dépression durable (une semaine ou plus)",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "2 = Dépression durable (une semaine ou plus)": "2 = Dépression durable (une semaine ou plus)"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_3_3",
+          "type": "checkbox",
+          "shortLabel": "3 = Dépression durable avec symptômes végétatifs (insomnie, anorexie, pertes de poids, perte d'intérêt)",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "3 = Dépression durable avec symptômes végétatifs (insomnie, anorexie, pertes de poids, perte d'intérêt)": "3 = Dépression durable avec symptômes végétatifs (insomnie, anorexie, pertes de poids, perte d'intérêt)"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_3_4",
+          "type": "checkbox",
+          "shortLabel": "4 = Dépression durable avec symptômes végétatifs et pensées ou intentions suicidaires",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "4 = Dépression durable avec symptômes végétatifs et pensées ou intentions suicidaires": "4 = Dépression durable avec symptômes végétatifs et pensées ou intentions suicidaires"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_4_0",
+          "type": "checkbox",
+          "shortLabel": "0 = Normale",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "0 = Normale": "0 = Normale"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_4_1",
+          "type": "checkbox",
+          "shortLabel": "1 = Moins franche qu'à l'habitude : plus passif",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "1 = Moins franche qu'à l'habitude : plus passif": "1 = Moins franche qu'à l'habitude : plus passif"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_4_2",
+          "type": "checkbox",
+          "shortLabel": "2 = Perte d'initiative avec désintérêt pour certaines activités non routinières",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "2 = Perte d'initiative avec désintérêt pour certaines activités non routinières": "2 = Perte d'initiative avec désintérêt pour certaines activités non routinières"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_4_3",
+          "type": "checkbox",
+          "shortLabel": "3 = Perte d'initiative ou désintérêt dans les activités quotidiennes routinières",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "3 = Perte d'initiative ou désintérêt dans les activités quotidiennes routinières": "3 = Perte d'initiative ou désintérêt dans les activités quotidiennes routinières"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_4_4",
+          "type": "checkbox",
+          "shortLabel": "4 = Absence d'initiative, perte totale d'intérêt",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "4 = Absence d'initiative, perte totale d'intérêt": "4 = Absence d'initiative, perte totale d'intérêt"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_5_0",
+          "type": "checkbox",
+          "shortLabel": "0 = Normale",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "0 = Normale": "0 = Normale"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_5_1",
+          "type": "checkbox",
+          "shortLabel": "1 = Légèrement perturbée, pas de difficulté à être compris",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "1 = Légèrement perturbée, pas de difficulté à être compris": "1 = Légèrement perturbée, pas de difficulté à être compris"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_5_2",
+          "type": "checkbox",
+          "shortLabel": "2 = Modérément perturbée. On doit occasionnellement lui demander de répéter",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "2 = Modérément perturbée. On doit occasionnellement lui demander de répéter": "2 = Modérément perturbée. On doit occasionnellement lui demander de répéter"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_5_3",
+          "type": "checkbox",
+          "shortLabel": "3 = Gravement perturbée. On doit lui demander fréquemment de répéter",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "3 = Gravement perturbée. On doit lui demander fréquemment de répéter": "3 = Gravement perturbée. On doit lui demander fréquemment de répéter"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_5_4",
+          "type": "checkbox",
+          "shortLabel": "4 = Incompréhensible la plupart du temps",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "4 = Incompréhensible la plupart du temps": "4 = Incompréhensible la plupart du temps"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_6_0",
+          "type": "checkbox",
+          "shortLabel": "0 = Normale",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "0 = Normale": "0 = Normale"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_6_1",
+          "type": "checkbox",
+          "shortLabel": "1 = Légère, mais excès habituel de salive dans la bouche, peut baver pendant la nuit",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "1 = Légère, mais excès habituel de salive dans la bouche, peut baver pendant la nuit": "1 = Légère, mais excès habituel de salive dans la bouche, peut baver pendant la nuit"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_6_2",
+          "type": "checkbox",
+          "shortLabel": "2 = Hypersialorrhée modérée. Peut baver pendant la nuit",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "2 = Hypersialorrhée modérée. Peut baver pendant la nuit": "2 = Hypersialorrhée modérée. Peut baver pendant la nuit"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_6_3",
+          "type": "checkbox",
+          "shortLabel": "3 = Hypersialorrhée nette avec un peu de bave",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "3 = Hypersialorrhée nette avec un peu de bave": "3 = Hypersialorrhée nette avec un peu de bave"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_6_4",
+          "type": "checkbox",
+          "shortLabel": "4 = Écoulement habituel de bave nécessitant en permanence un mouchoir",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "4 = Écoulement habituel de bave nécessitant en permanence un mouchoir": "4 = Écoulement habituel de bave nécessitant en permanence un mouchoir"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_7_0",
+          "type": "checkbox",
+          "shortLabel": "0 = Normale",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "0 = Normale": "0 = Normale"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_7_1",
+          "type": "checkbox",
+          "shortLabel": "1 = S'étrangle rarement",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "1 = S'étrangle rarement": "1 = S'étrangle rarement"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_7_2",
+          "type": "checkbox",
+          "shortLabel": "2 = S'étrangle occasionnellement",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "2 = S'étrangle occasionnellement": "2 = S'étrangle occasionnellement"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_7_3",
+          "type": "checkbox",
+          "shortLabel": "3 = Nécessite une alimentation semi-liquide",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "3 = Nécessite une alimentation semi-liquide": "3 = Nécessite une alimentation semi-liquide"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_7_4",
+          "type": "checkbox",
+          "shortLabel": "4 = Nécessite une alimentation par sonde gastrique ou une gastrostomie",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "4 = Nécessite une alimentation par sonde gastrique ou une gastrostomie": "4 = Nécessite une alimentation par sonde gastrique ou une gastrostomie"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_8_0",
+          "type": "checkbox",
+          "shortLabel": "0 = Normale",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "0 = Normale": "0 = Normale"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_8_1",
+          "type": "checkbox",
+          "shortLabel": "1 = Légèrement ralentie ou micrographique",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "1 = Légèrement ralentie ou micrographique": "1 = Légèrement ralentie ou micrographique"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_8_2",
+          "type": "checkbox",
+          "shortLabel": "2 = Nettement ralentie ou micrographique, tous les mots sont lisibles",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "2 = Nettement ralentie ou micrographique, tous les mots sont lisibles": "2 = Nettement ralentie ou micrographique, tous les mots sont lisibles"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_8_3",
+          "type": "checkbox",
+          "shortLabel": "3 = Gravement perturbée : tous les mots ne sont pas lisibles",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "3 = Gravement perturbée : tous les mots ne sont pas lisibles": "3 = Gravement perturbée : tous les mots ne sont pas lisibles"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_8_4",
+          "type": "checkbox",
+          "shortLabel": "4 = La majorité des mots est illisible",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "4 = La majorité des mots est illisible": "4 = La majorité des mots est illisible"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_9_0",
+          "type": "checkbox",
+          "shortLabel": "0 = Normale",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "0 = Normale": "0 = Normale"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_9_1",
+          "type": "checkbox",
+          "shortLabel": "1 = Un peu lent et maladroit, mais n'a pas besoin d'être aidé",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "1 = Un peu lent et maladroit, mais n'a pas besoin d'être aidé": "1 = Un peu lent et maladroit, mais n'a pas besoin d'être aidé"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_9_2",
+          "type": "checkbox",
+          "shortLabel": "2 = Pour la plupart des aliments, peut se débrouiller seul quoique maladroit et lent",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "2 = Pour la plupart des aliments, peut se débrouiller seul quoique maladroit et lent": "2 = Pour la plupart des aliments, peut se débrouiller seul quoique maladroit et lent"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_9_3",
+          "type": "checkbox",
+          "shortLabel": "3 = A besoin d'une aide pour les repas, mais peut encore s'alimenter lentement",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "3 = A besoin d'une aide pour les repas, mais peut encore s'alimenter lentement": "3 = A besoin d'une aide pour les repas, mais peut encore s'alimenter lentement"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_9_4",
+          "type": "checkbox",
+          "shortLabel": "4 = On doit lui donner à manger",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "4 = On doit lui donner à manger": "4 = On doit lui donner à manger"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_10_0",
+          "type": "checkbox",
+          "shortLabel": "0 = Normal",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "0 = Normal": "0 = Normal"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_10_1",
+          "type": "checkbox",
+          "shortLabel": "1 = Un peu lent, mais ne doit pas être aidé",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "1 = Un peu lent, mais ne doit pas être aidé": "1 = Un peu lent, mais ne doit pas être aidé"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_10_2",
+          "type": "checkbox",
+          "shortLabel": "2 = Aide occasionnelle pour boutonner, enfiler une manche",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "2 = Aide occasionnelle pour boutonner, enfiler une manche": "2 = Aide occasionnelle pour boutonner, enfiler une manche"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_10_3",
+          "type": "checkbox",
+          "shortLabel": "3 = A besoin d'être aidé, mais peut encore faire certaines choses seul",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "3 = A besoin d'être aidé, mais peut encore faire certaines choses seul": "3 = A besoin d'être aidé, mais peut encore faire certaines choses seul"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_10_4",
+          "type": "checkbox",
+          "shortLabel": "4 = Totalement dépendant",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "4 = Totalement dépendant": "4 = Totalement dépendant"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_11_0",
+          "type": "checkbox",
+          "shortLabel": "0 = Normale",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "0 = Normale": "0 = Normale"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_11_1",
+          "type": "checkbox",
+          "shortLabel": "1 = Un peu lent, mais n'a pas besoin d`être aidé",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "1 = Un peu lent, mais n'a pas besoin d`être aidé": "1 = Un peu lent, mais n'a pas besoin d`être aidé"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_11_2",
+          "type": "checkbox",
+          "shortLabel": "2 = Nécessite une aide pour la douche et le bain, ou très lent dans les soins hygiéniques",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "2 = Nécessite une aide pour la douche et le bain, ou très lent dans les soins hygiéniques": "2 = Nécessite une aide pour la douche et le bain, ou très lent dans les soins hygiéniques"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_11_3",
+          "type": "checkbox",
+          "shortLabel": "3 = Nécessite une aide pour se laver, se brosser les dents, se coiffer et se baigner",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "3 = Nécessite une aide pour se laver, se brosser les dents, se coiffer et se baigner": "3 = Nécessite une aide pour se laver, se brosser les dents, se coiffer et se baigner"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_11_4",
+          "type": "checkbox",
+          "shortLabel": "4 = Sonde urinaire ou autres aides mécaniques",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "4 = Sonde urinaire ou autres aides mécaniques": "4 = Sonde urinaire ou autres aides mécaniques"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_12_0",
+          "type": "checkbox",
+          "shortLabel": "0 = Normal",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "0 = Normal": "0 = Normal"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_12_1",
+          "type": "checkbox",
+          "shortLabel": "1 = Un peu lent et maladroit, mais n'a pas besoin d'être aidé",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "1 = Un peu lent et maladroit, mais n'a pas besoin d'être aidé": "1 = Un peu lent et maladroit, mais n'a pas besoin d'être aidé"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_12_2",
+          "type": "checkbox",
+          "shortLabel": "2 = Peut se retourner seul ou arranger les draps mais avec une grande difficulté",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "2 = Peut se retourner seul ou arranger les draps mais avec une grande difficulté": "2 = Peut se retourner seul ou arranger les draps mais avec une grande difficulté"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_12_3",
+          "type": "checkbox",
+          "shortLabel": "3 = Peut commencer le geste mais n'arrive pas à se retourner ou arranger les draps seul",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "3 = Peut commencer le geste mais n'arrive pas à se retourner ou arranger les draps seul": "3 = Peut commencer le geste mais n'arrive pas à se retourner ou arranger les draps seul"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_12_4",
+          "type": "checkbox",
+          "shortLabel": "4 = Dépendant",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "4 = Dépendant": "4 = Dépendant"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_13_0",
+          "type": "checkbox",
+          "shortLabel": "0 = Aucune",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "0 = Aucune": "0 = Aucune"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_13_1",
+          "type": "checkbox",
+          "shortLabel": "1 = Chutes rares",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "1 = Chutes rares": "1 = Chutes rares"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_13_2",
+          "type": "checkbox",
+          "shortLabel": "2 = Chutes occasionnelles, mais moins d'une fois par jour",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "2 = Chutes occasionnelles, mais moins d'une fois par jour": "2 = Chutes occasionnelles, mais moins d'une fois par jour"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_13_3",
+          "type": "checkbox",
+          "shortLabel": "3 = En moyenne, une chute par jour",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "3 = En moyenne, une chute par jour": "3 = En moyenne, une chute par jour"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_13_4",
+          "type": "checkbox",
+          "shortLabel": "4 = Chutes pluri-quotidiennes",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "4 = Chutes pluri-quotidiennes": "4 = Chutes pluri-quotidiennes"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_14_0",
+          "type": "checkbox",
+          "shortLabel": "0 = Aucun",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "0 = Aucun": "0 = Aucun"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_14_1",
+          "type": "checkbox",
+          "shortLabel": "1 = Rare piétinement lors de la marche, peut avoir une hésitation au départ",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "1 = Rare piétinement lors de la marche, peut avoir une hésitation au départ": "1 = Rare piétinement lors de la marche, peut avoir une hésitation au départ"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_14_2",
+          "type": "checkbox",
+          "shortLabel": "2 = Piétinement occasionnel lors de la marche",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "2 = Piétinement occasionnel lors de la marche": "2 = Piétinement occasionnel lors de la marche"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_14_3",
+          "type": "checkbox",
+          "shortLabel": "3 = Piétinement fréquent entraînant occasionnellement des chutes",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "3 = Piétinement fréquent entraînant occasionnellement des chutes": "3 = Piétinement fréquent entraînant occasionnellement des chutes"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_14_4",
+          "type": "checkbox",
+          "shortLabel": "4 = Chutes fréquentes dues aux piétinements",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "4 = Chutes fréquentes dues aux piétinements": "4 = Chutes fréquentes dues aux piétinements"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_15_0",
+          "type": "checkbox",
+          "shortLabel": "0 = Normale",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "0 = Normale": "0 = Normale"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_15_1",
+          "type": "checkbox",
+          "shortLabel": "1 = Difficultés légères, mais peut balancer les bras ou traîner les pieds",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "1 = Difficultés légères, mais peut balancer les bras ou traîner les pieds": "1 = Difficultés légères, mais peut balancer les bras ou traîner les pieds"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_15_2",
+          "type": "checkbox",
+          "shortLabel": "2 = Difficultés modérées mais ne demande que peu ou pas d'aide",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "2 = Difficultés modérées mais ne demande que peu ou pas d'aide": "2 = Difficultés modérées mais ne demande que peu ou pas d'aide"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_15_3",
+          "type": "checkbox",
+          "shortLabel": "3 = Difficultés importantes à la marche nécessitant une aide",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "3 = Difficultés importantes à la marche nécessitant une aide": "3 = Difficultés importantes à la marche nécessitant une aide"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_15_4",
+          "type": "checkbox",
+          "shortLabel": "4 = Ne peut pas marcher du tout, même avec une aide",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "4 = Ne peut pas marcher du tout, même avec une aide": "4 = Ne peut pas marcher du tout, même avec une aide"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_16_0",
+          "type": "checkbox",
+          "shortLabel": "0 = Absent",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "0 = Absent": "0 = Absent"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_16_1",
+          "type": "checkbox",
+          "shortLabel": "1 = Léger et rarement présent",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "1 = Léger et rarement présent": "1 = Léger et rarement présent"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_16_2",
+          "type": "checkbox",
+          "shortLabel": "2 = Modéré, gênant le patient",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "2 = Modéré, gênant le patient": "2 = Modéré, gênant le patient"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_16_3",
+          "type": "checkbox",
+          "shortLabel": "3 = Important, gêne certaines activités",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "3 = Important, gêne certaines activités": "3 = Important, gêne certaines activités"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_16_4",
+          "type": "checkbox",
+          "shortLabel": "4 = Marqué, gêne la plupart des activités",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "4 = Marqué, gêne la plupart des activités": "4 = Marqué, gêne la plupart des activités"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_17_0",
+          "type": "checkbox",
+          "shortLabel": "0 = Aucun",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "0 = Aucun": "0 = Aucun"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_17_1",
+          "type": "checkbox",
+          "shortLabel": "1 = Occasionnellement engourdissements, picotements ou douleurs légères",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "1 = Occasionnellement engourdissements, picotements ou douleurs légères": "1 = Occasionnellement engourdissements, picotements ou douleurs légères"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_17_2",
+          "type": "checkbox",
+          "shortLabel": "2 = Engourdissements, picotements ou douleurs fréquentes : pas gênant",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "2 = Engourdissements, picotements ou douleurs fréquentes : pas gênant": "2 = Engourdissements, picotements ou douleurs fréquentes : pas gênant"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_17_3",
+          "type": "checkbox",
+          "shortLabel": "3 = Sensations douloureuses fréquentes",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "3 = Sensations douloureuses fréquentes": "3 = Sensations douloureuses fréquentes"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_17_4",
+          "type": "checkbox",
+          "shortLabel": "4 = Douleurs très vives",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "4 = Douleurs très vives": "4 = Douleurs très vives"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_18_0",
+          "type": "checkbox",
+          "shortLabel": "0 = Normale",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "0 = Normale": "0 = Normale"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_18_1",
+          "type": "checkbox",
+          "shortLabel": "1 = Légère perte d'expression, de la diction et/ou du volume vocal",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "1 = Légère perte d'expression, de la diction et/ou du volume vocal": "1 = Légère perte d'expression, de la diction et/ou du volume vocal"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_18_2",
+          "type": "checkbox",
+          "shortLabel": "2 = Voix monotone, bredouillée mais compréhensible, altération modérée",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "2 = Voix monotone, bredouillée mais compréhensible, altération modérée": "2 = Voix monotone, bredouillée mais compréhensible, altération modérée"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_18_3",
+          "type": "checkbox",
+          "shortLabel": "3 = Altération marquée, difficile à comprendre",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "3 = Altération marquée, difficile à comprendre": "3 = Altération marquée, difficile à comprendre"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_18_4",
+          "type": "checkbox",
+          "shortLabel": "4 = Incompréhensible",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "4 = Incompréhensible": "4 = Incompréhensible"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_19_0",
+          "type": "checkbox",
+          "shortLabel": "0 = Normale",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "0 = Normale": "0 = Normale"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_19_1",
+          "type": "checkbox",
+          "shortLabel": "1 = Hypomimie légère, semble avoir un visage normalement impassible",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "1 = Hypomimie légère, semble avoir un visage normalement impassible": "1 = Hypomimie légère, semble avoir un visage normalement impassible"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_19_2",
+          "type": "checkbox",
+          "shortLabel": "2 = Diminution légère mais franchement anormale de l'expression faciale",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "2 = Diminution légère mais franchement anormale de l'expression faciale": "2 = Diminution légère mais franchement anormale de l'expression faciale"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_19_3",
+          "type": "checkbox",
+          "shortLabel": "3 = Hypomimie modérée : lèvres souvent entrouvertes",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "3 = Hypomimie modérée : lèvres souvent entrouvertes": "3 = Hypomimie modérée : lèvres souvent entrouvertes"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_19_4",
+          "type": "checkbox",
+          "shortLabel": "4 = Masque facial ou faciès figé avec perte importante ou totale de l'expression faciale : lèvres entrouvertes (0,6 cm ou plus)",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "4 = Masque facial ou faciès figé avec perte importante ou totale de l'expression faciale : lèvres entrouvertes (0,6 cm ou plus)": "4 = Masque facial ou faciès figé avec perte importante ou totale de l'expression faciale : lèvres entrouvertes (0,6 cm ou plus)"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_20_0",
+          "type": "checkbox",
+          "shortLabel": "0 = Absent",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "0 = Absent": "0 = Absent"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_20_1",
+          "type": "checkbox",
+          "shortLabel": "1 = Léger et rarement présent",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "1 = Léger et rarement présent": "1 = Léger et rarement présent"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_20_2",
+          "type": "checkbox",
+          "shortLabel": "2 = Tremblement de faible amplitude mais persistant, ou d'amplitude modérée, mais présent seulement de façon intermittente",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "2 = Tremblement de faible amplitude mais persistant, ou d'amplitude modérée, mais présent seulement de façon intermittente": "2 = Tremblement de faible amplitude mais persistant, ou d'amplitude modérée, mais présent seulement de façon intermittente"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_20_3",
+          "type": "checkbox",
+          "shortLabel": "3 = Tremblement modéré en amplitude et présent la plupart du temps",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "3 = Tremblement modéré en amplitude et présent la plupart du temps": "3 = Tremblement modéré en amplitude et présent la plupart du temps"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_20_4",
+          "type": "checkbox",
+          "shortLabel": "4 = Tremblement d'amplitude marquée et présent la plupart du temps",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "4 = Tremblement d'amplitude marquée et présent la plupart du temps": "4 = Tremblement d'amplitude marquée et présent la plupart du temps"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_21_0",
+          "type": "checkbox",
+          "shortLabel": "0 = Absent",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "0 = Absent": "0 = Absent"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_21_1",
+          "type": "checkbox",
+          "shortLabel": "1 = Léger, présent lors de l'action",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "1 = Léger, présent lors de l'action": "1 = Léger, présent lors de l'action"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_21_2",
+          "type": "checkbox",
+          "shortLabel": "2 = Modéré en amplitude, présent lors de l'action",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "2 = Modéré en amplitude, présent lors de l'action": "2 = Modéré en amplitude, présent lors de l'action"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_21_3",
+          "type": "checkbox",
+          "shortLabel": "3 = Modéré en amplitude, tant lors du maintien postural que lors de l'action",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "3 = Modéré en amplitude, tant lors du maintien postural que lors de l'action": "3 = Modéré en amplitude, tant lors du maintien postural que lors de l'action"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_21_4",
+          "type": "checkbox",
+          "shortLabel": "4 = Amplitude marquée, gêne l'alimentation",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "4 = Amplitude marquée, gêne l'alimentation": "4 = Amplitude marquée, gêne l'alimentation"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_22_0",
+          "type": "checkbox",
+          "shortLabel": "0 = Absente",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "0 = Absente": "0 = Absente"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_22_1",
+          "type": "checkbox",
+          "shortLabel": "1 = Minime ou apparaissant lors des manoeuvres de sensibilisation",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "1 = Minime ou apparaissant lors des manoeuvres de sensibilisation": "1 = Minime ou apparaissant lors des manoeuvres de sensibilisation"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_22_2",
+          "type": "checkbox",
+          "shortLabel": "2 = Légère ou modérée",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "2 = Légère ou modérée": "2 = Légère ou modérée"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_22_3",
+          "type": "checkbox",
+          "shortLabel": "3 = Marquée, mais la plupart des mouvements peuvent être effectués aisément.",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "3 = Marquée, mais la plupart des mouvements peuvent être effectués aisément.": "3 = Marquée, mais la plupart des mouvements peuvent être effectués aisément."
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_22_4",
+          "type": "checkbox",
+          "shortLabel": "4 = Sévère, les mouvements sont effectués difficilement",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "4 = Sévère, les mouvements sont effectués difficilement": "4 = Sévère, les mouvements sont effectués difficilement"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_23_0",
+          "type": "checkbox",
+          "shortLabel": "0 = Normal",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "0 = Normal": "0 = Normal"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_23_1",
+          "type": "checkbox",
+          "shortLabel": "1 = Ralentissement léger et/ou réduction d'amplitude",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "1 = Ralentissement léger et/ou réduction d'amplitude": "1 = Ralentissement léger et/ou réduction d'amplitude"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_23_2",
+          "type": "checkbox",
+          "shortLabel": "2 = Modérément perturbé, se fatigue nettement et rapidement, peut avoir d'occasionnels arrêts du mouvement",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "2 = Modérément perturbé, se fatigue nettement et rapidement, peut avoir d'occasionnels arrêts du mouvement": "2 = Modérément perturbé, se fatigue nettement et rapidement, peut avoir d'occasionnels arrêts du mouvement"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_23_3",
+          "type": "checkbox",
+          "shortLabel": "3 = Sévèrement perturbé. Hésitations fréquentes au démarrage du mouvement",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "3 = Sévèrement perturbé. Hésitations fréquentes au démarrage du mouvement": "3 = Sévèrement perturbé. Hésitations fréquentes au démarrage du mouvement"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_23_4",
+          "type": "checkbox",
+          "shortLabel": "4 = Peut à peine effectuer le mouvement",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "4 = Peut à peine effectuer le mouvement": "4 = Peut à peine effectuer le mouvement"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_24_0",
+          "type": "checkbox",
+          "shortLabel": "0 = Normal",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "0 = Normal": "0 = Normal"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_24_1",
+          "type": "checkbox",
+          "shortLabel": "1 = Ralentissement léger et/ou réduction d'amplitude",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "1 = Ralentissement léger et/ou réduction d'amplitude": "1 = Ralentissement léger et/ou réduction d'amplitude"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_24_2",
+          "type": "checkbox",
+          "shortLabel": "2 = Modérément perturbé, se fatigue nettement et rapidement, peut avoir d'occasionnels arrêts du mouvement",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "2 = Modérément perturbé, se fatigue nettement et rapidement, peut avoir d'occasionnels arrêts du mouvement": "2 = Modérément perturbé, se fatigue nettement et rapidement, peut avoir d'occasionnels arrêts du mouvement"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_24_3",
+          "type": "checkbox",
+          "shortLabel": "3 = Sévèrement perturbé. Hésitations fréquentes au début du mouvement ou arrêt en cours de mouvement",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "3 = Sévèrement perturbé. Hésitations fréquentes au début du mouvement ou arrêt en cours de mouvement": "3 = Sévèrement perturbé. Hésitations fréquentes au début du mouvement ou arrêt en cours de mouvement"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_24_4",
+          "type": "checkbox",
+          "shortLabel": "4 = Peut à peine effectuer la tâche",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "4 = Peut à peine effectuer la tâche": "4 = Peut à peine effectuer la tâche"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_25_0",
+          "type": "checkbox",
+          "shortLabel": "0 = Normaux",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "0 = Normaux": "0 = Normaux"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_25_1",
+          "type": "checkbox",
+          "shortLabel": "1 = Ralentissement léger et/ou réduction d'amplitude",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "1 = Ralentissement léger et/ou réduction d'amplitude": "1 = Ralentissement léger et/ou réduction d'amplitude"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_25_2",
+          "type": "checkbox",
+          "shortLabel": "2 = Modérément perturbé, se fatigue nettement et rapidement, peut avoir d'occasionnels arrêts du mouvement",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "2 = Modérément perturbé, se fatigue nettement et rapidement, peut avoir d'occasionnels arrêts du mouvement": "2 = Modérément perturbé, se fatigue nettement et rapidement, peut avoir d'occasionnels arrêts du mouvement"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_25_3",
+          "type": "checkbox",
+          "shortLabel": "3 = Sévèrement perturbé. Hésitations fréquentes au début du mouvement ou arrêt en cours de mouvement",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "3 = Sévèrement perturbé. Hésitations fréquentes au début du mouvement ou arrêt en cours de mouvement": "3 = Sévèrement perturbé. Hésitations fréquentes au début du mouvement ou arrêt en cours de mouvement"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_25_4",
+          "type": "checkbox",
+          "shortLabel": "4 = Peut à peine effectuer la tâche",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "4 = Peut à peine effectuer la tâche": "4 = Peut à peine effectuer la tâche"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_26_0",
+          "type": "checkbox",
+          "shortLabel": "0 = Normaux",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "0 = Normaux": "0 = Normaux"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_26_1",
+          "type": "checkbox",
+          "shortLabel": "1 = Ralentissement léger et/ou réduction d'amplitude",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "1 = Ralentissement léger et/ou réduction d'amplitude": "1 = Ralentissement léger et/ou réduction d'amplitude"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_26_2",
+          "type": "checkbox",
+          "shortLabel": "2 = Modérément perturbé, se fatigue nettement et rapidement, peut avoir d'occasionnels arrêts du mouvement",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "2 = Modérément perturbé, se fatigue nettement et rapidement, peut avoir d'occasionnels arrêts du mouvement": "2 = Modérément perturbé, se fatigue nettement et rapidement, peut avoir d'occasionnels arrêts du mouvement"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_26_3",
+          "type": "checkbox",
+          "shortLabel": "3 = Sévèrement perturbé. Hésitations fréquentes au début du mouvement ou arrêt en cours de mouvement",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "3 = Sévèrement perturbé. Hésitations fréquentes au début du mouvement ou arrêt en cours de mouvement": "3 = Sévèrement perturbé. Hésitations fréquentes au début du mouvement ou arrêt en cours de mouvement"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_26_4",
+          "type": "checkbox",
+          "shortLabel": "4 = Peut à peine effectuer la tâche",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "4 = Peut à peine effectuer la tâche": "4 = Peut à peine effectuer la tâche"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_27_0",
+          "type": "checkbox",
+          "shortLabel": "0 = Normal",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "0 = Normal": "0 = Normal"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_27_1",
+          "type": "checkbox",
+          "shortLabel": "1 = Lentement ou a besoin de plus d'un essai",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "1 = Lentement ou a besoin de plus d'un essai": "1 = Lentement ou a besoin de plus d'un essai"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_27_2",
+          "type": "checkbox",
+          "shortLabel": "2 = Pousse sur les bras du siège",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "2 = Pousse sur les bras du siège": "2 = Pousse sur les bras du siège"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_27_3",
+          "type": "checkbox",
+          "shortLabel": "3 = Tend à tomber en arrière et doit essayer plus d'une fois mais peut se lever sans aide",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "3 = Tend à tomber en arrière et doit essayer plus d'une fois mais peut se lever sans aide": "3 = Tend à tomber en arrière et doit essayer plus d'une fois mais peut se lever sans aide"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_27_4",
+          "type": "checkbox",
+          "shortLabel": "4 = Incapable de se lever sans aide",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "4 = Incapable de se lever sans aide": "4 = Incapable de se lever sans aide"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_28_0",
+          "type": "checkbox",
+          "shortLabel": "0 = Normalement droite",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "0 = Normalement droite": "0 = Normalement droite"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_28_1",
+          "type": "checkbox",
+          "shortLabel": "1 = Pas tout à fait droite, posture légèrement fléchie : cette attitude peut être normale pour une personne plus âgée",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "1 = Pas tout à fait droite, posture légèrement fléchie : cette attitude peut être normale pour une personne plus âgée": "1 = Pas tout à fait droite, posture légèrement fléchie : cette attitude peut être normale pour une personne plus âgée"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_28_2",
+          "type": "checkbox",
+          "shortLabel": "2 = Posture modérément fléchie, nettement anormale : peut être légèrement penchée d'un côté",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "2 = Posture modérément fléchie, nettement anormale : peut être légèrement penchée d'un côté": "2 = Posture modérément fléchie, nettement anormale : peut être légèrement penchée d'un côté"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_28_3",
+          "type": "checkbox",
+          "shortLabel": "3 = Posture sévèrement fléchie avec cyphose : peut être modérément penché d'un côté",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "3 = Posture sévèrement fléchie avec cyphose : peut être modérément penché d'un côté": "3 = Posture sévèrement fléchie avec cyphose : peut être modérément penché d'un côté"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_28_4",
+          "type": "checkbox",
+          "shortLabel": "4 = Flexion marquée avec posture très anormale",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "4 = Flexion marquée avec posture très anormale": "4 = Flexion marquée avec posture très anormale"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_29_0",
+          "type": "checkbox",
+          "shortLabel": "0 = Normale",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "0 = Normale": "0 = Normale"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_29_1",
+          "type": "checkbox",
+          "shortLabel": "1 = Gesticulations mais se rétablit à l'équilibre sans aide",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "1 = Gesticulations mais se rétablit à l'équilibre sans aide": "1 = Gesticulations mais se rétablit à l'équilibre sans aide"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_29_2",
+          "type": "checkbox",
+          "shortLabel": "2 = Absence de réponse posturale : peut tomber s'il n'est pas retenu par l'examinateur",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "2 = Absence de réponse posturale : peut tomber s'il n'est pas retenu par l'examinateur": "2 = Absence de réponse posturale : peut tomber s'il n'est pas retenu par l'examinateur"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_29_3",
+          "type": "checkbox",
+          "shortLabel": "3 = Très instable, tend à perdre l'équilibre spontanément",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "3 = Très instable, tend à perdre l'équilibre spontanément": "3 = Très instable, tend à perdre l'équilibre spontanément"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_29_4",
+          "type": "checkbox",
+          "shortLabel": "4 = Incapable de se tenir debout sans aide",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "4 = Incapable de se tenir debout sans aide": "4 = Incapable de se tenir debout sans aide"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_30_0",
+          "type": "checkbox",
+          "shortLabel": "0 = Normale",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "0 = Normale": "0 = Normale"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_30_1",
+          "type": "checkbox",
+          "shortLabel": "1 = Marche lentement, mais traîne les pieds et fait de petits pas, mais sans festinations, ni propulsions possibles",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "1 = Marche lentement, mais traîne les pieds et fait de petits pas, mais sans festinations, ni propulsions possibles": "1 = Marche lentement, mais traîne les pieds et fait de petits pas, mais sans festinations, ni propulsions possibles"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_30_2",
+          "type": "checkbox",
+          "shortLabel": "2 = Marche avec difficulté, mais nécessite peu ou pas d'aide : festination, petits pas ou propulsions possibles",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "2 = Marche avec difficulté, mais nécessite peu ou pas d'aide : festination, petits pas ou propulsions possibles": "2 = Marche avec difficulté, mais nécessite peu ou pas d'aide : festination, petits pas ou propulsions possibles"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_30_3",
+          "type": "checkbox",
+          "shortLabel": "3 = Perturbation sévère de la marche, nécessitant une aide",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "3 = Perturbation sévère de la marche, nécessitant une aide": "3 = Perturbation sévère de la marche, nécessitant une aide"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_30_4",
+          "type": "checkbox",
+          "shortLabel": "4 = Ne peut pas marcher du tout, même avec aide",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "4 = Ne peut pas marcher du tout, même avec aide": "4 = Ne peut pas marcher du tout, même avec aide"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_31_0",
+          "type": "checkbox",
+          "shortLabel": "0 = Aucune",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "0 = Aucune": "0 = Aucune"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_31_1",
+          "type": "checkbox",
+          "shortLabel": "1 = Lenteur minime, donnant aux mouvements un caractère délibéré, pourrait être normal pour certaines personnes. Possibilité d'une réduction d'amplitude",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "1 = Lenteur minime, donnant aux mouvements un caractère délibéré, pourrait être normal pour certaines personnes. Possibilité d'une réduction d'amplitude": "1 = Lenteur minime, donnant aux mouvements un caractère délibéré, pourrait être normal pour certaines personnes. Possibilité d'une réduction d'amplitude"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_31_2",
+          "type": "checkbox",
+          "shortLabel": "2 = Degré léger de lenteur et de pauvreté du mouvement qui est nettement anormal. De plus, il existe une certaine réduction d'amplitude",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "2 = Degré léger de lenteur et de pauvreté du mouvement qui est nettement anormal. De plus, il existe une certaine réduction d'amplitude": "2 = Degré léger de lenteur et de pauvreté du mouvement qui est nettement anormal. De plus, il existe une certaine réduction d'amplitude"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_31_3",
+          "type": "checkbox",
+          "shortLabel": "3 = Lenteur modérée, pauvreté et petite amplitude du mouvement",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "3 = Lenteur modérée, pauvreté et petite amplitude du mouvement": "3 = Lenteur modérée, pauvreté et petite amplitude du mouvement"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_31_4",
+          "type": "checkbox",
+          "shortLabel": "4 = Lenteur marquée, pauvreté et petite amplitude du mouvement",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "4 = Lenteur marquée, pauvreté et petite amplitude du mouvement": "4 = Lenteur marquée, pauvreté et petite amplitude du mouvement"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_32_0",
+          "type": "checkbox",
+          "shortLabel": "0 = Aucune",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "0 = Aucune": "0 = Aucune"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_32_1",
+          "type": "checkbox",
+          "shortLabel": "1 = 1 à 25 % de la journée",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "1 = 1 à 25 % de la journée": "1 = 1 à 25 % de la journée"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_32_2",
+          "type": "checkbox",
+          "shortLabel": "2 = 26 à 50 % de la journée",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "2 = 26 à 50 % de la journée": "2 = 26 à 50 % de la journée"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_32_3",
+          "type": "checkbox",
+          "shortLabel": "3 = 51 à 75 % de la journée",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "3 = 51 à 75 % de la journée": "3 = 51 à 75 % de la journée"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_32_4",
+          "type": "checkbox",
+          "shortLabel": "4 = 76 à 100 % de la journée",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "4 = 76 à 100 % de la journée": "4 = 76 à 100 % de la journée"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_33_0",
+          "type": "checkbox",
+          "shortLabel": "0 = Aucune",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "0 = Aucune": "0 = Aucune"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_33_1",
+          "type": "checkbox",
+          "shortLabel": "1 = Légère",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "1 = Légère": "1 = Légère"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_33_2",
+          "type": "checkbox",
+          "shortLabel": "2 = Modérée",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "2 = Modérée": "2 = Modérée"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_33_3",
+          "type": "checkbox",
+          "shortLabel": "3 = Sévère",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "3 = Sévère": "3 = Sévère"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_33_4",
+          "type": "checkbox",
+          "shortLabel": "4 = Complète",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "4 = Complète": "4 = Complète"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_34_0",
+          "type": "checkbox",
+          "shortLabel": "0 = Aucune",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "0 = Aucune": "0 = Aucune"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_34_1",
+          "type": "checkbox",
+          "shortLabel": "1 = Légères",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "1 = Légères": "1 = Légères"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_34_2",
+          "type": "checkbox",
+          "shortLabel": "2 = Modérées",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "2 = Modérées": "2 = Modérées"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_34_3",
+          "type": "checkbox",
+          "shortLabel": "3 = Sévères",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "3 = Sévères": "3 = Sévères"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_34_4",
+          "type": "checkbox",
+          "shortLabel": "4 = Marquées",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "4 = Marquées": "4 = Marquées"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_35_0",
+          "type": "checkbox",
+          "shortLabel": "0 = Non",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "0 = Non": "0 = Non"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_35_1",
+          "type": "checkbox",
+          "shortLabel": "1 = Oui",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "1 = Oui": "1 = Oui"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_36_0",
+          "type": "checkbox",
+          "shortLabel": "0 = Non",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "0 = Non": "0 = Non"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_36_1",
+          "type": "checkbox",
+          "shortLabel": "1 = Oui",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "1 = Oui": "1 = Oui"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_37_0",
+          "type": "checkbox",
+          "shortLabel": "0 = Non",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "0 = Non": "0 = Non"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_37_1",
+          "type": "checkbox",
+          "shortLabel": "1 = Oui",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "1 = Oui": "1 = Oui"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_38_0",
+          "type": "checkbox",
+          "shortLabel": "0 = Non",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "0 = Non": "0 = Non"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_38_1",
+          "type": "checkbox",
+          "shortLabel": "1 = Oui",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "1 = Oui": "1 = Oui"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_39_0",
+          "type": "checkbox",
+          "shortLabel": "0 = Aucune",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "0 = Aucune": "0 = Aucune"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_39_1",
+          "type": "checkbox",
+          "shortLabel": "1 = 1 à 25 % de la journée",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "1 = 1 à 25 % de la journée": "1 = 1 à 25 % de la journée"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_39_2",
+          "type": "checkbox",
+          "shortLabel": "2 = 26 à 50 % de la journée",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "2 = 26 à 50 % de la journée": "2 = 26 à 50 % de la journée"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_39_3",
+          "type": "checkbox",
+          "shortLabel": "3 = 51 à 75 % de la journée",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "3 = 51 à 75 % de la journée": "3 = 51 à 75 % de la journée"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_39_4",
+          "type": "checkbox",
+          "shortLabel": "4 = 76 à 100 % de la journée",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "4 = 76 à 100 % de la journée": "4 = 76 à 100 % de la journée"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_40_0",
+          "type": "checkbox",
+          "shortLabel": "0 = Non",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "0 = Non": "0 = Non"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_40_1",
+          "type": "checkbox",
+          "shortLabel": "1 = Oui",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "1 = Oui": "1 = Oui"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_41_0",
+          "type": "checkbox",
+          "shortLabel": "0 = Non",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "0 = Non": "0 = Non"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_41_1",
+          "type": "checkbox",
+          "shortLabel": "1 = Oui",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "1 = Oui": "1 = Oui"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_42_0",
+          "type": "checkbox",
+          "shortLabel": "0 = Non",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "0 = Non": "0 = Non"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Updrs_42_1",
+          "type": "checkbox",
+          "shortLabel": "1 = Oui",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "1 = Oui": "1 = Oui"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Score UPDRS",
+          "type": "number-field",
+          "shortLabel": "Score UPDRS",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

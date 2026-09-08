@@ -1,0 +1,22 @@
+{
+  "form": "Sous-formulaires/BERA",
+  "id": "2DE454B8-EB62-4DA9-B090-348FD8C9E64A",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "BERA",
+          "type": "text-field",
+          "shortLabel": "",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}

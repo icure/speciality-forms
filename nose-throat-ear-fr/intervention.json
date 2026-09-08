@@ -1,0 +1,41 @@
+{
+  "form": "General/Intervention",
+  "id": "77B4CA52-80FF-4EFA-871F-2BF621401C1A",
+  "sections": [
+    {
+      "section": "Main",
+      "fields": [
+        {
+          "clazz": "field",
+          "field": "Type d'intervention",
+          "type": "dropdown-field",
+          "shortLabel": "Type d'intervention",
+          "grows": true,
+          "span": 24,
+          "readonly": false,
+          "options": {
+            "LEGACY|HAVA|1": "HAVA",
+            "LEGACY|HAVA+drains|1": "HAVA+drains",
+            "LEGACY|VA|1": "VA",
+            "LEGACY|VA+drains|1": "VA+drains",
+            "LEGACY|Sinus|1": "Sinus"
+          },
+          "multiline": false,
+          "translate": true
+        },
+        {
+          "clazz": "field",
+          "field": "Protocole",
+          "type": "text-field",
+          "shortLabel": "Protocole",
+          "grows": true,
+          "span": 24,
+          "rowSpan": 14,
+          "readonly": false,
+          "multiline": false,
+          "translate": true
+        }
+      ]
+    }
+  ]
+}
