@@ -18,10 +18,26 @@ evaluates whenever one of the fields it reads changes (BMI, obstetric terms and 
 dates, MMSE/UPDRS/GDS scores, body surface area…). These were ported from the
 formulas of the same legacy forms by `@icure/form`'s
 `tools/convert-legacy/port-formulas.ts`, which also records what it could not port
-in `FORMULA-PORTS.md`; the legacy formulas that read patient demographics or
-services from other contacts have no equivalent here and were left out. Two BMI
-fields on Dutch forms are repairs rather than ports — their legacy formula named
-fields the form never had — and are listed as such in that report.
+in `FORMULA-PORTS.md`. Two BMI fields on Dutch forms are repairs rather than ports —
+their legacy formula named fields the form never had — and are listed as such in
+that report, alongside two obstetric fields whose legacy formula depended on a
+variable leaking out of another formula and so was declined rather than guessed at.
+
+### Fields that need the host to answer
+
+The obstetric forms in `gynecology-fr` carry computed fields that cannot be
+answered from the form alone: the biometric centiles, the gestational ages, the
+projected birth weight and the weight gained since before the pregnancy all need
+the patient's earlier services and the date of the consultation. Their bodies read
+two names the form does not define, `services(filter)` and `consultDate`, which a
+host supplies through `<icure-form>`'s `interpreterContext`.
+
+A host that does not supply them gets a blank field, not an error and not a hang:
+the sandbox resolves an unknown name to `[]`, calling it throws, and each of these
+bodies catches that and produces no value. As of this writing only `@icure/form`'s
+demo app implements the two names, over in-memory fixtures, so treat these fields
+as requiring host support rather than as working out of the box. The forms are
+otherwise unaffected — every other computed field reads only its own form.
 
 ## Layout
 

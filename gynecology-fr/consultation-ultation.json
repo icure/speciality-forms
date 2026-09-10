@@ -19,7 +19,10 @@
               "span": 24,
               "readonly": false,
               "multiline": false,
-              "translate": true
+              "translate": true,
+              "computedProperties": {
+                "value": "return consultDate"
+              }
             },
             {
               "clazz": "field",

@@ -19,7 +19,10 @@
               "span": 24,
               "readonly": false,
               "multiline": false,
-              "translate": true
+              "translate": true,
+              "computedProperties": {
+                "value": "return consultDate"
+              }
             },
             {
               "clazz": "field",
@@ -116,7 +119,10 @@
               "span": 12,
               "readonly": false,
               "multiline": false,
-              "translate": true
+              "translate": true,
+              "computedProperties": {
+                "value": "const asDate = (v) => { if (v instanceof Date) { return v } if (typeof v !== 'number') { return undefined } const s = '' + v; return s.length >= 8 ? new Date(+s.slice(0, 4), +s.slice(4, 6) - 1, +s.slice(6, 8)) : new Date(v) }\nconst addDays = (d, n) => new Date(d.getFullYear(), d.getMonth(), d.getDate() + n)\nconst ovulation = asDate(parseContent(self[\"Date ovulation\"]?.[0]?.content))\nconst corrected = asDate(parseContent(self[\"Terme corrigé\"]?.[0]?.content))\nconst lastPeriod = asDate(parseContent(self[\"Date des dernières règles\"]?.[0]?.content))\nconst term = ovulation ? addDays(ovulation, 266) : corrected ? corrected : lastPeriod ? addDays(lastPeriod, 279) : undefined\nconst dayNumber = (d) => Math.floor(Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()) / 86400000)\nif (!term) { return 'N/A' }\nconst today = consultDate ? dayNumber(consultDate) : dayNumber(new Date())\nconst days = 280 + today - dayNumber(term)\nreturn '' + Math.floor(days / 7) + ' sem.' + (days % 7) + ' j.'"
+              }
             },
             {
               "clazz": "field",
@@ -168,7 +174,7 @@
               "multiline": false,
               "translate": true,
               "computedProperties": {
-                "value": "const interpolate = (table, v) => {\n\tconst pts = table.split(';').map((p) => p.split(',').map(Number))\n\tif (v <= pts[0][0]) { return pts[0][1] }\n\tfor (let i = 1; i < pts.length; i++) {\n\t\tif (v <= pts[i][0]) { return pts[i - 1][1] + ((v - pts[i - 1][0]) * (pts[i][1] - pts[i - 1][1])) / (pts[i][0] - pts[i - 1][0]) }\n\t}\n\treturn pts[pts.length - 1][1]\n}\nconst toMm = (v) => (v < 1 ? v * 1000 : v)\nconst m = parseContent(self[\"Taille sac gestationnel\"]?.[0]?.content)\nif (typeof m !== 'number') { return undefined }\nconst days = Math.round(interpolate('7,4;8,5;11,6;12,7;13,8;14,9;15,10;16,11;17,12', toMm(m)) * 7)\nreturn '' + Math.floor(days / 7) + ' sem. ' + (days % 7) + ' j.'"
+                "value": "const interpolate = (table, v) => {\n\tconst pts = table.split(';').filter((p) => p).map((p) => p.split(',').map(Number))\n\tif (v <= pts[0][0]) { return pts[0][1] }\n\tfor (let i = 1; i < pts.length; i++) {\n\t\tif (v <= pts[i][0]) { return pts[i - 1][1] + ((v - pts[i - 1][0]) * (pts[i][1] - pts[i - 1][1])) / (pts[i][0] - pts[i - 1][0]) }\n\t}\n\treturn pts[pts.length - 1][1]\n}\nconst toMm = (v) => (v < 1 ? v * 1000 : v)\nconst m = parseContent(self[\"Taille sac gestationnel\"]?.[0]?.content)\nif (typeof m !== 'number') { return undefined }\nconst days = Math.round(interpolate('7,4;8,5;11,6;12,7;13,8;14,9;15,10;16,11;17,12', toMm(m)) * 7)\nreturn '' + Math.floor(days / 7) + ' sem. ' + (days % 7) + ' j.'"
               }
             },
             {

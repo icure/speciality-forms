@@ -94,7 +94,10 @@
               "span": 11,
               "readonly": false,
               "multiline": false,
-              "translate": true
+              "translate": true,
+              "computedProperties": {
+                "value": "const asDate = (v) => { if (v instanceof Date) { return v } if (typeof v !== 'number') { return undefined } const s = '' + v; return s.length >= 8 ? new Date(+s.slice(0, 4), +s.slice(4, 6) - 1, +s.slice(6, 8)) : new Date(v) }\nconst addDays = (d, n) => new Date(d.getFullYear(), d.getMonth(), d.getDate() + n)\nconst ovulation = asDate(parseContent(self[\"Date ovulation\"]?.[0]?.content))\nconst corrected = asDate(parseContent(self[\"Terme corrigé\"]?.[0]?.content))\nconst lastPeriod = asDate(parseContent(self[\"Date des dernières règles\"]?.[0]?.content))\nconst term = ovulation ? addDays(ovulation, 266) : corrected ? corrected : lastPeriod ? addDays(lastPeriod, 279) : undefined\nconst dayNumber = (d) => Math.floor(Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()) / 86400000)\nif (!term) { return 'N/A' }\nconst today = consultDate ? dayNumber(consultDate) : dayNumber(new Date())\nconst days = 280 + today - dayNumber(term)\nreturn '' + Math.floor(days / 7) + ' sem.' + (days % 7) + ' j.'"
+              }
             },
             {
               "clazz": "field",

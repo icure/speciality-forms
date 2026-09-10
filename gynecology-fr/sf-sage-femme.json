@@ -19,7 +19,10 @@
               "span": 2,
               "readonly": false,
               "multiline": false,
-              "translate": true
+              "translate": true,
+              "computedProperties": {
+                "value": "return new Promise(async (resolve) => {\n\ttry {\n\t\tconst asDate = (v) => { if (v instanceof Date) { return v } if (typeof v !== 'number') { return undefined } const s = '' + v; return s.length >= 8 ? new Date(+s.slice(0, 4), +s.slice(4, 6) - 1, +s.slice(6, 8)) : new Date(v) }\n\t\tconst addDays = (d, n) => new Date(d.getFullYear(), d.getMonth(), d.getDate() + n)\n\t\tconst dayNumber = (d) => Math.floor(Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()) / 86400000)\n\t\tconst dueDateServices = await services({ codeType: 'CD-GYNECOLOGY', code: 'duedate', limit: 3 })\n\t\tif (!dueDateServices.length) { resolve('N/A'); return }\n\t\tconst dated = (label) => { const found = dueDateServices.find((svc) => svc.label === label); return found ? asDate(parseContent(found.content)) : undefined }\n\t\tconst ovulation = dated('Date ovulation')\n\t\tconst corrected = dated('Terme corrigé')\n\t\tconst lastPeriod = dated('Date des dernières règles')\n\t\tconst term = ovulation ? addDays(ovulation, 266) : corrected ? corrected : lastPeriod ? addDays(lastPeriod, 279) : undefined\n\t\tif (!term) { resolve(undefined); return }\n\t\tconst today = consultDate ? dayNumber(consultDate) : dayNumber(new Date())\n\t\tconst gaInDays = 280 + today - dayNumber(term)\n\t\tresolve('' + Math.floor(gaInDays / 7) + ' sem. ' + (gaInDays % 7) + ' j.')\n\t} catch (e) {\n\t\tresolve(undefined)\n\t}\n})"
+              }
             },
             {
               "clazz": "field",
@@ -41,7 +44,10 @@
               "span": 2,
               "readonly": false,
               "multiline": false,
-              "translate": true
+              "translate": true,
+              "computedProperties": {
+                "value": "return new Promise(async (resolve) => {\n\ttry {\n\t\tconst weightNow = parseContent(self[\"Poids\"]?.[0]?.content)\n\t\tconst before = await services({ codeType: 'CD-GYNECOLOGY', code: 'weightbeforepregnancy', limit: 1 })\n\t\tif (!before.length) { resolve(undefined); return }\n\t\tconst pag = parseContent(before[0].content)\n\t\tif (typeof pag !== 'number' || !pag || typeof weightNow !== 'number' || !weightNow) { resolve(undefined); return }\n\t\tresolve(weightNow - pag)\n\t} catch (e) {\n\t\tresolve(undefined)\n\t}\n})"
+              }
             },
             {
               "clazz": "field",
