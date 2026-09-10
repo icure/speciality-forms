@@ -331,7 +331,10 @@
               "span": 4,
               "readonly": false,
               "multiline": false,
-              "translate": true
+              "translate": true,
+              "computedProperties": {
+                "value": "const toMm = (v) => (v < 1 ? v * 1000 : v)\nconst mm = (v) => (typeof v === 'number' && v !== 0 ? toMm(v) : undefined)\nconst ac = mm(parseContent(self[\"Circonférence abdominale\"]?.[0]?.content))\nconst hc = mm(parseContent(self[\"Périmètre crânien\"]?.[0]?.content))\nconst bipd = mm(parseContent(self[\"Diamètre bipariétal\"]?.[0]?.content))\nconst fl = mm(parseContent(self[\"Longueur fémorale\"]?.[0]?.content))\nconst pow10 = (e) => Math.pow(10, e)\nconst hadlock1985 = ac && hc && fl && bipd\n\t? pow10(1.3596 + 0.00064 * hc + 0.00424 * ac + 0.0174 * fl + 0.0000061 * bipd * ac - 0.0000386 * ac * fl)\n\t: ac && hc && fl\n\t? pow10(1.326 - 0.0000326 * ac * fl + 0.00107 * hc + 0.00438 * ac + 0.0158 * fl)\n\t: ac && bipd && fl\n\t? pow10(1.335 - 0.000034 * ac * fl + 0.00316 * bipd + 0.00457 * ac + 0.01623 * fl)\n\t: ac && fl\n\t? pow10(1.304 + 0.005281 * ac + 0.01938 * fl - 0.00004 * ac * fl)\n\t: undefined\nconst jordaan1983 = ac && hc && bipd\n\t? pow10(2.3231 + 0.002904 * ac + 0.00079 * hc - 0.00058 * bipd)\n\t: ac && bipd\n\t? pow10(-1.1683 + 0.00377 * ac + 0.0095 * bipd - 0.000015 * bipd * ac) * 1000\n\t: undefined\nconst hadlock = ac && hc ? pow10(1.182 + (0.0273 * hc) / 10 + (0.07057 * ac) / 10 - (0.00063 * ac * ac) / 100 - (0.0002184 * ac * ac) / 100) : undefined\nconst hadlock1984 = ac && bipd ? pow10(1.1134 + 0.005845 * ac - 0.00000604 * ac * ac - 0.00007365 * bipd * bipd + 0.00000595 * bipd * ac + 0.01694 * bipd) : undefined\nconst warsof1986 = fl ? Math.pow(2.718281, 4.6914 + 0.00151 * fl * fl - 0.0000119 * fl * fl * fl) : undefined\nconst jordaan = ac ? pow10(0.6328 + 0.01881 * ac - 0.000043 * ac * ac + 0.000000036239 * ac * ac * ac) : undefined\nconst weight = hadlock1985 || jordaan1983 || hadlock || hadlock1984 || warsof1986 || jordaan\nif (!weight) { return undefined }\nreturn { value: weight, unit: 'g' }"
+              }
             },
             {
               "clazz": "field",
@@ -353,7 +356,10 @@
               "span": 14,
               "readonly": false,
               "multiline": false,
-              "translate": true
+              "translate": true,
+              "computedProperties": {
+                "value": "const a = parseContent(self[\"DIO\"]?.[0]?.content)\nconst b = parseContent(self[\"Diamètre bipariétal\"]?.[0]?.content)\nif (typeof a !== 'number' || typeof b !== 'number' || b === 0) { return undefined }\nreturn a / b"
+              }
             },
             {
               "clazz": "field",
@@ -1268,7 +1274,10 @@
               "span": 12,
               "readonly": false,
               "multiline": false,
-              "translate": true
+              "translate": true,
+              "computedProperties": {
+                "value": "const a = parseContent(self[\"Indice résistance artère cérébrale moyenne\"]?.[0]?.content)\nconst b = parseContent(self[\"Indice de résistance ombilical\"]?.[0]?.content)\nif (typeof a !== 'number' || typeof b !== 'number' || b === 0) { return undefined }\nreturn a / b"
+              }
             },
             {
               "clazz": "field",

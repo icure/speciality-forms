@@ -13,6 +13,16 @@ couldn't get right on its own (e.g. compact grids, column alignment). There is n
 distinction in this repository between the two — every file here is meant to be used
 as-is.
 
+Some fields carry a `computedProperties.value` — a JavaScript body the form runtime
+evaluates whenever one of the fields it reads changes (BMI, obstetric terms and due
+dates, MMSE/UPDRS/GDS scores, body surface area…). These were ported from the
+formulas of the same legacy forms by `@icure/form`'s
+`tools/convert-legacy/port-formulas.ts`, which also records what it could not port
+in `FORMULA-PORTS.md`; the legacy formulas that read patient demographics or
+services from other contacts have no equivalent here and were left out. Two BMI
+fields on Dutch forms are repairs rather than ports — their legacy formula named
+fields the form never had — and are listed as such in that report.
+
 ## Layout
 
 `<specialty>/<file>.json` — one form per file. `index.json` is a generated summary

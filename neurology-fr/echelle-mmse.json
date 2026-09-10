@@ -125,7 +125,10 @@
           "span": 17,
           "readonly": false,
           "multiline": false,
-          "translate": true
+          "translate": true,
+          "computedProperties": {
+            "value": "return (parseContent(self[\"Language, désignation\"]?.[0]?.content) ?? 0) + (parseContent(self[\"Language, répétition\"]?.[0]?.content) ?? 0) + (parseContent(self[\"Compréhension orale\"]?.[0]?.content) ?? 0) + (parseContent(self[\"Compréhension écrite\"]?.[0]?.content) ?? 0) + (parseContent(self[\"Language écrit\"]?.[0]?.content) ?? 0)"
+          }
         },
         {
           "clazz": "field",
@@ -147,7 +150,10 @@
           "span": 24,
           "readonly": false,
           "multiline": false,
-          "translate": true
+          "translate": true,
+          "computedProperties": {
+            "value": "return (parseContent(self[\"Orientation dans le temps\"]?.[0]?.content) ?? 0) + (parseContent(self[\"Orientation dans l'espace\"]?.[0]?.content) ?? 0) + (parseContent(self[\"Apprentissage\"]?.[0]?.content) ?? 0) + (parseContent(self[\"Attention et calcul\"]?.[0]?.content) ?? 0) + (parseContent(self[\"Rappel\"]?.[0]?.content) ?? 0) + (parseContent(self[\"Language, désignation\"]?.[0]?.content) ?? 0) + (parseContent(self[\"Language, répétition\"]?.[0]?.content) ?? 0) + (parseContent(self[\"Compréhension orale\"]?.[0]?.content) ?? 0) + (parseContent(self[\"Compréhension écrite\"]?.[0]?.content) ?? 0) + (parseContent(self[\"Language écrit\"]?.[0]?.content) ?? 0) + (parseContent(self[\"Praxie constructive\"]?.[0]?.content) ?? 0)"
+          }
         }
       ]
     }

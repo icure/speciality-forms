@@ -30,7 +30,10 @@
               "span": 6,
               "readonly": false,
               "multiline": false,
-              "translate": true
+              "translate": true,
+              "computedProperties": {
+                "value": "const asDate = (v) => { if (v instanceof Date) { return v } if (typeof v !== 'number') { return undefined } const s = '' + v; return s.length >= 8 ? new Date(+s.slice(0, 4), +s.slice(4, 6) - 1, +s.slice(6, 8)) : new Date(v) }\nconst addDays = (d, n) => new Date(d.getFullYear(), d.getMonth(), d.getDate() + n)\nconst lastPeriod = asDate(parseContent(self[\"Date des dernières règles\"]?.[0]?.content))\nif (!lastPeriod) { return undefined }\nreturn addDays(lastPeriod, 279)"
+              }
             },
             {
               "clazz": "field",
@@ -52,7 +55,10 @@
               "span": 9,
               "readonly": false,
               "multiline": false,
-              "translate": true
+              "translate": true,
+              "computedProperties": {
+                "value": "const asDate = (v) => { if (v instanceof Date) { return v } if (typeof v !== 'number') { return undefined } const s = '' + v; return s.length >= 8 ? new Date(+s.slice(0, 4), +s.slice(4, 6) - 1, +s.slice(6, 8)) : new Date(v) }\nconst addDays = (d, n) => new Date(d.getFullYear(), d.getMonth(), d.getDate() + n)\nconst ovulation = asDate(parseContent(self[\"Date ovulation\"]?.[0]?.content))\nconst corrected = asDate(parseContent(self[\"Terme corrigé\"]?.[0]?.content))\nconst lastPeriod = asDate(parseContent(self[\"Date des dernières règles\"]?.[0]?.content))\nconst term = ovulation ? addDays(ovulation, 266) : corrected ? corrected : lastPeriod ? addDays(lastPeriod, 279) : undefined\nreturn term"
+              }
             },
             {
               "clazz": "field",
@@ -74,7 +80,10 @@
               "span": 10,
               "readonly": false,
               "multiline": false,
-              "translate": true
+              "translate": true,
+              "computedProperties": {
+                "value": "const asDate = (v) => { if (v instanceof Date) { return v } if (typeof v !== 'number') { return undefined } const s = '' + v; return s.length >= 8 ? new Date(+s.slice(0, 4), +s.slice(4, 6) - 1, +s.slice(6, 8)) : new Date(v) }\nconst addDays = (d, n) => new Date(d.getFullYear(), d.getMonth(), d.getDate() + n)\nconst ovulation = asDate(parseContent(self[\"Date ovulation\"]?.[0]?.content))\nif (!ovulation) { return undefined }\nreturn addDays(ovulation, 266)"
+              }
             },
             {
               "clazz": "field",

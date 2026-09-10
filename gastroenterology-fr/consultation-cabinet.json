@@ -85,7 +85,10 @@
               "span": 4,
               "readonly": false,
               "multiline": false,
-              "translate": true
+              "translate": true,
+              "computedProperties": {
+                "value": "const w = parseContent(self[\"Poids\"]?.[0]?.content)\nlet h = parseContent(self[\"Taille\"]?.[0]?.content)\nif (typeof w !== 'number' || typeof h !== 'number' || h === 0) { return undefined }\nif (h > 3) { h = h / 100 }\nreturn w / (h * h)"
+              }
             },
             {
               "clazz": "field",

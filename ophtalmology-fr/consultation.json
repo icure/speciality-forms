@@ -634,7 +634,10 @@
               "span": 2,
               "readonly": false,
               "multiline": false,
-              "translate": true
+              "translate": true,
+              "computedProperties": {
+                "value": "return Math.max(parseContent(self[\"lunettes loin vision OD\"]?.[0]?.content) ?? 0, parseContent(self[\"réfraction objective vision OD\"]?.[0]?.content) ?? 0, parseContent(self[\"réfraction subjective de loin vision OD\"]?.[0]?.content) ?? 0)"
+              }
             },
             {
               "clazz": "field",
@@ -645,7 +648,10 @@
               "span": 22,
               "readonly": false,
               "multiline": false,
-              "translate": true
+              "translate": true,
+              "computedProperties": {
+                "value": "return Math.max(parseContent(self[\"lunettes loin vision OG\"]?.[0]?.content) ?? 0, parseContent(self[\"réfraction objective vision OG\"]?.[0]?.content) ?? 0, parseContent(self[\"réfraction subjective de loin vision OG\"]?.[0]?.content) ?? 0)"
+              }
             },
             {
               "clazz": "field",

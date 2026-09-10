@@ -96,7 +96,10 @@
               "span": 3,
               "readonly": false,
               "multiline": false,
-              "translate": true
+              "translate": true,
+              "computedProperties": {
+                "value": "const w = parseContent(self[\"Gewicht\"]?.[0]?.content)\nlet h = parseContent(self[\"Lengte\"]?.[0]?.content)\nif (typeof w !== 'number' || typeof h !== 'number' || h === 0) { return undefined }\nif (h > 3) { h = h / 100 }\nreturn w / (h * h)"
+              }
             },
             {
               "clazz": "field",
@@ -107,7 +110,10 @@
               "span": 3,
               "readonly": false,
               "multiline": false,
-              "translate": true
+              "translate": true,
+              "computedProperties": {
+                "value": "const w = parseContent(self[\"Gewicht\"]?.[0]?.content)\nlet h = parseContent(self[\"Lengte\"]?.[0]?.content)\nif (typeof w !== 'number' || typeof h !== 'number') { return undefined }\nif (h < 3) { h = h * 100 }\nreturn { value: Math.sqrt((h * w) / 3600), unit: 'm²' }"
+              }
             },
             {
               "clazz": "field",

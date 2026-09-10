@@ -225,7 +225,10 @@
           "span": 24,
           "readonly": false,
           "multiline": false,
-          "translate": true
+          "translate": true,
+          "computedProperties": {
+            "value": "const checked = (v) => { const c = parseContent(v?.content); return Array.isArray(c) ? c.some(Boolean) : !!c }\nreturn (\n\t(checked(self[\"Etes-vous satisfait de votre vie\"]?.[0]) ? 0 : 1) +\n\t(checked(self[\"Avez-vous renoncé à un grand nombre d'activités\"]?.[0]) ? 1 : 0) +\n\t(checked(self[\"Avez-vous le sentiment que votre vie est vide\"]?.[0]) ? 1 : 0) +\n\t(checked(self[\"Vous ennuyez-vous souvent\"]?.[0]) ? 1 : 0) +\n\t(checked(self[\"Etes-vous de bonne humeur la plupart du temps\"]?.[0]) ? 0 : 1) +\n\t(checked(self[\"Avez-vous peur que quelque chose de mauvais vous arrive\"]?.[0]) ? 1 : 0) +\n\t(checked(self[\"Etes-vous heureux la plupart du temps\"]?.[0]) ? 0 : 1) +\n\t(checked(self[\"Avez vous le sentiment d'être désormais faible\"]?.[0]) ? 1 : 0) +\n\t(checked(self[\"Préférez-vous restez seul dans votre chambre plutôt que de sortir\"]?.[0]) ? 1 : 0) +\n\t(checked(self[\"Pensez-vous que votre mémoire est plus mauvaise que celle de la plupart des gens\"]?.[0]) ? 1 : 0) +\n\t(checked(self[\"Pensez-vous qu'il est merveilleux de vivre à notre époque\"]?.[0]) ? 0 : 1) +\n\t(checked(self[\"Vous sentez-vous une personne sans valeur actuellement\"]?.[0]) ? 1 : 0) +\n\t(checked(self[\"Avez-vous beaucoup d'énergie\"]?.[0]) ? 0 : 1) +\n\t(checked(self[\"Pensez-vous que votre situation actuelle est désespérée\"]?.[0]) ? 1 : 0) +\n\t(checked(self[\"Pensez-vous que la situation des autres est meilleure que la vôtre\"]?.[0]) ? 1 : 0)\n)"
+          }
         }
       ]
     }
