@@ -27,10 +27,16 @@ variable leaking out of another formula and so was declined rather than guessed 
 
 The obstetric forms in `gynecology-fr` carry computed fields that cannot be
 answered from the form alone: the biometric centiles, the gestational ages, the
-projected birth weight and the weight gained since before the pregnancy all need
-the patient's earlier services and the date of the consultation. Their bodies read
-two names the form does not define, `services(filter)` and `consultDate`, which a
-host supplies through `<icure-form>`'s `interpreterContext`.
+projected birth weight, the weight gained since before the pregnancy and the
+antenatal screening checkboxes on `grossesse.json` all need the patient's earlier
+services and the date of the consultation. Their bodies read two names the form
+does not define, `services(filter)` and `consultDate`, which a host supplies
+through `<icure-form>`'s `interpreterContext`.
+
+The screening boxes are worth one extra note, because they are the only computed
+fields here that write a checkbox. A checkbox is drawn from the option ids it
+finds in its compound content, so these formulas return that compound rather than
+a boolean; a boolean stores cleanly and renders as an empty box either way.
 
 A host that does not supply them gets a blank field, not an error and not a hang:
 the sandbox resolves an unknown name to `[]`, calling it throws, and each of these
